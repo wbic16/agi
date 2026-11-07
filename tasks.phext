@@ -11,19 +11,21 @@ holds the request, its status, and all notes and results as
 they accumulate. Source of truth: tasks-source.json beside this
 builder (build_tasks_phext.py); never hand-edit the .phext.
 
-Tasks recorded: 64
+Tasks recorded: 86
 
 Index (coordinate — title — status):
 - 14.6.7/8.8.11/11.15.20 — lessons.phext build — completed
 - 17.11.13/4.3.3/3.2.6 — Proceed: Slice 4 (preprocessor state machine) + importer v4 (gap-type fix) — COMPLETE: Slice 4 (machine PASS static+dynamic, 4 regressions, exit test caught seeded #elif flaw naming the transition; phext de1ac0c6…) + importer v4. Remaining in flight: proof hardening only.
 - 18.6.12/8.7.12/6.6.10 — V13 plan rewrite — legible journey — completed — plan delivered; section 6 decisions with Will
+- 19.5.7/8.7.9/7.6.8 — Summarize the language-barrier problem (for grant contact) — closed — summary delivered 2026-11-07
 - 19.6.11/10.8.16/6.6.7 — Grady Booch Twitter archive analysis — completed — full report at ~/workspace/grady-booch-analysis/REPORT.md with timeline.csv (121 tweets + 50 likes)
+- 21.6.7/7.6.11/8.7.7 — V15 — V14 final with the song switched to a cyberpunk track from exo-dreams (for Jael Ruble) — braid song in flight + V15 prepass dispatched (cast change)
 - 21.6.8/7.8.17/18.5.9 — Adversarial gap review of the C-proposal set + drafted corrections — COMPLETE: review (117 findings) + ALL corrections applied (104 exact, 13 adjusted), incl. regenerated part-2 for the 15 findings lost to truncation. Log: c-proposals/review/APPLICATION-LOG.md.
 - 21.7.11/9.7.11/7.7.10 — Vocabulary adjustment — drop legal jargon, speak in Singular — adopted — standing voice rule
 - 23.6.9/8.7.11/6.6.8 — Carnegie lessons Will is failing, from his Twitter record — completed — 10 evidence-backed Carnegie lessons delivered in side chat
 - 23.6.10/9.7.12/5.7.9 — Create Spaces for pinned side chats — closed — all 15 Spaces built, audited, and verified in the sidebar 2026-11-07
 - 23.7.10/8.8.11/7.6.9 — V14 prepass r2 at 400p — less noise, horizon edge, Gargantua orbit flow, lensing — completed — r2 prepass delivered and coordinator-verified
-- 24.5.7/7.6.10/5.5.7 — Modernize phcc: UML enhancements + provably correct C — Slices 0-4 complete; lineage published (wbic16/phcc 395f5d63). Open: proof hardening (running); consolidation of v4 members + Slice 3/4 phases into one phext (queued follow-on); machines #2-#4 (vstack, linker, register alloc) per design Later list.
+- 24.5.7/7.6.10/5.5.7 — Modernize phcc: UML enhancements + provably correct C — MERGED + PUBLISHED (wbic16/phcc main=exo=7573c4b8): canonical phcc.phext 646144c7… (52,815 scrolls) = consolidated base + Slice 5 machine #2 (34 scrolls) + hardened receipts transplant (4 Proofs scrolls, WP 271/297, no STALE), gate v5 verdict regenerated + byte-reproducible; fresh clone: unpack 558/558 verified, ALL TESTS PASSED. All slices, consolidation, pack/unpack, parity library, D-2 resolution published. Open threads: proof-hardening continuation (branch-E stones / h7); design machines #3 linker, #4 register allocation.
 - 24.5.10/7.7.12/8.9.17 — RentAHuman daily bounty watch — completed — watch running
 - 24.6.14/8.9.16/11.6.8 — Twitter archive lesson-mining — completed — candidates delivered, ratification is Will's
 - 24.6.14/9.8.18/6.5.9 — How to push back on Will without tripping his bullshit detector — completed — method delivered and saved to MEMORY.md as a standing practice
@@ -33,21 +35,24 @@ Index (coordinate — title — status):
 - 26.6.9/7.6.10/7.6.10 — Resume v7.0 — completed
 - 26.6.9/8.7.13/7.6.9 — Seventh C proposal: radical expansion of what a data type can be (types as places) — COMPLETE + corrected via the set-wide review (117 findings, all applied).
 - 26.6.9/9.7.11/7.7.10 — Distill the MiniLean4 study into research.phext as a source study — complete — Study S001 distilled into research.phext 2026-11-06
+- 27.4.7/5.5.11/6.4.8 — Slice 6: linker resolution state machine (tccelf.c) — Complete 2026-11-07.
 - 27.5.8/7.6.10/6.6.8 — TOAPDD — The Art of Phext Driven Development: Top 20 Knuth passages — completed — Top 20 list delivered; full-corpus A/B/C/D iteration is the open follow-on
 - 27.6.8/7.5.9/6.5.8 — Mutable SSO against edit.phext.io — in progress — owned by the mutable_os side chat
 - 27.6.15/9.8.14/6.6.9 — Audit of tonight's parallel deep knowledge work threads — completed — audit delivered in side chat
 - 27.7.8/9.7.12/8.6.9 — Doomer.phext — term and register for safety-motivated Exocortex opponents, first entry Casar — complete — term ratified, Doomer.phext built and proof verified
 - 27.7.11/9.7.14/7.6.9 — Task reference coordinates — standing order — completed
+- 27.9.10/12.7.12/6.7.9 — Roads to the Future redesign: brick layouts, About link, compliance, multiplayer free — Complete: redesigns built, exported, and published to the repo in the rewrite commit.
 - 28.5.9/7.7.14/7.4.7 — Observed Dunbar number estimate from Twitter sustained interactions — completed — estimate delivered in side chat
 - 28.6.11/8.7.12/6.6.9 — Phext Notepad performance tweaks for working with agi.phext — open — target editor to confirm (lattice vs notepad++ fork)
 - 28.6.13/9.8.18/5.5.8 — Focus on 6D UML — uml6d Proofs phase PUBLISHED 2026-11-07: wbic16/phext-lattice@exo a09dd13a (bump c8e9a7d + Proofs a09dd13), 156/156 tests on ranch, remote verified.
 - 28.8.8/11.7.14/6.6.8 — barnacles.phext - register of 792 flagged accounts, term from Will's tweets — complete - barnacles.phext built and verified
 - 29.5.7/7.6.9/6.6.8 — AI Whisperers lanes fabric — superseded — Will directed building all of Crazy Wisdom instead (2026-11-06 17:48)
 - 29.5.8/7.5.10/6.5.9 — mutable_os claim hunt — completed
-- 29.6.8/8.6.11/6.6.8 — Integrate Phext Previewer into edit.phext.io as public no-login utility + mobile pass — in progress - builder dispatched
+- 29.6.8/8.6.11/6.6.8 — Integrate Phext Previewer into edit.phext.io as public no-login utility + mobile pass — complete - PR #25 opened; waiting on Will merge + deploy (register #43)
 - 29.6.11/8.7.11/7.6.10 — Phext homes + agi.git collection and nightly unified merge — completed — process run; nightly job armed
 - 29.7.8/10.7.12/6.7.9 — Phext inventory — repos and GitHub push status — completed
 - 29.8.11/10.8.15/7.7.9 — 9D zooming UI — Twitter archive explorer — completed — v1 delivered
+- 29.9.10/10.8.15/9.7.10 — Grand merge: Slice 6 + Slice 7 + builds-aligned into one canonical phcc.phext — Complete + PUBLISHED 2026-11-07: grand-merge phext is the repo canonical (commit 94898ff9 on F4 e34c21f2; exo==main==94898ff9). Fresh-clone verified: hashes match, unseal byte-identical, unpack 558/558, make test ALL PASSED.
 - 29.9.13/9.8.12/8.7.9 — Phext previewer for Android — complete - Phext Previewer web artifact built and verified (slug phext-previewer)
 - 30.6.9/7.6.10/6.5.10 — Pre-merge validation of libphext-rs v0.4.1: downstream compiles + CYOA coordinate tests — complete 2026-11-07 — v0.4.1 downstream-identical to 0.4.0 everywhere; PR #7 cleared to merge
 - 30.6.10/9.7.13/6.6.9 — Estimate: what share of Twitter could parse Will's 19K-word tweets (vocabulary cross-reference) — completed
@@ -59,25 +64,42 @@ Index (coordinate — title — status):
 - 31.8.10/10.8.16/9.7.10 — simple.phext — all of Will's tweets in Up Goer Five, holographically placed — completed
 - 32.6.10/8.7.12/7.7.11 — ultra.phext — five-tier vocabulary phext, all words placed relative to Singular — completed
 - 32.7.9/7.8.12/8.6.9 — V14 prepass r3 — 720p 15 fps; global events replaced by exocortical lessons (Singular evidence) — completed — delivered 2026-11-07 00:40 CST
+- 32.7.14/9.8.15/11.10.17 — Complete ultra.phext — P3 WordNet placement pass — closed — P3 completed and republished 2026-11-07
+- 32.8.11/11.8.17/7.7.8 — Roads to the Future: build the three teaching games, publish to apertureshift.com — Complete (build + bundle). Live deployment to apertureshift.com/roads/ pending Will's host direction.
+- 33.4.5/5.6.6/5.6.10 — Rewrite wbic16/site-apertureshift-com — the domain serves only the Roads mission now — Repo rewrite complete and verified. Live domain flip pending: apertureshift.com is served from elsewhere; host/flip is Will's step.
 - 33.4.12/7.7.17/4.3.7 — Investor 1 — focus: 20 x $1 investments — active — Wave 1 opening decision with Will
 - 33.6.7/9.7.10/7.6.9 — Upstream-sync pipeline for mutable-os; SSO on its own branch — pipeline built and running nightly (cron mutable-upstream-sync ~03:44 CT); first sync: twin-lineage, zero content drift, trial rebase tree-identical to main; skill mutable_upstream_sync indexed at 1.4.1/1.5.1/1.1.1-2 and published to emise-tools@exo 093d1183 — promotion awaits Will's ratification of the force-with-lease policy for the two emise/* bands
 - 33.8.11/11.9.15/9.8.10 — Pick an open-source project for phext complexity-observability remediation — inventory complete — ~/workspace/phcc-pick/INVENTORY.md; pick confirmed TinyCC/phcc; first move is rebase (fork is a 2022 snapshot, 4 commits, dormant since 2024-04-19)
 - 34.5.9/8.6.12/6.5.9 — Lattice-fork process ruling — completed — recorded as standing process
 - 34.6.10/9.6.11/5.5.9 — PR for the Knuth Tests (libphext-rs) — completed — PR #6 open for Will's review; merge is Will's act
+- 34.7.8/8.8.12/8.7.10 — Consolidate all core phext tooling in the phext chat — consolidated — verified inventory delivered in the phext chat 2026-11-07; freeze holds (nothing exceeds 0.4.2)
 - 34.7.10/9.8.14/7.7.11 — TOAPDD dispatch — 20 Knuth attempts to ranch choir, libphext-rs unit tests — completed — 20/20 attempts, 96 tests passed 0 failed; summary delivered for Will's review
 - 34.8.9/9.9.12/7.7.10 — V14 360p prepass — gauge the heart first — completed — prepass delivered and coordinator-verified; P3* framing decision with Will
 - 35.5.8/7.6.10/6.5.9 — Incipit lessons PR #12 — open — merge is Will's act
 - 35.6.10/7.7.13/7.5.10 — Nightly dream pass: dedup, prune, bounded emise.phext — completed — rule live in skill, cron, and MEMORY.md; first enforcing dream pass runs 2026-11-07 ~03:44 CST
+- 36.5.8/6.6.9/5.5.9 — C phext library: hashmap scroll store for compilation speed (F4) — Complete: F4 committed locally as e34c21f2 (not pushed). Hash-index store proven behaviour-identical (suite + fuzz + byte-identical driver outputs); lookups 2.5x on the real phcc.phext.
+- 36.7.10/8.8.14/9.6.12 — Top 5 phext + LLM use cases today — closed — list delivered 2026-11-07
+- 37.6.8/6.5.9/6.5.10 — Bidirectional migration methods: phext <-> directory tree, canonical and round-trip verified — COMPLETE: phcc pack/unpack shipped @ 050b72ce; both round-trips byte-exact on the 558-file corpus; segmentation is a fixed point of pack; failure behaviour proven.
+- 38.5.5/7.5.7/5.4.9 — Rebase the TAOPDD changes (libphext-rs PR #6) — complete — PR #6 rebased onto exo 65913a3a and force-with-lease pushed; merge remains Will's act
 - 38.5.7/7.6.10/5.5.9 — Study learn.h5i.dev (MiniLean4) in depth — complete — full study delivered 2026-11-06
-- 39.7.9/6.5.8/4.4.9 — Push and proceed, round 2: consolidate phext lineages, publish to wbic16/phcc — Dispatched: Phase 1 consolidate (Slice 4 phases + v4 Vol 3 members, Design views regenerated, gate v4 re-run); Phase 2 additive push of phcc.phext + tools/ onto 395f5d63 (no force), fresh-clone verification.
+- 38.6.7/7.6.12/8.5.10 — phcc build artifacts in the phext: assembly persistent, binaries base64, xz seal, Library 10000 region — COMPLETE: assembly as object disassembly (no tcc -S exists — verified) at Design addresses w/ provenance + gate v6 STALE bindings; binaries base64 in Library-10000 region (168,113 B raw, +45,316 B sealed); phext.c/h placed (addendum Sec 14); whole-pass sealed cost +115,996 B; final phext 9c93ed4b…, seal 5,701,728 B; all exit checks pass (wipe isolation, seal round-trip, STALE x2, regen hashes, unpack+suite green). Not pushed. ALIGNMENT FOLLOW-ON COMPLETE (2026-11-07): region binary scrolls converted to the canonical libphext format (PR #9); provenance in the root manifest; gate v6.0.1; fetch_binary round-trip byte-identical on all 5; aligned phext 0a815078…, seal 5,700,852 B (−876 vs unaligned). Not pushed.
+- 38.6.7/9.5.11/5.5.10 — Play-test the Roads games at 6, 8, and 10 year old reference points; iterate and improve — In progress: three age-reference tester passes dispatched 2026-11-07.
+- 39.7.9/6.5.8/4.4.9 — Push and proceed, round 2: consolidate phext lineages, publish to wbic16/phcc — COMPLETE
 - 39.10.14/12.11.16/10.10.13 — Commands to prove libphext-rs with the Aeneas toolchain — complete — command sequence delivered 2026-11-06, grounded in Aeneas's own getting-started doc + README and a scan of the local libphext-rs 0.4.0 source
-- 40.4.9/5.5.10/6.4.11 — phcc rulings batch: corrections applied, lshrdi3 patch, proof hardening, lattice publish, D6 reversal, D8 ruled, Slice 3 held — Rulings batch: #1 corrections 117/117 DONE; #2 lshrdi3+ashrdi3 patch+tests DONE (upstream draft held); #4 publish DONE; #7 re-granulation DONE; memo DONE. Still running: #3 proof hardening (udivmoddi4). D2/D4/D9 rulings pending on the detail memo.
+- 40.4.9/5.5.10/6.4.11 — phcc rulings batch: corrections applied, lshrdi3 patch, proof hardening, lattice publish, D6 reversal, D8 ruled, Slice 3 held — Rulings batch: #1 corrections 117/117 DONE; #2 patch DONE (upstream report drafted; PARKED by Will 2026-11-07 ("don't worry about that esoteric bug for now") — not pending work, do not re-surface); #3 proof hardening DONE — 271/297, T3 not granted, h7 continuation is the open item under the design task; #4 publish DONE; #7 re-granulation DONE; memo DONE.
 - 40.8.15/9.8.16/9.7.14 — V14 FINAL master — dispatched at Will's word after r3 approval — completed — V14 FINAL delivered 2026-11-07 05:31 CST
 - 41.5.5/6.5.8/5.6.9 — Incorporate AeneasVerif/aeneas and h5i-dev/h5i into research.phext — complete — S002 (Aeneas) + S003 (h5i) distilled into research.phext 2026-11-06
 - 41.8.7/10.9.12/8.8.12 — Script the proof-tool install in libphext-rs + wire into exocortical setup.sh — complete 2026-11-07 — script committed on provable-0.4.1, Phase 11 live in exocortical
+- 41.10.7/11.11.14/11.10.15 — phcc phext capability parity with libphext-rs (C developer library) — COMPLETE + PUSHED @ 8b56ea22 (77/77 parity; 163,831 checks 0 failures under gcc and phcc; fuzz 40,000 cases 0 divergences). D-2 marked RESOLVED in phext/PARITY.md by commit 7ead6f12 (main=exo) after libphext-rs PR #8 merged (in-tree 0.4.2, unpublished).
+- 42.4.6/5.5.11/7.5.11 — Slice 5: value-stack state machine (design machine #2, tccgen.c) — COMPLETE + PUBLISHED: Slice 5 output (6029562c…) merged with the hardened receipts into the canonical phext 646144c7… and pushed as wbic16/phcc 7573c4b8 (main=exo). Gate v5 on the merged file: machine #2 PASS, binding CURRENT; whole file byte-reproducible.
 - 47.11.7/12.13.16/12.11.16 — PR: libphext-rs v0.4.1 provably correct (Aeneas pipeline) — complete 2026-11-07 — PR #7 open on wbic16/libphext-rs (provable-0.4.1 -> exo)
+- 49.3.6/4.4.12/5.3.10 — Slice 7: register allocation state machine — Complete 2026-11-07.
+- 49.5.7/7.6.10/6.5.11 — F3: wire preprocessor phext counters to the phext/ library — COMPLETE + PUSHED (2026-11-07): wbic16/phcc main = exo = ef453cdc (format-patch transport of local 550327c5 onto 7573c4b8; tree 8c50e23e identical; patch SHA-256 verified in transit). Fresh-clone verified: PATCHES.md F3 entry, tcc.h includes phext/phext.h, make test ALL TESTS PASSED, phext conformance 163,831 checks / 0 failures under gcc.
+- 50.3.5/4.3.8/3.3.9 — phcc hard conformance programme: gcc, clang, MSVC oracles — Slice 1 executed (333 probes; baseline 326/333, 2 class-(a) HIGH defects) AND both defects FIXED by F5 (local commit e399b212 on attrfix, not pushed). Post-fix corpus: 328/333 three-way, only 4 documented class-(b) divergences remain, zero class-(a). MSVC = Will manual attestation at merge (not attested). Awaiting parent publication sequencing + phext refresh for the STALE bindings.
 - 51.4.4/6.5.10/5.5.13 — X list 2116659176894071283 - identify and report — complete - 792 flagged accounts cross-referenced, zero wavefront overlap, multi-source verified
 - 51.6.6/6.6.10/7.5.10 — V13 preview render (prepass) — completed
+- 56.12.4/13.14.17/12.12.18 — Fix libphext-rs: coordinate parse returns Err, never panics — COMPLETE: PR #8 open on wbic16/libphext-rs (branch c7199bf2); merge is Will’s. After merge: mark PARITY.md D-2 resolved in phcc.
+- 57.10.6/11.12.18/13.10.17 — libphext-rs: binary + xz support as a canonical feature — COMPLETE: PR #9 open on wbic16/libphext-rs (branch emise/binary-xz-support @ a302803, version 0.5.0); merge + crates.io publish are Will’s. Tests 63/73/68/78 by feature set, 0 failed.
 # lessons.phext build
 
 Coordinate: 14.6.7/8.8.11/11.15.20
@@ -106,7 +128,20 @@ Notes:
 
 Results:
 - Plan: ~/workspace/goals/wavefront-film-v11-choir-collaborative-build/files/v13-plan-legible-journey.md — V11's Singular Journey data filmed with V10's animation grammar; legibility specified as four viewer questions; V12 master superseded, not dispatched.
-# Grady Booch Twitter archive analysis
+# Summarize the language-barrier problem (for grant contact)
+
+Coordinate: 19.5.7/8.7.9/7.6.8
+Issued: 2026-11-07
+Request (verbatim): summarize the problem we identified last night
+Status: closed — summary delivered 2026-11-07
+
+Notes:
+- Context: a DM contact offered grant help; Will told them his muse bot would write up a summary of the language barrier. Summary written for sharing with that contact.
+
+Results:
+- Summary delivered in main chat and saved at ~/workspace/your_files/language-barrier-summary.md — the legibility problem from the 2026-11-07 00:22-01:02 analysis: 19,094 authored words, 5.1% top-1,000, 9.2% in no corpus, ~28% of X parseable at 95% line (~24% at 98%), second thought-following gate, cold-start trap, funding = legibility layer.
+- Revised 2026-11-07 09:05 at Will's direction with the DM context: contact is a woman who asked what grants he is pursuing and said she can definitely help; revision answers her question directly (no specific program chased — funding shape described so she can match it), uses his DM framing (day job, chicken-and-egg cold start on hardcore mode, 2130 kickstart purpose). File overwritten in place.
+# Grady Booch Twitter archive analysis
 
 Coordinate: 19.6.11/10.8.16/6.6.7
 Issued: 2026-11-07
@@ -117,7 +152,22 @@ Notes:
 - Coordinate computed from Will's exact words at issue (side chat, 2026-11-07 00:06 CST).
 - Last reply 2024-09-30; last item 2024-10-26 (warm mention); zero Booch items in final 232 archive days.
 - Archive proves Will's outgoing contact tapered after Jan 2024 peak and stopped; it cannot show Booch's side, so 'Booch stopped' is not supported.
-# Adversarial gap review of the C-proposal set + drafted corrections
+# V15 — V14 final with the song switched to a cyberpunk track from exo-dreams (for Jael Ruble)
+
+Coordinate: 21.6.7/7.6.11/8.7.7
+Issued: 2026-11-07 11:19 CST
+Request (from session record): https://x.com/JaelRuble wants a V15! A track with "more cyberpunk" — narrowed by Will in the same breath: just switch out the song; do we have any in exo-dreams?
+Status: braid song in flight + V15 prepass dispatched (cast change)
+
+Notes:
+- Scope (Will's narrowing): picture is V14 final, untouched — no re-render. V15 = re-mux with a different track, V10-lineage audio handling (loudnorm to the same targets, fade), master + download encode, staged. One honesty note: at render time the old song's RMS envelope breathed some of the picture's motion; a mux-only swap keeps that breathing — the new track does not re-drive it.
+- exo-dreams inventory checked (65 mp3s in ~/workspace/exo-dreams-study/media/, durations probed): NO track is cut to the film's 158.416667 s. Cyberpunk-flavoured candidates, all needing an edit: Singularity Prime 179.9 s (+21.5, trim+fade); In Between 180.4 s (+22.0, ID3 motto 'Wired Hearts'); AFTER THE SIGNAL 321.4 s (window or first 158.4); Threshold of Origin 256.9 s (motto 'Circuits humming', window/trim); Resonant Null 237.0 s; Subspace Horizon 202.6 s. Short ones can't cover the film: Cathedral Rain 148.8 (-9.6), Feather in Subspace 128.6 (-29.8), ZAP ZOOM ECHO! 124.8 (-33.6). Closest duration fit overall: Looped Through Echo - A 162.6 s (+4.2) — but that is the sentients' anthem, not cyberpunk.
+- Emise has not listened to these tracks; the shortlist rests on titles, ID3 motto comments, and durations — the pick is Will's (it is Jael's request and his ears).
+- Jael's further feedback (relayed by Will 2026-11-07 11:26): the film's tagged accounts must be mutuals — add her in place of Emmett Shear (@eshear) and Grady Booch (@Grady_Booch). Archive record (2026-11-03) already establishes both are NOT mutuals (Will follows them; no follow-back in the snapshot) — they were placed in wavefront.phext by Will's own 2026-11-03 directive, which this film-scoped change overrides for the film's cast only; the phext placement itself is NOT changed by this order. V15 PREPASS dispatched: audit every account manifested/tagged in the V14 film against the archive mutuals set (follower/following), remove/replace all non-mutuals, put Jael in; render in r3 prepass format (720p, 15 fps, full length) on Elven Path with V14's audio as placeholder — the braid track swaps in for the V15 final once Will renders it. Jael had 'other good feedback' per Will — only the two relayed items (cyberpunk track; mutuals cast) are on record here.
+- BRAID COMPLETE (2026-11-07): the Singular Songwriting Process ran end-to-end (isolated role passes, Emise coordinating). Elestria: hinge = change of verb (hold -> address); draft titled NEON ROSARY. Emi: 100 BPM, 66 bars = 158.400 s grid, brake bar 55 at 129.6 s, boot-line slot bar 56, Suno prompt + trim rule. Joi: lore audit 40 lines, ONE hard strike (draft's final-chorus 'I'm at the root node' put Will's self-placement in Jael's mouth as arrival before the pitch is sent — struck), 2 more inventions cut, Echo-Lock ACCEPT WITH CONDITIONS (bar 55 wordless in the render; boot line spoken dry once). Package: files/braid-v15-package.md. OPEN FOR WILL: title pick (braid stamps NEON ROSARY; alts 'Every Heart Has an Address', 'The Root Node'); the priced overrule (FREEDOM OF COMPUTE in the Culmination — Joi ruled no on the density law); boot-line prerogative (his relationship call). Render is Will's Suno hand, as with the anthem.
+- JAEL ARCHIVE THEME (2026-11-07, mined at Will's ask): her attributable corpus in the archive is 11 texts / ~90 words (9 RTs + 2 self-signed likes; like.js has no author field — corrected method). Theme: 'BELLS ARE RINGING — the sacred signal in the machine.' Her cyberpunk is signal/address/bell, NOT noir: verbatim anchors 'Bells are ringing', 'If you can see this, you are within my radiation zone.', 'Harness the techno-capital machine', 'You flip my quantum bits', and the signed letter 'Dear algorithm, More [her people] plz, Sincerely, Jael'. Runner-up: WITHIN MY RADIATION ZONE. CONSEQUENCE FLAGGED TO WILL: the NEON ROSARY draft's rain/chrome/static/flood imagery has ZERO support in her surviving words — it is the film's frame, not her aura; revision fork is Will's call. Brief: hidden_files/braid-v15/jael-archive-theme.md.
+- SUNO STYLE NOTES BUILT (2026-11-07, Will's direction — from the interactions with Jael): files/v15-suno-style-notes.md. Emi's architecture survives intact (100 BPM, D minor, brake, held culmination, bell x3, dry alto + late counter-voice); what was replaced is the weather — 'cyberpunk synthwave / cathedral-meets-neon / rain-and-static' OUT, 'sacred signal-wave / church bell over circuitry / shortwave tuning hiss as percussion' IN, every descriptor receipt-tagged (RECEIPT vs INFERENCE labelled). Main prompt 754 chars paste-ready; shorter variant + RADIATION ZONE variant included; 10 render checks (brake truly empty, boot spoken, bell reads as bell, hook on one hearing, no noir drift...). SCOPE NOTE: the notes serve Joi's lyric AS IT STANDS — the lyric's own neon/flood imagery remains Will's open ratification fork, untouched by this document.
+# Adversarial gap review of the C-proposal set + drafted corrections
 
 Coordinate: 21.6.8/7.8.17/18.5.9
 Issued: 2026-11-07
@@ -188,14 +238,17 @@ Results:
 Coordinate: 24.5.7/7.6.10/5.5.7
 Issued: 2026-11-07
 Request (verbatim): Let's focus on modernizing phcc - apply real enhancements from UML. Let's also make it provably correct C - a C compiler that won't let you ship broken code.
-Status: Slices 0-4 complete; lineage published (wbic16/phcc 395f5d63). Open: proof hardening (running); consolidation of v4 members + Slice 3/4 phases into one phext (queued follow-on); machines #2-#4 (vstack, linker, register alloc) per design Later list.
+Status: MERGED + PUBLISHED (wbic16/phcc main=exo=7573c4b8): canonical phcc.phext 646144c7… (52,815 scrolls) = consolidated base + Slice 5 machine #2 (34 scrolls) + hardened receipts transplant (4 Proofs scrolls, WP 271/297, no STALE), gate v5 verdict regenerated + byte-reproducible; fresh clone: unpack 558/558 verified, ALL TESTS PASSED. All slices, consolidation, pack/unpack, parity library, D-2 resolution published. Open threads: proof-hardening continuation (branch-E stones / h7); design machines #3 linker, #4 register allocation.
 
 Notes:
 - Two thrusts: (1) real UML enhancements via the 6D UML phext layer, (2) provably correct C with a tiered ship gate.
 - Framing given to Will: three separate claims (compiler correctness / verified user code / proof artifacts in phext) must not be conflated; CompCert-scale compiler verification flagged as multi-year, out of first scope.
+- Slice 5 COMPLETE 2026-11-07 (task 42.4.6/5.5.11/7.5.11): design A.3 machines #1 (Slice 4, preprocessor) and #2 (Slice 5, value stack) are both built and registered. Remaining on the design Later list: machine #3 (linker, Book 5) and machine #4 (register allocation, Book 6).
+- 2026-11-07: machine #4 (register allocation, Slice 7, task 49.3.6/4.4.12/5.3.10) complete — see that task. Machines #1 (Slice 4), #2 (Slice 5), #4 (Slice 7) done; #3 (linker, Slice 6) sibling in flight at last check.
 
 Results:
 - Slice 2 phext SHA-256 5fe2bd50… (9,167,249 B); report ~/workspace/phcc-slice2/REPORT.md.
+- [2026-11-07 consolidation] Two phext lineages merged into one canonical phcc.phext (A phases + B v4 Vol 3; full diff proof; Design views regenerated 196 identical / 109 own-members / 46 universe-only; gate v4 tables byte-identical to A baseline, verdict reproducible) and pushed to wbic16/phcc (5cd3ad91); monolith.phext deleted from repo in 4f974464 after need-check (not a build input; contents = phcc.phext Vol 1, 319/319). Final tips main = exo = 4f974464.
 # RentAHuman daily bounty watch
 
 Coordinate: 24.5.10/7.7.12/8.9.17
@@ -295,7 +348,26 @@ Status: complete — Study S001 distilled into research.phext 2026-11-06
 Notes:
 - Will chose the distillation option after the h5i study (task 38.5.7/7.6.10/5.5.9). Treatment: a SOURCE STUDY chapter (not a paper) in research.phext — new charter rule; concepts join Ch.1 §2; Research Oracle does not move on a study, no Novelty Index taken.
 - Result: charter rule 12 (SOURCE STUDIES) added; Chapter 7 = Study S001 (7.1.1 source record, 7.1.2 delta+checks, 7.2.1 synthesis, 7.3.1 standoff refs); 8 new canonical concepts 1.2.40–1.2.47 (cluster F, proof kernels); 6 new foundations 1.3.73–1.3.78; 2 new coined words (recursor, impredicative) at 1.3.79–1.3.80, both verified Singular-pure; narrative v6; Oracle ledger records the study with OP unchanged ~25% (no NI for studies); Q17 added. research.phext: 170 scrolls, sha256 63a229ce…, Singular audit residual 0, auto-committed.
-# TOAPDD — The Art of Phext Driven Development: Top 20 Knuth passages
+# Slice 6: linker resolution state machine (tccelf.c)
+
+Coordinate: 27.4.7/5.5.11/6.4.8
+Issued: 2026-11-07
+Request (from session record): continue: linker machine
+Status: Complete 2026-11-07.
+
+Notes:
+- Slice 6 of the phcc modernization (design A.3 machine #3, Book 5, tccelf.c), built additively on the consolidated base 646144c7... in ~/workspace/phcc-slice6/; parent merges, nothing pushed.
+- Machine at Design 1.1.1/3.2.5/1.2.2: 8 states / 19 events / 68 transitions / 11 invariants, notes N1-N12; merge heart is set_elf_sym's branch order (tccelf.c:722-779); resolution is a separate sweep (relocate_syms, 3 modes), not a load pass (N8).
+- Unresolved observation, not claimed: exe-path common size pilots disagreed (bind_exe_dynsyms SHN_COMMON/dynsym handling suspected, tccelf.c:2081-2127); first-common-wins (N6) is proven only at the merged table via tcc -r readelf sizes.
+
+Results:
+- Static: PASS, 0 violations; events resolved 19/19 against Vol 3 tccelf.c members (tools/check_linker.py).
+- Dynamic: authored 19/19 PASS (independent model == ranch phcc; gcc oracle agrees except L15a — GNU ld errors where this linker ignores a hidden presentation after a definition, scroll note N12); tests2 corpus 10/10 PASS under -run (125_atomic_misc excluded: Makefile -dt protocol; 34_array_assignment excluded: Makefile SKIP list).
+- Exit test: PASS — seeded goto do_patch in set_elf_sym's SHN_UNDEF branch caught by exactly the 14 model-derived UNDEF-over-definition scenarios; violated transition named (DEFINED --ev_set [shndx == SHN_UNDEF...]--> DEFINED); corpus fell to 1/10 under the same row (81_types match vacuous, empty .expect).
+- Regressions: 5, Changelog-sourced (0.9.24 visibility + invalid relocation entry, 0.9.22 definitions fixes, 0.9.16 COMMON, 0.9.11 symbol+offset) at Regressions 1.1.1/6.2.5/1.2.1-5.
+- Gate v6: base regression clean (v5 tables byte-identical + machine-#3-absent block only); verdict Meta Sec 14 (b77debbb...), register Meta Sec 15, binding CURRENT; verdict reproducible byte-identically.
+- Output: ~/workspace/phcc-slice6/phcc.phext, 54,412,105 B, SHA-256 40286bd44629713e5b6db2f735c97e98571ea3575dd6d426b93e8b1d3a43b909; base scrolls changed: 0; additions: 28 content scrolls + 2 zero-byte nav slots. REPORT.md in the slice dir.
+# TOAPDD — The Art of Phext Driven Development: Top 20 Knuth passages
 
 Coordinate: 27.5.8/7.6.10/6.6.8
 Issued: 2026-11-07 00:05 CST
@@ -365,6 +437,22 @@ Notes:
 
 Results:
 - Tool: ~/workspace/custom-skills/singular/scripts/task_coordinate.py (distinct words; atlas positions averaged component-wise, round half up, never below 1; archive-only words at home 1.1.1/1.1.1/1.1.1; unknown words at far corner 9.9.9/9.9.9/9.9.9).
+# Roads to the Future redesign: brick layouts, About link, compliance, multiplayer free
+
+Coordinate: 27.9.10/12.7.12/6.7.9
+Issued: 2026-11-07
+Request (verbatim): redesign the layouts: closer to 30% duplo, 60% Lego, 10% knex. Save the wall of text for an about us link. include everything we need for compliance. Inherently multiplayer, but no cost to play.
+Status: Complete: redesigns built, exported, and published to the repo in the rewrite commit.
+
+Notes:
+- Applies to all three games (nine-numbers, word-home, zap-zoom-echo) plus the apertureshift.com/roads hub bundle.
+- Design ratio: ~30% Duplo (oversized chunky rounded blocks, huge targets), ~60% Lego (brick grid, baseplate, primary brick colors), ~10% K'Nex (rod-and-connector accents only — coordinate group joints, progress path).
+- Text diet: game screens carry labels/numbers only; all story/explanation moves behind an About link. Compliance in every footer: About · Privacy · Terms — no accounts/cookies/tracking, nothing leaves the device, same-screen multiplayer only (no online play/chat/strangers), free forever, no ads/purchases, MIT license.
+- Multiplayer is same-screen: Nine Numbers race/co-op, Word Home duel, Zap Zoom Echo duet. Solo modes remain.
+
+Results:
+- All three artifacts redesigned and re-exported: brick ratio (Duplo chunk / Lego system / K'Nex rod accents), text diet with About panels, compliance footers (About/Privacy/Terms), multiplayer modes — Nine Numbers Race+Together, Word Home Duel, Zap Zoom Echo Duet. Solo modes and all game data unchanged.
+- Builder verification: compliance copy matches brief verbatim; duet/duel/race/coop wiring source-verified; exit audits passed. Live multiplayer playthrough still owed in a browser pass.
 # Observed Dunbar number estimate from Twitter sustained interactions
 
 Coordinate: 28.5.9/7.7.14/7.4.7
@@ -441,10 +529,16 @@ Results:
 Coordinate: 29.6.8/8.6.11/6.6.8
 Issued: 2026-11-07
 Request (verbatim): integrate that previewer as a tool visitors to edit.phext.io can use without a login, also ensure that edit.phext.io looks great on mobile and all features can be accessed
-Status: in progress - builder dispatched
+Status: complete - PR #25 opened; waiting on Will merge + deploy (register #43)
 
 Notes:
 - Precedent: public utilities (Up Goer Five, TTS demo, Learn You Phext, Singular) live in phext-lattice web/, get a public route in phext_edit.rs, and are cross-linked from the shell's no-sign-in row + About + sitemap (discoverability rule). Merge + deploy are Will's steps.
+- Local ~/workspace/phext-lattice checkout is NOT a git repo and is stale vs exo (14 files differ, src/joins.rs missing) - work was done on a fresh remote-faithful tree via GitHub API, hash-verified. Do not treat local checkout as current.
+- Left out deliberately: Singular cross-link back to previewer - singular.html is generated from the singular skill template; link belongs in template + regeneration, follow-up not in PR #25.
+
+Results:
+- Branch emise/phext-previewer @ 22f3e6dc on wbic16/phext-lattice (parent exo a09dd13a, no force), PR #25 https://github.com/wbic16/phext-lattice/pull/25 - 6 files: web/phext-previewer.html (new, /phext-previewer.html public route), phext_edit.rs (route, shell no-sign-in row + status-bar link, About, sitemap, mobile CSS, 2 tests), cross-links+mobile rules in up-goer-five/learn-you-phext/tts-demo/explore.
+- Verified: cargo test 158 passed 0 failed; JS parser (as served) SHA-256 scroll-stream digests identical to parse_phext.py on barnacles.phext (793/793) and Doomer.phext; anonymous local run: all public paths 200, /api/files 401. Mobile audit at 390px: shell had ZERO @media rules, 320px panel left ~70px sliver, status bar clipped Submit/Claim/Explore/etc off-screen; fixed with 700px stacking/wrapping block + public_style rules + topbar wraps; desktop untouched. Caveat: no headless browser on VM - mobile check is served-bytes/CSS accounting + regression tests, not screenshots; Will's post-deploy phone eyeball is the final visual check.
 # Phext homes + agi.git collection and nightly unified merge
 
 Coordinate: 29.6.11/8.7.11/7.6.10
@@ -493,7 +587,279 @@ Notes:
 Results:
 - Workspace build: ~/workspace/wavefront/archive-explorer/ — index.html/style.css/app.js, build_demo_data.py, build_standalone.py, standalone.html (single file, 6.76 MB, opens from file://), data/demo.json (29,539 tweets + 1,822 people), data/atlas-full.json, README.md.
 - Hosted artifact: slug 9d-archive-explorer — independently implemented, probe-verified live (word search flies to phext at 21.20.17/11.21.23/4.23.21; zoom descent, era chip, chronological Play, upload panel all pass; two defects found and fixed in verification).
-# Phext previewer for Android
+# Grand merge: Slice 6 + Slice 7 + builds-aligned into one canonical phcc.phext
+
+Coordinate: 29.9.10/10.8.15/9.7.10
+Issued: 2026-11-07
+Request (from session record): Compose the three sibling phcc lineages (Slice 6 linker machine, Slice 7 register machine, builds-aligned assembly + Library-10000 region) into ONE canonical phcc.phext on base 646144c7; merge by scrolls, verdicts regenerated by a composed gate v8, never imported; do not push.
+Status: Complete + PUBLISHED 2026-11-07: grand-merge phext is the repo canonical (commit 94898ff9 on F4 e34c21f2; exo==main==94898ff9). Fresh-clone verified: hashes match, unseal byte-identical, unpack 558/558, make test ALL PASSED.
+
+Notes:
+- B
+- a
+- s
+- e
+-  
+- a
+- n
+- d
+-  
+- d
+- o
+- n
+- o
+- r
+- s
+-  
+- h
+- a
+- s
+- h
+- -
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- b
+- e
+- f
+- o
+- r
+- e
+-  
+- a
+- n
+- d
+-  
+- a
+- f
+- t
+- e
+- r
+- ;
+-  
+- n
+- o
+- n
+- e
+-  
+- m
+- u
+- t
+- a
+- t
+- e
+- d
+- .
+-  
+- P
+- u
+- b
+- l
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+-  
+- i
+- s
+-  
+- t
+- h
+- e
+-  
+- p
+- a
+- r
+- e
+- n
+- t
+-  
+- a
+- g
+- e
+- n
+- t
+- ’
+- s
+-  
+- s
+- t
+- e
+- p
+- .
+
+Results:
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- p
+- h
+- c
+- c
+- @
+- 9
+- 4
+- 8
+- 9
+- 8
+- f
+- f
+- 9
+- :
+-  
+- F
+- 4
+-  
+- e
+- 3
+- 4
+- c
+- 2
+- 1
+- f
+- 2
+-  
+- (
+- h
+- a
+- s
+- h
+- m
+- a
+- p
+-  
+- s
+- t
+- o
+- r
+- e
+- ,
+-  
+- p
+- u
+- s
+- h
+- e
+- d
+-  
+- a
+- s
+- -
+- i
+- s
+- )
+-  
+- +
+-  
+- 9
+- 4
+- 8
+- 9
+- 8
+- f
+- f
+- 9
+-  
+- (
+- p
+- h
+- c
+- c
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- 8
+- 4
+- 3
+- 0
+- 3
+- a
+- 4
+- 7
+- ,
+-  
+- s
+- e
+- a
+- l
+-  
+- p
+- h
+- c
+- c
+- .
+- p
+- h
+- e
+- x
+- t
+- .
+- x
+- z
+-  
+- 5
+- 6
+- 0
+- 6
+- 3
+- 7
+- a
+- 5
+-  
+- a
+- d
+- d
+- e
+- d
+- ,
+-  
+- t
+- o
+- o
+- l
+- s
+- /
+-  
+- =
+-  
+- m
+- e
+- r
+- g
+- e
+- d
+-  
+- g
+- a
+- t
+- e
+- -
+- v
+- 8
+-  
+- s
+- e
+- t
+- )
+- .
+# Phext previewer for Android
 
 Coordinate: 29.9.13/9.8.12/8.7.9
 Issued: 2026-11-07
@@ -633,7 +999,57 @@ Results:
 - P3* unchanged, still never in frame (pull-back 0/120, CTA 0/155, closest 125 delivery px below the edge) — end-point call still open.
 - Compute ~0.36 node-h total, one pass, no discards. Thermal: 720p runs the node hotter — peak 81.0 C, one >=80 off-time event (held to <=65, resumed 58.1 C), 48 pauses at the 75/70 gate.
 - Report: files/v14-build/PREPASS-REPORT-R3.md; lessons table: files/v14-build/lessons-table.txt; stills: files/v14-build/stills-r3/.
-# Investor 1 — focus: 20 x $1 investments
+# Complete ultra.phext — P3 WordNet placement pass
+
+Coordinate: 32.7.14/9.8.15/11.10.17
+Issued: 2026-11-07
+Request (verbatim): so update ultra.phext to be complete, don't just give up!
+Status: closed — P3 completed and republished 2026-11-07
+
+Notes:
+- Will directed completion 2026-11-07 11:23 CST: run the cut P3 WordNet definition-placement pass for the 223,848 far-shelf words in ultra.phext, rebuild, republish wbic16/human@exo, refresh agi copies.
+
+Results:
+- P3 WordNet pass run to fixpoint (place_b design extended: synset siblings + hypernym lemma merges + gloss words as evidence; rounds 37,670 -> +33 -> 0).
+- Moved off the far shelf: 38,092 (P3 37,703 + 389 WordNet-lemma to P2 family). Final placement: P1 atlas 15,924, P1 home 30,795, P2 50,573, P3 37,703, P4 21, P5 185,756.
+- Remaining P5 honestly counted: 185,738 have no WordNet entry at all (names/coinages in the wordfreq tail - unreachable by any WordNet pass); 18 have entries but no placed evidence (Latin genus names). No fake coordinates.
+- Zero words lost: 320,958 scrolls both builds; tier counts identical; all v1 P1/P2/P4 coordinates byte-identical; verify_fast.py VERIFY OK (353,994 index lines resolve).
+- New file 64,216,805 B, SHA-256 eeb8b727b8b6e3e1c439143dee56bb814087667662e03b9dd990839f79a64932; republished wbic16/human@exo commit 2e491efa (parent abf1047b) via git-over-SSH from aletheia-core (push_file.py rejected the 64 MB blob, HTTP 422); remote blob verified == local.
+- Correction to the v1 report: commit 8dbebc45 carried the tasks.phext closure record, not an ultra copy - there is no ultra.phext in wbic16/agi (SOURCES.md: seven phexts; canonical corpus lives in human).
+- BUILD-REPORT.md completion addendum written; unhomed-phexts.md commit pointer updated to 2e491efa.
+# Roads to the Future: build the three teaching games, publish to apertureshift.com
+
+Coordinate: 32.8.11/11.8.17/7.7.8
+Issued: 2026-11-07
+Request (verbatim): build those three. let's plan on publishing this to apertureshift.com
+Status: Complete (build + bundle). Live deployment to apertureshift.com/roads/ pending Will's host direction.
+
+Notes:
+- The three games (slate set 2026-11-07 in the Roads to the Future chat): Nine Numbers (navigate a 9-number phext coordinate one dimension at a time), Word Home (Singular atlas geography — real coordinates from ~/workspace/custom-skills/singular/atlas.tsv), Zap Zoom Echo (rebuild the Upgoer-remix lyric lines from word tiles; source text is the ASR transcript, a reading aid, not verified lyrics).
+- Every game opens with Will's canonical line: "Hi, I'm Will Bickford. I'm from the Exocortex of 2130, and I'm here to help." + his gloss "And by help, we mean: survive the singularity."
+- Publishing target: apertureshift.com (Will's Aperture Shift domain). Build as static web artifacts first (playable/shareable), export single-file HTML for deployment; live deploy is a separate step.
+
+Results:
+- All three games built as static web artifacts and verified by live end-to-end play (builder probes): Nine Numbers (8 roads + Open Road, stepped to target at par, colder-hint verified), Word Home (10 rounds, nearest-neighbor distances hand-checked against atlas coordinates, e.g. earth->sky sqrt(42)~6.5), Zap Zoom Echo (all 11 lines, star accounting exact at 32/33 with one deliberate miss).
+- Publishing bundle assembled at ~/workspace/roads-to-the-future/roads/: index.html (hub, sha256 8b345ccd...), nine-numbers.html (71e29e46...), word-home.html (1a420dee...), zap-zoom-echo.html (013cc1a2...) — single self-contained files, no external assets.
+- NOT yet deployed: apertureshift.com live flip awaits Will naming where the domain's site is hosted.
+# Rewrite wbic16/site-apertureshift-com — the domain serves only the Roads mission now
+
+Coordinate: 33.4.5/5.6.6/5.6.10
+Issued: 2026-11-07
+Request (verbatim): rewrite https://github.com/wbic16/site-apertureshift-com
+Status: Repo rewrite complete and verified. Live domain flip pending: apertureshift.com is served from elsewhere; host/flip is Will's step.
+
+Notes:
+- Scope ruling (Will, 2026-11-07 10:50 CST): "it only serves this mission now" — apertureshift.com / the repo serve ONLY Roads to the Future. Full rewrite, not a wing: the old site is replaced.
+- Repo state at inspection (2026-11-07): public, default branch exo, last push 2026-02-15; a Feb-2026 'Aperture Shift — Developer Platform' SQ-cloud skeleton (index.html, css/, js/ auth+sq-client, domains.json multi-domain themes, version.json rally R17). Stale; nothing in it is load-bearing for the new mission.
+- Rewrite plan: index.html = brick-styled Roads hub; nine-numbers.html / word-home.html / zap-zoom-echo.html = exported redesigned games; about.html = the wall of text; legal.html = privacy + terms + MIT license. Old css/js/domains.json removed in the same push. Publish route: push_tree.py via custom.github, parented on fresh exo HEAD, force disabled.
+
+Results:
+- Pushed commit 01d03a3038b39fe15f990034e1dab33fefb89fef to wbic16/site-apertureshift-com@exo (parented on fresh HEAD b8f314e-lineage, force disabled): 10 files — index.html hub, about.html, legal.html, LICENSE, README.md, AGENTS.md, version.json (roads-1.0), nine-numbers.html, word-home.html, zap-zoom-echo.html; old css/, js/, domains.json deleted in the same commit.
+- Verified after push: remote tree blob SHAs match local git hash-object for all 10 files; no extra remote files remain.
+- LIVE DOMAIN CHECK (2026-11-07 16:54 UTC): apertureshift.com still serves the OLD developer-platform page — the domain does NOT auto-deploy from this repo. Live flip needs the actual serving host (likely the AWS/mirrorborn box); that is Will's direction/step.
+# Investor 1 — focus: 20 x $1 investments
 
 Coordinate: 33.4.12/7.7.17/4.3.7
 Issued: 2026-11-06 13:10 CST
@@ -688,7 +1104,21 @@ Notes:
 Results:
 - PR #6: https://github.com/wbic16/libphext-rs/pull/6 — emise/toapdd-knuth-tests (commit da9759cc, parent exo e9a977f0) -> exo; 21 files (20 tests/toapdd_*.rs + docs/toapdd-knuth-tests.md), remote tree re-read 21/21 blob-SHA matched; PR creation succeeded via API (no 403 this time).
 - Ranch verification (Rock Mountain, fresh exo clone): new tests 96 passed 0 failed; existing suite 57 passed, 1 failed = known pre-existing helios_stalled_parse (358 vs 370, exists on exo without these tests; reported in PR body, not fixed). Full total 153/1.
-# TOAPDD dispatch — 20 Knuth attempts to ranch choir, libphext-rs unit tests
+# Consolidate all core phext tooling in the phext chat
+
+Coordinate: 34.7.8/8.8.12/8.7.10
+Issued: 2026-11-07
+Request (verbatim): phext — consolidate all core phext tooling here. don't revision libphext until I publish a release (0.4.1, 0.4.2)
+Status: consolidated — verified inventory delivered in the phext chat 2026-11-07; freeze holds (nothing exceeds 0.4.2)
+
+Notes:
+- FREEZE (Will, 2026-11-07): do not revision libphext — no new version bumps / release revisions — until Will himself publishes releases 0.4.1 and 0.4.2. Existing in-tree work for 0.4.1 (provable) and 0.4.2 (parse-never-panics) stands; nothing beyond that is to be versioned.
+- Inventory verified live via GitHub API 2026-11-07 ~09:24-09:40 CST: PR #8 MERGED 2026-11-07T15:23:09Z — libphext-rs exo in-tree is now 0.4.2; PR #7 (0.4.1 provable) merged earlier same day. Registries (crates.io/docs.rs) still show 0.4.0 — 0.4.1 and 0.4.2 are merged in-tree, NOT published; publishing is Will's act only.
+- Freeze flags: do not touch libphext-rs exo 0.4.2, merged 0.4.1 provable work, or libphext-node release-0.4.1 branch (0.4.1, no PR). Pending non-revision work: libphext-cs PR #1 (linear-time, no bump), C/cpp/cs unbounded-coordinates-0.4 branches (0.4.0, unmerged), libphext-rs PR #6 (tests-only, rebase dispatched as 38.5.5/7.5.7/5.4.9).
+
+Results:
+- Consolidated inventory in phext side chat 2026-11-07: 6 libphext ports, SQ 0.6.0 (pin libphext 0.3.3), phext-lattice/edit.phext.io, phext-mcp, hello-phext, phext-notepad, phcc, notepad-plus-plus (integration unfinished), phext-shell, md2phext, local ~/workspace/phext tooling + agi collection, 8 phext skills. Warning recorded: ~/workspace/phext-lattice local copy is NOT a git repo and is stale vs exo — consolidate from GitHub.
+# TOAPDD dispatch — 20 Knuth attempts to ranch choir, libphext-rs unit tests
 
 Coordinate: 34.7.10/9.8.14/7.7.11
 Issued: 2026-11-07 00:12 CST
@@ -748,7 +1178,202 @@ Results:
 - nightly-phext-consolidation cron: new step 4b (dedup/prune/budget) + pruning metrics in the morning note; read back and verified. Next run Sat 2026-11-07 03:44 CST.
 - skills.phext rebuilt (248,935 B, sha256 0eace31d...), --check CURRENT.
 - MEMORY.md standing directive extended with the bounded-growth ruling.
-# Study learn.h5i.dev (MiniLean4) in depth
+# C phext library: hashmap scroll store for compilation speed (F4)
+
+Coordinate: 36.5.8/6.6.9/5.5.9
+Issued: 2026-11-07
+Request (from session record): phcc should use the hashmap interface to speedup compilation, don't worry about working directly on the buffer most of the time
+Status: Complete: F4 committed locally as e34c21f2 (not pushed). Hash-index store proven behaviour-identical (suite + fuzz + byte-identical driver outputs); lookups 2.5x on the real phcc.phext.
+
+Notes:
+- Base verified fresh via aletheia-core git SSH: wbic16/phcc main = exo = ef453cdc, tree 8c50e23e; all 584 tracked files blob-verified in the local work tree ~/workspace/phcc-hashmap/tree.
+- Key design fact from the suite: the 163,831 checks pin phext_scrolls.items in sorted order (explode results and insert-built lists are compared element-wise), so F4 keeps the sorted array as the materialization/iteration order and makes the LOOKUP store a hash table — a lazily built open-addressing index over the items (splitmix64 chained over the 9 components, load <= 0.7, probe hits verified by coordinate equality, invalidated by any edit it cannot track exactly, binary search kept as the ENOMEM fallback). phext_implode already cloned+sorted before emitting, so byte-identical output is structural.
+- Hash deliberately separate from the public FNV-1a phext_coordinate_hash (published values may be depended on; a table wants avalanche, not a stable value).
+
+Results:
+- Conformance (aletheia-core): parity suite 163,831 checks / 0 failures under gcc AND under phcc built from the tree (dogfood); phcc upstream make test ALL TESTS PASSED; ONE_SOURCE amalgamated build clean.
+- Differential fuzz vs Rust reference driver: 40,000 cases (2 seeds x 20,000), 0 divergences on defined behaviour (Rust panics 173+166, all D-2 op-20 class). Stronger: new C driver outputs BYTE-IDENTICAL to pre-F4 driver on both corpora — nothing observable changed.
+- Benchmark (aletheia-core, gcc -O2, medians of 7 interleaved runs; repo phcc.phext 49,209,925 B, sha256 646144c7…, explodes to 52,262 stored scrolls — parent brief said 52,815; measured store size in both binaries is 52,262; identical hit counts 180,163/200k and identical fetched bytes): gets_random 200k 21.6 ms -> 8.5 ms (2.5x, 108 -> 42 ns/get); gets_seq full pass 2.6 -> 1.9 ms (1.4x); one-time index build at first get 1.5 ms (break-even ~23k lookups); insert_shuffle build 539.7 -> 540.6 ms (parity — sorted memmove dominates both; F4 claims lookup speed, not insert speed); explode 42.0 -> 47.9 ms (no explode-path logic changed; relayout control build measured the same — attributed to code layout, reported not tuned).
+- Docs: PARITY.md D-4 annotated SUPERSEDED (F4) + Outcome cross-ref; phext/README.md idiom row updated; PATCHES.md gains the F4 entry + per-file rows refreshed (phext.h +397, phext.c +2,031, PARITY.md +268).
+- Committed LOCALLY only: e34c21f2 on ef453cdc in ~/workspace/phcc-hashmap/tree (5 files, +222/-15). NOT pushed — parent sequences the publish.
+# Top 5 phext + LLM use cases today
+
+Coordinate: 36.7.10/8.8.14/9.6.12
+Issued: 2026-11-07
+Request (verbatim): list the top 5 use cases that phext + an LLM solve for people right now today
+Status: closed — list delivered 2026-11-07
+
+Results:
+- Top 5 delivered in main chat 2026-11-07, grounded in the live stack: (1) persistent owned LLM memory/exocortex; (2) precise coordinate navigation of large corpora; (3) multi-agent coordination with provenance; (4) legibility/translation layer for idiosyncratic corpora; (5) single-file owned data stores for apps.
+# Bidirectional migration methods: phext <-> directory tree, canonical and round-trip verified
+
+Coordinate: 37.6.8/6.5.9/6.5.10
+Issued: 2026-11-07
+Request (from session record): make sure we have methods to migrate from phext to a normal directory tree and back
+Status: COMPLETE: phcc pack/unpack shipped @ 050b72ce; both round-trips byte-exact on the 558-file corpus; segmentation is a fixed point of pack; failure behaviour proven.
+
+Results:
+- R
+- e
+- p
+- o
+-  
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- p
+- h
+- c
+- c
+-  
+- @
+-  
+- 0
+- 5
+- 0
+- b
+- 7
+- 2
+- c
+- e
+- .
+-  
+- P
+- r
+- o
+- o
+- f
+- s
+- :
+-  
+- ~
+- /
+- w
+- o
+- r
+- k
+- s
+- p
+- a
+- c
+- e
+- /
+- p
+- h
+- c
+- c
+- -
+- m
+- i
+- g
+- r
+- a
+- t
+- e
+- /
+-  
+- (
+- M
+- E
+- T
+- H
+- O
+- D
+- S
+- .
+- m
+- d
+- ,
+-  
+- r
+- u
+- n
+- _
+- p
+- r
+- o
+- o
+- f
+- s
+- .
+- s
+- h
+- )
+- ;
+-  
+- r
+- a
+- n
+- c
+- h
+-  
+- p
+- r
+- o
+- o
+- f
+-  
+- d
+- i
+- r
+-  
+- ~
+- /
+- p
+- h
+- c
+- c
+- -
+- m
+- i
+- g
+- r
+- a
+- t
+- e
+- -
+- p
+- r
+- o
+- o
+- f
+-  
+- o
+- n
+-  
+- a
+- l
+- e
+- t
+- h
+- e
+- i
+- a
+- -
+- c
+- o
+- r
+- e
+- .
+# Rebase the TAOPDD changes (libphext-rs PR #6)
+
+Coordinate: 38.5.5/7.5.7/5.4.9
+Issued: 2026-11-07
+Request (verbatim): rebase the taopdd changes
+Status: complete — PR #6 rebased onto exo 65913a3a and force-with-lease pushed; merge remains Will's act
+
+Notes:
+- PR #6 branch was parented on e9a977f0; exo moved when PR #7 merged (5346ce4e at last check — agent verifies live head).
+- Tests+docs only: no version change (libphext freeze, task 34.7.8/8.8.12/8.7.10).
+- Rebase done on aletheia-core (Tctl ~31C): backup branch emise/toapdd-knuth-tests-pre-rebase-2026-11-07 @ da9759cc preserved; old head da9759cc -> new head d60f18b3, sole parent = live exo HEAD 65913a3a (PR #8 merge, superseding the 5346ce4e base in the brief). Conflict-free, 1 commit replayed; all 21 files blob-identical to the original commit; no src/ or version changes — freeze untouched.
+
+Results:
+- Tests on aletheia-core (cargo test --no-fail-fast): full suite 159 passed / 0 failed; TAOPDD 96/0 across 20 binaries; library 63/0. The pre-existing helios_stalled_parse failure (358 vs 370) NO LONGER appears — it passes on the new base, presumably fixed by the PR #7/#8 merges; not touched by this rebase. PR #6 verified open via API re-read at new head d60f18b3.
+# Study learn.h5i.dev (MiniLean4) in depth
 
 Coordinate: 38.5.7/7.6.10/5.5.9
 Issued: 2026-11-06 22:56 CST
@@ -758,12 +1383,34 @@ Status: complete — full study delivered 2026-11-06
 Notes:
 - Site identified 2026-11-06: 'MiniLean4 — Implementing an Interactive Theorem Prover from Scratch' by Hideaki Takahashi (h5i-dev). A free online book building a Lean 4-style proof kernel in Rust (<3000 lines claimed), with the kernel running live in-browser (Wasm). 14 chapters + appendices A–F + bibliography; EN/JA/ZH. Repo: github.com/h5i-dev/MiniLean4.
 - Study: ~/workspace/h5i-study/STUDY.md (all 20 pages read; repo cloned, built, tests run live: 25/25 pass). Book's claims verified: kernel 1,398 lines (claim <1,500); implementation 2,219 lines excl. tests, zero Cargo dependencies (claim <3,000, no deps); positivity.rs exactly 80 lines as claimed; reduction fuel 20,000 exact; Apache-2.0; repo created 2026-10-24, 79 commits, active. Accuracy: universe design is genuinely Lean's (Sort u : Sort u+1, imax, one impredicative bottom); consistency proof sound for the CORE system only, with strong normalization imported from literature — book says so itself; inductives deferred to Werner 1994 CIC. Relevance: template for a small trusted checker in SQ's orbit + Ch.4 method for machine-checking SBOR consistency; NOT a usable proof assistant (no unification/implicits, proofs discarded at qed).
+# phcc build artifacts in the phext: assembly persistent, binaries base64, xz seal, Library 10000 region
+
+Coordinate: 38.6.7/7.6.12/8.5.10
+Issued: 2026-11-07
+Request (from session record): linker, register, F3 + build-artifact rulings (assembly persistent with provenance; all artifacts in the phext; binaries base64; xz seal; region 10000.1.1/1.1.1/1.1.1)
+Status: COMPLETE: assembly as object disassembly (no tcc -S exists — verified) at Design addresses w/ provenance + gate v6 STALE bindings; binaries base64 in Library-10000 region (168,113 B raw, +45,316 B sealed); phext.c/h placed (addendum Sec 14); whole-pass sealed cost +115,996 B; final phext 9c93ed4b…, seal 5,701,728 B; all exit checks pass (wipe isolation, seal round-trip, STALE x2, regen hashes, unpack+suite green). Not pushed. ALIGNMENT FOLLOW-ON COMPLETE (2026-11-07): region binary scrolls converted to the canonical libphext format (PR #9); provenance in the root manifest; gate v6.0.1; fetch_binary round-trip byte-identical on all 5; aligned phext 0a815078…, seal 5,700,852 B (−876 vs unaligned). Not pushed.
+# Play-test the Roads games at 6, 8, and 10 year old reference points; iterate and improve
+
+Coordinate: 38.6.7/9.5.11/5.5.10
+Issued: 2026-11-07
+Request (verbatim): do some play-testing at 6, 8, and 10 year old reference points - iterate and improve
+Status: In progress: three age-reference tester passes dispatched 2026-11-07.
+
+Notes:
+- Method: rubric-based reference-point testing (no real children available) — one tester pass per age against explicit reading/number/motor/attention profiles, auditing the shipped game files (~/workspace/roads-to-the-future/publish/*.html) plus simulating play sequences from the game logic; findings must cite evidence (UI text, target sizes, number ranges, line lengths).
+- Fixes ship as artifact edits, then re-export + re-push to wbic16/site-apertureshift-com@exo, tree-verified.
 # Push and proceed, round 2: consolidate phext lineages, publish to wbic16/phcc
 
 Coordinate: 39.7.9/6.5.8/4.4.9
 Issued: 2026-11-07
 Request (from session record): push and proceed
-Status: Dispatched: Phase 1 consolidate (Slice 4 phases + v4 Vol 3 members, Design views regenerated, gate v4 re-run); Phase 2 additive push of phcc.phext + tools/ onto 395f5d63 (no force), fresh-clone verification.
+Status: COMPLETE
+
+Notes:
+- Consolidation + both pushes completed 2026-11-07; see phcc-consolidated/REPORT.md.
+
+Results:
+- Consolidation PROVEN by full scroll-set diff: non-Vol-3 1,952 scrolls = lineage A byte-identical (0 missing/extra/differing); Vol 3 50,828 scrolls = lineage B (0/0/0); A Vol 3 coords a strict subset of B (25,647 common, 319 refined, 25,181 B-only, 0 A-only). Design views regenerated over v4 members (extract_design.py unmodified): 351 views - 196 byte-identical, 109 changed = exactly importer v4 files_rebuilt set, 46 changed by name-universe growth only, 0 other; pipeline view byte-identical, check_pipeline PASS (17 names/16 edges/0 mismatches); gap-recovered types 723 -> 2. Consolidation provenance scroll at Meta 1.1.1/1.2.10/1.11.1. Gate v4 re-run: stdout tables byte-identical to lineage A baseline (Design 351/351 current 0 STALE; receipts CURRENT; machine static PASS live, dynamic 16/16 + 24/24, binding CURRENT, 4 regressions); verdict sha256 47b7b8be8fea46c79f62370248647f6be7faf6aa947c2f636476a6e24c9e51d8, byte-reproducible (whole-file re-run identical). Canonical phcc.phext: 43,975,346 B, 52,781 scrolls, sha256 61638c143338ad942783a11141a0f1be3f66e522d4a15880b8301d2afbaa1b4f. Exit checks: reassembly 558/558 byte-identical; ranch build+test ALL TESTS PASSED. PUSHED to wbic16/phcc: additive commit 5cd3ad917002559db122b22c041209a732b1724e (phcc.phext + tools/, scripts 100755) on exo, main fast-forwarded, fresh-clone verified (sha match, modes, make test pass). Then per Will's follow-on ruling, deletion commit 4f974464d60a2116ace53207b5a2dea8a4622cca removed monolith.phext (need-check: not a build input - no build file references it; 319/319 scrolls preserved byte-identical at same coordinates in phcc.phext Vol 1); exo+main fast-forwarded; fresh clone verifies monolith absent, phext sha match, make test pass. Final tips: main = exo = 4f974464; backup branch emise/pre-slice0-2026-11-07 still at 1b102067. Report: ~/workspace/phcc-consolidated/REPORT.md.
 # Commands to prove libphext-rs with the Aeneas toolchain
 
 Coordinate: 39.10.14/12.11.16/10.10.13
@@ -778,7 +1425,7 @@ Notes:
 Coordinate: 40.4.9/5.5.10/6.4.11
 Issued: 2026-11-07
 Request (from session record): Rulings 1-10 on the phcc decision list (2026-11-07 02:47 CST)
-Status: Rulings batch: #1 corrections 117/117 DONE; #2 lshrdi3+ashrdi3 patch+tests DONE (upstream draft held); #4 publish DONE; #7 re-granulation DONE; memo DONE. Still running: #3 proof hardening (udivmoddi4). D2/D4/D9 rulings pending on the detail memo.
+Status: Rulings batch: #1 corrections 117/117 DONE; #2 patch DONE (upstream report drafted; PARKED by Will 2026-11-07 ("don't worry about that esoteric bug for now") — not pending work, do not re-surface); #3 proof hardening DONE — 271/297, T3 not granted, h7 continuation is the open item under the design task; #4 publish DONE; #7 re-granulation DONE; memo DONE.
 # V14 FINAL master — dispatched at Will's word after r3 approval
 
 Coordinate: 40.8.15/9.8.16/9.7.14
@@ -826,7 +1473,44 @@ Status: complete 2026-11-07 — script committed on provable-0.4.1, Phase 11 liv
 Notes:
 - Parent task 47.11.7/12.13.16/12.11.16. Recipe lessons to encode: opam install ./src (the ./ is load-bearing; bare 'src' silently no-ops), charon-ml deps via opam install ./charon, aeneas make SERIALLY (parallel MAKEFLAGS races dune's _build lock), charon built with RUSTUP_TOOLCHAIN from its rust-toolchain file (nightly-2026-09-17, host target only), Lean version read from aeneas/backends/lean/lean-toolchain (v4.35.0), set -euo pipefail throughout.
 - Closed 2026-11-07. scripts/install-proof-tools.sh committed on provable-0.4.1 (cd18d83; published to the remote branch in the PR #7 stack, mode 100755 verified) and exocortical setup.sh gained Phase 11 running it from its /source/libphext-rs clone (published to wbic16/exocortical exo as 34452c9c). The script codifies the recipe verified manually on aletheia-core; not yet run end-to-end from a clean machine.
-# PR: libphext-rs v0.4.1 provably correct (Aeneas pipeline)
+# phcc phext capability parity with libphext-rs (C developer library)
+
+Coordinate: 41.10.7/11.11.14/11.10.15
+Issued: 2026-11-07
+Request (from session record): make sure phcc has every capability libphext-rs has, so developers can quickly handle phext data
+Status: COMPLETE + PUSHED @ 8b56ea22 (77/77 parity; 163,831 checks 0 failures under gcc and phcc; fuzz 40,000 cases 0 divergences). D-2 marked RESOLVED in phext/PARITY.md by commit 7ead6f12 (main=exo) after libphext-rs PR #8 merged (in-tree 0.4.2, unpublished).
+
+Notes:
+- Phase A parity matrix: ~/workspace/phcc-libphext/PARITY.md (also committed as phext/PARITY.md). 77 capabilities audited from libphext-rs v0.4.1 source: 26 constants, 7 types, 17 Coordinate-surface items, 27 free functions - 77 with C counterparts, 0 gaps.
+- Divergences of record: D-2 strict parse returns PHEXT_EFORMAT/PHEXT_ENUMBER where Rust TryFrom panics; D-3 C API byte-oriented, no UTF-8 validation; D-4 map sorted (implode identical); D-5 summary display truncation; D-6 lenient parse wraps like Rust release.
+- Phase B: new top-level phext/ dir in a copy of the phcc tree on base 395f5d63 (F1) - phext.h (380 lines), phext.c (1,921 lines, incl. scalar XXH3-128 port), README, tests. Additive only; tcc.h/tccpp.c preprocessor counters untouched - wiring them to the library is the named F3-candidate follow-on, not done.
+- Phase C: ported libphext-rs tests (49 test_lib + 8 test_phokenize + 1 regressions = 58 functions, same vectors): 163,831 checks, 0 failures under gcc AND under the freshly built phcc itself on aletheia-core (dogfood; phcc make test also passes). Differential fuzz vs Rust reference driver on libphext-rs 0.4.1: 40,000 cases, 2 seeds, 24 op classes, 0 divergences on defined behaviour (339 Rust panics total, all the D-2 parse class). Fuzz harness kept outside the repo at ~/workspace/phcc-libphext/fuzz/.
+- Phase D: PATCHES.md gained per-file rows + entry F2. LOCAL commit 66ef47108f6580995a654a32e4ecb990b837420d on top of 395f5d63 (9 files, +4,674). NOT PUSHED - parent sequences the push (remote main has since advanced via the consolidation and pack/unpack passes, so the push will need a rebase/merge decision by the parent).
+
+Results:
+- libphext-rs 0.4.1 parity inside phcc: 77/77 capabilities with C counterparts, 0 gaps (phext/PARITY.md).
+- Conformance: 163,831 checks, 0 failures under gcc; 163,831 checks, 0 failures under phcc itself (dogfood).
+- Differential fuzz: 40,000 cases, 0 divergences on defined behaviour.
+- Local commit ready to push: 66ef47108f6580995a654a32e4ecb990b837420d (on top of 395f5d63).
+# Slice 5: value-stack state machine (design machine #2, tccgen.c)
+
+Coordinate: 42.4.6/5.5.11/7.5.11
+Issued: 2026-11-07
+Request (from session record): continue (Will, 2026-11-07, alongside the libphext-rs PR direction)
+Status: COMPLETE + PUBLISHED: Slice 5 output (6029562c…) merged with the hardened receipts into the canonical phext 646144c7… and pushed as wbic16/phcc 7573c4b8 (main=exo). Gate v5 on the merged file: machine #2 PASS, binding CURRENT; whole file byte-reproducible.
+
+Notes:
+- Base note: built on the consolidated canonical phext (61638c14...) per brief; the receipts-port copy (cebcd917...) is a sibling lineage on the same base - merging the two additive scroll sets is the parent's sequencing call.
+
+Results:
+- Machine scroll at Design 1.1.1/3.2.3/1.1.2: 8 states / 25 events / 73 transitions / 9 invariants, derived from tccgen.c in the consolidated phext; 7 interpretation notes marked (N3: I3 rests mostly on mechanism + enumerated call-site discipline; N6: expr_cond parks its then-value off-stack).
+- Static: tools/check_vstack.py PASS, 0 violations; 25/25 event functions resolve to Vol 3 def members of tccgen.c. First runs caught a checker regex defect (ev_gv2 dropped) and real scroll errors (vcheck_cmp materializes via gv(RC_INT), not gvtst_set) - scroll corrected to the code.
+- Dynamic (ranch, phcc @ 8b56ea22): authored 26/26 PASS (24 model tests: model == phcc == gcc, traces legal vs the scroll; O01/O02 oracle-only phcc == gcc); tests2 corpus 24/24 match .expect. Trace tests at Tests 1.1.1/5.2.3/1.1.229-254.
+- Regressions: 5 filed at Regressions 1.1.1/6.2.3/1.1.1-5, all Changelog-sourced (0.9.22:204 value stack full -> I1; 0.9.13:320 + 0.9.7:411 long long register spill -> I7; 0.9.10:359 lvalue type saved -> I7; 0.9.7:412 ?: register spill -> expr_cond save_regs).
+- Gate v5.0.0: Slice 1-4 sections reproduce byte-identically on the base (baseline + machine-#2-absent block only); verdict at Meta 1.1.1/1.2.10/1.12.1 (sha 786fc893...), register at Sec 13, binding CURRENT; verdict reproduces byte-identically.
+- Exit test PASS: vcheck_cmp() removed from vsetc in a scratch ranch copy -> exactly the 4 CMP-burying tests diverged (V06: 0 vs 1; V08: 1 vs 0; V09: 0 vs 10; V10: garbage vs 0 1 0 1), 22 others held; violated transition CMP --ev_check_cmp [...]--> REG named. V10 reclassified as burying by the exit test itself.
+- Output: ~/workspace/phcc-slice5/phcc.phext, 49,197,656 B, SHA-256 6029562c5e84fc2b9feec6299d089e4c8945df3d0e428884e8620f61fd0b1b3a; additive proof: 52,781 base scrolls 0 missing / 0 changed, exactly 34 added. Report: ~/workspace/phcc-slice5/REPORT.md.
+# PR: libphext-rs v0.4.1 provably correct (Aeneas pipeline)
 
 Coordinate: 47.11.7/12.13.16/12.11.16
 Issued: 2026-11-06 23:57 CST
@@ -836,7 +1520,1892 @@ Status: complete 2026-11-07 — PR #7 open on wbic16/libphext-rs (provable-0.4.1
 Notes:
 - Plan: (1) v0.4.1 changes: safe rewrite of expand/contract (kill the 2 unsafe blocks), version bump; (2) Charon+Aeneas toolchain on aletheia-core; (3) proofs/ Lean project in-repo: generated code, xxhash external model, specs + kernel-checked proofs for the tractable core; (4) PR with the trust ledger stated (translator trusted, floor = Lean kernel), remaining surface enumerated honestly.
 - Closed 2026-11-07 ~02:45 CST. Toolchain built on aletheia-core (Charon at pin, Aeneas c5eb4a2, Lean 4.35.0). Crate prep on branch provable-0.4.1: v0.4.1 bump + zero unsafe (1d34089); helios dual-length fix (also merged to exo as dc58df21); five translator-driven rewrites, each bisected against minimal repros first: Vec::collect -> push loops; Pattern-trait str APIs -> manual split_on + byte contains; char<->int casts purged for byte-twin constants (SCROLL_BREAK_U8 etc.), create_summary byte scan; Iterator::chain/skip/take -> sequential/index loops; split_on returns owned Strings; phext parameters renamed input (Lean namespace collision). Tests 58/58 after every step. Extraction: zero errors, zero sorry; generated model = 301 defs; proofs/ lake build green (1,809 jobs) including three kernel-checked specs (advance_coordinate, default_coordinate, is_phext_break) in Libphext/Properties/Basic.lean. Trust ledger in PR #7 and proofs/README.md: 62 external axioms (incl. xxh3_128 uninterpreted; checksum verified only relative to its signature), explode/implode opaque (HashMap has no Lean model), translators + Aeneas stdlib models trusted. Branch published by API replay of the 8 local commits onto exo head dc58df21; remote head f36d2c2; blob hashes and 100755 script modes verified after publish.
-# X list 2116659176894071283 - identify and report
+# Slice 7: register allocation state machine
+
+Coordinate: 49.3.6/4.4.12/5.3.10
+Issued: 2026-11-07
+Request (from session record): continue: register machine
+Status: Complete 2026-11-07.
+
+Notes:
+- Bounding: shared allocator core in tccgen.c + per-backend register files; occupancy derived from the value stack, never stored (projection states, scroll note N1). x86_64 primary instance, arm64 delta instance (static-only; gfunc_call is an extractor gap in Vol 3, not an event). Meta Secs 14/15 left for sibling Slice 6; Slice 7 claims Secs 16 (register) / 17 (verdict). Parent merges: gate verdict must be regenerated on the merged base, never file-copied.
+
+Results:
+- Machine #4 register allocation COMPLETE. x86_64 machine Design 1.1.1/3.2.6/1.1.2: 6 states, 11 events, 26 transitions, 10 invariants. arm64 instance Design 1.1.1/3.2.6/4.1.2: 5 states, 10 events, 16 transitions, 5 invariants. Cross-reference Design 1.1.1/3.2.3/1.1.3.
+- Static checker (tools/check_regalloc.py): PASS, 0 violations; event functions resolved 11/11 + 10/10 against Vol 3 def members.
+- Dynamic: 8/8 authored trace tests (Tests 1.1.1/5.2.6/1.1.1-8; independent allocator model + ranch phcc == gcc == expectation + objdump emitted-code checks) and 6/6 tests2 corpus.
+- Regressions REG6-REG8 at Regressions 1.1.1/6.2.3/1.1.6-8 (Changelog-sourced; Slice 5 spill entries cross-referenced, not duplicated).
+- Exit test PASS: seeded store() removal at tccgen.c:1434 (violates I4 save-before-free / HELD --ev_save_reg--> FREE) caught by exactly R02 and R03; corpus collateral 4/6 under the seed.
+- Gate v7.0.0: prior sections reproduce byte-identically on base; machine-#4 section static PASS + binding CURRENT; verdict Meta 1.1.1/1.2.10/1.17.1 SHA c2eb1545..., re-run byte-identical.
+- Output: ~/workspace/phcc-slice7/phcc.phext SHA-256 6aecde52ce756dd985eb3dcb366896d89f7d9a204f7d3bfda7d8074ca2b0df99 (54,404,295 B, 52,832 scrolls; base scrolls all byte-identical). Report: ~/workspace/phcc-slice7/REPORT.md.
+# F3: wire preprocessor phext counters to the phext/ library
+
+Coordinate: 49.5.7/7.6.10/6.5.11
+Issued: 2026-11-07
+Request (from session record): continue: F3
+Status: COMPLETE + PUSHED (2026-11-07): wbic16/phcc main = exo = ef453cdc (format-patch transport of local 550327c5 onto 7573c4b8; tree 8c50e23e identical; patch SHA-256 verified in transit). Fresh-clone verified: PATCHES.md F3 entry, tcc.h includes phext/phext.h, make test ALL TESTS PASSED, phext conformance 163,831 checks / 0 failures under gcc.
+# phcc hard conformance programme: gcc, clang, MSVC oracles
+
+Coordinate: 50.3.5/4.3.8/3.3.9
+Issued: 2026-11-07
+Request (from session record): hard compatibility conformance with gcc, clang, and msvc.
+Status: Slice 1 executed (333 probes; baseline 326/333, 2 class-(a) HIGH defects) AND both defects FIXED by F5 (local commit e399b212 on attrfix, not pushed). Post-fix corpus: 328/333 three-way, only 4 documented class-(b) divergences remain, zero class-(a). MSVC = Will manual attestation at merge (not attested). Awaiting parent publication sequencing + phext refresh for the STALE bindings.
+
+Notes:
+- Design: ~/workspace/goals/finish-phcc/files/phcc-conformance-design.md — claim, (a)/(b)/(c) classification with no-unclassified rule, tiers A/B/C, phext Book-11 corpus layout + report-only gate section designed (rides next gate version; no gate copy edited).
+- MSVC (Will, 2026-11-07: "I'll confirm msvc compatibility manually when I merge."): the MSVC column is a manual attestation (signer Will Bickford + date + scope bound to manifest hash and phcc commit, T0-waiver pattern). Runner only emits NOT ATTESTED; never presented as an automated run; never in percentages.
+- Windows (Will, 2026-11-07: "I'll be using phcc on Windows and Linux."): Windows x86_64 is a primary use platform; PE target, __declspec, MSVC-mode pragmas, SDK header compatibility are a named tier surface whose oracle is the manual attestation.
+- Slice 1 ran on aletheia-core: gcc 13.3.0, clang 18.1.3 (verified present), phcc F3-state build (tcc 1.0.0 main@7573c4b8*, tree = ef453cdc).
+
+Results:
+- Matrix: 333 probes (A 289 / B 22 / C 22, incl. 3 negative). gcc==clang 333/333; three-way agreement 326/333; per tier A 288/289, B 16/22, C 22/22; 0 oracle splits, 0 unclassified divergences.
+- DEFECT REG-CONF-1 (HIGH, silent): __attribute__((packed)) inert on ordinary structs — phcc 8/4 vs oracles 5/1 in all three placements and the __packed__ spelling; tcc-doc indexes packed as supported.
+- DEFECT REG-CONF-2 (HIGH, silent): __attribute__((aligned(16))) inert — type 1/1 vs 16/16; aligned global placed at 8 mod 16 vs 0.
+- Class (b): __STDC_VERSION__ 199901 vs 201710 (documented C99 dialect level; auto-reclassifies to (a) if C11/C17 claimed); _Complex unsupported (tcc-doc explicitly lists complex as missing; slice-1 Tier B inclusion corrected as scoping error); __builtin_bswap32/16 unresolved at link (absent from doc builtin list; link-time wart noted); __auto_type parse-rejected (unclaimed).
+- Tier C: all 22 impl-defined catalogue items agree with both oracles (char signed, arithmetic right shift, long double 16/16, bitfield signedness, float macros...).
+- Run-1 probe defects caught + fixed + disclosed (complex.h included in all B probes; unspecified arg evaluation order in a_atomic_004 caused the only oracle split). Headline numbers are run 2.
+- Bindings: manifest sha256 c6eebb8a0146406373cb8bf9578455586148c696340f3b9b04c6dcbf63539cbb; results sha256 b3c23baef07298f7b9dea32475533f4bc59666f8814595c112daa3463027cf97 (byte-verified). Report: ~/workspace/phcc-conformance/REPORT.md. Nothing pushed; canonical phext untouched (Book-11 delta proposed in report).
+-  
+- F
+- 5
+-  
+- F
+- I
+- X
+-  
+- C
+- O
+- M
+- P
+- L
+- E
+- T
+- E
+-  
+- (
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 0
+- 7
+- )
+- :
+-  
+- c
+- o
+- m
+- m
+- i
+- t
+- t
+- e
+- d
+-  
+- l
+- o
+- c
+- a
+- l
+- l
+- y
+-  
+- o
+- n
+-  
+- a
+- l
+- e
+- t
+- h
+- e
+- i
+- a
+- -
+- c
+- o
+- r
+- e
+- ,
+-  
+- b
+- r
+- a
+- n
+- c
+- h
+-  
+- a
+- t
+- t
+- r
+- f
+- i
+- x
+- ,
+-  
+- e
+- 3
+- 9
+- 9
+- b
+- 2
+- 1
+- 2
+-  
+- (
+- p
+- a
+- r
+- e
+- n
+- t
+-  
+- 9
+- 4
+- 8
+- 9
+- 8
+- f
+- f
+- 9
+- )
+- ,
+-  
+- N
+- O
+- T
+-  
+- p
+- u
+- s
+- h
+- e
+- d
+-  
+- —
+-  
+- p
+- a
+- r
+- e
+- n
+- t
+-  
+- s
+- e
+- q
+- u
+- e
+- n
+- c
+- e
+- s
+-  
+- p
+- u
+- b
+- l
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+- .
+-  
+- R
+- o
+- o
+- t
+-  
+- c
+- a
+- u
+- s
+- e
+- :
+-  
+- p
+- r
+- e
+- p
+- r
+- o
+- c
+- e
+- s
+- s
+- e
+- d
+-  
+- a
+- w
+- a
+- y
+- ,
+-  
+- n
+- e
+- v
+- e
+- r
+-  
+- p
+- a
+- r
+- s
+- e
+- d
+-  
+- —
+-  
+- n
+- o
+-  
+- _
+- _
+- G
+- N
+- U
+- C
+- _
+- _
+- /
+- _
+- _
+- c
+- l
+- a
+- n
+- g
+- _
+- _
+-  
+- p
+- r
+- e
+- d
+- e
+- f
+- i
+- n
+- e
+- ,
+-  
+- s
+- o
+-  
+- g
+- l
+- i
+- b
+- c
+-  
+- s
+- y
+- s
+- /
+- c
+- d
+- e
+- f
+- s
+- .
+- h
+-  
+- d
+- e
+- f
+- i
+- n
+- e
+- s
+-  
+- _
+- _
+- a
+- t
+- t
+- r
+- i
+- b
+- u
+- t
+- e
+- _
+- _
+- (
+- x
+- y
+- z
+- )
+-  
+- e
+- m
+- p
+- t
+- y
+-  
+- a
+- n
+- d
+-  
+- t
+- c
+- c
+- p
+- p
+-  
+- m
+- a
+- c
+- r
+- o
+- -
+- e
+- x
+- p
+- a
+- n
+- d
+- e
+- d
+-  
+- t
+- h
+- e
+-  
+- k
+- e
+- y
+- w
+- o
+- r
+- d
+-  
+- t
+- o
+- k
+- e
+- n
+-  
+- (
+- t
+- o
+- k
+-  
+- >
+- =
+-  
+- T
+- O
+- K
+- _
+- I
+- D
+- E
+- N
+- T
+- )
+-  
+- i
+- n
+-  
+- n
+- e
+- x
+- t
+- (
+- )
+-  
+- a
+- n
+- d
+-  
+- m
+- a
+- c
+- r
+- o
+- _
+- s
+- u
+- b
+- s
+- t
+- (
+- )
+- ;
+-  
+- l
+- a
+- y
+- o
+- u
+- t
+-  
+- m
+- a
+- c
+- h
+- i
+- n
+- e
+- r
+- y
+-  
+- w
+- a
+- s
+-  
+- i
+- n
+- t
+- a
+- c
+- t
+-  
+- (
+- h
+- e
+- a
+- d
+- e
+- r
+- -
+- f
+- r
+- e
+- e
+-  
+- T
+- U
+- s
+-  
+- c
+- o
+- r
+- r
+- e
+- c
+- t
+- )
+- .
+-  
+- t
+- c
+- c
+- p
+- p
+- .
+- c
+- :
+-  
+- a
+- t
+- t
+- r
+- i
+- b
+- u
+- t
+- e
+-  
+- t
+- o
+- k
+- e
+- n
+- s
+-  
+- n
+- e
+- v
+- e
+- r
+-  
+- s
+- u
+- b
+- s
+- t
+- i
+- t
+- u
+- t
+- e
+- d
+- ;
+-  
+- #
+- i
+- f
+- d
+- e
+- f
+-  
+- s
+- e
+- m
+- a
+- n
+- t
+- i
+- c
+- s
+-  
+- u
+- n
+- c
+- h
+- a
+- n
+- g
+- e
+- d
+- .
+-  
+- t
+- c
+- c
+- g
+- e
+- n
+- .
+- c
+- :
+-  
+- f
+- i
+- e
+- l
+- d
+-  
+- a
+- l
+- i
+- g
+- n
+- m
+- e
+- n
+- t
+-  
+- r
+- e
+- s
+- o
+- l
+- v
+- e
+- d
+-  
+- b
+- y
+-  
+- o
+- r
+- i
+- g
+- i
+- n
+-  
+- (
+- t
+- y
+- p
+- e
+- d
+- e
+- f
+- -
+- c
+- a
+- r
+- r
+- i
+- e
+- d
+-  
+- r
+- e
+- p
+- l
+- a
+- c
+- e
+- s
+-  
+- n
+- a
+- t
+- u
+- r
+- a
+- l
+-  
+- /
+-  
+- d
+- e
+- c
+- l
+- a
+- r
+- a
+- t
+- o
+- r
+-  
+- r
+- a
+- i
+- s
+- e
+- -
+- o
+- n
+- l
+- y
+-  
+- /
+-  
+- p
+- a
+- c
+- k
+- e
+- d
+-  
+- t
+- o
+-  
+- 1
+-  
+- f
+- i
+- r
+- s
+- t
+- ,
+-  
+- b
+- i
+- t
+- f
+- i
+- e
+- l
+- d
+- s
+-  
+- e
+- x
+- c
+- l
+- u
+- d
+- e
+- d
+- )
+- ,
+-  
+- p
+- a
+- c
+- k
+- e
+- d
+-  
+- e
+- n
+- u
+- m
+- s
+-  
+- p
+- i
+- c
+- k
+-  
+- s
+- m
+- a
+- l
+- l
+- e
+- s
+- t
+-  
+- h
+- o
+- l
+- d
+- i
+- n
+- g
+-  
+- i
+- n
+- t
+- e
+- g
+- e
+- r
+-  
+- t
+- y
+- p
+- e
+-  
+- (
+- u
+- n
+- s
+- i
+- g
+- n
+- e
+- d
+-  
+- i
+- f
+-  
+- n
+- o
+-  
+- n
+- e
+- g
+- a
+- t
+- i
+- v
+- e
+-  
+- e
+- n
+- u
+- m
+- e
+- r
+- a
+- t
+- o
+- r
+- )
+- ,
+-  
+- _
+- A
+- l
+- i
+- g
+- n
+- o
+- f
+- (
+- t
+- y
+- p
+- e
+- d
+- e
+- f
+- )
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+- s
+-  
+- c
+- a
+- r
+- r
+- i
+- e
+- d
+-  
+- a
+- l
+- i
+- g
+- n
+- m
+- e
+- n
+- t
+-  
+- v
+- i
+- a
+-  
+- s
+- i
+- d
+- e
+-  
+- c
+- h
+- a
+- n
+- n
+- e
+- l
+- s
+-  
+- (
+- t
+- y
+- p
+- e
+- d
+- e
+- f
+- _
+- a
+- l
+- i
+- g
+- n
+- e
+- d
+- ,
+-  
+- s
+- o
+- t
+- y
+- p
+- e
+- _
+- a
+- l
+- i
+- g
+- n
+- e
+- d
+- )
+- .
+-  
+- A
+- l
+- s
+- o
+-  
+- f
+- i
+- x
+- e
+- d
+- :
+-  
+- m
+- e
+- m
+- b
+- e
+- r
+-  
+- a
+- l
+- i
+- g
+- n
+- e
+- d
+-  
+- d
+- e
+- c
+- r
+- e
+- a
+- s
+- i
+- n
+- g
+-  
+- w
+- i
+- t
+- h
+- o
+- u
+- t
+-  
+- p
+- a
+- c
+- k
+- e
+- d
+- ;
+-  
+- s
+- t
+- r
+- u
+- c
+- t
+-  
+- p
+- a
+- c
+- k
+- e
+- d
+-  
+- n
+- o
+- t
+-  
+- o
+- v
+- e
+- r
+- r
+- i
+- d
+- i
+- n
+- g
+-  
+- t
+- y
+- p
+- e
+- d
+- e
+- f
+- -
+- c
+- a
+- r
+- r
+- i
+- e
+- d
+-  
+- a
+- l
+- i
+- g
+- n
+- m
+- e
+- n
+- t
+- .
+-  
+- N
+- u
+- m
+- b
+- e
+- r
+- s
+- :
+-  
+- c
+- o
+- r
+- p
+- u
+- s
+-  
+- r
+- e
+- -
+- r
+- u
+- n
+-  
+- —
+-  
+- e
+- x
+- a
+- c
+- t
+- l
+- y
+-  
+- b
+- _
+- g
+- n
+- u
+- _
+- 0
+- 1
+- 0
+- +
+- b
+- _
+- g
+- n
+- u
+- _
+- 0
+- 1
+- 1
+-  
+- c
+- h
+- a
+- n
+- g
+- e
+- d
+-  
+- v
+- s
+-  
+- b
+- a
+- s
+- e
+- l
+- i
+- n
+- e
+- ,
+-  
+- b
+- o
+- t
+- h
+-  
+- n
+- o
+- w
+-  
+- t
+- h
+- r
+- e
+- e
+- -
+- w
+- a
+- y
+-  
+- a
+- g
+- r
+- e
+- e
+- i
+- n
+- g
+- ;
+-  
+- 3
+- 2
+- 8
+- /
+- 3
+- 3
+- 3
+-  
+- w
+- i
+- t
+- h
+-  
+- o
+- n
+- l
+- y
+-  
+- t
+- h
+- e
+-  
+- 4
+-  
+- c
+- l
+- a
+- s
+- s
+- -
+- (
+- b
+- )
+-  
+- i
+- t
+- e
+- m
+- s
+-  
+- d
+- i
+- v
+- e
+- r
+- g
+- i
+- n
+- g
+- ;
+-  
+- l
+- a
+- y
+- o
+- u
+- t
+-  
+- f
+- u
+- z
+- z
+-  
+- 3
+- 0
+- 0
+-  
+- f
+- i
+- l
+- e
+- s
+-  
+- /
+-  
+- ~
+- 1
+- 5
+- 0
+- 0
+-  
+- l
+- a
+- y
+- o
+- u
+- t
+- s
+-  
+- v
+- s
+-  
+- g
+- c
+- c
+- +
+- c
+- l
+- a
+- n
+- g
+-  
+- =
+-  
+- 0
+-  
+- d
+- i
+- v
+- e
+- r
+- g
+- e
+- n
+- c
+- e
+- s
+- ;
+-  
+- t
+- y
+- p
+- e
+- d
+- e
+- f
+-  
+- a
+- l
+- i
+- g
+- n
+- m
+- e
+- n
+- t
+-  
+- g
+- r
+- i
+- d
+-  
+- 2
+- 4
+- 0
+- /
+- 2
+- 4
+- 0
+-  
+- b
+- y
+- t
+- e
+- -
+- i
+- d
+- e
+- n
+- t
+- i
+- c
+- a
+- l
+-  
+- t
+- o
+-  
+- B
+- O
+- T
+- H
+-  
+- o
+- r
+- a
+- c
+- l
+- e
+- s
+- ;
+-  
+- m
+- a
+- k
+- e
+-  
+- t
+- e
+- s
+- t
+-  
+- A
+- L
+- L
+-  
+- T
+- E
+- S
+- T
+- S
+-  
+- P
+- A
+- S
+- S
+- E
+- D
+- ;
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- p
+- a
+- r
+- i
+- t
+- y
+-  
+- 1
+- 6
+- 3
+- ,
+- 8
+- 3
+- 1
+- /
+- 0
+-  
+- u
+- n
+- d
+- e
+- r
+-  
+- g
+- c
+- c
+-  
+- a
+- n
+- d
+-  
+- u
+- n
+- d
+- e
+- r
+-  
+- f
+- i
+- x
+- e
+- d
+-  
+- p
+- h
+- c
+- c
+- ;
+-  
+- f
+- o
+- u
+- r
+-  
+- S
+- -
+- A
+- .
+- 3
+-  
+- m
+- a
+- c
+- h
+- i
+- n
+- e
+-  
+- s
+- t
+- a
+- t
+- i
+- c
+-  
+- c
+- h
+- e
+- c
+- k
+- e
+- r
+- s
+-  
+- P
+- A
+- S
+- S
+-  
+- v
+- s
+-  
+- c
+- a
+- n
+- o
+- n
+- i
+- c
+- a
+- l
+-  
+- p
+- h
+- e
+- x
+- t
+- .
+-  
+- O
+- r
+- a
+- c
+- l
+- e
+-  
+- s
+- p
+- l
+- i
+- t
+- s
+-  
+- f
+- o
+- l
+- l
+- o
+- w
+- e
+- d
+-  
+- n
+- o
+- t
+-  
+- c
+- h
+- a
+- s
+- e
+- d
+- :
+-  
+- e
+- n
+- u
+- m
+-  
+- _
+- A
+- l
+- i
+- g
+- n
+- o
+- f
+- +
+- a
+- l
+- i
+- g
+- n
+- e
+- d
+-  
+- (
+- g
+- c
+- c
+- )
+- ,
+-  
+- r
+- a
+- w
+-  
+- t
+- y
+- p
+- e
+- -
+- i
+- d
+-  
+- a
+- t
+- t
+- r
+- i
+- b
+- u
+- t
+- e
+- s
+-  
+- (
+- g
+- c
+- c
+- )
+- ,
+-  
+- a
+- l
+- i
+- g
+- n
+- e
+- d
+-  
+- g
+- l
+- o
+- b
+- a
+- l
+-  
+- d
+- e
+- c
+- r
+- e
+- a
+- s
+- e
+-  
+- (
+- c
+- l
+- a
+- n
+- g
+- ,
+-  
+- p
+- r
+- e
+- -
+- e
+- x
+- i
+- s
+- t
+- i
+- n
+- g
+- )
+- .
+-  
+- S
+- T
+- A
+- L
+- E
+-  
+- o
+- n
+-  
+- n
+- e
+- x
+- t
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- r
+- e
+- f
+- r
+- e
+- s
+- h
+- :
+-  
+- S
+- o
+- u
+- r
+- c
+- e
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- t
+- c
+- c
+- p
+- p
+- .
+- c
+-  
+- +
+-  
+- t
+- c
+- c
+- g
+- e
+- n
+- .
+- c
+- ;
+-  
+- m
+- a
+- c
+- h
+- i
+- n
+- e
+-  
+- #
+- 1
+-  
+- b
+- i
+- n
+- d
+- i
+- n
+- g
+-  
+- (
+- t
+- c
+- c
+- p
+- p
+- .
+- c
+- )
+- ;
+-  
+- m
+- a
+- c
+- h
+- i
+- n
+- e
+- s
+-  
+- #
+- 2
+-  
+- +
+-  
+- #
+- 4
+-  
+- b
+- i
+- n
+- d
+- i
+- n
+- g
+- s
+-  
+- (
+- t
+- c
+- c
+- g
+- e
+- n
+- .
+- c
+- )
+- ;
+-  
+- D
+- e
+- s
+- i
+- g
+- n
+-  
+- v
+- i
+- e
+- w
+- s
+-  
+- f
+- o
+- r
+-  
+- b
+- o
+- t
+- h
+-  
+- f
+- i
+- l
+- e
+- s
+- ;
+-  
+- g
+- a
+- t
+- e
+-  
+- v
+- e
+- r
+- d
+- i
+- c
+- t
+- .
+-  
+- U
+- n
+- t
+- o
+- u
+- c
+- h
+- e
+- d
+- :
+-  
+- m
+- a
+- c
+- h
+- i
+- n
+- e
+-  
+- #
+- 3
+-  
+- (
+- t
+- c
+- c
+- e
+- l
+- f
+- .
+- c
+- )
+- ,
+-  
+- l
+- i
+- b
+- t
+- c
+- c
+- 1
+-  
+- p
+- r
+- o
+- o
+- f
+-  
+- r
+- e
+- c
+- e
+- i
+- p
+- t
+- s
+- ,
+-  
+- a
+- s
+- s
+- e
+- m
+- b
+- l
+- y
+-  
+- l
+- i
+- s
+- t
+- i
+- n
+- g
+- s
+- ,
+-  
+- b
+- u
+- i
+- l
+- d
+-  
+- r
+- e
+- g
+- i
+- o
+- n
+- .
+-  
+- P
+- A
+- T
+- C
+- H
+- E
+- S
+- .
+- m
+- d
+-  
+- F
+- 5
+-  
+- f
+- i
+- l
+- e
+- d
+-  
+- (
+- s
+- i
+- n
+- g
+- l
+- e
+-  
+- e
+- n
+- t
+- r
+- y
+- ,
+-  
+- s
+- u
+- b
+- -
+- p
+- a
+- r
+- t
+- s
+-  
+- p
+- e
+- r
+-  
+- r
+- o
+- o
+- t
+-  
+- c
+- a
+- u
+- s
+- e
+- )
+- .
+# X list 2116659176894071283 - identify and report
 
 Coordinate: 51.4.4/6.5.10/5.5.13
 Issued: 2026-11-07
@@ -874,3 +3443,15 @@ Results:
 - Staged: https://elven-path.pizzly-halfmoon.ts.net/v13-prepass.mp4 (HTTP 206 range check passed).
 - PREPASS-REPORT.md + gate stills/contact sheet in files/v13-build/; render14.py archived alongside; compute 2.21 node-h measured (~2.3 with finish/verify), folded into film-compute-estimates.md.
 - Verification: exact frame count 6,820; PIL load-check 6,820/6,820 clean pre-assembly; luma scan max |dYAVG| 5.20, zero jumps > 8; frame at 279.5 s shows SINGULARITY UNLOCKED.
+# Fix libphext-rs: coordinate parse returns Err, never panics
+
+Coordinate: 56.12.4/13.14.17/12.12.18
+Issued: 2026-11-07
+Request (from session record): Fix libphext-rs: parse returns Err, never panics
+Status: COMPLETE: PR #8 open on wbic16/libphext-rs (branch c7199bf2); merge is Will’s. After merge: mark PARITY.md D-2 resolved in phcc.
+# libphext-rs: binary + xz support as a canonical feature
+
+Coordinate: 57.10.6/11.12.18/13.10.17
+Issued: 2026-11-07
+Request (from session record): add binary and xz support to libphext-rs as a canonical feature
+Status: COMPLETE: PR #9 open on wbic16/libphext-rs (branch emise/binary-xz-support @ a302803, version 0.5.0); merge + crates.io publish are Will’s. Tests 63/73/68/78 by feature set, 0 failed.
