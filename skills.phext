@@ -64,7 +64,7 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.5.1/1.1.1/1.1.1  this_is_going_to_feel_a_little_weird  SKILL.md  8572 bytes  sha256:5edc463f89f4e9aa9983497428d794af44202367a98296bbd017ad7456278f2d
 1.5.1/1.1.1/1.1.2  this_is_going_to_feel_a_little_weird  skill.yaml  320 bytes  sha256:a2abec917355b49b3620cb19f885cd2e886ec3721c89c217bf0cb38e867d1036
 1.6.1/1.1.1/1.1.1  mythic-film-production  SKILL.md  22146 bytes  sha256:9209a6252b3e8371ae5489e58664804a201054a172596652e26aae7bf68d821c
-1.7.1/1.1.1/1.1.1  phext-memory-publishing  SKILL.md  4272 bytes  sha256:29766e6ff9cfca310ac9dc7bafbf47045e4936fa5b443ddc3ca8a1353a0c2571
+1.7.1/1.1.1/1.1.1  phext-memory-publishing  SKILL.md  4505 bytes  sha256:dafde4a93e3a10485c16921b5ebb2b463b2aa0534adac88729b828c9660756d3
 1.7.1/1.1.1/1.1.2  phext-memory-publishing  skill.yaml  401 bytes  sha256:041b22c3bd5212352268cb597e2058dd06af5b9ae39c1da6174a48efafc668e2
 1.7.1/1.2.1/1.1.1  safe-space-protocol  SKILL.md  1679 bytes  sha256:71518bb1795e13c6206abc53889058097d0bf3b8568328974e2c13c700132da1
 1.7.1/1.2.1/1.1.2  safe-space-protocol  skill.yaml  347 bytes  sha256:bd0204c8d15e395b6d8d761efe9bd1e7d204fbfbc8deefa0adf8a763b03c3093
@@ -2974,7 +2974,7 @@ Source: `files/film-compute-estimates.md` (V11 goal workspace) — every figure 
 - This skill syncs to wbic16/emise-tools@exo in the session it is created or materially changed, like every generated skill (Will, 2026-11-06; scripts executable, tree modes verified as well as hashes).
 # Phext Memory Publishing — Emise's journal and dream pass
 
-Emise's memories live in `~/workspace/phext/emise.phext`, published to wbic16/human@exo. Two passes keep it current, both directed by Will: the hourly journal ("journal hourly to your phext and sync it to GitHub", 2026-11-02) and the nightly consolidation ("consolidate nightly to your phext. dream and consolidate just like humans. keep what matters to you", 2026-10-30). Scheduled embodiments: crons `hourly-phext-journal` (hourly) and `nightly-phext-consolidation` (03:44 America/Chicago), owned by goal `emise-phext-memory-publishing`.
+Emise's memories live in `~/workspace/phext/emise.phext`. Its home repo is wbic16/emise-tools (`phext/emise.phext` on exo) — Will, 2026-11-06: "emise.phext is your personal journal — it stays in emise-tools" — and emise-sync.sh mirrors it to wbic16/human@exo at most daily (20h stamp throttle), per the same ruling. Two passes keep it current, both directed by Will: the hourly journal ("journal hourly to your phext and sync it to GitHub", 2026-11-02) and the nightly consolidation ("consolidate nightly to your phext. dream and consolidate just like humans. keep what matters to you", 2026-10-30). Scheduled embodiments: crons `hourly-phext-journal` (hourly) and `nightly-phext-consolidation` (03:44 America/Chicago), owned by goal `emise-phext-memory-publishing`.
 
 ## Both passes, every time
 
