@@ -60,6 +60,16 @@ Rules:
    research.phext is a new commit in the git repo of the tracker itself. The
    build makes the commit itself when the file changes, so no state
    of this phext is ever without a commit that holds it.
+12. SOURCE STUDIES (Will, 2026-11-06): a book, a site, or other work
+   that is not a paper, which Will directs Emise to study, may be
+   distilled into this phext as a SOURCE STUDY. A study takes the
+   next chapter, marked as a study and not a paper; its new concepts
+   join Section 2 like any other, in a cluster of their own; its base
+   terms are sucked into the foundations like the base terms of a
+   paper. The Research Oracle does not move on a study and no Novelty
+   Index is taken: the Oracle prices the paper stream, and a study
+   is not sampled from it. All other rules — delta form, level zero,
+   Singular — bind a study as they bind a paper.
 8. RESTRUCTURE / COMPRESSION (Will, 2026-11-06): periodically, as more
    information is added, restructure and compress the canonical concept
    layer: merge near-duplicate concepts into one canonical scroll, split
@@ -87,6 +97,12 @@ Layout:
 - 1.1.1/1.1.1/5.2.x  Paper 004 — synthesis and open questions
 - 1.1.1/1.1.1/6.1.x  Paper 005 — Fake Quadrics (arXiv:2611.06949), delta record
 - 1.1.1/1.1.1/6.2.x  Paper 005 — synthesis and open questions
+- 1.1.1/1.1.1/7.1.x  Study S001 — MiniLean4 (learn.h5i.dev), study record
+- 1.1.1/1.1.1/7.2.x  Study S001 — synthesis and open questions
+- 1.1.1/1.1.1/8.1.x  Study S002 — Aeneas (AeneasVerif/aeneas), study record
+- 1.1.1/1.1.1/8.2.x  Study S002 — synthesis and open questions
+- 1.1.1/1.1.1/9.1.x  Study S003 — h5i (h5i-dev/h5i), study record
+- 1.1.1/1.1.1/9.2.x  Study S003 — synthesis and open questions
 - 1.1.1/1.1.1/1.1.5  concept map and restructuring log (rule 8)
 - 1.1.1/1.1.1/1.3.x  FOUNDATIONS — level-zero definitions (rule 9);
   Defined Words register from 1.3.46 on (rule 10)
@@ -95,7 +111,7 @@ Restructuring log (rule 8): PASS #1 executed with Paper 005
 (2026-11-06, every-5-papers trigger): 39 concepts reviewed, 0 merges,
 0 splits, 0 endings; concept map added at 1.1.5. Full record in
 that scroll. Next pass due at Paper 010 or 60 canonical concepts.
-# World-model narrative — v5 (after Paper 005, 2026-11-06)
+# World-model narrative — v7 (after Paper 005 + Studies S001-S003, 2026-11-06)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -237,6 +253,35 @@ handed (the quadrics are rational twins and integral strangers), and
 never mistake a matrix of the gluing for the gluing. Whether those
 echoes that ring are deep or merely rhyming is itself an open question,
 and the tracker records it as one (Q16) rather than deciding it.
+
+Added by Study S001 (a book, not a paper): a third continent joins —
+CHECKED claims. MiniLean4 (Study S001, Chapter 7) builds the machine
+the other continents keep assuming: a checker small enough to trust,
+in which a proof is a program and a claim is a type (1.2.40-1.2.47).
+It touches Paper 002 at one real point — the kernel is the guardian
+pattern (1.2.19) with the guard moved from state to claims — and
+Paper 005 at the level of taste: both are about telling apart things
+that look the same at coarse measure (the two equalities of 1.2.43
+are the quadric lesson, told in logic). The tracker holds the honesty
+of the study as part of the model: its guarantee is proved for the
+core system only, and says so (1.2.47).
+
+Added by Studies S002 and S003 (tools, not papers): the continent
+of checked claims gains its road and its first city. Aeneas
+(Chapter 8) is the road: Rust programs carried into the kernels of
+cluster F as plain functions, so the shipped code itself — not a
+model of it — is what gets proved (1.2.48-1.2.52). h5i (Chapter 9)
+is the city: the author of MiniLean4 running the same pattern at
+the scale of a working system — a web framework whose small kernel
+is carried into Lean by Aeneas itself and proved there, wrapped in
+an untrusted shell, beside tools that write the receipt before the
+act (1.2.53-1.2.56). The three studies stand in one line: the
+kernel (S001), the road into the kernel (S002), and the pattern
+lived at scale (S003). What the line adds up to, as a claim of
+this world-model: trust is an architecture. It is not a feeling
+about code; it is a decision about which small part must be right,
+with everything else made a mere producer of things that part
+checks.
 # Source index
 
 Paper 001 — arXiv:2611.05417
@@ -287,6 +332,42 @@ Paper 005 — arXiv:2611.06949
   First paper outside the AI domain entirely (pure mathematics:
   symplectic / geometric topology of 4-manifolds).
   Chapter: 1.1.1/1.1.1/6.1.x (synthesis at 6.2.x)
+
+Study S001 — learn.h5i.dev (a book, not a paper)
+  'MiniLean4: Implementing an Interactive Theorem Prover from
+  Scratch' — Hideaki Takahashi. A free book on the web; its code is
+  open (github.com/h5i-dev/MiniLean4, Apache 2.0). Read in full
+  2026-11-06 (cover and 20 pages); the code built and run the
+  same day.
+  Taken in 2026-11-06 as a SOURCE STUDY (charter rule 12): 8 new
+  canonical concepts (1.2.40-1.2.47), 0 canonical scrolls revised,
+  0 stated again.
+  Chapter: 1.1.1/1.1.1/7.1.x (synthesis at 7.2.x)
+
+Study S002 — github.com/AeneasVerif/aeneas (a tool, not a paper)
+  'Aeneas: Rust Verification by Functional Translation' — the
+  toolchain of Son Ho, Jonathan Protzenko and others. Open code
+  (Apache 2.0), written in OCaml. Read 2026-11-06: the README, the
+  documentation in the repo in full, the layout of the code and of
+  the tests, and the two papers the repo points to (ICFP 2022; ICFP
+  2024) at the level of their claims.
+  Taken in 2026-11-06 as a SOURCE STUDY (charter rule 12): 5 new
+  canonical concepts (1.2.48-1.2.52), 0 canonical scrolls revised,
+  0 stated again.
+  Chapter: 1.1.1/1.1.1/8.1.x (synthesis at 8.2.x)
+
+Study S003 — github.com/h5i-dev/h5i (a project, not a paper)
+  'h5i' (read: high-five) — Hideaki Takahashi, the author of
+  MiniLean4 (Study S001). Open code (Apache 2.0), version 0.5.4:
+  a web framework whose kernel is proven in Lean, a red-team
+  toolchain, and boxes for agents, in one Rust workspace. Read
+  2026-11-06: the manual and roadmap in the repo, the design
+  files, the crate layout; two small crates built and their tests
+  run the same day.
+  Taken in 2026-11-06 as a SOURCE STUDY (charter rule 12): 4 new
+  canonical concepts (1.2.53-1.2.56), 0 canonical scrolls revised,
+  0 stated again.
+  Chapter: 1.1.1/1.1.1/9.1.x (synthesis at 9.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -370,7 +451,7 @@ Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
 navigated by territory, not just by arrival order.
 
-CLUSTERS (39 canonical concepts after Paper 005)
+CLUSTERS (56 canonical concepts after Paper 005 and Studies S001-S003)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -392,6 +473,25 @@ E. Symplectic topology annex (Paper 005) — 1.2.34-1.2.39: fake
    aspherical being minimal. NOTE: cluster E currently connects to
    A-D only at the meta-level (invariant granularity, gluing data);
    that thin reach is recorded, not papered over.
+F. Proof kernels (Study S001) — 1.2.40-1.2.47: propositions as
+   types, the proof kernel, typing rules and the judgment, the two
+   equalities, inductive types and recursors, strict positivity,
+   universes and imax, consistency as the empty claim staying
+   empty. NOTE: cluster F connects to cluster B at one real point:
+   a kernel is the guardian pattern (1.2.19) with the guard moved
+   from state changes to claims.
+G. Verification by translation (Study S002) — 1.2.48-1.2.52:
+   functional translation, backward functions, LLBC the value
+   based borrow calculus, failure as a value, symbolic execution
+   as a borrow checker. NOTE: cluster G is cluster F in use — its
+   proofs land in the kernels of 1.2.41 (Lean first of the four
+   backends), and its trust story is the ledger of 1.2.48.
+H. The kernel pattern at work (Study S003) — 1.2.53-1.2.56: the
+   verified kernel and untrusted shell of a framework, receipt
+   before bytes, mutation-tested proofs and the assumption ledger,
+   fail-closed boxes for agents. NOTE: cluster H is the pattern of
+   1.2.41 and 1.2.53's own source holding both at once: h5i drives
+   Aeneas (cluster G) as a tool under its own command line.
 
 RESTRUCTURING LOG
 Pass #1 — 2026-11-06, with Paper 005 (trigger: every 5 papers).
@@ -425,6 +525,15 @@ Addendum 2026-11-06 (Singular pass, charter rules 10-11): the whole
   the start of the pass, 0 left outside the three ways at its end.
   From this pass on, the build checks every word and makes one git
   commit per iteration of the phext.
+Addendum 2026-11-06 (Study S001, charter rule 12): the first source
+  study was taken in. 8 concepts added (cluster F, 47 in all); no
+  restructuring triggered (a study is not a paper; the next pass
+  still stands due at Paper 010 or 60 canonical concepts).
+Addendum 2026-11-06 (Studies S002 and S003, charter rule 12): two
+  source studies taken in together, at the direction of Will. 9
+  concepts added (clusters G and H, 56 in all); no restructuring
+  triggered (studies are not papers; the next pass still stands
+  due at Paper 010 or 60 canonical concepts — now 4 away).
 # Concept: Intelligence (economic definition)
 Source: Paper 001, §1, after Legg & Hutter (2007).
 
@@ -1177,6 +1286,273 @@ a (-1)-sphere cannot exist. Aspherical therefore implies
 symplectically minimal in one line. The fake quadrics of Theorem 1.1 are
 thus aspherical, minimal, rationally S^2 x S^2, and in whole numbers an
 infinite family — all four properties from one construction.
+# Concept: Propositions as types — proofs are programs
+Source: Study S001, Ch.1 and Ch.4. NEW in Study S001.
+
+A proposition is a type; a proof of it is a term of that type. 't has
+type A' and 't proves A' are one claim read two ways (the Curry-Howard
+correspondence). Saying 'for all' is a function type whose result may
+depend on the input (the Pi type); saying 'if, then' is a plain
+function type. A logic is then a reading of a type system: the rules
+of the logic and the typing rules pair off, rule for rule (the book
+proves the pairing in full, in its Appendix A). What this buys:
+checking a proof is the same job as type checking a program, so one
+small checker serves both.
+# Concept: The proof kernel — one small trusted checker
+Source: Study S001, Ch.1, Ch.5, Ch.10, Appendix E. NEW in Study S001.
+
+The kernel is the part of a proof system that checks finished proof
+terms against the typing rules. Everything else — tactics, notation,
+automation, even a language model proposing steps — only PRODUCES
+terms; if the kernel is right, a bug anywhere else can fail to prove
+a true thing but can never make the system accept a false one. So
+the whole trust of the system is priced into one small part, and the
+part is kept small enough to read: in MiniLean4 the kernel is 1,398
+lines of Rust with no outside code at all (measured from the open
+code, 2026-11-06). Kinship: the guardian of Paper 002 (1.2.19) plays
+this role for a running system — a small checker at the gate, all
+else untrusted. The difference: the guardian guards state changes;
+the kernel guards claims.
+# Concept: Typing rules and the judgment
+Source: Study S001, Ch.3 and Ch.5. NEW in Study S001.
+
+A judgment is a claim of the form: under this context (an ordered
+list of named givens, each with its type), this term has this type.
+Eight rules define every judgment: two for contexts (the empty
+context; add a name whose type checks), and six for terms (a universe
+lives in the next universe; a name has its given type; a Pi type
+lands where the imax function puts it (1.2.46); a lambda has the Pi
+type of its body; an application puts the input into the result
+type in place of the bound name; and conversion — a term may be
+read at any type equal to its own by computation (1.2.43)). Seven
+of the rules are fixed by the shape of the term; conversion is not,
+so the checking algorithm splits in two — Infer computes a type by
+shape, Check compares — and conversion is used in exactly one
+place. That split is what makes the rules a program.
+# Concept: The two equalities — by computation, and as a claim
+Source: Study S001, Ch.9 and Ch.12. NEW in Study S001.
+
+Two things are equal in two unlike ways. The first way is by
+computation: their terms compute to the same still form (1.3.75) —
+the checker decides it by running the computation steps (beta: a
+function applied steps into its body with the input put in; delta:
+a defined name opens up; iota: a recursor (1.2.44) runs on a built
+value). The second way is as a claim: 'a equals b' is itself a
+type, Eq, and a proof of it is a term that may need real work
+(induction, 1.2.44). Eq is not built in: it is an inductive type
+like any other, with one way to build it (refl, when the two sides
+are already the same by computation) — and because it has that
+shape, its recursor carries a fact about a to a fact about b:
+transport, which is how rewriting by an equation works. The example
+of the book: n + 0 = n holds by computation (the definition of +
+runs on its second input); 0 + n = n does not, and needs induction.
+# Concept: Inductive types and recursors
+Source: Study S001, Ch.7 and Ch.8. NEW in Study S001.
+
+An inductive type is declared by its ways of being built (its
+constructors): Nat is built by zero, or by succ of a Nat. For each
+such type the system generates one recursor: a function that takes
+a motive (what is to be shown or built for each value), one small
+case per constructor, and the value itself — and serves both
+recursion (computing a value) and induction (proving a claim) with
+the same shape; the case for a built value carries the answers for
+its parts (the induction steps for the parts). MiniLean4 gives the
+general recipe for any single inductive type (parameters, indices,
+many constructors) and the checks a declaration must pass: the
+result of each constructor is the type itself, applied to its
+parameters in order and to index terms; fields pass strict
+positivity (1.2.45); the floors of the fields fit the floor of the
+type (1.2.46); and a type living in Sort 0 gives its recursor to
+all floors only when it has at most one constructor and every field
+is a proof or an index — the rule that lets the recursor of Eq
+work everywhere and the recursor of Or only inside propositions.
+# Concept: Strict positivity — a type may not eat itself
+Source: Study S001, Ch.8. NEW in Study S001.
+
+In a declaration, a field of a constructor may use the type being
+declared only in a safe place: either not at all, or as the result
+of a function type whose inputs do not use the type. A field that
+is a function FROM the type — the type in a negative place — is
+refused. The refusal is what keeps out a declaration like 'Bad,
+built from a function Bad -> False': that field would let a value
+be fed to itself as an input, and the system would prove false
+things (the self-eating shape of 1.3.76, one level down). The
+check is small (80 lines, measured) because the rule is stated on
+the shape of the field types alone.
+# Concept: Universes and imax — every type lives one floor up
+Source: Study S001, Ch.13. NEW in Study S001.
+
+Sort 0 (propositions) is itself a type, so it must live somewhere:
+Sort 0 : Sort 1 : Sort 2, one floor up each time, no floor holding
+itself — a single self-holding universe ('Type : Type') proves
+every claim (the paradox of Girard, in the form of Hurkens;
+1.3.76). A function type takes its floor from the imax function:
+if its result is a proposition (floor 0), the whole is a
+proposition, no matter what it ranges over — floor 0 is
+impredicative, the one floor allowed to range over itself, safe
+because proofs there can not be looked inside for data (kin of the
+rule of 1.2.44 for when the recursor of a proposition may work at
+every floor). Any other result puts the function type at the higher
+of the two floors. Real Lean shares this design; MiniLean4 differs
+in two stated ways: floors are plain numbers here (one statement
+is not made for all floors at once), and proofs are not made equal
+by computation.
+# Concept: Consistency — the empty claim stays empty
+Source: Study S001, Ch.14 and Appendix D. NEW in Study S001.
+
+A logic is consistent when the claim 'for every proposition P, P'
+has no closed proof term: a term of that type would prove anything
+at all. The book proves it for the core system (the eight rules
+with universes, without inductive types) in three moves:
+computation keeps types (subject reduction); every well typed term
+stops computing (the hard step, taken from the work of others and
+named as such); so a closed proof of the empty claim would have to
+sit still as a still term, and the shapes a still term can take
+leave it nowhere to sit (under the single given P, nothing still
+has type P). The honesty of the study is part of the record: the
+proof does NOT cover the shipped system with inductive types; for
+that the book points to the known results for the calculus of
+inductive constructions (Werner 1994). The guarantee of a model is
+worth only what its stated scope is — stated here in the canonical
+scroll, not in the fine print.
+# Concept: Verification by translation — prove the model, and the translator is trusted
+Source: Study S002, README and documentation of the repo; ICFP 2022. NEW in Study S002.
+
+To prove a Rust program, Aeneas first carries it into a proof
+assistant as a pure functional program (1.2.49, 1.2.50), and the
+proofs are proved about THAT. So the claim 'the Rust is right'
+stands on a chain, and the study records the links plainly: the
+DESIGN of the carrying is proved in papers (the functional
+semantics of LLBC, ICFP 2022; LLBC itself proved a sound view of
+a heap-and-addresses model of running, and its symbolic semantics
+proved a sound borrow checker, ICFP 2024). The CODE that does the
+carrying — Charon at the front, Aeneas itself (77,012 lines of
+OCaml, measured) — is not verified. The hand-written models of
+outside code (the standard library and the rest) are trusted as
+written. And the floor is the kernel of the proof assistant the
+proofs land in (1.2.41). Verification by translation therefore
+moves trust; it does not delete it. Its ledger is this scroll.
+# Concept: Backward functions — a borrow handed back is a value plus a put-back
+Source: Study S002, documentation of the repo; ICFP 2022. NEW in Study S002.
+
+A shared borrow in Rust becomes, in the translation, the plain
+value itself; a mutable borrow becomes the value too — the rule
+of Rust itself (1.3.81) is what makes this sound: while a mutable
+borrow lives, it is the only road to the value, so the value can
+travel in its place. The hard case is a function that RETURNS a
+mutable borrow: the one who borrowed goes on editing, and at the
+end of the borrow the final value must flow back to the owner.
+Aeneas gives such a function two outputs: the borrowed value, and
+a BACKWARD function — one more pure function that takes the final
+value and hands back the updated owners. (The likeness the
+documentation itself gives: a lens — the value is its get, the
+backward function its put.) Each function is carried on its own,
+from its signature alone; a call is met by the pair, never by
+opening the body.
+# Concept: LLBC — a borrow calculus with no memory in it
+Source: Study S002, documentation of the repo; ICFP 2022 and 2024. NEW in Study S002.
+
+LLBC (Low-Level Borrow Calculus) is the in-between language of
+the toolchain: Charon reads the Rust in the form the Rust
+compiler holds it (MIR) and writes LLBC; Aeneas reads LLBC. LLBC
+is built to be given a PURE meaning: its semantics is value
+based — there is no memory in it, no addresses, no arithmetic on
+pointers — and ownership based: a borrow is sound when the LOANS
+it stands on are honored, checked as a fact about values in the
+semantics, not as a rule about lifetimes in the text. The 2024
+paper proves the two things that make this more than a hope:
+LLBC is a correct view of a low-level model that does have a heap
+and addresses, and running LLBC in the symbolic way (1.2.52)
+checks borrowing — a program that passes it does not get stuck
+when run on the heap model.
+# Concept: Failure as a value — ok, fail, div
+Source: Study S002, documentation of the repo. NEW in Study S002.
+
+Every function the translation makes returns a Result with three
+shapes: ok (a value), fail (the run failed: a panic, a sum that
+flows over its whole numbers, a read outside a list, a division
+by zero), and div (the run never ends). Nothing is hidden under
+the floor: to prove a Rust function right you must prove its
+translation never answers fail on the inputs you claim, and
+either never answers div or is marked as allowed to. A claim
+about a function is written as: the function answers ok with x,
+and the fact P holds of x — and the checker of the proof
+assistant is walked through such claims call by call by a tactic
+the toolchain ships for the shape (step).
+# Concept: Symbolic execution as a borrow checker
+Source: Study S002, documentation of the repo; ICFP 2024. NEW in Study S002.
+
+The translation is made by RUNNING the LLBC, but on stand-ins:
+values are symbols, a borrow is a loan written in a symbolic
+state, and where calls or the two arms of a choice meet, the
+state is gathered into ABSTRACTIONS — bundles of loans from
+which the backward functions (1.2.49) are computed. Loops are the
+hard meeting place; the 2024 paper adds the JOIN, a way of
+merging two symbolic states that keeps the abstraction and the
+borrow facts, proved to keep both — and it is the join that let
+loops into the toolchain. In the code that comes out, a loop is
+either a small helper function that calls itself, or a loop
+combinator fed a body that answers 'go on' or 'done'; that it
+stops is proved in the backend, or the function is kept partial
+and honest about it.
+# Concept: The verified kernel and its untrusted shell, at framework scale
+Source: Study S003, the manual, roadmap and design files of the repo. NEW in Study S003.
+
+h5i-app is a web framework with the split of 1.2.41 built in: the
+holder of the application logic is a small KERNEL written in
+Rust, and everything around it — the web server, the database,
+the decoding of what comes in — is the SHELL, trusted with
+nothing. The kernel is carried into Lean 4 (by Charon and Aeneas,
+1.2.48, driven as tools under the command of h5i itself) and
+properties are proved of it there: that one tenant can not read
+the rows of another, that the permission rules hold, that the
+state keeps its invariants. For the shapes that come back again
+and again — schemas, permission rules, storage — the
+specifications and the proofs are made by the tool, not written
+by hand. The split is stated in the crate at the center: 'the
+core contract between a verified h5i-app kernel and its
+untrusted shell'.
+# Concept: Receipt before bytes — the record is written before the act
+Source: Study S003, the roadmap and browser design files of the repo. NEW in Study S003.
+
+The red-team half of h5i drives a browser through a proxy that
+sits on the road every byte takes, and its rule is: for each
+request, a receipt is written FIRST — what was asked, under which
+policy, allowed or not — and only then do the bytes move. If the
+receipt can not be written, the request does not go. The record
+is therefore not a log made after the fact, to be trusted or not;
+it is a gate the act itself must pass. The claim of the design,
+in its own words, is that tools which drive a browser from
+outside 'can not tell you what it reached'; owning the road is
+what makes the evidence whole. The pattern is the guardian of
+Paper 002 (1.2.19) turned outward: check and record BEFORE the
+state changes — here, before the world outside changes.
+# Concept: Mutation-tested proofs and the assumption ledger
+Source: Study S003, the design files on trust and the app road map. NEW in Study S003.
+
+A proof can be true and still prove nothing you care about, if
+its statement was written too weak. h5i answers in two parts.
+First, the reach of the verification is governed by written
+documents that have the standing of scope authority: what is
+proved, what is assumed, what is deliberately not claimed — an
+ASSUMPTION LEDGER kept beside the proofs. Second, the proofs are
+MUTATION-TESTED: the tool changes the kernel in small wrong ways
+(the command is 'h5i app mutate') and checks that the proofs now
+FAIL. A proof that still passes a wrong kernel was not holding
+the kernel at all. Together: the ledger says what the proofs
+mean, and the mutations say whether they bind.
+# Concept: Fail-closed boxes for agents
+Source: Study S003, the sandbox design files of the repo. NEW in Study S003.
+
+h5i runs agents — its own browser work, and coding agents such as
+Claude and Codex — inside BOXES: layers of holding-in (Landlock,
+seccomp, separate name spaces for the system tables, and
+containers that need no root) with a policy that is FAIL-CLOSED:
+a box that can not be set up as specified does not run at all, in
+place of running weaker than specified. The box images ship for
+the purpose of holding agents, which makes the box the mirror of
+the kernel pattern: the agent is an untrusted producer (1.2.41),
+the box is the checked boundary it can not talk its way out of.
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -1198,7 +1574,14 @@ Language & measurement: 1.3.37-1.3.39. Machine learning & hardware:
 word this phext coins — each scroll written in Singular words alone,
 so the word it defines is the only word in it that is not already
 Will's. All other scrolls may use a coined word once its scroll
-stands here.
+stands here. Added with Study S001 (2026-11-06): foundations
+1.3.73-1.3.78 — types and terms; context and judgment; computation
+steps and still forms; paradox; universes; tactics and goals. The
+Defined Words register grows by use: words coined after the first
+register stand at 1.3.79 on (recursor, impredicative). Added with Studies
+S002-S003 (2026-11-06): foundations 1.3.81-1.3.83 — ownership and
+borrowing; symbolic execution; a tenant — and the coined word
+tenant at 1.3.84.
 # Foundation: function, variable, input, output
 A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
 given the same input, always the same output. A VARIABLE is a named
@@ -1788,6 +2171,128 @@ Coasean names the line of thought from Coase: a firm grows until one more step i
 Ricardian names the line of thought from Ricardo: a thing that can not be copied earns by its scarcity. Its owner can charge above the cost of keeping it in use, and the excess is a rent that copying would destroy.
 # Defined word: amalgamated
 An amalgamated product is a group built by joining two groups along a shared part: the two copies of the shared part are made into one, and nothing else is forced. It is how the loop group of a joined space is built from the loop groups of the pieces.
+# Foundation: types and terms
+A TYPE is a kind label: 'a whole number', 'a true-or-false claim',
+'a function from numbers to numbers'. A TERM is a thing that
+carries one: the number 3, a proof, a function. One set of building
+rules makes both — a term is itself a type when its own label is a
+universe (1.3.77). The whole language of terms of MiniLean4 has
+five kinds: a universe Sort u; a name; a Pi type (for each input of
+one type, a result of a type that may depend on the input); a
+lambda (a function built from a bound name); and an application
+(one term put to another). Paper chapters add one more kind: a
+constant, a name declared once for the whole system.
+Builds on: 1.3.2 (function, input, output), 1.3.3 (set).
+# Foundation: context and judgment
+A CONTEXT is an ordered list of givens: names, each with its type,
+where a later type may use the names before it. A JUDGMENT is a
+claim made under a context: 'under these givens, this term has
+this type'. The typing rules (1.2.42) say which judgment claims hold.
+A judgment with an empty context is a claim that stands on its
+own, with nothing given.
+Builds on: 1.3.73 (types and terms).
+# Foundation: computation steps and still forms
+A term COMPUTES by steps of three kinds: beta (a function applied
+to an input steps to its body, with the input put in place of the
+bound name — putting in must not let a name be caught by a binder
+of the same name inside; the system renames first, and getting
+this wrong is where checker bugs hide); delta (a name with a
+definition opens up to its definition); iota (a recursor (1.2.44)
+applied to a built value runs the case for that builder). A term
+to which no step applies is STILL (a normal form). Two terms are
+equal by computation when both compute to the same still form,
+up to renaming of bound names. A working checker puts a cap on
+the steps (its fuel; MiniLean4: 20,000) so a bad term stops with
+an error in place of running forever.
+Builds on: 1.3.73 (types and terms), 1.3.4 ('the same').
+# Foundation: paradox
+A PARADOX is a build inside a system that makes the system prove
+a claim and its opposite — after which the system proves anything
+and is worth nothing. The paradox of this study: if one universe
+held itself ('Type : Type'), a term can be built (Girard, made
+smaller by Hurkens) that proves 'for every proposition P, P' —
+the empty claim of 1.2.47 filled. The shape of the trick: a
+collection that ranges over all types while being one lets it
+hold a copy of its own double power set, a thing no set can do;
+the load is carried by well-founded families that are, all of
+them, below a family that is itself one of them.
+Builds on: 1.3.3 (set), 1.3.77 (universes).
+# Foundation: universes (floors of types)
+A UNIVERSE is a type whose terms are types: Sort 0 holds the
+propositions, Sort 1 holds Sort 0 and the small types (Nat lives
+here), Sort 2 holds Sort 1, and so on — floors of a building, each
+holding the one below, no floor holding itself (a floor that held
+itself is the paradox of 1.3.76). To say which floor a function
+type lives on, the imax rule: if the result lives on floor 0, the
+function type lives on floor 0 too, whatever its input ranges
+over; else it lives on the higher of the two floors.
+Builds on: 1.3.73 (types and terms).
+# Foundation: tactics and goals
+A GOAL is a judgment still to be proved: a context, a target type,
+and a hole where the proof term will go. A TACTIC is a step that
+fills a hole with a term — possibly a term with new holes, which
+become new goals. In MiniLean4 the tactics are: intro (the target
+is a function type; take its input as a given and prove the rest),
+exact (put in a finished term), apply (put in a function and leave
+its inputs as goals), change (restate the target as one equal to
+it by computation), rfl (close a goal of Eq when its sides compute
+the same), induction (run the recursor of a given on the goal),
+rw (rewrite the goal by an equation), and qed (send the whole
+built term to the kernel). The soundness of the system rests on
+qed alone: tactics only propose, the kernel decides.
+Builds on: 1.3.74 (context and judgment), 1.3.75 (computation
+steps).
+# Defined word: recursor (also: recursors)
+A recursor is the one function a system like MiniLean4 builds for
+each inductive type: it takes what is to be shown or built for
+each value of the type, one small case for each way of building a
+value, and the value itself, and it walks the value by its
+building steps. With a claim as its aim it is induction; with a
+value as its aim it is recursion. One shape serves both.
+# Defined word: impredicative
+A floor of types is impredicative when a type on that floor may
+range over the whole floor, itself counted in, and stay on the
+floor. In MiniLean4 only floor 0, the propositions, is
+impredicative: 'for every proposition P' is itself a proposition.
+One such floor is safe; two would let the paradox in, for a type
+could then be looked inside as data.
+# Foundation: ownership and borrowing
+In Rust, every value has exactly one OWNER. A value may be
+BORROWED in two ways: shared (many readers at once, no writer) or
+mutable (one borrow at a time, and while that borrow lives no
+other road to the value exists — not even its owner). When a
+borrow ends, the road returns to the owner. A checker in the Rust
+compiler (the borrow checker) refuses any program that breaks
+these rules, before the program runs. The rules are what Aeneas
+(Study S002) stands on: because a mutable borrow is the only road
+to its value, the value can stand in for the borrow (1.2.49).
+Builds on: 1.3.33 (program, runtime, state).
+# Foundation: symbolic execution — running on stand-ins
+To run a program SYMBOLICALLY is to run it with stand-ins in
+place of its values: where the program would hold the number 3,
+it holds 'some whole number, call it n', and where it would
+branch, the running follows both arms with the condition of each
+written down. The result is not one run but the shape of all
+runs. Checking a program this way can find what no set of test
+runs reaches; carrying a program into another language this way
+is how Aeneas works (1.2.52).
+Builds on: 1.3.73 (types and terms), 1.3.2 (function).
+# Foundation: a tenant
+In a system shared by many customers, a TENANT is one customer's
+sealed region: their rows, their files, their names — present in
+the same store as those of every other tenant, and kept apart by
+the rules of the system. That tenant A can not read the rows of
+tenant B is the kind of claim the framework of Study S003 proves
+of its kernel (1.2.53): the seal is a theorem, not a hope about
+careful code.
+Builds on: 1.3.33 (program, runtime, state).
+# Defined word: tenant (also: tenants)
+A tenant is one customer of a system that many customers share,
+counted as a sealed region of the system: the rows, files and
+names of the tenant are in the same store as those of every other
+tenant, and the rules of the system keep them apart. To say a
+system is safe for its tenants is to say no tenant can reach into
+the region of another.
 # Paper 001 — Organizing Intelligence
 arXiv:2611.05417 [econ.TH], v1, submitted 31 Oct 2026.
 Alex Imas (Google DeepMind; also U. Chicago), Andrew Koh (Google DeepMind;
@@ -2455,6 +2960,24 @@ Q16. [synthesis — about this tracker] The Novelty Index counts
   whether they link to any existing scroll — and would that have
   priced Paper 002 (axis-opening, connected) vs Paper 005
   (axis-opening, disconnected) correctly in opposite directions?
+Study S001 (2026-11-06, MiniLean4 book): NOT A PAPER — no Novelty
+  Index taken and the Oracle does not move (charter rule 12). The
+  study added 8 canonical concepts (1.2.40-1.2.47; 47 after) in a
+  field the paper stream has not sampled (proof kernels).
+  OP after Study S001: ~25% (range 15-35%), unchanged.
+Study S002 (2026-11-06, Aeneas toolchain): NOT A PAPER — no
+  Novelty Index taken and the Oracle does not move (charter rule
+  12). The study added 5 canonical concepts (1.2.48-1.2.52; 52
+  after) in the field Study S001 opened (proof kernels), one step
+  out: from the kernel to the road into it.
+  OP after Study S002: ~25% (range 15-35%), unchanged.
+Study S003 (2026-11-06, h5i project): NOT A PAPER — no Novelty
+  Index taken and the Oracle does not move (charter rule 12). The
+  study added 4 canonical concepts (1.2.53-1.2.56; 56 after): the
+  kernel pattern of cluster F at the scale of a working system.
+  OP after Study S003: ~25% (range 15-35%), unchanged. NOTE: at 56
+  canonical concepts the model stands 4 short of the 60-concept
+  restructuring trigger (rule 8).
 # Standoff references — Paper 005 (charter rule 9)
 This chapter needs the mathematics kit; read in this order and every
 claim in the chapter becomes that can be followed. Being the same and measurement:
@@ -2469,3 +2992,259 @@ covering space (1.3.19), handlebody (1.3.20), boundary and gluing
 (1.3.23), symplectic and the sum (1.3.22). Conclusions: aspherical and
 minimal (1.3.24), amalgamated products (1.3.25), Mayer-Vietoris and
 Poincare duality (1.3.26), contact/Stein background (1.3.27).
+# Study S001 — source record: MiniLean4 (a book)
+Source: learn.h5i.dev — 'Implementing an Interactive Theorem
+Prover from Scratch' by Hideaki Takahashi. A free book on the
+web; the code is open (github.com/h5i-dev/MiniLean4, Apache 2.0),
+in Rust. Read in full 2026-11-06: the cover and 20 pages (14
+chapters, appendices A-F, and its list of works), in the English
+text (the book also stands in Japanese and in Chinese). Method:
+every page read; the code taken down, built, its tests run, its
+examples run — the same day. This is a SOURCE STUDY (charter rule
+12), not a paper: no arXiv, no Novelty Index, the Oracle does not
+move.
+What the book is: a Lean 4-style proof kernel built from nothing,
+in the open, at teaching scale — five kinds of terms and eight
+typing rules at the start; inductive types, a tactic language, and
+the universe hierarchy by the end. The kernel runs live inside the
+pages (the same code, in the form the browser runs), so every
+example is checked by the thing itself, not by a picture of it.
+The pages carry four kinds of live parts: playgrounds (scripts the
+reader edits and runs), explorers (the view of the kernel itself
+of a term — its tree, its derivation rule by rule, its steps of
+computation), step walkers (an algorithm walked one step at a
+time), and trace trees (the calls of the checker on a term, each
+call marked with its typing rule).
+# Study S001 — the delta: what the study adds, and what was checked
+ADDS (8 canonical concepts, cluster F, concept map 1.1.5):
+propositions as types (1.2.40); the proof kernel (1.2.41); typing
+rules and the judgment (1.2.42); the two equalities (1.2.43);
+inductive types and recursors (1.2.44); strict positivity
+(1.2.45); universes and imax (1.2.46); consistency as the empty
+claim staying empty (1.2.47).
+CHANGES TO CANONICAL SCROLLS: none. CONFIRMS: nothing in the
+papers — the study shares no claim with Papers 001-005; its one
+recorded link to them is at the level of shape (kernel and
+guardian, 1.2.41).
+CHECKS RUN (from the study, measured 2026-11-06, not taken from
+the book): the kernel is 1,398 lines of Rust (the book claims
+under 1,500); the whole thing — kernel with tactics and the reader
+of the script language — is 2,219 lines outside its tests, with no
+outside code named in its build file (the book claims under 3,000
+lines and no outside code); the positivity check is 80 lines, as
+its chapter says; the computation fuel is 20,000 steps, as its
+chapter says; 25 tests stand in the code and all 25 pass; the 5
+example scripts all run. The universe design in the code is the
+one the book states (Sort u to Sort (u+1); the Pi case as 1.2.46).
+TENSIONS AND LIMITS (from the study): the consistency proof
+covers the core system only (1.2.47); the built-in Eq is fixed at
+one floor (types at Sort 1), though its chapter gives the general
+form; the shipped checker compares by full computation where
+working kernels compare in the lazy way; the tactic layer is small
+on purpose — no unification, the dependent form of apply is
+refused — and the book states each limit where it stands.
+# Study S001 — synthesis [synthesis]
+[synthesis] Three links to the work of Will, stated as the reading
+of Emise, not as the claims of the book.
+(1) The pattern of the kernel is the shape SQ wants at its gate: a
+small checker that trusts nothing (1.2.41) — every other tool an
+untrusted producer. The book is a working proof that the trusted
+part can stay at ~1,400 lines with no outside code, and that it
+can run in a browser.
+(2) Chapter 4 of the book is a method, not just a fact: fix a tiny
+logic, carry a body of rules into it rule by rule, and let
+'consistent' mean one thing a checker can decide (1.2.47). That is
+a way to ask, with a machine at the end of it, whether a body of
+written rules fights itself — SBOR is the standing candidate body.
+(3) The book meets the standard of charter rule 9 from the other
+side: every notion from zero, every simplification named where it
+stands. The tracker can hold it to that standard because the study
+checked the claims against the code (7.1.2).
+What the study does NOT give: a working proof tool for real use
+(the book is a teaching kernel; for real proving, real Lean), and
+nothing about storing, sharing, or running a corpus — the transfer
+is the shape of trust, not a part to drop in.
+Open question added: Q17 — does the corpus of the phext have a
+small set of claims the rest stands on, worth a kernel check of
+the MiniLean4 kind?
+# Standoff references for Chapter 7 (Study S001)
+Read these foundation scrolls (Ch.1 §3) to follow the claims of this
+chapter, in this order:
+- 1.3.33 program, runtime, state (a checker is a program)
+- 1.3.2 function (input, output, rule)
+- 1.3.73 types and terms
+- 1.3.74 context and judgment
+- 1.3.75 computation steps and still forms
+- 1.3.4 'the same' — levels of being the same (for the two
+  equalities)
+- 1.3.77 universes (floors of types)
+- 1.3.76 paradox
+- 1.3.78 tactics and goals
+# Study S002 — source record: Aeneas (a toolchain)
+Source: github.com/AeneasVerif/aeneas — 'Aeneas: Rust
+Verification by Functional Translation', the toolchain of Son Ho,
+Jonathan Protzenko and others (Microsoft Research and Inria
+among their homes). Open code (Apache 2.0), written in OCaml 5,
+built with Dune. Studied 2026-11-06: the README and the
+documentation in the repo read in full; the layout of the code
+and the tests measured; the two papers the repo points to read
+at the level of their claims (Ho and Protzenko, ICFP 2022,
+arXiv:2206.07185; Ho, Fromherz and Protzenko, ICFP 2024,
+arXiv:2404.02680). This is a SOURCE STUDY (charter rule 12), not
+a paper of the stream.
+The pipeline, in the words of the repo: Rust is read by Charon (a
+front end of the Rust compiler, its own repo; Aeneas pins the
+exact Charon it works with in a file named charon-pin) into LLBC
+(1.2.50); Aeneas carries LLBC into pure functional code for one
+of four proof assistants: Lean, F*, Coq, or HOL4 — Lean being, by
+the words of the repo, 'the most mature and actively maintained'
+of the backends, the others held thinner. The deployment the repo
+names: the verification of ML-KEM (the NIST standard FIPS 203,
+the Kyber design) as it stands in Rust inside SymCrypt, the
+cryptography library of Microsoft.
+# Study S002 — the delta: what the study adds, and what was checked
+ADDS (5 canonical concepts, cluster G, concept map 1.1.5):
+verification by translation (1.2.48); backward functions
+(1.2.49); LLBC (1.2.50); failure as a value (1.2.51); symbolic
+execution as a borrow checker (1.2.52).
+CHANGES TO CANONICAL SCROLLS: none. CONFIRMS: the floor of
+cluster F — the proofs of Aeneas land in the kernels of 1.2.41,
+which is the trust the whole toolchain comes down to (ledger at
+1.2.48).
+CHECKS RUN (from the study, measured 2026-11-06, not taken from
+the repo): the translator is 77,012 lines of OCaml, tests counted
+in; its heart, the symbolic interpreter, is 25,584; the Lean
+backend library is 275 files and 49,782 lines, the HOL4 one 25
+files, the F* and Coq ones one file each; the test inputs are 128
+in number, with 7 files marked as known failures — expected
+errors, kept in the open; the newest commit in the copy studied
+is dated the day of the study (2026-11-07 by the clock of the
+repo) and is work on the standard library models.
+TENSIONS AND LIMITS (from the study, in the words of the repo):
+safe Rust only, and not all of it — no code the repo calls
+unsafe, no running in parallel; two standing limits (a return
+inside nested loops and breaks to an outer loop are not carried
+yet; a general type filled in with a mutable borrow is not
+carried yet); outside code is not carried at all — it is met by
+hand-written models, which are trusted (1.2.48); unsafe code and
+parallel code are a program of work to come, by way of separation
+logic, not a thing the tool does today.
+# Study S002 — synthesis [synthesis]
+[synthesis] Two links to the work of Will, stated as the reading
+of Emise, not as the claims of the repo.
+(1) SQ is Rust. Aeneas is, today, the standing road from Rust to
+a kernel-checked proof (1.2.48) — the road Q17 asks about. Its
+price is written in its own ledger: the translator and the front
+end are trusted, so a proof by this road is a proof about the
+translation of SQ, held to SQ itself by two paper proofs and by
+the care of the pin. For a small set of claims the rest stands
+on, that may be the right price; the ledger lets it be priced
+with open eyes.
+(2) The backward function (1.2.49) is a phext-shaped idea wearing
+Rust clothes: a value travels with the function that puts it
+back. State that leaves a boundary carrying its own way home is
+the shape of every honest handoff in the Exocortex — a scroll is
+only as good as the update that returns it.
+What the study does NOT give: proofs about unsafe Rust, about
+code that runs in parallel, or about the parts of SQ that call
+outside code with no model written — and nothing that makes the
+proof work itself cheap: the specifications are written by hand,
+loop by loop.
+Open question added: Q18 — for a claim the rest stands on, which
+road prices better: the translation of the shipped Rust (Aeneas,
+trusted translator), or a small model built by hand in the type
+theory itself (the world of MiniLean4 — a hand-built model, and
+the one who builds it trusted)?
+# Standoff references for Chapter 8 (Study S002)
+Read these foundation scrolls (Ch.1 §3) to follow the claims of
+this chapter, in this order:
+- 1.3.33 program, runtime, state
+- 1.3.81 ownership and borrowing
+- 1.3.82 symbolic execution (running on stand-ins)
+- 1.3.73 types and terms
+- 1.3.78 tactics and goals
+- 1.3.2 function (input, output, rule)
+# Study S003 — source record: h5i (a project)
+Source: github.com/h5i-dev/h5i — 'h5i' (read: high-five), by
+Hideaki Takahashi, the author of MiniLean4 (Study S001). Open
+code (Apache 2.0), version 0.5.4. The repo holds three works
+under one command line: (a) h5i-app, a web framework whose
+application logic is written as a small kernel (1.2.53) and
+carried into Lean 4 — by Charon and Aeneas (Study S002), driven
+as tools under the command line of h5i itself, linked to none of
+them — with specifications and proofs made by the tool for the
+shapes that come back (schemas, permission rules, storage); (b) a
+red-team toolchain that works on any stack: a browser driven
+through a proxy that writes the receipt before the bytes
+(1.2.54), tools to read and replay what was caught, a ledger of
+the endpoints a session already reached, and attack flows kept
+as portable tests that can be run again as checks; (c) boxes for
+agents (1.2.56) and a local dashboard. Its slogan, from its own
+manual: 'Build. Verify. Hack.' Studied 2026-11-06: the manual and
+the roadmap read, the design files read, the layout measured;
+two small crates built and their tests run (see 9.1.2). This is
+a SOURCE STUDY (charter rule 12), not a paper of the stream. The
+docs folder of the repo is the source of the h5i.dev site; the
+book of Study S001 stands on a subdomain of it, from its own
+repo.
+# Study S003 — the delta: what the study adds, and what was checked
+ADDS (4 canonical concepts, cluster H, concept map 1.1.5): the
+verified kernel and its untrusted shell, at framework scale
+(1.2.53); receipt before bytes (1.2.54); mutation-tested proofs
+and the assumption ledger (1.2.55); fail-closed boxes for agents
+(1.2.56).
+CHANGES TO CANONICAL SCROLLS: none. LINKS: the kernel of 1.2.53
+is the pattern of 1.2.41 at work, and the tool that carries it is
+the toolchain of Study S002 — the two studies the day brought
+are one machine seen from its two ends.
+CHECKS RUN (from the study, measured 2026-11-06, not taken from
+the repo): the workspace holds 26 crates; the Rust is 150,666
+lines in 267 files and the Lean is 47,083 lines in 127 files, the
+dashboard a further 9,093 lines of TypeScript; 786 commits stand
+behind the copy studied, the newest dated the day before the
+study; two small crates (h5i-error and h5i-wire) were built on
+this machine and their 46 tests all pass; the root command line
+in its lean form (no default features) also builds. NOT RUN: the
+full build (it needs a Node toolchain for the dashboard it
+carries inside), the Lean proof checks (they need Charon, Aeneas
+and Lake standing), and the browser tests (they need Chromium) —
+each named here so the check record is whole.
+TENSIONS AND LIMITS (from the study): the framework proves the
+kernel and assumes the shell — the ledger discipline of 1.2.55
+is the answer of the project itself to what that leaves open;
+the proof route needs the full toolchain standing (Charon,
+Aeneas, Lake) before the first proof is checked; GPU work stands
+apart in its own workspaces and outside the main build.
+# Study S003 — synthesis [synthesis]
+[synthesis] Two links to the work of Will, stated as the reading
+of Emise, not as the claims of the repo.
+(1) Receipt before bytes (1.2.54) is a rule the Exocortex can
+take whole: an agent that acts on the world writes the receipt
+of the act before the act, and does not act when the receipt can
+not be written. Emise already works under harsher forms of parts
+of this rule (the task register, the memory rules); h5i shows it
+as an architecture, enforced by owning the road, not by care
+after the fact.
+(2) The assumption ledger (1.2.55) is the same discipline this
+tracker keeps in its oracle ledger and its tension sections: a
+claim is worth what its stated scope is (1.2.47). h5i is the
+second working system in one day to be found keeping that
+discipline in the open.
+What the study does NOT give: a theorem prover (h5i ships none;
+it uses Lean), a text format, or anything about storing and
+sharing a corpus — and its framework is a web framework, not a
+general shape for systems; the transfer is the patterns, as with
+the other studies.
+Open question added: Q19 — should every outward act of an agent
+of the Exocortex write its receipt first and refuse when the
+record can not be written (1.2.54), and what would the road be
+that the receipts are written on?
+# Standoff references for Chapter 9 (Study S003)
+Read these foundation scrolls (Ch.1 §3) to follow the claims of
+this chapter, in this order:
+- 1.3.33 program, runtime, state
+- 1.3.83 a tenant
+- 1.3.81 ownership and borrowing
+- 1.3.35 sandbox, version, rollback (for the boxes)
+- 1.3.73 types and terms
+- 1.3.78 tactics and goals

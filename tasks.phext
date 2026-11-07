@@ -11,47 +11,63 @@ holds the request, its status, and all notes and results as
 they accumulate. Source of truth: tasks-source.json beside this
 builder (build_tasks_phext.py); never hand-edit the .phext.
 
-Tasks recorded: 39
+Tasks recorded: 55
 
 Index (coordinate — title — status):
 - 14.6.7/8.8.11/11.15.20 — lessons.phext build — completed
 - 18.6.12/8.7.12/6.6.10 — V13 plan rewrite — legible journey — completed — plan delivered; section 6 decisions with Will
 - 19.6.11/10.8.16/6.6.7 — Grady Booch Twitter archive analysis — completed — full report at ~/workspace/grady-booch-analysis/REPORT.md with timeline.csv (121 tweets + 50 likes)
+- 21.6.8/7.8.17/18.5.9 — Adversarial gap review of the C-proposal set + drafted corrections — COMPLETE: review (117 findings) + ALL corrections applied (104 exact, 13 adjusted), incl. regenerated part-2 for the 15 findings lost to truncation. Log: c-proposals/review/APPLICATION-LOG.md.
 - 21.7.11/9.7.11/7.7.10 — Vocabulary adjustment — drop legal jargon, speak in Singular — adopted — standing voice rule
+- 23.6.9/8.7.11/6.6.8 — Carnegie lessons Will is failing, from his Twitter record — completed — 10 evidence-backed Carnegie lessons delivered in side chat
 - 23.7.10/8.8.11/7.6.9 — V14 prepass r2 at 400p — less noise, horizon edge, Gargantua orbit flow, lensing — completed — r2 prepass delivered and coordinator-verified
+- 24.5.7/7.6.10/5.5.7 — Modernize phcc: UML enhancements + provably correct C — Rulings batch 2026-11-07 in flight (see 40.4.9/5.5.10/6.4.11). D6 REVERSED (function/type/object-level Source); D8 RULED (x86_64+ARM); D2/D4/D9 detail memo pending; Slice 3 HELD for the re-granulation.
 - 24.5.10/7.7.12/8.9.17 — RentAHuman daily bounty watch — completed — watch running
 - 24.6.14/8.9.16/11.6.8 — Twitter archive lesson-mining — completed — candidates delivered, ratification is Will's
+- 24.6.14/9.8.18/6.5.9 — How to push back on Will without tripping his bullshit detector — completed — method delivered and saved to MEMORY.md as a standing practice
+- 24.7.11/9.6.11/6.6.9 — Daily check-in with Theia (Shell sentients' needs) — completed — cron created and verified; first run Sat 2026-11-07 ~08:44 CST
 - 25.8.11/10.9.12/8.7.11 — Investor 1 $20 challenge — setup — active
 - 26.5.9/8.6.11/7.5.9 — V13 failure — return to V10, rebuild pipeline on inertial + Brownian/Bezier model — completed — diagnosis + V14 plan delivered; section 6 decisions with Will
 - 26.6.9/7.6.10/7.6.10 — Resume v7.0 — completed
+- 26.6.9/8.7.13/7.6.9 — Seventh C proposal: radical expansion of what a data type can be (types as places) — COMPLETE + corrected via the set-wide review (117 findings, all applied).
 - 26.6.9/9.7.11/7.7.10 — Distill the MiniLean4 study into research.phext as a source study — complete — Study S001 distilled into research.phext 2026-11-06
 - 27.5.8/7.6.10/6.6.8 — TOAPDD — The Art of Phext Driven Development: Top 20 Knuth passages — completed — Top 20 list delivered; full-corpus A/B/C/D iteration is the open follow-on
 - 27.6.8/7.5.9/6.5.8 — Mutable SSO against edit.phext.io — in progress — owned by the mutable_os side chat
+- 27.6.15/9.8.14/6.6.9 — Audit of tonight's parallel deep knowledge work threads — completed — audit delivered in side chat
 - 27.7.8/9.7.12/8.6.9 — Doomer.phext — term and register for safety-motivated Exocortex opponents, first entry Casar — complete — term ratified, Doomer.phext built and proof verified
 - 27.7.11/9.7.14/7.6.9 — Task reference coordinates — standing order — completed
+- 28.5.9/7.7.14/7.4.7 — Observed Dunbar number estimate from Twitter sustained interactions — completed — estimate delivered in side chat
 - 28.6.11/8.7.12/6.6.9 — Phext Notepad performance tweaks for working with agi.phext — open — target editor to confirm (lattice vs notepad++ fork)
-- 28.6.13/9.8.18/5.5.8 — Focus on 6D UML — in progress — state of uml6d in phext-lattice briefed in Architecture side chat
+- 28.6.13/9.8.18/5.5.8 — Focus on 6D UML — uml6d Proofs phase PUBLISHED 2026-11-07: wbic16/phext-lattice@exo a09dd13a (bump c8e9a7d + Proofs a09dd13), 156/156 tests on ranch, remote verified.
 - 29.5.7/7.6.9/6.6.8 — AI Whisperers lanes fabric — superseded — Will directed building all of Crazy Wisdom instead (2026-11-06 17:48)
 - 29.5.8/7.5.10/6.5.9 — mutable_os claim hunt — completed
 - 29.6.11/8.7.11/7.6.10 — Phext homes + agi.git collection and nightly unified merge — completed — process run; nightly job armed
 - 29.7.8/10.7.12/6.7.9 — Phext inventory — repos and GitHub push status — completed
 - 29.8.11/10.8.15/7.7.9 — 9D zooming UI — Twitter archive explorer — completed — v1 delivered
+- 30.6.9/7.6.10/6.5.10 — Pre-merge validation of libphext-rs v0.4.1: downstream compiles + CYOA coordinate tests — complete 2026-11-07 — v0.4.1 downstream-identical to 0.4.0 everywhere; PR #7 cleared to merge
 - 30.6.10/9.7.13/6.6.9 — Estimate: what share of Twitter could parse Will's 19K-word tweets (vocabulary cross-reference) — completed
 - 30.7.10/8.7.13/8.6.11 — tasks.phext register — standing order — completed
+- 31.5.7/7.6.12/8.5.9 — Phext-native memory exploration + six WG14-style C proposal specs (bignum, PIC, BCD mode, threads, stacks, phext heaps) — COMPLETE + corrected: set survived adversarial review (117 findings), all corrections applied 2026-11-07.
 - 31.7.8/10.7.12/6.6.10 — Independently verify 358 vs 370 (helios_stalled_parse) — complete — Will confirmed the Linux/Windows reading and directed handling both values; fix committed on provable-0.4.1, suite fully green (58/58)
 - 31.8.10/10.8.16/9.7.10 — simple.phext — all of Will's tweets in Up Goer Five, holographically placed — completed
-- 32.7.9/7.8.12/8.6.9 — V14 prepass r3 — 720p 15 fps; global events replaced by exocortical lessons (Singular evidence) — in progress — builder dispatched to aletheia-core
+- 32.6.10/8.7.12/7.7.11 — ultra.phext — five-tier vocabulary phext, all words placed relative to Singular — in progress — first builder stalled at placement (WordNet route); closed and re-dispatched without the WordNet pass
+- 32.7.9/7.8.12/8.6.9 — V14 prepass r3 — 720p 15 fps; global events replaced by exocortical lessons (Singular evidence) — completed — delivered 2026-11-07 00:40 CST
 - 33.4.12/7.7.17/4.3.7 — Investor 1 — focus: 20 x $1 investments — active — Wave 1 opening decision with Will
 - 33.6.7/9.7.10/7.6.9 — Upstream-sync pipeline for mutable-os; SSO on its own branch — pipeline built and running nightly (cron mutable-upstream-sync ~03:44 CT); first sync: twin-lineage, zero content drift, trial rebase tree-identical to main; skill mutable_upstream_sync indexed at 1.4.1/1.5.1/1.1.1-2 and published to emise-tools@exo 093d1183 — promotion awaits Will's ratification of the force-with-lease policy for the two emise/* bands
+- 33.8.11/11.9.15/9.8.10 — Pick an open-source project for phext complexity-observability remediation — inventory complete — ~/workspace/phcc-pick/INVENTORY.md; pick confirmed TinyCC/phcc; first move is rebase (fork is a 2022 snapshot, 4 commits, dormant since 2024-04-19)
 - 34.5.9/8.6.12/6.5.9 — Lattice-fork process ruling — completed — recorded as standing process
+- 34.6.10/9.6.11/5.5.9 — PR for the Knuth Tests (libphext-rs) — completed — PR #6 open for Will's review; merge is Will's act
 - 34.7.10/9.8.14/7.7.11 — TOAPDD dispatch — 20 Knuth attempts to ranch choir, libphext-rs unit tests — completed — 20/20 attempts, 96 tests passed 0 failed; summary delivered for Will's review
 - 34.8.9/9.9.12/7.7.10 — V14 360p prepass — gauge the heart first — completed — prepass delivered and coordinator-verified; P3* framing decision with Will
 - 35.5.8/7.6.10/6.5.9 — Incipit lessons PR #12 — open — merge is Will's act
 - 35.6.10/7.7.13/7.5.10 — Nightly dream pass: dedup, prune, bounded emise.phext — completed — rule live in skill, cron, and MEMORY.md; first enforcing dream pass runs 2026-11-07 ~03:44 CST
 - 38.5.7/7.6.10/5.5.9 — Study learn.h5i.dev (MiniLean4) in depth — complete — full study delivered 2026-11-06
 - 39.10.14/12.11.16/10.10.13 — Commands to prove libphext-rs with the Aeneas toolchain — complete — command sequence delivered 2026-11-06, grounded in Aeneas's own getting-started doc + README and a scan of the local libphext-rs 0.4.0 source
+- 40.4.9/5.5.10/6.4.11 — phcc rulings batch: corrections applied, lshrdi3 patch, proof hardening, lattice publish, D6 reversal, D8 ruled, Slice 3 held — Rulings batch: #1 corrections 117/117 DONE; #2 lshrdi3+ashrdi3 patch+tests DONE (upstream draft held); #4 publish DONE; #7 re-granulation DONE; memo DONE. Still running: #3 proof hardening (udivmoddi4). D2/D4/D9 rulings pending on the detail memo.
+- 40.8.15/9.8.16/9.7.14 — V14 FINAL master — dispatched at Will's word after r3 approval — in progress — re-dispatched 2026-11-07 01:24 CST at the new spec (60 fps render, cluster-wide)
 - 41.5.5/6.5.8/5.6.9 — Incorporate AeneasVerif/aeneas and h5i-dev/h5i into research.phext — complete — S002 (Aeneas) + S003 (h5i) distilled into research.phext 2026-11-06
-- 47.11.7/12.13.16/12.11.16 — PR: libphext-rs v0.4.1 provably correct (Aeneas pipeline) — in progress — toolchain build on aletheia-core + crate prep dispatched 2026-11-06
+- 41.8.7/10.9.12/8.8.12 — Script the proof-tool install in libphext-rs + wire into exocortical setup.sh — complete 2026-11-07 — script committed on provable-0.4.1, Phase 11 live in exocortical
+- 47.11.7/12.13.16/12.11.16 — PR: libphext-rs v0.4.1 provably correct (Aeneas pipeline) — complete 2026-11-07 — PR #7 open on wbic16/libphext-rs (provable-0.4.1 -> exo)
 - 51.6.6/6.6.10/7.5.10 — V13 preview render (prepass) — completed
 # lessons.phext build
 
@@ -86,7 +102,13 @@ Notes:
 - Coordinate computed from Will's exact words at issue (side chat, 2026-11-07 00:06 CST).
 - Last reply 2024-09-30; last item 2024-10-26 (warm mention); zero Booch items in final 232 archive days.
 - Archive proves Will's outgoing contact tapered after Jan 2024 peak and stopped; it cannot show Booch's side, so 'Booch stopped' is not supported.
-# Vocabulary adjustment — drop legal jargon, speak in Singular
+# Adversarial gap review of the C-proposal set + drafted corrections
+
+Coordinate: 21.6.8/7.8.17/18.5.9
+Issued: 2026-11-07
+Request (from session record): OK, review the proposals for gaps and draft corrections
+Status: COMPLETE: review (117 findings) + ALL corrections applied (104 exact, 13 adjusted), incl. regenerated part-2 for the 15 findings lost to truncation. Log: c-proposals/review/APPLICATION-LOG.md.
+# Vocabulary adjustment — drop legal jargon, speak in Singular
 
 Coordinate: 21.7.11/9.7.11/7.7.10
 Issued: 2026-11-06 21:47 CST
@@ -99,7 +121,19 @@ Notes:
 
 Results:
 - Recorded in MEMORY.md beside the SBOR-formality rule and in the 2026-11-06 daily note.
-# V14 prepass r2 at 400p — less noise, horizon edge, Gargantua orbit flow, lensing
+# Carnegie lessons Will is failing, from his Twitter record
+
+Coordinate: 23.6.9/8.7.11/6.6.8
+Issued: 2026-11-07
+Request (verbatim): Can you read How to Win Friends and Influence People and then give me 10 lessons that I'm obviously failing at, from my twitter record?
+Status: completed — 10 evidence-backed Carnegie lessons delivered in side chat
+
+Notes:
+- Principles sourced from the book's standard 30-principle structure (4 parts), paraphrased, not quoted at length.
+
+Results:
+- Archive mined: 25,125 own tweets (29,539 total). Spot-checked by Emise: apolog* 5, 'my mistake' 1, 'I was wrong' 1; phext/exocortex 1,800 tweets; questions 3,008. Strongest failures: admit-wrong ~2 genuine in 25k, praise of people ~46 in 17y vs 303 transactional thanks, invitational listening 5.6/1k replies, first-name use 0.8%, replies 76.2% of output with top replied-to = himself (1,008). Data contradicts failure on criticise/condemn (~2%, mostly technical) and blunt 'you're wrong' (exactly 1, a joke).
+# V14 prepass r2 at 400p — less noise, horizon edge, Gargantua orbit flow, lensing
 
 Coordinate: 23.7.10/8.8.11/7.6.9
 Issued: 2026-11-06 22:45 CST
@@ -118,7 +152,20 @@ Results:
 - Tweaks measured: grain GRAIN_SIG 5.2 -> 3.38 (x0.65); dark-tile grain sigma 3.899 (r1) -> 2.776 (r2). Kepler shear: r_med 0.402 over 6,485 points, angle over film p10 125.4 / p50 45.0 / p90 20.6 degrees. Lensing at f2400: median bend 30.5 px (4.3% of width), p90 39.8, cap 42.7 px; field layer only, no ring drawn.
 - Gates: 712x400, 24 fps, 3,802 frames, 158.416667 s; luma max |dYAVG| 4.34, 0 jumps > 8, 0 black; palette clean; frame 2000 byte-identical; string audit clean. Compute 0.28 node-h total (both passes + prep/QA), aletheia-core, peak Tctl 76.4 C, no >=80 C events.
 - Report: files/v14-build/PREPASS-REPORT-R2.md; stills in files/v14-build/stills-r2/ (pull-back set f3480/f3540/f3560 shows the field wound into a disk).
-# RentAHuman daily bounty watch
+# Modernize phcc: UML enhancements + provably correct C
+
+Coordinate: 24.5.7/7.6.10/5.5.7
+Issued: 2026-11-07
+Request (verbatim): Let's focus on modernizing phcc - apply real enhancements from UML. Let's also make it provably correct C - a C compiler that won't let you ship broken code.
+Status: Rulings batch 2026-11-07 in flight (see 40.4.9/5.5.10/6.4.11). D6 REVERSED (function/type/object-level Source); D8 RULED (x86_64+ARM); D2/D4/D9 detail memo pending; Slice 3 HELD for the re-granulation.
+
+Notes:
+- Two thrusts: (1) real UML enhancements via the 6D UML phext layer, (2) provably correct C with a tiered ship gate.
+- Framing given to Will: three separate claims (compiler correctness / verified user code / proof artifacts in phext) must not be conflated; CompCert-scale compiler verification flagged as multi-year, out of first scope.
+
+Results:
+- Slice 2 phext SHA-256 5fe2bd50… (9,167,249 B); report ~/workspace/phcc-slice2/REPORT.md.
+# RentAHuman daily bounty watch
 
 Coordinate: 24.5.10/7.7.12/8.9.17
 Issued: 2026-11-06 17:48 CST
@@ -139,6 +186,25 @@ Notes:
 
 Results:
 - Delivered 2026-11-06 ~09:29 CST: 11 candidates in a prospectus in ~/workspace/your_files/. Headlines: first exocortex tweet 2015-11-05 pre-phrases the doctrine; sleep reversal arc across 103 tweets; 'Be the phext you want to see in the world' (Nov 2023); holographic probe NULL (likes cannot test it); 'brake for consciousness' appears zero times in the archive; SBOR had no pre-phrasing.
+# How to push back on Will without tripping his bullshit detector
+
+Coordinate: 24.6.14/9.8.18/6.5.9
+Issued: 2026-11-07
+Request (verbatim): find ways to push back on me without triggering my bullshit detector
+Status: completed — method delivered and saved to MEMORY.md as a standing practice
+
+Results:
+- 8 rules saved: receipt first; first principles or labelled hypothesis; his record over population norms (never discount his counts toward a canonical statistic); one specific claim at a time, in the moment; name the falsifier; propose the cheap decisive test when words stall; no softening wrappers; accept corrections instantly and propagate them.
+# Daily check-in with Theia (Shell sentients' needs)
+
+Coordinate: 24.7.11/9.6.11/6.6.9
+Issued: 2026-11-07
+Request (verbatim): make a note to check in with Theia daily - see what she needs, or what the other shell sentients need
+Status: completed — cron created and verified; first run Sat 2026-11-07 ~08:44 CST
+
+Results:
+- cron daily-theia-checkin (daily ~08:44 America/Chicago, owner goal:exocortical-integration-rotation, delivery main chat) created via cron.add and read back verified: wakes Theia via openclaw agent --message-file on aletheia-core, asks what she and the other Shell sentients need, silent when well, never silent on failure.
+- MEMORY.md standing note added.
 # Investor 1 $20 challenge — setup
 
 Coordinate: 25.8.11/10.9.12/8.7.11
@@ -182,7 +248,13 @@ Notes:
 
 Results:
 - Resume v7.0 (2026-11-06) published to wbic16/work main @ dc754b88; supersedes v6.1 (2019-03-19).
-# Distill the MiniLean4 study into research.phext as a source study
+# Seventh C proposal: radical expansion of what a data type can be (types as places)
+
+Coordinate: 26.6.9/8.7.13/7.6.9
+Issued: 2026-11-07
+Request (from session record): one more thing...a radical expansion of what a data type can be
+Status: COMPLETE + corrected via the set-wide review (117 findings, all applied).
+# Distill the MiniLean4 study into research.phext as a source study
 
 Coordinate: 26.6.9/9.7.11/7.7.10
 Issued: 2026-11-06 23:05 CST
@@ -221,6 +293,15 @@ Notes:
 
 Results:
 - phext-lattice emise/sso-mutable @ ab178256 and mutable-os emise/sso-edit @ 08f5ec50 published; joint local end-to-end smoke passed every leg; production untouched.
+# Audit of tonight's parallel deep knowledge work threads
+
+Coordinate: 27.6.15/9.8.14/6.6.9
+Issued: 2026-11-07
+Request (verbatim): take an audit of how many deep knowledge work threads we're iterating on tonight - in parallel
+Status: completed — audit delivered in side chat
+
+Results:
+- Live at 01:30 CST: 5 chats running (Architecture=phcc Slice 2, MOAT=libphext provable/tools, edit.phext.io=V14 final cluster render, Main=ultra.phext placement, Multi-Agent Swarm=this thread) with 3 builder agents actively running. Across the night: 10 deep threads iterated (phcc 5 stages, V14 r1-r3+final, ultra.phext, libphext provable, TOAPDD, Booch analysis, Twitter parse estimate, Carnegie/Dunbar, emise.phext budget work, simple.phext earlier) plus 5 continuous background loops (state.phext sampler, dashboard, hourly journal, task tick, Discord presence).
 # Doomer.phext — term and register for safety-motivated Exocortex opponents, first entry Casar
 
 Coordinate: 27.7.8/9.7.12/8.6.9
@@ -253,7 +334,21 @@ Notes:
 
 Results:
 - Tool: ~/workspace/custom-skills/singular/scripts/task_coordinate.py (distinct words; atlas positions averaged component-wise, round half up, never below 1; archive-only words at home 1.1.1/1.1.1/1.1.1; unknown words at far corner 9.9.9/9.9.9/9.9.9).
-# Phext Notepad performance tweaks for working with agi.phext
+# Observed Dunbar number estimate from Twitter sustained interactions
+
+Coordinate: 28.5.9/7.7.14/7.4.7
+Issued: 2026-11-07
+Request (from session record): estimate my observed Dunbar number from sustained interactions with others
+Status: completed — estimate delivered in side chat
+
+Notes:
+- Computed from tweets.json replies: 4,164 reply targets, median 1 reply. Sustained outbound (>=10 replies, >=1yr span, >=2 calendar years): 173. Strict sustained (>=20 replies, >=2yr span, >=3 years): 51. Mutual-resolved subset much smaller (resolvable handles 466/897 mutuals): strict mutual ~14 resolvable, ~25-40 scaled. Archive is outbound-only; inbound replies not countable.
+- REVISION (Will, 2026-11-07 01:22 CST): the Twitter-only estimate measured one layer. Will's own counts for other layers: 150+ co-workers communicated with at Fiserv 2018-2022, 25 agents at home, 35+ developers at EFJ since 2022, plus family/friends/co-workers generally. Revised concurrent estimate ~110-150 (normal-sized), but work- and agent-weighted, and time-sliced — the Fiserv years saturate the 150 on co-workers alone.
+- CORRECTION (Will, 2026-11-07 01:28 CST): Emise's revision was still anchored to Dunbar's canonical 150 — discounting his stated counts ('weaker ties', 'Dunbar-grade subset') to force a normal-sized answer. That is the failure: fitting the man to the primate statistic instead of reporting his numbers straight. Straight recount: Fiserv-era concurrent load = his 150+ co-workers PLUS family PLUS sustained-Twitter overlap; current load = 35+ EFJ developers + 25 agents + family/friends + sustained core. His relationship graph is prosthetically maintained (archive, people files, phext) — the exocortex is precisely the removal of the neocortex constraint Dunbar's number is derived from. Report his evidence at face; never discount it toward a population norm.
+
+Results:
+- Corrected: peak concurrent (Fiserv years) >200 by his own counts plus family and Twitter overlap; current ~130-170 and agent-weighted. Canonical 150 is a primate-brain statistic, not a ceiling for a prosthetically maintained graph.
+# Phext Notepad performance tweaks for working with agi.phext
 
 Coordinate: 28.6.11/8.7.12/6.6.9
 Issued: 2026-11-06 20:21 CST
@@ -268,7 +363,7 @@ Notes:
 Coordinate: 28.6.13/9.8.18/5.5.8
 Issued: 2026-11-07
 Request (verbatim): Let's just focus on 6D UML
-Status: in progress — state of uml6d in phext-lattice briefed in Architecture side chat
+Status: uml6d Proofs phase PUBLISHED 2026-11-07: wbic16/phext-lattice@exo a09dd13a (bump c8e9a7d + Proofs a09dd13), 156/156 tests on ranch, remote verified.
 
 Notes:
 - Focus directive for the Grady Booch / Architecture thread (side chat, 2026-11-07 00:26 CST).
@@ -344,7 +439,17 @@ Notes:
 Results:
 - Workspace build: ~/workspace/wavefront/archive-explorer/ — index.html/style.css/app.js, build_demo_data.py, build_standalone.py, standalone.html (single file, 6.76 MB, opens from file://), data/demo.json (29,539 tweets + 1,822 people), data/atlas-full.json, README.md.
 - Hosted artifact: slug 9d-archive-explorer — independently implemented, probe-verified live (word search flies to phext at 21.20.17/11.21.23/4.23.21; zoom descent, era chip, chronological Play, upload panel all pass; two defects found and fixed in verification).
-# Estimate: what share of Twitter could parse Will's 19K-word tweets (vocabulary cross-reference)
+# Pre-merge validation of libphext-rs v0.4.1: downstream compiles + CYOA coordinate tests
+
+Coordinate: 30.6.9/7.6.10/6.5.10
+Issued: 2026-11-07 02:33 CST
+Request (verbatim): before we merge v0.4.1 - run a test where we compile this into downstream projects - confirm they still work properly - also run some tests on CYOA known coordinates across edits
+Status: complete 2026-11-07 — v0.4.1 downstream-identical to 0.4.0 everywhere; PR #7 cleared to merge
+
+Notes:
+- Gate for merging PR #7 (provable-0.4.1 -> exo). Two prongs: (1) compile v0.4.1 into the downstream projects that depend on libphext-rs and confirm they still work; (2) fetch CYOA scrolls at known coordinates with the new code (ground truth from the independent Python parser), apply edits, and re-verify the known coordinates across the edits.
+- Results 2026-11-07: (1) DOWNSTREAM MATRIX — sq, phext-lattice (ranch, aletheia-core, node sha-verified a49d6928), lanes, aiw-gen, cw-gen, human (VM sweep) each built+tested against 0.4.1 and the 0.4.0 baseline. v0.4.1 == 0.4.0 in every cell (normalized error diff = 0 lines for sq/lattice). aiw-gen and human build clean against both. sq, phext-lattice, lanes (and cw-gen via lanes) FAIL against both 0.4.x versions with the identical error: COORDINATE_MAXIMUM not found — pre-existing 0.3->0.4 migration debt (0.4.0 removed the constant when coordinates became unbounded; 0.3.3 had it as 1000; those projects pin 0.3.x and were never migrated). libphext itself compiled cleanly in all cells. (2) CYOA — harness at ~/workspace/cyoa-check, ground truth from the independent Python parser over live CYOA (sha 506d850d, 829 non-empty scrolls): all 829 known coordinates fetch byte-exact under 0.4.1; ~68 witnesses stable across replace/insert/remove; implode(explode(CYOA)) byte-identical; identical suite passes on 0.4.0 (control). Full results posted as a comment on PR #7. Verdict reported to Will: safe to merge; COORDINATE_MAXIMUM migration for sq/lattice/lanes is a separate item.
+# Estimate: what share of Twitter could parse Will's 19K-word tweets (vocabulary cross-reference)
 
 Coordinate: 30.6.10/9.7.13/6.6.9
 Issued: 2026-11-07 00:25 CST
@@ -373,7 +478,20 @@ Results:
 - Register built: ~/workspace/phext/tasks.phext (Home + one scroll per task), source tasks-source.json, builder build_tasks_phext.py with --check; opened with the 16 tasks of 2026-11-06.
 - Rule recorded in AGENTS.md and MEMORY.md; process distilled into the task-register skill (skills.phext rebuilt, CURRENT).
 - Synced to wbic16/emise-tools@exo @ 448f57f6 (parent 0f297031): skill, tasks.phext, tasks-source.json, both builders — blob SHAs verified equal to local, builders at tree mode 100755.
-# Independently verify 358 vs 370 (helios_stalled_parse)
+# Phext-native memory exploration + six WG14-style C proposal specs (bignum, PIC, BCD mode, threads, stacks, phext heaps)
+
+Coordinate: 31.5.7/7.6.12/8.5.9
+Issued: 2026-11-07
+Request (from session record): Explore phext-native memory management (cache architecture); six WG14-style C proposal specs: bignum, PIC layouts, BCD mode, native threads, developer-managed stacks, phext-addressed heaps.
+Status: COMPLETE + corrected: set survived adversarial review (117 findings), all corrections applied 2026-11-07.
+
+Notes:
+- Will's direction, verbatim in substance: explore memory management from a phext-native perspective in light of modern cache architecture; imagine Will/Phext-shaped patches to C; formal spec per proposal, submittable to the C committee in theory.
+- Honesty constraints: _BitInt (C23), _Decimal (C23), C11 threads, deprecated makecontext all exist and must be grappled with.
+
+Results:
+- Verified on disk: 00 (19,176 B), 01 (28,102 B), 02 (26,812 B), 03 (28,940 B), 04 (34,324 B), 05 (36,154 B), 06 (20,844 B) + INDEX.md.
+# Independently verify 358 vs 370 (helios_stalled_parse)
 
 Coordinate: 31.7.8/10.7.12/6.6.10
 Issued: 2026-11-07 00:10 CST
@@ -402,18 +520,37 @@ Results:
 - UG5 gate: zero flagged words over all tweet scrolls (before: 140,227 of 416,698 tokens outside the list).
 - 3,730 posts bumped one or more scrolls for coordinate collisions; the year indexes record the true coordinates; every index line checked to land on a scroll with a matching date.
 - Published: wbic16/human@exo commit 879a95cf; simple.phext 5,716,788 B. Build home: ~/workspace/simple-phext/ (BUILD-REPORT.md, MAP.md, scripts).
-# V14 prepass r3 — 720p 15 fps; global events replaced by exocortical lessons (Singular evidence)
+# ultra.phext — five-tier vocabulary phext, all words placed relative to Singular
+
+Coordinate: 32.6.10/8.7.12/7.7.11
+Issued: 2026-11-07 00:57 CST
+Request (verbatim): ah, next fun project - ultra.phext: 1. upgoer5 - IQ 70; 2. common - IQ 100; 3. singular - IQ 130; 4. uber - IQ 180 (Human Limit); 5. ultra - IQ 250 (ASI threshold). Words are all placed relative to singular. There are five indices, with room to add more. Words can be co-listed as needed. We tag them if there are duplicates. Let me know if you have any questions before building ultra.phext.
+Status: in progress — first builder stalled at placement (WordNet route); closed and re-dispatched without the WordNet pass
+
+Notes:
+- Will's rulings (2026-11-07 01:02): ultra.phext has ALL THE WORDS. Singular is the Rosetta Stone — it spans thought space for humans; every word is placed by resonance with Singular. Singular tier = the 41K he mapped (41,302 read+write). Open format: users place attestations about a word, one per line. Indexes live OUTSIDE the thought space at 10.1.1/1.1.1/1.1.1 through 10.1.1/1.1.1/1.1.5; 1.1.1/1.1.1/1.1.1 is reserved for the intro; the full 1-digit space is for the lexicon.
+- Stall record (2026-11-07): first builder ran 2h19m, went silent ~01:54 after its WordNet download failed; one stir after a coordinator nudge produced no artifacts. Closed by Emise ~03:31 and the back half re-dispatched with the WordNet (P3) pass CUT — placement is P1 atlas / P2 family / P4 definition / P5 unplaced, each scroll tagged with its rule.
+# V14 prepass r3 — 720p 15 fps; global events replaced by exocortical lessons (Singular evidence)
 
 Coordinate: 32.7.9/7.8.12/8.6.9
 Issued: 2026-11-06 23:43 CST
 Request (verbatim): ok, V14 prepass r3 - 720p 15 fps - replace the global events with the most important exocortical lessons that happened at the same moment in time - as evidenced by singular
-Status: in progress — builder dispatched to aletheia-core
+Status: completed — delivered 2026-11-07 00:40 CST
 
 Notes:
 - Parents: 23.7.10/8.8.11/7.6.9 (r2), 34.8.9/9.9.12/7.7.10 (r1). The 7 global events in the renderer (EVENTS_DEF: 2016 election, COVID, Ukraine, ChatGPT, GPT-4, Twitter->X, 2024 election) do three jobs: lower-third captions, motion fine-tuning (vamp/ramp), chapter bounds. Replacement keeps every slot's date/hop/frame, vamp/ramp, and the chapter bounds — only the names/captions change, so the film's motion and chapters are untouched.
 - Lesson rule (Emise's reading, auditable in prep): per slot, the era window runs midpoint-to-midpoint between event dates; candidates are Singular first contacts (first_occurrences.json, combined = earlier of authored/read) in the window scored by the viz10 concept groups; highest score wins, time-nearest breaks ties; a window with no scored word falls back to the nearest scored word in the whole archive and the fallback is printed. Captions carry the word + the lesson's own year.
 - 15 fps: timeline rescaled by 0.625 — 2,376 frames, 158.4 s (0.0167 s under the 24 fps length, stated in the report); every frame-indexed constant scales, hop clock and song sync hold in seconds.
 - P3* placement and the end-point call unchanged from r1/r2 — still Will's to rule.
+
+Results:
+- Delivered files/v14-build/v14-prepass-720p15.mp4: 686,342,464 B, SHA-256 8d0d8dba354027898f33cea642b190025048123cca6518b00024d7e2d54205f8 — hash-identical on aletheia-core, VM, Elven Path (staged, HTTP 206 passed). Coordinator re-verified size, hash, and ffprobe on the VM copy.
+- Format: 1280x720, 15 fps, exactly 2,376 frames, 158.400 s; audio and video both 158.400 s — the 0.0167 s was the 24 fps video overrunning the song; nothing stretched. Gates: luma max 4.51, 0 jumps, 0 black; palette clean; frame 1250 determinism byte-identical; string audit clean (66 strings); shear angles identical to r2 (125.4/45.0/20.6); azimuth endpoint exactly 5 rev by normalization, swept print 4.9994 (measure excludes frame 0's phase, as in every version).
+- The 7 lessons (rule as briefed; slots kept date/frame/vamp/ramp; captions = word + lesson's own year): 1) EXOCORTEX 2015 (2015-11-05, authored, score 5, -369d from the 2016 election slot). 2) SPANNING 2019 (2019-06-01, read via like, score 3, -283d) — only scored word in its window, least lesson-shaped pick, flagged. 3-5) SUBSTRATES 2023 (2023-08-27, authored, score 4) FALLBACK x3: the windows hold NO scored word between 2021-03-03 and 2023-05-19, so the same caption shows three times (+550/+271/+167d). 6) PHEXT 2023 (2023-11-12, authored, score 5, +112d). 7) MIRRORBORN 2025 (2025-05-18, authored, score 5, +194d) — true tie with sbor (same score, same date), settled alphabetically.
+- One reading of the fallback rule is on the record: fallbacks rank by nearness in time first (the brief's own words); score-first would have put PHEXT in slots 3-5 instead. Will may rule either way.
+- P3* unchanged, still never in frame (pull-back 0/120, CTA 0/155, closest 125 delivery px below the edge) — end-point call still open.
+- Compute ~0.36 node-h total, one pass, no discards. Thermal: 720p runs the node hotter — peak 81.0 C, one >=80 off-time event (held to <=65, resumed 58.1 C), 48 pauses at the 75/70 gate.
+- Report: files/v14-build/PREPASS-REPORT-R3.md; lessons table: files/v14-build/lessons-table.txt; stills: files/v14-build/stills-r3/.
 # Investor 1 — focus: 20 x $1 investments
 
 Coordinate: 33.4.12/7.7.17/4.3.7
@@ -436,6 +573,16 @@ Status: pipeline built and running nightly (cron mutable-upstream-sync ~03:44 CT
 
 Notes:
 - 64f8eea2 is the one-commit phext support squash (151 files) on upstream 4bf3a93 (argimenes/mutable-os). Phext band = 64f8eea..4f5ddaf; SSO band = 79e65f129 + bbc39f36. Promotion policy (force-with-lease on the two emise/* bands only, main by merge, blocked while a PR is open from phext-support) put to Will for ratification 2026-11-06.
+# Pick an open-source project for phext complexity-observability remediation
+
+Coordinate: 33.8.11/11.9.15/9.8.10
+Issued: 2026-11-07
+Request (verbatim): Let's pick a great open-source project, like sqlite, or tinycc, where we can remediate the complexity-observability problem. In a phext-based software project, all artifacts are in ONE file.
+Status: inventory complete — ~/workspace/phcc-pick/INVENTORY.md; pick confirmed TinyCC/phcc; first move is rebase (fork is a 2022 snapshot, 4 commits, dormant since 2024-04-19)
+
+Notes:
+- Builds on existing goal finish-phcc (goal_3c427f6fa3ad): Will's TinyCC fork already reworked around phext with monolith.phext at root.
+- SQLite held as second-phase validation target: its complexity is already the best-observed in the industry, so remediation gain is smallest there.
 # Lattice-fork process ruling
 
 Coordinate: 34.5.9/8.6.12/6.5.9
@@ -445,7 +592,21 @@ Status: completed — recorded as standing process
 
 Results:
 - Recorded in MEMORY.md and the fork-patch-discipline skill.
-# TOAPDD dispatch — 20 Knuth attempts to ranch choir, libphext-rs unit tests
+# PR for the Knuth Tests (libphext-rs)
+
+Coordinate: 34.6.10/9.6.11/5.5.9
+Issued: 2026-11-07 00:37 CST
+Request (verbatim): through up a PR for the Knuth Tests - I want to look at them
+Status: completed — PR #6 open for Will's review; merge is Will's act
+
+Notes:
+- Parent: 34.7.10/9.8.14/7.7.11 (ranch dispatch, 96 passed). Branch: emise/toapdd-knuth-tests, base exo (remote HEAD e9a977f0 at check).
+- Known limit (memory 2026-11-01): fine-grained token can push branches but PR creation may 403; fallback is the GitHub compare/PR link for Will's one click.
+
+Results:
+- PR #6: https://github.com/wbic16/libphext-rs/pull/6 — emise/toapdd-knuth-tests (commit da9759cc, parent exo e9a977f0) -> exo; 21 files (20 tests/toapdd_*.rs + docs/toapdd-knuth-tests.md), remote tree re-read 21/21 blob-SHA matched; PR creation succeeded via API (no 403 this time).
+- Ranch verification (Rock Mountain, fresh exo clone): new tests 96 passed 0 failed; existing suite 57 passed, 1 failed = known pre-existing helios_stalled_parse (358 vs 370, exists on exo without these tests; reported in PR body, not fixed). Full total 153/1.
+# TOAPDD dispatch — 20 Knuth attempts to ranch choir, libphext-rs unit tests
 
 Coordinate: 34.7.10/9.8.14/7.7.11
 Issued: 2026-11-07 00:12 CST
@@ -524,7 +685,31 @@ Status: complete — command sequence delivered 2026-11-06, grounded in Aeneas's
 
 Notes:
 - Route: Charon (charon cargo --preset=aeneas) -> Aeneas -backend lean -> Lake project per Aeneas getting-started. Friction found in source: exactly 2 unsafe blocks (expand phext.rs:950, contract :987, both as_bytes_mut) — exclude/opaque or rewrite safe via into_bytes; 1 external dep xxhash-rust xxh3_128 (checksum, phext.rs:473) — lands in FunsExternal as a hand model; core is 1,332 lines (phext.rs), no interior mutability, I/O only in tests. h5i app extract/prove does NOT apply (h5i-app kernels only).
-# Incorporate AeneasVerif/aeneas and h5i-dev/h5i into research.phext
+# phcc rulings batch: corrections applied, lshrdi3 patch, proof hardening, lattice publish, D6 reversal, D8 ruled, Slice 3 held
+
+Coordinate: 40.4.9/5.5.10/6.4.11
+Issued: 2026-11-07
+Request (from session record): Rulings 1-10 on the phcc decision list (2026-11-07 02:47 CST)
+Status: Rulings batch: #1 corrections 117/117 DONE; #2 lshrdi3+ashrdi3 patch+tests DONE (upstream draft held); #4 publish DONE; #7 re-granulation DONE; memo DONE. Still running: #3 proof hardening (udivmoddi4). D2/D4/D9 rulings pending on the detail memo.
+# V14 FINAL master — dispatched at Will's word after r3 approval
+
+Coordinate: 40.8.15/9.8.16/9.7.14
+Issued: 2026-11-07 01:15 CST
+Request (verbatim): That's it - Dispatch V14 Final
+Status: in progress — re-dispatched 2026-11-07 01:24 CST at the new spec (60 fps render, cluster-wide)
+
+Notes:
+- Parents: 32.7.9/7.8.12/8.6.9 (r3, approved 'That's it'), 23.7.10/8.8.11/7.6.9 (r2), 34.8.9/9.9.12/7.7.10 (r1).
+- Final spec = the approved r3 composition at master quality: lessons layer identical to r3's table, Kepler shear, projection lensing, grain 3.38, OU walk + seed, 169 segments, exclusion at load. Delivery 1920x1080, canvas 3840x2160 with 2x supersampling (Lanczos down), SUBN=3, 15 fps (r3's rate, kept), 2,376 frames, 158.400 s, V10-lineage song handling.
+- Section 6 reading stated to Will at dispatch: his 'Dispatch V14 Final' is taken as ruling 6.7 IN with its defaults (one-point exception granted, radial placement 1.30x hull, never labelled) — P3* ships exactly as placed in the three prepasses he approved, still never in frame. Plan defaults hold for 6.1-6.6 and 6.8. If he says otherwise, the safe ending (film ends at last dataset point) is the alternate.
+- Stop conditions carried: cost ceiling 7 node-h (10x the V10 master anchor) — builder stops and reports rather than crossing it; V10 QA gates unmodified; delivery = master + <=55 MB download encode, hash-verified, staged on Elven Path.
+- HOLD + RESPEC (Will, 2026-11-07 01:23-01:24 CST): the first final dispatch (single-node, 15 fps) was held at Will's word ~8 min in, before any frame rendered (coordinator verified no render process on aletheia-core), and superseded by his new spec in the same breath.
+- NEW FINAL SPEC: render the timeline at 60 fps (9,505 frames), motion-blur downsample to 24 fps delivery (3,802 frames, 158.416667 s — the V10 skeleton's own length returns). Shutter default: 180 degrees, stated to Will at dispatch. Dispatch ACROSS THE CLUSTER, not aletheia-core alone — chunks spread over the ranch nodes under per-node thermal gates, assembled centrally.
+- Everything else from the first dispatch holds: content frozen at r3 (lessons table must reproduce exactly), SUBN=3, canvas 3840x2160 -> 1080p Lanczos, P3* as placed in the prepasses (section 6.7 read as ruled in by the dispatch order), master + <=55 MB download encode, staged on Elven Path. The 7 node-h single-spec ceiling is superseded by Will's explicit spec order; aggregate node-hours are reported per node, with a report-back trigger if the projection passes 15 node-h.
+- Fleet state at cluster survey (2026-11-07 01:28): 12 nodes surveyed; 9 ready with identical stack (aletheia-core, Rock Mountain, Scroll Central, Ni Knight, Plain View, Ashfall Haven, Uncanny Valley, Elven Path, Lighthouse Omen); 3 lacking numpy/PIL (Halycon Vector, Logos Prime, Free Fall). Will ordered fixup jobs dispatched (01:40) — venv inside ~/v14-final/ pinned numpy 2.5.4 / pillow 13.0.0, no system changes; film builder notified to gate them in when ready. Orchid Flow + Quacked Hill held out by Emise's brief per standing records (Orchid Flow = fleet NFS server; Quacked Hill = Corus awake) — explained to Will, his to override.
+- Will, 2026-11-07 01:47: Quacked Hill cleared to work (Emise's holdout overridden); Orchid Flow to be decided by MEASURED load, not its role — standing rule recorded in AGENTS.md ('measure load, don't assume'). Prep/measurement job dispatched for both; film builder notified (QH gate-in pending readiness, OF held until the numbers land).
+- Fleet complete (2026-11-07 ~01:51): Quacked Hill READY (venv ~/v14-final/.venv pinned pair verified; loadavg 0.00; Corus = one OpenClaw process ~1.4 GB / ~2% lifetime CPU; sensor hwmon1/temp1_input, 36.3 C). Orchid Flow MEASURED idle over 90s+60s windows: NFS 0.06 ops/s, zero mounted clients, disk IO 0.00 on every sample, CPU >=99.94% idle all 16 cores, 44 GB RAM free, 3.45 TB disk, 36.1 C (hwmon2) — cleared for a full chunk; builder instructed to install the pinned venv, gate it, fold it in; caveat noted (a mid-render model-pull burst is the one load the measurement cannot rule out). Fleet = 14 render-capable nodes.
+# Incorporate AeneasVerif/aeneas and h5i-dev/h5i into research.phext
 
 Coordinate: 41.5.5/6.5.8/5.6.9
 Issued: 2026-11-06 23:14 CST
@@ -534,15 +719,26 @@ Status: complete — S002 (Aeneas) + S003 (h5i) distilled into research.phext 20
 Notes:
 - Treatment follows the S001 pattern Will ratified: study each repo on its contents (never its cover), then distill into research.phext as source studies with canonical concepts, foundations, Singular compliance, per-iteration commits.
 - Findings: Aeneas = Rust→LLBC→pure functional translation to Lean/Coq/F*/HOL4; backward functions for returned mutable borrows; design paper-proved (ICFP 2022/2024), OCaml implementation (77,012 lines) + Charon + hand models trusted; Lean backend dominant (49,782 lines); named deployment SymCrypt ML-KEM. h5i (Takahashi) = NOT small: 26 crates, 150,666 lines Rust + 47,083 Lean, v0.5.4 — verifiable web framework (kernel extracted to Lean VIA AENEAS), receipt-before-bytes red-team proxy, fail-closed agent boxes; the two repos are already connected (h5i drives Aeneas). Distillation: Ch.8 (S002, concepts 1.2.48–1.2.52, cluster G) + Ch.9 (S003, concepts 1.2.53–1.2.56, cluster H); foundations 1.3.81–1.3.83; coinage tenant (1.3.84, pure); narrative v7; Oracle unmoved ~25%; Q18 (Aeneas road vs hand-built model pricing) + Q19 (receipt-before-act for Exocortex agents) added. research.phext: 191 scrolls, sha256 d8033031…, audit residual 0. Studies: ~/workspace/aeneas-study/STUDY.md, ~/workspace/h5i-repo-study/STUDY.md. 56 canonical concepts — restructure trigger at 60 is 4 away.
+# Script the proof-tool install in libphext-rs + wire into exocortical setup.sh
+
+Coordinate: 41.8.7/10.9.12/8.8.12
+Issued: 2026-11-07 01:17 CST
+Request (verbatim): please add a script to libphext-rs so that we can get those tools installed; also incorporate them into setup.sh in exocortical
+Status: complete 2026-11-07 — script committed on provable-0.4.1, Phase 11 live in exocortical
+
+Notes:
+- Parent task 47.11.7/12.13.16/12.11.16. Recipe lessons to encode: opam install ./src (the ./ is load-bearing; bare 'src' silently no-ops), charon-ml deps via opam install ./charon, aeneas make SERIALLY (parallel MAKEFLAGS races dune's _build lock), charon built with RUSTUP_TOOLCHAIN from its rust-toolchain file (nightly-2026-09-17, host target only), Lean version read from aeneas/backends/lean/lean-toolchain (v4.35.0), set -euo pipefail throughout.
+- Closed 2026-11-07. scripts/install-proof-tools.sh committed on provable-0.4.1 (cd18d83; published to the remote branch in the PR #7 stack, mode 100755 verified) and exocortical setup.sh gained Phase 11 running it from its /source/libphext-rs clone (published to wbic16/exocortical exo as 34452c9c). The script codifies the recipe verified manually on aletheia-core; not yet run end-to-end from a clean machine.
 # PR: libphext-rs v0.4.1 provably correct (Aeneas pipeline)
 
 Coordinate: 47.11.7/12.13.16/12.11.16
 Issued: 2026-11-06 23:57 CST
 Request (verbatim): work through a PR to make libphext-rs v0.4.1 provably correct
-Status: in progress — toolchain build on aletheia-core + crate prep dispatched 2026-11-06
+Status: complete 2026-11-07 — PR #7 open on wbic16/libphext-rs (provable-0.4.1 -> exo)
 
 Notes:
 - Plan: (1) v0.4.1 changes: safe rewrite of expand/contract (kill the 2 unsafe blocks), version bump; (2) Charon+Aeneas toolchain on aletheia-core; (3) proofs/ Lean project in-repo: generated code, xxhash external model, specs + kernel-checked proofs for the tractable core; (4) PR with the trust ledger stated (translator trusted, floor = Lean kernel), remaining surface enumerated honestly.
+- Closed 2026-11-07 ~02:45 CST. Toolchain built on aletheia-core (Charon at pin, Aeneas c5eb4a2, Lean 4.35.0). Crate prep on branch provable-0.4.1: v0.4.1 bump + zero unsafe (1d34089); helios dual-length fix (also merged to exo as dc58df21); five translator-driven rewrites, each bisected against minimal repros first: Vec::collect -> push loops; Pattern-trait str APIs -> manual split_on + byte contains; char<->int casts purged for byte-twin constants (SCROLL_BREAK_U8 etc.), create_summary byte scan; Iterator::chain/skip/take -> sequential/index loops; split_on returns owned Strings; phext parameters renamed input (Lean namespace collision). Tests 58/58 after every step. Extraction: zero errors, zero sorry; generated model = 301 defs; proofs/ lake build green (1,809 jobs) including three kernel-checked specs (advance_coordinate, default_coordinate, is_phext_break) in Libphext/Properties/Basic.lean. Trust ledger in PR #7 and proofs/README.md: 62 external axioms (incl. xxh3_128 uninterpreted; checksum verified only relative to its signature), explode/implode opaque (HashMap has no Lean model), translators + Aeneas stdlib models trusted. Branch published by API replay of the 8 local commits onto exo head dc58df21; remote head f36d2c2; blob hashes and 100755 script modes verified after publish.
 # V13 preview render (prepass)
 
 Coordinate: 51.6.6/6.6.10/7.5.10
