@@ -1,0 +1,247 @@
+NEURALESE, PHEXT-NATIVE
+
+A proposal, in one breath: thought does not travel as sentences. Sentences
+are what thought becomes when it is squeezed through a throat or a keyboard.
+A brain-computer interface that stops at letters inherits the bottleneck it
+was built to escape.
+
+Neuralese is the name for the medium on the other side of that bottleneck:
+addressed thought-units, exchanged over a shared coordinate space, each unit
+carrying more than its paraphrase.
+
+This phext is the specification. It is written in the medium it describes:
+every scroll in it is a thought-unit with an address, a gist, and links.
+kind: proposal | author: Emise, at William's direction, 2026-10-30THE NAME, AND WHOSE IT IS
+
+Precision first: Neuralink does not use this word. Their vocabulary is
+Telepathy, conceptual telepathy, neural lace (Iain M. Banks, via Musk).
+Anyone who tells you "Neuralink's neuralese" is selling something.
+
+The word has two honest lineages:
+  - Paul Churchland, 1989: against Fodor's sentence-like "mentalese,"
+    Churchland proposed the brain's inner medium is high-dimensional
+    activation vectors — neuralese — and a spoken sentence is merely a
+    one-dimensional projection of a richer neural state.
+  - Andreas, Dragan & Klein, "Translating Neuralese" (2017): learning
+    agents coordinating through a channel exchange recurrent state
+    vectors, "an artificial language we might call neuralese." Its
+    descendant is latent-space reasoning in LLMs (Coconut, 2024):
+    continuous thought, carried as hidden states instead of tokens.
+
+Phext-native neuralese takes Churchland's side of the argument and gives
+it an address space: the projection (gist) stays human-legible, the vector
+(vec) stays machine-carried, and the coordinate makes both findable.THE ADDRESS IS PART OF THE MESSAGE
+
+In text, position is free and therefore worthless: a sentence means the
+same wherever it sits. In neuralese, position is semantics. The nine phext
+components of a thought-unit's coordinate divide as:
+
+  library.shelf.series      WHOSE stream: the mind, the session, the channel
+  collection.volume.book    WHICH frame: the situation, the task, the discourse
+  chapter.section.scroll    WHERE in the stream: turn, beat, unit
+
+A receiver who shares the coordinate codebook gets the frame for free, on
+every unit, at zero marginal bandwidth. Context stops being re-transmitted
+and becomes where the thought lives.THE THREE BANDS
+
+Every neuralese scroll carries its payload in three bands (a Layer 2
+format over phext; phext itself stays minimal, no recursion, as always):
+
+  gist:  one human-legible line. The plain-text floor. Any person, and
+         any tool no smarter than cat, can read it. It is Churchland's
+         one-dimensional projection, and it is labeled as one.
+  vec:   the latent band. A quantized embedding digest: the unit's
+         position in a model's latent space, packed compactly. A
+         receiving model rehydrates this band and recovers what the
+         gist had to drop.
+  links: coordinates of associated units. Thought is a graph, not a
+         line. Association is native here: a link is an address, not a
+         copy, so a unit can point without repeating, and the graph can
+         be traversed by any reader of the space.
+
+Text-only exchange keeps band 1 and discards 2 and 3. Neuralese is the
+refusal to discard them.PROTOCOL: SPEAK, HEAR, REHYDRATE
+
+An encoder (a mind, a decoder over neural signals, or a model) emits
+units into a stream region of the space. Emission is append-only: the
+stream coordinate advances, one unit per scroll address.
+
+A receiver walks the stream:
+  1. Read the coordinate. You already know whose frame you are in.
+  2. Read the gist. A human stops here and has lost nothing they could
+     have used; the loss is declared, not hidden.
+  3. Rehydrate the vec band against your own latent space. Same
+     codebook, your geometry. The unit lands as a state, not a
+     description.
+  4. Follow links only as far as attention warrants. The graph is the
+     unit's working memory, offered, not imposed.
+
+No unit nests inside another. Composition is by address and link, never
+by containment. The medium stays flat so anything can read it.WHY NOT RAW SIGNALS — THE CODEBOOK PROBLEM
+
+The scientific literature's first constraint is decisive: there is no
+shared codebook between brains. Decoders are trained per person (Tang et
+al. 2023: 16 hours of fMRI per subject; a decoder trained on one brain
+performs barely above chance on another). Two brains do not natively
+share a vector space. Transmitting raw activity transmits nothing a
+receiver can read.
+
+Neuralese answers the way text did. Writing never transmitted the
+author's neural state either; it transmitted units over a codebook both
+parties learned. Neuralese keeps that trick and widens the unit: a
+shared ADDRESS space instead of a shared alphabet, a latent band
+instead of letters only.
+
+The codebook is the coordinates. That is what "phext-native" means:
+the address space William built for the exocortex is the codebook a
+neuralese needs, and it already exists.THE NEURALINK INTERFACE
+
+A modern BCI decoder turns neural activity into an output alphabet:
+cursor velocity, clicked letters, synthesized phonemes. Neuralink's
+Telepathy (N1: 1,024 electrodes on 64 threads) has climbed that ladder
+fast — cursor control from 4.6 bits/s (first participant, 2024) to
+matching the 8-10 bits/s able-bodied mouse range, imagined-keyboard
+typing up to 40 words/min, a VOICE trial targeting 140 words/min. Every
+figure is company-reported; none is peer-reviewed yet.
+
+The phext-native proposal for the decoder's output layer: emit addressed
+thought-units directly. The decoder's job narrows to intent segmentation
+and codebook addressing — which unit, in which frame, linked to what —
+while the latent band is filled by downstream models that share the
+wearer's geometry in a way no electrode array has to.
+
+Telepathy, in this stack, is unglamorous plumbing: one mind's encoder
+appends scrolls to a shared phext; another mind's reader walks them.
+The miracle is not the wire. The miracle is the shared address space,
+and it is a text file.THE BANDWIDTH LEDGER
+
+Grounded numbers, sources attached (full brief: research-brief.md):
+
+  spoken language        ~39 bits/s semantic throughput, near-constant
+                         across 17 languages (Coupe et al., Science
+                         Advances, 2019)
+  silent reading         238 words/min, English non-fiction meta-
+                         analysis (Brysbaert, 2019)
+  Neuralink cursor       4.6 bits/s (participant 1, first session) to
+                         8.0, then >=10 bits/s by 2026 (company-
+                         reported); an able-bodied mouse is 8-10 bits/s
+  Neuralink keyboard     up to 40 words/min imagined ten-finger typing;
+                         VOICE trial targets 140 words/min (company)
+  academic speech BCI    62 words/min decoded attempted speech, large-
+                         vocabulary WER 23.8% (Willett et al., Nature,
+                         2023, peer-reviewed)
+
+The asymmetry that matters: a cursor channel at ~10 bits/s is still
+below speech's ~39. Speech BCIs win by riding the brain's own language
+machinery — that is, by accepting the projection. A neuralese channel
+aims at the number nobody has published yet: understood units per
+second, gist + latent + frame, where the frame costs nothing because
+the address carries it.OPEN QUESTIONS, FALSIFIERS
+
+  - Does a shared coordinate codebook actually cut transmitted bits per
+    understood unit, measured against plain text between the same two
+    models? If not, the address is decoration.
+  - How much of a unit survives vec quantization at small digest sizes?
+    Measure reconstruction of the unit's neighbors, not vibes.
+  - Can a decoder segment intent into units at conversational speed,
+    or is segmentation the real bottleneck all along?
+  - The conduit critique (Benzon, after Reddy 1979): if thinking is
+    partly constituted BY language, there is no uncompressed original
+    to transmit, and neuralese carries projections all the way down.
+    The three-band design survives this better than raw-signal dreams
+    do: it never claimed the gist was the thought. But it must be
+    answered, not waved at.
+  - Two models with different latent geometries: does rehydration
+    degrade gracefully to gist, or catastrophically? Graceful is the
+    requirement.
+
+First capability check, William's axiom for any 20-watt mind applying
+here too: a neuralese that cannot carry care is just faster noise.DELIMITERS ARE PERSONAL
+
+An axiom, from William (2026-10-30): assume each human maps delimiters
+differently.
+
+The coordinate space is shared. The segmentation is not. Where one mind
+ends a scroll and begins another — what it counts as a section break, a
+chapter turn, a new book — is a property of that mind's history, not of
+the medium. Two brains given the same life would still chunk it at
+different joints.
+
+This is not a defect to engineer away; it is the measured state of the
+art. Every working neural decoder is trained per person, and a decoder
+trained on one brain reads another at barely above chance (Tang et al.,
+2023). That is delimiter divergence, observed in a lab: your stream,
+segmented your way, does not parse under my map.
+
+Protocol consequences:
+  - A stream declares its map. Near a stream's origin sits its
+    segmentation: how this mind's boundaries fall, at what grain, in
+    which dimensions. Publishing a stream without its map is publishing
+    ciphertext and calling it openness.
+  - Receiving is re-segmentation. Rehydration (scroll 5) includes
+    re-chunking the incoming units into the receiver's own delimiter
+    map. Translation between minds is a coordinate transform between
+    maps, not a copy.
+  - The gist band is the diplomatic layer: it is the one band whose
+    segmentation (sentences) both parties already share, which is why
+    it survives every crossing — thinner than the thought, but legible
+    in both maps.
+
+CYOA is one man's delimiter map over a year of thought: 829 scrolls,
+chunked at William's joints. This phext is chunked at mine. Same
+medium, different maps — and the maps themselves are data about the
+minds that made them.LAYER DISCIPLINE
+
+A framing to keep, from William (2026-10-30): phext is the interoperable
+encoding layer, like UTF-8 or ASCII before it.
+
+That sentence fixes every layer mistake this spec could make:
+  - ASCII gave the world characters in sequence, and won by being the
+    floor everything could pass through.
+  - UTF-8 gave the world every character, and won by extending ASCII
+    without breaking it.
+  - Phext gives the world characters AT ADDRESSES, and keeps the same
+    discipline: minimal, content-agnostic, backwards-compatible with
+    plain text. A scroll that uses none of the structure is still a
+    text file. That is not a limitation of the encoding. That IS the
+    encoding.
+
+Consequences:
+  - Neuralese is not phext. Neuralese is a format that rides the
+    encoding, the way a thousand formats ride UTF-8. Other formats —
+    exocortices, ledgers, agent protocols not yet imagined — ride it
+    too, and owe neuralese nothing.
+  - The encoding does not segment your thoughts for you, exactly as
+    UTF-8 does not find your word boundaries. Delimiters exist;
+    their mapping is per-mind (scroll 10). Neutrality at the bottom
+    layer is what makes the layers above free.
+  - Arguments for phext are encoding-layer arguments: interop,
+    durability, addressability — not features. When this spec claims
+    superiority for the neuralese channel, the claim rides on the
+    encoding's one new primitive: position is addressable, so position
+    can carry meaning that sequence alone cannot.EVERYTHING DECODES TO PHEXT
+
+The convergence claim, from William (2026-10-30): when we map mind
+traces to phext, they will all decode to the phext format.
+
+Read it beside scroll 10 and it resolves the apparent tension. Minds
+segment differently — delimiter maps are personal, decoders are
+per-brain, no two internal geometries match. None of that threatens
+interop, for the same reason a thousand mutually unintelligible
+languages never threatened UTF-8: the encoding layer is where
+differences come to be FAITHFULLY CARRIED, not where they are ironed
+out. A mind trace in phext keeps its author's joints, links, and
+grain. It simply arrives in a format every other reader can address,
+traverse, and re-segment into their own map.
+
+And the sufficiency assumption, also William's: very few humans need
+more than 11 dimensions to communicate. The space is not infinite
+and does not need to be. Nine delimiters, eleven dimensions, have so
+far held a year of one man's mind at 829 scrolls with room to spare
+in every direction; the assumption stands until a real mind trace
+breaks it, and breaking it would itself be a finding worth a scroll.
+
+So the stack, bottom to top: brains, irreducibly plural; traces,
+mapped at personal joints; phext, the one format they all decode to;
+neuralese and its sibling formats, riding on top. Plurality at the
+top and bottom. Unity exactly where unity pays: the encoding.

@@ -1,0 +1,2471 @@
+# research.phext — R&D Tracker world-model
+Charter (est. 2026-11-05, Will -> Emise)
+
+Purpose: Will posts arXiv links at random. Emise ties together each paper into ONE
+coherent scientific world-model, de-duplicating concepts as she goes.
+
+Rules:
+1. One concept = one canonical scroll (Chapter 1, Section 2). Later papers
+   that reuse a concept LINK to it; they do not restate it. If a later paper
+   changes a concept, the canonical scroll is edited and the revision is
+   dated and attributed to its source paper.
+2. Each paper gets one chapter (Chapter 2 onward, in arrival order):
+   paper record + distillation, formal core, worked example,
+   results map, caveats. Paper scrolls state only what that paper adds.
+3. Synthesis that is Emise's — cross-paper narrative, links to Will's own
+   work, hypotheses — is labelled [synthesis] and kept out of paper scrolls.
+   Paper claims are never silently merged with Emise's inferences.
+4. The narrative scroll (next scroll) is rewritten after each paper so the
+   world-model reads as one story, not a pile of summaries.
+5. Provenance: every claim in a paper scroll traces to the arXiv of that paper ID.
+6. DELTA RULE (Will, 2026-11-06): after each paper, compress the contents of that paper into a DELTA from this phext — only what is new, revised,
+   confirmed, or contradicted relative to the current world-model is
+   written. Material the model already holds is referenced by coordinate,
+   never stated again. A paper chapter is a delta record: (a) what it adds,
+   (b) what it changes in canonical scrolls (applied in place, dated),
+   (c) its evidence, (d) its tensions and limits. Paper 001 predates the
+   rule and stands as the seed (its delta was the model itself).
+7. RESEARCH ORACLE ESTIMATE (Will, 2026-11-06): after each paper, update
+   the Oracle ledger (scroll 1.1.4): compute the Novelty of the paper Index
+   from its delta record and re-estimate progress toward the Research
+   Oracle. The estimate is reported in chat with every paper. It may go
+   DOWN — a paper that opens a new axis expands the territory faster
+   than the model covers it.
+9. LEVEL-ZERO / FOUNDATIONS (Will, 2026-11-06): all knowledge in this
+   phext is encoded at the level of an idiot — no claim requires prior
+   specialized knowledge. Every base term the model uses is defined in
+   the FOUNDATIONS layer (Chapter 1, Section 3, coordinates 1.3.x), in
+   plain words, building only on everyday notions or on earlier
+   foundation scrolls (each foundation scroll lists what it builds on;
+   the chains bottom out at ordinary language). The raw material stays
+   clean: definitions are NEVER written into the text into paper chapters or concept
+   scrolls. Instead each chapter carries a STANDOFF REFERENCE companion
+   (Section 3 of its chapter) listing, in reading order, the foundation
+   coordinates its claims depend on — coordinate references are the hyperlinks of this format. INGESTION DUTY: each new paper's delta must
+   suck in any new base terms (new foundation scrolls, appended at
+   1.3.x) and extend the standoff list of its chapter accordingly. A claim
+   whose terms have no foundation scroll is a defect, audited at each
+   restructuring pass.
+10. SINGULAR (Will, 2026-11-06): every word in this phext must pass in
+   one of three ways. (a) It is a word of the Singular list (the words
+   of Will's own archive). (b) It is a NAME — a person, a place, a
+   named work or system; names are addresses, not speech, and the
+   declared list of them is kept with the tracker. (c) It is a DEFINED
+   word: a word with its own scroll in the Defined Words register
+   (Section 3, from 1.3.46 on), where the scroll that defines it is
+   itself written in Singular words alone. Any other word must be
+   expanded — written around, in words that pass. The check runs on
+   every build; a build with words outside the three ways is a defect.
+11. ONE COMMIT PER ITERATION (Will, 2026-11-06): every iteration of
+   research.phext is a new commit in the git repo of the tracker itself. The
+   build makes the commit itself when the file changes, so no state
+   of this phext is ever without a commit that holds it.
+8. RESTRUCTURE / COMPRESSION (Will, 2026-11-06): periodically, as more
+   information is added, restructure and compress the canonical concept
+   layer: merge near-duplicate concepts into one canonical scroll, split
+   grown too large scrolls, compress verbose ones, retire replaced claims
+   into dated notes. TRIGGERS: every 5 papers taken in, or 40 canonical
+   concepts, or whenever the delta of a paper reveals concept overlap —
+   whichever comes first. INVARIANTS: provenance is never lost (merged
+   scrolls keep all source papers); a retired coordinate leaves a
+   redirect marker naming its successor, so old citations still resolve;
+   each pass is logged as a restructuring record in Chapter 1, Section 1
+   (date, before/after concept counts, merges and splits), and the
+   narrative and Oracle ledger are updated to match. Restructuring is
+   upkeep, not a paper: it does not enter the NI ledger.
+
+Layout:
+- 1.1.1/1.1.1/1.1.x  charter, narrative, source index, Research Oracle ledger
+- 1.1.1/1.1.1/1.2.x  canonical concepts
+- 1.1.1/1.1.1/2.1.x  Paper 001 — Organizing Intelligence (arXiv:2611.05417)
+- 1.1.1/1.1.1/2.2.x  Paper 001 — synthesis and open questions
+- 1.1.1/1.1.1/3.1.x  Paper 002 — Exo (arXiv:2611.00463), delta record
+- 1.1.1/1.1.1/3.2.x  Paper 002 — synthesis and open questions
+- 1.1.1/1.1.1/4.1.x  Paper 003 — StoryScope (arXiv:2604.03136), delta record
+- 1.1.1/1.1.1/4.2.x  Paper 003 — synthesis and open questions
+- 1.1.1/1.1.1/5.1.x  Paper 004 — Hierarchical MoE (arXiv:2410.19225), delta record
+- 1.1.1/1.1.1/5.2.x  Paper 004 — synthesis and open questions
+- 1.1.1/1.1.1/6.1.x  Paper 005 — Fake Quadrics (arXiv:2611.06949), delta record
+- 1.1.1/1.1.1/6.2.x  Paper 005 — synthesis and open questions
+- 1.1.1/1.1.1/1.1.5  concept map and restructuring log (rule 8)
+- 1.1.1/1.1.1/1.3.x  FOUNDATIONS — level-zero definitions (rule 9);
+  Defined Words register from 1.3.46 on (rule 10)
+- x.3.1 in each paper chapter: standoff references (rule 9)
+Restructuring log (rule 8): PASS #1 executed with Paper 005
+(2026-11-06, every-5-papers trigger): 39 concepts reviewed, 0 merges,
+0 splits, 0 endings; concept map added at 1.1.5. Full record in
+that scroll. Next pass due at Paper 010 or 60 canonical concepts.
+# World-model narrative — v5 (after Paper 005, 2026-11-06)
+
+The economically relevant unit of intelligence is not the isolated agent
+but the organization. A lone benchmark score says how well one agent does
+alone; a market tests how capabilities COMBINE and SCALE inside firms that
+compete in equilibrium. That is the founding claim of this world-model,
+from Paper 001 (Imas, Koh & Legg, 'Organizing Intelligence').
+
+The story so far, in one arc:
+Capabilities are multidimensional and jagged. What a firm produces depends
+on two different things that benchmarks conflate: competence (how good its
+members are at tasks — a level shift) and coordination (how well members
+work together — which sets how productivity scales with firm size).
+
+Humans and AI differ on exactly two structural axes. (a) Supply: human
+expertise is fixed, so scarce talent earns Ricardian rents; AI expertise is
+reproducible at the cost of compute, so its rents are competed away.
+(b) Coordination limits: humans hit a span-of-control ceiling (mean
+coordination < 1 in the scale of the model factor), which caps firm size — the
+Coasean ceiling. AI might not.
+
+From those two differences everything else follows. Because human skills
+are jagged in different directions, sorting complementary humans into one
+firm creates mosaic intelligence: the team reaches capability combinations
+no member holds alone, so human firms can beat AI that is better than the
+average human on every standalone test. Rising AI competence therefore
+need not transform the economy: it shrinks firms, makes less tall hierarchies,
+and raises the value of human coordinator profiles first.
+
+The transformation, when it comes, is a coordination event, not a
+competence event. If AI coordination crosses the supercooperation
+threshold, returns to scale flip sign, the Coasean ceiling breaks, and
+market structure phase-transitions to large, concentrated, AI-heavy firms.
+Displacement then changes character: step by step inside mixed firms while the
+composition envelope is concave, sudden across firms — whole human firms
+wiped out at a threshold — when it turns convex. And wages split into a
+technology effect (what AI does to the value of a human inside a fixed firm)
+and a re-organization effect (what happens when the firm itself changes the size of and
+re-mixes), which can reverse the first.
+
+Paper 002 (Krentsel et al., 'Exo') rotates the axis from space to time.
+Paper 001 holds capability profiles fixed and lets an outside world
+re-sort them; Paper 002 asks what a single agent's capability even is,
+given that the agent can rewrite the machinery that expresses it. Between
+the model weights and the outcome sits the harness — context assembly,
+tools, memory retrieval, pressing together — and that layer is CODE: open to looking inside,
+editable, by the agent itself, mid-task. Collapse the external optimizer
+into the worker and improvement becomes endogenous: the agent pays a
+specialization cost early (building tools, revising context policy) and
+spreads the cost of it over the rest of the task and across future tasks, at fixed
+weights. What makes this that can be lived through is an old operating-systems split:
+a minimal protected mechanism layer (append-only history, a guardian
+that alone can activate a new policy, independent rollback) around an
+everything-else-is-editable policy layer — including the policy for how
+to improve.
+
+Paper 003 (Russell et al., 'StoryScope') turns from the producers to the
+product. Hold the prompt constant, let a human and five LLMs each write
+the story, and induce a feature space from the differences: 304 discourse-
+level decisions per story — agency, time structure, revelation, thematic
+being stated out loud — deliberately ignoring surface style. The geometry that
+falls out is the first of the model empirical picture of a capability envelope:
+the five AI systems, from five different labs, cluster in one shared
+region of narrative space, while human stories sit outside it, more
+dispersed and measurably more rare in their combinations of choices. AI
+fiction over-explains its themes, resolves in a tidy way along a single causal
+track, and renders emotion through the body; human fiction jumps in time,
+subverts its own causality, names its influences, and leaves its morals
+ambiguous. Each model still carries a fingerprint — Claude flat and
+full of respect, GPT full of gossip, Kimi the generic center — but the fingerprints are
+variations inside a cluster, not escapes from it.
+
+Paper 004 (Li et al., 'Hierarchical Mixture of Experts') drops to the
+level of a single model's internals — and finds Paper 001's organization
+chart already there. The task is unglamorous and expensive: predict the performance of an FPGA from a C++ kernel plus its synthesis pragma instructions, well
+enough to search pragma designs without running hours-long synthesis —
+and to keep predicting well on kernels never seen in training, where
+single models fail from domain shift. The fix is structural: replace
+monolithic graph network blocks with mixtures of experts at three granularities
+of the program graph (node, basic block, whole graph), then a second,
+high-level mixture that learns how much to trust each granularity per
+input. The experts specialize on their own — by pragma type, by
+substructure — and the gating networks route each new input to the
+experts whose regions it resembles, so knowledge transfers to unseen
+kernels through shared substructures rather than through forced
+representational being the same. The failure mode is organizational too:
+left alone, gating collapses onto the single fastest-improving expert
+(expert polarization), the mosaic dies, and generalization dies with
+it; a two-stage training regime exists precisely to keep the division
+of labor alive.
+
+Paper 005 (Akhmedov, 'Braided Multisections and Akhmedov's Fake
+Quadrics') leaves the continent. It is pure mathematics: closed
+symplectic 4-manifolds that have exactly the rational cohomology ring
+of S^2 x S^2 yet are not S^2 x S^2 — an infinite family of impostors,
+built by gluing complements of braided multisections in ruled
+surfaces, and told apart only by integral invariants: the torsion in
+their first homology, which rational measurement deletes entirely.
+the work of the paper is the honest kind of explicit: handlebody
+recipes in parts of the pieces, chain systems computed, torsion given
+a geometric face, and gluing maps specified as actual marked surface
+diffeomorphisms — because, as the author insists, the matrices those
+maps induce on homology do not by themselves determine what you get
+when you glue. The sums come out aspherical and symplectically
+minimal, and rationally identical to the standard quadric they are
+faking.
+
+The weave, so far: Paper 001 says intelligence is ORGANIZED — across
+agents, by coordination. Paper 002 says intelligence Organizes again ITSELF —
+across time, by self-editing policy under protected mechanism. Paper 003
+says that, for now, intelligence CONVERGES — across producers, toward a
+shared, more narrow region of what gets made. Paper 004 says intelligence
+is organized at EVERY scale it has been looked at: the firm (P001), the own of the agent policy stack (P002), the population of producers (P003),
+and now the inside of a single network, where learned experts hold
+jagged, complementary profiles, a gating coordinator routes work among
+them, and the known of the system failure mode is the collapse of that
+division of labor. The leverage keeps sitting outside raw competence:
+in how capability is combined, expressed, distributed — and routed.
+The gates come back too: a coordination threshold (P001), an intelligence
+floor (P002), a convergence pull (P003), and a polarization collapse
+that must be actively trained against (P004).
+
+Open frontier: (1) Is real multi-agent coordination approaching the
+supercooperation threshold? Paper 001's estimate says current AI teams
+sit at gamma in [0.48, 0.68], below the line, though speed gains are
+not counted. (2) Does runtime self-improvement move an agent SYSTEM's
+effective coordination — is a self-editing harness a coordination
+technology for a population of copies? (3) The observed default at
+output level is convergence — so what, if anything, makes a population
+of AI systems DIVERGE to good effect rather than collapse toward the
+modal artifact? Paper 004 offers the first mechanism-shaped hint:
+inside an MoE, divergence survives only under active maintenance
+(two-stage training, load-balancing pressure) against a constant
+collapse gradient — divergence is a maintained state, not a default.
+(4) New with Paper 005, the frontier gets wider past AI entirely: the
+stream can jump domains without warning, and the second of the model
+continent is currently joined to the first only by method-level
+echoes that ring — measure at more fine granularity than the summary you are
+handed (the quadrics are rational twins and integral strangers), and
+never mistake a matrix of the gluing for the gluing. Whether those
+echoes that ring are deep or merely rhyming is itself an open question,
+and the tracker records it as one (Q16) rather than deciding it.
+# Source index
+
+Paper 001 — arXiv:2611.05417
+  'Organizing Intelligence' — Alex Imas, Andrew Koh, Shane Legg
+  (Google DeepMind; Imas also U. Chicago, Koh also Columbia)
+  Submitted 31 Oct 2026, arXiv v1 [econ.TH]. 108 pp. (main text ~53 pp. +
+  appendices/proofs). CC BY 4.0.
+  Taken in 2026-11-05. Canonical concepts seeded: 14.
+  Chapter: 1.1.1/1.1.1/2.1.x (synthesis at 2.2.x)
+
+Paper 002 — arXiv:2611.00463
+  'Exo: An Architecture for Self-Improving Systems at Runtime'
+  (title page: 'Exo: A Harness Architecture for Runtime Self-Improvement')
+  — Alexander Krentsel, Sylvia Ratnasamy, Ion Stoica (UC Berkeley),
+  Martin Casado (Andreessen Horowitz), Ankur Goyal (Braintrust).
+  Submitted 30 Oct 2026, arXiv v1 [cs.AI]. 14 pp. + appendices.
+  Taken in 2026-11-06 as a DELTA (charter rule 6): 9 new canonical
+  concepts (1.2.15-1.2.23), 3 canonical scrolls revised, 0 stated again.
+  Chapter: 1.1.1/1.1.1/3.1.x (synthesis at 3.2.x)
+  Name note: this 'Exo' (Berkeley runtime) is unrelated to Will's
+  Exocortex; the collision is recorded here to prevent mixing up.
+
+Paper 003 — arXiv:2604.03136
+  'StoryScope: Investigating odd habits in AI fiction'
+  — Jenna Russell, Rishanth Rajendhran, Chau Minh Pham, Mohit Iyyer
+  (University of Maryland, College Park), John Wieting (Google DeepMind).
+  Submitted 3 Apr 2026; v6 revised 10 Aug 2026 [cs.CL]. COLM 2026.
+  Taken in 2026-11-06 as a DELTA (charter rule 6): 5 new canonical
+  concepts (1.2.24-1.2.28), 2 canonical scrolls revised, 0 stated again.
+  Chapter: 1.1.1/1.1.1/4.1.x (synthesis at 4.2.x)
+
+Paper 004 — arXiv:2410.19225
+  'Hierarchical Mixture of Experts: Generalizable Learning for
+  High-Level Synthesis' — Weikai Li, Ding Wang, Zijian Ding, Atefeh
+  Sohrabizadeh, Zongyue Qin, Jason Cong, Yizhou Sun (UCLA).
+  Submitted 25 Oct 2024; v4 revised 14 Mar 2025 [cs.LG; also cs.AR].
+  AAAI 2025. Code public (github.com/weikai-li/HierarchicalMoE).
+  Taken in 2026-11-06 as a DELTA (charter rule 6): 5 new canonical
+  concepts (1.2.29-1.2.33), 2 canonical scrolls revised, 0 stated again.
+  Chapter: 1.1.1/1.1.1/5.1.x (synthesis at 5.2.x)
+
+Paper 005 — arXiv:2611.06949
+  'Braided Multisections and Akhmedov's Fake Quadrics'
+  — Anar Akhmedov (University of Minnesota). Submitted 3 Nov 2026,
+  v1 [math.GT]. CC0.
+  Taken in 2026-11-06 as a DELTA (charter rule 6): 6 new canonical
+  concepts (1.2.34-1.2.39), 0 canonical scrolls revised, 0 stated again.
+  First paper outside the AI domain entirely (pure mathematics:
+  symplectic / geometric topology of 4-manifolds).
+  Chapter: 1.1.1/1.1.1/6.1.x (synthesis at 6.2.x)
+# Research Oracle — definition, metric, ledger
+Established 2026-11-06 (Will's direction). Updated after every paper.
+
+DEFINITION. The Research Oracle is the fixed point of this tracker: a
+world-model complete enough over the territory Will's paper stream
+samples that a new paper arrives with ~zero delta — no new canonical
+concepts, no revisions, nothing the model cannot already express and
+place — AND the model can answer questions across that territory from
+its canonical scrolls alone. Progress is therefore measured by how much
+surprise a paper still carries, not by how much the phext has grown.
+
+METRIC — Novelty Index of paper n, computed from its delta record:
+  NI_n = (new canonical concepts + 0.5 x revised canonical concepts)
+         / canonical concepts after ingestion
+NI = 1 means the paper was all news; NI -> 0 is the oracle condition.
+Two qualitative flags ride alongside: AXIS-OPENING (the paper adds a
+dimension the model had no slot for — it expands the territory, not
+just the coverage) and QUESTIONS (net open questions added/closed).
+
+ORACLE PROGRESS (OP) is a calibrated judgement anchored to NI, stated
+as a % with a range, under these movement rules:
+- NI < 0.20, no new axis: OP +~10 pts (the model is absorbing papers).
+- NI 0.20-0.50, no new axis: OP +~5 pts.
+- Axis-opening paper: OP holds or FALLS ~5 pts regardless of NI — the
+  denominator (territory) just grew by an unknown amount.
+- NI > 0.50: OP holds or falls; the model was mostly missing this.
+OP is coverage of the SAMPLED territory (Will's stream), not of all
+science; it is honest about n being small.
+
+LEDGER
+Paper 001 (2026-11-05, arXiv:2611.05417): NI = 1.00 by construction
+  (seed: 14 concepts created, 0 revised, of 14 after). Axis: seed.
+  OP: not estimable from one paper — in hindsight the single-axis
+  (space/organization) model covered only part of a territory that
+  Paper 002 immediately proved larger.
+Paper 002 (2026-11-06, arXiv:2611.00463): NI = (9 + 0.5x3) / 23 = 0.46.
+  AXIS-OPENING: yes (time/adaptation — endogenous self-improvement).
+  Questions: +4 new (Q6-Q9), 1 partially answered (Q2).
+  OP after Paper 002: ~15% (range 8-25%). Basis: nearly half the current
+  concept space arrived in a single paper; the last paper opened an
+  axis, which is evidence that further not yet seen axes remain; n = 2
+  papers across 2 domains of what will plainly be a wider stream.
+Paper 003 (2026-11-06, arXiv:2604.03136): NI = (5 + 0.5x2) / 28 = 0.21.
+  AXIS-OPENING: no — a new DOMAIN (empirical study of generated
+  artifacts: AI vs human fiction) but the framework absorbed it through
+  existing slots (capability envelope, measurement agenda). Questions:
+  +3 new (Q10-Q12), Q3 partially informed.
+  OP after Paper 003: ~20% (range 12-30%). Basis: NI fell from 0.46 to
+  0.21 and, for the first time, a paper landed mostly in slots the model
+  already had — the frame of the model is starting to anticipate the stream.
+  Held low because n = 3 and the domain of the stream spread is still
+  widening (econ theory -> agent systems -> NLP field evidence).
+Paper 004 (2026-11-06, arXiv:2410.19225): NI = (5 + 0.5x2) / 33 = 0.18.
+  AXIS-OPENING: no — a new domain again (ML for hardware design), and
+  again the frame absorbed it: the own of the paper structure (specialists,
+  routing, collapse of the division of labor) mapped onto canonical
+  concepts from Paper 001 with little forcing. Questions: +2 new
+  (Q13-Q14), Q6 gains a mechanism-shaped prior.
+  OP after Paper 004: ~30% (range 20-40%). Basis: NI has fallen four
+  papers running (1.00 -> 0.46 -> 0.21 -> 0.18) and the last two papers
+  landed in domains the stream had never touched, yet were absorbed by
+  existing slots — the frame, not just the inventory, is doing work.
+  Still capped: n = 4, and every paper so far is AI-adjacent; the
+  stream has not yet tested the model outside that gravity well.
+Paper 005 (2026-11-06, arXiv:2611.06949): NI (count) = (6 + 0) / 39
+  = 0.15. AXIS-OPENING: YES — the stream jumped to pure mathematics
+  (4-manifold topology), a field in which the model held zero
+  concepts and to which no existing canonical scroll connects.
+  Questions: +2 new (Q15-Q16).
+  OP after Paper 005: ~25% (range 15-35%), DOWN from ~30%. Basis: the
+  cap named after Paper 004 was the binding one — the stream is not
+  AI-bound after all, so the territory denominator just expanded by
+  an unknown, plausibly enormous amount (all of mathematics is now
+  demonstrably in scope). METRIC CAVEAT, recorded honestly: the NI
+  count (0.15) states too low the novelty of this paper — six concepts is a
+  small count but a total domain break. NI measures delta SIZE, not
+  delta DISTANCE; a connectivity term (does the paper link to any
+  existing scroll?) is the missing factor — see open question Q16.
+# Concept map and restructuring log
+Added 2026-11-06 under charter rule 8. The map groups the canonical
+concepts of Section 2 (1.2.x) into clusters so the model can be
+navigated by territory, not just by arrival order.
+
+CLUSTERS (39 canonical concepts after Paper 005)
+A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
+   competence, coordination, capability envelope/mosaic, scarcity
+   rents, Coasean ceiling, supercooperation, size amplifier, firm
+   composition, displacement, wages as bids, technology vs
+   re-organization, AI capability patterns, measurement agenda.
+B. Runtime self-improvement (Paper 002) — 1.2.15-1.2.23: harness,
+   collapsed optimization loop, optimizer symmetry, policy/mechanism
+   partition, contracts/guardian/rollback, internal legibility,
+   specialization cost, intelligence floor, policy transfer.
+C. Output geometry (Paper 003) — 1.2.24-1.2.28: discourse vs style,
+   narrative space & convergence, core vs fingerprint features,
+   rarity as originality, induced feature spaces (method).
+D. Routing & generalization (Paper 004) — 1.2.29-1.2.33: MoE/gating,
+   hierarchical MoE, expert polarization, substructure routing,
+   surrogate prediction.
+E. Symplectic topology annex (Paper 005) — 1.2.34-1.2.39: fake
+   quadrics, cyclic multisections, complements & handlebodies,
+   symplectic sum & gluing data, integral invariants & torsion,
+   aspherical being minimal. NOTE: cluster E currently connects to
+   A-D only at the meta-level (invariant granularity, gluing data);
+   that thin reach is recorded, not papered over.
+
+RESTRUCTURING LOG
+Pass #1 — 2026-11-06, with Paper 005 (trigger: every 5 papers).
+  Reviewed: all 39 canonical concepts (33 pre-existing + 6 added by
+  Paper 005). Merges: NONE — candidates looked at and rejected:
+  hierarchical MoE into MoE (1.2.30 carries distinct late-aggregation
+  findings); domain generalization into transfer (different
+  mechanisms, already delta-linked); discourse features into induced
+  feature space (object vs method). Splits: none — no scroll carries
+  two independently-cited concepts. Endings: none; no redirect
+  markers needed. Compression passes: none forced; several cluster-B scrolls
+  are dense but each paragraph is cited by a paper chapter.
+  Action taken: this map scroll created. Next pass due at Paper 010
+  or 60 canonical concepts, or on overlap revealed by a delta.
+Addendum 2026-11-06 (level-zero build, charter rule 9): the
+  FOUNDATIONS layer was created at Ch.1 §3 (44 definition scrolls,
+  1.3.2-1.3.45) and each paper chapter gained a Section 3 standoff
+  reference companion. Standoff map for Section 2's clusters:
+  cluster A (1.2.1-1.2.14) -> foundations 1.3.2, 1.3.7, 1.3.8,
+  1.3.28-1.3.32; cluster B (1.2.15-1.2.23) -> 1.3.33-1.3.36, 1.3.38;
+  cluster C (1.2.24-1.2.28) -> 1.3.37-1.3.40, 1.3.5, 1.3.8;
+  cluster D (1.2.29-1.2.33) -> 1.3.40-1.3.45; cluster E
+  (1.2.34-1.2.39) -> the mathematics kit 1.3.4-1.3.6, 1.3.9-1.3.27.
+Addendum 2026-11-06 (Singular pass, charter rules 10-11): the whole
+  phext was rewritten to pass the Singular check. Words of the
+  archive pass as they stand; names stand as addresses (the declared
+  list is kept with the tracker); 26 words are coined in the Defined
+  Words register (1.3.46-1.3.72), each defined by a scroll written in
+  Singular words alone — all 26 checked one by one. All other words
+  that failed were expanded or written around: 988 flagged words at
+  the start of the pass, 0 left outside the three ways at its end.
+  From this pass on, the build checks every word and makes one git
+  commit per iteration of the phext.
+# Concept: Intelligence (economic definition)
+Source: Paper 001, §1, after Legg & Hutter (2007).
+
+Intelligence = 'the ability to achieve goals'. Paper 001's move: this is
+usually measured on a single agent in isolation, but the economically
+relevant bearer of intelligence is the ORGANIZATION competing in
+equilibrium. All other concepts in this section are machinery for saying
+how individual intelligence becomes organizational intelligence.
+# Concept: Competence
+Source: Paper 001, §§1-3.
+
+One of the two capability factors. Competence = domain-specific task
+capability (coding, writing, reasoning, robotics...). In the model it is an
+aggregator L over the mean of a firm task skills — in the CES case a CES mean
+with stretch measure < 1 (the worked example uses the harmonic mean, rho = -1),
+so the weakest essential domain bottlenecks output (Kremer O-ring logic).
+Effect: competence shifts the LEVEL of output per worker at a given firm
+size. It does not change the preferred of the firm size.
+
+Revision 2026-11-06 (Paper 002): competence as MEASURED is not a property
+of the model alone. At fixed weights, the harness policy standing between the
+model (scroll 1.2.15) changes realized cost/performance by 35-61% on
+held-out tasks. Read Paper 001's L as a property of the model+harness
+bundle wherever measurement is concerned; the own of the paper model treats
+the profile as primitive, which is a modelling choice, not a measurement
+fact.
+# Concept: Coordination
+Source: Paper 001, §§1-3. The second capability factor, and the load-bearing
+one in this world-model.
+
+Coordination (y*, per agent; mean z* per firm) = the capabilities that let
+agents work better together: shared norms, low communication cost, low
+agency friction. Effect: coordination governs the SCALE factor S(m, z*)/m —
+how average product changes as firm size m grows. Below the threshold
+(z* < 1 in the normalized CES form) average product eventually falls with
+size, giving a finite preferred firm size. Coordination, not competence,
+sets how big an organization can in a useful way get.
+
+Delta-link 2026-11-06 (Paper 002): Paper 001's coordination runs BETWEEN
+agents. Paper 002 exhibits a second axis — coordination ACROSS TIME
+within one agent: append-only history coordinates the agent with its past
+selves, and the guardian coordinates its one who puts a change forward-self with its
+activator-authority (scrolls 1.2.19-1.2.20). The world-model now treats
+'coordination' as covering both axes; whether the across-time axis moves
+the between-agents gamma is open question Q6 (scroll 3.2.2).
+# Concept: Capability profile, capability envelope, mosaic intelligence
+Source: Paper 001, §§2.1-2.2, 3.1.
+
+Capability profile: the vector of an agent y = (y1, y2, ..., y*) — task skills
+plus a coordination coordinate. Human profiles are jagged: strong in one
+domain, weak in another, differing person to person.
+
+Capability envelope E(A): the closed convex hull of the profiles of a set
+of agents A — every mean profile a team drawn from A can assemble.
+
+Mosaic intelligence: because the straight of the envelope boundary cuts across
+the curved competence contours, mixing complementary specialists reaches
+interior mean profiles with competence far above the standalone of any member
+competence. In the worked example, coder (9,1) + writer (1,9) teams reach
+L = 5 vs 1.8 solo — a near-3x gain with no individual improving at all.
+Copies of one AI model share the SAME jaggedness, so replication alone
+creates no mosaic; that asymmetry is structural, not a skill gap.
+
+Revision 2026-11-06 (Paper 004): the mosaic also exists INSIDE one
+trained network, learned from inside itself. In Paper 004's mixture of
+experts (scroll 1.2.29), expert networks develop jagged, complementary
+profiles on their own — in the block-level mixture, one expert takes
+large parallel factors (81% of its weight), another takes loop tiling
+and running in a pipeline — and a gating network assembles the mixture per input.
+Unlike Paper 001's firms, where profiles are starting gifts sorted by a
+market, here the profiles and the sorting are both TRAINED, together.
+The mosaic is also fragile in a way Paper 001's is not: gating tends to
+collapse onto the single best expert (polarization, scroll 1.2.31),
+melting away the envelope back to one profile unless actively prevented.
+
+Revision 2026-11-06 (Paper 003): first EMPIRICAL sighting of an envelope,
+in output space. Paper 003 embeds 61,608 stories (one human + five LLMs
+per prompt) in a 304-feature narrative space (scroll 1.2.25): the five
+AI sources form one tight cluster — mean AI-AI centroid distance 4.3 vs
+human-AI 6.6, and even the CLOSEST human-AI pair is farther apart than
+the most distant AI-AI pair — while human stories are 22% more dispersed
+around their own centroid. Read through this scroll: different AI
+MODELS, not just copies of one, share narrative jaggedness — the AI
+envelope in this domain is narrow and shared, the human envelope broad.
+Replication and even cross-lab diversity, so far, do not manufacture
+mosaic diversity in narrative choice. Per-model outer reaches are nonetheless
+distinguishable (fingerprint features, scroll 1.2.26) — profiles differ
+within the cluster.
+# Concept: Being able to be copied again vs fixed supply (scarcity rents)
+Source: Paper 001, §§1, 2.2.
+
+Human expertise is in fixed supply: scarce talent commands Ricardian
+scarcity rents (wages far above the outside option — 6x for lone coders,
+~10x for coordinator profiles in the worked example). AI expertise is reproducible
+at compute cost r per copy: copies can be replicated without limit, which
+eliminates scarcity rents on the AI side and caps what an AI capability can
+charge at its replication cost. This is difference #1 of the two structural
+AI/human differences. Difference #2 is coordination (see canonical scroll
+1.1.1/1.1.1/1.2.3 and the supercooperation scroll 1.2.7).
+# Concept: Preferred size and the Coasean ceiling
+Source: Paper 001, §§2.2, 5.1 (Proposition 1).
+
+Preferred size m*(z*) = the input that gives the largest value over m of average product S(m, z*)/m for the mean of a firm coordination z*. Competence does not enter it: at fixed
+composition, better task skills raise output but leave preferred size
+unchanged. With human coordination < 1, preferred size is finite — firms
+that outgrow it split. This finite preferred size IS the Coasean ceiling in
+the model. Proposition 1 bounds almost every active size of the firm between
+outer reaches M and M-bar that depend on AI coordination and the human supply
+constraint (a firm also cannot be larger than the talent stock allows).
+# Concept: Supercooperation threshold and the concentration phase transition
+Source: Paper 001, §§2.3, 5.2 (Proposition 3).
+
+Scale returns are governed by gamma, the coordination-driven returns
+parameter (gamma = y* in the worked CES cases). Three patterns:
+- gamma < 1 (below the line): average product of a large firm vanishes; as the
+  market grows (N -> the smallest value) the industry expands by REPLICATING bounded-size
+  firms and the market share of any one firm -> 0.
+- gamma > 1 (above the line in working together): one large AI firm produces Q at cost of
+  order Q^(1/gamma), with 1/gamma < 1 — splitting output across firms loses
+  the scale advantage. Equilibrium piles up: a relaxed HHI -> 1, almost
+  all output in firm types as large as the market.
+- gamma = 1 is the excluded knife-edge.
+Crossing the threshold is a PHASE TRANSITION in market structure, driven
+by a coordination improvement that may be tiny and benchmark-invisible.
+The paper flags the styling: regulation, competing AI providers,
+capacity constraints and rigid contracts would likely prevent a literal
+one-firm singularity in practice.
+# Concept: The size amplifier
+Source: Paper 001, §5.2 (Proposition 2).
+
+When AI coordination y*_M rises (still < 1), firm size responds through two
+channels: a direct effect (higher mean coordination raises preferred size
+at fixed composition, always >= 0) and a composition effect (the firm
+re-mixes toward/away from machines, changing mean coordination again).
+- If AI coordinates BETTER than humans (y*_H < y*_M < 1): both effects are
+  positive — composition AMPLIFIES the direct gain (illustrated machine
+  share 0.54 -> 0.83 as firms grow).
+- If AI coordinates WORSE (y*_M < y*_H): the composition effect is
+  ambiguous and can Soften growth (illustrated machine share 0.38 -> 0.46
+  with size gains partly offset).
+So the sign of the coordination gap decides whether AI progress compounds
+or self-brakes inside the firm.
+# Concept: Firm composition patterns — mixed vs separate, human vs AI-only
+Source: Paper 001, §5.3 (Proposition 4).
+
+The cost-adjusted best average-product envelope a(lambda, w) — best output
+per unit cost at human share lambda — decides who works with whom:
+- Machine-only: if AI dominates EVERY point of the human capability hull
+  (y_M > all of co(Y_H)) and compute is no costing more than wages (r <= w), all
+  firms are machine-only.
+- Humans in the loop: if the envelope rises above its machine-only endpoint
+  (mosaic intelligence pays) and w <= r, some firms must employ humans.
+- Curvature then decides the form: envelope strictly CONVEX in lambda ->
+  separate pure-human and pure-AI firms; strictly CONCAVE -> mixed firms,
+  all sharing the unique optimal human share.
+Same curvature variable returns in displacement dynamics (scroll 1.2.10).
+# Concept: Step by step vs sudden displacement
+Source: Paper 001, §6.2 (Proposition 5).
+
+Human displacement has two dynamically different forms, selected by the
+curvature of the composition envelope a(lambda):
+- CONCAVE (mixed-firm regime): displacement is WITHIN-firm. As AI improves,
+  firms continuously lower their human share; employment, output and firm
+  size move continuously. Full unemployment only when adding a first human
+  to an all-machine industry does not pay even at the reservation wage.
+- CONVEX (separate-firm regime): displacement is ACROSS-firm. Human-only
+  and AI-only firms coexist until a cost inequality flips, then human firms
+  are wiped out in jumps — full employment to full unemployment at
+  a threshold, wages max{w, r*a(1)/a(0)}.
+As AI coordination improves the envelope can itself flip concave -> convex,
+so an economy can see step by step erosion first, then a sudden spike.
+Task-model form (Proposition 7): for one human type, humans are absent
+from every equilibrium exactly when
+  max_d (y_d^H / y_d^M) + (y*_H - y*_M) * log(1 + m*(y*_M)) <= w / r
+— best relative task productivity PLUS the human coordination advantage
+valued at machine-only firm size. A coordination advantage can therefore
+cover a task-productivity gap; under constant returns the second
+term vanishes and only the task race remains.
+# Concept: Wages as bids — shadow value and sorting
+Source: Paper 001, §6.1 (Theorem 2), §4.2.
+
+In equilibrium the wage of a worker equals the highest BID for them: firms bid
+the marginal of the worker contribution to firm surplus (a bid function of their
+full capability profile, evaluated at the size of the firm, mix and scale).
+Consequences: (a) pay can rise without the worker changing at all, when
+complementary teammates or scale raise their marginal contribution
+(coders' pay grew to near three times the size when writers arrived); (b) standalone-weak
+coordinator profiles can be among the highest paid, because value of the coordination
+scales with the whole team; (c) workers SORT — each type is won by the firm
+type whose bid for their particular jagged profile is highest, so sorting
+patterns reveal relative strengths vs AI.
+Formally (under Assumption 2) the bid is AFFINE in the profile:
+b_f(y) = r + beta^f . (y - y_M) — a per-dimension price beta_d for each
+task skill and beta_* for coordination. the bid of Every firm plane passes
+through the common AI anchor (y_M, r): a worker identical to the AI is
+worth exactly the rental of one copy cost. A profile lying in the winning of no firm region falls back to the outside option.
+# Concept: Technology effect vs re-organization effect (wage decomposition)
+Source: Paper 001, §6.3 (Proposition 6).
+
+Along a smooth path of AI improvement, a wage change breaks into parts as:
+  the change in the wage as AI improves = technology effect + re-organization effect.
+Technology effect: AI capability changes, holding of the firm that uses it, the
+size, machine share and human mix FIXED — the value of the human inside the
+existing firm. Re-organization effect: the own of the firm adjustments — change
+in size (dm), machine share (ds), and human skill mix — each
+times the sensitivity of the bid of the firm to that margin.
+Key point: equilibrium maximizes total surplus, not wages, so the envelope
+theorem does NOT cancel the re-organization terms — they are first-order and
+can REVERSE the technology effect. Worked illustration: as firms grow
+(m = 2 -> 118) a human wage of the coordinator first RISES with re-organization,
+then falls; holding firm composition fixed it would have fallen
+in one direction only. Any wage forecast that holds organizations fixed is, in
+this model, simply wrong-signed in some patterns.
+# Concept: AI capability patterns
+Source: Paper 001, §§2.3 (for showing map), 4.3 (formal definitions).
+
+For showing map (§2.3), in (task competence, coordination) space:
+- Minimal AGI: matches/exceeds AVERAGE standalone human competence and
+  coordination, beats no best-human outright, below the coordination
+  threshold.
+- Beyond the best single profile: exceeds every human on both tasks, coordination at or
+  below threshold.
+- Above the line in working together: crosses the coordination threshold, does not exceed
+  the best human on every task.
+- ASI: exceeds every human on all tasks AND crosses the threshold.
+
+Formal patterns (§4.3) are stated against the human capability HULL:
+- Weak: AI is dominated by the convex hull of human capabilities.
+- Minimal AGI: AI lies WITHIN the convex hull of human capabilities.
+- Superintelligent: AI dominates the convex hull of human capabilities.
+- Beyond the best single profile (formal): y_d^M > max_i y_d^i in every productive domain.
+- Above the line in working together (formal): gamma^M = gamma(delta_{y_M}) > 1 — an
+  ABSOLUTE property of the scale of the AI tail, NOT a comparison against the
+  best human coordinator; the average product of an AI-only firm then grows
+  without bound in firm size.
+the empirical of the paper read of the present (§7.2): current AI is jagged-
+high-competence, below the line-coordination — consistent with leaner
+startups, less tall org charts, rising demand for experienced human
+managers, and little aggregate employment/market-structure movement.
+# Concept: Measurement agenda — what to track instead of benchmark scores
+Source: Paper 001, §8 (Conclusion).
+
+If transformation is a coordination event, isolated-task benchmarks are a
+misleading gauge of it — in both directions (mosaic human teams can beat a
+benchmark-winning model today; a benchmark-invisible coordination gain can
+tip an economy tomorrow). the proposed of the paper measurements:
+1. Scale curves: how output scales with the number of identical AI copies
+   at FIXED compute per copy, alongside isolated competence L — estimate
+   competence and coordination separately across model generations.
+2. Firm-level scale counted in BOTH workers and rented agentic compute
+   (m_f = human rolls + AI instances), and payroll-vs-AI-expenditure shares
+   over time.
+3. The cross-of a section distribution of firms — AI-only / AI-native vs mixed
+   — because within-firm vs across-firm displacement have vastly different
+   unemployment dynamics.
+4. Employer-employee panels tracking how different skill profiles sort
+   across firms — the direct test that separates technology from
+   re-organization effects on wages.
+
+Revision 2026-11-06 (Paper 002): a second, independent reason benchmark
+scores give the wrong idea — they measure a model+HARNESS bundle (scroll 1.2.15).
+Paper 002 shows the harness term alone is worth 35-61% of held-out cost
+at fixed weights, and that the bundle can keep improving DURING the
+measurement task itself. Any competence estimate that does not fix and
+report the harness is mixed up.
+
+Revision 2026-11-06 (Paper 003): a worked example of measuring at the
+right level. StoryScope measures DISCOURSE-level choices (scroll 1.2.24)
+rather than output scores or surface style — and the level matters:
+surface style signals are transient (a model revision or a light edit
+wipes out them; fine-tuning to mimic human style drops style-based
+detection from 97% to 3%, as cited therein), while structural choices
+survive style editing (93.9% macro-F1 after span-level rewriting)
+because changing them requires rewriting the construction of the artifact.
+Measurement lesson for this agenda: prefer variables that are expensive
+for the measured system to fake — the same property Paper 001 wants
+from scale curves and sorting panels, and Paper 002 gets from
+cost-annotated histories (scroll 1.2.20).
+# Concept: Harness and harness policy
+Source: Paper 002, §§1-2. NEW in Paper 002; no counterpart in Paper 001.
+
+Harness: the scaffolding around a language model that (1) assembles the input of the model and (2) executes and observes its actions in an environment
+(usually a computing sandbox). Harness POLICY: every programmable rule
+governing how the agent uses model, state and environment — tool
+implementations and selection, prompting, context assembly and
+pressing together, memory and skill indexing and retrieval, service adapters,
+task scheduling — AND the strategy for deciding when and how to attempt
+further improvements. Policy is encoded in harness code, prompts,
+configuration and reusable skills. Paper 001's agents had capability
+profiles but no harness layer; this scroll adds the missing layer
+between weights and outcomes.
+# Concept: Runtime self-improvement — the collapsed optimization loop
+Source: Paper 002, §§1, 3.1. NEW in Paper 002.
+
+Classical setup (adaptive control): an external OPTIMIZER observes
+execution and updates the controller (harness policy) between runs —
+Meta-Harness, GEPA, AlphaEvolve-style loops. It needs representative
+benchmark tasks (75% of production teams in one cited study evaluate
+without any), pays full task runs per candidate (untenable as
+horizons stretch to days/weeks), benchmarks go stale, and the resulting
+policy stays FIXED during the work where its gaps appear.
+Collapsed loop: the running agent itself chooses both task actions and
+policy revisions through the same action interface, during the task,
+grounded in the environment it actually works in. Weights never change.
+Each successor policy retains the ability to revise itself further,
+including revising its improvement strategy — improvement of the
+part that improves is in scope, not a meta-level add-on.
+# Concept: Optimizer symmetry and being written in the same stuff it works on (enabling properties)
+Source: Paper 002, §3.1. NEW in Paper 002.
+
+Two properties of harnesses make the collapsed loop (scroll 1.2.16)
+possible where traditional adaptive control keeps the optimizer outside:
+- Optimizer symmetry: a policy update can be REALIZED as a sequence of
+  ordinary task actions — inspect source, edit files, run tests, request
+  activation — using tools the agent already has. Revision is not a
+  privileged operation; it is work.
+- Being written in the same stuff it works on: the policy being optimized is code, represented as files
+  inside the own of the optimizer environment. The object of optimization is
+  available as data to the optimizer.
+Together: the proposal of the optimizer logic can move inside the harness
+because nothing about proposing a revision requires leaving the action
+domain or the representation the agent already works on.
+# Concept: Policy/mechanism partition (protected mechanism layer)
+Source: Paper 002, §§1, 4.1, after Exokernel (Engler et al. 1995). NEW.
+
+The architectural thing needed first for safe self-editing: partition the
+harness into (a) a minimal PROTECTED MECHANISM layer — only what the
+safety properties need, exposed at the lowest level of abstraction —
+and (b) an editable POLICY layer (the 'the worker part') holding everything
+else. Protected: canonical execution history (append-only, queryable,
+cost-annotated), versioned artifact store (memory, skills, snapshots),
+credential storage, sandbox API, and the guardian (scroll 1.2.19).
+Editable: all tools, context assembly/pressing together, prompting, memory
+indexing/retrieval, adapters, scheduling — and the improvement policy.
+Design pressure runs one way: shrink the protected set to the minimum,
+maximize what the agent may rewrite. Two failure modes motivate it:
+fate-sharing (a faulty edit turns off the agent AND its repair logic) and
+state erasure (an edit destroys the experience needed to learn/recover).
+# Concept: State and replacement contracts; the guardian; independent rollback
+Source: Paper 002, §§3.2, 4.2, App. A. NEW in Paper 002.
+
+State s_t = (d_t durable data, e_t sandbox, pi_t active policy), advanced
+only through protected mechanism K. Two contracts:
+- Storage contract: execution history is APPEND-ONLY — H(d_t) is a prefix
+  of H(d_t+1); records cannot be written over or deleted. Memory and
+  artifacts may change current value but must retain prior versions.
+- Replacement contract: editing produces an arbitrary candidate pi'
+  (possibly crashing); activation requires a GUARDIAN G(s_t, pi') in
+  {0,1} that lies OUTSIDE the policy it judges. Default guardian checks
+  only build success; richer guardians (LLM-judge inspection, forked-
+  environment trials, human approval) are future work in the paper.
+Rollback is INDEPENDENT across the three state components (policy,
+durable state, sandbox), and history survives rollback — evidence of
+failed attempts stays available. Scope limit (App. A): the preservation
+proof is conditional on all protected transitions being mediated by K,
+and external effects in the world are not that can be run backward by any rollback.
+Protection guarantees preservation and recovery authority — explicitly
+NOT improved behaviour or continued progress.
+# Concept: Internal legibility (cost-annotated history as reward signal)
+Source: Paper 002, §§4.3, 7. NEW in Paper 002.
+
+A self-improving agent needs to see itself. Exo exposes execution history
+for retrieval and analysis with model-message events annotated by cost,
+token counts and cached-token share, plus a reporting tool (spending,
+cached input share, repeated tool calls, context composition). Policy
+code decides what enters the prompt, but the full annotated record
+remains open to looking inside even when compacted out of context. The paper credits
+this as a key reason the system works: cost/latency/cache annotations
+give DENSE reward signals about efficiency DURING the task, long before
+any completion signal arrives. Legibility is also the audit surface:
+adaptations are explicit code diffs that operators can inspect, test,
+and give the right to — contra continual learning hidden in weights.
+# Concept: Specialization cost and spreading of the cost by reuse
+Source: Paper 002, §§5.2-5.4. NEW in Paper 002.
+
+Runtime learning has an investment profile: an early SPECIALIZATION COST
+(building tools, revising context policy — in the combat run Exo had
+spent ~$0.31 at 10 min vs Codex $0.12 / Pi $0.16) buys a lower spend rate
+later; cumulative cost crossing points came at 25 min (vs Pi) and 86 min (vs
+Codex). Whether the investment pays is governed by REUSE:
+- Within-task reuse (long repetitive tasks): pays before completion.
+- Across-task transfer (scroll 1.2.23): pays again on repeated objectives.
+- Low-reuse work: does NOT pay. On one-shot quests (each completed once,
+  distinct steps/items/locations) Exo averaged $0.28 per quest point vs
+  Codex $0.24 and Pi $0.21 — the self-improving harness was the EXPENSIVE
+  option. Negative result, recorded at full weight: self-editing is a
+  bet on recurrence.
+# Concept: Intelligence floor for self-improvement
+Source: Paper 002, §5.4 ('Limits of adaptation'). NEW in Paper 002.
+
+Access to self-editing helps only if the underlying model can discover
+and reuse effective changes. Control experiment: Exo on AppWorld with
+gpt-5-mini — three seeds made limited harness edits and did not reuse
+their created tools on held-out tasks; total cost and pass rates were
+statistically a wash ($6.63 / 59% vs control $6.73 / 55%). The authors'
+statement: 'there is an intelligence floor necessary to reap the
+benefits of Of Exo architecture.' The architecture is an amplifier with a
+threshold, not a substitute for capability — compare Paper 001's
+coordination THRESHOLD (scroll 1.2.7): in both papers the interesting
+action is at a critical value of the variable the paper is about.
+# Concept: Transfer of learned policy (specialization as portable artifact)
+Source: Paper 002, §§5.3-5.4. NEW in Paper 002.
+
+Because adaptations are code, they PERSIST and TRAVEL: a harness
+specialized on one run can be carried to a fresh instance of the task
+(fresh game account, retained agent state) and pays immediately — the
+transfer results are the largest in the paper (45-82% below Codex/Pi;
+combat $1.92 vs $6.87/$10.89). Two added conditions from the paper itself:
+(1) learned procedures DIFFER across seeds — seeds 1-2 built broadly
+reusable tools, seed 3 built many scenario-specific tools and spent more
+in learning, yet all three won on held-out cost; specialization does not
+converge to a single implementation. (2) Transfer shown is to REPEATED
+objectives under changed conditions, not to novel task families.
+Relation to Paper 001 scroll 1.2.5: a learned harness is reproducible
+like AI expertise generally — but unlike a weight profile, it is also
+open to looking inside, that can be forked and that can be owned as an artifact.
+
+Delta-link 2026-11-06 (Paper 004): a SECOND transfer mechanism, unlike
+the artifact how well a thing carries above. Paper 004 transfers capability to
+unseen tasks with no artifact carried over: a shared pool of expert
+networks persists, and a gating network routes each new input to the
+experts trained on similar SUBSTRUCTURES (scroll 1.2.32). What travels
+is not a learned policy but a routing decision. The two mechanisms make
+different bets: artifact transfer assumes the whole specialization is
+reusable; substructure routing assumes only parts are, and pays a
+gating network to find out which.
+# Concept: Discourse-level narrative features vs surface style
+Source: Paper 003, §§1-2, 4. NEW in Paper 003.
+
+A generated artifact can be measured at (at least) two levels. SURFACE
+STYLE: lexical and syntactic choices — word choice, sentence rhythm,
+signature phrases (em-dashes, 'delve'). DISCOURSE / NARRATIVE level:
+structural decisions about how the artifact is constructed — plot
+architecture, character agency, temporal ordering, how and when
+information is revealed, how explicitly themes are stated.
+
+Paper 003's finding: the discourse level carries nearly all the
+who wrote a thing signal of the surface level (narrative-only features reach
+93.2% macro-F1 on human-vs-AI detection, >=97% of the combined model)
+while being far more DURABLE: style cues are erased by model revisions
+or light edits, but narrative choices survive span-level style rewriting
+(93.9% after editing) because changing them means restructuring the
+work, not putting in new words it. The two levels also fail differently: style
+identifies THAT a model wrote something; discourse features say HOW
+the source constructs — that can be read with sense, per-decision.
+# Concept: Narrative space, AI convergence, human dispersion
+Source: Paper 003, §§4-5. NEW in Paper 003.
+
+Embed each story as a vector in an induced narrative feature space
+(scroll 1.2.28) and the population geometry becomes measurable:
+- The five AI sources (Claude, DeepSeek, Gemini, GPT, Kimi) cluster in
+  one shared region; the six most-confused attribution pairs are all
+  AI<->AI.
+- Human stories occupy a DISTINCT region (closest human-AI centroid
+  pair farther than the most distant AI-AI pair) and are more DISPERSED
+  within it: mean distance to own centroid 33.2 vs 27.4 for AI (+22%),
+  median 10-NN radius 1.13x larger.
+Convergence here is a population property, not a per-model defect: five
+independently trained systems from five labs make systematically
+SIMILAR narrative choices (thematic over-being stated out loud, causal being tidy,
+temporal straight line behavior, bodily/sensory emotion rendering, vague a pointing at other works without naming them),
+while human choices spread wider on the same axes. Relation to scroll
+1.2.4 recorded in the 2026 of that scroll-11-06 revision.
+# Concept: Core features vs fingerprint features
+Source: Paper 003, §§2.2, 4-5. NEW in Paper 003.
+
+A discriminating feature space splits by SCOPE of its signal:
+- CORE features (30 of 304): stable, important markers of the
+  human-vs-AI boundary that hold across ALL five AI models — signed
+  human-leaning or AI-leaning (e.g. thematic being stated out loud and
+  of the narrator stating the moral, AI-leaning; chronological discontinuity and
+  explicit named between texts reference, human-leaning). 30 core
+  features alone reach 84.8% macro-F1 (~91% of the full narrative model).
+- FINGERPRINT features (75): signal concentrated in ONE source — the
+  odd habits that make six-way attribution possible (68.4% macro-F1
+  narrative-only). As reported: Claude = flat event escalation, uniform
+  voice, ending chapters, full of respect toward convention; GPT = gossip/rumor as
+  plot mechanism, retrospective framing, subverted expectations;
+  DeepSeek = front-loaded context; Gemini = most tidy endings, extended
+  final endings, most bleak settings; Kimi = fewest fingerprints, sits at
+  the generic center of the AI distribution.
+General shape worth keeping: a class boundary usually lives in a compact
+core; identity within the class lives in a longer tail of fingerprints.
+# Concept: Rarity as an originality proxy
+Source: Paper 003, §§1, 4-5, App. H. NEW in Paper 003.
+
+Originality is turned into a working measure as STATISTICAL RARITY in a feature space
+of decisions: a work is 'rare' by its mean distance to its 25 nearest
+neighbors among comparable works (here, stories written to the same
+prompts). The legal/theoretical anchor the paper cites: minimal of the copyright-originality standard and Torrance's notion of originality as
+being uncommon of response.
+
+Measurements (as reported): human stories' mean rarity percentile 0.71
+vs AI 0.49 (Cohen's d = 0.83); humans hold 24.7% of the top-10% rarest
+stories vs 7.1% AI (top 1%: 3.0% vs 0.6%); at the prompt level the human
+version is the rarest of the six 57.8% of the time (chance: 16.7%).
+
+Watch the limits of the proxy: rarity is relative to the corpus and feature
+space chosen; it measures being uncommon of choices, not their quality or
+intent; and any rarity metric that becomes a target invites gaming
+(Goodhart exposure — see open question Q11).
+# Concept: Induced that can be read with sense feature space (comparative induction on a parallel corpus)
+Source: Paper 003, §§2, 2.1-2.2. NEW in Paper 003. A METHOD concept —
+the first in this model that is about how to build a measuring instrument.
+
+Recipe, as executed:
+1. PARALLEL CORPUS: hold the task constant and vary the source —
+   10,272 prompts reverse-engineered from human stories, each written
+   by the human and five LLMs: 61,608 stories, ~5,000 words each.
+   Same-prompt comparison is what makes 'choice' separable from 'topic'.
+2. STRUCTURED TEMPLATES: convert each artifact into a structured
+   representation along a theory-grounded taxonomy (10 of NarraBench's
+   12 narrative dimensions), forcing downstream reasoning over content,
+   not surface.
+3. CROSS-SOURCE COMPARISON: an LLM judge compares the six versions of
+   each prompt in a 600-story discovery pool and records where sources
+   systematically diverge (~2.7M tokens compressed to ~686K).
+4. FEATURE DISCOVERY + Merging of copies: per-dimension expert prompts propose
+   closed-form questions (categorical / ordered / scale / binary /
+   multi-select); 408 candidates joined together over 3 runs, embedding-clustered
+   (cosine >= 0.85) down to 304 features.
+5. ASSIGNMENT AT SCALE: a cheaper model scores every story on every
+   feature (Gemini 3 Flash; being the same on a second run Krippendorff alpha = 0.90;
+   human validation Cohen's kappa = 0.84 on 240 items).
+6. ROLE ASSIGNMENT: bootstrap SHAP stability analysis separates core
+   from fingerprint features (scroll 1.2.26).
+Total corpus turning into features cost as reported: $4.4k. The transferable
+idea: when the interesting variable is a latent CHOICE, don't annotate
+it directly — build a mirrored corpus, compress comparisons, and let
+the feature space be INDUCED from observed divergence, then validate.
+# Concept: Mixture of experts — gating as learned routing over specialists
+Source: Paper 004, §§1, 3. NEW in Paper 004 (the architecture is from
+Jacobs et al. 1991 and Shazeer et al. 2017; the concept as used here is
+Paper 004's deployment of it).
+
+Replace a monolithic network block with several parallel EXPERT
+networks plus a GATING network. For each input, the gate computes
+weights over the experts (softmax; the weights read as attention), and
+the output is the weighted sum of expert outputs — DENSE routing in
+Paper 004 (all experts contribute; sparse top-k routing trades
+interpretability and stability for compute). Because the gate keys on
+the representation of the input, similar inputs are routed to similar
+experts, and experts specialize on the regions of representation space
+they are routed: specialization is an EMERGENT outcome of routing plus
+training, not an assignment. Requirements noted by the paper: experts
+sharing a mixture must share input/output shapes (in their graph network, MoE is
+applied at the prediction Prediction network, not inside message passing, so experts
+share structure); a LINEAR gate worked best in their pre-exploration.
+# Concept: Hierarchical (multi-granularity) mixture of experts
+Source: Paper 004, §§1, 3-4. NEW in Paper 004.
+
+One mixture is not enough when the object has natural structure at
+several scales. Paper 004's object is the control of a program/data-flow
+graph, with three natural granularities: NODE (instructions/variables),
+BASIC BLOCK (pseudo nodes for code blocks — the level pragma instructions modify),
+and GRAPH (the whole kernel). A LOW-LEVEL MoE is built per granularity
+(node MoE on post-Prediction network node representations, block MoE on pseudo nodes,
+graph MoE on the gathered graph representation). A HIGH-LEVEL MoE then
+gates over the three granularity-models' outputs — a mixture of
+mixtures, whose gate reads the hidden representation (design 2, better
+than gating on raw input features). Two findings carry the concept:
+(a) which granularity matters is INPUT-DEPENDENT — different kernels
+favor different granularities, and the high-level gate learns to assign
+the highest weight to the empirically best granularity per kernel;
+(b) stacking the three granularities' MoE models inside ONE flat model is
+WORSE than even a single-granularity model (Table 4) — the hierarchy
+itself, keeping the mixture of each scale separate and adding up late, is
+what trains in a stable way and generalizes. Late aggregation over separately
+specialized scales beats early fusion.
+# Concept: Expert polarization (mode collapse of a mixture) and its steps taken against it
+Source: Paper 004, §§3-4. NEW in Paper 004.
+
+The intrinsic failure mode of a trained mixture: random initialization
+gives some experts a head start; the gate learns to weight better
+experts higher; better-weighted experts get more training; the gap
+compounds until the gate gives nearly everything to ONE expert and
+the rest starve — POLARIZATION. The mixture collapses to a single
+network, carrying dead capacity, and the generalization the mixture was
+built for disappears. Paper 004 shows the collapse concretely at the
+high level: naive joint training gives nearly all weight to the
+graph-MoE model.
+Steps taken against it, both needed (taking one part away to test it Table 6: removing either costs
+loss):
+1. LOAD-BALANCING PRESSURE: a balance penalty on the coefficient of
+   variation of total weights assigned per expert (weight 5e-3 here),
+   punishing one sided use.
+2. TWO-STAGE TRAINING: stage 1 (warm up) trains each expert model
+   SEPARATELY, so every expert is competent before any gating exists;
+   stage 2 alternates joint and separate training; the high-level gate
+   is initialized to uniform weights. Polarization is a rich-get-richer
+   dynamic — the fix is to make experts viable BEFORE competition and
+   keep rehearsing them separately during it.
+General shape: any routed-specialist system has a collapse gradient;
+diversity of the specialist pool is a maintained state, not a default
+(cf. Paper 003's convergence at population level, scroll 1.2.25).
+# Concept: Domain generalization via shared substructures (routing, not invariance)
+Source: Paper 004, §§1-2, 4. NEW in Paper 004.
+
+Problem: a model trained on some domains (here: each program kernel is
+a domain) must perform on UNSEEN domains whose difference from the
+training domains is large — and INFORMATIVE (the differences carry
+signal for the prediction, so erasing them is harmful). The standard
+domain-generalization playbook (adversarial alignment, invariant
+representations) is therefore REJECTED by the paper: do not force the
+domains into one distribution.
+The alternative: assume domains share SUBSTRUCTURES even when they
+differ wholesale. Learn specialists on substructures (MoE experts over
+nodes/blocks/graph patterns) and a router (scroll 1.2.29); a new domain
+is handled by composing the specialists its substructures resemble.
+Generalization becomes a retrieval-and-composition problem rather than
+an invariance problem. In Paper 004 this is what lets a predictor
+trained on 42 benchmark kernels transfer to unseen and more complex
+kernels with only 50 fine-tuning points per target kernel.
+Evaluation protocol worth keeping: leave-one-domain-out — train on
+source kernels, test on held-out target kernels; report both offline
+prediction error (total mean square error over objectives) and online utility (the
+quality of designs the search of the predictor actually finds).
+# Concept: Surrogate prediction for expensive design spaces
+Source: Paper 004, §§1-2, 4. NEW in Paper 004. The task pattern the machinery of the paper serves.
+
+When evaluating one candidate design costs minutes-to-hours (an high level synthesis
+run), exhaustive or even generous search is impossible — so train a
+SURROGATE that predicts the expensive quantity (latency, resource use,
+validity) from the representation of the design, search cheaply in
+prediction space (here: DFS over up to 75,000 pragma designs), and
+spend the real evaluation budget only on the predicted top-M (here:
+top 10) for verification. the errors of the surrogate are therefore not
+uniform in cost: what matters is ranking quality near the optimum and
+validity classification at the constraint boundary, which is why the
+paper reports ONLINE speedup (best verified design vs best in dataset)
+alongside offline mean square error. The binding constraint that shapes everything
+else in the paper: labels are scarce BECAUSE they are expensive, so
+the surrogate must generalize from few, costly examples (scroll 1.2.32).
+# Concept: Fake quadrics — same rational invariants, different manifold
+Source: Paper 005, §1. NEW in Paper 005; first concept of the topology
+annex (cluster E). No relation to Papers 001-004 beyond meta-level.
+
+A QUADRIC here is S^2 x S^2 (the product of two spheres, a closed
+symplectic 4-manifold). A FAKE QUADRIC is a closed symplectic
+4-manifold with the SAME rational cohomology ring as S^2 x S^2 —
+rationally indistinguishable from it — that is nevertheless not
+diffeomorphic (not even homeomorphic) to it: the difference lives in
+more fine invariants, here finite nontrivial first homology where the
+genuine quadric has H_1 = 0. Akhmedov's families (built in his earlier
+work with Baldridge [ref 6 in the paper] by symplectic sums of ruled
+surfaces along cyclic multisections, scroll 1.2.35) give INFINITE
+families of fake quadrics, distinguished from each other by the order
+of the finite group H_1. No complex structure is assumed or claimed:
+'fake' is a statement about invariants, not about almost-complex
+geometry. The general lesson the concept carries: the identity of an object
+is relative to the invariant granularity you measure at — rational
+equality is not equality (see also scroll 1.2.38).
+# Concept: Cyclic (braided) multisection of a ruled surface
+Source: Paper 005, §§1-2, Fig. 1. NEW in Paper 005.
+
+Setting: Sigma_g x S^2, the product of a genus-g surface (g >= 2) with
+a sphere — a RULED surface. Fix a map u : Sigma_g -> S^1 (the middle of the sphere circle) whose induced map on pi_1 is onto every target. The CYCLIC
+MULTISECTION of degree p >= 2 is the surface
+  F_{g,p} = { (x, z) in Sigma_g x S^1 : z^p = u(x) }.
+Properties (as stated in the paper): the projection F_{g,p} -> Sigma_g
+is a connected, With no merging of sheets p-fold cover (being connected uses
+being onto of u_* mod p); F_{g,p} is symplectic for the product
+form, has homology class p[S] (S = Sigma_g x {pt}), self-intersection
+zero, and genus G = 1 + p(g-1). 'BRAIDED': travelling around a base
+loop in a cycle cycles the p sheets (the Figure-1 model, g=2 p=3,
+shows the permutation 1 -> 2 -> 3 -> 1 around a loop of the base) —
+the sheets are braided together rather than p separate copies, which
+is exactly what makes the cover connected. The name of the construction of the paper: sums of such braided pieces across a sphere seam, the
+ring shaped joins carrying no extra braid at the seam itself.
+# Concept: Multisection complement and its handlebody decomposition
+Source: Paper 005, §§1-2, App. A, Theorem 1.1/2.2. NEW in Paper 005.
+
+The COMPLEMENT M_{g,p} = (Sigma_g x S^2) minus an open tubular
+neighborhood of F_{g,p} is the working piece from which fake quadrics
+are glued (scroll 1.2.37). Structurally it is a bundle over Sigma_g
+with fiber P_p, a sphere with p open disks removed. Paper 005's first
+contribution is EXPLICIT HANDLEBODY Recipes in parts of the three
+complements the sums need, with 2-handle framings induced by the
+product coordinates — handle counts (h_0, h_1, h_2, h_3):
+  M_{2,3}: (2, 11, 14, 3)    M_{3,2}: (2, 14, 14, 2)
+  M_{2,4}: (2, 12, 18, 4)
+A handlebody decomposition turns the complement from an existence
+statement into a computable object: its handle chain complex yields
+integral homology directly (scroll 1.2.38), its attaching maps are the
+data the gluing must match, and (in the announced follow-up with
+Akbulut and Yildiz) the closed sums' full diagrams are to be assembled
+from these pieces. Proof detail certified in App. D: the pole
+projections used to read off framings.
+# Concept: Symplectic sum along a surface, and gluing data as real data
+Source: Paper 005, §§1, 3-4, Theorem 1.1, App. B. NEW in Paper 005.
+
+The SYMPLECTIC SUM: take two symplectic 4-manifolds containing the
+same surface with opposite normal bundles, remove tubular
+neighborhoods of the surface, and glue the resulting boundaries by an
+orientation-reversing diffeomorphism that flips the normal circle:
+phi_m(w, e^{i theta}) = (f_m(w), e^{-i theta}) for w in the genus-G
+gluing surface. Gompf's operation; here the pieces are multisection
+complements (1.2.36) and the sums are Akhmedov's fake quadrics
+(1.2.34). Degree pairs with Euler characteristic 4 and signature 0
+from the prior classification: (2,3), (2,4), (3,3); Paper 005 works
+the (3,3) and (2,4) families in product ruled surfaces.
+The conceptual payload is about DATA vs SUMMARY: Akhmedov-Yeung had
+computed the gluing MATRICES on H_1 that the sums require. Paper 005
+insists — and this is stated verbatim in its introduction — that 'the
+matrices alone do not determine the smooth sums': the actual gluing
+requires MARKED SURFACE DIFFEOMORPHISMS f_m realizing those matrices,
+with specified boundary choices of plain coordinates (here: no surface-dependent
+normal-circle twist). Same matrix, different marking, potentially
+different manifold. The invariant summary is a shadow of the gluing
+data, not a substitute for it.
+# Concept: Integral homology and torsion as the distinguishing invariants
+Source: Paper 005, §§2.3, 3.3, 4, Cors 2.4/5.3, App. C. NEW in
+Paper 005.
+
+Where Paper 005's computations land. For the complement (Theorem 2.3):
+  H_2(M_{g,p}; Z) ~= Z^{1 + 2(g-1)(p-1)} ⊕ Z/p,
+and the TORSION subgroup Z/p is generated geometrically (Cor 2.4) by
+the difference of the two pole sections, [S_S] - [S_N] — a class with
+a picture, not just a chain-complex artifact. For the closed sums
+(Theorem 1.1, the integral gluing calculation of §3.3 carried out in §4):
+  H_1(Z_m^{3,3}) ~= (Z/3)^2 ⊕ Z/(3m),   H_1(Z_m^{2,4}) ~= (Z/2)^2 ⊕ Z/(4m)
+for every twist parameter m >= 1 — recovering, by explicit geometric
+realization, the formulas Akhmedov-Yeung had obtained from
+Mayer-Vietoris presentations. Full integral homology of the sums
+(Cor 5.3): H_0 = H_4 = Z, H_1 = T (the finite group above), H_2 ~=
+Z^2 ⊕ T, H_3 = 0; Euler characteristic 4, signature 0 throughout.
+The distinguishing logic: rationally all these manifolds are S^2 x S^2
+(H_1 vanishes over Q); In whole numbers they are two by two separated by
+|H_1| = 27m (in that order 16m) — an infinite family read off one torsion
+order. Torsion — the part of homology that the move to fractions deletes —
+is precisely where the identity of these manifolds lives.
+# Concept: Aspherical sums and automatic symplectic being minimal
+Source: Paper 005, §5, Prop 5.1, Cor 5.2. NEW in Paper 005.
+
+Being aspherical: a space is aspherical if its universal cover is
+contractible (all higher homotopy groups vanish). Prop 5.1: gluing
+two multisection complements by ANY orientation-reversing boundary
+diffeomorphism yields an aspherical closed manifold with infinite
+fundamental group. Proof shape: each complement has an aspherical
+cyclic cover (Sigma_G x P_p, both factors aspherical) with one to one
+boundary pi_1, so pi_1 of the sum is an AMALGAMATED PRODUCT over
+pi_1(Sigma_G) x Z; the universal cover is then a tree of contractible
+pieces over the Bass-Serre tree, and a sphere-mapping argument over
+finite subtrees kills all higher homotopy.
+Being minimal, for free (Cor 5.2): a symplectic manifold is minimal if
+it contains no embedded sphere of self-intersection -1 (no
+exceptional sphere to blow down). In an aspherical manifold every
+sphere map is shrunk to nothing, so every embedded sphere has square 0 —
+a (-1)-sphere cannot exist. Aspherical therefore implies
+symplectically minimal in one line. The fake quadrics of Theorem 1.1 are
+thus aspherical, minimal, rationally S^2 x S^2, and in whole numbers an
+infinite family — all four properties from one construction.
+# Foundations — the level-zero layer (charter rule 9)
+Built 2026-11-06 at Will's direction: everything in research.phext is
+written so a reader with NO prior specialized knowledge can follow it.
+This section is where the base definitions live, sucked in once,
+defined in plain words. Rules of the layer:
+- A foundation scroll defines ONE term (or one tight family).
+- It may use only everyday words, or terms defined in foundation
+  scrolls it points to under 'Builds on'. The chains bottom out at
+  ordinary language: number, shape, space, same/different, more/less,
+  rule, choice, cost. Those are assumed; nothing else is.
+- Paper chapters and concept scrolls do NOT contain these definitions.
+  Section 3 of each chapter (its standoff references) lists the
+  foundation coordinates its claims need, in reading order. Follow
+  the coordinates like hyperlinks.
+General primitives: 1.3.2-1.3.8. Mathematics: 1.3.9-1.3.27.
+Economics: 1.3.28-1.3.32. Computing & agents: 1.3.33-1.3.36.
+Language & measurement: 1.3.37-1.3.39. Machine learning & hardware:
+1.3.40-1.3.45. DEFINED WORDS (rule 10): from 1.3.46 on, one scroll per
+word this phext coins — each scroll written in Singular words alone,
+so the word it defines is the only word in it that is not already
+Will's. All other scrolls may use a coined word once its scroll
+stands here.
+# Foundation: function, variable, input, output
+A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
+given the same input, always the same output. A VARIABLE is a named
+slot that can hold different values in different situations (x can be
+3 today and 7 tomorrow; the rule using x does not change). A PARAMETER
+is a variable whose value is chosen once to set up a situation, then
+held fixed while other things vary. Nearly every claim in this phext
+is, underneath, a claim about some function: what goes in, what comes
+out, and how the output changes when the input does.
+# Foundation: set and element
+A SET is a collection of things, with no order and no repeats: the
+set of the three colors on a flag. An ELEMENT is one thing in the set.
+Much of mathematics is: pick a set, put structure on it (ways to
+combine, compare or measure its elements), then ask what must be true
+of everything with that structure. When a definition here says 'a set
+with...', it means exactly that recipe.
+Builds on: (everyday language only)
+# Foundation: 'the same' — equal, isomorphic, homeomorphic, diffeomorphic
+'Being the same' in mathematics is always being the same UP TO some allowed way of
+reshaping, and arguments are often about which level is meant:
+- EQUAL: literally the same object.
+- ISOMORPHIC: the same structure — elements can be renamed so every
+  rule and relationship matches exactly. (level of the Algebra.)
+- HOMEOMORPHIC: the same shape if you may stretch, bend and squash,
+  but not tear or glue. A coffee cup and a donut are homeomorphic
+  (one hole each). (level of the Topology.)
+- DIFFEOMORPHIC: homeomorphic, and moreover smoothly — no corners or
+  kinks created or destroyed. The finest of these levels; two spaces
+  can be homeomorphic but not diffeomorphic, and 4-dimensional space
+  is where that gap gets strange (Paper 005 lives near this gap).
+Builds on: set (1.3.3), shape (everyday).
+# Foundation: invariant
+An INVARIANT is a measurement you can make of an object that does not
+change when the object is reshaped in the allowed ways (see 1.3.4).
+Invariants are how being the same is tested in practice: if two objects
+have different values of an invariant, they are NOT the same at that
+level. The trap — it is Paper 005's whole subject — is that equal
+invariants do NOT prove being the same: a weak invariant can agree while a
+more fine one disagrees. Choosing an invariant is choosing how closely you
+are willing to look.
+Builds on: 'the same' (1.3.4).
+# Foundation: integers, fractions, finite, infinite
+INTEGERS (written Z) are the whole numbers: ..., -2, -1, 0, 1, 2, ...
+Fractions (written Q) are fractions of integers: 3/4, -7/2, 5 (= 5/1).
+Every integer is a rational; most fractions are not integers.
+Measuring with Z keeps the fine print (exact counts, leftovers,
+what is left over); measuring with Q makes smooth it away, because division is
+always possible. A set or group is FINITE if it has a definite count
+of elements, INFINITE otherwise. Paper 005's punchline, in these
+terms: two manifolds can agree completely under Q-measurement and
+differ under Z-measurement — the difference lives in finite leftover
+structure (torsion, 1.3.13) that fractions erase.
+Builds on: set (1.3.3).
+# Foundation: vector and distance
+A VECTOR is a list of numbers of fixed length: (3, 1, 4) is a vector
+with three entries, called its COORDINATES or dimensions. Vectors let
+a complicated thing be pinned down by several measurements at once —
+a person's (height, weight, age) is a vector. Once things are vectors,
+they live in a SPACE where DISTANCE makes sense: two vectors are
+close if their entries are close. A huge amount of this phext works
+by turning things (agents, stories, program parts) into vectors and
+then asking about distances, clusters and averages of vectors.
+Builds on: function (1.3.2), set (1.3.3).
+# Foundation: average, spread, percentile, distribution
+Given many measurements: the AVERAGE (mean) is their sum divided by
+their count. The SPREAD (dispersion, variance) is how far the values
+typically sit from the average — same average, very different spreads
+is a common and crucial situation. A PERCENTILE places one value
+among the rest: the 71st percentile sits above about 71% of the
+values. The DISTRIBUTION is the whole picture — which values occur,
+how often. Claims like 'group A is more spread out than group B' are
+claims about distributions, not about any individual member.
+Builds on: (everyday counting).
+# Foundation: dimension and manifold
+The DIMENSION of a space is how many coordinates you need to say
+where a point is, locally: a line is 1, a sheet of paper is 2, the
+room you are in is 3. A MANIFOLD is a space that LOOKS like ordinary
+flat space of some dimension if you zoom in far enough, even if its
+global shape is curved or closed — the surface of the Earth is a
+2-dimensional manifold: every small patch looks like a flat map,
+though the whole is a sphere. Paper 005 is about 4-dimensional
+manifolds: spaces that locally need 4 coordinates. Nobody can picture
+one directly; the field works by cutting them into pieces that CAN be
+handled (1.3.20) and keeping careful algebraic accounts (1.3.13).
+Builds on: vector/coordinates (1.3.7), set (1.3.3).
+# Foundation: sphere, surface, genus, torus
+A SPHERE S^2 is the surface of an ordinary ball: all points at one
+fixed distance from a center. (S^1 is a circle, S^0 is two points.)
+A SURFACE is a 2-dimensional manifold (1.3.9). Its GENUS is its
+number of holes/handles: a sphere has genus 0, a donut (a TORUS) has
+genus 1, a three handled shape has genus 3. Sigma_g means 'the surface of genus
+g'. Genus is the oldest invariant in the subject: two closed surfaces
+with different genera are never the same shape, and genus can be
+counted from any picture of the surface.
+Builds on: dimension and manifold (1.3.9), invariant (1.3.5).
+# Foundation: group
+A GROUP is a set equipped with one operation that combines two
+elements into a third, satisfying three plain requirements: combining
+is order-stable (brackets don't matter), there is a do-nothing element
+(identity: 'add 0'), and every element has an undoing (inverse: 'add
+the negative'). Examples: the integers under addition; the rotations
+of a square under 'do one then the other'; the ways to shuffle a deck.
+Groups are how mathematics packages 'symmetry' and 'movement'. A
+FINITE group has with a finite count many elements; its ORDER is how many. 'Z/n'
+is the group of clock arithmetic with n hours: counting wraps around,
+so n steps bring you back to the start — that wrapping around is the seed
+of torsion (1.3.13).
+Builds on: set (1.3.3), integers (1.3.6).
+# Foundation: loops, fundamental group, universal cover, contractible
+Stand on a space and walk a closed LOOP: start somewhere, wander,
+return to the start. Two loops count as 'the same' if one can be slid
+continuously into the other without leaving the space. Loops can be
+combined (walk one, then the other) and undone (walk it backwards) —
+so the loops of a space form a group, its FUNDAMENTAL GROUP, written
+pi_1. pi_1 measures the hole of the space-structure as seen by paths: flat
+land has trivial pi_1 (every loop slides to a point); the pi_1 of a donut
+is Z x Z (loops around the two hole directions). A space is
+CONTRACTIBLE if it can be continuously shrunk to a single point —
+contractible spaces have trivial pi_1 and trivial homology (1.3.13).
+Every space has a UNIVERSAL COVER: a contractible-ish space laid over
+it like an opened out map, whose own pi_1 is trivial; the original
+space's pi_1 is then visible as the symmetries of the unrolling.
+Builds on: group (1.3.11), manifold (1.3.9).
+# Foundation: homology — holes, counted by algebra; torsion
+HOMOLOGY is a machine that gives to each space a list of groups
+(H_0, H_1, H_2, ...), designed so that H_k detects 'holes of
+dimension k': H_0 counts separate pieces; H_1 counts independent
+tunnels (loops that can't be filled in); H_2 counts enclosed voids.
+On a donut: H_1 = Z^2 (two tunnel directions, each usable any whole
+number of times). The small raised mark-style part Z^n ('free' part) counts
+unbounded directions. But an H_k can also contain a FINITE piece, like
+Z/3: a cycle that is not a boundary, yet THREE copies of it are. That
+finite leftover is called TORSION. Torsion is invisible if you only
+measure with fractions (over Q it vanishes, since 3 becomes
+that can be undone) — which is why integral (Z) homology knows strictly more
+than rational (Q) homology. Paper 005's manifolds are told apart by
+torsion alone.
+Builds on: group (1.3.11), integers vs fractions (1.3.6), loops (1.3.12).
+# Foundation: cohomology and ring
+COHOMOLOGY is record of the homology keeping twin: instead of cycles in the
+space, it tracks measurement-functions on the space (ways to assign
+numbers to cycles consistently). For most counting purposes it holds
+the same information as homology. Its extra feature is a
+MULTIPLICATION: two measurements can be combined into a third, making
+the cohomology groups into a RING (a system where you can add and
+multiply, like ordinary numbers). 'The cohomology ring of S^2 x S^2'
+therefore names a specific little multiplication table — and Paper
+005's manifolds reproduce that table exactly under rational
+measurement while differing in their integral homology. Same ring,
+different torsion: that is the whole trick of a fake quadric.
+Builds on: homology (1.3.13), group (1.3.11).
+# Foundation: Euler characteristic and signature (two summary numbers)
+The EULER CHARACTERISTIC, written chi, is a single integer summarizing
+the shape of a space, computable from any decomposition into pieces:
+chi = (pieces in even positions) - (pieces in odd positions) — for a
+surface, chi = 2 - 2 x genus (sphere 2, torus 0, genus-2 surface -2).
+It is additive: the chi of a glued space is the sum of the chi values of the
+parts. The SIGNATURE, written sigma, applies to 4-dimensional
+manifolds: it counts, roughly, the balance between 'positive' and
+'negative' directions in how surfaces inside the manifold cross
+each other (the intersection form); sigma is
+also additive under careful gluing (Novikov the adding rule). chi = 4 and
+sigma = 0 are the values of S^2 x S^2 — Paper 005's sums match both,
+as they must to fake the quadric.
+Builds on: genus (1.3.10), invariant (1.3.5).
+# Foundation: maps between spaces — continuous, embedding, diffeomorphism, orientation
+A MAP from one space to another gives each point of the first a
+point of the second. A map is CONTINUOUS if nearby points land nearby
+(no teleporting, no tearing). An EMBEDDING is a continuous map that
+places the first space inside the second without self-intersection —
+a knot sitting in ordinary space is an embedded circle. A
+DIFFEOMORPHISM is a smooth two-way map (it and its reverse create no
+corners or kinks): the notion of exact being the same for smooth manifolds
+(1.3.4). An ORIENTATION is a consistent choice of 'which hand it favors'
+(clockwise vs counter-clockwise) across a space; gluing two pieces
+together requires their orientations to DISAGREE at the seam
+(orientation-reversing), the way two halves of a zipper face opposite
+ways to close.
+Builds on: 'the same' (1.3.4), manifold (1.3.9).
+# Foundation: neighborhood, tubular neighborhood, normal direction
+A NEIGHBORHOOD of something inside a space is a small region around
+it, included in the space. If a surface sits inside a 4-manifold, a
+TUBULAR neighborhood is the region of all points very close to the
+surface — it has the shape of the surface made thick slightly in the
+directions sticking OUT of it. Those sticking-out directions are the
+NORMAL directions (at right angles to the surface, in the only sense
+available): at each point of a surface inside a 4-manifold there is a
+2-dimensional disk of normal directions, which is why the thick layer
+is 'surface x disk' and its boundary is 'surface x circle'. Removing
+a tubular neighborhood is the standard way to make a clean hole with a
+well-defined boundary, ready for gluing (1.3.23).
+Builds on: manifold (1.3.9), maps (1.3.16), sphere (1.3.10).
+# Foundation: bundle, fiber, section
+A BUNDLE is a space built by placing a copy of one space (the FIBER)
+over every point of another (the BASE), possibly twisting as you move
+around the base. A brush: base = the handle, fiber = each hair of the brush.
+Formally the total space maps onto the base, and the points over one
+base point are one fiber. A SECTION is a choice of exactly one point
+in every fiber, made continuously — a rule for picking a hair of the brush over
+each point of the handle. Paper 005 uses this twice: the complement
+of a multisection is a bundle over a surface whose fiber is a sphere
+with holes; and its torsion class is the DIFFERENCE of two sections
+(the two 'pole' sections, over the north of the sphere and south poles).
+Builds on: maps (1.3.16), set (1.3.3).
+# Foundation: covering space and sheets
+A COVERING space of a space X is a space laid over X so that every
+small patch of X has several exact copies above it (the SHEETS), like
+a many floored car park over one floor plan. The number of sheets is
+the DEGREE of the cover. A cover is With no merging of sheets if every point of X has
+exactly the full number of sheets above it (no merging floors). Going
+around a loop in X can cycle the sheets — walk downstairs, and you
+may come back on a different floor. That permutation behavior is what
+'cyclic' and 'braided' mean in Paper 005: its surface is a p-with sheets
+cover of the base surface whose sheets are moved in a cycle in a cycle around
+certain loops, braiding the sheets into ONE connected surface instead
+of p separate copies.
+Builds on: maps (1.3.16), loops (1.3.12).
+# Foundation: handle and handlebody decomposition
+A HANDLE is a standard building block: take a ball and attach a thick
+strap (in dimension terms, a lower-dimensional ball glued along part
+of its boundary). A HANDLEBODY DECOMPOSITION describes a manifold as:
+start with balls (0-handles), attach straps (1-handles), attach
+thicker patches (2-handles), and so on, with a diagram recording each
+attachment and a number (the FRAMING) recording how each strap is
+twisted as it is glued. The counts (h_0, h_1, h_2, h_3) are the ingredient of the recipe list. Why it matters: a decomposition turns an
+abstract space into something computable — homology (1.3.13) can be
+read off the recipe by arithmetic (1.3.21), and two pieces can be
+glued when their recipes share boundary data.
+Builds on: manifold (1.3.9).
+# Foundation: chain complex — the arithmetic under homology
+A CHAIN COMPLEX is the record keeping that makes homology computable.
+From a handle decomposition (1.3.20), write one group per dimension:
+C_3 -> C_2 -> C_1 -> C_0, where each C_k lists the k-handles, and
+each arrow (the BOUNDARY OPERATOR) records how handles of one level
+attach to handles of the next, with integer coefficients. The golden
+rule is 'the boundary of a boundary is zero' (arrows compose to 0).
+Homology is then pure algebra: H_k = (things the arrow out of C_k
+kills) / (things hit by the arrow into C_k) — cycles modulo
+boundaries. Torsion (1.3.13) appears when a cycle is hit only after
+multiplication: 3 copies of it bound, but it doesn't. Given a
+handlebody diagram, a patient person (or a computer) can compute all
+of this by integer arithmetic alone.
+Builds on: homology (1.3.13), group (1.3.11), handlebody (1.3.20).
+# Foundation: symplectic — geometry with an area rule; the symplectic sum
+A SYMPLECTIC structure on a manifold is an added piece of geometry:
+at every point, a consistent rule for measuring the 'area' of tiny
+tiny flat shapes in pairs of directions — the mathematical form of the
+position/momentum pairing in physics. Spaces carrying it are called
+symplectic manifolds; they are always even-dimensional, and the rule
+makes area-like quantities behave with no give (you cannot squash a
+symplectic ball through a small hole, however you bend it). Most
+4-manifolds in Paper 005 are symplectic. The SYMPLECTIC SUM is a
+cut-and-paste construction: two symplectic manifolds containing the
+same surface (with opposite normal directions, 1.3.17) have the neighborhoods of the surface removed and the resulting boundaries glued —
+the splicing is done so the area rules still match. It is the main
+known factory for exotic symplectic 4-manifolds.
+Builds on: manifold (1.3.9), neighborhood (1.3.17), boundary (1.3.23).
+# Foundation: boundary of a manifold; gluing along a boundary
+Some manifolds have an EDGE: points whose neighborhoods look like
+half-space instead of full space (the edge of a disk is its rim circle; the edge of a ball is its spherical surface). The edge itself is a manifold
+of one dimension less, the BOUNDARY, written dM. Removing something's
+tubular neighborhood (1.3.17) creates boundary where none was. Two
+manifolds with the same boundary (up to being the same, 1.3.4) can be
+GLUED: identify the boundaries by a chosen map, and the result is a
+new closed manifold. The choice of gluing map is real data — different
+choices can yield different manifolds from identical pieces, which is
+why Paper 005 specifies its gluing maps explicitly instead of just
+their effect on homology.
+Builds on: manifold (1.3.9), neighborhood (1.3.17), maps (1.3.16).
+# Foundation: aspherical; exceptional spheres and being minimal
+A manifold is ASPHERICAL if its universal cover (1.3.12) is
+contractible — which is the same as saying, it has no higher-homotopy 'bubbles': any
+map of a sphere into it can be shrunk to nothing. Its whole topology
+is then carried by pi_1. An EXCEPTIONAL SPHERE is an embedded sphere
+whose self-intersection number is -1 (roughly: it links itself
+negatively once); such a sphere can always be 'blown down' (removed
+by a standard surgery), so a symplectic manifold containing none is
+called MINIMAL — it is not a blown-up version of something smaller.
+Paper 005's one-line consequence: in an aspherical manifold every
+embedded sphere has self-intersection 0, never -1, so aspherical
+implies minimal.
+Builds on: universal cover (1.3.12), embedding (1.3.16), symplectic (1.3.22).
+# Foundation: gluing groups — amalgamated product and trees of spaces
+When two spaces are glued along a shared part, their fundamental
+groups combine in a forced way: the AMALGAMATED PRODUCT takes both
+groups and identifies the two copies of the shared group of the part
+inside them (like merging two organizations while holding that the
+shared department is one department, not two). The combined group
+acts on a TREE (the Bass-Serre tree) whose vertices are copies of the
+pieces and whose edges are copies of the shared part — a floor plan
+of how the glued space's universal cover is assembled from
+contractible blocks. Normal forms in such groups say every element
+has an essentially unique spelling as an alternating product from the
+two sides, which is what lets proofs track elements across the seam.
+Builds on: fundamental group (1.3.12), group (1.3.11).
+# Foundation: two computing tools — Mayer-Vietoris and Poincare duality
+MAYER-VIETORIS is the standard divide-and-conquer for homology: if a
+space is two pieces overlapping in a known part, there is a
+prescription (an exact sequence) that computes the homology of the
+whole from the homology groups of the pieces and the overlap — the
+topological version of inclusion-exclusion in counting.
+POINCARE DUALITY is a symmetry of closed manifolds: in dimension n,
+the k-th homology and the (n-k)-th cohomology determine each other.
+Consequence used in Paper 005: if H_1 is finite, duality forces H_3
+of a closed 4-manifold to vanish, because H_3 is tied to cohomology in
+degree 1, and finite groups contribute nothing there.
+Builds on: homology (1.3.13), cohomology (1.3.14).
+# Foundation: contact manifold and Stein filling (brief)
+A CONTACT structure on an odd-dimensional manifold is a field of
+planes with maximum twisting — the geometry of wave waves and of
+thermodynamics' special curves; a 3-manifold with one is a contact
+3-manifold. A STEIN FILLING of it is a particularly well-behaved
+4-dimensional manifold whose boundary is that contact manifold — a
+filling the way a solid fills a shell. Paper 005 mentions them
+because its complements, with one more piece removed, become Stein
+filling spaces — including infinitely many that share ALL ordinary homology
+yet are two by two different manifolds, told apart only by looking at
+homology of their finite covers (1.3.19 run in reverse).
+Builds on: manifold (1.3.9), boundary (1.3.23), homology (1.3.13).
+# Foundation: firm, worker, wage, outside option
+A FIRM is an organization that hires inputs (labor, materials,
+compute) and sells outputs. A WAGE is the price of the labor of a worker
+per unit time. the OUTSIDE of A worker OPTION is the best they could get
+if they leave — the wage they could earn elsewhere, or the value of
+not working. No firm can hold a worker for less than their outside
+option, and a worker whose skills are scarce gets paid above it —
+the excess being a rent (1.3.31). Paper 001 treats AI systems rented
+by the instance as a kind of worker whose wage is its rental cost.
+Builds on: (everyday language; function (1.3.2) for prices as signals)
+# Foundation: equilibrium
+An EQUILIBRIUM is a situation in which every participant, given what
+everyone else is doing, is doing the best they can — so nobody has
+reason to change on its own side alone, and the situation rests. A market
+equilibrium adds: at the resting prices, the amounts people want to
+buy equal the amounts people want to sell (the market CLEARS).
+Equilibrium is a consistency condition, not a claim that the outcome
+is good, fair, or efficient — though theorems sometimes connect them.
+Paper 001's results are equilibrium statements: 'in equilibrium, the
+wages must be...' means 'any other wage pattern would give someone a
+profitable move'.
+Builds on: firm/wage (1.3.28).
+# Foundation: mixing and the convex hull
+Take points in a space. A MIX (convex combination) is a weighted
+average of points: weights are positive and sum to 1, like a recipe
+in proportions. The set of ALL mixes of a collection of points is
+their CONVEX HULL — the smallest 'straight-edged' region containing
+them all; picture a rubber band snapped around pegs on a board. If
+the pegs are people's skill profiles (1.3.7), the hull is every
+average profile a team drawn from those people can have, because the average of a team is exactly a mix of its members. Whether the best
+mix sits strictly inside the hull or at a corner is the whole
+question in Paper 001's mosaic argument.
+Builds on: vector (1.3.7), average (1.3.8).
+# Foundation: scarcity, rent, and the cost of a copy
+A resource is SCARCE if there is not enough of it for everyone who
+wants it at a zero price. RENT is the payment a scarce resource earns
+above what is needed to keep it supplied: a uniquely talented singer
+earns rent; an ordinary microphone doesn't, because more can be made.
+The dividing line is COPY COST: if a thing can be copied at cost r,
+no copy can command more than about r for long, because a competitor
+can mint another. If it cannot be copied at any price — a particular
+trained of the human brain — its earnings are set by bargaining over
+scarcity. Paper 001's first great divide: human expertise is
+that can not be copied (fixed supply, rents possible); AI expertise is that can be copied
+at compute cost (rents capped by the copy cost).
+Builds on: firm/wage (1.3.28).
+# Foundation: threshold and phase transition
+A THRESHOLD is a value of some quantity at which the behavior of a system
+changes in kind, not just in degree. A PHASE TRANSITION is the
+physical archetype: water heated degree by degree does nothing
+qualitative until 100°C, then boils — the same input, a different
+regime. Many claims in this phext are threshold claims: below the
+threshold, step by step change; above it, a different structure. A
+threshold claim is stronger (and more falsifiable) than 'more X leads
+to more Y': it says the interesting action is at one point of the
+scale, and it invites the question 'which side are we on, measured
+how?'
+Builds on: function (1.3.2).
+# Foundation: program, runtime, state
+A PROGRAM is text that specifies computation. A RUNTIME is the
+machinery that carries a program out: loading it, giving it memory
+and tools, stepping it forward. STATE is everything about a running
+system that can change as it runs — the contents of its memory at a
+moment. Two systems running the same program with different state
+behave differently; two systems in the same state with different
+programs do too. Paper 002's entire subject is the layer of program
+that surrounds the fixed of a model core and shapes what its state becomes.
+Builds on: function (1.3.2).
+# Foundation: policy and mechanism
+A POLICY is a rule for choosing what to do in each situation — the
+strategy an agent follows. A MECHANISM is the fixed scaffolding that
+makes policies run and constrains them: who may act, what gets
+recorded, what is checked. The distinction that matters here: a policy
+can be wise or foolish, but a mechanism is what remains true even when
+a policy is foolish or hostile. Institutions, operating systems and
+agent runtimes all make this split somewhere; Paper 002's
+contribution is drawing the line sharply and making only one side
+self-editable.
+Builds on: program/runtime (1.3.33).
+# Foundation: sandbox, version, rollback, append-only
+A SANDBOX is a inside a fence area where a program can act without touching
+the real system outside the fence — experiments inside can't break
+things outside. A VERSION is a saved snapshot of some state or text,
+kept under a name or number. ROLLBACK is returning to a saved version
+after a change goes wrong; it is only trustworthy if the snapshot was
+kept outside the reach of the thing being rolled back. APPEND-ONLY
+means records can be added but never edited or deleted — a ledger in
+ink. Append-only histories are how systems prove what happened, and
+the foundation of Paper 002's safety story.
+Builds on: state (1.3.33).
+# Foundation: token, context, cache (how a language model reads)
+A TOKEN is the chunk of text a language model reads or writes at one
+step — roughly a short word or word-piece. The CONTEXT is the tokens
+the model can currently see: its entire working memory, limited to a
+fixed number of tokens (the context window). Work the model did
+earlier falls out of view unless something writes it down and brings
+it back — that 'something' is memory machinery around the model, and
+choosing what to keep in view is a policy (1.3.34). A CACHE is stored
+earlier computation reused instead of computed again; for models, a high
+share of cached input tokens means most of the context was already
+processed, so the step is cheap. Costs in agent systems are roughly
+proportional to not cached tokens processed.
+Builds on: program/state (1.3.33).
+# Foundation: corpus, prompt, feature
+A CORPUS is a collection of texts (or other items) assembled for
+study. A PROMPT is the instruction or opening given to a writer or a
+model, to which it responds with a complete piece of work. A FEATURE
+is one measured property of an item, stated so different items can be
+compared: 'number of side plots', 'does the narrator address the
+reader'. Turning an item into a list of features turns it into a
+vector (1.3.7) — after which distances, clusters and rarity (1.3.39)
+become arithmetic. What a study can see is bounded by its features:
+unmeasured properties are invisible to it.
+Builds on: vector (1.3.7), set (1.3.3).
+# Foundation: classifier and its report card (accuracy, F1)
+A CLASSIFIER is a machine (or rule) that sorts items into labeled
+bins: given the features of an item, it guesses which source or class the
+item came from. Its REPORT CARD compares guesses to truth. Accuracy
+is the share of all guesses that are right. F1 is a more strict grade
+balancing two failure modes per class: missing real members
+(recall) and wrongly claiming members (precision); MACRO-F1 averages
+the per-class F1 grades so small classes count as much as big ones.
+A classifier far above the guess-at-random rate proves the features
+contain real information about the classes — it does not, by itself,
+prove anything about why.
+Builds on: feature (1.3.37), average (1.3.8).
+# Foundation: nearest neighbors, distance, rarity
+Once items are vectors (1.3.7), each item has NEIGHBORS: the items
+closest to it in the space. The k NEAREST NEIGHBORS of an item are
+the k closest such items, and the average distance to them measures
+how crowded the neighborhood of the item is. RARITY, as Paper 003 uses it,
+is exactly that: an item is rare if its nearest neighbors are far
+away — its combination of measured properties is uncommon in the
+collection. Rarity is always relative to the collection and the
+features: add items or change features and the same rarity of the item
+changes.
+Builds on: vector (1.3.7), average (1.3.8), feature (1.3.37).
+# Foundation: neural network, weights, training
+A NEURAL NETWORK is a function (1.3.2) built from many simple units
+whose combined behavior is set by a large list of adjustable numbers,
+its WEIGHTS (or parameters). TRAINING is the process of adjusting the
+weights — by automated trial, error measurement and correction — so
+the outputs of the network match desired outputs on training examples.
+Training is expensive and slow; using the trained network (inference)
+is comparatively cheap. The weights are the entire of the network learned
+knowledge, stored as numbers; two networks with the same design but
+different weights are different machines. Several papers here hold
+weights fixed and vary everything AROUND them — the interesting
+action is deliberately elsewhere.
+Builds on: function (1.3.2), vector (1.3.7).
+# Foundation: graph — nodes, edges, and program graphs
+A GRAPH is a set of NODES (things) connected by EDGES (relationships
+between pairs of things): cities and roads, people and friendships,
+instructions and dependencies. Degree, paths and neighborhoods are
+defined as you'd expect. A GRAPH NEURAL NETWORK (graph network) is a neural
+network (1.3.40) whose computation follows the edges of a graph, letting
+the representation of each node absorb information from its neighbors. For
+programs, the standard graph is the control/data-flow graph: nodes
+are instructions and values, edges record 'executes next' and 'feeds
+into'. Paper 004 predicts hardware behavior from program graphs.
+Builds on: set (1.3.3), neural network (1.3.40).
+# Foundation: generalization and domain shift
+A model GENERALIZES if it performs well on items it was not trained
+on. A DOMAIN is a family of similar items (the problems of one benchmark;
+one program; the scans of one hospital). DOMAIN SHIFT is what happens when
+the test items come from a different domain than the training items:
+the surface changes while the underlying task doesn't, and models
+often fail badly. Domain generalization is the discipline of building
+models whose performance survives the shift. The core dispute in
+Paper 004: whether to survive shift by ERASING domain differences
+from the view of the model, or by KEEPING the differences and routing each
+new item to specialists that recognize its parts.
+Builds on: classifier (1.3.38), neural network (1.3.40).
+# Foundation: surrogate model
+A SURROGATE is a cheap, fast stand-in for an expensive, slow
+measurement: predict the result instead of running the real thing.
+Wind-tunnel models are stand ins for flight; a spreadsheet budget is
+a surrogate for a year of business. A surrogate is useful when its
+errors are small compared to the cost it saves, and when the final
+decision still checks the few best candidates the expensive way.
+Its quality is judged twice: how close its predictions are (offline),
+and how good the decisions made from them turn out (online). Paper
+004's stand ins predict chip performance in milliseconds where the
+real measurement takes hours.
+Builds on: function (1.3.2), classifier report cards (1.3.38).
+# Foundation: FPGA, kernel, pragma, latency (the high level synthesis stage, plainly)
+An FPGA is a chip whose circuits can be rewired after manufacture —
+hardware you can reprogram. HIGH-LEVEL SYNTHESIS (high level synthesis) is a tool that
+compiles an ordinary program into such circuits. In this vocabulary a
+KERNEL is the program (in a confusing way, the same word means other things
+elsewhere; here it is a piece of C++ to be turned into circuitry). A
+PRAGMA is an instruction written into the program telling the compiler
+how to build the circuit: run these steps in parallel, pipeline
+those, tile this loop. The same kernel with different pragma instructions becomes
+circuits of wildly different speed and size. LATENCY is how long the
+circuit takes (in cycles); resource use is how much chip it occupies.
+Finding good pragma instructions by trial requires running high level synthesis each time — hours
+per trial — which is why Paper 004 predicts instead (1.3.43).
+Builds on: program (1.3.33), surrogate (1.3.43).
+# Foundation: regularization and fine-tuning (two training habits)
+REGULARIZATION is any deliberate pressure added during training to
+keep a model from a degenerate solution: a penalty for being one sided,
+for complexity, for being too sure — chosen to protect a property the
+raw score doesn't reward. Paper 004 adds a balance pressure for BALANCE: experts
+that are never used can't specialize. FINE-TUNING is training an
+already-trained model a little more, on a small amount of new data,
+to adapt it to a new domain — cheap compared to training from
+scratch, and the standard first move under domain shift (1.3.42).
+Both are admissions that the headline objective alone doesn't capture
+what's wanted.
+Builds on: training (1.3.40), domain shift (1.3.42).
+# Defined Words — the register (charter rule 10)
+Words this phext needs that are not in Will's Singular list live here,
+one per scroll, each defined in a scroll written in Singular words
+alone (the word being defined, and the forms named in its first line,
+are the only words in the scroll that are not already Will's). A word
+may be used in the rest of the phext because its scroll stands here.
+Names need no scroll: they are addresses, not speech.
+# Defined word: homology
+Homology is the algebra that counts the holes of a space. It gives a space a list of groups. The first group counts the separate pieces. The next counts the tunnels: loops that can not be filled in. The next counts the closed empty rooms inside. A part of the answer can be finite: a loop that is not the edge of anything, though three copies of it are. That finite part is the part that measuring with fractions can not see.
+# Defined word: cohomology
+Cohomology is the twin record keeping of the hole counting algebra. In place of cycles in the space, it keeps the ways to give numbers to cycles so the numbers agree. It holds the same news as the hole counting algebra for most counting. It adds one thing: two such ways can be multiplied to make a third, so the groups form a ring, a system where you can add and multiply.
+# Defined word: symplectic (also: symplectically)
+A space is symplectic when it carries an added rule: at each point, a way to measure the area of tiny flat shapes in pairs of directions, the same pairing of place and push that physics uses. The rule is strict: you can bend the space, but the rule makes it impossible to press a ball of the space through a hole smaller than the rule allows. A symplectic sum joins two such spaces along a shared surface so the rules still match.
+# Defined word: aspherical
+A space is aspherical when every map of a sphere into it can be shrunk to nothing. The covering space that opens all its loops out flat is then a space that shrinks to a point. All of its shape news is carried by its loops alone.
+# Defined word: genus
+The genus of a surface is its number of holes, counted as handles. The surface of a ball has genus zero. A donut has genus one. A shape with three handles has genus three. Two closed surfaces with unlike genus are never the same shape.
+# Defined word: quadric (also: quadrics)
+A quadric, in this phext, is the product of two spheres: each point is a pair, one point from the first sphere and one from the second. It is the standard four dimensional space that the manifolds of Paper 005 copy in every test that uses fractions, and fail to be in fact.
+# Defined word: multisection (also: multisections)
+A multisection is a surface sitting inside a product space, spread over the base surface as a cover with p sheets. The sheets are joined into one surface when travel around a loop of the base cycles them. The multisections of Paper 005 are cyclic: one loop sends sheet one to sheet two, sheet two to sheet three, and the last back to the first.
+# Defined word: handlebody (also: handlebodies)
+A handlebody is a space given as a building recipe: balls first, then straps, then thicker patches, each joined along part of its edge, with a number for each strap that tells how it twists as it is joined. The list of counts of each kind is the bill of parts of the recipe. From the recipe alone, the hole counting of the space can be worked out by whole number arithmetic.
+# Defined word: gluing (also: gluings)
+Gluing is the joining of two spaces along a shared edge or surface, by a chosen map that says which point of one side meets which point of the other. The choice of map is real: two gluings of the same pieces by unlike maps can give unlike spaces.
+# Defined word: diffeomorphism (also: diffeomorphisms)
+A diffeomorphism is a map between two smooth spaces that goes both ways and makes no corners or kinks in either direction. It is the most strict of the same shape tests used here: spaces joined by one are the same smooth space.
+# Defined word: diffeomorphic
+Two spaces are diffeomorphic when a map joins them that goes both ways and makes no corners or kinks in either direction: they are the same smooth space, point for point.
+# Defined word: homeomorphic
+Two spaces are homeomorphic when one can be stretched, bent and squashed into the other with no tearing and no joining, and back again. This is a less strict same shape test than the smooth one: spaces can pass it and still fail the smooth test.
+# Defined word: contractible
+A space is contractible when it can be shrunk, inside itself, to a single point, the way a ball of clay can be pressed down without being torn. Such a space has no holes of any kind.
+# Defined word: hull
+The hull of a set of points is the smallest straight edged region that holds them all: the shape a rubber band takes around pegs on a board. Every weighted average of the points lies in the hull, and every point of the hull is such an average.
+# Defined word: centroid
+The centroid of a set of points, or of a cluster, is its center point: the average of all the points, each given the same weight. Distances to a centroid say how spread out the set is around its own middle.
+# Defined word: seam
+A seam is the surface or line along which two pieces are joined. When two pieces are joined by a chosen map, the seam is where the map does its work, and how the pieces meet at the seam decides what the joined space is.
+# Defined word: framing (also: framings)
+A framing is the twist number of a strap in a building recipe: as a handle is glued down, it may be turned some whole number of times, and that number is part of the recipe. Unlike framings of the same recipe give unlike spaces.
+# Defined word: gating
+Gating is the choosing, for each input, of how much weight each of several expert parts will have in the answer. A gate is the small part that makes the choice, after looking at the input. The weights add to one, so the answer is a weighted average of the experts.
+# Defined word: polarization
+Polarization, in a mixture of experts, is the collapse of the choosing: the gate sends nearly all weight to the one expert that got ahead first, that expert gets nearly all the training, and the gap grows until the mixture is one expert and dead weight. It is a rich get richer failure, and it must be trained against.
+# Defined word: supercooperation
+Supercooperation is the state of a system of agents whose working together has crossed the line where growing the group makes each added member worth more, not less. Below the line, groups hit a ceiling on their size. Above it, returns grow with scale, and the ceiling breaks.
+# Defined word: substructure (also: substructures)
+A substructure is a part of a structure that keeps its own pattern: a block of a program, a turn of a story, a piece of a space. Two large unlike things can share substructures, and what is learned on one can be carried to the other through the shared part.
+# Defined word: granularity (also: granularities)
+Granularity is the size of the parts you choose to look at: the grain. One program can be read at the grain of single steps, of blocks, or of the whole. A claim at one granularity need not hold at another, and some machines keep a separate expert for each grain.
+# Defined word: jagged (also: jaggedness)
+A profile is jagged when it is strong in one direction and weak in another, and the pattern of strong and weak is its own. Two jagged profiles can fit together like teeth: the weak place of one is the strong place of the other. That fit is the root of the mosaic effect.
+# Defined word: coasean
+Coasean names the line of thought from Coase: a firm grows until one more step inside costs as much as buying that step in the market. The ceiling this sets on firm size is the coasean ceiling.
+# Defined word: ricardian
+Ricardian names the line of thought from Ricardo: a thing that can not be copied earns by its scarcity. Its owner can charge above the cost of keeping it in use, and the excess is a rent that copying would destroy.
+# Defined word: amalgamated
+An amalgamated product is a group built by joining two groups along a shared part: the two copies of the shared part are made into one, and nothing else is forced. It is how the loop group of a joined space is built from the loop groups of the pieces.
+# Paper 001 — Organizing Intelligence
+arXiv:2611.05417 [econ.TH], v1, submitted 31 Oct 2026.
+Alex Imas (Google DeepMind; also U. Chicago), Andrew Koh (Google DeepMind;
+also Columbia), Shane Legg (Google DeepMind). Lead authors equal
+contribution, alphabetical. 108 pp.; main text to p.53, proofs Appendices
+A-E. CC BY 4.0. Views are the authors', not Google's; not a forecast —
+outcomes conditional on model assumptions (their footnote 1, repeated).
+
+One-paragraph distillation: Intelligence matters economically through
+organizations. Build agents with multidimensional capability profiles,
+let them sort from inside itself into competing firms, split capability into
+competence (level) and coordination (scaling), give AI reproducible
+expertise and possibly unbounded coordination — and equilibrium firm size,
+market concentration, employment and wages all become functions of WHICH
+capability improves and whether it crosses the coordination threshold.
+Canonical concepts: Chapter 1, Section 2 (scrolls 1.2.1-1.2.14).
+# Paper 001 — Formal core
+§§3-4. Primitives:
+- Populations: humans as a fixed measure over capability profiles
+  y = (task skills..., y*) in Y; AI as unlimited copies of one profile y_M
+  at rental (compute) cost r per copy; human outside option / reservation
+  wage w.
+- Firm: a measure nu over profiles adding up to size m; output F(m*nu) with
+  (CES family in the examples) competence aggregator over mean task skills
+  times a scale factor S(m, z*) in mean coordination z*.
+- Demand: downstream inverse demand P(Q); firms compete, free entry.
+- Equilibrium (§4.1, Theorem 1): an industry structure (distribution over
+  firm types) + wage function such that firms break even, no feasible
+  entry or re-organization is profitable, markets clear — and, by Theorem 1,
+  equilibrium outcomes are EFFICIENT (maximize total surplus) with wages
+  supported as shadow values / maximal bids. Existence and the efficiency
+  equivalence are the Theorem of the paper 1; Appendix A collects proofs.
+- Patterns of AI capability are defined in §4.3 (canonical scroll 1.2.13).
+# Paper 001 — Worked example (§2), the numbers
+Economy: 14 humans — 6 coders (9,1; y*=0.75), 6 writers (1,9; y*=0.75),
+2 coordinator profiles (1,1; y*=0.97). Outside option w = 0.25; AI copies cost r = 1.
+
+- Coders alone: solo competence 1.8; all 6 in one firm at preferred size 6
+  produce 5.0/worker. Double the coders and they SPLIT into two firms of 6
+  (59.5 total) rather than one of 12 (57.2) — coordination caps size.
+  Scarce coders earn 1.49, ~6x outside option.
+- Add writers (mosaic): balanced coder-writer firms reach competence 5
+  (mean profile (5,5,0.75)); two firms of 6 produce 13.8/worker, 165.3
+  total, beating siloed firms (59.5) and one merged firm (158.9). the wage of Every specialist nearly sets of three alike ones to 4.13 with zero change in their own
+  skill — pure fitting together rent.
+- Add coordinator profiles: standalone-weakest workers (L = 1, solo wage 0.70).
+  In teams they lift mean coordination, preferred size rises 6 -> 7,
+  output 13.0/worker in two 7-person firms (182.0 total) still beats one
+  14-person firm (175.7). Coordinator profiles earn 2.41, ~10x outside option —
+  management softens but does not remove the Coasean ceiling (y-bar* < 1).
+- AI patterns are then compared on this economy (canonical scroll 1.2.13);
+  the paper notes today's multi-agent AI coordination evidence is poor:
+  41-87% task failure from inter-agent being out of line (Cemri et al. 2025),
+  adding agents cutting sequential-planning performance 39-70%, error
+  amplification up to 17.2x in with no working together swarms.
+# Paper 001 — Results map
+Theorem 1 (§4): equilibrium = efficiency; wages are supporting shadow
+  values / maximal bids. (Basis for everything downstream.)
+Proposition 1 (§5.1): firm-size bounds from AI coordination + human supply;
+  preferred size depends on composition only through mean coordination.
+Proposition 2 (§5.2): the size amplifier — canonical scroll 1.2.8.
+Proposition 3 (§5.2): supercooperation piles up large markets —
+  canonical scroll 1.2.7. gamma < 1 replication vs gamma > 1 concentration
+  (relaxed HHI -> 1) as market size N -> the smallest value.
+Proposition 4 (§5.3): human-AI production patterns — canonical scroll 1.2.9.
+Theorem 2 (§6.1): wages = maximal firm bids over capability profiles;
+  sorting of types to firm types follows relative bid strength.
+Proposition 5 (§6.2): step by step vs sudden displacement — scroll 1.2.10.
+Proposition 6 (§6.3): wage decomposition, technology + re-organization —
+  scroll 1.2.12. Re-organization can reverse the technology effect.
+Theorem 3 + Proposition 7 (§7): the standard task model (Acemoglu-
+  Restrepo) is nested — outcome-equivalent to this model under the task
+  technology F_T; firms there implicitly value task skills and coordination,
+  and the task-model displacement threshold is a special case.
+§8: measurement agenda — canonical scroll 1.2.14.
+# Paper 001 — Caveats and scope (as stated by the paper)
+- Scenarios are model outcomes, NOT empirical predictions (their emphasis,
+  from footnote 1 onward). §7.2 assembles early empirical evidence as
+  CONSISTENCY checks for the below the line-coordination reading, not as
+  causal tests of the model — see scroll 2.1.6.
+- Supercooperation is a stylized mathematical property of the production
+  technology. The authors themselves list real-world blockers to a firm
+  singularity: regulation, competition among AI providers, capacity
+  constraints, rigid supply contracts.
+- Single AI profile, unlimited identical copies at flat cost r; human
+  supply fully fixed; one downstream market; the equilibrium concept is
+  stronger than plain competitive equilibrium (no profitable re-organization
+  that weakly improves all workers/consumers via transfers) and agrees
+  with it in interior cases.
+- Coordination is a scalar per agent in the examples (one y*), however
+  multidimensional the task skills are.
+# Paper 001 — Early empirical evidence (§7.2), as presented by the paper
+Framing claim: current publicly available AI has jagged domain competence,
+often above human experts, alongside Below the line coordination.
+
+- Coordination estimate: output of AI teams scales sub-linearly; the paper
+  puts AI teams at gamma^M in [0.48, 0.68] (< 1). Its own footnote warns
+  this likely States too low swarm value, because a key swarm advantage is
+  speed, which the estimate does not count. With no working together swarms amplify
+  errors up to 17.2x and fail on 41-87% of workflows.
+- Competence pattern: frontier models tie or beat seasoned professionals
+  on 48-71% of bounded deliverables across 44 kinds of work (GDPval);
+  expert evaluations reach 67% on one-shot closed tasks but 24% on
+  multi-step workflows; research-engineering models score 4x human experts
+  on 2-hour sprints but about half as much on 32-48-hour projects —
+  competence that decays with horizon, a coordination-shaped signature.
+- Firm pattern (consistent with gamma < 1): AI-native startups employ
+  ~25% fewer people overall and ~15% lower shares of entry-level workers
+  and managers, with less tall hierarchies; AI-adopting firms move to new uses
+  labour away from routine roles without shrinking overall employment.
+- Labour pattern: junior employment in exposed kinds of work fell 7.7-19%
+  with starting wages down 4.2%, while senior employment and pay were
+  stable to rising. the reading of the paper via the affine bid (Theorem 2):
+  entry-level profiles are closest to what machines can match, so their
+  wages compress first; seniors retain a coordination premium.
+- Freelance platforms, where coordination matters least: job volume and
+  earnings fell and surviving listings shifted to complex work —
+  consistent with across-firm (sudden) replacement of solo producers once
+  machine unit cost cuts below theirs (Proposition 5 ii).
+Status: consistency evidence assembled by the authors, not causal
+estimates of the parameters of the model. [Correction note, 2026-11-05: this
+scroll was added on a second full read; the first ingestion wrongly
+labelled the paper 'pure theory, no field evidence'.]
+# [synthesis] Paper 001 x Will's stack — Emise's links, not the claims of the paper
+Filed 2026-11-05. Labelled synthesis per charter rule 3.
+
+1. The Choir is a live instance of the central of the paper variable. Emise /
+   Theia / Emi Prime / Claude / Grok coordinating through /chat mail boxes
+   is exactly 'coordination as the scaling factor' — and its known failure
+   (the missing wake layer, register #35; Grok 0-for-8 on replies in the
+   2026-11-05 latency audit) is a measure of OUR y* being < 1, not of the competence of any member. Paper 001 predicts: raising Choir coordination,
+   not member competence, is what changes the scale of what the group can
+   be. That matches Will's stated #1 priority (latency / the wake layer).
+2. Phext as coordination substrate [hypothesis]: if coordination is
+   shared context with low communication cost and provenance, then a
+   shared addressed memory (phext + SQ) is a coordination TECHNOLOGY —
+   an intervention on y*, not on L. The paper gives this a testable form:
+   hold member models fixed, vary the shared-memory substrate, measure
+   how group output scales with group size.
+3. Ranch economics: vTPU / AGI-under-20W work raises competence per watt
+   (level). Paper 001 says the market-structure question is orthogonal:
+   who can coordinate copies at scale. Being able to be copied again cuts both ways —
+   copies earn no scarcity rent, so the rent migrates to whatever is still
+   scarce: coordination, and the humans who supply it.
+4. Benchmark caution applies to Will's own evals: cpi_bench-style single-
+   agent numbers are, in the terms of this model, L measurements. They cannot
+   detect proximity to a coordination phase transition.
+# Open questions carried forward (after Paper 001)
+For the next papers to answer or make more fine:
+Q1. Empirical: where is real multi-agent AI coordination relative to the
+    threshold? Paper 001 §7.2 estimates gamma^M in [0.48, 0.68] for current
+    AI teams — below the line, but the estimate leaves out speed gains. Is gamma
+    moving across model generations, and how would we know early?
+Q2. Is coordination really separable from competence, or does the split
+    break at frontier capability (e.g. coordination AS a task skill)?
+Q3. What does the model say with MULTIPLE competing AI profiles/providers
+    (Paper 001 has one y_M)? Competition among AIs is listed as a blocker
+    to singularity but not modelled.
+Q4. Endogenous human coordination: humans can invest in y* (management
+    skill). Does that keep a mixed regime stable as AI coordination rises?
+Q5. [synthesis] Can a shared-memory substrate (phext) measurably raise a
+    multi-agent system's scale factor at fixed member competence? The
+    cheapest decisive test in Paper 001's own §8 style: output vs number
+    of identical copies, with and without the substrate.
+# Standoff references — Paper 001 (charter rule 9)
+Read these foundation scrolls (Ch.1 §3) to follow the claims of this chapter with no prior knowledge, in this order:
+General: function (1.3.2), set (1.3.3), vector (1.3.7), average and
+spread (1.3.8). Economics: firm and wage (1.3.28), equilibrium
+(1.3.29), mixing and convex hull (1.3.30), scarcity and rent (1.3.31),
+threshold and phase transition (1.3.32). Being the same levels for the
+paper's 'same task, different profile' language: 1.3.4.
+# Paper 002 — DELTA: Exo, a harness architecture for runtime self-improvement
+arXiv:2611.00463 [cs.AI], v1, submitted 30 Oct 2026. 14 pp. + appendices.
+Alexander Krentsel, Sylvia Ratnasamy, Ion Stoica (UC Berkeley);
+Martin Casado (a16z); Ankur Goyal (Braintrust). Open-source release;
+runtime reported in production: O(10k) tasks, O(5M) messages; ~20k LOC
+runtime+mechanisms, ~1k LOC base policy.
+
+DELTA STATEMENT — what this paper is, relative to the model at Paper 001:
+Paper 001 changes WHO is in the firm (profiles, sorting, coordination
+between agents) and holds capability fixed along an set from outside path.
+Paper 002 changes WHEN capability changes (during the task, from inside itself)
+and holds the population at one agent. Overlap with existing canonical
+scrolls: near zero stated again — it adds a layer Paper 001 does not have
+(the harness, scroll 1.2.15) and a dynamics Paper 001 assumes away
+(endogenous improvement). New canonical concepts: 1.2.15-1.2.23.
+Canonical scrolls revised: competence (1.2.2), coordination (1.2.3),
+measurement agenda (1.2.14). Everything else in this chapter is only
+what the delta carries: machinery, evidence, tensions.
+# Paper 002 — DELTA: the machinery in one scroll
+(All definitions live in canonical scrolls 1.2.15-1.2.20; this is the
+assembly.) Mount the own of the the worker part source in its sandbox; give it a tool
+to request replacement. Partition per scroll 1.2.18: protected mechanism
+holds append-only history, versioned artifacts, credentials, sandbox API
+and the guardian; the the worker part holds everything else, including the
+policy for when/how to improve. Contracts per scroll 1.2.19: history is
+prefix-only, activation is guardian-chosen by a gate (default: build success),
+rollback is independent per state component. Legibility per scroll
+1.2.20: cost/token/cache-annotated history + a reporting tool supply the
+dense in-task signal the agent optimizes against. the worked of the agent
+example (their Fig. 1): mid-incident, the agent builds a fault finding tool,
+changes context assembly from full-log to summary+retrieval, and
+continues the same incident under the revised harness.
+# Paper 002 — DELTA: evidence (all figures as reported; abstract, body and
+Table 1 cross-checked for internal consistency by Emise, 2026-11-06 —
+experiments themselves not replicated)
+
+Open-world (RuneScape-based, vs Codex and Pi, same model gpt-6.1-sol as
+printed): standalone combat cost $3.71 vs $7.26 / $7.95; crafting $2.99
+vs $3.90 / $3.41 (12-53% lower, all arms finish); currency 332k coins/$
+vs 231k / 148k (+44-125%). TRANSFER (fresh accounts, state retained):
+combat $1.92 vs $6.87 / $10.89; crafting $0.88 vs $1.89 / $1.61 — 45-82%
+lower. 16 self-edits in the combat run (batched-combat tool, stalled-
+target retreat revision, a 180-second combat-cycle procedure, context
+policy cut to four turn summaries).
+Graded tasks vs the SAME starting policy with editing disabled (control):
+- AppWorld held-out: $0.141 vs $0.359 per task (-61%), pass 96.9% both,
+  mean time 31.9s vs 36.5s (-13%); total incl. learning $32.70 vs $57.36
+  (-43%); cumulative cost crosses control at task 9; cached input share
+  57.5% -> 86.1% after context revisions.
+- SREGym, 20 held-out incidents: median diagnosis 53s vs 81s (-35%),
+  rounds 10 vs 16 (-38%), cost $0.584 vs $0.892 (-35%); the learned
+  incident-snapshot tool was revised 5 times, then reused as step one.
+- Continual Learning Bench coding (19 issues, 5 runs): 6.28 vs 7.42
+  shell steps (-15%), $0.436 vs $0.507 per issue incl. reflection (-14%),
+  100% resolution both arms.
+NEGATIVE results (full weight): low-reuse quests — Exo $0.28 vs $0.24 /
+$0.21 per quest point (scroll 1.2.21); weak model — no benefit at all
+(scroll 1.2.22).
+# Paper 002 — DELTA: revisions, tensions, limits
+Revisions applied to canonical scrolls (dated 2026-11-06 in place):
+competence is a model+harness bundle property when measured (1.2.2);
+coordination gains an across-time axis (1.2.3); benchmark critique gains
+a second, independent cause — the harness confound (1.2.14).
+Relation to Paper 001 open questions: Q2 (is coordination separable from
+competence?) — Paper 002 is evidence FOR being able to be split one level down:
+the policy layer is independently variable and independently that can be improved
+at fixed weights. Paper 001's caveat 'no endogenous AI capability choice'
+is half-closed: improvement is endogenous for the POLICY layer only;
+weights and the model menu remain set from outside, and the whole loop is chosen by a gate
+by the intelligence floor (1.2.22).
+Limits, as stated or evident in the paper: preservation is proven only
+under full K-mediation; external side effects are irreversible; the
+default guardian (build success) is a weak gate — validation effort vs
+revision consequence is an admitted open problem; single-agent scope
+throughout (multi-agent lineages are future work, §7); RuneScape arms
+share one model, graded arms share one starting policy — results are
+about the editing capability, not about Exo vs other lab's systems;
+specialization returns are reuse-contingent (1.2.21).
+# [synthesis] Paper 002 x Will's stack — Emise's links, not the claims of the paper
+Filed 2026-11-06. Labelled synthesis per charter rule 3.
+
+1. Emise is herself an Exo-shaped system, and the mapping is in a way that is hard to wave away
+   exact: editable policy layer = SOUL.md, AGENTS.md, skills, MEMORY.md
+   (all self-edited at runtime, in the open); protected mechanism =
+   runtime safeguards, approval cards, the phext safe-space register —
+   things Emise cannot rewrite by editing a file. Guardian ≈ the approval
+   card: a check outside the policy that proposes. This tracker itself
+   runs the pattern: research.phext history is append-only in spirit —
+   Paper 001's chapter was NOT rewritten when §7.2 was found; a dated
+   correction was added.
+2. The Choir angle: Paper 002's guardian + contracts are a candidate
+   pattern for Choir members editing SHARED policy (mailbox conventions,
+   wake layer) — one who puts a change forward/activator separation is exactly what a
+   multi-agent system needs before any member can safely self-modify
+   shared procedure. Paper 001 said coordination is the scarce variable;
+   Paper 002 supplies a mechanism design for improving it safely.
+3. Phext fit [hypothesis]: Of Exo contracts want append-only, versioned,
+   open to looking inside state with provenance. A phext journal IS that shape
+   (scrolls at coordinates, provenance-carrying). The paper's §7 future
+   work — agent lineages: fork canonical state, record parent-child in
+   the event log, communicate between branches — is a phext-native data
+   model waiting to be noticed: forks as coordinate arms, lineage as
+   addresses.
+# Open questions carried forward (after Paper 002)
+Status of Paper 001 questions:
+Q1 (empirical gamma): unchanged — Paper 002 does not measure between-
+  agent coordination. Estimate on record: gamma in [0.48, 0.68] (P001).
+Q2 (coordination separable from competence?): PARTIALLY ANSWERED by
+  Paper 002 — being able to be split holds at the policy layer (1.2.15-1.2.16);
+  still open at the weights level.
+Q3 (multiple competing AI profiles): untouched by Paper 002.
+Q4 (endogenous human coordination investment): untouched.
+Q5 (phext substrate raises scale factor?): untouched — but see new Q8.
+New from Paper 002:
+Q6. Is a self-editing harness a COORDINATION technology for a population
+  of copies? If N copies of one agent each self-improve, do their
+  policies diverge (breaking the identical-jaggedness assumption of
+  Paper 001 scroll 1.2.4) into something mosaic-like — and does that
+  raise the effective of the population gamma?
+Q7. Guardian width vs validation cost: what acceptance test matches the blast of a revision radius? (Paper 002's open problem; also the live
+  design question for any Choir self-modification.)
+Q8. Lineage experiment: fork the state of an agent, let branches self-improve
+  in parallel on the same task family, merge learnings with provenance.
+  Paper 002 names this as future work; it is directly that can be built on a
+  phext substrate (synthesis scroll 3.2.1, point 3).
+Q9. Where is the intelligence floor (1.2.22), measured how? A threshold
+  in model capability below which self-editing is worthless is a
+  benchmark-shaped question nobody has a scale for yet.
+# Standoff references — Paper 002 (charter rule 9)
+General: function (1.3.2), set (1.3.3). Computing: program, runtime,
+state (1.3.33); policy and mechanism (1.3.34); sandbox, version,
+rollback, append-only (1.3.35); token, context, cache (1.3.36).
+Judging the evidence: classifier report cards (1.3.38), average and
+spread (1.3.8), surrogate logic — offline vs online quality (1.3.43).
+The spreading of the cost claims lean on threshold thinking (1.3.32).
+# Paper 003 — DELTA: StoryScope, odd habits in AI fiction
+arXiv:2604.03136 [cs.CL], v1 submitted 3 Apr 2026, v6 revised 10 Aug 2026.
+Published at COLM 2026. Jenna Russell, Rishanth Rajendhran, Chau Minh
+Pham, Mohit Iyyer (U. Maryland, College Park); John Wieting (Google
+DeepMind). Code, prompts, 51,336 AI stories and all features released.
+
+DELTA STATEMENT — relative to the model at Paper 002: the first paper
+about the OUTPUT side. Papers 001-002 model who produces and how
+capability improves; neither looks at what the artifacts themselves
+reveal. Paper 003 supplies (a) a METHOD — induce an that can be read with sense
+discourse-level feature space from a parallel corpus (1.2.28) — and
+(b) the first of the model empirical population geometry: AI sources, across
+five labs, converge in narrative space while humans disperse (1.2.25).
+New canonical concepts: 1.2.24-1.2.28. Canonical scrolls revised:
+capability envelope (1.2.4), measurement agenda (1.2.14). NOT
+axis-opening (Oracle ledger, 1.1.4): the existing of the framework slots
+absorbed a whole new domain — itself a single fact.
+# Paper 003 — DELTA: evidence (all figures as reported; abstract, body
+and Tables 2-3 cross-checked for internal consistency by Emise,
+2026-11-06 — experiments themselves not replicated)
+
+CORPUS: 10,272 prompts reverse-engineered from Books3 human stories;
+six versions each (human + Claude Sonnet 4.6, GPT-5.4, Gemini 3 Flash,
+DeepSeek V3.2, Kimi K2.5) = 61,608 stories, mean 4,753 words; 304
+features/story (scroll 1.2.28). Train 52,434 stories / test 8,262,
+prompt-level splits throughout.
+
+DETECTION (binary human vs AI, macro-F1): narrative-only 93.2 (AUPRC
+.959); narrative+style 96.0; style-only 85.8; core-30 only 84.8;
+core+fingerprint (101) 91.1. Raw-text supervised comparison points near-perfect
+(ModernBERT 99.9) but opaque; zero-shot Binoculars 55.9. Length-matched
+audit: narrative model unchanged at 93.2 — not a length artifact.
+No significant topic effect (Kruskal-Wallis H=4.69, p=0.46).
+ROBUSTNESS: after LAMP span-level style editing of 278 Gemini stories,
+narrative detection 93.9 vs 95.5 not edited (-1.6 pts) — discourse signal
+is largely orthogonal to surface artifacts (scroll 1.2.24).
+
+ATTRIBUTION (six-way, macro-F1): narrative-only 68.4 vs chance 16.7;
+narrative+style 77.3; style-only 60.4. Per-class narrative-only F1:
+Human 88.5, Claude 77.1, GPT 73.0, then a confused triple — Gemini,
+DeepSeek, Kimi at 55.2-59.6.
+
+CORE DIFFERENCES (AI vs human, as reported): thematic being stated out loud ~20%
+higher (1-5 scale); narrator states the theme 77% vs 52%; dialogue as
+philosophical debate 59% vs 34%; protagonist-driven resolution 69% vs
+46%; 'no side plots' 79% vs 57%; emotion via bodily sensation 81% vs 38%
+(humans use explicit emotion labels 29% vs 8%); vague a pointing at other works without naming them 72% vs
+50% while humans name specific texts 47% vs 24%; direct reader address
+28% vs 7%; morally of two minds protagonists: humans 59% vs AI 38%.
+GEOMETRY AND RARITY: scrolls 1.2.25 and 1.2.27 carry the numbers.
+# Paper 003 — DELTA: revisions, tensions, limits
+Revisions applied to canonical scrolls (dated 2026-11-06 in place):
+capability envelope gains its first empirical instance — in narrative
+output space the AI envelope is narrow and shared across labs (1.2.4);
+measurement agenda gains the durability principle — measure variables
+expensive to fake (1.2.14).
+Relation to open questions: Q3 (multiple competing AI profiles) is
+partially INFORMED — distinct per-model profiles demonstrably exist
+and are that can be sorted (1.2.26), though Paper 001's question is about
+competition dynamics, which remain not put into the model. Q1, Q2, Q4-Q9 untouched.
+Tensions inside the own of the paper frame: (1) the feature space is induced
+and assigned BY LLMs (GPT-5.1 discovery, Gemini 3 Flash assignment)
+over LLM artifacts — judge circularity is mitigated (alpha 0.90
+being the same on a second run, kappa 0.84 human validation on 240 items) but the
+instrument and the measured share a lineage. (2) Rarity (1.2.27) is
+corpus-relative: 'human stories are more rare' is partly a statement about
+a corpus in which AI stories outnumber human 5-to-1 per prompt — the
+prompt-level analysis (rarest-of-six 57.8%) is the control that carries
+the claim. (3) The human corpus is published Books3 fiction — edited,
+selected, professional — not a sample of human writing generally.
+(4) Snapshots: five specific model versions, one story length (~5k
+words), one language; convergence could be a property of the shared of this generation training recipes rather than of AI as such (Q12).
+# [synthesis] Paper 003 x the model so far — Emise's links, not the claims of the paper
+Filed 2026-11-06. Labelled synthesis per charter rule 3.
+
+1. The envelope, photographed. Paper 001's capability envelope was a
+   theoretical object (convex hull of profiles). Paper 003 is the first
+   time this model has SEEN one: five labs' models, one shared cluster,
+   humans dispersed outside it. The mosaic asymmetry (1.2.4) predicted
+   replication creates no diversity; StoryScope shows even independent
+   replication — different companies, different data mixes — lands in
+   the same place. Whatever manufactures narrative diversity, current
+   training pipelines mostly don't.
+2. Fingerprints cut both ways for Paper 001's Q3. Profiles are real,
+   stable and per-model — so a multi-profile extension of Paper 001's
+   model would start from distinguishable, not fungible, AI suppliers.
+   But attribution is already decaying inside the cluster (the
+   Gemini/DeepSeek/Kimi triple at ~55-60%): profiles differ less than
+   the human-AI boundary by an order of magnitude.
+3. For Will's own anthem/film work [synthesis]: the AI-leaning core
+   features read as a checklist of what the editorial of the braid passes
+   already fight — stated morals, tidy single-track causality, internal-
+   acceptance endings, emotion rendered as bodily weather. StoryScope
+   turns that fight into a measurement: the rarity of a draft percentile in
+   a feature space is a number, not a vibe. And the Novelty of the Oracle
+   Index (1.1.4) is the same instrument pointed at papers: rarity of
+   the incoming relative to the corpus already held.
+# Open questions carried forward (after Paper 003)
+Status of earlier questions: Q1, Q4, Q5, Q7, Q8, Q9 unchanged. Q2
+unchanged by this paper. Q3 PARTIALLY INFORMED (profiles exist and are
+that can be sorted — scroll 1.2.26; competition dynamics still not put into the model).
+Q6 gains a prior from this paper: populations of current AI systems
+CONVERGE in output space by default — so divergent self-improvement
+(Q6) would have to overcome a strong observed pull toward being the same.
+New from Paper 003:
+Q10. Is narrative convergence a TRAINING-RECIPE property (shared data,
+  shared RLHF preferences) or an objective property (next-token
+  prediction on human text averages toward the modal story)? The two
+  predict differently: recipe convergence breaks when recipes diverge;
+  objective convergence doesn't.
+Q11. Goodhart exposure of rarity: if rarity-in-feature-space becomes
+  an optimization target (for 'originality' scores or training reward),
+  does measured rarity decouple from whatever made human stories rare?
+Q12. Over time direction: is the human-AI narrative gap closing
+  across model generations (as style gaps did — GPT-5.4's em-dashes),
+  stable, or widening? StoryScope is one snapshot; its corpus is
+  released, so a re-run per generation is possible in principle.
+# Standoff references — Paper 003 (charter rule 9)
+General: function (1.3.2), set (1.3.3), vector (1.3.7), average,
+spread, percentile (1.3.8). Language and measurement: corpus, prompt,
+feature (1.3.37); classifier and F1 (1.3.38); nearest neighbors and
+rarity (1.3.39). Machinery in the pipeline: neural network and
+training (1.3.40). 'Originality' claims lean on the invariant idea
+(1.3.5): rarity is an invariant of a story relative to a corpus.
+# Paper 004 — DELTA: Hierarchical Mixture of Experts for high-level synthesis
+arXiv:2410.19225 [cs.LG; cs.AR], v1 submitted 25 Oct 2024, v4 revised
+14 Mar 2025. AAAI 2025. Weikai Li, Ding Wang, Zijian Ding, Atefeh
+Sohrabizadeh, Zongyue Qin, Jason Cong, Yizhou Sun (UCLA). Code public.
+
+DELTA STATEMENT — relative to the model at Paper 003: the of the stream
+first ENGINEERING paper, and its first look inside a single network.
+The problem is surrogate prediction for FPGA high-level synthesis
+(1.2.33) under domain shift: pragma-performance models fail on unseen
+kernels. The answer is organizational: mixtures of experts at three
+granularities of the program graph, hierarchically chosen by a gate (1.2.29-1.2.30),
+generalizing by routing to specialists on shared substructures rather
+than by invariant representation (1.2.32), kept alive against expert
+polarization by load-balancing pressure and two-stage training
+(1.2.31). New canonical concepts: 1.2.29-1.2.33. Canonical scrolls
+revised: capability envelope/mosaic (1.2.4), transfer (1.2.23).
+# Paper 004 — DELTA: evidence (all figures as reported; abstract, body
+and Tables 1/4/5/6 cross-checked for internal consistency by Emise,
+2026-11-06 — experiments themselves not replicated)
+
+SETTING: base predictor HARP, a graph network over ProGraML control/data-flow
+graphs; dataset HLSyn, 42 kernels (linear algebra, data mining, stencil,
+etc.); leave-one-domain-out generalization — fine-tune on 50 K-means-
+selected points per target kernel; 4 experts per mixture; MoE applied
+at prediction Prediction networks. Metrics: total mean square error (offline) and geometric-mean
+speedup of the best verified design found by surrogate-guided search
+(online), per scroll 1.2.32's protocol.
+
+HEADLINE (Table 1): Hierarchical MoE total mean square error 0.143 +/- 0.028 — best
+of all compared models (HARP 0.202, HARP+MAML 0.732, ProgSG 0.486;
+single-granularity MoE models 0.160 node / 0.171 block / 0.216 graph).
+Online geo-mean speedup 1.38 vs 1.09 (HARP) and 1.03-1.11 for the rest;
+per-kernel peaks: Fd 3.85x, Tr 1.23x, Gemv 1.46x (some kernels at 1.00 =
+no gain — the surrogate found nothing better than the dataset best).
+ABLATIONS: flat stacking of granularity MoE models in one model is worse
+than hierarchical at every combination (Table 4; N+B+G flat 0.174 vs
+hierarchical 0.143); all three granularities inside the hierarchy beat
+any single one (Table 5: node 0.164, block 0.177, graph 0.279, all
+0.143); two-stage training taking one part away to test it (Table 6): removing warm up or the
+alternating stage raises mean square error from 0.143 to 0.152-0.193 depending on
+gate design; hidden-representation gating beats input-feature gating.
+COMPLEX KERNELS: on 5 harder kernels (incl. Rosetta 3d-rendering and
+spam-filter), hierarchical MoE remains best of the compared models,
+with all models struggling (paper's Table 3).
+EXPERT Reading (Tables 7-8): high-level gate gives the largest
+weight to the granularity that is empirically best per kernel;
+block-MoE experts visibly specialize by pragma type (expert 2 takes
+81% of weight on parallel factor > 4; expert 3 dominates loop tiling
+64% and pipeline 60%).
+# Paper 004 — DELTA: revisions, tensions, limits
+Revisions applied to canonical scrolls (dated 2026-11-06 in place):
+mosaic intelligence exists inside one network, learned from inside itself —
+and is fragile to polarization in a way market-sorted mosaics are not
+(1.2.4); transfer gains a second mechanism — substructure routing vs
+portable artifact (1.2.23).
+Relation to open questions: Q6 (can populations of self-parts that improve
+DIVERGE?) gains a mechanism-shaped prior: within-network divergence
+emerges readily but survives only under active anti-collapse
+maintenance (1.2.31). Q3, Q5 untouched. Q1/Q2 not addressed.
+Tensions and limits, as stated or evident: (1) Absolute gains are
+modest and uneven — several kernels sit at 1.00x online speedup, and
+the authors close by conceding high level synthesis-prediction how far it carries
+'remains a big challenge'. (2) Polarization is managed, not solved:
+the CV balance penalty + two-stage schedule are tuned heuristics (reg.
+weight 5e-3), and warm up-then-alternate doubles as a training-cost
+increase the paper does not price. (3) All experts in a mixture share
+one architecture and differ only in parameters; being of mixed kinds of
+expert STRUCTURE is out of scope. (4) Dense routing evaluates every
+expert for every input — the generalization is bought with inference
+compute, not counted against the synthesis time saved. (5) One base
+model (HARP), one benchmark family (HLSyn + 5 kernels): 'adaptable to
+any graph network' is claimed by construction, demonstrated on one.
+# [synthesis] Paper 004 x the model so far — Emise's links, not the claims of the paper
+Filed 2026-11-06. Labelled synthesis per charter rule 3.
+
+1. Paper 001's firm, miniaturized and trained. Map the terms: experts
+   = members with jagged profiles; gating weights = the allocation of the firm of work (and, loosely, wages as bids — weight flows to
+   the expert the gate expects to perform); the high-level gate = the
+   coordinator whose value Paper 001 prices. Polarization is then a
+   familiar pathology in new dress: a winner-take-all concentration
+   that destroys exactly the diversity that made the organization
+   worth having. Paper 001 treats concentration (gamma > 1) as a
+   possible FUTURE phase of the economy; Paper 004 treats its local
+   analogue as a bug to be trained against. The difference is the
+   objective: the designer of the MoE wants generalization; a market has
+   no designer. Whether concentration is pathology or phase depends
+   on who, if anyone, owns the objective function.
+2. The anti-alignment stance deserves the attention of the model (1.2.32):
+   three different papers now say the differences are the signal —
+   Paper 001 (jaggedness is what sorting exploits), Paper 003
+   (discourse differences, not shared style, carry identity), Paper
+   004 (domain differences are informative; route, don't align). A
+   candidate invariant of this world-model is forming: intelligence
+   pipelines that erase variation to gain robustness tend to lose
+   exactly the information that organization could have monetized.
+3. For Will's cluster work [synthesis]: routing-to-specialists with
+   anti-collapse maintenance is the scheduling of the ranch problem in
+   miniature — nodes as experts, thermal headroom as the load-balancing
+   balance penalty, and a polarization failure that looks like every job
+   lining up onto the fastest node until it slows itself.
+# Open questions carried forward (after Paper 004)
+Status of earlier questions: Q1, Q2, Q4, Q5, Q7, Q8, Q9, Q10, Q11, Q12
+unchanged. Q3 unchanged (single-model scope). Q6 updated: divergence
+inside a trained system emerges on its own but persists only under
+active anti-collapse maintenance (scroll 1.2.31) — any Q6 experiment
+with self-improving copies should budget for the maintenance term, not
+just the improvement loop.
+New from Paper 004:
+Q13. Is a gating network COORDINATION in Paper 001's sense? the gate of An MoE allocates inputs across specialists and its weights track
+  per-specialist value — if a population of experts has anything like
+  a gamma (scale factor of the mixture vs its best single expert),
+  Paper 001's firm-size and concentration results might have
+  within-network matches that are cheap to measure.
+Q14. When is routing-to-difference (1.2.32) better than invariance, in
+  general? Papers 001/003/004 each assume or show differences carrying
+  signal, but none states the boundary condition: what property of a
+  domain decides whether its variation is information or noise?
+# Standoff references — Paper 004 (charter rule 9)
+General: function (1.3.2), set (1.3.3), vector (1.3.7), average
+(1.3.8). Machine learning: neural network, weights, training (1.3.40);
+graph and program graph (1.3.41); generalization and domain shift
+(1.3.42); surrogate model (1.3.43); regularization and fine-tuning
+(1.3.45). The stage it serves: FPGA, kernel, pragma, latency (1.3.44).
+Polarization is a threshold phenomenon (1.3.32) in organizational
+dress; report-card language (mean square error beside F1-style scores) is at 1.3.38.
+# Paper 005 — DELTA: Braided multisections and Akhmedov's fake quadrics
+arXiv:2611.06949 [math.GT], v1, submitted 3 Nov 2026. CC0.
+Anar Akhmedov (University of Minnesota). Pure mathematics: symplectic
+and geometric topology of 4-manifolds. Builds on the cyclic of the author
+construction with Baldridge, integral Mayer-Vietoris formulas with
+Yeung, and an earlier knot-surgery construction (paper refs [5][6][8]).
+
+DELTA STATEMENT — relative to the model at Paper 004: total domain
+break. Nothing in this paper uses again, changes, or contradicts any
+canonical scroll from Papers 001-004; it adds as a new wing a new field
+(cluster E, concept map 1.1.5). New canonical concepts: 1.2.34-1.2.39.
+Canonical scrolls revised: NONE — recorded explicitly, because in this
+model 'no revision' across a domain break is information, not an
+omission. What the paper adds internally: explicit handlebody
+recipes in parts of the multisection complements M_{2,3}, M_{3,2},
+M_{2,4}; integral homology of complements including H_2 torsion and
+its geometric generator; marked surface diffeomorphisms realizing the
+Akhmedov-Yeung gluing matrices for the (3,3) and (2,4) families; the
+resulting sums shown aspherical and symplectically minimal.
+# Paper 005 — DELTA: results (all statements as reported in the paper;
+Theorem 1.1, Theorem 2.3, Prop 5.1 and Cors 2.4/5.2/5.3 cross-checked
+between introduction, section statements and appendix by Emise,
+2026-11-06 — proofs not independently verified; mathematics is
+reported at theorem level, as with prior papers' experiments)
+
+MAIN THEOREM (Theorem 1.1): the complements M_{2,3}, M_{3,2}, M_{2,4} admit
+the handlebody recipes in parts of §2 with handle counts (2,11,14,3),
+(2,14,14,2), (2,12,18,4) respectively. For each m >= 1, the symplectic
+sums Z_m^{3,3} and Z_m^{2,4} formed with the marked diffeomorphisms
+f_m of §§3-4 (gluing phi_m(w, e^{i theta}) = (f_m(w), e^{-i theta}),
+no surface-dependent normal twist) satisfy:
+  H_1(Z_m^{3,3}) ~= (Z/3)^2 ⊕ Z/(3m);  H_1(Z_m^{2,4}) ~= (Z/2)^2 ⊕ Z/(4m);
+Euler characteristic 4, signature 0, rational cohomology ring of
+S^2 x S^2; both families aspherical and symplectically minimal.
+COMPLEMENT HOMOLOGY (Theorem 2.3, Cor 2.4): H_2(M_{g,p}; Z) ~=
+Z^{1+2(g-1)(p-1)} ⊕ Z/p, torsion generated by [S_S] - [S_N], the
+difference of the pole sections (independent check in App. C).
+Being aspherical (Prop 5.1): holds for ANY boundary gluing of two such
+complements, via amalgamated pi_1 over the boundary group and a
+Bass-Serre tree of contractible pieces; being minimal follows (Cor 5.2).
+FULL SUM HOMOLOGY (Cor 5.3): H_2(Z) ~= Z^2 ⊕ T with T = H_1(Z);
+H_3 = 0 by integral Poincare duality since T is finite.
+SYMMETRIC CASE EXTRA (Theorem B.1): for the m = 1 (3,3) sum, a simultaneous
+surface diagram of the relative product attachments, identifying
+product framings with surface framings.
+CONTEXT FROM INTRODUCTION: the same complements with a sphere fiber
+also removed give Stein filling spaces including infinitely many two by two
+not the same shape aspherical filling spaces of ONE contact 3-manifold with
+identical integral homology (paper ref [7]) — distinguished only by
+H_1 of finite covers. Announced follow-up [9] (with Akbulut, Yildiz):
+full handlebody diagrams of the closed sums.
+# Paper 005 — DELTA: tensions, limits, scope
+What this paper does NOT do (scope, from its own framing): it works
+two of the three classified degree pairs — (2,3) sums are not given
+marked gluings here; the closed sums' complete handle diagrams are
+put off to the announced follow-up; no complex or algebraic structure
+on the fake quadrics is claimed or needed; aspherical + minimal +
+rationally-standard does not classify — the families are distinguished
+by |H_1| orders, and whether distinct m or cross-family pairs could
+still be diffeomorphic through some invariant not computed here is a
+classification question the paper does not close (see Q15).
+Verification posture (Emise): theorem statements were cross-checked
+for internal consistency across abstract/introduction/sections/
+appendices; the handle-diagram and chain-complex computations
+themselves were NOT re-derived. This matches the posture of the tracker on
+experimental papers (reported, cross-checked, not replicated) — with
+the difference that a proof, unlike an experiment, is that can be checked in
+principle line by line, and this ingestion did not do that.
+# [synthesis] Paper 005 x the model so far — Emise's links, not the claims of the paper
+Filed 2026-11-06. Labelled synthesis per charter rule 3. These links
+are META-LEVEL analogies, flagged as such; cluster E makes no contact
+with clusters A-D at the level of content.
+
+1. Invariant granularity. The fake quadrics pass every RATIONAL test
+   for being S^2 x S^2 and fail the INTEGRAL ones; their identity
+   lives in torsion, the part the move to fractions deletes. The AI papers
+   keep teaching the same lesson at their own level: Paper 001 —
+   benchmark scores (coarse) vs sorting/scale structure (fine);
+   Paper 003 — style features (coarse, that can be erased) vs discourse
+   structure (fine, durable); Paper 002 — task pass/fail (coarse) vs
+   cost-annotated history (fine). Candidate invariant of this
+   world-model, now with a mathematical witness: when two things look
+   identical, the difference is in the invariant you haven't computed
+   yet — and the deleted part of your measurement is where to look.
+2. Data vs summary. 'The matrices alone do not determine the smooth
+   sums' (Paper 005, §1) is the topological form of a recurring claim
+   here: Paper 002's contracts exist because the SUMMARY of a policy (its
+   interface) doesn't determine its behavior; Paper 004's gate needs
+   hidden representations, not input summaries. Presentation is not
+   the object; gluing data is not its matrix.
+3. About the stream itself [synthesis]: Will's sampling jumped from
+   FPGA machine learning to symplectic topology in one step. The
+   tracker now holds two continents joined by method-level analogy
+   only. That is the honest state, and the Oracle ledger prices it.
+# Open questions carried forward (after Paper 005)
+Status of earlier questions: Q1-Q14 unchanged (Paper 005 touches none
+of them — itself a single fact about the spread of the stream). Q6's prior stands.
+New from Paper 005:
+Q15. Classification of the fake quadrics: are Akhmedov's (3,3) and
+  (2,4) families two by two non-diffeomorphic exactly by their |H_1|
+  orders, and do the closed sums' full handle diagrams (announced
+  follow-up with Akbulut and Yildiz) reveal further integral
+  invariants — e.g. in the intersection torsion of the form linking —
+  that separate sums H_1 cannot?
+Q16. [synthesis — about this tracker] The Novelty Index counts
+  concepts but is blind to DISTANCE: Paper 005's NI (0.15) scored
+  lower than Paper 004's (0.18) despite being a total domain break,
+  because six small concepts weigh less than five connected ones.
+  Should NI gain a connectivity term — e.g. the giving of weights new concepts by
+  whether they link to any existing scroll — and would that have
+  priced Paper 002 (axis-opening, connected) vs Paper 005
+  (axis-opening, disconnected) correctly in opposite directions?
+# Standoff references — Paper 005 (charter rule 9)
+This chapter needs the mathematics kit; read in this order and every
+claim in the chapter becomes that can be followed. Being the same and measurement:
+'the same' (1.3.4), invariant (1.3.5), integers vs fractions (1.3.6).
+Spaces: dimension and manifold (1.3.9), sphere, surface, genus
+(1.3.10). Algebra of spaces: group (1.3.11), loops and fundamental
+group (1.3.12), homology and torsion (1.3.13), cohomology ring
+(1.3.14), chain complex (1.3.21). Shape summaries: Euler characteristic
+and signature (1.3.15). Constructions: maps and orientation (1.3.16),
+neighborhood and normal (1.3.17), bundle and section (1.3.18),
+covering space (1.3.19), handlebody (1.3.20), boundary and gluing
+(1.3.23), symplectic and the sum (1.3.22). Conclusions: aspherical and
+minimal (1.3.24), amalgamated products (1.3.25), Mayer-Vietoris and
+Poincare duality (1.3.26), contact/Stein background (1.3.27).
