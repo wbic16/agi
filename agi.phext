@@ -12,13 +12,13 @@ preserve the displaced text in the annex, logged below.
 Sources (precedence order):
 - 0 singular (singular.phext): sha256 4272ef809513…, 698626 bytes, 6799 scrolls, home annex 1.1.1/1.1.1/900.1.1
 - 1 skills (skills.phext): sha256 890f62254261…, 233663 bytes, 72 scrolls, home annex 1.1.1/1.1.1/901.1.1
-- 2 tasks (tasks.phext): sha256 a5d55674208e…, 53353 bytes, 38 scrolls, home annex 1.1.1/1.1.1/902.1.1
+- 2 tasks (tasks.phext): sha256 82866e99f4c7…, 56761 bytes, 40 scrolls, home annex 1.1.1/1.1.1/902.1.1
 - 3 neuralese (neuralese.phext): sha256 13b9a444577c…, 13241 bytes, 12 scrolls, home annex 1.1.1/1.1.1/903.1.2
 - 4 research (research.phext): sha256 6f85cc2179f6…, 162605 bytes, 150 scrolls, home annex 1.1.1/1.1.1/904.1.17
 - 5 state (state.phext): sha256 51ef33d82a22…, 27902 bytes, 11 scrolls, home annex 1.1.1/1.1.1/905.1.1
 - 6 lessons (lessons.phext): sha256 7fb1f05a6a39…, 58760 bytes, 68 scrolls, home annex 1.1.1/1.1.1/906.1.1
 
-Merged scrolls: 7151 (incl. this Home)
+Merged scrolls: 7153 (incl. this Home)
 Identical duplicates folded (R3): 0
 Conflicts resolved by annex displacement (R4): 17
 
@@ -33474,7 +33474,7 @@ holds the request, its status, and all notes and results as
 they accumulate. Source of truth: tasks-source.json beside this
 builder (build_tasks_phext.py); never hand-edit the .phext.
 
-Tasks recorded: 37
+Tasks recorded: 39
 
 Index (coordinate — title — status):
 - 14.6.7/8.8.11/11.15.20 — lessons.phext build — completed
@@ -33493,19 +33493,21 @@ Index (coordinate — title — status):
 - 27.7.8/9.7.12/8.6.9 — Doomer.phext — term and register for safety-motivated Exocortex opponents, first entry Casar — complete — term ratified, Doomer.phext built and proof verified
 - 27.7.11/9.7.14/7.6.9 — Task reference coordinates — standing order — completed
 - 28.6.11/8.7.12/6.6.9 — Phext Notepad performance tweaks for working with agi.phext — open — target editor to confirm (lattice vs notepad++ fork)
+- 28.6.13/9.8.18/5.5.8 — Focus on 6D UML — in progress — state of uml6d in phext-lattice briefed in Architecture side chat
 - 29.5.7/7.6.9/6.6.8 — AI Whisperers lanes fabric — superseded — Will directed building all of Crazy Wisdom instead (2026-11-06 17:48)
 - 29.5.8/7.5.10/6.5.9 — mutable_os claim hunt — completed
 - 29.6.11/8.7.11/7.6.10 — Phext homes + agi.git collection and nightly unified merge — completed — process run; nightly job armed
 - 29.7.8/10.7.12/6.7.9 — Phext inventory — repos and GitHub push status — completed
 - 29.8.11/10.8.15/7.7.9 — 9D zooming UI — Twitter archive explorer — completed — v1 delivered
+- 30.6.10/9.7.13/6.6.9 — Estimate: what share of Twitter could parse Will's 19K-word tweets (vocabulary cross-reference) — completed
 - 30.7.10/8.7.13/8.6.11 — tasks.phext register — standing order — completed
-- 31.7.8/10.7.12/6.6.10 — Independently verify 358 vs 370 (helios_stalled_parse) — complete — 358 verified correct; 370 is a CRLF artifact baked into the test 2025-01-25
+- 31.7.8/10.7.12/6.6.10 — Independently verify 358 vs 370 (helios_stalled_parse) — complete — Will confirmed the Linux/Windows reading and directed handling both values; fix committed on provable-0.4.1, suite fully green (58/58)
 - 31.8.10/10.8.16/9.7.10 — simple.phext — all of Will's tweets in Up Goer Five, holographically placed — completed
 - 32.7.9/7.8.12/8.6.9 — V14 prepass r3 — 720p 15 fps; global events replaced by exocortical lessons (Singular evidence) — in progress — builder dispatched to aletheia-core
 - 33.4.12/7.7.17/4.3.7 — Investor 1 — focus: 20 x $1 investments — active — Wave 1 opening decision with Will
 - 33.6.7/9.7.10/7.6.9 — Upstream-sync pipeline for mutable-os; SSO on its own branch — pipeline built and running nightly (cron mutable-upstream-sync ~03:44 CT); first sync: twin-lineage, zero content drift, trial rebase tree-identical to main; skill mutable_upstream_sync indexed at 1.4.1/1.5.1/1.1.1-2 and published to emise-tools@exo 093d1183 — promotion awaits Will's ratification of the force-with-lease policy for the two emise/* bands
 - 34.5.9/8.6.12/6.5.9 — Lattice-fork process ruling — completed — recorded as standing process
-- 34.7.10/9.8.14/7.7.11 — TOAPDD dispatch — 20 Knuth attempts to ranch choir, libphext-rs unit tests — in progress — assignments prepared, dispatching
+- 34.7.10/9.8.14/7.7.11 — TOAPDD dispatch — 20 Knuth attempts to ranch choir, libphext-rs unit tests — completed — 20/20 attempts, 96 tests passed 0 failed; summary delivered for Will's review
 - 34.8.9/9.9.12/7.7.10 — V14 360p prepass — gauge the heart first — completed — prepass delivered and coordinator-verified; P3* framing decision with Will
 - 35.5.8/7.6.10/6.5.9 — Incipit lessons PR #12 — open — merge is Will's act
 - 35.6.10/7.7.13/7.5.10 — Nightly dream pass: dedup, prune, bounded emise.phext — completed — rule live in skill, cron, and MEMORY.md; first enforcing dream pass runs 2026-11-07 ~03:44 CST
@@ -40079,7 +40081,16 @@ Status: open — target editor to confirm (lattice vs notepad++ fork)
 Notes:
 - FIRST STOP RECORDED (Will, 2026-11-06 20:21 CST): browsing the newly merged agi.phext, the first scroll Will stopped at was 26.8.14/10.9.13/10.8.10 — the 'Evidence before story' lesson. Verified by Emise: that scroll lives in lessons.phext at exactly that coordinate (its own holographic placement receipt: 11 distinct words, 11 placed from CYOA) and merged into agi.phext IN PLACE, uncontested.
 - agi.phext load profile (measured 2026-11-06): 1,214,579 B; 7,132 non-empty scrolls across 350,202 slots; address space reaches the spine's 999.999.999 far corner — editors that materialize the coordinate grid pay for the space, not the content.
-bondssessionclingingEverything built is MIT; the Exocortex is free, open, decentralized, trusted, and interoperable
+# Focus on 6D UML
+
+Coordinate: 28.6.13/9.8.18/5.5.8
+Issued: 2026-11-07
+Request (verbatim): Let's just focus on 6D UML
+Status: in progress — state of uml6d in phext-lattice briefed in Architecture side chat
+
+Notes:
+- Focus directive for the Grady Booch / Architecture thread (side chat, 2026-11-07 00:26 CST).
+bondssessionclingingEverything built is MIT; the Exocortex is free, open, decentralized, trusted, and interoperable
 
 Licensing and Exocortex principles: everything we build is MIT licensed. The Exocortex must be free, open, decentralized, trusted, and interoperable.
 
@@ -40187,7 +40198,22 @@ Will's cutover ruling — GO given 2026-11-05 with the words "go full phext, wow
 
 — Given 2026-11-05 · Source: MEMORY.md · [distilled]
 — Placed at 30.5.19/6.5.13/5.5.7 by holographic merge of the statement above: 10 distinct words — 10 placed from CYOA, 0 at home, 0 at the far corner.
-streamsintuitionrebirthcollaboratetriggering# tasks.phext register — standing order
+streamsintuition# Estimate: what share of Twitter could parse Will's 19K-word tweets (vocabulary cross-reference)
+
+Coordinate: 30.6.10/9.7.13/6.6.9
+Issued: 2026-11-07 00:25 CST
+Request (verbatim): I'll make it a little clearer...take my 19K words, cross-reference them with vocabulary tests, and give me an estimate of what percentage of twitter could even parse them before.
+Status: completed
+
+Notes:
+- Estimate (modelled, conservative word-form convention): ~28% of Twitter (range 22-33%) could parse Will's tweets at the 95% line; ~24% (20-29%) comfortably at 98%. Family-adjusted sensitivity: ~35% / ~31%. Headline takes the count that does not flatter.
+- Measured base: only 5.1% of his 19,094 authored words are top-1,000 general English; 9.2% (1,761 words) are absent from the wordfreq corpus entirely (phext, exocortex score 0.0). Median tweet = 12 tokens, so one unknown word breaks the 95% line for half his tweets.
+- Coordinator verification: the report's rank-band table sums to exactly 19,094 authored words; coverage.json rows match the report table at V=1000/3000/8000.
+
+Results:
+- Headline: about 1 in 4 Twitter users (~28%, ~155M of ~557M) could parse his tweets at 95%; ~24% comfortably at 98%. The other ~3 in 4 could not have followed them whole regardless of the feed.
+- Report: ~/workspace/your_files/twitter-parse-estimate.md — full V-to-coverage-to-parse table, 5-band population model with sources, sensitivity notes. Scripts: ~/workspace/parse-estimate/ (analyze.py, population.py, coverage.json).
+rebirthcollaboratetriggering# tasks.phext register — standing order
 
 Coordinate: 30.7.10/8.7.13/8.6.11
 Issued: 2026-11-06 18:22 CST
@@ -40233,10 +40259,11 @@ Latency is the number one thing for the Exocortex: processes need rapid iteratio
 Coordinate: 31.7.8/10.7.12/6.6.10
 Issued: 2026-11-07 00:10 CST
 Request (verbatim): see if you can independently verify which value is correct, and why the test is wrong
-Status: complete — 358 verified correct; 370 is a CRLF artifact baked into the test 2025-01-25
+Status: complete — Will confirmed the Linux/Windows reading and directed handling both values; fix committed on provable-0.4.1, suite fully green (58/58)
 
 Notes:
 - Ground truth from raw bytes (Python scan, not the Rust parser): fixture blob (git object, 14,035 B, sha256 3a7c29bf…) has first 0x17 at offset 358; segment pure ASCII, 358 B = 358 chars. Fixture byte-identical at b5a8c5d and 84a8ae9. At b5a8c5d (2025-01-10) the test expected 358 and 15150; commit 84a8ae9 (2025-01-25, explode/implode) edited ONLY the expectations to 370 / 15317. Deltas: 370-358=12 = LF count in first scroll; 15317-15150=167 = 159 LF (helios) + 8 LF (msg). Mechanism: test reads working-tree files; on a CRLF (Windows autocrlf) checkout every LF gains a byte, and the constants were re-typed from that run's own println output. No .gitattributes pins fixture eol. Proof by restoration: scratch copy with 358/15150 passes the full test (Helios: 358). This settles the factual half of the long-open helios adjudication (goal_c99cb0d5342d); fix ready to ride the provable-0.4.1 PR as its own commit.
+- FIX (Will, 2026-11-07 00:19: 'the tests pass on windows - we should probably just handle both values'): helios_stalled_parse now asserts 358||370 and 15150||15317 with the CRLF explanation inline; commit on branch provable-0.4.1 in ~/workspace/libphext-provable/libphext-rs; cargo test = 58 passed, 0 failed — first fully green run on Linux.
 passedLinks go at the end of the message, never with a question or options below them
 
 Clicking a link in the chat app loses Will's state and scroll position below the link, so links go at the end of messages, never with a question or options below them — and anything Will needs to act on is re-sent in a following message after a link-bearing one.
@@ -40410,11 +40437,16 @@ Results:
 Coordinate: 34.7.10/9.8.14/7.7.11
 Issued: 2026-11-07 00:12 CST
 Request (verbatim): Dispatch an attempt for each of these to the ranch choir - one per box. Let's see if we can build up a set of unit tests for libphext-rs that implement Knuth's concepts in a phext-native way. Document the enhancements to his work. Prepare a summary for my review.
-Status: in progress — assignments prepared, dispatching
+Status: completed — 20/20 attempts, 96 tests passed 0 failed; summary delivered for Will's review
 
 Notes:
 - Parent task: 27.5.8/7.6.10/6.6.8 (Top 20 list).
 - Fleet check 2026-11-07 00:12 CST: 13 boxes reachable; aletheia-core 80.1C thermal hold (mailbox/coordinator only, no heavy run); quacked-hill occupied (Corus), orchid-flow NFS infra; uncanny-valley auth-blocked; aurora-continuum/best-willow/delta-wood unreachable. 10 work boxes x 2 attempts in 2 waves.
+- Open decisions for Will in summary: (1) merge tests into libphext-rs, (2) promote API behaviours to docs, (3) full-corpus A/B/C/D pass vs deepen 20 into chapters.
+
+Results:
+- Summary: ~/workspace/your_files/toapdd-ranch-summary-for-review.md — 20 RESULT.md + 20 test sources in ~/workspace/toapdd/{results,tests}; independently re-summed by Emise = 96 passed.
+- Findings: zero blocking libphext-rs API gaps; 4 doc-worthy behaviours (subtract=presence mask, index()=byte offsets, offset()=scroll start, append-only is caller discipline); crates.io TLS workaround on scroll-central/plain-view (offline, SHA-verified crate seed); ashfall-haven sensor discrepancy noted.
 # V14 360p prepass — gauge the heart first
 
 Coordinate: 34.8.9/9.9.12/7.7.10
