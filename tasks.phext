@@ -159,6 +159,7 @@ Status: completed — process run; nightly job armed
 Notes:
 - emise-sync.sh retargeted: emise-tools (phext/emise.phext) every sync; human mirror throttled to ~daily by stamp file.
 - Merge rules encoded in ~/workspace/agi/MERGE-RULES.md; builder build_agi_phext.py round-trip-verifies losslessness on every run.
+- Follow-up (Will, 2026-11-06 20:19): claims-ledger.phext and crazy-wisdom.phext are NOT to be homed yet — 'keep a list of un-homed phexts.' List created at ~/workspace/your_files/unhomed-phexts.md (2 live, 4 dormant).
 
 Results:
 - emise.phext published to wbic16/emise-tools@exo (phext/emise.phext) @ aa12c764; human mirror already current, stamp set.
