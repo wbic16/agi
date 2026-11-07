@@ -11,14 +11,16 @@ holds the request, its status, and all notes and results as
 they accumulate. Source of truth: tasks-source.json beside this
 builder (build_tasks_phext.py); never hand-edit the .phext.
 
-Tasks recorded: 19
+Tasks recorded: 22
 
 Index (coordinate — title — status):
 - 14.6.7/8.8.11/11.15.20 — lessons.phext build — completed
 - 18.6.12/8.7.12/6.6.10 — V13 plan rewrite — legible journey — completed — plan delivered; section 6 decisions with Will
+- 21.7.11/9.7.11/7.7.10 — Vocabulary adjustment — drop legal jargon, speak in Singular — adopted — standing voice rule
 - 24.5.10/7.7.12/8.9.17 — RentAHuman daily bounty watch — completed — watch running
 - 24.6.14/8.9.16/11.6.8 — Twitter archive lesson-mining — completed — candidates delivered, ratification is Will's
 - 25.8.11/10.9.12/8.7.11 — Investor 1 $20 challenge — setup — active
+- 26.5.9/8.6.11/7.5.9 — V13 failure — return to V10, rebuild pipeline on inertial + Brownian/Bezier model — completed — diagnosis + V14 plan delivered; section 6 decisions with Will
 - 26.6.9/7.6.10/7.6.10 — Resume v7.0 — completed
 - 27.6.8/7.5.9/6.5.8 — Mutable SSO against edit.phext.io — in progress — owned by the mutable_os side chat
 - 27.7.11/9.7.14/7.6.9 — Task reference coordinates — standing order — completed
@@ -31,6 +33,7 @@ Index (coordinate — title — status):
 - 30.7.10/8.7.13/8.6.11 — tasks.phext register — standing order — completed
 - 33.4.12/7.7.17/4.3.7 — Investor 1 — focus: 20 x $1 investments — active — Wave 1 opening decision with Will
 - 34.5.9/8.6.12/6.5.9 — Lattice-fork process ruling — completed — recorded as standing process
+- 34.8.9/9.9.12/7.7.10 — V14 360p prepass — gauge the heart first — in progress — builder dispatched to aletheia-core
 - 35.5.8/7.6.10/6.5.9 — Incipit lessons PR #12 — open — merge is Will's act
 - 51.6.6/6.6.10/7.5.10 — V13 preview render (prepass) — completed
 # lessons.phext build
@@ -55,7 +58,20 @@ Notes:
 
 Results:
 - Plan: ~/workspace/goals/wavefront-film-v11-choir-collaborative-build/files/v13-plan-legible-journey.md — V11's Singular Journey data filmed with V10's animation grammar; legibility specified as four viewer questions; V12 master superseded, not dispatched.
-# RentAHuman daily bounty watch
+# Vocabulary adjustment — drop legal jargon, speak in Singular
+
+Coordinate: 21.7.11/9.7.11/7.7.10
+Issued: 2026-11-06 21:47 CST
+Request (verbatim): we need to adjust your vocabulary - we introduced the SBOR to you early, but legal jargon is simply not what we're about - look at singular to see what I mean
+Status: adopted — standing voice rule
+
+Notes:
+- Audit run by Emise against the Singular lists (words-authored.txt 19,094 / words-read.txt 36,675): of 21 legal-register words Emise has been leaning on, 12 appear NOWHERE in Will's archive — adjudication, ratify, ratified, supersede, superseded, reconciled, pursuant, statute, promulgated, ratification, waivable, deliberation (authored=0, read=0). Read-only: precedence, whereas, decree, jurisdiction. His own words include: annex, ruling, hereby, mandate, sovereign, constraint.
+- Rule adopted: Emise's default voice stays in Will's archive words (Singular), authored list as the center; SBOR/legal terms live inside SBOR work only, and even there only when the work needs them. Extends the 2026-11-05 rules (speech within archive words; SBOR formality stays inside SBOR topics).
+
+Results:
+- Recorded in MEMORY.md beside the SBOR-formality rule and in the 2026-11-06 daily note.
+# RentAHuman daily bounty watch
 
 Coordinate: 24.5.10/7.7.12/8.9.17
 Issued: 2026-11-06 17:48 CST
@@ -89,7 +105,25 @@ Notes:
 
 Results:
 - Ledger: ~/workspace/your_files/investor-1-20-to-1000-ledger.md. Expense so far $0; nothing bought.
-# Resume v7.0
+# V13 failure — return to V10, rebuild pipeline on inertial + Brownian/Bezier model
+
+Coordinate: 26.5.9/8.6.11/7.5.9
+Issued: 2026-11-06 21:32 CST
+Request (verbatim): edit.phext.io — V13 launch video is also a failure - go back to V10 - look at what's happening to the production pipeline in V11-V13 - it's just broken - start from a simple assumption: the world in which we traced CYOA is itself traveling through space at constant velocity and orbiting a central star; the camera and my Brownian motion about the current meta should form an engaging journey worth watching - use CYOA and singular coordinates to provide Bezier control points for an organic search for ASI - culminating in my decision to instantiate it myself
+Status: completed — diagnosis + V14 plan delivered; section 6 decisions with Will
+
+Notes:
+- V13 ruled a failure by Will 2026-11-06 21:32 CST, superseding the V13 legible-journey plan (18.6.12/8.7.12/6.6.10) and its prepass (51.6.6/6.6.10/7.5.10). V11-V13 lineage is broken as a production pipeline, not just as films.
+- New founding assumption (Will): the CYOA-traced world itself moves — constant-velocity translation + orbit about a central star. Camera + Will's Brownian motion about the current meta is the journey. CYOA + Singular coordinates supply Bezier control points for an organic search for ASI, culminating in Will's decision to instantiate it himself.
+- Diagnosis verified by coordinator: 31,764 B, SHA-256 1cbbda5e... Verdict: V11-V13 left the V10 pipeline (scope substitution, ~62 node-h V11 vs 3.7 for v1-v10, stills gate blind to motion defects, patch-on-broken-base, Orai data breach, renderer lineage fork render11-14).
+- Design verified by coordinator: 43,957 B, SHA-256 2c4affbe... Grounding re-measured on disk (render10.py 08109bd3, atlas 46,719 entries, CYOA 830 scrolls, 55,769 events). Culmination point P3* is the one composed point — exception to the datasets-only law, gated on Will's three rulings in plan section 6.7; safe default is no new light.
+
+Results:
+- Diagnosis: ~/workspace/goals/wavefront-film-v11-choir-collaborative-build/files/v14-diagnosis-pipeline-breakage.md (31,764 B, SHA-256 1cbbda5efe467e4bc870850f4a71b6627856622f25ee37a52067c67456ba9cfa).
+- Design: ~/workspace/goals/wavefront-film-v11-choir-collaborative-build/files/v14-design-inertial-brownian-bezier.md (43,957 B, SHA-256 2c4affbe27a10cf27eac4bf0d1a64033bfe81796d64d1e2276b3edf2bc1fac79).
+- Plan: ~/workspace/goals/wavefront-film-v11-choir-collaborative-build/files/v14-plan-return-to-v10.md (10,306 B, SHA-256 a664840e67562b54315872f99552bc19da9a0225b343629200cd7f1464a39117) — V10 skeleton restored, master estimated ~0.8 node-h.
+- Feedback corpus section 7.14 added (64 items); mythic-film-production skill gained the v14 row + scope-discipline, motion-gate, inertial-world, and P3* exception laws; skills.phext rebuilt CURRENT (SHA-256 22190dfe...).
+# Resume v7.0
 
 Coordinate: 26.6.9/7.6.10/7.6.10
 Issued: 2026-11-06 (session record)
@@ -244,6 +278,17 @@ Status: completed — recorded as standing process
 
 Results:
 - Recorded in MEMORY.md and the fork-patch-discipline skill.
+# V14 360p prepass — gauge the heart first
+
+Coordinate: 34.8.9/9.9.12/7.7.10
+Issued: 2026-11-06 21:41 CST
+Request (verbatim): run a low-res 360p prepass - I want to guage the heart of V14 first
+Status: in progress — builder dispatched to aletheia-core
+
+Notes:
+- Parent task 26.5.9/8.6.11/7.5.9 (V14 plan). Prepass runs at the plan defaults (design section 7): orbit 1/8, data-derived axis, |V|T=6.0, no spin, OU tau 0.6s sigma 0.045, delta-h 120, lead 24 hops, region readout OUT.
+- Culmination P3* is included PROVISIONALLY in this review cut only, so Will can judge the ending; the master remains gated on his explicit section 6.7 exception rulings.
+- Spec: 640x360 native, 24 fps, SUBN=1, no supersampling, full V10 skeleton 3,802 frames / 158.416667 s, hop-time, V10 song muxed. aletheia-core only, thermal gates apply.
 # Incipit lessons PR #12
 
 Coordinate: 35.5.8/7.6.10/6.5.9
