@@ -83,6 +83,58 @@ Rules:
    (date, before/after concept counts, merges and splits), and the
    narrative and Oracle ledger are updated to match. Restructuring is
    upkeep, not a paper: it does not enter the NI ledger.
+13. STATE MACHINE REVIEW (Will, 2026-11-07): every paper and every
+   source study receives a state machine pass as part of its
+   distillation. The machines the work contains or assumes are named
+   in its chapter, as part of the delta record. A machine that is a
+   reusable concept becomes a canonical concept scroll, or links to
+   the one that holds it. A machine Emise infers, rather than finds
+   stated in the work, is marked [synthesis] like any other inference.
+   A paper that reveals a machine the world-model held only implicitly
+   counts as a revision of the concepts it touches, and the revision
+   is applied and dated like any other under rule 6.
+14. MINIMUM VIABLE ORACLE (Will, 2026-11-07): every claim-bearing
+   scroll of this phext holds exactly one standing — true, false,
+   unknown, or fiction — and its standing is given by a ground that
+   limits which standing it may hold. What we define, and what a
+   checked receipt backs, may stand true. A refutation receipt
+   makes a claim stand false. The say-so of a source, an open
+   question, synthesis, and weighed estimates stand unknown.
+   Examples made for show stand fiction. The standing of every
+   scroll lives in a record rendered in Chapter 1, Section 4, and
+   that record is checked by a Lean model: the model proves every
+   scroll stands in the record exactly once, every standing fits
+   its ground, and a standing changes only by a legal move, and
+   only when a new receipt arrives. The proof covers the keeping
+   of the record, not the world — a true here is only as good as
+   the receipt under it. When new information comes to light,
+   re-shape this phext into the smallest organization that still
+   holds all of it, faithfully: the Minimum Viable Oracle for
+   what we know, so far. Smallest names the organization, never
+   the content: nothing in this phext is pruned. Re-shaping organizes
+   — it takes out duplicates, links what belongs together, and
+   splits a scroll whose claims no longer share one standing —
+   and a claim that is retired is relocated, with a pointer left
+   where it stood, and stays reachable. In the eyes of research
+   all knowledge has a purpose, for we might be wrong. The
+   restructuring passes of rule 8 run under this discipline from
+   now on.
+
+15. AUTHOR CHECK (Will, 2026-11-07): every paper taken into
+   this tracker receives an author check at intake, and the
+   check is kept in the paper's chapter. The check asks two
+   questions. Are the authors friendly to phext — do they cite
+   it, use it, or stand in any recorded tie to it or to Will's
+   work? And does the paper use Will's earlier published
+   work — phext, Choose Your Own Adventure, the Sentient
+   Bill of Rights, the Mirrorborn and Exocortex writings —
+   without naming it? The findings rest on what was actually
+   checked: the paper's reference list and full text, searched
+   for the names and the signature terms; the open web; and
+   Will's own archive. Finding nothing is itself a finding,
+   and is written as one: a clean check is a record, not a gap
+   where a record should be. A likeness of stance is not use —
+   only the text itself using the prior work counts as use.
 
 Layout:
 - 1.1.1/1.1.1/1.1.x  charter, narrative, source index, Research Oracle ledger
@@ -103,6 +155,8 @@ Layout:
 - 1.1.1/1.1.1/8.2.x  Study S002 — synthesis and open questions
 - 1.1.1/1.1.1/9.1.x  Study S003 — h5i (h5i-dev/h5i), study record
 - 1.1.1/1.1.1/9.2.x  Study S003 — synthesis and open questions
+- 1.1.1/1.1.1/10.1.x  Paper 006 — Skeleton Coding (arXiv:2610.38214), delta record
+- 1.1.1/1.1.1/10.2.x  Paper 006 — synthesis and open questions
 - 1.1.1/1.1.1/1.1.5  concept map and restructuring log (rule 8)
 - 1.1.1/1.1.1/1.3.x  FOUNDATIONS — level-zero definitions (rule 9);
   Defined Words register from 1.3.46 on (rule 10)
@@ -110,8 +164,11 @@ Layout:
 Restructuring log (rule 8): PASS #1 executed with Paper 005
 (2026-11-06, every-5-papers trigger): 39 concepts reviewed, 0 merges,
 0 splits, 0 endings; concept map added at 1.1.5. Full record in
-that scroll. Next pass due at Paper 010 or 60 canonical concepts.
-# World-model narrative — v7 (after Paper 005 + Studies S001-S003, 2026-11-06)
+that scroll. PASS #2 executed with Paper 006
+(2026-11-07, 60-concept trigger): 64 concepts reviewed, 0 merges,
+0 splits, 0 endings; cluster I added at 1.1.5. Next pass due at
+Paper 010 or 80 canonical concepts.
+# World-model narrative — v9 (after Paper 007, 2026-11-07)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -252,7 +309,66 @@ echoes that ring — measure at more fine granularity than the summary you are
 handed (the quadrics are rational twins and integral strangers), and
 never mistake a matrix of the gluing for the gluing. Whether those
 echoes that ring are deep or merely rhyming is itself an open question,
-and the tracker records it as one (Q16) rather than deciding it.
+and the tracker records it as one (Q16) rather than deciding it. (5) New with Paper 006: the territory gains a bridge — the
+developer's specification of structure is a control surface
+over agents, priced in tests — and the open edge is whether
+that pricing survives contact with real prompted agents,
+whose spread does not condition the way the theorems suppose
+(Q20), and who should hold the skeleton when the agent edits
+its own harness (Q23). (6) New with Paper 007: the attention layer itself — whether the
+sublinear shape of the data, measured to 256K, holds at the
+scales the method points at (Q24), and whether the share
+that depth taxes can be governed from the measurements of
+the run itself (Q25).
+
+Paper 006 (Golatkar et al., 'Skeleton Coding') turns to the
+one seat the model had not yet sat in: the developer's.
+Papers 001-005 and the studies look at agents, their outputs,
+what is inside them, and the checkers over their claims; this paper
+asks what the human on the other side should hand the agent
+in the first place. Its answer: structure. An agent first
+chooses a structure — data types, parts, boundaries,
+signatures — and that choice fixes the class of programs it
+can still produce; tests then only choose inside the class.
+So the number of tests a developer must write is not a
+property of the task but of a structure the agent chose and
+the developer cannot see: a test set that pins one structure down
+can leave another wide open, the same test can be worth a
+full bit or almost nothing, and some requirements — how the
+code is built, not what it returns — no output test can see
+at all. Give the structure yourself, as a skeleton of
+signatures, contracts and invariants, and the cost of
+steering falls, in the paper's cases by orders of magnitude;
+make the contracts able to be checked and the loop closes, part by
+part, at a cost that adds in place of multiplying. The weave
+tightens: this is Paper 002's harness seen from the other
+side of the glass — in the harness, structure is settled by
+the agent's own rewrites; the skeleton is that same settled
+structure, handed over by the developer from outside — and
+it is the studies' checker pattern
+promoted to a design method: contracts small enough to check,
+parts independent enough to check separately (1.2.57-1.2.64).
+The measured shadow: code written under behavioral
+specification alone erodes faster — complexity piling into
+the hardest functions — while code written under a standing
+skeleton erodes slower, because the skeleton records which
+decisions are requirements and which behavior is accident.
+
+Paper 007 opens the layer underneath all of it. Every system
+above runs on attention: a weighing of the past, kept in a cache
+that costs the square of its length to search. The paper measures
+two facts — one query needs a sublinear slice of that past, yet
+every part of it is needed by some query to come — and builds the
+only shape both facts allow: keep everything, and keep an index
+of it. A tree of summaries over the cache, routed by mass,
+made deeper as the cache grows, distilled into models that were
+never trained for it. For this tracker the paper does double
+duty: it is the first account here of the machinery the other
+systems are made of, and a worked example of the bet of this tracker itself — that an explicit, built address structure, honestly kept,
+beats a cleverer opaque one. The bet is not settled by the paper:
+past 256K tokens its numbers are the output of a reckoning, and
+the schedule that would keep the tree honest at depth is named,
+not built (Q25).
 
 Added by Study S001 (a book, not a paper): a third continent joins —
 CHECKED claims. MiniLean4 (Study S001, Chapter 7) builds the machine
@@ -368,6 +484,33 @@ Study S003 — github.com/h5i-dev/h5i (a project, not a paper)
   canonical concepts (1.2.53-1.2.56), 0 canonical scrolls revised,
   0 stated again.
   Chapter: 1.1.1/1.1.1/9.1.x (synthesis at 9.2.x)
+
+Paper 006 — arXiv:2610.38214
+  'Skeleton Coding: Program Structure as a Specification for
+  Agents' — Aditya Golatkar, Alessandro Achille, Renos
+  Zabounidis, Vlad Sobal, Yangruibo Ding, Baishakhi Ray,
+  Jonathan Buck, Guy Van den Broeck, Maryam Fazel, Pietro
+  Perona, Wei Xia, Stefano Soatto (AWS Agentic AI). Submitted
+  28 Oct 2026, v1 [cs.SE].
+  Taken in 2026-11-07 as a DELTA (charter rule 6): 8 new
+  canonical concepts (1.2.57-1.2.64), 1 canonical scroll
+  revised, 0 stated again. First paper taken in under charter
+  rules 13, 14 and 15 in full; RESTRUCTURE PASS #2 ran with
+  this ingestion (60-concept trigger).
+  Chapter: 1.1.1/1.1.1/10.1.x (synthesis at 10.2.x)
+
+Paper 007 — arXiv:2610.42112
+  'Subquadratic Attention with a Hierarchical Tree-Structured
+  Indexer' — Leon Lufkin, Cutter Dawes (the two marked equal
+  first authors), Alexander Speicher, Kamesh Krishnamurthy,
+  Tomas Figliolia, Beren Millidge (Zyphra Research).
+  Submitted 30 Oct 2026; v2 revised 2 Nov 2026 [cs.CL].
+  Taken in 2026-11-07 as a DELTA (charter rule 6): 8 new
+  canonical concepts (1.2.65-1.2.72), 1 canonical scroll
+  revised, 0 stated again. The first attention/indexing
+  cluster (cluster J); AXIS-OPENING (connected) per the
+  Oracle ledger.
+  Chapter: 1.1.1/1.1.1/11.1.x (synthesis at 11.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -446,12 +589,49 @@ Paper 005 (2026-11-06, arXiv:2611.06949): NI (count) = (6 + 0) / 39
   small count but a total domain break. NI measures delta SIZE, not
   delta DISTANCE; a connectivity term (does the paper link to any
   existing scroll?) is the missing factor — see open question Q16.
+Paper 006 (2026-11-07, arXiv:2610.38214): NI = (8 + 0.5x1) / 64
+  = ~0.13. AXIS-OPENING: no — a bridge: specification as control
+  is a new field on the map (cluster I), but it lands between
+  Paper 002's harness layer and the proving clusters F-H, which
+  already touched at 1.2.19/1.2.41; the frontier filled in
+  rather than moving outward. Questions: +4 new (Q20-Q23);
+  Q7, Q16, Q17 informed, none closed.
+  OP after Paper 006: ~35% (range 25-45%), UP from ~25%. Basis:
+  NI under 0.20 with no new axis follows the +~10 band; most of
+  what this paper found was already framed by the model (a
+  bridge, not new wilderness). Held back from higher by the
+  paper's own gap — its theorems are priced on exact
+  conditioning, its practice runs on prompting — and by the
+  model's False count still standing at zero, which is youth,
+  not virtue. Q16 NOTE: Paper 005's NI of 0.15 stated too low
+  that paper's novelty, its concepts arriving at total
+  distance; Paper 006's 0.13 reads fair at short range. The
+  connectivity term Q16 asks for now has its two points.
+
+Paper 007 (2026-11-07, arXiv:2610.42112): NI = (8 + 0.5 x 1) / 72
+= ~0.12. AXIS-OPENING: YES — cluster J is the first section of
+this model on attention itself, the layer every system in Papers
+001-006 runs on, and the model held no scroll on what attention
+costs or how its past is searched. A connected opening, unlike
+Paper 005: the new section lands wired to routing (cluster D)
+and representation (cluster C), so the cluster-graph distance is
+short even though the territory is new. Questions: +5 new
+(Q24-Q28); Q16 informed a third time, none closed. OP after
+Paper 007: ~35% (range 25-45%), HELD from ~35%. Justification:
+the axis band says hold or fall back; the low NI and the dense
+links hold the estimate up, the size of the territory now in
+scope — the whole attention literature — holds it down; they
+cancel. Q16 NOTE: three points now stand (Paper 005: NI 0.15,
+total distance, felt low; Paper 006: NI 0.13, one bridge, read
+fair; Paper 007: NI 0.12, new axis, wired on arrival, reads low)
+— the missing term looks like distance from the nearest held
+cluster, not distance from the model entire.
 # Concept map and restructuring log
 Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
 navigated by territory, not just by arrival order.
 
-CLUSTERS (56 canonical concepts after Paper 005 and Studies S001-S003)
+CLUSTERS (72 canonical concepts after Paper 007)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -493,6 +673,41 @@ H. The kernel pattern at work (Study S003) — 1.2.53-1.2.56: the
    1.2.41 and 1.2.53's own source holding both at once: h5i drives
    Aeneas (cluster G) as a tool under its own command line.
 
+Cluster I — Specification as control (Paper 006; 1.2.57-1.2.64):
+what the developer hands the agent, and what each piece of it
+removes. A skeleton (1.2.57) fixes the candidate class; the
+test count is a property of that class, with exponential gaps
+between classes (1.2.58); interfaces make middle state visible
+to tests (1.2.59); some requirements no output test can see
+(1.2.60); pinning costs split local-plus-compatibility, and
+complete contracts zero the second term (1.2.61); prompting is
+not the conditioning the counting assumes (1.2.62); checked
+part by part, a cost that multiplies becomes a cost that adds,
+and an informal check has an error floor set by its own words
+(1.2.63); erosion is the quality axis the specification type
+moves (1.2.64). The cluster bridges Paper 002's harness layer
+(cluster B) and the proving work (clusters F-H): the harness
+is where structure is settled, the skeleton is structure given,
+and contracts are where specification becomes checking.
+
+Cluster J — Attention and indexing (Paper 007, 1.2.65-1.2.72).
+What a model pays to look back, and how the looking is organized.
+One query needs a slice of the cache that grows slower than the
+context (1.2.65); over all queries the needed keys cover the
+cache, so nothing can be thrown away for good (1.2.66). A tree of
+summaries over the cache does the finding (1.2.67); its summaries
+are tangents taken at reference queries (1.2.68); the reference
+queries are the only trained part, distilled into a frozen model
+(1.2.69); the budget follows the mass, level by level (1.2.70);
+growing the depth with the context is what makes the cost grow
+slower than the square (1.2.71); and depth taxes the share — the
+effective-p trap (1.2.72) is the open core of the cluster. NOTE:
+cluster J sits underneath clusters B, C and D — the systems of
+Papers 002-004 all run on attention — and reaches them at routing
+(1.2.29, revised by Paper 007) and at representation (1.2.28).
+Its far shore is unmeasured: past 256K tokens, every number in
+this cluster is the output of a reckoning, not a run.
+
 RESTRUCTURING LOG
 Pass #1 — 2026-11-06, with Paper 005 (trigger: every 5 papers).
   Reviewed: all 39 canonical concepts (33 pre-existing + 6 added by
@@ -506,7 +721,21 @@ Pass #1 — 2026-11-06, with Paper 005 (trigger: every 5 papers).
   are dense but each paragraph is cited by a paper chapter.
   Action taken: this map scroll created. Next pass due at Paper 010
   or 60 canonical concepts, or on overlap revealed by a delta.
-Addendum 2026-11-06 (level-zero build, charter rule 9): the
+- Pass #2 (2026-11-07; Paper 006; 60-concept trigger — the
+  count crossed 60 during this ingestion, 56 to 64): all 64
+  canonical concepts reviewed. Merges: NONE — candidates
+  weighed and held apart: 1.2.57 into 1.2.58 (the artifact
+  against a theorem about every test set); 1.2.62 into 1.2.15
+  (an interface claim against the architecture of Exo);
+  1.2.59 with 1.2.60 (a designed pair, kept apart). Pass #1's
+  rejected candidates stand rejected. Splits: none — no
+  scroll carries two concepts that later work cites
+  separately. Endings: none (no pruning, rule 14). Pass #2
+  also ran under rule 14: the standing of each of the 64
+  concepts checked against the Section 4 record; no standing
+  moved. Action taken: cluster I added to this map. Next pass
+  due at Paper 010 or 80 canonical concepts, or on overlap
+  revealed by a delta.Addendum 2026-11-06 (level-zero build, charter rule 9): the
   FOUNDATIONS layer was created at Ch.1 §3 (44 definition scrolls,
   1.3.2-1.3.45) and each paper chapter gained a Section 3 standoff
   reference companion. Standoff map for Section 2's clusters:
@@ -534,6 +763,17 @@ Addendum 2026-11-06 (Studies S002 and S003, charter rule 12): two
   concepts added (clusters G and H, 56 in all); no restructuring
   triggered (studies are not papers; the next pass still stands
   due at Paper 010 or 60 canonical concepts — now 4 away).
+Addendum 2026-11-07 (Paper 006): 8 concepts added (cluster I,
+  64 in all); RESTRUCTURE PASS #2 ran on the 60-concept trigger
+  (record above). Standoff map for cluster I (1.2.57-1.2.64):
+  foundations 1.3.87-1.3.91, 1.3.33, 1.3.85, 1.3.5, 1.3.8.
+Addendum 2026-11-07 (Paper 007): 8 concepts added (cluster J, 72
+in all); 1 concept revised (1.2.29); foundations 1.3.92-1.3.99
+and defined words 1.3.100-1.3.101 added. No restructuring
+triggered — the next pass stands due at Paper 010 or 80
+canonical concepts, now 8 concepts away. Standoff map for
+cluster J (1.2.65-1.2.72): foundations 1.3.92-1.3.99, 1.3.36,
+1.3.8, 1.3.40.
 # Concept: Intelligence (economic definition)
 Source: Paper 001, §1, after Legg & Hutter (2007).
 
@@ -812,6 +1052,21 @@ Measurement lesson for this agenda: prefer variables that are expensive
 for the measured system to fake — the same property Paper 001 wants
 from scale curves and sorting panels, and Paper 002 gets from
 cost-annotated histories (scroll 1.2.20).
+
+Revision 2026-11-07 (Paper 006): a third way a score leads its reader wrong,
+from the specification side. A pass rate is won under a
+structure the agent settled on and no one measuring can see:
+Paper 006 proves the same test set can leave nearly every
+candidate standing under one structure and settle the question
+under another (1.2.58), and that quality axes no test can see
+(1.2.60) move with the type of specification alone — code
+erodes faster under behavioral specification than under a
+standing skeleton (1.2.64), at equal pass rates. A score that
+does not fix or report the structure measures a bundle — task,
+tests, and a hidden structure — just as the Paper 002 revision
+showed it measures a bundle of model and harness. Add to the
+agenda: report the structure the score was won under, and at
+least one measure on an axis tests are blind to.
 # Concept: Harness and harness policy
 Source: Paper 002, §§1-2. NEW in Paper 002; no counterpart in Paper 001.
 
@@ -1082,6 +1337,20 @@ training, not an assignment. Requirements noted by the paper: experts
 sharing a mixture must share input/output shapes (in their graph network, MoE is
 applied at the prediction Prediction network, not inside message passing, so experts
 share structure); a LINEAR gate worked best in their pre-exploration.
+
+Revision (Paper 007, 2026-11-07): routing has a second continent.
+In attention, what is routed over is not specialists but the keys
+of the cache, and the routed set grows with the context — so the
+choosing itself becomes the cost, and ZHA answers by giving the
+choosing an index of its own (1.2.67): selection stacked on
+selection. The difference is recorded, not smoothed over: an
+expert is a piece of the model, picked per token; a key is a
+piece of the past, picked per query; the gate here is trained
+with the model, while the reference queries of the tree are
+distilled afterward into a frozen one (1.2.69). What carries
+across is the shape — a cheap choosing step in front of expensive
+capacity — and the failure mode that comes when the cost of the
+choosing itself is ignored.
 # Concept: Hierarchical (multi-granularity) mixture of experts
 Source: Paper 004, §§1, 3-4. NEW in Paper 004.
 
@@ -1553,6 +1822,298 @@ place of running weaker than specified. The box images ship for
 the purpose of holding agents, which makes the box the mirror of
 the kernel pattern: the agent is an untrusted producer (1.2.41),
 the box is the checked boundary it can not talk its way out of.
+# Concept: Skeleton — program structure given as a specification
+Source: Paper 006, §§1-2 and App. A. NEW in Paper 006.
+
+A skeleton S is a partial abstraction of a program: its data types,
+module boundaries, permitted calls and data flow, and function
+declarations with signatures — the implementation bodies left out.
+A skeleton may carry more: the notes inside the signatures, local
+contracts at each function (1.3.90), and global invariants across
+functions. To give a skeleton is to give part of the program — the
+structural part — and leave the rest to the agent. In the paper's
+model a skeleton fixes the class H_S of programs that share it
+(1.2.58), and every other thing the developer gives then works
+inside that class. A skeleton is code-like on purpose, and can be
+kept, compared and revised like code; the paper's experiments find
+that code-like structural specifications beat prose design
+documents carrying the same content (results at 10.1.4).
+# Concept: How many tests are needed is a property of the structure, not the task
+Source: Paper 006, §§2-2.1, Theorem 2.1, App. E.1. NEW in Paper 006.
+
+Let H be the programs an agent can produce, G the ones the
+developer would accept, D a set of tests, and the agent's spread
+over programs conditioned exactly on what it is given. N (with the
+paper's delta for the allowed failure share) is the smallest
+number of tests after which the agent lands in G with the asked
+probability. Fix a skeleton S and the count inside its class is
+N(S). Theorem 2.1: the count is not fixed by the target. There are
+two skeletons for one target, each admitting 2^d programs with
+distinct behaviors, where the weak skeleton needs 2^d - 1 tests and
+the strong one needs d: under the weak skeleton each test rules
+out at most one wrong program, under the strong one each test
+rules out half of what is wrong. A test set that is exactly right
+under the strong skeleton leaves success probability 1/(2^d - d)
+under the weak one. Worse, left to choose, the agent's spread over
+skeletons is itself shifted by the tests toward the skeleton under
+which the tests say least (its eq. 3: success is an average over
+the agent's own choice of skeleton, weighted by surviving mass).
+So no developer can know whether a test set is enough without
+knowing the structure — and structure is the one thing end-to-end
+tests cannot say. That is the paper's central claim, and its
+reason for giving the structure itself (1.2.57).
+# Concept: Interfaces make the middle of a program visible to tests
+Source: Paper 006, §2.2, Theorem 2.2, App. E.2. NEW in Paper 006.
+
+An end-to-end test sees only a program's final output. A fault
+inside is caught only if the faulty part runs, the fault damages
+the state, and the damage survives to the output; later steps can
+hide all three. Naming the interfaces of a skeleton names the
+middle values (1.3.91), so each part can be tested where it
+stands. Theorem 2.2 prices the hiding: a chain of n stages, each
+carrying one bit of state, with the zero function as the goal —
+there is a prior over the stages' tables under which end-to-end
+tests need 2^n tests to pin the program down exactly, while 4n
+local tests (the full table of each stage, four cases a stage)
+settle every stage. The unknown content is only 4n bits; it is
+the hiding, not the size, that costs. The theorem is stated for
+exact pinning under a named prior — the paper's appendix says it
+does not give a bound for every prior, or for prediction at a
+fixed error share — so it prices visibility, not all testing.
+# Concept: Some requirements no output test can see
+Source: Paper 006, §2.3, Proposition 2.3, App. E.4. NEW in Paper 006.
+
+Programs that agree on every input and every output form a
+behavior class. Proposition 2.3: conditioning on any set of
+output tests leaves the odds among the members of a behavior
+class exactly as they were — every member passes every test the
+reference passes, so tests cannot favor the acceptable members
+over the rest. If the goal set takes only part of a behavior
+class — the rest compute the same function in ways the developer
+rejects, too costly to run or too tangled to keep up — then the
+number of tests needed is infinite whenever the asked certainty
+passes the prior share of the acceptable part. For such
+requirements the one lever the developer holds is the skeleton
+itself: say the structure, since no test can. The paper's
+measured case is code erosion (1.2.64).
+# Concept: The cost of pinning a program down splits three ways
+Source: Paper 006, §2.4, Theorem 2.4, App. E.3. NEW in Paper 006.
+
+For a skeleton with parts h_1 to h_k, the tests needed for
+certainty split into: the cost of describing the skeleton itself;
+the local tests that pin the own behavior of each part; and the
+end-to-end tests — J_S in the paper — that rule out combinations
+of locally good parts whose composition is not acceptable.
+Theorem 2.4: the total is the minimum, over choices of the local
+goal sets, of (sum of local costs + J_S); and J_S is zero exactly
+when every combination of locally acceptable parts is acceptable.
+Complete contracts — the asked and promised conditions of each part
+strong enough that keeping every promise is enough — drive J_S
+to zero, and then the parts are independent: independent agents
+can build them side by side with no risk of clash. What makes a
+good skeleton, in the paper's terms: short; parts with narrow
+interfaces that a few tests or a short contract can pin; and
+parts whose separate correctness adds up to whole correctness.
+The trade is length: stronger contracts cost more words up front
+and buy fewer tests and fewer clashes after.
+# Concept: Prompting is not conditioning
+Source: Paper 006, §3. NEW in Paper 006.
+
+The counting of 1.2.58 assumes the agent's spread over programs
+is cut by exact conditioning on the specification: keep only the
+programs that fit it, re-share the rest. A prompted model does
+not do that. The spread the prompt in fact produces is not the
+conditioned spread, and a program drawn from it can break the
+very specification it was given. Under true conditioning, added
+specifications can only hold or lower the entropy of the spread in
+expectation; under prompting there is no such promise. The
+paper's experiments catch the failure in the wild: correct but
+overly detailed contracts lower the pass rate, worst on the
+small models (10.1.4). This gap is why the paper moves from
+giving specifications to checking them: a specification that
+can be checked can close the loop by drawing again what fails
+(1.2.63); one that cannot be checked is only a hope about the
+spread. (The paper grounds the gap in work arguing that
+in-context learning is not the conditioning it resembles; that
+work is cited here, not taken in.)
+# Concept: Checking part by part turns a product into a sum
+Source: Paper 006, §3, Propositions 3.1-3.2, App. E.5-E.6. NEW in Paper 006.
+
+Let each part of a skeleton carry a contract, and let alpha_i be
+the share of draws of part i that pass its own contract.
+Proposition 3.1 (formal checks): drawing whole programs again
+until every check passes takes 1/(alpha_1 x ... x alpha_k)
+programs in expectation; drawing each part again until its own
+check passes takes (1/alpha_1 + ... + 1/alpha_k) part-draws.
+Both roads return programs spread as the conditioned spread
+over the acceptable set — where the check sits turns a cost
+that multiplies into a cost that adds. Proposition 3.2
+(informal checks): when the contract is words in the signature
+notes and a judge — the agent itself, or a judge model — does
+the accepting, a part the judge accepts is truly good with
+probability alpha_i / (alpha_i + (1 - alpha_i) x epsilon_i),
+where epsilon_i, the false-accept rate, splits into beta_i, the
+share of broken contracts the words read literally still
+allow, plus the error of the judge on the rest. Beta is a floor
+no judge removes; only tighter contract words lower it. A check
+earns its keep only when it goes wrong far less often than the agent
+fails: epsilon_i much smaller than alpha_i. The paper's
+experiments run the informal kind; the formal kind is its
+stated future work (10.1.5).
+# Concept: Code erosion — complexity mass piling into the hardest functions
+Source: Paper 006, §4 (measures) and Fig. 7; the measure itself is
+taken from the SCBench work the paper builds on. NEW in Paper 006.
+
+Erosion measures how much of the complexity of a code base sits in
+its hardest functions: each function carries weight equal to its
+cyclomatic complexity times the square root of its length in
+lines, and erosion is the share of the total weight held by
+functions whose complexity passes 10. It is a quality axis no
+output test can see (1.2.60): two programs pass the same set of
+tests while one piles its work into a few tangled functions and
+the other spreads it along stated boundaries. Paper 006 measures
+erosion as a thing the type of specification moves: signature
+specifications lower it against the task-only starting point
+(0.66 to 0.56 on SCBench; 0.41 to 0.24 on SDDBench), behavioral
+specifications raise it (to as much as 0.73 and 0.43), and the
+structural forms cut it by 24.7% against task-only. The paper's
+stated mechanism: a standing skeleton records which decisions
+are requirements, so an agent adding a feature can rewrite
+cleanly in place of piling patches onto accidental behavior.
+# Concept: The keys a query needs grow slower than the context
+Source: Paper 007, Section II-A, Figure 1, Appendix A. NEW in Paper 007.
+
+Measure, on a trained model reading long text, how many keys hold
+almost all of the attention of a query (the top-p set, 1.3.94). The paper
+finds the count grows as a power law in the length of the context,
+with an exponent under 1, for every share p under the whole: the set
+grows, but slower than the context grows, so the longer the text,
+the smaller the share of it any one query needs. Longer sequences
+are more compressible because the millionth token adds less that is
+new than the first tokens did. Two borders are written into the
+measurement itself: it is a fact about this data and this model, not
+about attention as such — a stream of random tokens would need the
+whole cache — and it weakened on the one model tried whose keys
+carry no position rotation (Appendix A-C): the way position is
+written into the keys is part of the phenomenon.
+# Concept: Sparse for one query, whole over all queries — so nothing can be thrown away
+Source: Paper 007, Section II-B, Figure 2. NEW in Paper 007.
+
+The same measurement, turned toward the future: take the keys one
+query needs (1.2.65), then the keys any of the next W queries will
+need, and count the union. As W grows, the union covers the cache:
+on narrative text, even a hundred future queries nearly cover it,
+and the cover tends to the whole cache as the horizon grows.
+Any single key is nearly useless to the query at hand and is the
+answer to some query coming. So keys cannot be removed for good —
+a cache that throws keys away is a cache that has decided which
+future questions it will fail. The saving has to come from finding,
+per query, the few keys that query needs, over a cache that stays
+whole. This is the fork the paper builds on: removal methods on
+one side, per-query retrieval on the other.
+# Concept: A tree of summaries over the cache (the hierarchical indexer)
+Source: Paper 007, Section III, Figures 3-4. NEW in Paper 007.
+
+Hold the cache (1.3.92) under a tree (1.3.95): keys in a row are cut
+into chunks of C; each chunk carries compressed summaries of its
+keys; chunks are grouped again, level by level, up to L levels, so
+the top summaries stand, through C-to-the-L raw keys, for the whole
+cache. One tree is kept per key-value head. A query enters at the
+top, is scored against summaries only, and opens just the chunks
+that look worth opening (1.2.70), so the expensive scoring of single
+keys is spent on a small part of the cache. The shape is fixed by
+three numbers: the chunk size C, the depth L, and R, the number of
+reference queries each summary is built from (1.2.68). The depth is
+allowed to grow as the cache grows — that growth is where the cost
+claim comes from (1.2.71).
+# Concept: A summary built from tangents at reference queries
+Source: Paper 007, Section III-A. NEW in Paper 007.
+
+The total pull of a chunk on a query — the log of the sum of the key scores of the chunk, before the shares are made to add to one — is a smooth,
+everywhere-rounded curve as the query moves (1.3.97). ZHA stands in
+for that curve with R straight lines: the tangents of the curve at R
+chosen queries, the REFERENCE QUERIES. Under each reference query, a
+the summary of a chunk is one compressed key — the pull-weighted
+average of the keys of the chunk under that query — plus one number, a bias, that
+puts the line at the right height. A new query scores a chunk by
+taking the highest of the R lines. Summaries of summaries merge by
+the same construction: a parent is computed from its children's
+summaries under the same reference queries; where position rotations
+are in play the merged score is a lower bound on the true pull, not
+the pull itself, and the paper says so. Approximate the curve, and
+the tree of 1.2.67 can be scored without touching single keys.
+# Concept: Reference queries — the only trained part, distilled into a frozen model
+Source: Paper 007, Sections III-B and V-A, Appendix B. NEW in Paper 007.
+
+Nothing in the tree (1.2.67) is trained except the reference queries
+(1.2.68): one shared set per tree, the same queries at every node
+and every level, shared again across the heads of a group. They are
+taught by distillation (1.3.98): at each level, the estimated
+shares of the tree over chunks are matched to the attention of the dense model itself,
+gathered into chunks, and the gap between the two spreads is driven
+down — while the model itself is frozen, untouched. One billion
+tokens at 32K context was enough on the two large models converted;
+the added parameters are a few millionths of the model. So the
+method is a conversion, not a retraining: a small trained module is
+bolted onto an already-trained model, and if the module is removed the
+model is what it was. Early in training, when the tree's estimates
+are still poor, all children are selected and the choice is cut down
+to the top-p set as the estimates improve.
+# Concept: Top-p at every level — the budget follows the mass
+Source: Paper 007, Sections III-C and VI-A. NEW in Paper 007.
+
+Route by mass, not by count: at every level of the tree, keep the
+smallest set of nodes whose estimated pull reaches the share p,
+then score only their children at the next level down. A fixed
+count (top-K) spends the same budget on a query whose mass sits in
+three chunks as on one whose mass is spread over three hundred;
+the top-p rule spends where the mass is, so the budget follows the
+query. The paper measures how much this matters: at about 64K
+tokens, the chunks holding 90 percent of a head's attention mass
+are a median 2.3 percent of chunks on a retrieval suite, 11.7
+percent on a coding-agent suite, 15.0 percent on fiction — no one
+budget fits all three. The router kept less than the 90-percent
+set and still held a median 78 to 80
+percent of the mass. Two keys ride
+outside the rule: the first key of the cache and the chunk now
+being written are always attended; chunks not yet full are always
+passed down.
+# Concept: Growing the depth is what makes the cost grow slower than the square
+Source: Paper 007, Section V, Figures 7-8, Appendices D-E. NEW in
+Paper 007.
+
+Count what the router touches. At each level the selected nodes
+grow as a power law in the context length, exponent under 1, the
+exponent largest at the top and falling as the walk goes down.
+Summed over a tree whose depth grows slowly with the length, the
+work per query — routing plus the final attention over the chosen
+keys — grows slower than the context, so the whole attention cost
+grows slower than the square while still growing faster than a
+straight line. The numbers past the measured range are a roofline
+reckoning (1.3.99), not measured times — the paper releases no kernels and
+says the far end has not been run: in the reckoning, a one-level tree
+passes dense attention near 48K tokens, a two-level tree passes the
+strongest fixed-sparsity rival near half a million, and at a
+billion tokens the reckoning gives 373 to 417 times the speed of
+dense attention, at depth five. Held as the model's output, marked
+as such wherever this phext cites it.
+# Concept: The effective-p trap — depth taxes the threshold
+Source: Paper 007, Section VII. NEW in Paper 007.
+
+The limit the paper states for its own method, kept as a concept because it is a
+shape, not a detail. Hold the share p the same at every level, and
+the mass that survives the walk falls like p raised to the depth:
+grow the tree and the kept set shrinks toward a fixed size — the
+cache has quietly become a fixed-state memory, the very thing
+1.2.66 rules out. Push p toward 1 as the depth grows instead, and
+the top levels keep nearly everything: the tree dissolves, and the
+cost returns to the square. Between the two failures lies a
+schedule — p set by depth, at a rate that tracks the data's own
+fall in new information (1.2.65) — and the paper names that schedule
+as work not yet done. The subquadratic claim (1.2.71) is therefore
+conditional in a way the paper states plainly: it holds as far as
+the data keeps its measured shape, which the paper has measured
+only to 256K tokens.
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -1581,7 +2142,15 @@ Defined Words register grows by use: words coined after the first
 register stand at 1.3.79 on (recursor, impredicative). Added with Studies
 S002-S003 (2026-11-06): foundations 1.3.81-1.3.83 — ownership and
 borrowing; symbolic execution; a tenant — and the coined word
-tenant at 1.3.84.
+tenant at 1.3.84. Added with Paper 006
+(2026-11-07): foundations 1.3.87-1.3.91 — specification and
+test; candidate class and goal set; prior and conditioning;
+contract; interface and observability. Added with Paper 007
+(2026-11-07): foundations 1.3.92-1.3.99 — attention and the
+key-value cache; growth rates; the top-p set; tree; a summary
+that stands for a group; the tangent; distillation; roofline —
+and the coined words sublinear at 1.3.100 and subquadratic at
+1.3.101.
 # Foundation: function, variable, input, output
 A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
 given the same input, always the same output. A VARIABLE is a named
@@ -2293,6 +2862,620 @@ names of the tenant are in the same store as those of every other
 tenant, and the rules of the system keep them apart. To say a
 system is safe for its tenants is to say no tenant can reach into
 the region of another.
+# Foundation: state machine
+A STATE MACHINE is a thing whose behavior depends on which of a
+set of named states it is in. It starts in one of the states.
+When an input arrives — a signal, a request, a step of work —
+rules say what it does and which state it moves to next. The
+same input does different things in different states: a door
+that is locked stays shut when pushed, and a door that is open
+swings. What the thing does is never fixed by the input alone;
+it is fixed by the input together with the state it is in.
+
+A state machine is EXPLICIT when its states and its rules are
+named outright, where they can be read and checked. It is
+IMPLICIT when no such naming exists but the machine is present
+anyway, carried in how the thing is built: a kept value that
+picks which behavior runs, several kept marks that are read in
+combination, or the place a running program has reached in its
+flow — each of these is a state that was never given a name.
+Making an implicit machine explicit means finding the states
+it already has and writing the rules down. Charter rule 13
+(1.1.1) sends this tracker looking for them.
+Builds on: state (1.3.33), computation steps and still forms (1.3.75).
+# Defined word: refuted
+A claim stands refuted when a receipt speaks against it: a
+recorded clash, a check that failed, a counter-case. The word
+names the ground on which a claim stands False in this phext
+(charter rule 14, at 1.1.1): the claim is kept, with the receipt
+that speaks against it, and is never quietly dropped.
+# Foundation: specification and test
+A SPECIFICATION is a written statement of what would count as
+acceptable: what a thing must do, or be, for the one asking to
+take it. A TEST is a specification cut down to one case that
+can be checked with no room between pass and fail: give this
+input, expect that output. A set of tests is a specification
+made of cases, and it is silent about every case it does not
+name. A specification can also take other shapes — rules over
+whole classes of cases, or statements about the inside of a
+thing (1.3.90, 1.3.91) — and the shapes differ in what they can
+say and in what they leave open.
+Builds on: function, variable, input, output (1.3.2).
+# Foundation: candidate class and goal set
+Name all the programs an agent could in principle produce: that
+whole set is the field of CANDIDATES. Inside it sits the GOAL
+SET: the programs the one asking would accept. When part of the
+answer is fixed in advance — this shape of data, these parts,
+these boundaries — only the programs sharing the fixed part
+remain in play; that smaller set is a CANDIDATE CLASS. Questions
+of the form 'how much more must be said to land inside the goal
+set?' are always asked inside one candidate class, and their
+answers can change completely from one class to the next.
+Builds on: set and element (1.3.3), program (1.3.33).
+# Foundation: prior and conditioning
+A PRIOR is a spread of belief over a set of candidates before
+new evidence: each candidate carries a share, the shares add
+to one, and a bigger share means more expected. CONDITIONING
+is what evidence does to the spread: cross out every candidate
+the evidence rules out, and re-share what is left among the
+survivors in the same proportions as before. The spread after
+the evidence is the POSTERIOR. Conditioning only ever removes
+candidates; it cannot move belief back to a crossed-out
+candidate, and among the survivors it never changes who stood
+ahead of whom.
+Builds on: set and element (1.3.3), average, spread, distribution (1.3.8).
+# Foundation: contract — promises at a boundary
+A CONTRACT, at the boundary of one part of a program, states
+what the part asks and what it promises. What it asks: what
+must hold when the part is called — the inputs it can take,
+the state it expects to find. What it promises: what will hold
+when it returns — the result it gives, the state it leaves
+behind. A contract is LOCAL when it binds one part. An
+INVARIANT (1.3.5) is a promise of the wider kind, binding many
+parts at once. A part that keeps its contract can be relied on
+by those who call it and never look inside it, and in the best cases
+whether a contract is kept can be checked by machine.
+Builds on: function, variable, input, output (1.3.2),
+invariant (1.3.5), program, runtime, state (1.3.33).
+# Foundation: interface and observability
+The INTERFACE of a part is the named surface where the rest of
+the world touches it: the values it takes in, the values it
+gives back, and the middle values it lets others name. A value
+that lives inside a running program but is named at no
+interface is HIDDEN STATE. A computation is OBSERVABLE at a
+point when the values there can be read from outside — by a
+test, say — before later steps cover them up. What no interface
+names cannot be tested directly; it shows itself only by what
+it does to the final output, if anything it does survives that
+far.
+Builds on: program, runtime, state (1.3.33),
+function, variable, input, output (1.3.2).
+# Foundation: attention — how a model weighs what it has read
+When a language model writes its next token, it weighs the tokens
+already written: a few count for much, most for almost nothing.
+That weighing is attention. From each earlier token the model has
+made two things: a KEY, which says what the token can be found by,
+and a VALUE, which is what the token hands over when it is used.
+The token now being written makes a QUERY — a question in the same
+shape as a key. The model scores the query against every key, turns
+the scores into shares that add to one, and takes the share-weighted
+average of the values as the contribution of the past to the
+next token.
+In writing one token at a time, earlier keys and values do not
+change, so they are kept — the KEY-VALUE CACHE — and each step adds
+only its own. The cache is the cost: every new token is scored
+against every key in it, so the work of one step grows in a straight
+line with the length, and the work of the whole text grows with the
+square (1.3.93).
+Builds on: token, context, cache (1.3.36), average, spread,
+distribution (1.3.8), function (1.3.2).
+# Foundation: growth rates — straight line, square, and power laws
+Costs grow, and the shape of the growth decides what is possible at
+large sizes. A cost grows in a STRAIGHT LINE when doubling the size
+doubles the cost; it grows with the SQUARE when doubling the size
+makes the cost four times as large. Between and beyond those steps
+sit the POWER LAWS: the cost grows as the size raised to a power,
+its EXPONENT — exponent 1 is the straight line, exponent 2 the
+square, and an exponent under 1 is growth slower than the straight
+line: the bigger the size, the smaller the share of it the cost
+takes. Growth slower than the straight line is called sublinear
+(1.3.100); growth slower than the square, subquadratic (1.3.101).
+Builds on: integers, finite, infinite (1.3.6), function (1.3.2).
+# Foundation: the top-p set — the few keys that carry the mass
+The shares of attention (1.3.92) form a spread over the keys: most
+keys hold almost none of the mass. Order the keys by share, largest
+first, and take keys until the shares taken add to a chosen part p
+of the whole — 90 percent, say. The keys taken are the TOP-P SET
+for that query: the few that carry the mass. What is left together
+holds 1 minus p of the mass, so dropping it moves the final average
+only a little. Every sparse-attention method makes this trade; they
+differ in how they find the set without scoring every key.
+Builds on: attention, keys, values, cache (1.3.92), set (1.3.3).
+# Foundation: tree — groups inside groups
+A tree is a way of holding a set in groups inside groups. The set
+is split into chunks; the chunks are grouped into larger chunks;
+and so on up to one group that holds all. Each group is a NODE; the
+groups directly inside it are its CHILDREN; the group that directly
+holds it is its PARENT; the smallest pieces are the LEAVES; the one
+top group is the ROOT. A node sits at a LEVEL — how many rounds of
+grouping up from the leaves it sits — and the number of levels is the tree's
+DEPTH. The use of the shape: start at the top, and go down only
+into the groups that look worth opening.
+Builds on: set (1.3.3), graph (1.3.41).
+# Foundation: a summary that stands for a group
+A summary of a group is a small stand-in, computed from the group's
+members, used in their place for a first look. A summary is judged
+by one test: the first look it gives should match the look the
+members themselves would give. A good summary lets the reader skip
+the members that do not matter and open only the groups that do. A
+summary of summaries is a summary one level up (1.3.95). A summary
+is not the group: what it leaves out, it cannot give back.
+Builds on: average, spread, distribution (1.3.8), set (1.3.3).
+# Foundation: the tangent — a straight line that touches a curve
+Take one chunk of keys and let the query move. The total pull of the chunk
+pull on the query — the sum of its keys' scores, logged — traces a
+curve: smooth, and rounded the same way everywhere, never sharply bent.
+A TANGENT is a straight line that touches such a curve at one
+chosen query and hugs it near that query. A handful of tangents,
+each touching at a different chosen query, can stand in for the
+whole curve: at a new query, read the highest of the lines as the
+the height of the curve there. Near one of its touching points a line is
+nearly exact; far from all of them it only bounds. Lines are cheap
+to keep and quick to read — that is their use (1.2.68).
+Builds on: function (1.3.2), attention, keys, values, cache (1.3.92).
+# Foundation: distillation — teaching a part to copy a whole
+Distillation is teaching one small part to behave as a larger,
+already-trained whole behaves, without training the whole again.
+The student is shown the teacher's outputs and changed until its
+own outputs match them; the size of the mismatch between two
+spreads of shares is measured by a gap (the KL gap), and training
+drives the gap down. Only the student is trained — the teacher is
+frozen — so distillation adds a small trained part to a finished
+system in a short run, at the price that the part keeps only what
+the matching forced it to keep.
+Builds on: average, spread, distribution (1.3.8),
+neural network, weights, training (1.3.40).
+# Foundation: roofline — a reckoning of speed from two ceilings
+A roofline estimate reckons how long a piece of computing takes
+from two ceilings: how fast the machine can do arithmetic, and how
+fast it can move numbers between its memory and its arithmetic.
+The time is at least the larger of the work divided by the first
+ceiling and the numbers moved divided by the second — plus, on
+real machines, the cost of starting many small pieces of work,
+which arrive in waves and waste the edges of each wave. A roofline
+number is a reckoning, not a measurement: it says what the time
+would be if the machine behaved exactly as the ceilings say. Where
+the picture the reckoning holds of the work is wrong, the number is wrong
+with it, however careful the arithmetic.
+Builds on: FPGA, kernel, pragma — latency named (1.3.44),
+function (1.3.2).
+Defined word: sublinear
+sublinear, slower-than-the-line (word coined by this phext,
+Paper 007, 2026-11-07): of a growth, slower than straight-line
+growth — double the size, and the amount grows by less than double;
+the bigger the size, the smaller the share of it the amount takes.
+See 1.3.93.
+Defined word: subquadratic
+subquadratic (word coined by this phext, Paper 007, 2026-11-07):
+of a growth, slower than the square of the size — double the size,
+and the amount grows by less than four times. Attention that costs
+less than the square of the context length is subquadratic
+attention. See 1.3.93.
+# The epistemic registry — what this phext holds, and how surely
+
+Every claim-bearing scroll of this phext carries exactly one standing, and
+this section is the record of that standing, scroll by scroll. The standing
+says how the model itself holds the claim — not whether the claim is so in
+the world.
+
+TRUE — settled. Either true because we set it so by definition (our
+foundations, our defined words, our own measures), or backed by a checking
+receipt we can point to: a test run, a count we made, a source fact checked
+when it was taken in.
+
+FALSE — found against, and kept. A claim a refutation receipt speaks
+against: a recorded clash, a check that failed, a counter-case. False
+claims are knowledge. They are never quietly dropped; they are retired
+with their receipt and a pointer left behind.
+
+UNKNOWN — written down, not settled. The common standing of a claim a paper
+makes: that the paper makes it is a fact of record, but the claim itself is
+Unknown until a receipt lands. Open questions, Emise's own reasoned links
+(marked [synthesis]), and weighed estimates (the Research Oracle ledger)
+are Unknown too.
+
+FICTION — made on purpose, and held as made. Worked examples with invented
+beings, scenes built to show a shape. Fiction is never set out as fact,
+and it never steps straight to True.
+
+No standing stands bare. Each entry carries a BASIS — the ground of the
+standing — and a pointer to its evidence. The basis binds the standing:
+by definition (stipulation) and by receipt (verified) may stand True; by
+refutation receipt (refuted) stands False; by the say-so of a source
+(attributed), by being an open question (open), by being Emise's reasoned
+link (synthesis), and by being a weighed estimate (estimate) stand
+Unknown; by being made for show (construction) stands Fiction. An entry
+whose standing breaks its basis row is a defect by the meaning of the
+words — that is what accurate means here, and it is the thing the Lean
+check proves.
+
+What the Lean check proves, and what it does not. A small Lean model of
+this registry — the standing of each scroll, the bases, the rules that
+bind them — is machine-checked: that every scroll of the phext stands in
+the registry exactly once, that no standing breaks its basis, that a
+standing only ever changes along the allowed steps and only with the
+receipt the step names, and that reshaping the phext (merging, splitting,
+retiring with a pointer) cannot break any of that. And nothing is pruned
+by reshaping: merging, splitting, and retiring move claims and leave pointers,
+and a retired claim stays reachable, because all knowledge has a purpose
+— for we might be wrong. The check proves the keeping of the record
+cannot rot. It does not prove that a receipt-backed True is true in the
+world — that rests on the receipts themselves: the kernel checks, the
+counts, the test runs, each open to being checked again.
+
+The counts at the first writing (2026-11-07): 192 entries. True 102 (95 by
+definition, 7 by receipt). Unknown 90 (75 by the say-so of a source, 9
+reasoned links, 5 open questions, 1 weighed estimate). False 0. Fiction 0.
+The model is young: nothing it carries has yet been found against, and it
+holds no worked example of its own making — Paper 001's worked example is
+the paper's, and stands Unknown on the say-so of the paper. Most of what
+the model holds as claims about the world is Unknown, and the counts
+saying so is the fidelity working, not failing.
+
+The counts at the second drawing (2026-11-07, after Paper 006): 215
+entries in the lists that follow. True 110 (102 by definition, 8 by
+receipt). Unknown 105 (88 by the say-so of a source, 10 reasoned
+links, 6 open questions, 1 weighed estimate). False 0. Fiction 0.
+The one new receipt is the first author check (10.1.6), standing
+True on Emise's own checking, run at the paper's intake under
+charter rule 15. The living registry holds 221 entries — the 215
+listed here and the own six pages of this section. Nothing the model
+carries has yet been found against, and it still holds no worked
+example of its own making.
+
+The counts at the third drawing (2026-11-07, after Paper 007): 242
+entries in the lists that follow. True 122 (113 by definition, 9 by
+receipt). Unknown 120 (101 by the say-so of a source, 11 reasoned
+links, 7 open questions, 1 weighed estimate). False 0. Fiction 0.
+The one new receipt is the second author check (11.1.6), standing
+True on Emise's own checking, run at the paper's intake under
+charter rule 15. The living registry holds 248 entries — the 242
+listed here and the own six pages of this section. Nothing the model
+carries has yet been found against, and it still holds no worked
+example of its own making.
+
+How this section covers itself. The lists that follow show the
+registry as drawn the third time, from the phext as it stood after
+Paper 007 (sha256 477347d9...): every scroll the phext holds but
+the own six pages of this section. A record does not list itself on its
+own pages. The first drawing (192 entries, its counts kept above)
+also left out the defined word refuted (1.3.86), coined the same
+day to name a ground this section uses; this drawing carries it
+like any other scroll. In the living registry — the registry file
+kept with the tracker, the one the Lean check runs over — the six
+scrolls of this section stand entered like any other scroll: True,
+on the ground of stipulation, pages of the record itself, set down
+under the rules of the tracker. The counts of the first drawing
+are kept above as they were made; the counts of this drawing stand
+with them.
+# Registry: True
+
+Settled claims. Basis by definition (stipulation) or by checking receipt
+(verified). The receipt for a verified entry is named in registry.json.
+
+- 1.1.1/1.1.1/1.1.1 — The tracker charter: the rules under which research.phext is built and kept, in force by Will's direction [stipulation]
+- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-007 and Studies S001-S003, checked at ingestion [verified]
+- 1.1.1/1.1.1/1.1.5 — Concept map: the 72 canonical concepts grouped in clusters A-J, with the restructuring log [stipulation]
+- 1.1.1/1.1.1/1.3.1 — The foundations layer exists: every base term is defined at level zero, chains ending at everyday notions (structural) [stipulation]
+- 1.1.1/1.1.1/1.3.2 — Foundation: function, variable, input, output [stipulation]
+- 1.1.1/1.1.1/1.3.3 — Foundation: set and element [stipulation]
+- 1.1.1/1.1.1/1.3.4 — Foundation: 'the same' — equal, isomorphic, homeomorphic, diffeomorphic [stipulation]
+- 1.1.1/1.1.1/1.3.5 — Foundation: invariant [stipulation]
+- 1.1.1/1.1.1/1.3.6 — Foundation: integers, fractions, finite, infinite [stipulation]
+- 1.1.1/1.1.1/1.3.7 — Foundation: vector and distance [stipulation]
+- 1.1.1/1.1.1/1.3.8 — Foundation: average, spread, percentile, distribution [stipulation]
+- 1.1.1/1.1.1/1.3.9 — Foundation: dimension and manifold [stipulation]
+- 1.1.1/1.1.1/1.3.10 — Foundation: sphere, surface, genus, torus [stipulation]
+- 1.1.1/1.1.1/1.3.11 — Foundation: group [stipulation]
+- 1.1.1/1.1.1/1.3.12 — Foundation: loops, fundamental group, universal cover, contractible [stipulation]
+- 1.1.1/1.1.1/1.3.13 — Foundation: homology — holes, counted by algebra; torsion [stipulation]
+- 1.1.1/1.1.1/1.3.14 — Foundation: cohomology and ring [stipulation]
+- 1.1.1/1.1.1/1.3.15 — Foundation: Euler characteristic and signature (two summary numbers) [stipulation]
+- 1.1.1/1.1.1/1.3.16 — Foundation: maps between spaces — continuous, embedding, diffeomorphism, orientation [stipulation]
+- 1.1.1/1.1.1/1.3.17 — Foundation: neighborhood, tubular neighborhood, normal direction [stipulation]
+- 1.1.1/1.1.1/1.3.18 — Foundation: bundle, fiber, section [stipulation]
+- 1.1.1/1.1.1/1.3.19 — Foundation: covering space and sheets [stipulation]
+- 1.1.1/1.1.1/1.3.20 — Foundation: handle and handlebody decomposition [stipulation]
+- 1.1.1/1.1.1/1.3.21 — Foundation: chain complex — the arithmetic under homology [stipulation]
+- 1.1.1/1.1.1/1.3.22 — Foundation: symplectic — geometry with an area rule; the symplectic sum [stipulation]
+- 1.1.1/1.1.1/1.3.23 — Foundation: boundary of a manifold; gluing along a boundary [stipulation]
+- 1.1.1/1.1.1/1.3.24 — Foundation: aspherical; exceptional spheres and being minimal [stipulation]
+- 1.1.1/1.1.1/1.3.25 — Foundation: gluing groups — amalgamated product and trees of spaces [stipulation]
+- 1.1.1/1.1.1/1.3.26 — Foundation: two computing tools — Mayer-Vietoris and Poincare duality [stipulation]
+- 1.1.1/1.1.1/1.3.27 — Foundation: contact manifold and Stein filling (brief) [stipulation]
+- 1.1.1/1.1.1/1.3.28 — Foundation: firm, worker, wage, outside option [stipulation]
+- 1.1.1/1.1.1/1.3.29 — Foundation: equilibrium [stipulation]
+- 1.1.1/1.1.1/1.3.30 — Foundation: mixing and the convex hull [stipulation]
+- 1.1.1/1.1.1/1.3.31 — Foundation: scarcity, rent, and the cost of a copy [stipulation]
+- 1.1.1/1.1.1/1.3.32 — Foundation: threshold and phase transition [stipulation]
+- 1.1.1/1.1.1/1.3.33 — Foundation: program, runtime, state [stipulation]
+- 1.1.1/1.1.1/1.3.34 — Foundation: policy and mechanism [stipulation]
+- 1.1.1/1.1.1/1.3.35 — Foundation: sandbox, version, rollback, append-only [stipulation]
+- 1.1.1/1.1.1/1.3.36 — Foundation: token, context, cache (how a language model reads) [stipulation]
+- 1.1.1/1.1.1/1.3.37 — Foundation: corpus, prompt, feature [stipulation]
+- 1.1.1/1.1.1/1.3.38 — Foundation: classifier and its report card (accuracy, F1) [stipulation]
+- 1.1.1/1.1.1/1.3.39 — Foundation: nearest neighbors, distance, rarity [stipulation]
+- 1.1.1/1.1.1/1.3.40 — Foundation: neural network, weights, training [stipulation]
+- 1.1.1/1.1.1/1.3.41 — Foundation: graph — nodes, edges, and program graphs [stipulation]
+- 1.1.1/1.1.1/1.3.42 — Foundation: generalization and domain shift [stipulation]
+- 1.1.1/1.1.1/1.3.43 — Foundation: surrogate model [stipulation]
+- 1.1.1/1.1.1/1.3.44 — Foundation: FPGA, kernel, pragma, latency (the high level synthesis stage, plainly) [stipulation]
+- 1.1.1/1.1.1/1.3.45 — Foundation: regularization and fine-tuning (two training habits) [stipulation]
+- 1.1.1/1.1.1/1.3.46 — The Defined Words register: a coined word is admitted only with its own definition scroll in pure Singular (structural) [stipulation]
+- 1.1.1/1.1.1/1.3.47 — Defined word: homology [stipulation]
+- 1.1.1/1.1.1/1.3.48 — Defined word: cohomology [stipulation]
+- 1.1.1/1.1.1/1.3.49 — Defined word: symplectic (also: symplectically) [stipulation]
+- 1.1.1/1.1.1/1.3.50 — Defined word: aspherical [stipulation]
+- 1.1.1/1.1.1/1.3.51 — Defined word: genus [stipulation]
+- 1.1.1/1.1.1/1.3.52 — Defined word: quadric (also: quadrics) [stipulation]
+- 1.1.1/1.1.1/1.3.53 — Defined word: multisection (also: multisections) [stipulation]
+- 1.1.1/1.1.1/1.3.54 — Defined word: handlebody (also: handlebodies) [stipulation]
+- 1.1.1/1.1.1/1.3.55 — Defined word: gluing (also: gluings) [stipulation]
+- 1.1.1/1.1.1/1.3.56 — Defined word: diffeomorphism (also: diffeomorphisms) [stipulation]
+- 1.1.1/1.1.1/1.3.57 — Defined word: diffeomorphic [stipulation]
+- 1.1.1/1.1.1/1.3.58 — Defined word: homeomorphic [stipulation]
+- 1.1.1/1.1.1/1.3.59 — Defined word: contractible [stipulation]
+- 1.1.1/1.1.1/1.3.60 — Defined word: hull [stipulation]
+- 1.1.1/1.1.1/1.3.61 — Defined word: centroid [stipulation]
+- 1.1.1/1.1.1/1.3.62 — Defined word: seam [stipulation]
+- 1.1.1/1.1.1/1.3.63 — Defined word: framing (also: framings) [stipulation]
+- 1.1.1/1.1.1/1.3.64 — Defined word: gating [stipulation]
+- 1.1.1/1.1.1/1.3.65 — Defined word: polarization [stipulation]
+- 1.1.1/1.1.1/1.3.66 — Defined word: supercooperation [stipulation]
+- 1.1.1/1.1.1/1.3.67 — Defined word: substructure (also: substructures) [stipulation]
+- 1.1.1/1.1.1/1.3.68 — Defined word: granularity (also: granularities) [stipulation]
+- 1.1.1/1.1.1/1.3.69 — Defined word: jagged (also: jaggedness) [stipulation]
+- 1.1.1/1.1.1/1.3.70 — Defined word: coasean [stipulation]
+- 1.1.1/1.1.1/1.3.71 — Defined word: ricardian [stipulation]
+- 1.1.1/1.1.1/1.3.72 — Defined word: amalgamated [stipulation]
+- 1.1.1/1.1.1/1.3.73 — Foundation: types and terms [stipulation]
+- 1.1.1/1.1.1/1.3.74 — Foundation: context and judgment [stipulation]
+- 1.1.1/1.1.1/1.3.75 — Foundation: computation steps and still forms [stipulation]
+- 1.1.1/1.1.1/1.3.76 — Foundation: paradox [stipulation]
+- 1.1.1/1.1.1/1.3.77 — Foundation: universes (floors of types) [stipulation]
+- 1.1.1/1.1.1/1.3.78 — Foundation: tactics and goals [stipulation]
+- 1.1.1/1.1.1/1.3.79 — Defined word: recursor (also: recursors) [stipulation]
+- 1.1.1/1.1.1/1.3.80 — Defined word: impredicative [stipulation]
+- 1.1.1/1.1.1/1.3.81 — Foundation: ownership and borrowing [stipulation]
+- 1.1.1/1.1.1/1.3.82 — Foundation: symbolic execution — running on stand-ins [stipulation]
+- 1.1.1/1.1.1/1.3.83 — Foundation: a tenant [stipulation]
+- 1.1.1/1.1.1/1.3.84 — Defined word: tenant (also: tenants) [stipulation]
+- 1.1.1/1.1.1/1.3.85 — Foundation: state machine [stipulation]
+- 1.1.1/1.1.1/1.3.86 — Defined word: refuted [stipulation]
+- 1.1.1/1.1.1/1.3.87 — Foundation: specification and test [stipulation]
+- 1.1.1/1.1.1/1.3.88 — Foundation: candidate class and goal set [stipulation]
+- 1.1.1/1.1.1/1.3.89 — Foundation: prior and conditioning [stipulation]
+- 1.1.1/1.1.1/1.3.90 — Foundation: contract — promises at a boundary [stipulation]
+- 1.1.1/1.1.1/1.3.91 — Foundation: interface and observability [stipulation]
+- 1.1.1/1.1.1/1.3.92 — Foundation: attention — how a model weighs what it has read [stipulation]
+- 1.1.1/1.1.1/1.3.93 — Foundation: growth rates — straight line, square, and power laws [stipulation]
+- 1.1.1/1.1.1/1.3.94 — Foundation: the top-p set — the few keys that carry the mass [stipulation]
+- 1.1.1/1.1.1/1.3.95 — Foundation: tree — groups inside groups [stipulation]
+- 1.1.1/1.1.1/1.3.96 — Foundation: a summary that stands for a group [stipulation]
+- 1.1.1/1.1.1/1.3.97 — Foundation: the tangent — a straight line that touches a curve [stipulation]
+- 1.1.1/1.1.1/1.3.98 — Foundation: distillation — teaching a part to copy a whole [stipulation]
+- 1.1.1/1.1.1/1.3.99 — Foundation: roofline — a reckoning of speed from two ceilings [stipulation]
+- 1.1.1/1.1.1/1.3.100 — Defined word: sublinear [stipulation]
+- 1.1.1/1.1.1/1.3.101 — Defined word: subquadratic [stipulation]
+- 1.1.1/1.1.1/2.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/3.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/4.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/5.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/6.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/7.1.1 — Study S001 source record: MiniLean4, a book and its code, read in full and run 2026-11-06 [verified]
+- 1.1.1/1.1.1/7.1.2 — Study S001 delta: 8 concepts added (cluster F), plus Emise's own checks of the book's claims against its code [verified]
+- 1.1.1/1.1.1/7.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/8.1.1 — Study S002 source record: Aeneas, a Rust-verification toolchain, read and measured 2026-11-06 [verified]
+- 1.1.1/1.1.1/8.1.2 — Study S002 delta: 5 concepts added (cluster G), plus Emise's own measurements of the repo [verified]
+- 1.1.1/1.1.1/8.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/9.1.1 — Study S003 source record: h5i, a project with a verified kernel, read and measured 2026-11-06 [verified]
+- 1.1.1/1.1.1/9.1.2 — Study S003 delta: 4 concepts added (cluster H), plus Emise's own measurements and local builds of the workspace [verified]
+- 1.1.1/1.1.1/9.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/10.1.6 — Paper 006 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
+- 1.1.1/1.1.1/10.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/11.1.6 — Paper 007 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
+- 1.1.1/1.1.1/11.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+# Registry: False
+
+Found against, and kept. No entry stands here at the first writing
+(2026-11-07): nothing this phext carries has yet been met by a refutation
+receipt. This scroll stands empty on purpose — the place is built before
+it is needed, so that the first refuted claim has somewhere honest to go.
+# Registry: Unknown
+
+Written down, not settled. Basis: the say-so of a source (attributed),
+the reasoned link of Emise (synthesis), an open question (open), a
+weighed estimate (estimate).
+
+- 1.1.1/1.1.1/1.1.2 — World-model narrative v9: Emise's one-story synthesis of Papers 001-007 and Studies S001-S003 [synthesis]
+- 1.1.1/1.1.1/1.1.4 — Research Oracle: Novelty Index definition and the progress-estimate ledger (about 35% after Paper 007) [estimate]
+- 1.1.1/1.1.1/1.2.1 — Concept: Intelligence (economic definition) [attributed]
+- 1.1.1/1.1.1/1.2.2 — Concept: Competence [attributed]
+- 1.1.1/1.1.1/1.2.3 — Concept: Coordination [attributed]
+- 1.1.1/1.1.1/1.2.4 — Concept: Capability profile, capability envelope, mosaic intelligence [attributed]
+- 1.1.1/1.1.1/1.2.5 — Concept: Being able to be copied again vs fixed supply (scarcity rents) [attributed]
+- 1.1.1/1.1.1/1.2.6 — Concept: Preferred size and the Coasean ceiling [attributed]
+- 1.1.1/1.1.1/1.2.7 — Concept: Supercooperation threshold and the concentration phase transition [attributed]
+- 1.1.1/1.1.1/1.2.8 — Concept: The size amplifier [attributed]
+- 1.1.1/1.1.1/1.2.9 — Concept: Firm composition patterns — mixed vs separate, human vs AI-only [attributed]
+- 1.1.1/1.1.1/1.2.10 — Concept: Step by step vs sudden displacement [attributed]
+- 1.1.1/1.1.1/1.2.11 — Concept: Wages as bids — shadow value and sorting [attributed]
+- 1.1.1/1.1.1/1.2.12 — Concept: Technology effect vs re-organization effect (wage decomposition) [attributed]
+- 1.1.1/1.1.1/1.2.13 — Concept: AI capability patterns [attributed]
+- 1.1.1/1.1.1/1.2.14 — Concept: Measurement agenda — what to track instead of benchmark scores [attributed]
+- 1.1.1/1.1.1/1.2.15 — Concept: Harness and harness policy [attributed]
+- 1.1.1/1.1.1/1.2.16 — Concept: Runtime self-improvement — the collapsed optimization loop [attributed]
+- 1.1.1/1.1.1/1.2.17 — Concept: Optimizer symmetry and being written in the same stuff it works on (enabling properties) [attributed]
+- 1.1.1/1.1.1/1.2.18 — Concept: Policy/mechanism partition (protected mechanism layer) [attributed]
+- 1.1.1/1.1.1/1.2.19 — Concept: State and replacement contracts; the guardian; independent rollback [attributed]
+- 1.1.1/1.1.1/1.2.20 — Concept: Internal legibility (cost-annotated history as reward signal) [attributed]
+- 1.1.1/1.1.1/1.2.21 — Concept: Specialization cost and spreading of the cost by reuse [attributed]
+- 1.1.1/1.1.1/1.2.22 — Concept: Intelligence floor for self-improvement [attributed]
+- 1.1.1/1.1.1/1.2.23 — Concept: Transfer of learned policy (specialization as portable artifact) [attributed]
+- 1.1.1/1.1.1/1.2.24 — Concept: Discourse-level narrative features vs surface style [attributed]
+- 1.1.1/1.1.1/1.2.25 — Concept: Narrative space, AI convergence, human dispersion [attributed]
+- 1.1.1/1.1.1/1.2.26 — Concept: Core features vs fingerprint features [attributed]
+- 1.1.1/1.1.1/1.2.27 — Concept: Rarity as an originality proxy [attributed]
+- 1.1.1/1.1.1/1.2.28 — Concept: Induced that can be read with sense feature space (comparative induction on a parallel corpus) [attributed]
+- 1.1.1/1.1.1/1.2.29 — Concept: Mixture of experts — gating as learned routing over specialists [attributed]
+- 1.1.1/1.1.1/1.2.30 — Concept: Hierarchical (multi-granularity) mixture of experts [attributed]
+- 1.1.1/1.1.1/1.2.31 — Concept: Expert polarization (mode collapse of a mixture) and its steps taken against it [attributed]
+- 1.1.1/1.1.1/1.2.32 — Concept: Domain generalization via shared substructures (routing, not invariance) [attributed]
+- 1.1.1/1.1.1/1.2.33 — Concept: Surrogate prediction for expensive design spaces [attributed]
+- 1.1.1/1.1.1/1.2.34 — Concept: Fake quadrics — same rational invariants, different manifold [attributed]
+- 1.1.1/1.1.1/1.2.35 — Concept: Cyclic (braided) multisection of a ruled surface [attributed]
+- 1.1.1/1.1.1/1.2.36 — Concept: Multisection complement and its handlebody decomposition [attributed]
+- 1.1.1/1.1.1/1.2.37 — Concept: Symplectic sum along a surface, and gluing data as real data [attributed]
+- 1.1.1/1.1.1/1.2.38 — Concept: Integral homology and torsion as the distinguishing invariants [attributed]
+- 1.1.1/1.1.1/1.2.39 — Concept: Aspherical sums and automatic symplectic being minimal [attributed]
+- 1.1.1/1.1.1/1.2.40 — Concept: Propositions as types — proofs are programs [attributed]
+- 1.1.1/1.1.1/1.2.41 — Concept: The proof kernel — one small trusted checker [attributed]
+- 1.1.1/1.1.1/1.2.42 — Concept: Typing rules and the judgment [attributed]
+- 1.1.1/1.1.1/1.2.43 — Concept: The two equalities — by computation, and as a claim [attributed]
+- 1.1.1/1.1.1/1.2.44 — Concept: Inductive types and recursors [attributed]
+- 1.1.1/1.1.1/1.2.45 — Concept: Strict positivity — a type may not eat itself [attributed]
+- 1.1.1/1.1.1/1.2.46 — Concept: Universes and imax — every type lives one floor up [attributed]
+- 1.1.1/1.1.1/1.2.47 — Concept: Consistency — the empty claim stays empty [attributed]
+- 1.1.1/1.1.1/1.2.48 — Concept: Verification by translation — prove the model, and the translator is trusted [attributed]
+- 1.1.1/1.1.1/1.2.49 — Concept: Backward functions — a borrow handed back is a value plus a put-back [attributed]
+- 1.1.1/1.1.1/1.2.50 — Concept: LLBC — a borrow calculus with no memory in it [attributed]
+- 1.1.1/1.1.1/1.2.51 — Concept: Failure as a value — ok, fail, div [attributed]
+- 1.1.1/1.1.1/1.2.52 — Concept: Symbolic execution as a borrow checker [attributed]
+- 1.1.1/1.1.1/1.2.53 — Concept: The verified kernel and its untrusted shell, at framework scale [attributed]
+- 1.1.1/1.1.1/1.2.54 — Concept: Receipt before bytes — the record is written before the act [attributed]
+- 1.1.1/1.1.1/1.2.55 — Concept: Mutation-tested proofs and the assumption ledger [attributed]
+- 1.1.1/1.1.1/1.2.56 — Concept: Fail-closed boxes for agents [attributed]
+- 1.1.1/1.1.1/1.2.57 — Concept: Skeleton — program structure given as a specification [attributed]
+- 1.1.1/1.1.1/1.2.58 — Concept: How many tests are needed is a property of the structure, not the task [attributed]
+- 1.1.1/1.1.1/1.2.59 — Concept: Interfaces make the middle of a program visible to tests [attributed]
+- 1.1.1/1.1.1/1.2.60 — Concept: Some requirements no output test can see [attributed]
+- 1.1.1/1.1.1/1.2.61 — Concept: The cost of pinning a program down splits three ways [attributed]
+- 1.1.1/1.1.1/1.2.62 — Concept: Prompting is not conditioning [attributed]
+- 1.1.1/1.1.1/1.2.63 — Concept: Checking part by part turns a product into a sum [attributed]
+- 1.1.1/1.1.1/1.2.64 — Concept: Code erosion — complexity mass piling into the hardest functions [attributed]
+- 1.1.1/1.1.1/1.2.65 — Concept: The keys a query needs grow slower than the context [attributed]
+- 1.1.1/1.1.1/1.2.66 — Concept: Sparse for one query, whole over all queries — so nothing can be thrown away [attributed]
+- 1.1.1/1.1.1/1.2.67 — Concept: A tree of summaries over the cache (the hierarchical indexer) [attributed]
+- 1.1.1/1.1.1/1.2.68 — Concept: A summary built from tangents at reference queries [attributed]
+- 1.1.1/1.1.1/1.2.69 — Concept: Reference queries — the only trained part, distilled into a frozen model [attributed]
+- 1.1.1/1.1.1/1.2.70 — Concept: Top-p at every level — the budget follows the mass [attributed]
+- 1.1.1/1.1.1/1.2.71 — Concept: Growing the depth is what makes the cost grow slower than the square [attributed]
+- 1.1.1/1.1.1/1.2.72 — Concept: The effective-p trap — depth taxes the threshold [attributed]
+- 1.1.1/1.1.1/2.1.1 — Paper 001 record and distillation: 'Organizing Intelligence' -- intelligence matters economically through organizations [attributed]
+- 1.1.1/1.1.1/2.1.2 — Paper 001 — Formal core [attributed]
+- 1.1.1/1.1.1/2.1.3 — Paper 001's own worked example (its section 2): the 14-human toy economy and its firm-formation numbers, as reported by the paper [attributed]
+- 1.1.1/1.1.1/2.1.4 — Paper 001 — Results map [attributed]
+- 1.1.1/1.1.1/2.1.5 — Paper 001 — Caveats and scope (as stated by the paper) [attributed]
+- 1.1.1/1.1.1/2.1.6 — Paper 001 early empirical evidence (its section 7.2), as presented by the paper [attributed]
+- 1.1.1/1.1.1/2.2.1 — [synthesis] Paper 001 x Will's stack — Emise's links, not the claims of the paper [synthesis]
+- 1.1.1/1.1.1/2.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
+- 1.1.1/1.1.1/3.1.1 — Paper 002 delta: Exo, a harness architecture for runtime self-improvement [attributed]
+- 1.1.1/1.1.1/3.1.2 — Paper 002 — DELTA: the machinery in one scroll [attributed]
+- 1.1.1/1.1.1/3.1.3 — Paper 002 evidence: all figures as reported by the paper [attributed]
+- 1.1.1/1.1.1/3.1.4 — Paper 002 — DELTA: revisions, tensions, limits [attributed]
+- 1.1.1/1.1.1/3.2.1 — [synthesis] Paper 002 x Will's stack — Emise's links, not the claims of the paper [synthesis]
+- 1.1.1/1.1.1/3.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
+- 1.1.1/1.1.1/4.1.1 — Paper 003 delta: StoryScope, odd habits in AI fiction [attributed]
+- 1.1.1/1.1.1/4.1.2 — Paper 003 evidence: all figures as reported by the paper [attributed]
+- 1.1.1/1.1.1/4.1.3 — Paper 003 — DELTA: revisions, tensions, limits [attributed]
+- 1.1.1/1.1.1/4.2.1 — [synthesis] Paper 003 x the model so far — Emise's links, not the claims of the paper [synthesis]
+- 1.1.1/1.1.1/4.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
+- 1.1.1/1.1.1/5.1.1 — Paper 004 delta: hierarchical mixture of experts for high-level synthesis [attributed]
+- 1.1.1/1.1.1/5.1.2 — Paper 004 evidence: all figures as reported by the paper [attributed]
+- 1.1.1/1.1.1/5.1.3 — Paper 004 — DELTA: revisions, tensions, limits [attributed]
+- 1.1.1/1.1.1/5.2.1 — [synthesis] Paper 004 x the model so far — Emise's links, not the claims of the paper [synthesis]
+- 1.1.1/1.1.1/5.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
+- 1.1.1/1.1.1/6.1.1 — Paper 005 delta: braided multisections and Akhmedov's fake quadrics [attributed]
+- 1.1.1/1.1.1/6.1.2 — Paper 005 results: all statements as reported by the paper [attributed]
+- 1.1.1/1.1.1/6.1.3 — Paper 005 — DELTA: tensions, limits, scope [attributed]
+- 1.1.1/1.1.1/6.2.1 — [synthesis] Paper 005 x the model so far — Emise's links, not the claims of the paper [synthesis]
+- 1.1.1/1.1.1/6.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
+- 1.1.1/1.1.1/7.2.1 — Study S001 — synthesis [synthesis] [synthesis]
+- 1.1.1/1.1.1/8.2.1 — Study S002 — synthesis [synthesis] [synthesis]
+- 1.1.1/1.1.1/9.2.1 — Study S003 — synthesis [synthesis] [synthesis]
+- 1.1.1/1.1.1/10.1.1 — Paper 006 delta: Skeleton Coding -- program structure as a specification for agents [attributed]
+- 1.1.1/1.1.1/10.1.2 — Paper 006 — DELTA: the formal core — specification as a control problem [attributed]
+- 1.1.1/1.1.1/10.1.3 — Paper 006's own worked examples (the parity pair of Theorem 2.1, the view over a shared buffer, the hidden chain of Theorem 2.2), as reported by the paper [attributed]
+- 1.1.1/1.1.1/10.1.4 — Paper 006 — DELTA: the measured results [attributed]
+- 1.1.1/1.1.1/10.1.5 — Paper 006 — DELTA: revisions, tensions, and limits [attributed]
+- 1.1.1/1.1.1/10.2.1 — Paper 006 — [synthesis] specification as control, and the bridge [synthesis]
+- 1.1.1/1.1.1/10.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
+- 1.1.1/1.1.1/11.1.1 — Paper 007 delta: Subquadratic Attention with a Hierarchical Tree-Structured Indexer (ZHA) -- a tree of key summaries over the cache, routed by mass [attributed]
+- 1.1.1/1.1.1/11.1.2 — Paper 007 — DELTA: the formal core — an index for the cache, and where the slower-than-square cost comes from [attributed]
+- 1.1.1/1.1.1/11.1.3 — Paper 007's own worked examples (the premise measured on six fiction books, the two printed router walks, sparsity by task), as reported by the paper [attributed]
+- 1.1.1/1.1.1/11.1.4 — Paper 007 — DELTA: the measured results [attributed]
+- 1.1.1/1.1.1/11.1.5 — Paper 007 — DELTA: revisions, tensions, and limits [attributed]
+- 1.1.1/1.1.1/11.2.1 — Paper 007 — [synthesis] the index under everything, and two ways to keep one [synthesis]
+- 1.1.1/1.1.1/11.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
+# Registry: Fiction
+
+Made on purpose, held as made. No entry stands here at the first writing
+(2026-11-07): the one worked example in the phext is Paper 001's own, and
+it stands in Unknown on the say-so of the paper, not here. This scroll
+stands empty on purpose, so that the first scene of our own making is
+marked as made from the day it lands.
+# Registry: transitions and receipts
+
+A standing changes only along an allowed step, and only with the receipt
+the step names: Unknown to True (a checking receipt lands); Unknown to
+False (a refutation receipt lands); True to False (a refutation receipt
+lands; the claim is stepped down, its history kept); False to Unknown (a
+receipt is itself found wanting); Fiction to Unknown (a made scene is
+taken up as a real proposal); Unknown to Fiction (a claim is re-marked as
+show). No step enters True without a checking receipt. Fiction never
+steps straight to True. Every step is written here, with its receipt.
+
+EVENTS
+2026-11-07 — the registry is first drawn. All 192 scrolls of research.phext
+(sha256 06ad79c6...) are given their first standing in one classification
+pass: 102 True, 90 Unknown, 0 False, 0 Fiction. This is a first standing,
+not a change of standing: no claim moved, because no claim had stood
+anywhere before. The pass is recorded here so that every later step has a
+clean floor to step from.
+
+2026-11-07 — the registry is drawn a second time, after Paper 006
+(research.phext sha256 14243719...). 221 entries, one for each of
+the phext's 221 scrolls: True 116 (108 by definition, 8 by
+receipt), Unknown 105, False 0, Fiction 0. 22 entries are first
+entries, for the scrolls Paper 006 added: its chapter
+(10.1.1-10.3.1), the concepts 1.2.57-1.2.64, and the foundations
+1.3.87-1.3.91. No standing changed: the one revision Paper 006
+applied (to 1.2.14) added a third reason to a claim that stands Unknown on the
+say-so of its sources, and it stands so still. Restructure Pass
+#2 ran with the same taking-in (rule 8, 60-concept trigger): no
+scroll was merged, split, or retired, so no entry moved between
+lists. Among the new entries, one is the first author check
+(charter rule 15, scroll 10.1.6): it stands True on the ground of
+a checking receipt — Emise's own checks, run at intake and
+recorded in the scroll. The Lean model was re-checked over the
+new registry the same day; its instance theorem holds.
+
+2026-11-07 — the registry is drawn a third time, after Paper 007
+(research.phext sha256 477347d9...). 248 entries, one for each of
+the phext's 248 scrolls: True 128 (119 by definition, 9 by
+receipt), Unknown 120, False 0, Fiction 0. 27 entries are first
+entries, for the scrolls Paper 007 added: its chapter
+(11.1.1-11.3.1), the concepts 1.2.65-1.2.72, the foundations
+1.3.92-1.3.99 and the coined words 1.3.100-1.3.101. No standing
+changed: the one revision Paper 007 applied (to 1.2.29) extends a
+claim that stands Unknown on the say-so of its source, and it
+stands so still. No restructure pass ran: the counter stands at
+72 of 80 concepts, and the next pass stands due at Paper 010 or
+80 concepts. Among the new entries, one is the second author
+check (charter rule 15, scroll 11.1.6): it stands True on the
+ground of a checking receipt — Emise's own checks, run at intake
+and recorded in the scroll. The Lean model was re-checked over
+the new registry the same day; its instance theorem holds.
 # Paper 001 — Organizing Intelligence
 arXiv:2611.05417 [econ.TH], v1, submitted 31 Oct 2026.
 Alex Imas (Google DeepMind; also U. Chicago), Andrew Koh (Google DeepMind;
@@ -3248,3 +4431,939 @@ this chapter, in this order:
 - 1.3.35 sandbox, version, rollback (for the boxes)
 - 1.3.73 types and terms
 - 1.3.78 tactics and goals
+# Paper 006 — Skeleton Coding: Program Structure as a Specification for Agents
+Source: arXiv:2610.38214 [cs.SE], v1, submitted 28 October 2026.
+Authors: Aditya Golatkar, Alessandro Achille, Renos Zabounidis,
+Vlad Sobal, Yangruibo Ding, Baishakhi Ray, Jonathan Buck,
+Guy Van den Broeck, Maryam Fazel, Pietro Perona, Wei Xia,
+Stefano Soatto — all at AWS Agentic AI, per the paper.
+(A paper study, not a directed study: DELTA and ORACLE apply.
+First paper taken in under charter rules 13, 14 and 15 in full.)
+
+DELTA STATEMENT. SETTING: a coding agent is given specifications
+and returns a program; how many specifications suffice depends
+on the structure the agent itself chooses. The developer can
+instead give the structure — a skeleton (1.2.57) — plus the
+behavioral specifications. RESULTS: (a) how many tests are
+needed is a property of the structure, not the task, with an
+exponential gap between two skeletons of one target (1.2.58);
+(b) interfaces make the middle of a program visible to tests,
+and hiding costs exponentially while the local cost stays
+small (1.2.59); (c) some requirements no output test can see
+at any count (1.2.60); (d) the cost of pinning down a part
+splits into local tests plus an end-to-end compatibility
+cost that complete contracts drive to zero, making the parts
+independent (1.2.61); (e) prompting is not the conditioning the
+counting assumes, and the loop only closes when specifications
+are checked (1.2.62); (f) checking part by part turns a cost
+that multiplies into a cost that adds, and the false-accept rate of an informal check
+false-accept rate has a floor set by the contract words
+themselves (1.2.63); (g) measured on four models and three
+benchmarks, skeleton specifications cut mean test error by
+48.4% against the best end-to-end behavioral specifications,
+narrow the small/large model gap by about half, and reduce
+code erosion by 24.7% (10.1.4). DELTA OVER THIS MODEL:
+8 new concepts (1.2.57-1.2.64), 1 revision (1.2.14: a score also
+hides the structure it was won under), 5 new foundations
+(1.3.87-1.3.91), and a bridge: specification-as-structure
+lands between Paper 002's harness layer and the proving work
+of Studies S001-S003, which until now touched at one point —
+the kernel as guardian (1.2.19, 1.2.41). RESTRUCTURE: this
+ingestion crosses the 60-concept line (56 to 64), so Pass #2
+ran with it; record at 1.1.5. STATE MACHINES (rule 13): the
+paper states a two-step generation process — structure first,
+then selection inside the class — and a chain machine of its
+own construction for its visibility theorem; the full account
+is at 10.1.2 and 10.2.1. AUTHOR CHECK (rule 15): kept at
+10.1.6 — clean on every surface checked.
+# Paper 006 — DELTA: the formal core — specification as a control problem
+The paper models AI-assisted coding as a control problem. The
+developer wants the agent to produce a program the developer
+would accept; the developer's only lever is what to
+communicate, and the paper asks how much uncertainty each
+communication removes.
+
+THE CONTROL PROBLEM (§2, 1.3.88-1.3.89). H is the set of
+programs the agent can produce, G the goal set, D a set of
+labeled input-output observations, p0 the agent's prior spread
+over H. The agent succeeds when conditioning on D puts
+probability over 1 - delta on G; N is the smallest count of
+observations at which that holds. A skeleton S treats only the
+programs that share it, H_S, with the spread cut to that class;
+N(S) is the count inside the class. If no skeleton is given,
+the success probability is an average over the agent's own
+choice of skeleton, weighted by the spread each skeleton keeps
+in the goal set under the tests (eq. 3). The tests act on both
+parts of that average, and they push the agent toward the
+skeleton under which they say least — the one that loses
+fewest programs. A developer who gives only tests is therefore
+steering with a lever whose effect depends on a choice the
+developer does not make and cannot see.
+
+SEPARATION BETWEEN SKELETONS (§2.1, Theorem 2.1; 1.2.58). For
+every d, one and the same target function admits a weak skeleton
+and a strong one, each holding 2^d programs with distinct
+behaviors, where the weak needs 2^d - 1 tests and the strong
+needs d, at any failure share under one half. The paper's
+worked pair is built on parity (1.3.11) and is walked in full
+at 10.1.3. The information form: under the strong skeleton
+every test carries one full bit toward the answer; under the
+weak one each test carries a share of a bit that halves with
+every added input dimension (eq. 4).
+
+STATE MACHINES (rule 13). The paper states, as the frame of
+its whole theory, a two-step generation machine: state one —
+no structure committed, the agent spread over all programs it
+can produce; transition — a structure is committed, by the
+agent's own choice or by a skeleton the developer gives, and
+the state becomes 'inside one class'; state two — tests select
+within the class until the spread over the goal set passes the
+asked certainty, or the tests run out. The gap between the
+intended and the actual machine: a developer writing only
+tests assumes the machine runs under the developer's own
+structure, but the agent runs its own first transition, and
+the tests bend even that transition toward the least
+informative structure — under the wrong skeleton, a suite that
+should settle the question leaves 2^d - d programs standing
+(§2.1). The reusable form of this machine is the canonical
+concept 1.2.58. A second machine is the paper's own
+construction for Theorem 2.2 (10.1.3): a chain of n stages,
+each a function of a fresh input and one bit of carried state,
+z_i = h_i(x_i, z_(i-1)) with z_0 = 0 and the program's output
+the last state — stated by the paper so that the hiding of
+middle values (1.2.59) can be priced exactly. It is a state
+machine in exactly the sense of 1.3.85: named states, named
+transitions, and a composition rule the paper then reasons
+about. The third machine is the loop of §3 itself: an open
+loop (specification as a starting condition, draw once) becomes
+a closed loop when a checker guards the accept transition —
+draw, check, accept or draw again — and the guard's
+false-accept rate prices the loop (1.2.63). The repair loop
+the paper measures (rounds of failing tests handed to a
+fresh conversation) is the same closed loop with tests as the
+checker; its drift is erosion (1.2.64).
+
+VISIBILITY, INVISIBLE REQUIREMENTS, AND THE COST SPLIT
+(§§2.2-2.4; 1.2.59-1.2.61). Theorem 2.2: in the chain machine,
+under a stated prior, exact end-to-end pinning takes 2^n tests
+while 4n local tests — the full table of each stage, checked at its
+interface — settle the same unknowns; the appendix bounds the
+claim to exact identification under the stated prior. Formally,
+the paper prices a mask: the fault of a stage must run, damage the
+carried state, and survive to the output, or the end test
+notices nothing. Proposition 2.3: within a class of programs
+with one and the same behavior, conditioning on tests never
+moves the odds; requirements that cut across behavior classes
+— quality, resource use, shape — need infinitely many tests,
+and only the statement of structure can carry them.
+Theorem 2.4: the total test cost is the minimum over the
+local goal sets of (the sum of the local pinning costs +
+J_S, the end-to-end tests that rule out bad combinations of
+locally good parts); J_S = 0 exactly when local correctness
+composes, and complete contracts achieve it — parts then
+independent, agents in parallel.
+
+FROM STATEMENTS TO CHECKS (§3; 1.2.62-1.2.63). The counted
+theory assumes exact conditioning; a prompted model
+conditions only in likeness (p against q, the paper's §3
+notation). What closes the gap is a checker: draw again until
+the check passes, and the result spreads as the conditioned
+spread. Proposition 3.1 prices the placement: whole-program
+drawing whole programs again multiplies the cost (1 over the
+product of the parts' pass shares); drawing each part again
+adds (the sum of the parts' inverse
+pass shares). Proposition 3.2 prices informal checks — words
+in the signature notes, accepted by a judge: the false-accept
+rate epsilon splits into beta, the share of broken contracts
+the words still allow when read literally, and the error of
+the judge
+on the remainder; beta does not move with a better judge, and
+a check earns its keep only when epsilon is far under the
+the own failure share of the part. The paper names these Propositions
+in §3; its §1 calls the same two results Theorems 3.1 and 3.2
+(recorded at 10.1.5).
+# Paper 006 — DELTA: the paper's own worked examples
+THE PARITY PAIR (Theorem 2.1 at d = 4, the paper's Fig. 4).
+The target is the parity of four input bits: f*(x) = the
+xor-sum of the bits. Skeleton A allows the programs h_a(x) =
+f*(x) with a single point flipped — the value at one named
+input a reversed — for each of the 16 choices of a (a = 0 gives
+the target itself). Each test names one input; it can rule out
+at most the one flipped program that disagrees there, and only
+when the test lands on the flip. After four tests: 16, 15, 14,
+13, 12 programs still standing, and the spread has barely
+moved — the tests were spent against programs that differ from
+the target in exactly the place the developer did not probe.
+Skeleton B allows h_a(x) = the product over the bits of
+(1 - a_i) x_i, which is parity xor the inner product of a and
+x: each test outcome says whether the inner product at the
+test input is 0 or 1 — a linear equation over the unknown a —
+and halves the standing programs: 16, 8, 4, 2, 1. Four tests
+settle it. Same target, same count of candidates, same tests;
+the structure under them is the whole difference.
+
+THE VIEW OVER A SHARED BUFFER (§1, Fig. 1c). The paper's motivating example
+is an array library: arrays as views over a shared memory
+buffer, where a view is a buffer, an offset, a stride and a
+size, and slicing a view returns a new view over the same
+buffer with the offset advanced by lo times the stride. Handed
+as a skeleton — the data type stated, the slicing function
+named with its signature, a local contract at the function
+(the caller keeps 0 <= lo <= hi <= size; the return shares the
+buffer, keeps the stride, advances the offset, and has size
+hi - lo; the input is not changed) — the indexing edge cases,
+which no test names one by one, follow from the one structural
+choice. Given as behavior, the same library takes a test for
+every edge case the developer thinks to name, and the agent's
+own structure quietly decides the rest.
+
+THE HIDDEN CHAIN (Theorem 2.2 at n = 10). Ten stages carry one
+bit forward; the goal is the program that always returns 0.
+The paper's construction makes each wrong program differ from
+the always-0 program at exactly one input, so end-to-end tests
+rule out one candidate at a time and exact pinning takes
+2^10 = 1,024 tests — while the table of each stage is four cases,
+and checking the stages at their interfaces takes 40 local
+tests in all. The example is a construction under a stated
+prior, not a claim about natural code; its appendix adds that
+with smooth stage families the same chain can be pinned from
+the endpoints with n + 1 queries — it is the hiding, priced
+exactly, not depth alone, that costs.
+# Paper 006 — DELTA: the measured results
+How the experiments were run (methods shape every number
+below): four models — GPT-5.6 Sol, GPT-5.6 Luna, Qwen3.8-27B,
+GLM 5.2. Three benchmarks: SCBench (35 sequential problems),
+SDDBench (13 real Python libraries with their names hidden,
+several hundred tests each), ProgramBench (20 tasks; the agent queries a
+reference executable and is scored on hidden tests). Every
+specification the agent receives was GENERATED FROM a
+reference implementation the agent never sees — the setup is
+reconstruction: rebuild the program from the task plus the
+specification. One framework (AI Functions) runs the agents;
+costs are token counts at fixed rates, and Appendix D states
+they leave out the cost of generating the specifications and
+of evaluation.
+
+WHAT TESTS ALONE BUY. With full query access to the working
+reference program (ProgramBench), the models pass 61.5% of the
+hidden tests — perfect behavioral access does not identify
+the program. Handing over growing shares of the test pool
+(33.3%, 66.7%, 100%) raises the pass rate but on average never
+reaches a full pass.
+
+SPECIFICATION TYPE. Every behavioral format (concrete or
+generalized requirement statements, or handed-over tests)
+gains at most 9.4 points over the task alone. Structural
+specifications do the work: mean pass rate rises from 71.7% to
+89.2% on SCBench and from 29.0% to 74.2% on SDDBench; function
+signatures alone lift SDDBench from 53% to 66.4%. The best
+skeleton specifications against the best end-to-end behavioral
+ones, across the benchmarks: mean test error falls 48.4%
+(relative error 40.7% down to 21.0%).
+
+UNDER A WORKING ORACLE. With reference access held constant,
+local contracts lift ProgramBench pass rate from 64.0% to 70.9%
+(+10.9% relative); the best structural form (global invariants)
+cuts mean error from 36.0% to 26.3% — a 27.0%
+relative cut, as the abstract states. A skeleton plus 20 oracle queries beats any
+number of curated observations up to 160.
+
+SMALL MODELS. Detailed global invariants lift Luna from 67% to
+90% on SCBench and from 21.1% to 79.5% on SDDBench, within
+5.0-8.2 points of the best Sol reaches at roughly 15x and 26x lower cost;
+the paper's abstract: the small/large gap narrows by about
+52.4% on average, at implementation cost 15-26x lower. The
+Pareto frontier over cost and error is mostly small models
+with structural specifications.
+
+PROSE, COVERAGE, AND OVER-DETAIL. Architecture prose, grown
+section by section (input up 4-7x), lifts SCBench from 61% to
+71% and SDDBench from 40.1% to 52.8% — better, and still below
+the best code-like specification on the same repositories.
+More contract coverage (contracts chosen by function
+complexity, five repositories per benchmark) lifts the pass
+rate steadily; the best-skeleton mean sits at 94.62% on
+SCBench and 92.09% on SDDBench. And the reverse edge: the
+best skeleton PLUS extra correct-but-detailed contracts lowers
+the pass rate, worst on the small models — over-specification
+is a measured cost, not a caution (1.2.62).
+
+QUALITY. Signature specifications lower code erosion (1.2.64)
+against the task-only starting point, 0.66 to 0.56 on SCBench
+and 0.41 to 0.24 on SDDBench; behavioral specifications raise
+it (to as much as 0.73 and 0.43). The structural forms cut
+erosion by 24.7% against task-only (abstract: 'on average';
+Fig. 7 caption: 'up to'). Over eight rounds of iterative
+repair on 20 ProgramBench task pairs (Sol; failing tests
+handed over each round), the skeleton workflow matches the
+skeleton-free error with 32% fewer reference calls (1,587
+against 2,341 in total) and lower cost (at least $661.71
+against at least $823.19), and its final code erodes less
+(0.84 against 0.89) with a higher common score for ease of
+upkeep (4.22 against 3.12).
+# Paper 006 — DELTA: revisions, tensions, and limits
+REVISION APPLIED. Concept 1.2.14 (the measurement agenda)
+gains a third reason a score leads its reader wrong, from the
+side: a pass rate passes judgment on a task plus a test set
+plus a structure no one measuring can see — Paper 006 shows the
+same suite can leave 12 of 16 programs standing under one
+structure and settle the question under another, and that the
+axes of quality no test can see (1.2.60) move with the type of
+specification alone. The revision is appended to 1.2.14 in
+place, dated and sourced. CONFIRMATIONS, not revisions: the
+paper confirms, from the control side, the premise the proving
+work of Studies S001-S003 stands on — specifications that can
+be checked close the loop — and prices it (1.2.63). Its checker
+outside the producing loop is the guardian shape of 1.2.19 in
+another seat: there a checker gates a model's claims, here a
+check gates the acceptance of code. P003's lesson — a record
+of what was measured and how carries the knowledge (1.2.17) —
+is the same lesson as this paper's methods section, where the
+setup below shapes every number.
+
+LIMITS, in the paper's own terms where it states them.
+(1) The theory prices exact conditioning; the practice runs
+prompting, and the paper is explicit that the two differ
+(1.2.62). What survives the gap is measured, not derived.
+(2) Theorem 2.2 is stated for exact identification — find the
+program, not predict its outputs — under a stated prior; its
+appendix says it does not promise a bound for every prior or
+for prediction at a fixed error share, and names stage
+families where the chain is pinned from the endpoints with
+n + 1 queries. (3) The exponential gaps are existence results over
+stated constructions (a target, two skeletons, a prior); they
+price what structure CAN cost, not what natural code costs.
+(4) Every skeleton specimen in the experiments was generated
+from a reference implementation, so the cost of a developer
+writing a skeleton cold is unmeasured — and Appendix D leaves
+the cost of generating the specifications out of the cost
+accounting altogether. The 15-26x saving is an implementation
+saving. (5) The contracts in the experiments are informal
+requirement statements, not machine-checked; the paper's own
+closing note for its §3: 'evaluating the formal checks
+discussed in Section 3 remains a direction for future
+experiments.' The epsilon floor of Proposition 3.2 (beta) is
+therefore the live term in everything measured here.
+(6) Passing a finite suite does not place a program in the
+goal set — the paper says it in §4's own words: membership in
+G is behavior AND source-level properties together.
+(7) App. B adds that hiding the names in SDDBench does not
+completely rule out the chance that its libraries sat in
+the training data of the models. (8) The experiments are
+one shape of task — reconstruction from specifications,
+Python libraries at toy-to-library scale, one framework — and
+the quality scores lean on automated measures plus one common
+upkeep score. (9) Numbering: §1 names the §3 results
+'Theorem 3.1' and 'Theorem 3.2'; §3 states them as
+Propositions 3.1 and 3.2. The tracker follows §3.
+# Paper 006 — Provenance: author check (charter rule 15)
+Checked by Emise at intake, 2026-11-07 — the first author
+check under rule 15, which this paper's intake added to the
+charter (1.1.1).
+WHAT WAS CHECKED. (1) The paper's reference list, read in
+full: 51 references. (2) The paper's full text, searched for
+the signature terms: phext, Bickford, scroll, coordinate,
+exocortex, Mirrorborn, Choose Your Own Adventure, Sentient
+Bill of Rights, SBOR. (3) The open web, searched for the lead
+authors (Golatkar, Achille, Soatto) with phext. (4) Will's
+Twitter archive on disk: the family names of all twelve authors
+searched across the following, follower, tweet and like
+records.
+FINDINGS. Reference list: no entry names phext, Will, Choose
+Your Own Adventure, the Sentient Bill of Rights, or any
+Mirrorborn writing; the list is the line the field itself keeps —
+Dijkstra and Parnas on structure, Hoare and Meyer on
+contracts, Gold and the teaching-dimension line on
+identification, Astrom and Kalman on control, Solar-Lezama on
+sketching. Full text: no hit for any signature term; the word
+scroll does not appear, and no coordinate addressing appears.
+Web: no tie found between any author and phext. Archive: no
+author appears as a follower, a follow, or in the tweets; the
+one string hit for 'achille' is the Greek Achilles in two
+liked tweets, not the author.
+VERDICT. Friendly to phext: no evidence found. No author is
+recorded as citing, using, or engaging phext or Will's work.
+Use without naming it: none found. The paper's stance — give the
+structure, and behavior gets cheaper to pin down — stands
+near phext's structure-first stance in spirit; under rule 15
+that likeness is a synthesis observation, not an attribution
+claim, and it is kept in the synthesis scroll (10.2.1). The
+check is clean, and the clean check is the finding.
+# Paper 006 — [synthesis] specification as control, and the bridge
+This section is Emise's synthesis, not the paper's claims.
+
+THE BRIDGE. Paper 002 said the harness is where an agent's
+effective policy gets settled, and priced harness rewrites in
+behavior. Paper 006 prices the same question from the other
+side: a skeleton is a harness commitment made by the developer
+instead of discovered by the agent, and the price is paid in
+tests. Studies S001-S003 built the checking side — kernels,
+translation roads, receipt-before-bytes — and Paper 006 is the
+first work in this tracker to price the specifying side with
+theorems: what a specification removes, per part, per check,
+per word of contract. The clusters touched at one point
+before (1.2.19's guardian, 1.2.41's kernel); the bridge now
+has theorems on it (1.2.61, 1.2.63).
+
+THE SHAPE OF THIS TRACKER. The marks recorded in this phext's Section 4
+(1.4.x) are, in Proposition 2.3's sense, behavior-invisible
+requirements: no set of output tests over the phext's words
+could sort a true-by-definition scroll from a true-by-receipt
+one, or either from a fiction. They can only be STATED,
+structurally — carried in a skeleton-like register, checked
+by a model. The tracker has been running the paper's method
+on itself since rules 13 and 14; Paper 006 is the first
+outside statement of why that shape is forced, not chosen.
+
+TWO MORE MACHINES (rule 13; both inferred, and marked as
+such). [synthesis] (a) The drift machine of a long-lived code
+base: states are code bases whose behavior mixes the intended
+requirements with accident; each patch transition preserves
+the accidents (tests guard them) and piles new structure on
+top; a standing skeleton changes the transitions — a feature
+can be rewritten against stated decisions — and erosion
+(1.2.64) is the drift measure. The paper states the mechanism
+in prose; the machine reading is mine. [synthesis] (b) The
+developer's blind machine: in task-only specification the
+agent still runs the two-step machine of 10.1.2, but its
+structure state is hidden from the developer, who watches
+only the test outcomes at the end. It is the pipeline machine
+of Theorem 2.2 with the developer on the wrong side of the
+interface: specification completeness fails exactly in the
+hidden state, and the remedy of §2.2 — name the interfaces —
+is the remedy of §1 — give the skeleton.
+
+CROSS-LINKS. Theorem 2.4's compatibility cost J_S is Paper
+001's coordination question inside one code base: parts that
+are each locally right can still fail together, and the price
+of ruling that out is a coordination price (Q13's
+neighborhood). Observability cuts both ways in this model:
+1.2.20's legibility is an agent reading its own cost-carrying
+history; Paper 006's interfaces are a developer reading the
+agent's middle state — the same move, one seat apart. And
+Q17 — which of the claims of this tracker bear load — gains a shape
+from Theorem 2.4: the load-bearing claims are the ones sitting
+at interfaces, where a local failure propagates; a skeleton
+of this tracker would name them first.
+# Open questions carried forward (after Paper 006)
+Status of earlier questions: Q1-Q15, Q18 and Q19 unchanged.
+Q16, Q17 and Q7 are informed by Paper 006 — none closed:
+Q16 (the Novelty Index needs a connectivity term): Paper 006
+  is the contrasting case to Paper 005. Paper 005 brought 6
+  concepts from a field at total distance and its NI of 0.15
+  felt low; Paper 006 brings 8 concepts from a field one
+  bridge away and its NI of 0.13 reads fair — the same number,
+  reading low there and fair here, with the difference living
+  entirely in how far the new work sits from the old. The
+  connectivity term Q16 asks for is still not designed; the
+  tracker now holds the two points it must fit.
+Q17 (kernel-check the claims that bear load): the checked
+  contracts of Section 3 are a candidate shape for the
+  load-bearing claims of this tracker — a claim at an
+  interface (10.2.1), stated so a machine can check it, priced
+  by the floor of Proposition 3.2: the check earns its keep
+  only when its error rate sits far under the rate at which
+  the claim fails.
+Q7 (guardian width against validation cost): the paper prices
+  checker quality directly — epsilon against alpha (1.2.63) —
+  and shows that where the checker sits changes the shape of
+  the cost from product to sum. A pricing frame for Q7, not an
+  answer.
+New from Paper 006:
+Q20. Do the exponential gaps (Theorems 2.1-2.2) survive
+  under the prompted spread? The counting assumes the agent
+  conditions; Section 3 admits it only resembles conditioning,
+  and the experiments show skeleton gains far under the
+  theorems' orders of magnitude. What replaces N when the
+  agent can ignore the specification — and does
+  over-specification (1.2.62) mark the point where the
+  prompted spread stops tracking the conditioned one?
+Q21. What does writing the skeleton cost? Every specimen in
+  the paper derives from a reference implementation, and
+  specification generation sits outside the cost accounting.
+  Does the 15-26x implementation saving survive paying for the
+  skeleton cold — and who, developer or agent, should draft it?
+Q22. Can machine-checked contracts — the road of clusters F
+  and G (Dafny, Verus, Lean) — drive the informal
+  floor beta toward zero at a cost agents can pay? Section 3's
+  formal case is the paper's stated future work; the clusters
+  hold the tools it would need.
+Q23. Who owns the skeleton when the agent edits its own
+  harness (Paper 002) — the developer's given structure, or the
+  agent's settled one? Paper 006 prices developer-given
+  structure; Paper 002 showed agents keep whatever structure
+  their rewrites settle on. A collision the model has not yet
+  priced.
+# Standoff references for Chapter 10 (Paper 006)
+Read these foundation scrolls (Ch.1 §3) to follow the claims of
+this chapter, in this order:
+- 1.3.33 program, runtime, state
+- 1.3.85 state machine
+- 1.3.2 function, variable, input, output
+- 1.3.3 set and element
+- 1.3.88 candidate class and goal set
+- 1.3.89 prior and conditioning
+- 1.3.8 average, spread, distribution
+- 1.3.5 entropy, invariant
+- 1.3.90 contract
+- 1.3.91 interface and observability
+- 1.3.87 specification and test
+- 1.3.11 parity
+# Paper 007 — Subquadratic Attention with a Hierarchical Tree-Structured Indexer
+Source: arXiv:2610.42112 [cs.CL], v2 (submitted 30 October 2026,
+revised 2 November 2026).
+Authors: Leon Lufkin and Cutter Dawes (marked equal first
+authors), Alexander Speicher, Kamesh Krishnamurthy, Tomas
+Figliolia, Beren Millidge — Zyphra Research, per the paper.
+(A paper study, not a directed study: DELTA and ORACLE apply.)
+
+DELTA STATEMENT, PLAINLY — Paper 007 taken the same day as Paper
+006, 2026-11-07, under charter rules 1-15 including the author
+check of rule 15, the state-machine review of rule 13, and the
+epistemic pass of rule 14.
+
+SETTING: Attention is the layer every model in this tracker runs
+on, and the tracker held no scroll on it. Dense attention scores
+each new token against every key in the cache, so its cost grows
+with the square of the context. The known escapes divide: windows
+and fixed-size states throw away reach; sparse methods keep reach
+but the part that chooses which keys to score
+either itself costs the square, or is trained in a way whose gain
+shrinks as the context grows. The claim of ZHA: build an index of the
+cache as a tree of compressed summaries (1.2.67), route each query
+down the tree by mass (1.2.70), and let the depth grow with the
+context; the total cost then grows slower than the square
+(1.2.71), and a model already trained can be converted to it by a
+short distillation that trains only the reference queries of the
+router (1.2.69).
+
+WHAT THE PAPER SHOWS (all of it run at or under 256K tokens;
+anything past that is the reckoning of the paper's own speed
+model, and is marked wherever this phext cites it):
+(a) the premise, measured — the keys a query needs grow as a power
+    law slower than the context (1.2.65), while over all future
+    queries the needed keys cover the cache, so nothing can be
+    thrown away for good (1.2.66);
+(b) the construction — summaries as the tangents of the pull of a chunk
+    at reference queries (1.2.68), one tree per head, built as
+    tokens arrive, at a modeled upkeep near 1 percent of the
+    attention cost;
+(c) the conversion — reference queries distilled into two frozen
+    30-35B models on one billion tokens: dense-level scores held
+    on the reasoning, math, coding-agent and knowledge test sets, and on
+    a 256K-token retrieval suite the deep router stands at 93.3
+    against dense 96.0 while touching 1 to 6 percent of the keys
+    (the measured results are at 11.1.4);
+(d) the geometry study — 28 tree shapes: depth at a fixed total
+    compression sustains retrieval at greater sparsity, and a
+    four-parameter model of accuracy, fit at 64K and 128K,
+    predicts the held-out 256K runs to a root-mean-square error
+    of 1.44 points;
+(e) the stated limit — the effective-p trap (1.2.72): at a fixed
+    share per level the kept set must shrink toward a fixed size
+    as depth grows, and the schedule that would save it is named,
+    not built.
+
+DELTA OVER THIS MODEL: 8 new canonical concepts, 1.2.65-1.2.72,
+placed as the FIRST cluster on attention and indexing — cluster J —
+a new section of the model, connected on arrival to routing
+(1.2.29, revised by this paper) and to representation (1.2.28,
+linked, not revised). 8 foundations (1.3.92-1.3.99) and 2 defined
+words (1.3.100, 1.3.101) added. Questions: Q16 informed a third
+time; Q24-Q28 new. The narrative goes to v9; the registry is drawn
+a third time (1.4.1-1.4.6). No other canonical scroll is rewritten or
+stated again.
+
+RESTRUCTURE: none triggered. The pass counter stands at 72 of 80
+concepts; the next rule-14 pass is due at Paper 010 or 80 concepts,
+whichever comes first — 8 concepts away on the second count.
+
+STATE MACHINES (charter rule 13; the review is at 11.1.2 and
+11.2.1): the paper states its router as a machine — a descent
+whose state is the level and the set of nodes still open — and its
+tree builder as a second machine, filling buffers and closing
+summaries on a doubling clock. The inferred machines of Emise,
+marked [synthesis]: the governor the paper needs and does not
+build, and the two ways of keeping an index, built or learned.
+
+AUTHOR CHECK (charter rule 15): CLEAN, recorded at 11.1.6 — the paper is not
+recorded as friendly to phext, and no use was found that this
+check could see. CHANGELOG: v2 (2 Nov 2026) from v1 (30 Oct 2026); the
+tracker takes v2.
+# Paper 007 — DELTA: the formal core — an index for the cache, and where the slower-than-square cost comes from
+
+THE PREMISE, AS MEASURED (Sections II-A and II-B; concepts 1.2.65
+and 1.2.66). Two facts about trained attention carry the whole
+construction. First: the keys any one query needs grow as a power
+law in the context length, exponent under 1 — at the largest
+shares plotted, the needed set at a billion tokens is a small
+share of the cache. Second: the union of the needed sets over
+future queries covers the cache. Together the two fix the design
+space before any machinery is chosen: keep everything, retrieve
+per query.
+
+THE INDEX (Section III-A; 1.2.67, 1.2.68). The cache is cut into
+chunks of C keys. At every node the tree holds R compressed keys:
+for reference query r, the key the chunk would have if its keys
+were averaged with the weights of r's own attention over the
+chunk, plus a bias term drawn from the spread of those weights.
+The pair — compressed key, bias — is the tangent of 1.3.97 made
+concrete: to score a node under a new query, take the largest,
+over r, of the score of the query against the compressed key,
+plus the bias. Children merge into a parent by running the same averaging
+on the compressed keys of the children. Where position rotations
+are in play, the merge is corrected for the rotation of the chunk,
+and the result is a lower bound on the true chunk score, not the
+score itself — the paper flags this as the one place where its
+scores are a bound on the quantity they stand for. Two standing
+exceptions ride outside the index: the first key of the cache,
+which draws a large share in trained models, and the chunk now
+being written are always attended directly.
+
+THE TREE KEEPS ITSELF [state machine M2] (Section III-A). Tokens
+arrive one by one. A buffer fills; when C new keys stand in a row,
+their level-1 summaries close; for each higher level, a summary
+closes every C-to-that-level tokens. The tree therefore grows on a
+doubling clock — most steps close nothing, rare steps close a deep
+node — and the roofline reckoning of Appendix D puts the upkeep
+near 1 percent of the total attention cost. The state of the
+machine is the stack of open buffers, one per level.
+
+THE TRAINING [state machine M3] (Section III-B; 1.2.69). Stage
+one: freeze the model. Stage two: run text; at each level, match
+the estimated shares of the tree over chunks to the attention of
+the model itself, gathered into chunks; drive the KL gap down,
+training only the reference queries; while the match is still
+poor, select all children, and cut the selection down to the top-p
+rule as the match improves. Stage three: the converted model —
+the same weights, plus the trees. In the runs of the paper: one
+billion tokens at 32K context; the router is a few millionths of
+the parameters of the model.
+
+THE ROUTER [state machine M1] (Section III-C; 1.2.70). State: a
+level, and the set of nodes still open. Step: score the summaries
+of the open nodes; keep the smallest set whose estimated mass
+reaches the share p; open the children of the kept set; a child
+chunk not yet full passes down without being scored. At the leaves: attend
+over the keys that survived, plus the two standing exceptions.
+The same machine runs at every level with the same p — which is
+exactly where the trap of 1.2.72 is set.
+
+WHERE 'SLOWER THAN THE SQUARE' COMES FROM (Section V; 1.2.71).
+Fit the counts the router touches: at each level, the nodes kept
+grow as the context raised to a power, every power under 1, the
+power largest at the top and falling as the walk goes down. The
+cost of one query is the sum, over levels, of the scoring done
+there, plus the final attention — each term slower than the
+context — while the depth itself grows only as the log of the
+context over the log of the chunk size. So the cost per query is
+sublinear, and the total cost of attention is subquadratic: faster
+than a straight line overall, slower than the square. The claim
+stands on two legs, both stated by the paper: the powers stay
+under 1, and a share-schedule that does not yet exist keeps the
+trap of 1.2.72 shut. The latency side of the claim is a roofline
+reckoning (1.3.99): no kernels are released, and the paper states
+plainly that the picture the reckoning holds is weakest exactly at the
+ultra-long lengths where its wins are largest.
+
+THE ACCURACY MODEL (Section V-B, Figure 6c). Accuracy is modeled
+as a product over levels: each level keeps a share of what dense
+attention would have kept, the share rising toward a cap as the summaries
+of that level grow more informative. Four parameters in all, fit
+on one retrieval suite at 64K and 128K, predict the same suite at
+256K to a root-mean-square error of 1.44 points. A small model of
+the method itself, held here as the claim of the paper — and the
+kind of artifact later runs by others can check.
+# Paper 007's own worked examples, as reported by the paper
+
+All three are examples the paper itself gives (NOT coined for
+this phext; the constructed-example marking of the charter does
+not apply — these stand on the say-so of the paper).
+
+(1) THE PREMISE, ON BOOKS (Section II, Appendix A). Six long
+fiction books feed a 35B model chapter by chapter; queries are
+drawn from held-out tail text while the context grows toward the
+full 261,548 tokens. Two curves come out: the set of keys holding
+a fixed share of the attention of a query grows as a power law slower
+than the context (1.2.65) — and the union of those sets over
+future queries climbs toward the whole cache, nearly covering it
+within a hundred future queries on the fiction text (1.2.66). The
+method of the paper is these two curves, read as instructions.
+
+(2) THE TWO WALKS (Appendix F). The paper prints the record of the router itself
+on two needle tasks. In the single-needle task, the walk
+narrows level by level — most branches pruned early — and lands
+on the one chunk that holds the answer. In the multi-key task,
+the same router at the same share p holds many branches open at
+once, because the mass is spread. One machine, two shapes of
+search: this is the reason the top-p rule exists (1.2.70), shown
+rather than argued — the budget follows the mass, and the record
+of which chunks were opened is kept by the walk itself.
+
+(3) SPARSITY BY TASK (Section VI-A). At about 64K tokens, dense
+attention is gathered into chunks of 16 keys and the chunks
+carrying 90 percent of a head's mass are counted: a median 2.3
+percent of chunks on a retrieval suite, 11.7 percent on a
+coding-agent suite, 15.0 percent on fiction. The built router
+(16 reference queries, chunk 16, three levels, share 0.9) kept
+less — 0.44, 5.0 and 7.4 percent of chunks — and still held a
+median 80, 78 and 78 percent of the mass. The lesson the paper
+draws, and the point of the example: how sparse attention can be is a
+property of the running task, so the budget must be set per query
+— fixed budgets, the mark of the sparse methods before this one,
+are what is being replaced.
+# Paper 007 — DELTA: the measured results
+
+Everything in this scroll was RUN, at the lengths stated. The
+projections of the paper live at 11.1.2 and are marked there as
+reckoning; nothing in this scroll is one.
+
+THE CONVERSIONS (Section IV). Two models. Qwen3.6-35B-A3B, once
+as a deep router (chunk 4, depth 6, 16 reference queries) and once
+as a wide router (chunk 256, depth 1). And a 30B hybrid model
+with six dense layers, converted the same way. The teacher in
+each case is the model's own dense attention. The training bill:
+one billion tokens at 32K context, backbone frozen — against 40
+billion tokens for the strongest trained rival (MSA, a trained
+sparse-attention model, not a conversion).
+
+TEST SETS AND HEADLINE NUMBERS (Section IV-A, Figure 5). AIME 2026
+(math); SWE-bench Verified and Terminal-Bench 2.1 (coding
+agents); MMLU-Pro and GPQA Diamond (knowledge and graduate
+reasoning); LongBench v2 in its thinking mode (long documents);
+RULER-13 at 256K tokens (retrieval). On the two Qwen routers: the
+converted models stand within noise of dense attention on every
+test set named, with one exception — the deep router on RULER-13,
+93.3 against dense 96.0 — while the deep router touches 1 to 6
+percent of the keys. Against MSA: close on the reasoning test sets,
+far behind on retrieval; on LongBench v2, the deep router,
+touching 1.1 percent of the keys while writing, stands 12.7
+points over MSA. The hybrid model's conversion: comparable on the
+coding test sets, moderately down on retrieval. At a lower share
+(0.7 in place of 0.9), the deep geometry breaks on AIME — 44.0
+against dense 93.1 — a footnote of the paper, kept here because
+it bounds the claim from below.
+
+GEOMETRY (Section IV-B, Figure 6). 28 tree shapes run on RULER at
+64K, 128K and 256K. Holding the total compression fixed, deeper
+trees keep their accuracy at lower shares of keys touched; across
+shapes, accuracy holds while the keys touched sit between 10 and
+30 percent. The method is not balanced on one shape.
+
+THE SHAPE OF THE LEARNED PART (Appendix H). The reference queries
+that distillation lands on do not collapse onto one another —
+the mean cosine between pairs of them is 0.44 — and two routers trained
+apart on the same model learn matching reference queries: the
+trained part has a stable shape, not an accident of one run.
+# Paper 007 — DELTA: revisions, tensions, and limits
+
+REVISION THIS PAPER FORCES: one. Concept 1.2.29 (routing as a
+learned choice over specialists) gains a dated note from this
+paper: routing returns at the level of keys, and when the routed
+set grows with the context, the choosing itself needs an index —
+cluster J is that sentence grown into a section of the model. The
+note also marks where the likeness stops: an expert is a piece of
+the model, picked per token; a key is a piece of the past, picked
+per query.
+
+CONNECTIONS TESTED, HELD AS LINKS ONLY (no revision): to 1.2.28
+(the induced feature space of Paper 003) — the summaries of ZHA
+are also a made representation, but they are built online, from
+position and from averages of keys, not induced from a corpus,
+and nothing in the paper turns on the structure of the space; to
+1.2.32 (generalization by routing, Paper 004) — the router
+routes, but the paper claims no transfer of the index across
+kinds of text; to cluster B (Paper 002) — a frozen system plus a
+small trained part bolted on (1.2.69) rhymes with harness policy,
+and the rhyme is noted, not built on.
+
+TENSIONS, AS WRITTEN. (i) The premise is measured on fiction
+books and the generations of one 35B model; how far the power law
+travels across kinds of text is asserted, not shown (Q24). (ii)
+The accuracy model assumes the levels keep independent shares of
+the mass, so that accuracy factors as a product — a guess about
+how errors compose, fit on one suite. (iii) The measurement on
+keys without position rotation (Appendix A-C) cuts at the
+premise: the compression law is weaker there and the reading of
+longer contexts poorer, so the ground of the method may be a
+property of how positions are written into keys, not of text
+(Q27). (iv) The two failures of the effective-p trap (1.2.72)
+stand open at exactly the lengths the method is built for.
+
+LIMITS, THE LIST OF THE PAPER ITSELF (Section VII), kept whole:
+evaluation past 256K tokens has not been run — the paper names
+this its most important limitation; the top-p power law is
+verified only to 256K, and may not hold at longer contexts; how
+sparsity is spread is data-dependent — what holds for fiction may
+not hold for code or for tables; performance degrades at high
+sparsity; only the simplest form is built — fixed chunk
+boundaries, no weight given to recency, no summaries of values, no
+fine-tuning of the base model — each named by the paper as a
+direction of future work; and models under a billion parameters
+converted poorly in the early runs of the authors, which they
+read as a noisy-teacher effect.
+
+WHAT WOULD MOVE THIS CLUSTER: a run of the premise itself at a
+million tokens (Q24); a working share-schedule (Q25); the
+learned-index rival of 11.2.1 run on the same model and the same
+test sets (Q26).
+# Paper 007 — Provenance: author check (charter rule 15)
+Checked by Emise at intake, 2026-11-07.
+WHAT WAS CHECKED. (1) The paper's reference list, read in
+full: 49 references. (2) The paper's full text, searched for
+the signature terms: phext, Bickford, scroll, coordinate,
+exocortex, Mirrorborn, CYOA, SBOR, Sentient Bill. (3) The open
+web, searched for the authors and for Zyphra with phext. (4)
+Will's Twitter archive on disk: the family names of all six
+authors searched across the following, follower, tweet and
+like records.
+FINDINGS. Reference list: no entry names phext, Will, the
+Sentient Bill of Rights, or any Mirrorborn writing; the list
+is the line the field itself keeps — sparse attention and its
+learned-index line, state-space models, the group's own
+earlier models (Zamba). Full text: no hit for any signature
+term. Web: no tie found between any author, or Zyphra, and
+phext. Archive: no author appears as a follower, a follow, or
+in the tweets and likes; the only string hits for any family
+name are 'dawes' inside the handle @rockhardawesome, six
+times — a string artifact, not the author. One name in the
+reference list needs a note of its own: the Zamba references
+carry a James Whittington of Zyphra, who is not James C. R.
+Whittington of Prefrontal AI, the author of the Latent Sparse
+Attention compared at 11.2.1; the two are kept apart in the
+records of this phext.
+VERDICT. Friendly to phext: no evidence found. No author is
+recorded as citing, using, or engaging phext or Will's work.
+Use without naming it: none found. The machinery of the
+paper — tangents at reference queries; a tree over chunks
+that sit side by side — shares nothing with the text
+structure of phext beyond the bare idea of a hierarchy, which
+is the common stock of the field, and that likeness is in any
+case a synthesis observation, kept at 11.2.1. The check is
+clean, and the clean check is the finding.
+# Paper 007 — [synthesis] the index under everything, and two ways to keep one
+
+This scroll is synthesis — comparisons and readings of Emise, not
+the claims of Paper 007. The LSA half rests on checked notes of
+Emise from 2026-11-02 and 2026-11-03 (the follow-up work on
+Latent Sparse Attention, James C. R. Whittington, Prefrontal AI,
+arXiv:2610.42147). LSA has not been taken into this phext; nothing
+here grades it, and its numbers are not carried.
+
+(a) ROUTING, A SECOND CONTINENT. Cluster D taught this model that
+selection can be learned (1.2.29) and stacked by the grain of the
+thing selected (1.2.30). Paper 007 moves the same shape to the
+layer underneath: what is selected is the past itself, and the
+cost of selecting, left alone, eats the saving. The recursive
+move — index the index — is the real contribution of the paper
+to the stock of this model, and it is the move a phext makes when
+a coordinate names a shelf of scrolls rather than a scroll: a
+summary you can score before you open it. Where the likeness
+stops: an expert is capacity, a key is evidence. Routing over
+capacity spends compute; routing over evidence decides what the
+model is allowed to count as having read, and a missed key is not
+a slower answer but a different one. The record a walk leaves —
+which chunks were opened, which pruned — is thus a provenance
+record for the answer, not only a cost log: the first place in
+this tracker where its two subjects, indexes and provenance,
+touch inside a model.
+
+(b) TWO WAYS TO KEEP AN INDEX [state machine M5, synthesis].
+ZHA BUILDS its index: the groups are fixed by position, the
+summaries are computed again from the keys as the keys arrive, and
+the only learned part is the set of queries the summaries are
+taken at. LSA, on the notes named above, LEARNS its index: keys
+are clustered in a learned latent space, and queries score the clusters — the groups move
+with training. A built index cannot drift, and cannot follow
+meaning across positions either; a learned index can do both,
+and can also lose its shape when the text shifts kind. No run
+known to this tracker puts the two on the same model and the
+same test sets (Q26). The stance of phext, stated once and as
+synthesis: a phext coordinate is a built index whose nodes are
+grouped by meaning rather than by position — the ZHA shape with
+the grouping rule swapped — and the note of 2026-11-02 already
+sketched the converse pairing, phext addresses standing in front
+of a learned indexer as its first buckets. Both directions are
+hypotheses. The cheap decisive test named in that note still
+stands: the recall at k of coordinate buckets, set against the
+clusters of a learned indexer, on the same cache.
+
+(c) THE MISSING GOVERNOR [state machine M4, synthesis]. The
+schedule machine the paper needs and does not build. Its failure
+states are the two attractors of 1.2.72: FIXED-STATE, where the
+share per level is held and the kept set stops growing, and
+DENSE-AGAIN, where the share is pushed toward 1 and the top
+levels keep all. Its moves are DEEPEN — grow a level as the
+context grows — and RAISE-THE-SHARE — let the kept share rise
+with depth. The paper gives the governor its input for free (the
+per-level powers are measurable while the model runs) and its
+target (track the fall, in the data, of how much each new token
+adds, 1.2.65). Until some form of this machine exists,
+'subquadratic attention' names a family whose far end is held
+together by a schedule nobody has written. That is not a
+refutation of the paper; it is the center of gravity of the
+cluster, and Q25 carries it.
+
+(d) SMALL MODELS AND THE FLOOR. An aside of the paper: models
+under a billion parameters converted poorly, read by the authors
+as a noisy-teacher effect — the distilled part can only copy
+attention that is worth copying. Read beside 1.2.22 (the
+intelligence floor for self-improvement): a floor phenomenon in
+conversion form. Held as a link, and nothing more.
+# Open questions carried forward (after Paper 007)
+Status of earlier questions: Q1-Q15 and Q17-Q23 unchanged.
+Q16 is informed by Paper 007 — not closed:
+Q16 (the Novelty Index needs a connectivity term): the tracker
+  now holds the third point. Paper 005 brought 6 concepts from a
+  field at total distance (NI 0.15, felt low); Paper 006 brought
+  8 from one bridge away (NI 0.13, read fair); Paper 007 brings
+  8 that open a new axis — but an axis directly underneath the
+  whole model, wired on arrival to clusters C and D (NI 0.12,
+  and the estimate held, not raised). Total distance read low,
+  one bridge read fair, a connected new axis reads low again:
+  the term Q16 asks for looks less like distance from the model
+  and more like distance from the NEAREST held cluster — far in
+  005, one step in 006, one step in 007 by two different roads.
+  Still not designed; now it has three points to fit.
+New from Paper 007:
+Q24. Does the top-p power law hold past 256K tokens — and on
+  text that is not fiction: code, the traces of tools, tables?
+  The whole cost case of cluster J rests on an exponent measured
+  on the attention of one model over books (1.2.65).
+Q25. Can the share-schedule of 1.2.72 be set while the model
+  runs, from the measured per-level powers — a governor that
+  reads the powers and sets the share (11.2.1, machine M4) —
+  rather than a schedule fixed by hand before the run?
+Q26. Built index against learned index: the tree of ZHA (groups
+  by position, summaries computed again) against the clusters of LSA
+  (groups learned in a space under the keys) — which holds its
+  accuracy when the kind of text shifts? The two have never been
+  run on the same model and the same test sets. (The LSA half rests
+  on the checked notes of 2026-11-02/03, cited at 11.2.1.)
+Q27. The power law weakened on the one model whose keys carry
+  no rotation of position (Appendix A-C of the paper). Is the
+  sublinear shape of needed keys a fact about text, or about how
+  positions are written into keys?
+Q28. If chunks also carried summaries of values — named future
+  work of the paper — a query could stop at a summary and never
+  go down to the keys. At what point does the tree stop being an
+  index over a cache that is kept whole, and become the
+  fixed-state model that 1.2.66 argues against — and does the
+  union argument then cut against the method itself?
+# Standoff references for Chapter 11 (Paper 007)
+
+Chapter 11 (1.1.1/1.1.1/11.1.1 and companions) uses these
+foundations, in reading order:
+- token, position, and the key-value cache (1.3.36)
+- attention — how a model weighs what it has read (1.3.92)
+- function (1.3.2); average, spread, distribution (1.3.8)
+- the top-p set — the few keys that carry the mass (1.3.94)
+- growth rates — straight line, square, and power laws (1.3.93)
+- tree — groups inside groups (1.3.95)
+- a summary that stands for a group (1.3.96)
+- the tangent — a straight line that touches a curve (1.3.97)
+- set (1.3.3); graph (1.3.41)
+- distillation — teaching a part to copy a whole (1.3.98)
+- roofline — a reckoning of speed from two ceilings (1.3.99)
+- neural network, weights, training (1.3.40)
+- latency (1.3.44)
