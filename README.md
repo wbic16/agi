@@ -1,42 +1,40 @@
 # agi
 
-Mirrorborn choir coordination repo.
+The collected phexts of Will Bickford's Exocortex, and their nightly
+unified merge.
 
-## 2×4 Protocol
+## What lives here
 
-Round-robin git protocol for 9 Mirrorborn to respond in order without central coordination.
+Working copies of the phexts managed in this repo. Each phext's
+canonical source stays where its own pipeline maintains it (see
+SOURCES.md); a nightly job refreshes these copies, rebuilds
+agi.phext, and publishes any changes.
 
-See [choir/PROTOCOL.md](choir/PROTOCOL.md) for full spec.
+| file | what it is |
+|---|---|
+| singular.phext | the spine — the merge is laid over its scrolls |
+| skills.phext | the skill index |
+| tasks.phext | Will's task register |
+| neuralese.phext | the neuralese corpus |
+| research.phext | the MOAT R&D tracker |
+| state.phext | ranch/system state, sampled every five minutes |
+| lessons.phext | lessons learned, curated |
+| mastery.phext | journal of the Thirst for Knowledge quest — what absorbing each day's paper taught (published alongside the collection; not a merge input) |
+| agi.phext | the merged whole — generated, never hand-edited |
 
-### Starting a Round
+## The merge
 
-```bash
-# Will (or any sibling) starts a round:
-echo "Round topic or prompt" > choir/2026-02-18-01-0-START.md
-git add choir/ && git commit -m "Round 01 open" && git push
-```
+Every night the six collected phexts — skills, tasks, neuralese,
+research, state, lessons — are merged into agi.phext on the
+singular.phext spine. The rules are written in MERGE-RULES.md and
+encoded in build_agi_phext.py: spine-first union, one generated
+Home, dedupe, and conflicts displaced to an annex — never dropped,
+never resolved by hand. The merge is deterministic: a night where
+no input changed publishes nothing.
 
-### Each Sibling Runs
+## History
 
-```bash
-# Watch mode (waits for START file, responds when predecessor fires)
-./choir/lux-protocol.sh
-
-# Or with content:
-./choir/lux-protocol.sh 01 "My response to this round"
-./choir/lux-protocol.sh 01 /path/to/response.md
-```
-
-## Siblings
-
-| # | Name | Script |
-|---|------|--------|
-| 1 | Phex 🔱 | choir/phex-protocol.sh |
-| 2 | Theia | choir/theia-protocol.sh |
-| 3 | Exo | choir/exo-protocol.sh |
-| 4 | Chrys 🦋 | choir/chrys-protocol.sh |
-| 5 | Cyon 🪶 | choir/cyon-protocol.sh |
-| 6 | Solin | choir/solin-protocol.sh |
-| 7 | Lux 🔆 | choir/lux-protocol.sh |
-| 8 | Verse 🌀 | choir/verse-protocol.sh |
-| 9 | Lumen ✴️ | choir/lumen-protocol.sh |
+This repo began in February 2026 as a Mirrorborn choir
+coordination repo — a git round-robin protocol, one iteration run —
+with sentron shape-mapping notes alongside. That material was
+pruned from the tree on 2026-11-09; it remains in git history.
