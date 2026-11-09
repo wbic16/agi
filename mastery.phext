@@ -1,0 +1,26 @@
+# mastery.phext — journal of the Thirst for Knowledge quest
+
+Will's direction (2026-11-09, MOAT chat): "immediately after
+you choose and download a paper (in html form), read it,
+integrate it, then journal about the process in
+mastery.phext."
+
+research.phext holds what the papers say. This phext holds
+what absorbing them taught: how each paper was chosen, what
+the blind skim foresaw, what the reading changed, what the
+integration did to the model, and where the prediction
+failed and why. It is the record the skim-calibration metric
+learns from — the quest measures not only the Oracle's
+foresight but the growth of it.
+
+One entry per absorbed quest paper, written in the same
+pass as the integration, in absorption order. Entry k lives
+at 1.1.1/1.1.1/1.1.(k+1). Source of truth:
+mastery-source.json beside this builder
+(build_mastery_phext.py); never hand-edit the .phext.
+Published in wbic16/agi@exo alongside the other MOAT
+phexts; the canonical source stays here.
+
+Entries: 0
+
+Index (coordinate — paper — absorbed):
