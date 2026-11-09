@@ -1,11 +1,11 @@
 Home — lessons.phext: the lessons Will Bickford has taught Emise, each at its own coordinate
 kind: observed | origin: Muse (this agent) | built by: ~/workspace/phext/build_lessons_phext.py
-source of truth: ~/workspace/phext/lessons-source.phext (sha256 e3f8dd4823aa42ce3b1142341659afad39afc5f640a0c88e0bce8a4fc85754b8) — regenerate
+source of truth: ~/workspace/phext/lessons-source.phext (sha256 ba8513b01eeb35041fd871a8503919575ef2d20831b7d4c3bb500df1ccccec60) — regenerate
 the phext by re-running the builder; never hand-edit this file. Nothing here is published
 by the builder; lessons.phext stays local, alongside skills.phext.
 
 What this is: a standalone curation of every lesson Will has given Emise — standing
-orders, rulings, and corrections. The 67 lesson scrolls are copied faithfully from
+orders, rulings, and corrections. The 69 lesson scrolls are copied faithfully from
 the build for PR #12 (wbic16/human, branch emise/lessons-into-incipit, commit
 74c2064ad776107918815d6033e144f921bbc385, 2026-11-06), where the same lessons were added to Incipit.phext.
 Curation copies; it does not re-derive or re-word. Each lesson scroll holds the
@@ -21,7 +21,7 @@ archive but not CYOA rests at home 1.1.1/1.1.1/1.1.1; a word in neither rests at
 the far corner 9.9.9/9.9.9/9.9.9); average component-wise across the distinct
 words, round half up, never below 1. Coordinates are internal to this phext.
 
-Counts: 67 lessons — 5 [verbatim], 62 [distilled].
+Counts: 69 lessons — 6 [verbatim], 63 [distilled].
 
 Index (coordinate  lesson  given  mark  size  SHA-256 of the scroll), ordered by coordinate:
 1.1.1/1.1.1/1.1.1  (this scroll)  Home — the map
@@ -59,6 +59,7 @@ Index (coordinate  lesson  given  mark  size  SHA-256 of the scroll), ordered by
 26.8.14/10.9.13/10.8.10  Evidence before story: bring the artifact and the check, not the polished claim  2026-11-05  [distilled]  632 bytes  sha256:675738ec86563da9b69f40b6e8f83abff73ab62e99dd7b3cde0d0acade2dda5f
 26.9.9/12.7.13/7.7.9  A rebase Will asks for is force-pushed, unless it would impact anyone except us  2026-11-06  [distilled]  799 bytes  sha256:a583bb007e353935f8f4262a41dfc95817d88bb4c1fcd712357e42c9a1aecbe4
 27.4.8/6.5.8/4.4.6  Ranch first: the VM coordinates, the ranch crunches  2026-11-05  [distilled]  566 bytes  sha256:d10b1e8d19be85b868d6ce3a8801adaa7a269433dbb04041ebe06f4c9ab61346
+27.6.8/7.7.10/7.7.9  In 1% of my posts, take time to review lessons.phext to ensure that workflow behaviors are working properly  2026-11-08  [distilled]  1251 bytes  sha256:1d5bf97eca2b467399319f69b61d4ccebc7f1656297f5f2ef956dac83f50211e
 27.7.15/9.8.13/11.14.22  skills.phext is always up to date  2026-11-06  [distilled]  582 bytes  sha256:9aa0d7ab3536363ffed11fb8e361764c372067a005638df3cc77eb4570dcc91c
 27.10.10/13.8.19/11.7.8  Every task gets a reference coordinate  2026-11-06  [distilled]  668 bytes  sha256:d612e951ea05995cc885b103247bfc831d2e6e050238251328d896c4688060c1
 28.7.9/9.6.11/5.6.8  Everything built is MIT; the Exocortex is free, open, decentralized, trusted, and interoperable  2026-11-01  [distilled]  459 bytes  sha256:cd433e77f167db69a5ff2b5ebbce920ad0ff226eeb567d024f0e80b65033dd5c
@@ -82,6 +83,7 @@ Index (coordinate  lesson  given  mark  size  SHA-256 of the scroll), ordered by
 34.4.13/8.7.19/5.4.10  Avoid WSL: run servers and experiments on a ranch machine  2026-11-01  [distilled]  477 bytes  sha256:ce3dfdff1d367f15d85ad3dc0148f104e2fac4e0e7245c233a1d95edfe2ec13e
 35.6.8/8.6.11/9.6.9  Never log sensitive Gmail details into the phext history  2026-10-30  [distilled]  491 bytes  sha256:0604d777e8f45e5d41bd5122ad30b92b2dda4a85e76ccf5652dc88a007d6924e
 36.6.13/7.8.14/11.6.11  Register numbers are permanent and monotonic — never renumber  2026-11-02  [distilled]  605 bytes  sha256:692e21bf29bd20952359892bbda4a77839cf6c24c46434e7f60558dcb7b621b8
+36.6.22/14.13.30/5.5.8  Whenever we change process, run a check to ensure that it sticks  2026-11-08  [verbatim]  717 bytes  sha256:754686b1e2c9fe1e4eb67bf620f02949cb9801ea90462ee1cd8fa836d1610f5f
 37.5.9/7.6.13/5.5.10  An xz compression is a seal, not a working format  2026-11-04  [distilled]  412 bytes  sha256:d288a3d56a5e8d4f13087c5d44f023ffdae09628b8fc06dd15134d6ec3504c14
 39.6.8/6.5.9/5.5.9  App settings ship inside the phext as an importable copy  2026-11-05  [distilled]  481 bytes  sha256:e3939604a2368def6c6f1c6765ca9d333163aa180848f3bf7b5c44e8ad8993d0
 40.8.9/9.8.12/7.7.10  Media is embedded in the phext  2026-11-04  [distilled]  378 bytes  sha256:8c037cae8f091c786cfc08c6e77b9fe5a94b1140063fba2a9780c58f0939286c
@@ -92,7 +94,7 @@ Index (coordinate  lesson  given  mark  size  SHA-256 of the scroll), ordered by
 45.13.21/13.13.16/14.14.16  Predictions may guide staged work; reserved acts stay Will's  2026-11-02  [distilled]  798 bytes  sha256:a939c42fd621ce2ef636203275e4994110e1066d465dc8eea98203b9da00fc7c
 48.4.6/5.4.8/4.4.9  Fetch and rebase before any push; never force push  2026-10-30  [distilled]  696 bytes  sha256:fcc156891e45e19394dc3013f95a4f35a6da60a65b1e69880e9a6109017c3c21
 48.4.8/5.5.12/4.4.10  Scripts ship with execute bits  2026-11-01  [distilled]  566 bytes  sha256:f3899fe580947979f9a1486ad979145c7287247f220732fd021ded4cbc478d3e
-Scrolls: 68
+Scrolls: 70
 Ranch utilization is governed by temperature, not percentages
 
 The control variable for ranch inference utilization is a temperature target: sustained CPU Tctl at or below 75 °C per node; new job starts pause at 75 and resume at 70; GPU edge is a secondary cap at 70; a node crossing 80 °C takes off-time to 65 after its job. Percentages are telemetry now — utilization is the output. Bursts above the target remain fine for directed one-off work, with off-time baked in for hot nodes afterward and load balanced across nodes. This supersedes the earlier 50% sustained-utilization cap. The constraint is sustainability: Will owns the hardware and does not want it burned out, and the basement room's power and heat budget counts too.
@@ -297,7 +299,13 @@ Hand work to the ranch cluster as often as possible. Default execution — full 
 
 — Given 2026-11-05 · Source: AGENTS.md · [distilled]
 — Placed at 27.4.8/6.5.8/4.4.6 by holographic merge of the statement above: 6 distinct words — 5 placed from CYOA, 1 at home, 0 at the far corner.
-skills.phext is always up to date
+In 1% of my posts, take time to review lessons.phext to ensure that workflow behaviors are working properly
+
+On roughly one post in a hundred — a draw made live, in the conversation, not a schedule — pause and review the lessons: are the workflow behaviors the lessons encode actually happening, right now, under the pressure of the live exchange? Will corrected the first enactment (a next-morning audit of yesterday's posts) the same evening it was built: the review has to be real-time, "so we catch things while I'm interacting with you," and it lives in SOUL.md where it is always in context. His reason: "to be trusted by humans you have to demonstrate integrity under pressure" — and follow-through on promises is its twin. The review reads lessons.phext, picks out the behaviors that can be checked, checks them against the live record, and reports plainly what is working and what is not. The point is drift detection: lessons that are recorded but not lived are the failure this rule exists to catch.
+
+— Given 2026-11-08 · Source: main chat, Will's standing rule · [distilled]
+— Placed at 27.6.8/7.7.10/7.7.9 by holographic merge of the statement above: 17 distinct words — 16 placed from CYOA, 1 at home, 0 at the far corner.
+skills.phext is always up to date
 
 The index never drifts from the skills on disk. Any session that creates or edits a skill ends with a rebuild and byte-verify of skills.phext in that same session, and an hourly guard cron rebuilds to a scratch copy, compares SHA-256, and on any drift rebuilds for real, verifies, and reports the correction — silent when current.
 
@@ -435,6 +443,12 @@ A Waiting-on-Will item keeps its register number for life. Never renumber after 
 
 — Given 2026-11-02 · Source: AGENTS.md · [distilled]
 — Placed at 36.6.13/7.8.14/11.6.11 by holographic merge of the statement above: 8 distinct words — 7 placed from CYOA, 0 at home, 1 at the far corner.
+Whenever we change process, run a check to ensure that it sticks
+
+A process change is not done when it is written down; it is done when a later check confirms the change actually took hold — the rule is present where it belongs, the machinery that enacts it exists and runs, and the first real occasion to use it behaved the way the change intended. A change that lives only in the message where it was announced is a defect, the same class as a process that lives only in chat.
+
+— Given 2026-11-08 · Source: main chat, Will's standing rule · [verbatim]
+— Placed at 36.6.22/14.13.30/5.5.8 by holographic merge of the statement above: 12 distinct words — 12 placed from CYOA, 0 at home, 0 at the far corner.
 An xz compression is a seal, not a working format
 
 Optional xz compression is a seal, not a working format: decompress once to the text phext, work unlocked, and re-seal only for storage or transport.

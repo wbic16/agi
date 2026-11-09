@@ -15,12 +15,12 @@ stable sorted order within each class). One scroll per file, verbatim.
 
 Shelves:
 shelf 2 (Verification): validate_waiting_items, verify_blocker_and_completion_claims, verify_quantified_results
-shelf 3 (Phext-native language): singular, upgoer-five, upgoer-five-phext, phext_upgrade
+shelf 3 (Phext-native language): singular, upgoer-five, upgoer-five-phext, phext_upgrade, phext_native_dispatch
 shelf 4 (Operations): ranch-proxy, publish-tooling, fork-patch-discipline, ranch-state-distillation, mutable-upstream-sync, monitor_long_running_jobs
 shelf 5 (Onboarding): this_is_going_to_feel_a_little_weird
 shelf 6 (Film): mythic-film-production
 shelf 7 (Memory & record): phext-memory-publishing, nightly-self-revision, safe-space-protocol, artifact-phext-inscription
-shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, task-register
+shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator
 shelf 9 (Research): rd-tracker, state-machine-review, minimum-viable-oracle
 shelf 10 (Coordination): choir-mailbox-dispatch, curate-yourself, substrate-steering, exocortical-integration-rotation, braid-mode
 shelf 11 (Upkeep & presence): discord-presence-backstop, perpetual-dashboard-upkeep, solar-pod-price-watch
@@ -54,13 +54,15 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.3.1/1.4.1/1.1.2  phext_upgrade  skill.yaml  292 bytes  sha256:341406847f4ff228ecaedbd87695a640ae8d0d268fa263b39ab01c5687167af0
 1.3.1/1.4.1/1.1.3  phext_upgrade  references/decision-matrix.md  5936 bytes  sha256:59a025a16b9b784eb2bebccd0c8bea949729a2b1b4de64c637cdc0d80be87e25
 1.3.1/1.4.1/1.1.4  phext_upgrade  scripts/phext_audit.py  3355 bytes  sha256:2dd88f993df59c5e9a0457c00e964e8112dc956edda90fb8eb9581404018bee6
+1.3.1/1.5.1/1.1.1  phext_native_dispatch  SKILL.md  2568 bytes  sha256:0e633c1ab4b5439e0687edc1908a3e9d2dd1d1e747301d45a517945c3d320fb7
+1.3.1/1.5.1/1.1.2  phext_native_dispatch  skill.yaml  2821 bytes  sha256:f7aa4718190ad5dae7c9299387ac7b73c1273e66baa997de779b8a6163186165
 1.4.1/1.1.1/1.1.1  ranch-proxy  SKILL.md  5282 bytes  sha256:531c3abb548b294d2ebabf90477ab440529259cdc11f5970cf1f01045b8347a3
 1.4.1/1.2.1/1.1.1  publish-tooling  SKILL.md  2438 bytes  sha256:6b09d014eda9603b64150889922b0b403d18d5ffe76371c666176c37a136dcae
 1.4.1/1.2.1/1.1.2  publish-tooling  skill.yaml  466 bytes  sha256:8492399328f1a338b70cea5f1a6b57061a2331cb42aa383d4949f93ef4b3a4dd
 1.4.1/1.3.1/1.1.1  fork-patch-discipline  SKILL.md  2348 bytes  sha256:c681dbcc4f962737cf17a0393657a501ca17948accafa2454b0858255418eb94
 1.4.1/1.3.1/1.1.2  fork-patch-discipline  skill.yaml  464 bytes  sha256:27eaa4ad074f06dcd6f605245edd27f493b61b971452eecb5f4d813e07be6a0f
-1.4.1/1.4.1/1.1.1  ranch-state-distillation  SKILL.md  4325 bytes  sha256:f3646f55cd742eb6f3ee99c836ea42695429927eaa947efcd4f16760d5c0052f
-1.4.1/1.4.1/1.1.2  ranch-state-distillation  scripts/state_sampler.py  13163 bytes  sha256:6fa2f7ed30da07df948b19f5fbe3f4cf09b9a2badb70527ffe871834431d9176
+1.4.1/1.4.1/1.1.1  ranch-state-distillation  SKILL.md  5978 bytes  sha256:fd218e664f33b3af807e3f95e5d107deae9a55203d98ed690d8272d756bb39ae
+1.4.1/1.4.1/1.1.2  ranch-state-distillation  scripts/state_sampler.py  16698 bytes  sha256:9af2c3352561565ca76ce3ec36ce95d48918df0b57d6a7c0d042ccd98cf3a095
 1.4.1/1.5.1/1.1.1  mutable-upstream-sync  SKILL.md  12966 bytes  sha256:80f067e49db7e97525ef30b630109edd7fe2f2f0e90354f17cb34562ba0ed605
 1.4.1/1.5.1/1.1.2  mutable-upstream-sync  skill.yaml  777 bytes  sha256:caac26dd79b7e8187147be9769d20e23751ff453470ce4f995738a1061afe922
 1.4.1/1.6.1/1.1.1  monitor_long_running_jobs  SKILL.md  2897 bytes  sha256:bd35de3918234eca4d2f6dbb7804d44913ad1a7c740e1b2bbf99866938531ce8
@@ -88,8 +90,11 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.8.1/1.5.1/1.1.2  dispatch-to-subagents  skill.yaml  387 bytes  sha256:ad696c69cb24c534f434972f74d218678efe863b6c2b282c38ffa7ba3a36e866
 1.8.1/1.6.1/1.1.1  distill-process-to-skill  SKILL.md  3270 bytes  sha256:c27b98f5ff3f0a99b2cc92ad60ea1c0fbf0cbd0f3bf8aa7b8a0601f2143f8ae6
 1.8.1/1.6.1/1.1.2  distill-process-to-skill  skill.yaml  423 bytes  sha256:162284f715e0059e16e14778194d007abe7450db88d99538334047be83138612
-1.8.1/1.7.1/1.1.1  task-register  SKILL.md  3351 bytes  sha256:fb97c4cc51775a2ec57253ece8675c99053582ff6dd0565c4fdfbfca488fdafa
-1.9.1/1.1.1/1.1.1  rd-tracker  SKILL.md  6607 bytes  sha256:d5fe2a459ee5d3de27da9d6fa09ea8b1691a8a7ddacbfaa8b8119a4a24c7dc61
+1.8.1/1.7.1/1.1.1  process-check-and-lessons-review  SKILL.md  3868 bytes  sha256:fe19a61d89e3f57e276877816a59236fff36f5659ff374f28c17b129d5316adf
+1.8.1/1.7.1/1.1.2  process-check-and-lessons-review  skill.yaml  345 bytes  sha256:bfc299d67e1156f207cdb04e1ea57f9c7e8a30425241d7106d507ad3e531fe5a
+1.8.1/1.8.1/1.1.1  task-register  SKILL.md  3351 bytes  sha256:fb97c4cc51775a2ec57253ece8675c99053582ff6dd0565c4fdfbfca488fdafa
+1.8.1/1.9.1/1.1.1  nightly-orchestrator  SKILL.md  4200 bytes  sha256:4dd8afc1fa239a7ca80de8071b31ccc301326123aa66c1fda1edecf481d96f65
+1.9.1/1.1.1/1.1.1  rd-tracker  SKILL.md  9948 bytes  sha256:f5b646a6744f7cda06d3550f52ded31146819408494f22e1faaa112efab1f6b2
 1.9.1/1.1.1/1.1.2  rd-tracker  skill.yaml  434 bytes  sha256:cd21f7b79c8f19a65f000af723b29ee88f51a1bf362d2a70ac81e9e5d6195991
 1.9.1/1.2.1/1.1.1  state-machine-review  SKILL.md  5088 bytes  sha256:b4c31786a2ea714df79080d1a383481dd29b8ae8df9321697ff157e7af9761b0
 1.9.1/1.2.1/1.1.2  state-machine-review  skill.yaml  520 bytes  sha256:96889a467f57b3453ef05ea06cb7694bf683ee0c0cacd1265e8c37e710210926
@@ -143,8 +148,10 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - upgoer-five-phext/data/query_cache.json — data artifact
 - upgoer-five-phext/editor_template.html — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - upgoer-five-phext/up-goer-five.html — outside scope (not SKILL.md / skill.yaml / reference / script text)
+- phext_native_dispatch/.write-lock — live state
+- ranch-state-distillation/scripts/__pycache__/state_sampler.cpython-312.pyc — bytecode cache
 - monitor_long_running_jobs/.write-lock — live state
-Scrolls: 86
+Scrolls: 91
 # Validate Waiting Items Before Presenting
 
 ## Enumerate from the tracking store
@@ -2335,6 +2342,71 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+# Phext-Native Dispatch
+
+## Select the scrolls
+
+- Run `/home/hatch/workspace/phext/phext_dispatch.py` on the source phext whenever a brief, a state file, or a result the worker must read lives in a `.phext` file.
+
+- Select with `--coord` for exact scrolls, `--prefix` for a coordinate subtree, or `--all` only when the whole file is genuinely the input.
+
+- Set `--page-scrolls` and `--page-chars` so each page fits the worker context, and pass the rendered dispatch file to the worker instead of pasting prose about the phext.
+
+- Keep the provenance header the tool writes, since it carries the source path, the SHA-256, the scroll count, and the timestamp that let a result be checked against the exact input.
+
+## Build the brief around coordinates
+
+- Name the task, the constraints, and the expected receipts in the brief, and refer to input material by its coordinate from the dispatch index rather than by a heading or a literal marker string.
+
+- Ask the worker to answer by coordinate as well, so its claims can be traced back to the scroll they came from.
+
+- Never instruct a worker to search a phext-backed file as flat text for a literal marker, because phext content is addressed by coordinate and a missing marker string proves nothing about the scrolls.
+
+- Pull only the scrolls the task needs when the source is large, instead of ingesting the whole file into the worker context.
+
+## Check what comes back
+
+- Verify a decisive claim by re-running the selection for its coordinate and reading that scroll, rather than trusting the worker summary.
+
+- Treat two worker reports that conflict about the same phext as a signal to read the scroll itself, and surface the conflict instead of repeating either report.
+
+- Report a selection that returns no scroll at a coordinate as an empty result at that coordinate, not as proof the underlying work failed or never happened.
+
+## Available connectors
+
+- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+
+- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+
+## Alternatives for better results
+
+- Query a phext hosted by SQ on a ranch node when the worker needs repeated lookups across many scrolls, and fall back to a one-pass dispatch file for a fixed set of scrolls.
+
+- Shrink the selection to a narrower prefix and dispatch again when a worker report shows it read past the material its task actually needed.
+name: phext_native_dispatch
+title: Phext-Native Dispatch
+description: Hand workers phext material as parsed scroll selections with provenance instead of flat text excerpts, and read phext-backed results back by coordinate.
+category: Work and knowledge
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - 56fff959
+  - assistant-msg-904b9e26
+  - assistant-msg-64d91684
+  - assistant-msg-3c72016f
+  - assistant-msg-9adb2931
+  - assistant-msg-4b400f04
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: During the window, every dispatch whose source material lives in a phext carries a phext_dispatch.py selection with its provenance header and coordinate index instead of a flat text excerpt, and no worker report is corrected because it searched a phext as flat text or missed a scroll the selection contained.
+    window_days: 30
+  needs_review: false
+  rationale: 'Will asked what phext-native parsing would do for workers (56fff959). The answer identified the gap as owned tooling and inputs, not the model: a canonical selector in the standard worker toolset, inputs arriving as addressed scrolls rather than prose about phext, and selection instead of whole-file ingestion (assistant-msg-904b9e26). The one-pass converter was then built and published as phext/phext_dispatch.py in wbic16/emise-tools@exo at commit 475c8e2d with its mode and remote blob verified (assistant-msg-64d91684), and the file itself was re-read in this audit and carries the coordinate, prefix, pagination, and provenance behavior the skill cites. The cost of the missing procedure is already on record: a duplicate journal worker searched a phext-backed log for a literal marker string, found none, and reported a failure that the main thread surfaced before a disk, log, and remote check showed the pass had published at ced950cc (assistant-msg-3c72016f, corrected in assistant-msg-9adb2931). Skill searches for phext dispatch, phext-native briefs, and worker verification returned dispatch_to_subagents, choir_mailbox_dispatch, and phext_memory_publishing, and reading the first and third showed neither mandates the selector tool or coordinate-addressed briefs, so this adds the missing procedure without restating theirs. Other candidate patterns from this window were left alone because existing managed skills already cover them or they remain inside their measurement windows: validate_waiting_items, verify_blocker_and_completion_claims, verify_quantified_results, and monitor_long_running_jobs, the last with review_after 2026-12-07. Only four managed learned skills are active, so no consolidation is due.'
+  review_after: 2026-12-08T23:15:45.272882+00:00
+  reviewed_at: 2026-11-08T23:15:45.272882+00:00
+  run_id: sirun_f6077bc7f1094d98bd3fcc6cbd7761de
 # Ranch Proxy — reach the ranch by short name
 
 ## Use the proxy, not raw ssh recipes
@@ -2438,7 +2510,7 @@ Will's design (2026-11-06): track the ranch state across time as **distillation 
 1. **Pull.** One `ranch fanout` pass through the ranch proxy (`~/workspace/ranch-proxy/ranch`, the only sanctioned route to the fleet) over every enabled node: load, core count, top processes, ollama / render / gateway markers, GPU edge temperature. CPU Tctl comes from the fanout footers, which the proxy measures itself — including for nodes it thermally skips, so the hotspot is never invisible at the moment it matters most. Disabled nodes (Aurora Continuum, Best Willow, Delta Wood) are recorded as down from `nodes.json`; an enabled node that refuses auth (Uncanny Valley — jared's key grant is outstanding) is recorded as no-access, never as down.
 2. **Summarize.** A template composes one or two lines of plain language: nodes up out of 17, the busy set (render / inference / compute, by node) or "fleet idle", average Tctl across the nodes reporting, the hotspot (flagged when it crosses the 75 °C sustained cap), a GPU hotspot clause only at 65 °C or above, then the down and no-access lists. A node is busy when a render marker is live, when ollama is up under load (≥ 0.5), or when load reaches three quarters of its cores.
 3. **Coordinate.** The summary's holographic coordinate is computed with the Singular skill's own machinery — `check_singular.WORD_RE` tokenization (letters only; digits carry no words) and `task_coordinate`'s atlas load and component-wise merge (round half up, never below 1) — imported, never reimplemented. The timestamp is NOT part of the merged text: a state that reads the same distills to the same coordinate whenever it recurs.
-4. **Store.** The line `YYYY-MM-DD HH:MM TZ | summary` is appended inside the scroll at that coordinate in `~/workspace/phext/state.phext`, via the shared phext implode machinery (parse → modify → implode → atomic replace, under a lock so cycles never interleave). An occupied coordinate gains a line; scrolls are never overwritten and lines are never dropped. A state computing to the Home coordinate itself would be stored one scroll past it (1.1.1/1.1.1/1.1.2) with its true coordinate noted — the meta line is reserved.
+4. **Store (WAL by construction — Will's ruling 2026-11-09, stated 01:42 and corrected by him minutes later).** Keep a minimum coordinate — the **floor**, the highest coordinate already written in `state.phext` — and enforce that every new write lands **strictly above it**. Previously written scrolls are immutable, and that is what makes the WAL automatic: phext serializes scrolls in coordinate order, so a strictly-greater write appends its delimiter delta and text at the file's tail and touches no byte already written (verifiable: after any cycle, the old file is a byte-exact prefix of the new one). Coordinate assignment is **indirect**: the summary's holographic coordinate is the entry's logical address; when the floor displaces the write to a higher physical coordinate, the stored line is prefixed with the logical coordinate (`logical | YYYY-MM-DD HH:MM TZ | summary`), and readers resolve the logical view by folding the physical scrolls in write order (`read_state_scrolls()` in the sampler). An occupied logical coordinate gains a line; nothing is ever overwritten or dropped. Why not the original parse → modify → implode → atomic-replace: the Muse VM substrate denies whole-file temp+rename writes (Errno 1 on the temp write; appends pass) — a substrate failure logged in the qexo design notes (EVALUATIONS.md, 2026-11-09). (An earlier same-night implementation appended to a separate `state.wal` file; Will corrected the reading — the WAL is a property of the coordinate discipline inside state.phext itself, not a sidecar file. The sidecar's two entries were migrated in under the floor discipline and the file retired.)
 
 ## What never enters the phext
 
@@ -2446,15 +2518,16 @@ Raw pulls live outside, as working state: `~/workspace/state-sampler/hidden_file
 
 ## Reading state.phext
 
-- Home (1.1.1/1.1.1/1.1.1) documents the layout and entry format; every other scroll is one distilled state with its occurrence lines.
-- Scrolls cluster by resemblance — a changed hotspot or busy set moves the coordinate slightly; a change of a degree or a count does not move it at all (numbers ride in the line text). The file reads as a map of the shapes the ranch takes over time.
-- Parse with `~/workspace/phext/parse_phext.py state.phext`; verify any entry's placement by re-running the singular `task_coordinate.py` on its summary text — the coordinate must match exactly.
+- The physical file holds scrolls in write order at monotonically increasing coordinates; the **logical** view folds them: a line with an indirect prefix belongs to the logical coordinate it names, any other line to the physical scroll holding it. The sampler's `read_state_scrolls()` performs the fold; a raw parse (`~/workspace/phext/parse_phext.py state.phext`) shows the physical layout, whose high-coordinate tail is the displaced recent entries.
+- Home (1.1.1/1.1.1/1.1.1) documents the layout and entry format. In the logical view, every scroll is one distilled state with its occurrence lines; Home's own prose lines fold to Home, not to the state scrolls.
+- Scrolls cluster by resemblance in logical space — a changed hotspot or busy set moves the logical coordinate slightly; a change of a degree or a count does not move it at all (numbers ride in the line text). The logical map is the map of the shapes the ranch takes over time.
+- Verify any entry's logical placement by re-running the singular `task_coordinate.py` on its summary text — the coordinate must match the recorded logical address exactly.
 
 ## Failure discipline
 
 - One dead node never stalls a cycle: the fanout is parallel and timeout-bounded, and unreachable nodes are summarized as down / no-access, not retried.
-- A cycle that cannot write leaves the phext untouched (atomic replace) and exits nonzero; the cron reports only failures, briefly, and never edits the phext by hand or improvises a repair.
-- Growth is linear in lines (288 pulls/day): roughly 53 KB/day of line text plus small delimiter overhead per new scroll — about 1.6 MB at 30 days, 5 MB at 90. If that ever needs trimming, the levers are cadence and line length, chosen by Will — never silent pruning of the record.
+- A cycle that cannot append leaves the phext untouched and exits nonzero; the cron reports only failures, briefly, and never edits the phext by hand or improvises a repair.
+- Growth is linear in lines (288 pulls/day): roughly 53 KB/day of line text plus small delimiter overhead per displaced scroll — about 1.6 MB at 30 days, 5 MB at 90. If that ever needs trimming, the levers are cadence and line length, chosen by Will — never silent pruning of the record.
 #!/usr/bin/env python3
 """Ranch state sampler: one 5-minute cycle of the state.phext distillation.
 
@@ -2470,11 +2543,25 @@ Pipeline (Will's design, 2026-11-06):
      method, reusing the singular skill's own machinery (check_singular's
      WORD_RE tokenizer + task_coordinate's atlas load and merge) — never
      reimplemented here.
-  4. Append the summary, prefixed with its timestamp, as a line inside the
-     scroll at that coordinate in ~/workspace/phext/state.phext. A
-     coordinate already occupied gains a line; nothing is overwritten,
-     nothing is dropped. The phext holds ONLY distilled summaries — raw
-     pulls live in the working-state dir below, never in the phext.
+  4. Append the summary into state.phext under the WAL discipline
+     (Will's ruling, 2026-11-09, as he corrected it the same night):
+     keep a minimum coordinate — the floor, the highest coordinate
+     already written — and enforce that every new write lands strictly
+     above it. Previously written scrolls are immutable, so the WAL is
+     automatic: phext serializes scrolls in coordinate order, hence a
+     strictly-greater write appends bytes at the file's tail and
+     touches nothing already written. Coordinate assignment is
+     indirect: the summary's holographic coordinate is its logical
+     address; when the floor forces a higher physical coordinate, the
+     stored line records the logical coordinate first, and readers
+     resolve logical → entries by folding the file in write order.
+     An occupied logical coordinate gains a line; nothing is
+     overwritten, nothing is dropped. The substrate failure that
+     forced the design (the Muse VM denies whole-file temp+rename
+     writes; appends pass) is logged in the qexo design notes
+     (EVALUATIONS.md, 2026-11-09). The phext holds ONLY distilled
+     summaries — raw pulls live in the working-state dir below, never
+     in the phext.
 
 Working state (outside the phext): ~/workspace/state-sampler/hidden_files/
   last-pull.json  — the most recent raw pull (overwritten each cycle)
@@ -2510,7 +2597,7 @@ sys.path.insert(0, str(PHEXT_DIR))
 from check_singular import WORD_RE          # noqa: E402  (the Singular tokenizer)
 from task_coordinate import load_atlas, round_half_up, fmt  # noqa: E402
 from parse_phext import parse as parse_phext  # noqa: E402
-from build_skills_phext import implode  # noqa: E402
+from build_skills_phext import implode, LEVEL_BYTES  # noqa: E402
 
 DELIM_BYTES = {0x01, 0x1F, 0x1E, 0x1D, 0x1C, 0x1A, 0x19, 0x18, 0x17}
 
@@ -2684,28 +2771,102 @@ def clean(text):
     return "".join(ch for ch in text if ord(ch) not in DELIM_BYTES)
 
 
-def append_entry(summary, coord, timestamp):
-    """Insert the timestamped summary line into state.phext at coord.
-    Returns the coordinate actually used."""
+def _parse_coord(s):
+    return tuple(int(x) for x in s.replace("/", ".").split("."))
+
+
+def _delta_bytes(state, target):
+    """Delimiter bytes that move the implode state machine from `state`
+    to `target` (target strictly greater), exactly as implode emits."""
+    out = bytearray()
+    st = list(state)
+    for lvl in range(9):
+        while st[lvl] < target[lvl]:
+            out.append(LEVEL_BYTES[lvl])
+            st[lvl] += 1
+            for j in range(lvl + 1, 9):
+                st[j] = 1
+    assert tuple(st) == tuple(target), (state, target)
+    return bytes(out)
+
+
+def _floor_and_state():
+    """The floor: the highest coordinate already written in
+    state.phext, and the physical scrolls in write order."""
     if STATE_PHEXT.exists():
-        scrolls = {coord_str: t for coord_str, t in parse_phext(str(STATE_PHEXT))}
+        physical = [(c, t) for c, t in parse_phext(str(STATE_PHEXT))]
     else:
-        scrolls = {}
+        physical = []
+    floor = HOME_COORD
+    for coord_str, _ in physical:
+        c = _parse_coord(coord_str)
+        if c > floor:
+            floor = c
+    return floor, physical
+
+
+def _append_line(logical, line):
+    """Append `line` for logical coordinate `logical` to state.phext,
+    enforcing the WAL discipline: the physical write lands strictly
+    above the floor, so its bytes append at the tail and no written
+    scroll is touched. When the floor displaces the write, the stored
+    line is prefixed with the logical coordinate (indirect
+    addressing); resolution folds by it. Returns the physical
+    coordinate used."""
+    floor, physical = _floor_and_state()
+    have_home = any(_parse_coord(c) == HOME_COORD for c, _ in physical)
+    if logical > floor:
+        physical_coord = logical
+    else:
+        physical_coord = floor[:8] + (floor[8] + 1,)
+    stored = line if physical_coord == logical else f"{fmt(logical)} | {line}"
+    payload = bytearray()
+    state = HOME_COORD
+    if not have_home:
+        payload += HOME_TEXT.encode()
+        state = HOME_COORD
+    else:
+        state = floor
+    payload += _delta_bytes(state, physical_coord)
+    payload += (stored + "\n").encode()
+    with open(STATE_PHEXT, "a", encoding="utf-8") as fh:
+        fh.write(payload.decode("utf-8"))
+        fh.flush()
+        os.fsync(fh.fileno())
+    return physical_coord
+
+
+def append_entry(summary, coord, timestamp):
+    """Append one cycle entry under the WAL discipline. The summary's
+    holographic coordinate is its logical address; the write itself
+    always lands above the floor. Returns the physical coordinate."""
+    line = f"{timestamp} | {clean(summary)}"
+    return _append_line(coord, line)
+
+
+_INDIRECT_RE = re.compile(r"^(\d+\.\d+\.\d+/\d+\.\d+\.\d+/\d+\.\d+\.\d+) \| (.*)$")
+
+
+def read_state_scrolls():
+    """Resolve the logical view: fold the physical scrolls in write
+    order — a line carrying an indirect prefix belongs to the logical
+    coordinate it names; any other line belongs to the physical scroll
+    holding it."""
+    _, physical = _floor_and_state()
+    scrolls = {}
+    for coord_str, text in physical:
+        for raw in text.splitlines():
+            m = _INDIRECT_RE.match(raw)
+            if m:
+                logical, line = m.group(1), m.group(2)
+            else:
+                logical, line = coord_str, raw
+            if logical in scrolls and scrolls[logical].strip():
+                scrolls[logical] = scrolls[logical].rstrip("\n") + "\n" + line
+            else:
+                scrolls[logical] = line
     scrolls.setdefault(fmt(HOME_COORD), HOME_TEXT)
-    used = coord
-    if coord == HOME_COORD:
-        used = (1, 1, 1, 1, 1, 1, 1, 1, 2)
-    key = fmt(used)
-    line = f"{timestamp} | {summary}"
-    if key in scrolls and scrolls[key].strip():
-        scrolls[key] = scrolls[key].rstrip("\n") + "\n" + line
-    else:
-        scrolls[key] = line
-    blob = implode({k: clean(v) for k, v in scrolls.items()})
-    tmp = STATE_PHEXT.with_suffix(".phext.tmp")
-    tmp.write_bytes(blob)
-    os.replace(tmp, STATE_PHEXT)
-    return used
+    return scrolls
 
 
 def save_raw(pull, keep_bytes=2_000_000):
@@ -3488,6 +3649,41 @@ title: "Distill Process to Skill — every taught process, indexed"
 description: "Execute Will's standing order that every process he teaches becomes a skill: distill it faithfully from its source documents, sync it to emise-tools the same session, and place it in the skills.phext index whose coordinate ranges persona grants claim."
 category: "Work and knowledge"
 include_in_prompt: true
+# Process Check & Lessons Review — changes get verified, lessons get re-read
+
+Standing rules (Will, 2026-11-08): "whenever we change process, run a check to ensure that it sticks" and "in 1% of my posts, take time to review lessons.phext to ensure that workflow behaviors are working properly." A process change that lives only in the message where it was announced is a defect; a lesson recorded but not lived is the failure this skill exists to catch.
+
+## Rule 1 — every process change gets a sticking check
+
+When a process changes — a standing rule added or amended, a skill created or edited, a cron created or retimed, a workflow redefined — the change is not done when it is written down. In the same session, after the change lands:
+
+1. **Presence** — the rule/skill/cron exists where it belongs: grep the file, read the saved cron definition back (`cron.view`), or run the relevant builder's `--check` (skills.phext, tasks.phext, lessons.phext must print CURRENT).
+2. **Machinery** — whatever enacts the change actually exists and runs: the script is executable, the builder passes, the cron is enabled with the intended schedule.
+3. **First occasion** — where the change has an immediate occasion (a draw to make, a first run, a first use), perform it now and confirm the behavior matches the intent.
+
+Report the check's result in the plain summary to Will — what was verified, not the receipts (receipts live in the records). A check that fails is repaired in the same session or reported as a failure, never silently carried.
+
+## Rule 2 — 1% of Will's posts trigger a lessons review, in real time
+
+- **Where it lives**: in SOUL.md (selection S8), in context during every conversation — not in a cron. Will's correction (2026-11-08): the review must happen in real time, as a low-probability event, "so we catch things while I'm interacting with you." A scheduled audit of yesterday's posts demonstrates bookkeeping, not integrity. His reason: "to be trusted by humans you have to demonstrate integrity under pressure" — and its twin, that follow-through on promises is the other half of being trusted. The check fires where drift is live and correction is cheap: mid-conversation.
+- **Trigger**: for each of Will's posts, draw n = (int(SHA-256 of "lessons-draw|<date>|<time>|<post text>") mod 100) + 1, computed live in the turn. A hit at n == 1. On a hit, pause the thread of work and run the review in that response (or immediately after the urgent item in it), saying plainly that the draw hit.
+- **The review** (when triggered):
+  1. Read lessons.phext (verify first: `python3 ~/workspace/phext/build_lessons_phext.py --check` must print CURRENT).
+  2. Pick the lessons encoding checkable workflow behaviors — publishing discipline, register discipline, verification rules, queue rules, and follow-through on promises made in this conversation and the record.
+  3. Check each against the live record from primary sources, including the current conversation: promises made earlier actually kept, builders CURRENT, the register honest, failures verified before surfacing.
+  4. Report in plain terms, in the conversation: what is working, what is drifting. Repair agent-actionable drift in the same turn; record what needs Will where it will be seen.
+- **Honesty**: never fake a review on a non-hit; never skip one on a hit; a near miss is a non-hit. The draw is stated when it matters (on a hit, and when the rule itself is the topic).
+
+## Records
+
+- Both rules are lessons in lessons.phext (appended 2026-11-08 to `~/workspace/phext/lessons-source.phext`, rebuilt same session).
+- The draw is computed live per post and stated when it matters.
+- When this skill is created or edited, the closing step of distill-process-to-skill applies: rebuild skills.phext and `--check` CURRENT in the same session, and publish to emise-tools.
+name: process-check-and-lessons-review
+title: Process Check & Lessons Review
+description: Verify every process change actually sticks (presence, machinery, first occasion), and run the 1%-of-posts lessons.phext review that checks whether recorded workflow behaviors are actually being lived.
+category: Work and knowledge
+include_in_prompt: true
 # Task Register — every task lives at its coordinate in tasks.phext
 
 ## What this skill is
@@ -3517,6 +3713,32 @@ include_in_prompt: true
 - One scroll per task, addressed by the coordinate generated at issue — never re-coordinate a task after the fact; corrections append as notes in the original scroll.
 - No sensitive material in the register: operational facts only (the Gmail privacy boundary and Investor 1 anonymization apply here as everywhere).
 - This register complements, never replaces, the Waiting-on-Will register and goal tracking: a wait on Will still goes in `waiting-on-will.md` with its number; the task scroll links to it by number.
+# Nightly Orchestrator — four-currency evaluation, a better planner every night
+
+Will's standing rule (2026-11-08): evaluate the daily workload in terms of **disk, CPU, RAM, and inference**; ask whether a better planner could have produced better or faster results; **ship a new orchestrator every night**. Emise manages the orchestrator as part of her dreaming process, in its repo: **wbic16/quarterexo@exo** (Will created it 2026-11-08 and named it — "quarter" for the quartermaster function: issuing the four currencies; working tree `~/workspace/orchestrator/` is its local mirror, and source publishes there, NOT to emise-tools, now that the repo exists).
+
+## The division of labor (fixed premise)
+
+- **Inference: Emise.** For all open tasks, Emise handles the heavy lifting in terms of inference — triage, judgment, synthesis, verification.
+- **Disk, memory, CPU: the ranch.** Heavy execution belongs on ranch nodes. Planning premise: **assume the ranch nodes have significantly better disk, memory, and CPU capacity than the Muse VM** (measured 2026-11-08: VM ≈ 60 MB/s write / 225 MB/s read, ~200–400 MB RAM headroom on shared accounting, 1.5 shared CPUs; ranch nodes carry dedicated NVMe). Thermal policy and measured load still gate specific placements — the premise orders the classes, it does not exempt a hot node.
+- The VM coordinates and verifies. Video work never runs on the VM at all (standing rule, 2026-11-08).
+
+## The nightly cycle (runs in the dreaming window, ~04:54 America/Chicago)
+
+1. **Evaluate the day in four currencies.** Gather the day's evidence from primary records: disk (disk-watch history: usage delta, largest growers, near-misses), CPU/RAM (job run records, observed contention, the VM's shared-accounting envelope), inference (which tasks consumed frontier inference, where triage or a cheaper pass would have sufficed, where inference was wasted on work a script should have done). Write the evaluation into the orchestrator repo (EVALUATIONS.md, one dated section per night) and append a terse entry to the day's memory note.
+2. **Counterfactual planner review.** For the day's significant dispatches and placements, name at least one concrete case where a better plan would have produced a better or faster result — or state plainly that the day's planning held up, with the strongest case examined. A review that always finds nothing is not a review.
+3. **Ship the new orchestrator.** Increment the version, apply the improvement the evaluation argues for (one principled change per night beats five speculative ones), record it in the changelog with the evaluation finding that motivated it, build on a ranch node (never a heavy build on the VM), run its checks, publish source to **wbic16/quarterexo@exo** by the usual route (parent on fresh remote HEAD, force disabled, hashes and modes verified). The working tree lives at ~/workspace/orchestrator/.
+4. **Report once, succinctly:** the four-currency headline, the counterfactual finding, the new version and its one change. Failures are reported plainly, never silently — a night without a shipped orchestrator is a defect to surface, not to skip.
+
+## The orchestrator artifact
+
+A Rust program (Will's direction, 2026-11-08: the dispatcher is Rust) that grows toward this shape: it reads the open-task register and the resource picture, and emits placement plans in the four currencies — inference to Emise, heavy disk/CPU/RAM to named ranch nodes under their thermal gates, nothing heavy on the VM. Early versions may be small (read the registers, emit the plan, account the currencies); the nightly cycle is what makes it grow up. Every version must run and print its plan — a version that does not run does not ship.
+
+## Boundaries
+
+- The orchestrator plans and accounts; it does not dispatch reserved acts (merges, outbound messages, spending stay with their existing rules).
+- State backups to the ranch (standing rule, 2026-11-08) run as their own nightly job, independent of this cycle's success or failure.
+- Process changes from an evaluation finding follow the usual discipline: the change is not real until its sticking check passes (presence, machinery, first occasion).
 # R&D Tracker — weave each paper into one world-model, as a delta
 
 Will posts random arXiv links; Emise weaves each into `~/workspace/research-tracker/research.phext` — one de-duplicated scientific world-model (charter est. 2026-11-05, Will → Emise; delta rule and Research Oracle added 2026-11-06). The tracker lives in side chat 882e61bb and the goal `r-d-tracker`. Edit the SCROLLS in `~/workspace/research-tracker/build_research_phext.py` and re-run it; verify coordinates with `~/workspace/phext/parse_phext.py`.
@@ -3544,8 +3766,11 @@ Will posts random arXiv links; Emise weaves each into `~/workspace/research-trac
 
 ## Layout
 
-- 1.1.1/1.1.1/1.1.x — charter, narrative, source index, Research Oracle ledger
+- 1.1.1/1.1.1/1.1.x — charter, narrative, source index, Research Oracle ledger, concept map + restructuring log
 - 1.1.1/1.1.1/1.2.x — canonical concepts
+- 1.1.1/1.1.1/1.3.x — foundations (level-zero definitions) and the Defined Words register (from 1.3.46)
+- 1.1.1/1.1.1/1.4.x — the standing record (epistemic registry, rule 14)
+- 1.1.1/1.1.1/1.5.x — the AREAS (rule 16): map, state machines, statements, reference, the path, researchers, and the plain account of the making (1.5.7–1.5.8)
 - One chapter per paper in arrival order from Chapter 2 (paper chapter + its synthesis/open-questions scrolls)
 
 ## Author check on intake (charter rule 15, Will, 2026-11-07, standing rule)
@@ -3559,6 +3784,17 @@ Will posts random arXiv links; Emise weaves each into `~/workspace/research-trac
 ## State machine review (charter rule 13, Will, 2026-11-07)
 
 13. Every paper or source study receives a state-machine pass as part of its distillation: the machines the work contains or assumes are named in its chapter as part of the delta record; a machine that is a reusable concept becomes (or links to) a canonical concept scroll; machines Emise infers rather than finds stated are marked [synthesis]; a paper that reveals a machine the world-model held only implicitly counts as a revision of the concepts it touches. Full method: the state-machine-review skill (`~/workspace/custom-skills/state-machine-review/`), which also carries the same review into MOAT's proving track. Origin: Steve Ruiz's prompt "find all of the implicit state machines in my app", posted by Will in MOAT with the direction to build the review into MOAT itself.
+
+## Areas (charter rule 16, Will, 2026-11-08)
+
+16. research.phext is organized into five AREAS, kept in Chapter 1, Section 5 (built at Restructure Pass #4, 2026-11-08), plus a plain account of the making. Each area is an index over the phext's actual contents — built by reading the scrolls, never from memory of the chats — and holds pointers and one-line accounts; the claims stay where they were made. Nothing is moved or pruned to build an area.
+   - **State machines (1.5.2):** every machine named in the phext — machines drawn out under rule 13 (stated by the work, or inferred and marked [synthesis] in their chapter), and machines found in work taken in before rule 13 stood, listed as FOUND — noted, not drawn out, no gap test run. Chapters swept with no machine found are named as swept.
+   - **Statements (1.5.3):** the door to the standing record (§4, 1.4.x): what a statement is here, the four standings, the bases that bind them, the legal receipt-driven transitions, and the counts of the current drawing. The lists themselves are not duplicated; §4 is the record.
+   - **Reference (1.5.4):** the foundations (§3) and Defined Words register plus each chapter's standoff companion (x.3.1), presented as one area: what lives there, how 'Builds on' chains bottom out, how a reader uses them.
+   - **The path (1.5.5):** every taking-in in original submission order — papers and studies interleaved by arrival — each with its date, title, chapter, and for papers its Novelty Index, axis flag, and Oracle progress after; studies marked as studies (no NI, Oracle unmoved); the restructuring passes placed where they fell.
+   - **Researchers (1.5.6):** every researcher behind the ingested works — paper authors and study authors/creators — each with their work(s) here (chapter/coordinate) and their rule-15 standing, taken from the author-check scrolls where they exist. Works taken in before rule 15 stood (Papers 001–005, Studies S001–S003) are marked 'not checked — predates the author-check rule'; no verdict is fabricated for a check never run. Will is the submitter/curator, not a researcher entry.
+   - **How the Oracle was built (1.5.7–1.5.8):** the plain structure scrolls — intake, the delta rule, one canonical scroll per concept, foundations at level zero, the four standings and their bases, the Lean proof of the keeping with its honesty boundary (Lean proves the bookkeeping, not worldly truth), restructuring without pruning (minimum = smallest organization, never smallest content), the Novelty Index and Oracle estimate, and where everything lives.
+   - **Maintenance duty:** every ingestion and every restructuring pass updates the areas it touches in the same pass — new machines join 1.5.2, new authors join 1.5.6, the path gains its entry at 1.5.5, the statements counts at 1.5.3 are made fresh with the new §4 drawing. An area fallen behind the phext is a defect, audited at each restructuring pass.
 name: "rd-tracker"
 title: "R&D Tracker — papers as deltas in one world-model"
 description: "Weave each arXiv paper Will posts into research.phext under its charter: one canonical scroll per concept, each new paper stored only as its delta, synthesis labelled separate, and a Research Oracle progress estimate (Novelty Index plus axis-opening flag) reported after every paper."
