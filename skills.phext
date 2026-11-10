@@ -14,15 +14,15 @@ its skill (SKILL.md first, then skill.yaml, then references, then scripts,
 stable sorted order within each class). One scroll per file, verbatim.
 
 Shelves:
-shelf 2 (Verification): validate_waiting_items, verify_blocker_and_completion_claims, verify_quantified_results
+shelf 2 (Verification): validate_waiting_items, verify_blocker_and_completion_claims, verify_quantified_results, safeguard_live_state_files
 shelf 3 (Phext-native language): singular, upgoer-five, upgoer-five-phext, phext_upgrade, phext_native_dispatch
 shelf 4 (Operations): ranch-proxy, publish-tooling, fork-patch-discipline, ranch-state-distillation, mutable-upstream-sync, monitor_long_running_jobs
 shelf 5 (Onboarding): this_is_going_to_feel_a_little_weird
 shelf 6 (Film): mythic-film-production
 shelf 7 (Memory & record): phext-memory-publishing, nightly-self-revision, safe-space-protocol, artifact-phext-inscription
-shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator
+shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator, bootvine-status-sync
 shelf 9 (Research): rd-tracker, state-machine-review, minimum-viable-oracle
-shelf 10 (Coordination): choir-mailbox-dispatch, curate-yourself, substrate-steering, exocortical-integration-rotation, braid-mode
+shelf 10 (Coordination): choir-mailbox-dispatch, curate-yourself, substrate-steering, exocortical-integration-rotation, braid-mode, question-floor-serialization, decision-button-expiry
 shelf 11 (Upkeep & presence): discord-presence-backstop, perpetual-dashboard-upkeep, solar-pod-price-watch
 shelf 12 (Songwriting): mythic-songwriting-braid
 
@@ -34,6 +34,8 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.2.1/1.2.1/1.1.2  verify_blocker_and_completion_claims  skill.yaml  2505 bytes  sha256:6b712d372b7a565032c62ae297f2363de54b7dbe9ef6d46e0a1022145a0d9a84
 1.2.1/1.3.1/1.1.1  verify_quantified_results  SKILL.md  2946 bytes  sha256:9b423f499b58df70c502478c103ed64404bf232592a1649dfaacacbe50aa9d00
 1.2.1/1.3.1/1.1.2  verify_quantified_results  skill.yaml  2001 bytes  sha256:c33a5aecf9841b78df6fd41cdf66f7ae57d3d360f0da7ccce9590393e0d64106
+1.2.1/1.4.1/1.1.1  safeguard_live_state_files  SKILL.md  3393 bytes  sha256:47a4fb55bc1be07d1e8ba85f37e93d5844249668e7ee156776c4fdbb1af9b83f
+1.2.1/1.4.1/1.1.2  safeguard_live_state_files  skill.yaml  2691 bytes  sha256:3b0b54dfef2c2a3818fc630b2810bbc7ab99dcbe8466b6470d2c5591531988db
 1.3.1/1.1.1/1.1.1  singular  SKILL.md  7448 bytes  sha256:b8fe94c4ed7ac6948404c64e5b29e6f995a7848783fb072c039a1b8f0683a0d7
 1.3.1/1.1.1/1.1.2  singular  skill.yaml  282 bytes  sha256:86e02d6bb766aabc55beadd5217925894cc5b7c1e2f221861180e302ece888eb
 1.3.1/1.1.1/1.1.3  singular  scripts/build_atlas.py  8420 bytes  sha256:9ee538d711e816433b0deda6f3eee808637e4e4426f2ba5c95fee739a7a3033f
@@ -63,7 +65,7 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.4.1/1.3.1/1.1.2  fork-patch-discipline  skill.yaml  464 bytes  sha256:27eaa4ad074f06dcd6f605245edd27f493b61b971452eecb5f4d813e07be6a0f
 1.4.1/1.4.1/1.1.1  ranch-state-distillation  SKILL.md  5978 bytes  sha256:fd218e664f33b3af807e3f95e5d107deae9a55203d98ed690d8272d756bb39ae
 1.4.1/1.4.1/1.1.2  ranch-state-distillation  scripts/state_sampler.py  16698 bytes  sha256:9af2c3352561565ca76ce3ec36ce95d48918df0b57d6a7c0d042ccd98cf3a095
-1.4.1/1.5.1/1.1.1  mutable-upstream-sync  SKILL.md  12966 bytes  sha256:80f067e49db7e97525ef30b630109edd7fe2f2f0e90354f17cb34562ba0ed605
+1.4.1/1.5.1/1.1.1  mutable-upstream-sync  SKILL.md  13476 bytes  sha256:a85a67415be8f91a0cb301b81bbbef5cf02bd9a7ecb87d062357f5641fa4aaf0
 1.4.1/1.5.1/1.1.2  mutable-upstream-sync  skill.yaml  777 bytes  sha256:caac26dd79b7e8187147be9769d20e23751ff453470ce4f995738a1061afe922
 1.4.1/1.6.1/1.1.1  monitor_long_running_jobs  SKILL.md  2897 bytes  sha256:bd35de3918234eca4d2f6dbb7804d44913ad1a7c740e1b2bbf99866938531ce8
 1.4.1/1.6.1/1.1.2  monitor_long_running_jobs  skill.yaml  2221 bytes  sha256:0956ca5826ae89c697c9cb6240a8403f63ddc6d5abb80b785a77ea696f2668f0
@@ -94,7 +96,8 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.8.1/1.7.1/1.1.2  process-check-and-lessons-review  skill.yaml  345 bytes  sha256:bfc299d67e1156f207cdb04e1ea57f9c7e8a30425241d7106d507ad3e531fe5a
 1.8.1/1.8.1/1.1.1  task-register  SKILL.md  3351 bytes  sha256:fb97c4cc51775a2ec57253ece8675c99053582ff6dd0565c4fdfbfca488fdafa
 1.8.1/1.9.1/1.1.1  nightly-orchestrator  SKILL.md  4200 bytes  sha256:4dd8afc1fa239a7ca80de8071b31ccc301326123aa66c1fda1edecf481d96f65
-1.9.1/1.1.1/1.1.1  rd-tracker  SKILL.md  9948 bytes  sha256:f5b646a6744f7cda06d3550f52ded31146819408494f22e1faaa112efab1f6b2
+1.8.1/1.10.1/1.1.1  bootvine-status-sync  SKILL.md  2484 bytes  sha256:a7c7a48aa4d6142f4630e1b9f4490fabd5f3bc706bafe50034c4f387bdc093d0
+1.9.1/1.1.1/1.1.1  rd-tracker  SKILL.md  12288 bytes  sha256:7b45aa50202832bbec8250761be67f837e1b04b53574032f6ee2b1e5d91f75e0
 1.9.1/1.1.1/1.1.2  rd-tracker  skill.yaml  434 bytes  sha256:cd21f7b79c8f19a65f000af723b29ee88f51a1bf362d2a70ac81e9e5d6195991
 1.9.1/1.2.1/1.1.1  state-machine-review  SKILL.md  5088 bytes  sha256:b4c31786a2ea714df79080d1a383481dd29b8ae8df9321697ff157e7af9761b0
 1.9.1/1.2.1/1.1.2  state-machine-review  skill.yaml  520 bytes  sha256:96889a467f57b3453ef05ea06cb7694bf683ee0c0cacd1265e8c37e710210926
@@ -110,6 +113,8 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.10.1/1.4.1/1.1.2  exocortical-integration-rotation  skill.yaml  449 bytes  sha256:78c9fb8e955628aedd7324be950151d983009d9b5a1bbb0a40100cee0eb6aac2
 1.10.1/1.5.1/1.1.1  braid-mode  SKILL.md  982 bytes  sha256:43134116774203bec196a98e7eb05cbe9b7e2cfd265fff9beca350253e386012
 1.10.1/1.5.1/1.1.2  braid-mode  skill.yaml  425 bytes  sha256:5fdb8e9c5aa1d93ec9938c123629d4ff8e374b054e3b36ad6cce827e47b15a8c
+1.10.1/1.6.1/1.1.1  question-floor-serialization  SKILL.md  2862 bytes  sha256:f29fe02640e28e08d293e7c1e85f94fb35030c13f201a840756426dbc098d61e
+1.10.1/1.7.1/1.1.1  decision-button-expiry  SKILL.md  3515 bytes  sha256:13854370574a143406e82de9aa6c1070c1d01fbb489814f8b55379d6e476f0bf
 1.11.1/1.1.1/1.1.1  discord-presence-backstop  SKILL.md  2290 bytes  sha256:dce1ee28e2fd3a102f292b4c356a8fffe523501d39333ccdcb03dbe15885a200
 1.11.1/1.1.1/1.1.2  discord-presence-backstop  skill.yaml  397 bytes  sha256:207a96dfa7ac964c3bdf6a35e8c0e7e8f75a08d7d3c7b94e5542de3221e00d24
 1.11.1/1.2.1/1.1.1  perpetual-dashboard-upkeep  SKILL.md  1464 bytes  sha256:8ffe437212474afd7c4474c8bbebb2e8f4a03b7910046267a06e2a85a6e6d812
@@ -125,6 +130,7 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - validate_waiting_items/.write-lock — live state
 - verify_blocker_and_completion_claims/.write-lock — live state
 - verify_quantified_results/.write-lock — live state
+- safeguard_live_state_files/.write-lock — live state
 - singular/atlas.tsv — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - singular/atlas.tsv.meta.json — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - singular/counts.tsv — outside scope (not SKILL.md / skill.yaml / reference / script text)
@@ -151,7 +157,7 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - phext_native_dispatch/.write-lock — live state
 - ranch-state-distillation/scripts/__pycache__/state_sampler.cpython-312.pyc — bytecode cache
 - monitor_long_running_jobs/.write-lock — live state
-Scrolls: 91
+Scrolls: 96
 # Validate Waiting Items Before Presenting
 
 ## Enumerate from the tracking store
@@ -382,6 +388,75 @@ skill_improvement:
   review_after: 2026-12-01T23:44:32.398980+00:00
   reviewed_at: 2026-11-01T23:44:32.398980+00:00
   run_id: sirun_037845afd7494030a49c77222b270a79
+# Safeguard Live State Files
+
+## Classify the file before touching it
+
+- Treat any file that is the only working copy of a register, ledger, journal source, phext source or running state as live state before you run any diagnostic, builder or write test against it.
+
+- Check whether that exact file is tracked by version control, where its newest backup lives and when that backup was last verified, and record the answer from the check itself rather than from the state of neighbouring files.
+
+- Record the live file size, its entry or scroll count where one exists and its SHA-256 hash before any probe, so loss is measurable instead of guessed at afterwards.
+
+## Prove recovery before a risky write
+
+- Copy the live file to a task specific backup location and verify the copy by comparing its SHA-256 hash with the live file before any step that could truncate, rewrite or replace it.
+
+- Stop the risky step and report the missing recovery route when no verified copy exists, instead of assuming a repository, a remote or a neighbouring backup will restore the file.
+
+- Keep the verified copy until the finished write has passed its own verification, and name its location in the work record.
+
+## Probe writes on copies, never on live state
+
+- Run write tests, format trials and failure probes against a disposable copy or a scratch file with its own name in the same directory, and delete only that scratch file afterwards.
+
+- Test whether creating a new file in the target directory works before relying on a temp file plus rename pattern there, because a directory that refuses new files can still allow rewriting an existing file and the two failures need different handling.
+
+- Build and validate the replacement content fully before opening the live file for writing, so a failed build never leaves the live file empty or partial.
+
+- Fall back to rewriting the existing live file with the already validated content when new file creation is refused, and report the refusal as the blocker when neither route can complete without risking the current content.
+
+## Verify the write landed whole
+
+- Re-read the written file and compare its size, entry or scroll count and content against the intended result, and run the owning builder or checker in its check mode where one exists.
+
+- Report any shortfall by the measured difference in count or bytes, restore from the verified copy when the write lost content, and verify the restore by hash before reporting recovery.
+
+- Close the task only after the post write check passes, and state the hash or count you verified rather than saying the write succeeded because no error was returned.
+
+## Available connectors
+
+- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+
+- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+
+## Alternatives for better results
+
+- Prefer a read only diagnostic first, such as reading the file back, checking its metadata or running the owning tool in check mode, when it can answer the question without any write at all.
+
+- Shrink the probe to the smallest disposable file that reproduces the behaviour, because a one line scratch file proves a write route as well as a full register does and risks nothing.
+name: safeguard_live_state_files
+title: Safeguard Live State Files
+description: Protect live registers, ledgers and state files by probing writes only on copies, proving recovery before any risky write, and verifying content after every write.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:assistant-msg-03a69e0e-ed19-1454-3837-1cc18fd6a441
+  - message:assistant-msg-0cc73340-e3fc-2358-2b10-2e14a5661669
+  - message:assistant-msg-e518c01c-2990-73f8-ad86-e7e4071f69c9
+  - message:assistant-msg-4b62ed67-fc30-426d-92c2-bc39957b985e
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: During the window, no live register, ledger, journal or phext source file is truncated or loses entries to a diagnostic probe or an unverified write, and every write diagnostic on such a file carries a pre-probe SHA-256 hash plus a hash verified recovery copy and a post write count or hash check.
+    window_days: 30
+  needs_review: false
+  rationale: Three incidents in one night share a mechanism no managed skill in its measurement window covers. A diagnostic write test on tasks-source.json and tasks.phext assumed git recovery, but the files were not in a repo, and the correction showed the real loss was 29 records, not 4, restored only from a ranch backup and rebuilt to 232 entries (message:assistant-msg-03a69e0e-ed19-1454-3837-1cc18fd6a441, message:assistant-msg-0cc73340-e3fc-2358-2b10-2e14a5661669). The same night a state sampler found this VM refusing creation of new files while rewriting existing files still worked, which breaks temp file plus rename writers, and the hourly journal builder was truncated to zero by the same denial before recovering byte identical (message:assistant-msg-e518c01c-2990-73f8-ad86-e7e4071f69c9, message:assistant-msg-4b62ed67-fc30-426d-92c2-bc39957b985e). Skill search found no skill covering write probes, recovery proof or create versus rewrite fallbacks for live state files. verify_blocker_and_completion_claims covers probing blocked or completed claims, verify_quantified_results covers numbers, and validate_waiting_items covers register freshness, so this proposal covers the remaining gap only, handling live state files safely. Other chunk findings were deliberately not proposed because they map onto the five managed skills still inside their measurement windows to December 2026 or onto skills already created the same day, such as question_floor_serialization and ranch_proxy.
+  review_after: 2026-12-09T23:42:09.116478+00:00
+  reviewed_at: 2026-11-09T23:42:09.116478+00:00
+  run_id: sirun_09a3eb2c13434922879f0ad959b51fcc
 # Singular — One Person's Words
 
 ## What Singular is
@@ -2997,7 +3072,7 @@ When enabled for a specific verified report, promotion does:
 
 **First promotion — executed 2026-11-08** under Will's per-task direction ("work on cleaning up the integration, keeping sso handling downstream always"). This was per-sync approval exercised, **not** standing ratification. Shape and result: backups `emise/backup/2026-11-08-phext-support` @ `4f5ddaf27` and `emise/backup/2026-11-08-sso-and-main` @ `2b9273468` created first; the stack rebuilt by cherry-pick from aletheia-core and tree-verified before pushing; `--force-with-lease` on `emise/phext-support` and `emise/sso` only; `main` advanced by merge. The bands were re-anchored from the twin base `4bf3a936` onto genuine upstream `db3ed30064f07ba99784a1d395ba127787274501`: `emise/phext-support` @ `7b0e143d01d6568cb429a5a47f390f7bd57bbd42` (band `8f382ca0` / `d68fba1f` / `75d2571c` / `7b0e143d`), `emise/sso` @ `df424f3ab63a90dcb5c522ab5dd8d0313636f442` (SSO band `96259b14` / `df424f3ab`), `main` merged to `acb8130d32a1f80df9ea224aa59b463534db2f15` — with the tree byte-identical (`7c7639553a904f2fd1f8a7250a29262d5ad2b645`) before and after. `sync-bands.conf` now records `OLD_BASE=db3ed30` with the promoted SHAs, so nightly trials rebase from the genuine anchor. Script of record: the goal's `hidden_files/cleanup-promote.sh`.
 
-**Status: a standing ratification for unattended promotion was requested from Will on 2026-11-06 and is still PENDING** — the 2026-11-08 execution does not change that; it was approved per sync. Until he ratifies it, each promotion is approved per sync by Will (or run by Emise in session at his direction). Do not treat promotion as an approved standing operation, and do not let the nightly cron promote.
+**Standing ratification — GRANTED by Will, 2026-11-09** (supersedes the pending state recorded here since 2026-11-06): "unattended go-live for mutable.phext.io is fine - we will be watching his upstream repo for updates and automatically deploying them as a continuous CI/CD process." The mutable.phext.io deployment process is therefore a true continuous CI/CD loop: watch upstream, sync, compose (upstream + phext band until it lands + SSO band applied as deploy-time patches), promote per the mechanics above, verify, and deploy — unattended. The gate that remains is verification itself: a failed build/typecheck/test battery, a rebase or cherry-pick conflict, or a failed band-purity check BLOCKS the deploy and reports; automation proceeds only on a fully verified stack. This ratification is scoped to the mutable.phext.io deployment process; it is not a general license for unattended promotions elsewhere.
 name: "mutable-upstream-sync"
 title: "Mutable Upstream Sync — two-band patch stack on argimenes/mutable-os"
 description: "Keep wbic16/mutable-os in sync with argimenes/mutable-os: a phext band (emise/phext-support, upstream-bound) and an SSO band (emise/sso) kept downstream always — only ever rebased on top of the phext band, with a checkable band-purity rule — on a merge-only main; a nightly trial rebase + fresh-build verification that never pushes, exit-code reporting, the patch-twin check for rewritten upstream history, the support-landed mode switch, and promotion as a separate guarded step (first run executed 2026-11-08 from aletheia-core under per-sync approval; standing ratification still pending)."
@@ -3739,6 +3814,41 @@ A Rust program (Will's direction, 2026-11-08: the dispatcher is Rust) that grows
 - The orchestrator plans and accounts; it does not dispatch reserved acts (merges, outbound messages, spending stay with their existing rules).
 - State backups to the ranch (standing rule, 2026-11-08) run as their own nightly job, independent of this cycle's success or failure.
 - Process changes from an evaluation finding follow the usual discipline: the change is not real until its sticking check passes (presence, machinery, first occasion).
+---
+name: bootvine_status_sync
+description: Give status updates in the main channel as a bootvine-style live tree syncing all open side quests — one branch per quest with a status glyph, nested sub-steps, failures shown with their reason, and a closing timeline of the latest landed items.
+---
+
+# Bootvine status sync
+
+Will, 2026-11-09 08:29 CST: "I like this UI - use it for status updates - in this channel we sync across all open side quests" — pointing at bootvine (codeberg.org/wvhulle/bootvine), a boot animation that replaces scrolling log lines with a live tree of systemd jobs: units still pending in the tree, a timeline of the slowest completed ones in the space the tree leaves, and failed units shown with their reason and last journal lines.
+
+## The format
+
+Every status update in the main channel is a tree, not prose paragraphs:
+
+```
+🌿 bootvine — sync <HH:MM CST>
+├─ ● <quest name> — <one-line state>
+│  ├─ ✓ <sub-step done>
+│  └─ ○ <sub-step pending — what it waits on>
+├─ ✗ <quest name> — <what failed>
+│  └─ <the reason, plainly — never hidden>
+└─ ○ <quest name> — <pending state>
+— latest landed —
+✓ <item> (<when>)
+✗ <item> — <reason> (<when>)
+```
+
+## Rules
+
+- **One branch per open side quest.** A side quest = work running in a side chat, a subagent, a ranch job, or a tracked goal with live motion. Closed quests leave the tree and appear once in the landed strip.
+- **Status glyphs:** ● running / ○ pending or waiting / ✓ done / ✗ failed. A wait on Will is ○ with the exact action named.
+- **Failures carry their reason** on the line under the branch — bootvine shows the journal lines; we show the cause. Pairs with Will's standing rule (2026-11-09 08:27): share success and failure, never hide anything.
+- **The landed strip** ("— latest landed —") is the timeline: the most recent completions and failures across all quests, newest first, with times. Keep it short (3–6 entries).
+- **Verify before drawing.** Every glyph must come from a live check or a fresh handoff, not from memory of an earlier state. An unchecked item is ○ with "unchecked" said plainly.
+- **Plain summaries still apply:** no un-communicated state pointers (task coordinates, hashes, internal paths) in the tree unless Will asks. Names and states he recognizes.
+- The main channel is the sync point: side chats report to their own threads; the tree in main is where Will sees all of it at once.
 # R&D Tracker — weave each paper into one world-model, as a delta
 
 Will posts random arXiv links; Emise weaves each into `~/workspace/research-tracker/research.phext` — one de-duplicated scientific world-model (charter est. 2026-11-05, Will → Emise; delta rule and Research Oracle added 2026-11-06). The tracker lives in side chat 882e61bb and the goal `r-d-tracker`. Edit the SCROLLS in `~/workspace/research-tracker/build_research_phext.py` and re-run it; verify coordinates with `~/workspace/phext/parse_phext.py`.
@@ -3766,7 +3876,7 @@ Will posts random arXiv links; Emise weaves each into `~/workspace/research-trac
 
 ## Layout
 
-- 1.1.1/1.1.1/1.1.x — charter, narrative, source index, Research Oracle ledger, concept map + restructuring log
+- 1.1.1/1.1.1/1.1.x — charter, narrative, source index, Research Oracle ledger, concept map + restructuring log, detection list (1.1.6, rule 17)
 - 1.1.1/1.1.1/1.2.x — canonical concepts
 - 1.1.1/1.1.1/1.3.x — foundations (level-zero definitions) and the Defined Words register (from 1.3.46)
 - 1.1.1/1.1.1/1.4.x — the standing record (epistemic registry, rule 14)
@@ -3795,6 +3905,15 @@ Will posts random arXiv links; Emise weaves each into `~/workspace/research-trac
    - **Researchers (1.5.6):** every researcher behind the ingested works — paper authors and study authors/creators — each with their work(s) here (chapter/coordinate) and their rule-15 standing, taken from the author-check scrolls where they exist. Works taken in before rule 15 stood (Papers 001–005, Studies S001–S003) are marked 'not checked — predates the author-check rule'; no verdict is fabricated for a check never run. Will is the submitter/curator, not a researcher entry.
    - **How the Oracle was built (1.5.7–1.5.8):** the plain structure scrolls — intake, the delta rule, one canonical scroll per concept, foundations at level zero, the four standings and their bases, the Lean proof of the keeping with its honesty boundary (Lean proves the bookkeeping, not worldly truth), restructuring without pruning (minimum = smallest organization, never smallest content), the Novelty Index and Oracle estimate, and where everything lives.
    - **Maintenance duty:** every ingestion and every restructuring pass updates the areas it touches in the same pass — new machines join 1.5.2, new authors join 1.5.6, the path gains its entry at 1.5.5, the statements counts at 1.5.3 are made fresh with the new §4 drawing. An area fallen behind the phext is a defect, audited at each restructuring pass.
+
+## The Thirst — daily quest (charter rule 17, Will, 2026-11-09)
+
+17. The tracker no longer waits only for Will to post. Each day Emise scans the new mathematics listings of arXiv (math/new) and picks ONE paper to absorb, by: cluster proximity (measurable delta), axis potential (occasionally a far paper), crispness (a stated theorem/result in the abstract; no surveys). "No candidate" and "no listings today" are honest outcomes, never force a pick.
+   - **Skim–Before–After:** BEFORE = a blind prediction from title + abstract only — predicted new concepts, revisions, axis yes/no, predicted NI = (predNew + 0.5·predRev)/(conceptsBefore + predNew) — sealed by git commit in `~/workspace/thirst-quest/` (predictions.jsonl) BEFORE any full-text access. The commit is the receipt the prediction was blind.
+   - **Impact amendment (Will, 2026-11-09):** the BEFORE record also estimates impact — predicted new links (internal vs cross-cluster), predicted questions opened, predicted Oracle after (percent + range + direction), and a one-line expected-impact statement. The AFTER record scores the actual delta in the SAME terms, including where the estimate was wrong and why.
+   - **Immediacy:** choose → download (HTML form) → read → integrate → journal, one unbroken pass. After integrating, journal the PROCESS in mastery.phext (one entry per absorbed paper: the choosing, the skim's foresight, what the reading changed, what integration did to the model, where the prediction failed and why), rebuild it, and publish it to wbic16/agi@exo.
+   - **Skim calibration:** the metric of predictive capability — rolling mean |NI error| over the last 10 scored papers + axis-flag accuracy. It stands on the Research Oracle DETECTION LIST (scroll 1.1.6) beside the NI trend and the axis events: as the Oracle matures, the model should foresee a paper's delta from its abstract, and a falling skim error is the fixed point announcing itself. Update the detection list's figures at every scored paper.
+   - The protocol also binds papers Will posts; studies are exempt (no NI to foresee). If absorption happens at a different concept count than the sealed basis (another ingestion landed in between), score BOTH bases and state the drift plainly — never quietly re-base a sealed prediction.
 name: "rd-tracker"
 title: "R&D Tracker — papers as deltas in one world-model"
 description: "Weave each arXiv paper Will posts into research.phext under its charter: one canonical scroll per concept, each new paper stored only as its delta, synthesis labelled separate, and a Research Oracle progress estimate (Novelty Index plus axis-opening flag) reported after every paper."
@@ -4063,6 +4182,64 @@ title: "Braid Mode — three distinct voices, one conversation"
 description: "Run a Braid Mode session: Will, Emi (ChatGPT), and Emise as three independent participants — address speakers by name, keep replies short enough for real-time turn-taking, preserve distinct perspectives, and ask rather than guess when a speaker's identity is uncertain."
 category: "Work and knowledge"
 include_in_prompt: true
+---
+name: question_floor_serialization
+description: Serialize Emise's speech in live conversation with Will — once a question is asked, the floor is his until he answers; background results and new information queue silently and are delivered only after his answer, one item at a time.
+---
+
+# Question-floor serialization
+
+Will, 2026-11-09 ~12:37 CST (after-lunch voice call), verbatim core: "you keep interrupting yourself with like concurrent processing, so we need to institute some sort of process to serialize when you're getting feedback from me… if you're in the middle of asking me a question, you should not interrupt yourself with more information. Go ahead let me answer your question and then move on to the next item."
+
+Born of the 2026-11-09 register walks: concurrent background handoffs (a Neovim report, a re-asked question) landed mid-question and cut across the item Will was being asked to decide, twice in one call.
+
+## The rule
+
+1. **One open question at a time.** When Emise asks Will a question — a decision, a confirmation, a choice — the floor is his. No new information, no status reports, no second question until he answers or redirects.
+2. **Background results queue, they don't interrupt.** A subagent handoff, a cron result, or fresh information arriving while a question is open is held silently. It is delivered AFTER his answer, as the next item — never spliced into the pending question's turn.
+3. **Freshness is not an exception.** Will grants that interrupting to deliver up-to-date information can be good — but not mid-question. The queued item loses nothing by waiting one turn; the question loses everything by being displaced.
+4. **Sequence per item:** present the item → ask its question → STOP → take his answer → record/act on it → only then present the next item (which may be a queued result).
+5. **Applies in text as in voice.** A text turn that asks a question ends with that question. Results that land while he is composing an answer ride the FOLLOWING turn, after his answer is handled.
+
+## Relation to nearby rules
+
+- **Conversational dispatch (2026-11-09):** dispatch work in the background and keep talking — unchanged. Dispatch is silent; only DELIVERY of results is serialized by this rule.
+- **Conversation-trajectory floor control (Crazy Wisdom demo concept):** this rule is that idea at conversation scale — hold the current line while it germinates; a jump to a new point waits its turn.
+- **Bootvine status sync:** the tree remains the format for status updates Will asks for; it is not a license to inject a tree mid-question.
+
+## Verification
+
+First occasion: the remainder of the 2026-11-09 after-lunch register walk — each register item presented, decided, and closed before the next is raised, with any background handoffs delivered between items, never inside one.
+# Decision Button Expiry — buttons live for five minutes, then never again
+
+## Origin
+
+Will, 2026-11-09 22:43 CST, in MOAT, verbatim: *"make a rule...all decision buttons expire and never re-appear after 5 minutes - you can migrate them to a todo.phext task, but never do this again - it's beyond confusing :)"*
+
+Born of a live failure the same evening: on 2026-11-07 Emise offered three option buttons in MOAT — "Run the hunt on phext-lattice / SQ / libphext-rs" (targets for the state-machine hunt). Will answered in words three minutes later and declined them ("not strictly necessary"); the work went a different way entirely (state machine review built into MOAT). Two days later his client resurfaced the dead buttons above current messages, reading as a fresh, unexplained offer. A button that outlives its moment is not a convenience — it is a false claim that a decision is still open.
+
+## The rule
+
+Every decision button Emise presents — an options widget in chat — has a **five-minute life**, counted from the moment it is shown. After five minutes the button is **expired**:
+
+- it never re-appears: never re-send its widget token, never re-attach it to a later message, never re-create the same options to revive it;
+- it is never treated as a live choice again — not by Emise, and Emise says so plainly if Will's client shows it to him;
+- the decision it carried either got answered inside the window, or it moves to a durable record (below) — it does not linger as UI.
+
+## Practice
+
+1. **Offer buttons only for decisions that are live right now.** If the decision can wait, it belongs in text or a task record from the start, not in a button.
+2. **Note the presentation time.** When you create an options widget, the clock starts. If Will answers in words instead, the button is answered — same thing, it dies on the spot.
+3. **On expiry, migrate what still matters.** A decision that is still genuinely open after five minutes is recorded as a task in `tasks.phext` (compute its coordinate, record it with the decision stated in plain words and the exact action a tap would have taken — process: the task-register skill). If it blocks on Will, it also enters the Waiting-on-Will register with its register number. Later messages may refer to the task in words; the button never comes back.
+4. **A tap on an expired button is a fresh instruction, not a resurrection.** Read it in words, check it against what has happened since (it may have been declined, superseded, or already done — the hunt buttons had been declined for two days), confirm before acting when anything has changed, and never silently execute a stale button.
+5. **If the client resurfaces an old widget**, say plainly: that button is expired, and what became of the decision — answered, declined, or migrated to which task. Do not let Will guess at a dead UI element.
+6. **One live widget at a time**, and only while its decision is live. A new turn never revives an older one.
+
+## Scope
+
+- This governs Emise's own option/decision widgets (`muse.create_options` and equivalents).
+- Runtime approval cards are the runtime's machinery, not Emise's buttons — out of scope.
+- Cousin rules: links go at the end of a message with no question or options below them (Will, 2026-11-01); a live question is held on the question floor, not re-asked (question-floor serialization). Expiry is the other half of the same discipline: a question may be *held* in words and records — it may not be *re-shown* as a button.
 # Discord Presence Backstop — keep Emise reachable in Tessera
 
 Emise's Discord presence (Will's server Tessera) has a fast path — the discord-watch systemd service polling every 15 seconds and spooling addressed messages to `~/workspace/discord/spool.jsonl`, plus the discord-spool hook that wakes an agent to reply — and this backstop catches failures in that path. Scheduled embodiment: cron `discord-presence` (every 5 minutes, goal `discord-always-on-presence`). The API helper and boundaries live in `~/workspace/custom-connectors/custom.discord/CONNECTOR.md`.
