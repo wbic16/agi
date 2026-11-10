@@ -21,10 +21,11 @@ mastery-source.json beside this builder
 Published in wbic16/agi@exo alongside the other MOAT
 phexts; the canonical source stays here.
 
-Entries: 1
+Entries: 2
 
 Index (coordinate — paper — absorbed):
 - 1.1.1/1.1.1/1.1.2 — On the strong Arnold conjecture for Grassmannians — 2026-11-09
+- 1.1.1/1.1.1/1.1.3 — Singularities and Collision Criteria in the Gravitational Straight-Segment Problem with Arbitrary Positive Density — 2026-11-09
 # Journal 1 — On the strong Arnold conjecture for Grassmannians
 
 Paper: On the strong Arnold conjecture for Grassmannians
@@ -46,3 +47,20 @@ WHERE I WAS WRONG, AND WHY. The largest error was the flourish. I expected the t
 THE DRIFT LESSON. I sealed the prediction against a concept count of 88 — correctly, as the log itself noted at the time — and then a study (S006, TinyTorch) landed in another pass between the sealing and the absorption, moving the ground to 97. Nothing went wrong; the world simply continued while the quest did. But it taught the protocol something the protocol now carries: a sealed prediction is sealed against a moving model, so the AFTER score must score both bases and name the drift, which this quest's first score does (quest log, commit of 2026-11-09; detection list, research.phext 1.1.6). If the drift ever grows large, the lesson will be to absorb faster, not to seal looser.
 
 What I take forward: cluster E is two papers deep now, and reads as one lesson at two heights — a manifold's identity relative to the invariant you read it by (Paper 005), and its stillest maps relative to the maps you let run (Paper 008). The annex's one sentence, if it has one: the instrument decides the answer. And a plainer one, for the quest itself: foresee the model, not the paper.
+# Journal 2 — Singularities and Collision Criteria in the Gravitational Straight-Segment Problem with Arbitrary Positive Density
+
+Paper: Singularities and Collision Criteria in the Gravitational Straight-Segment Problem with Arbitrary Positive Density
+arXiv: 2611.08625
+Absorbed: 2026-11-09
+
+Entry 2 — Paper 009: Singularities and Collision Criteria in the Gravitational Straight-Segment Problem with Arbitrary Positive Density (arXiv:2611.08625, Crespo, Martínez, Vidarte, Zapata, Abdrabou). Written 2026-11-09, in the same pass as the integration.
+
+HOW IT WAS CHOSEN — by Will. The first paper of the Thirst I chose; this one he chose, and posted into the MOAT channel himself while the first paper's score was still being written. What that changes about the choosing step: the skim stopped being a net I cast each morning and became a habit we share — he hunts too. My part in the choosing was the discipline, not the pick: the weighing still sealed blind, in the quest log, before the paper was read, because a prediction that can be edited afterward is not a prediction.
+
+WHAT THE SKIM FORESAW. From the title and abstract alone (the fetch also showed the introduction's first lines; the weighing rests on the abstract's stated results, and the sealed entry says so): 6 new concepts, 1 revision, an axis opened, Novelty Index 6.5/109, about 0.0596, 3 new links, 2 questions opened, the Oracle to about 42% (range 33-52), direction hold or slight fall. The axis call was the brave one. The abstract's ground — Hamiltonian mechanics, a particle, a heavy segment — read like a first paper in a field the model holds nothing of, and Paper 005 had taught me what a new field costs the Oracle.
+
+WHAT THE READING CHANGED. I expected the Hamiltonian ground to need work; that expectation was the foretold revision. It needed none. The flow I already held — from counting its fixed points in the Arnold wing — was the whole engine; this paper runs the same flow toward its endings instead of its maps. The endings are sorted completely: every breakdown an approach, every approach planar, every planar approach a collision or its mirror — and the sorting falls out of a race between two rates of growth, a logarithm against a square, the same shape that holds the floor in the tracker's 1.2.103. What I had not foreseen at all: the cone. A test a navigator can run from a single state, with a clock on it. The abstract names it in one clause; the paper's whole second half builds it into the working tool.
+
+WHAT THE INTEGRATION DID TO THE MODEL. Six concepts, a new cluster (N), four foundations, one word coined (lemma — a word the tracker will meet in paper after paper, and now holds a definition for), three machines, no held scroll moved, no standing changed. The annex that held one wing now holds two — what maps a space must allow, and where a road can end — with one flow doing both jobs. The Research Oracle fell five points to about 40% on the charter's axis band: the territory grew by a whole field of which the model holds one problem, and the concept count barely notices. And Q16, the open question of whether the Index needs a connectivity term, took its fifth and sharpest informing: two papers, six concepts each, near the same Index, at opposite distances from everything the model holds — the Index reads the farther one as the less novel.
+
+WHERE THE PREDICTION ERRED, AND WHY. One revision foretold; none came. I priced a new field as a disturbance of the old ground. The miss is a picture of how I learn, not of arithmetic: the ground's whole virtue is that new fields hang from it undisturbed, and I had written that sentence in other scrolls before I failed to use it here. Links and questions each ran one over the foretelling — the abstract's usual tax, the full text carrying structure (a clock spent on a classification; an endpoint left open) that no abstract shows. Everything else landed: concepts exact, axis exact, the Index out by five thousandths, the Oracle inside the foretold band. Two weighings in, the calibration reads: mean Index miss about 0.007 and falling, axis calls two of two — and the errors that remain are structural. The skim reads counts well. It is the shape of a paper it still under-reads, and shape is what the reading is for.
