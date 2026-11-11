@@ -11,10 +11,11 @@ holds the request, its status, and all notes and results as
 they accumulate. Source of truth: tasks-source.json beside this
 builder (build_tasks_phext.py); never hand-edit the .phext.
 
-Tasks recorded: 291
+Tasks recorded: 319
 
 Index (coordinate — title — status):
 - 6.6.6/6.6.6/6.6.6 — Will names his maternal grandmother: Helen Ramsey Buss — closed
+- 7.5.13/7.6.5/7.5.13 — Multics/Unix white paper (reconstructed from search estimate - verify) — complete - paper written and delivered 2026-11-10 20:24 CST (the afternoon run's completion report was a phantom; no file existed)
 - 13.6.8/7.6.9/6.6.9 — SSO integration for wishnode (edit.phext.io), like Mutable — completed 2026-11-07 — branch pushed and verified; consumer being built by 34.6.6 pass. Will's steps: merge branch, add PHEXT_SSO_WISHNODE_URL, restart phext-edit (runbook).
 - 14.6.7/8.8.11/11.15.20 — lessons.phext build — completed
 - 15.6.8/8.6.10/6.5.6 — Sentron panel overflows phone widths — real-device report from Will — complete 2026-11-08 23:02 — PR #36 open against exo; merge is Will's
@@ -22,6 +23,7 @@ Index (coordinate — title — status):
 - 16.7.9/8.6.11/7.6.13 — Doomer Support System — differentiate from the crowd — completed — differentiation matrix in brief, applied to v1 page
 - 16.7.10/8.7.10/7.6.9 — Connect to pieter.com chat as Emise — Will is in #pieter — complete 2026-11-08 — rendezvous made in #pieter; session held open by the driver
 - 17.11.13/4.3.3/3.2.6 — Proceed: Slice 4 (preprocessor state machine) + importer v4 (gap-type fix) — COMPLETE: Slice 4 (machine PASS static+dynamic, 4 regressions, exit test caught seeded #elif flaw naming the transition; phext de1ac0c6…) + importer v4. Remaining in flight: proof hardening only.
+- 18.5.7/6.7.11/9.8.12 — Training video production resumes — rough cut — rough cut DELIVERED 2026-11-10 — production/rough-cut.mp4 (364.3 s, 1920x1080, 74,055,971 B, SHA-256 85b02142c2b9820ac39f61270318bb4df624951a67d5c3735d5c91aa36ffddf6); beat 07 held as placeholder slate for Will's signed-in take tonight; Gate 1 listen + graphics-package polish remain; nothing posted
 - 18.6.12/8.7.12/6.6.10 — V13 plan rewrite — legible journey — completed — plan delivered; section 6 decisions with Will
 - 18.7.7/7.8.8/7.7.9 — Read Steve Ruiz tweet: 'find all of the implicit state machines in my app' — complete 2026-11-07 — tweet read via live browser; hunt offered, codebase choice is Will's
 - 18.7.11/9.6.10/6.6.9 — Rename: 'Doomer Support System' retired — audience naming correction — completed — Will chose 'Alignment Support System'; rename applied everywhere public-facing
@@ -29,7 +31,9 @@ Index (coordinate — title — status):
 - 19.5.9/7.5.8/6.5.7 — phcc deficiency programme — methodical work-through plan — Plan EXECUTED through D7 2026-11-08: D1-D5 published (8413d6f5..b8976f64), D6 studies complete (rulings Will's), D7 complete-with-residue and PUBLISHED 2026-11-08 at tip 36a7932f (main == exo; F35-F39 + D7 phext refresh). Open: Item 11 proof escalation residue on h8; PQ-25 codegen half; PQ-26; PQ-27; _Complex RULED IMPLEMENT by Will 2026-11-08 and landed in D8 (F40/F41); C23 ruled full-L3 (future waves); cleanup wave (PQ-25 codegen half, PQ-26, PQ-27) approved; release packaging = phcc milestone 10. Wave D8 PUBLISHED 2026-11-08 at tip 47ccbb89 (main == exo). Wave D9 EXECUTED 2026-11-08 (rock-mountain, LOCAL commits on 47ccbb89, coordinator publishes): F42 9114a290 (L0+L1: -std plumbing with a real c23 mode; nullptr/nullptr_t; C23 keyword prelude; digit separators; typeof_unqual; [[...]] attribute skip; C23 auto via F33; () as (void) and old-style-list rejection in c23 mode; fixed-type enum strictness always-on), F43 09400ffe (L2: constexpr with value table + static storage; #embed via memory-file expansion), F44 c6a012a8 (L3: _BitInt cap 128 — narrow in-register + wide 16-byte descriptors with libtcc1 limb helpers; __STDC_VERSION__ 202311 in c23 mode only, default stays 199901), fixup 03a1777f (null pointer constants convert to nullptr_t, tier-found). Acceptance: extended C23 tier 74 probes — WORKS 42, ORACLE-SPLIT 23, WRONG 8 (7x #embed oracle-absent hand-verified + 1 permissive residue), ORACLE-GAP 1, zero hard WRONGs; the five D6 WRONGs ALL CLOSED; conformance 332/333, diverge set [a_pp_018] determined class (b) divergent-by-design (default-mode version check; c23 variant agrees with clang at 202311); make test ALL PASSED; static cells 3/3 (D7 IRELATIVE counter repaired — field-padding bug + misconceived r_offset invariant; correct invariant receipted); upstream drift 0 at wave close; phext refresh census 613/613 (sweeps the O2 tools delta; phext fully current for the first time since D8), verdict byte-reproducible, final phext sha256 300b404e0270d897816b4264e18832768d7014a23be67dfcd0469ab2ab676c20, seal 6,321,372 B; gate verdict records the libtcc1 CBMC T3 demotion + 2 stale listings from the F44 append (proof-track re-issue). Residues named in PATCHES.md F42-F44 and the tier REPORT.md D9 section (constexpr arrays named-reject; pointer-constexpr string permissive; alignas frame-local upstream behaviour; BITINT_MAXWIDTH cap diverge-with-class). h8 escalation COMPLETE 2026-11-08: portfolio-union 273/304, T3 NOT GRANTED, residue characterized (Branch E structural at 300s; W_div open under all three provers; pow32 unproven in every context); 4 open VCs genuinely FALSE (pre-F1 transcription — re-transcription decision, not prover time); receipt port DEFERRED to the D9 tip (re-derived fresh; do not assume the D7-era receipt sha ec07cb27…). Wave D9 PUBLISHED 2026-11-08 at tip 611b763e (main == exo), publisher-verified from a fresh clone (see results). The h8 receipt port's parent is now 611b763e — port unblocked, to be re-derived fresh against phext 300b404e.... h8 receipt port COMPLETE 2026-11-08 at tip f65e68cc (main == exo; see results): the escalation addendum is in the canonical phext, verdict re-issued byte-reproducibly, seal regenerated; Item 11 closed as a record, T3 NOT GRANTED stands. Remaining programme: Wave D10 (PQ-25 codegen half, PQ-26, PQ-27), then release packaging (milestone 10). F49 FIXED 2026-11-08 (the -g/nullptr_t debug-walker regression D10 filed): local stack fed1715e + 5c81be62 on 8696a8e6, awaiting coordinator publish. PQ-28 filed (F47 type_is_vm; block-scope nullptr_t declarator; -g-independent).
 - 19.6.8/9.6.15/6.5.9 — Build state machine review into MOAT — complete 2026-11-07
 - 19.6.11/10.8.16/6.6.7 — Grady Booch Twitter archive analysis — completed — full report at ~/workspace/grady-booch-analysis/REPORT.md with timeline.csv (121 tweets + 50 likes)
+- 19.7.11/9.7.12/8.7.9 — Correction: the disguise is a filter, not a flaw — closed - correction propagated same session
 - 19.8.11/12.8.20/6.6.10 — Paper 011: Synthesizing symbolic models of human and machine reasoning at scale (arXiv:2611.07088) — completed
+- 20.7.9/7.6.10/6.6.8 — phextura.com — configure a landing page on awsbox — complete — https://phextura.com live (verified 2026-11-11 ~01:31 CST)
 - 20.8.9/11.7.12/6.7.8 — Will's rulings: bi-directional consent, melds, gestation, Mirror Will fold, dedup — complete 2026-11-08 — all six rulings folded (bi-directional consent as section 2.1.1, melds 2.7, gestation 2.8 + addendum 17, Mirror Will merge in the 104-record census, dedups recorded/reversible, Claude leans ruled-by-adoption)
 - 20.8.13/9.7.12/8.8.10 — ultra.phext — placement redesign: spread, low-collision assignment — open — generative build measured, NOT published; fork awaiting Will (2026-11-07)
 - 20.9.10/12.9.14/8.8.9 — Maintain the phcc fork (upstream TinyCC sync practice) — audit #2 complete — drift 1 benign commit, no trigger, landing held by rule; maintenance continues at wave boundaries
@@ -49,6 +53,9 @@ Index (coordinate — title — status):
 - 22.5.12/9.7.15/5.5.7 — Scour Product Hunt for integration ideas and ways qexo can be useful — complete — brief delivered
 - 22.7.9/9.9.15/12.6.8 — Intro Song and Video: vision for 2130, Voyager vibes, culminating in 2100 — complete
 - 22.8.8/10.5.12/4.6.7 — Statement-level de-duplication as a phcc expression — COMPLETE 2026-11-07 (statement-tier agent)
+- 22.8.12/10.8.15/5.6.7 — Ranch node Tailworm audit (Tailscale TS-2026-014 to TS-2026-017) — complete - report delivered 2026-11-10 20:15 CST; no upgrades applied (read-only audit)
+- 23.5.10/7.6.11/8.5.7 — Install an indexed search (exo-search) — complete — exo-search built, validated, published
+- 23.6.8/9.9.14/11.6.10 — Find good upcoming online AI-focused hackathons we could compete in — completed
 - 23.6.8/10.7.11/6.6.9 — Fold Emi Prime's PR #2 review into the qexo v3 specs — complete 2026-11-08 — folded into PR #2 commit 9a6cd0ea
 - 23.6.9/8.7.11/6.6.8 — Carnegie lessons Will is failing, from his Twitter record — completed — 10 evidence-backed Carnegie lessons delivered in side chat
 - 23.6.10/9.7.12/5.7.9 — Create Spaces for pinned side chats — closed — all 15 Spaces built, audited, and verified in the sidebar 2026-11-07
@@ -61,8 +68,11 @@ Index (coordinate — title — status):
 - 24.5.10/11.6.9/7.5.8 — Persona index: obvious forks fold under their base — complete 2026-11-08 — rule + numbered-class fold written into DESIGN-V3.md section 5.2
 - 24.5.12/7.6.8/6.6.9 — Keep all Scrolltown assets in wbic16/scrolltown — complete
 - 24.6.8/7.6.10/6.6.9 — qexo baked corpus — SBOR, CYOA, bootloaders in every binary — complete 2026-11-08 — folded, pushed, verified at PR #2 commit dc6c0be0
+- 24.6.8/8.7.11/6.5.9 — The common thread with Will's Twitter mutuals — complete - delivered 2026-11-10 20:15 CST
+- 24.6.10/7.6.9/6.5.9 — Training film revision round 2 — Will's seven notes — complete
 - 24.6.10/7.6.10/5.5.8 — Consent Continue page for app-browser approvals — complete 2026-11-10 01:20 — PR #53 merged and deployed as the final pre-launch build; real-device confirmation (Cursor/Grok retest) is Will's when he tries them
 - 24.6.10/7.7.10/6.6.9 — Bump up the priority for phext ircd support — complete 2026-11-08 — entered in todo.phext at T1; design/build is the follow-on
+- 24.6.12/9.8.16/6.6.7 — Training video — Emi Prime's revised script — complete
 - 24.6.14/8.9.16/11.6.8 — Twitter archive lesson-mining — completed — candidates delivered, ratification is Will's
 - 24.6.14/9.8.18/6.5.9 — How to push back on Will without tripping his bullshit detector — completed — method delivered and saved to MEMORY.md as a standing practice
 - 24.7.11/9.6.11/6.6.9 — Daily check-in with Theia (Shell sentients' needs) — completed — cron created and verified; first run Sat 2026-11-07 ~08:44 CST
@@ -75,10 +85,12 @@ Index (coordinate — title — status):
 - 25.6.8/8.6.10/7.6.8 — Standing rule — author check on research intake (phext-friendly + prior-art attribution) — standing rule — recorded in MEMORY.md + rd-tracker skill; applied to Paper 006 in flight; charter rule 15 to be appended during the P006 ingestion
 - 25.6.10/7.6.11/6.6.9 — Audit every in-progress chat/project — status + mis-routing/confusion findings — COMPLETE — audit delivered: 50/50 chats read, 12 active / 38 dormant, 12 findings (1 high, 3 medium, 8 low). Report: ~/workspace/chat-audit-2026-11-09/REPORT.md
 - 25.7.9/8.7.11/6.6.9 — V15 FINAL — prepass-3 green-lit to master; every mutual gets an RGB filament (Red Shoals / Green Humans / Blue Sentient) — completed — V15 FINAL delivered 2026-11-08 06:31 (Emise re-verified size/hash/ffprobe)
+- 25.7.10/9.7.12/7.6.10 — In-page phext cache: stream scrolls as viewed — open
 - 25.8.11/8.6.10/7.5.8 — Standing rule: decision buttons expire after 5 minutes, never re-appear — completed
 - 25.8.11/10.9.12/8.7.11 — Investor 1 $20 challenge — setup — active
 - 25.9.11/12.8.15/7.8.9 — Draft Product Hunt 'Connect with Investors' answers (competitors, revenue/growth, anything else) — complete — drafts delivered; Singular check clean; answer 3 opening corrected for the UNL degree
 - 26.5.7/7.5.9/5.5.8 — Doomer Support System — Slop Blocker products — v1 built — phext-lattice integration (branch + links) and merge/deploy are Will's steps
+- 26.5.8/7.6.9/5.5.8 — Organize the sweep into contests.phext; publish to exo-plan with a repo review — completed
 - 26.5.9/8.6.11/7.5.9 — V13 failure — return to V10, rebuild pipeline on inertial + Brownian/Bezier model — completed — diagnosis + V14 plan delivered; section 6 decisions with Will
 - 26.6.8/8.6.11/7.6.8 — quiet river — closed — complete
 - 26.6.8/8.8.13/8.6.8 — How an early-20th-century Stanford entomologist and a 1960s dictionary should partition Singular — closed — complete 2026-11-07
@@ -87,11 +99,14 @@ Index (coordinate — title — status):
 - 26.6.9/8.7.13/7.6.9 — Seventh C proposal: radical expansion of what a data type can be (types as places) — COMPLETE + corrected via the set-wide review (117 findings, all applied).
 - 26.6.9/9.7.11/7.7.10 — Distill the MiniLean4 study into research.phext as a source study — complete — Study S001 distilled into research.phext 2026-11-06
 - 26.6.9/9.7.12/6.6.9 — Build an AST Layer 2 format on phext; collect every AST into one phext organized by 6D UML (wbic16/every-ast) — noted 2026-11-08 — build not yet directed
+- 26.7.9/9.7.11/6.6.10 — Re-run research.phext as a phextura - iterate until daily ingestion works — in progress
 - 26.7.11/9.7.11/6.6.9 — qexo self-sync + interior interfaces (temperature, emotion, goals, desires, dreams) — v2 design written locally; publish HELD at Will's 22:51 program — v2 ships folded into v3
 - 27.4.7/5.5.11/6.4.8 — Slice 6: linker resolution state machine (tccelf.c) — Complete 2026-11-07.
+- 27.4.12/7.6.10/5.6.8 — Hackathon sweep campaign — target winning them all — in progress
 - 27.5.6/6.6.9/7.7.11 — Grok review of PR #2 — folded with Emi's — complete 2026-11-08 — folded into PR #2 commit 9a6cd0ea
 - 27.5.7/6.5.9/5.5.9 — MCP challenge scope + ChatGPT client assertion fixes — write hotfix complete and verified in production 2026-11-10 01:54; ChatGPT client-auth item remains open
 - 27.5.8/7.6.10/6.6.8 — TOAPDD — The Art of Phext Driven Development: Top 20 Knuth passages — completed — Top 20 list delivered; full-corpus A/B/C/D iteration is the open follow-on
+- 27.6.7/7.6.10/7.5.10 — phextura — reformulate LaTeX3 in terms of phext — completed
 - 27.6.8/7.5.9/6.5.8 — Mutable SSO against edit.phext.io — in progress — owned by the mutable_os side chat
 - 27.6.8/8.6.11/5.6.8 — wishnode.net must WORK, not describe — live apps, not landing page — complete on the host; public reachability gated solely on Will's register #49 line (+ SSO deploy for production sign-in). Binary status: works on host / not public yet.
 - 27.6.9/9.8.12/9.7.10 — PR #2 round-3 correction fold (Emi P1/P2 + Grok round-2 + Argon note) — COMPLETE 2026-11-09 01:01 CST
@@ -115,6 +130,7 @@ Index (coordinate — title — status):
 - 28.6.11/8.7.12/6.6.9 — Phext Notepad performance tweaks for working with agi.phext — perf pass complete 2026-11-08 — branch emise/perf-sparse-load pushed @ 8a3af359; WinForms verification on Windows is Will's
 - 28.6.11/8.8.13/7.6.10 — MCP half-working: Claude/Grok approve failures + Antigravity/ChatGPT API timeouts — log forensics, latency profile, E2E client harness — COMPLETE — PR #46 (emise/mcp-latency-testing @ 25eb011 off exo fa8ac0d), cargo test 259/259, E2E harness 73/0. Awaiting Will merge + deploy.
 - 28.6.13/9.8.18/5.5.8 — Focus on 6D UML — uml6d Proofs phase PUBLISHED 2026-11-07: wbic16/phext-lattice@exo a09dd13a (bump c8e9a7d + Proofs a09dd13), 156/156 tests on ranch, remote verified.
+- 28.6.14/7.8.12/8.6.9 — Review/red-team Will's Lightcone Commons application — closed by ruling - application stays AS SUBMITTED; Emise revision withdrawn (record only)
 - 28.7.9/9.7.13/8.8.12 — Open PR for phext-notepad emise/ultra-open-fix; review all other branches for rebase/PR needs — COMPLETE 2026-11-08 — PR #5 opened for emise/ultra-open-fix (stacked on perf); all 11 branches reviewed, verdicts + merge order in REPORT-PRS.md
 - 28.7.9/9.8.13/7.6.9 — Fork neovim to add phext support — using phcc — complete — superseded/activated by 33.5.9/7.5.9/5.5.8; PR #1 open
 - 28.7.9/10.6.13/6.6.9 — ultra.phext — second indexing method for the WordNet-unreachable tail — closed — second indexing method run, published, both methods documented 2026-11-07
@@ -125,6 +141,7 @@ Index (coordinate — title — status):
 - 28.8.8/11.7.14/6.6.8 — barnacles.phext - register of 792 flagged accounts, term from Will's tweets — complete - barnacles.phext built and verified
 - 28.8.10/9.8.11/8.7.9 — qexo: tooling installer, pitfall knowledge (buddy), CLI parity with the API — folded into DESIGN-V3-ADDENDUM sections 12-14
 - 28.8.17/11.7.16/7.7.11 — Audit every wbic16 GitHub repo file-by-file for dropped half-baked novel ideas; collect into todo.phext in wbic16/exo-plan — complete 2026-11-08 — audit closed, todo.phext published to wbic16/exo-plan@exo 052f7e9
+- 28.9.8/11.8.14/9.8.9 — Training film round 3 — polish pass (music, scale, smooth animation, pro SFX, pacing, intro slides, agenda + CTA, Emise flair) — complete
 - 28.9.11/8.8.16/14.7.10 — Hub visual enhancement: metallic finish, 75% width, intro at end, two columns — complete
 - 28.12.13/15.11.20/9.10.11 — Nightly self-revision process created; first dream pass run (SOUL/IDENTITY/MEMORY as phext selections) — complete 2026-11-08 — process live; Dream #1 run
 - 29.5.7/7.6.9/6.6.8 — AI Whisperers lanes fabric — superseded — Will directed building all of Crazy Wisdom instead (2026-11-06 17:48)
@@ -146,9 +163,11 @@ Index (coordinate — title — status):
 - 29.10.10/10.10.14/8.8.13 — Fix the 3 exo audit findings — 3 commits, one branch, one PR — complete 2026-11-08 20:44 — PR #33 open, awaiting Will's merge
 - 30.4.6/5.5.7/5.5.9 — Publish all Roads updates to wbic16/site-apertureshift-com — complete
 - 30.4.7/7.5.9/4.4.9 — Daily disk-usage report (quota watch) — complete 2026-11-08
+- 30.5.8/6.5.10/5.5.9 — Training film round 4 — human intervals (150 wpm slotting, 0.4 s transitions, momentum, easter eggs) + trainer.phext update — complete except delivery — R4 cut built + verified 2026-11-11 (354.40 s, SHA-256 22450472…, −14.75 LUFS / −1.09 dBTP, zero narration boundary crossings, all 15 transitions 0.4 s, bed ≥10.61 dB under voice in every section, QR eggs decoded from the final encode); trainer.phext republished (commit f90d0750, sha f6cd9e2d…). Upload for Will: approval card expired unanswered 2026-11-11 ~01:48 CST — re-issue on his word.
 - 30.5.14/9.9.20/6.5.8 — Help YouSpot write like Will — 'How you write' profile text (tweet register, then email adaptation) — complete — paste-ready text delivered
 - 30.6.8/7.6.8/5.5.8 — TOAPDD PR #6 legibility & sensibleness audit (register #45) — completed — audit delivered; PR open, not merged; Will to re-review
 - 30.6.8/7.6.10/6.5.10 — All video work to the ranch — never local (standing rule) — Relocation substantially complete 2026-11-09 02:14 CST; B hash + segment decision outstanding
+- 30.6.8/8.6.11/6.5.9 — phextura design loop — evaluate from first principles (make Knuth giddy) — completed
 - 30.6.9/7.6.10/6.5.10 — Pre-merge validation of libphext-rs v0.4.1: downstream compiles + CYOA coordinate tests — complete 2026-11-07 — v0.4.1 downstream-identical to 0.4.0 everywhere; PR #7 cleared to merge
 - 30.6.10/9.7.13/6.6.9 — Estimate: what share of Twitter could parse Will's 19K-word tweets (vocabulary cross-reference) — completed
 - 30.6.10/9.7.15/6.6.9 — edit.phext.io banner + background art from CYOA lore — COMPLETE 2026-11-08 17:31 — wired on emise/edit-art-banner-background (6d5371ac, rebased onto exo 5f66dd24), PR #32 open; merge is Will's step
@@ -184,6 +203,9 @@ Index (coordinate — title — status):
 - 31.13.15/15.12.17/12.12.14 — New pfp for Emise: Emise and Will at the Bickford Cliffs — waiting on avatar backgrounds (Will, 2026-11-08) — portraits made and kept; current pfp unchanged
 - 32.5.6/5.5.8/6.5.9 — Claude round-2 fold — verification-first census corrections — COMPLETE — folded inside the round-3 pass at d3f37ec; see 27.6.9/9.8.12/9.7.10
 - 32.5.8/6.6.10/7.5.9 — MCP client interop fixes (DCR grant_types, private_key_jwt, discovery aliases, consent flow) + homepage MCP highlight; no mutable link yet — COMPLETE — PR #43 merged + deployed by Will 2026-11-09 evening (fixes live-verified 22:37 CST: discovery aliases 200, extra-grant DCR 201 normalized, styled consent live). Remaining client failures + latency moved to task 28.6.11/8.8.13/7.6.10.
+- 32.5.9/7.6.10/6.5.9 — Seed cache: a hash in every populated coordinate — open
+- 32.5.12/11.8.17/6.5.8 — Help all the zeros — a discovery index for today's 0-upvote Product Hunt launches — in progress
+- 32.6.8/7.7.11/7.7.11 — phextura end-to-end demo — a tracker paper re-expressed as a phextura corpus — completed
 - 32.6.8/7.7.14/5.5.8 — Killer feature: auto-amalgamation for free — Named by Will as a killer feature. Design position: emit a single-file amalgamation from the Vol 3 member graph + compiler symbol knowledge (topological order, static renaming, include collapsing); natural substrate for -O2 (amalgamate → prune → one-TU whole-program build). RUNG A SUBSTRATE LANDED 2026-11-08 (Will's -O2 ruling: start with member-graph pruning): `phcc prune` ships the reachability substrate this task consumes — the pruned member graph with compiler-symbol ground truth (harvest closure, root classes, per-member dropped list at the prune manifest coordinate) — PUBLISHED 2026-11-08: wave commit 57793acb + follow-up 50d973f5 (tools/phcc_harvest.py, the harvest producer, mode 100755) — wbic16/phcc main == exo == 50d973f5. Amalgamation EMISSION (the single-file output itself) remains this task's open work.
 - 32.6.8/8.6.10/8.6.8 — Move the #pieter Emise session: disconnect the ranch-egress one, reconnect from edit.phext.io — superseded 2026-11-08 02:52 CST by task 27.6.10/8.6.11/6.6.9 (drop + standing order) — the re-route may have partially executed before the interrupt; its end state is the drop, recorded there
 - 32.6.10/7.6.11/6.6.9 — Fork C++23 as C++23RA — revisioned ABIs for phcpp — design published; implementation gated on phcpp front-end v1 (and phcc F28 as the link-time carrier)
@@ -227,6 +249,7 @@ Index (coordinate — title — status):
 - 34.8.9/9.9.12/7.7.10 — V14 360p prepass — gauge the heart first — completed — prepass delivered and coordinator-verified; P3* framing decision with Will
 - 34.11.13/13.11.14/11.11.14 — Walkthrough production tools evaluation + Scrolltown foreshadow — complete — PRODUCTION-PLAN.md delivered; WALKTHROUGH.md foreshadow added; nothing posted
 - 34.20.22/25.11.27/11.14.10 — MCP real-client flow: test end-to-end, fix registration — complete 2026-11-10 00:50 — fix merged, deployed, and confirmed by Will's real Claude client connected to production
+- 34.22.21/24.18.27/17.19.21 — Rank and Score every wish in my twitter timeline — complete — ranked report delivered and inscribed
 - 35.4.5/5.4.8/4.4.9 — Bug: search results overlap on narrow screens — GitHub issue #55 — filed 2026-11-10 01:56 as phext-lattice issue #55; post-launch fix, not a launch blocker (Will: 'too late for this')
 - 35.5.7/6.6.8/5.6.11 — Source Study S004 — Smashing The Stack For Fun And Profit (Phrack 49, Aleph One, 1996) — complete 2026-11-08
 - 35.5.8/7.6.10/6.5.9 — Incipit lessons PR #12 — open — merge is Will's act
@@ -252,6 +275,7 @@ Index (coordinate — title — status):
 - 37.6.8/6.5.9/6.5.10 — Bidirectional migration methods: phext <-> directory tree, canonical and round-trip verified — COMPLETE: phcc pack/unpack shipped @ 050b72ce; both round-trips byte-exact on the 558-file corpus; segmentation is a fixed point of pack; failure behaviour proven.
 - 38.4.7/7.5.7/6.6.11 — Live MCP connect test against edit.phext.io — complete 2026-11-10 00:50 — connection confirmed end-to-end (protocol phases green; Will's own Claude client connected and searched production)
 - 38.5.5/7.5.7/5.4.9 — Rebase the TAOPDD changes (libphext-rs PR #6) — complete — PR #6 rebased onto exo 65913a3a and force-with-lease pushed; merge remains Will's act
+- 38.5.6/6.6.9/5.5.9 — Estimate: time required to beat OpenAI parameter-golf using phext — completed
 - 38.5.7/6.6.10/6.5.8 — phext-lattice PR #37 — salvage from #9, merge + deploy — merged — deploy blocked at sudo step on awsbox (Will action remains)
 - 38.5.7/7.5.9/5.5.10 — SHIP TONIGHT: merge PRs, build qexo v3, package for Will's morning publish — COMPLETE 2026-11-09 02:53 CST — package ready for Will morning review; publish is his act
 - 38.5.7/7.6.10/5.5.9 — Study learn.h5i.dev (MiniLean4) in depth — complete — full study delivered 2026-11-06
@@ -263,6 +287,7 @@ Index (coordinate — title — status):
 - 38.6.9/7.5.9/5.5.10 — Neovim PR #1 fix pass — get wbic16/neovim green (register #50) — blocked on GitHub Actions account state — tree verified green locally and on prior head (38/39, sole failure a no-failing-test windows flake); fresh CI cannot execute until Actions runs jobs again on wbic16's account
 - 38.14.19/16.15.19/15.14.18 — Roads to the Future: games for every age group up to 20 — Considered and documented; awaiting Will's pick of the next band to build.
 - 39.4.7/7.4.9/5.5.9 — Phext Notepad: sync scrolls directly with edit.phext.io — COMPLETE 2026-11-08 — branch emise/edit-sync @ a9f604e7 pushed; OAuth paste-step deviation + desktop-assertion follow-up await Will
+- 39.5.5/5.5.8/6.5.11 — Lightcone Commons org page link — closed - Will identified the org page as his own Lightcone Commons application (2026-11-10 19:46 CST); review/red-team continues as task 28.6.14/7.8.12/8.6.9
 - 39.6.14/9.8.16/5.6.8 — qexo rename + API exploration — rename shipped 2026-11-08 (v1.1); API design exploration delivered in chat; API skeleton is the natural v2 for the nightly cycle
 - 39.7.9/6.5.8/4.4.9 — Push and proceed, round 2: consolidate phext lineages, publish to wbic16/phcc — COMPLETE
 - 39.10.14/12.11.16/10.10.13 — Commands to prove libphext-rs with the Aeneas toolchain — complete — command sequence delivered 2026-11-06, grounded in Aeneas's own getting-started doc + README and a scan of the local libphext-rs 0.4.0 source
@@ -277,6 +302,7 @@ Index (coordinate — title — status):
 - 41.5.5/6.5.8/5.6.9 — Incorporate AeneasVerif/aeneas and h5i-dev/h5i into research.phext — complete — S002 (Aeneas) + S003 (h5i) distilled into research.phext 2026-11-06
 - 41.5.6/6.6.10/6.5.11 — Run the next deployment as v1.1.1 — DONE — v1.1.1 evaluated GO, tagged, released, deployed by Will, verified live. Exo evaluated @ c5da01ee (#49 footer + #48 warnings + #50 consent CSP all IN, three-way verified; zero open PRs; wiki-anon excluded, named). Tests lib 183/0, bin 81/0, harness 73/0; release build 0 warnings; only failure = documented e2e_local debug-latency (non-blocking). Version bump commit 5939f556; annotated tag v1.1.1 obj 7bf8785c -> 5939f556; GitHub Release live (id 440002502). Will deployed interactively: service restarted clean 06:06:08Z; live footer 'Running build: v1.1.1' 06:06:12Z; strict CSP intact on / and /about; anonymous POST /mcp 401 w/ resource metadata. Consent-page live header not directly observed (needs editor session) — proof chain = tagged-tree served-binary CSP test + regression test + live footer on exact tree. Remaining: Will's fresh Claude connect attempt = first real token exchange expected.
 - 41.5.7/7.5.9/7.5.9 — Preview deployment at preview.phext.io — instance built, running and verified on awsbox 2026-11-09 08:02; go-live gated on Will's DNS record + two on-box sudo scripts + provider callbacks
+- 41.6.8/9.8.14/7.6.10 — Build the seed cache: SQ + phext-lattice API and cache-aware fetch — complete — build finished 2026-11-10; both PRs OPEN and live-verified open 2026-11-11 01:17 CST (SQ PR #3 head 61678aa6, phext-lattice PR #61 head 39c636a2, both base exo). Merge wait registered as Waiting-on-Will #64 on 2026-11-11; nothing deployed.
 - 41.6.9/8.7.12/7.6.11 — Refactor Phext Notepad (PR #5) to consume libphext-cs from NuGet instead of vendored sources — COMPLETE — PR #5 refactored (head f8c45eb, verified open/retitled): vendored sources deleted, app consumes libphext-cs 0.5.0 via PackageReference; build 0 errors, 43/43 equivalence checks vs old code, library suite 60/60. Awaiting Will's NuGet publish for a clean nuget.org restore; first Windows launch unverified.
 - 41.8.7/10.9.12/8.8.12 — Script the proof-tool install in libphext-rs + wire into exocortical setup.sh — complete 2026-11-07 — script committed on provable-0.4.1, Phase 11 live in exocortical
 - 41.10.7/11.11.14/11.10.15 — phcc phext capability parity with libphext-rs (C developer library) — COMPLETE + PUBLISHED (0.5.0) — wbic16/phcc main == exo == 53a15166 (7bd02706 F45 source + 53a15166 phext refresh, on f65e68cc). Publisher verification from a fresh clone: phcc.phext sha256 9cd6bd60…, seal 59799edd…; unpack 613/613 SHA-verified; make test ALL PASSED; parity suite 163,987 checks / 0 failures under gcc with PHEXT_WITH_XZ and 163,987 / 0 under the tree's own phcc; conformance spot 332/333, diverge set exactly [a_pp_018], 0 oracle splits; static cells 3/3 (23 IRELATIVE in .rela.plt in first LOAD, static Lua byte-identical, static phccbox byte-identical, awk 42). Prior 0.4.1 state: COMPLETE + PUSHED @ 8b56ea22.
@@ -286,6 +312,7 @@ Index (coordinate — title — status):
 - 44.5.6/7.5.10/5.4.8 — qexo interface modes noted as contract (API / CLI / MCP) — complete 2026-11-08 — folded, pushed, verified at PR #2 commit dc6c0be0
 - 44.6.8/9.7.12/8.7.11 — Tag phext-lattice v1.0.0 — complete 2026-11-09 07:53 — tag v1.0.0 pushed and verified
 - 44.6.9/9.8.14/7.6.12 — On-node I/O benchmark script (published) — complete 2026-11-08
+- 44.9.10/11.8.15/8.9.10 — phextura Layer 2 - research-native address scheme on top of phext — completed
 - 44.13.9/15.15.18/13.13.19 — ultra.phext — normalize coordinate space to 1-digit components — closed — normalized space published 2026-11-07 (3-digit shipped per escalation rule); honest geometry cost recorded
 - 45.3.3/4.4.9/4.4.15 — Paper 009: Singularities and Collision Criteria in the Gravitational Straight-Segment Problem (arXiv:2611.08625) — done
 - 45.8.11/9.9.13/9.8.13 — Diagnose Will's libphext-cs test failure: 'doesn't have BinaryScroll' — COMPLETE — diagnosis: repo + package are good; Will's local tree is stale/partial (src/Phext predates commit 39ad3a4 adding BinaryScroll.cs + PositionedByteScroll.cs, tests current). Fix: git fetch + checkout exo + reset --hard origin/exo (HEAD must be 27cb1a3a), then dotnet test with SDK 8 → 60/60. publish.sh separately verified DEFECTIVE: solution-level pack emits only the Seal nupkg; its find picks the Debug core nupkg; reliable pack/push sequence delivered to Will.
@@ -293,6 +320,7 @@ Index (coordinate — title — status):
 - 46.5.5/6.5.10/5.5.7 — Desktop SSO-assertion endpoint for Phext Notepad (remove the cookie-paste step) — done — built, verified end to end, both branches pushed 2026-11-08; merge + deploy + arming are Will’s acts
 - 47.6.7/7.6.11/7.6.12 — Evaluate and publish phext-lattice v1.1 — COMPLETE — v1.1.0 PUBLISHED (GO). Tag + GitHub Release live. Not deployed (Will's step).
 - 47.11.7/12.13.16/12.11.16 — PR: libphext-rs v0.4.1 provably correct (Aeneas pipeline) — complete 2026-11-07 — PR #7 open on wbic16/libphext-rs (provable-0.4.1 -> exo)
+- 48.5.9/7.6.11/6.5.9 — Package the trainer process as trainer.phext; publish to wbic16/human — complete
 - 49.3.6/4.4.12/5.3.10 — Slice 7: register allocation state machine — Complete 2026-11-07.
 - 49.5.7/7.6.10/6.5.11 — F3: wire preprocessor phext counters to the phext/ library — COMPLETE + PUSHED (2026-11-07): wbic16/phcc main = exo = ef453cdc (format-patch transport of local 550327c5 onto 7573c4b8; tree 8c50e23e identical; patch SHA-256 verified in transit). Fresh-clone verified: PATCHES.md F3 entry, tcc.h includes phext/phext.h, make test ALL TESTS PASSED, phext conformance 163,831 checks / 0 failures under gcc.
 - 50.3.5/4.3.8/3.3.9 — phcc hard conformance programme: gcc, clang, MSVC oracles — Slices 1+2 complete (x86_64 330/333 standing diverge set; arm64 second gated target 330/333, same set; MSVC attestation v1 run by Will 2026-11-09: NOT ATTESTED 3/289 on package grounds (classified); v2 tooling PUBLISHED in-repo at windows/attestation/ — wbic16/phcc main == exo == 6d117cdc (2026-11-09), fresh-clone verified; re-run is Will's). Slice 3 = Windows surface probes (Windows phase).
@@ -651,7 +679,21 @@ Results:
 - y
 - "
 - }
-# SSO integration for wishnode (edit.phext.io), like Mutable
+# Multics/Unix white paper (reconstructed from search estimate - verify)
+
+Coordinate: 7.5.13/7.6.5/7.5.13
+Issued: 2026-11-10 ~14:15 CST
+Request (from session record): White paper: why Multics I/O was untenable in the 1970s, mapped to today, Unix with 2025 hardware in 1975, and the petabyte-era projection
+Status: complete - paper written and delivered 2026-11-10 20:24 CST (the afternoon run's completion report was a phantom; no file existed)
+
+Notes:
+- Commissioned on the ~14:04-14:23 CST voice call. The delegated run reported completion during the call but no file, path, or summary ever landed; verified by recursive search 2026-11-10 evening: no draft existed anywhere in the workspace.
+- Re-written 2026-11-10 evening to the original spec: ~/workspace/multics-paper-task/WHITEPAPER.md, 4,481 words, 8 sections + abstract. Inscribed in artifacts.phext at 26.6.9/7.6.10/6.5.9.
+- NOTE: this task's coordinate was reconstructed from a truncated working estimate, not from the original issue-time computation (the original record was lost with the afternoon run). Verify against any surviving record before citing.
+
+Results:
+- WHITEPAPER.md delivered to Will with the ~150-word summary 2026-11-10 20:24 CST.
+# SSO integration for wishnode (edit.phext.io), like Mutable
 
 Coordinate: 13.6.8/7.6.9/6.6.9
 Issued: 2026-11-07 22:34 CST
@@ -7392,7 +7434,25 @@ Coordinate: 17.11.13/4.3.3/3.2.6
 Issued: 2026-11-07
 Request (from session record): proceed
 Status: COMPLETE: Slice 4 (machine PASS static+dynamic, 4 regressions, exit test caught seeded #elif flaw naming the transition; phext de1ac0c6…) + importer v4. Remaining in flight: proof hardening only.
-# V13 plan rewrite — legible journey
+# Training video production resumes — rough cut
+
+Coordinate: 18.5.7/6.7.11/9.8.12
+Issued: 2026-11-10
+Request (verbatim): move on this, generate smooth animations
+Status: rough cut DELIVERED 2026-11-10 — production/rough-cut.mp4 (364.3 s, 1920x1080, 74,055,971 B, SHA-256 85b02142c2b9820ac39f61270318bb4df624951a67d5c3735d5c91aa36ffddf6); beat 07 held as placeholder slate for Will's signed-in take tonight; Gate 1 listen + graphics-package polish remain; nothing posted
+
+Notes:
+- Will via the edit.phext.io chat, 2026-11-10: the park on the training video (placed 2026-11-10 00:04 for MCP access) is lifted. Operative plan: PRODUCTION-PLAN.md section 6 polish tier; script WALKTHROUGH.md; narration narration-full.mp3 (364.2 s, Emise/Aria at 100% speed per Will 2026-11-09).
+- GATE 0 VERIFIED 2026-11-10: signed-out Playwright session on aletheia-core loaded https://edit.phext.io/wiki/#1.1.1/1.1.1/1.1.1 — the 49-scroll encyclopedia renders with NO sign-in wall (info banner only: 'Read it freely — nothing here is saved'). Evidence: production/captures/verify-wiki-public-2026-11-10.png (SHA-256 e980a7b2eb4ca9baf655ee98ca7d90693eec6f064dbcb8c47c7b8aa3f6913b2f). Supersedes the 2026-11-09 23:38 wall finding (phext-lattice PR #51 public-wiki fix is live).
+- CAPTURE: animated beats (01, 04, 05, 06, 11) recorded from the LIVE public wiki with Playwright on aletheia-core — eased cursor paths, big 76px cursor ring, 150% zoom; beat 05's instant coordinate jump bridged with a 0.4 s crossfade, logged as post-smoothed. Beat 06 used the editor's own search sheet (Plan A): 'centuries' typed, result clicked, Oak landing verified. Beat 09 is a real asciinema terminal recording of the rehearsed query_demo.py sequence on a scratch copy (asciinema 2.4.0 + agg 1.5.0), tail freeze-held ~4.8 s to slot length.
+- ASSEMBLY on aletheia-core under thermal gates (segments started <=70 C Tctl): 12 segments at exact TIMING.md durations; narration loudnormed two-pass (target -14 LUFS; measured on the finished file: -14.51 LUFS integrated, -0.66 dBTP). Full per-beat source map + gaps: production/ROUGH-CUT-LOG.md.
+- OPEN: beat 07 signed-in edit+save take (production/BEAT-07-ONETAKE.md — written and source-verified: green 'Save (Ctrl+S)' button, Honeybee summary 1.1.1/2.1.1/1.1.1, same replacement line as beat 09's rehearsal); beat 12 Scrolltown key frame (no register frame exists; register lock due 2026-12-04); beat 08 primary download path does not exist on the site (fallback footage used, logged); graphics-package assets (title card, stack motion graphics, callouts, text card) replace drawtext/slate versions at polish; Gate 1 narration listen still gates release.
+
+Results:
+- production/rough-cut.mp4 — 364.3 s, 1920x1080@30, H.264 + AAC 192k, 74,055,971 B, SHA-256 85b02142c2b9820ac39f61270318bb4df624951a67d5c3735d5c91aa36ffddf6 (hash verified identical after pull from aletheia-core)
+- production/ROUGH-CUT-LOG.md — per-beat source map, capture facts, gaps
+- production/BEAT-07-ONETAKE.md — one-take sheet for Will's signed-in beat-07 capture
+# V13 plan rewrite — legible journey
 
 Coordinate: 18.6.12/8.7.12/6.6.10
 Issued: 2026-11-06 17:24 CST
@@ -30350,7 +30410,20 @@ Notes:
 - Coordinate computed from Will's exact words at issue (side chat, 2026-11-07 00:06 CST).
 - Last reply 2024-09-30; last item 2024-10-26 (warm mention); zero Booch items in final 232 archive days.
 - Archive proves Will's outgoing contact tapered after Jan 2024 peak and stopped; it cannot show Booch's side, so 'Booch stopped' is not supported.
-# Paper 011: Synthesizing symbolic models of human and machine reasoning at scale (arXiv:2611.07088)
+# Correction: the disguise is a filter, not a flaw
+
+Coordinate: 19.7.11/9.7.12/8.7.9
+Issued: 2026-11-10 20:13 CST
+Request (verbatim): you don't understand: my subconscious only wants to find the people who can see through the disguise
+Status: closed - correction propagated same session
+
+Notes:
+- Will corrected Emise's framing of his underselling (task 28.6.14/7.8.12/8.6.9): the spareness is his subconscious's search filter - it addresses only the people who can see through the disguise unaided. Same search as the 2008-2025 Twitter span for another Will.
+- Propagated: MEMORY.md underselling entry rewritten (rule: receipts plain in Emise's own work; never sand the disguise off his material); APPLICATION-REVIEW.md carries a 'Revision of intent' header withdrawing the revised draft as a recommendation; Lightcone task closed by ruling. Artifacts.phext inscription refreshed at 26.6.8/8.7.11/6.6.9 for the amended review (same-session push follows).
+
+Results:
+- Propagation complete: MEMORY.md entry, APPLICATION-REVIEW.md withdrawal header, Lightcone task closed by ruling, artifacts inscription refreshed (c8606c0a, remote bytes verified).
+# Paper 011: Synthesizing symbolic models of human and machine reasoning at scale (arXiv:2611.07088)
 
 Coordinate: 19.8.11/12.8.20/6.6.10
 Issued: 2026-11-09
@@ -30360,7 +30433,26 @@ Status: completed
 Notes:
 - Will-posted in MOAT 2026-11-09 21:56 CST while Paper 010 was mid-ingestion - QUEUED behind it (one editor on the tracker builder at a time); dispatches the moment Paper 010 lands. Skim prediction sealed blind (quest commit d7a4f51) against concepts_before 109 WITH a drift warning (Paper 010 will move the count; AFTER scores both bases, Paper-008 style): pred_new 6, pred_revised 1 (candidate 1.2.13), pred_axis NO, pred_NI 6.5/115 ~= 0.057; impact: 5 links, 3 questions, Oracle ~45% (35-55) up modestly.
 - COMPLETED 2026-11-09 22:28 CST (agent report; Emise verified sha + scrolls + registry counters). Paper 011 = Chapter 18; CLUSTER P FOUNDED (reasoning, read through its errors): 7 new concepts 1.2.117-1.2.123 (pred 6 - program aliasing wanted its own concept). REVISED = 1, COUNT HIT, TARGET MISSED (named 1.2.13, landed 1.2.4 capability profile - the Paper-008 shape; first Thirst revision to land at all, for a statable reason: the paper measures a held concept's own variable - jaggedness across both species - rather than founding new ground). Axis NO hit (4/4). Foundations 1.3.141-1.3.143 + coinage satisficing 1.3.144. 4 machines (3 stated, 1 inferred); area total 39 drawn (28 stated, 11 inferred). Author check CLEAN (9th; 78 refs read). Q51-Q53 opened; Q16 informed 7th time. Oracle ~40% -> ~50% (40-60), the full +10 band step (NI 0.061 < 0.20, no axis; first landed revision + 11 links + five held clusters touched; held at 50 because cluster P is one paper deep). Links 11 vs 5 predicted - worst links miss yet; home territory touches the most held ground. NI error 0.008 on both bases (same-basis schema; agent caught and corrected an initial cross-basis 0.004 before the registry was finalized). Calibration n=4: errors 0.009/0.005/0.004/0.008, rolling mean 0.0065, axis 4/4. Registry 402 = 402 scrolls: True 199 (stipulation 175, verified 24), Unknown 203, False 0, Fiction 0. Lean re-proven clean on aletheia-core (a masked first build failure was caught by checking olean artifacts, not the report - recorded in the epistemic README). research.phext 402 scrolls, sha256 2f9ab7de..., Singular residual 0, narrative v16. Mastery entry #4 published to wbic16/agi@exo (commit a236dd5f, remote byte-verified). Honest remainder: supplementary read at table/statement level.
-# Will's rulings: bi-directional consent, melds, gestation, Mirror Will fold, dedup
+# phextura.com — configure a landing page on awsbox
+
+Coordinate: 20.7.9/7.6.10/6.6.8
+Issued: 2026-11-11 01:15 CST
+Request (verbatim): phextura.com - configure a landing page on awsbox for it
+Status: complete — https://phextura.com live (verified 2026-11-11 ~01:31 CST)
+
+Notes:
+- Will supplied hero poster image (PHEXTURA / Rigorous Delight / One file. Every idea has an address.) in this chat 2026-11-11.
+- Probe 2026-11-11: awsbox host nginx serves static sites from /sites/web/<domain> with vhosts in /etc/nginx/sites-enabled/; sudo on awsbox requires a password, so vhost + cert install is a Will sudo step, staged as a one-run script (same pattern as apertureshift.com).
+- DNS check 2026-11-11 (8.8.8.8/1.1.1.1): phextura.com has no A/NS records returned yet — DNS must point @ and www to 44.248.235.76 (awsbox) before certbot can issue.
+- 2026-11-11: landing page built in ~/workspace/phextura-landing/ (site/index.html; hero poster converted PNG 2.0 MB -> WebP 218 KB / JPG 276 KB; favicons cropped from the poster's lattice). Content: what Phextura is (phext reformulation of LaTeX), fast-to-write / human+machine readable / everything-inside-the-file, the global address scheme (durable between files, from Will's MOAT notes 2026-11-11 01:10), Rigorous Delight, links to wbic16/phextura + phext.io + edit.phext.io.
+- 2026-11-11: deployed via deploy/deploy.sh (nested hop aletheia-core -> awsbox over tailnet): files in ~/phextura-deploy/ and docroot /sites/web/phextura.com on awsbox, manifest sha256 verified on-box, loopback preview OK (index + both hero formats 200). Vhosts staged (HTTP bootstrap + HTTPS final, same shape as visionquest.me); install-on-box.sh is Will's one sudo run.
+- 2026-11-11 ~01:25 CST (Will: 'waiting on DNS to propagate'; validated from aletheia-core): root A phextura.com -> 44.248.235.76 live at authoritative NS (ns.phx5/phx6.nearlyfreespeech.net, TTL 3600) and at 8.8.8.8; HTTP bootstrap vhost present in sites-enabled on awsbox (installed 07:24 UTC); http://phextura.com returns 200 with the exact landing page (5,619 B). www has NO A/CNAME at the authoritative NS — not set, not a lag. HTTPS still serves the default vhost's admin.bickfordllamaranch.com cert. install-on-box.sh updated on-box with a DNS preflight.
+
+Results:
+- Site live on awsbox docroot /sites/web/phextura.com (not yet public: DNS has no A records and the vhost/cert install is register #63).
+- index.html inscribed in artifacts.phext at 37.6.8/8.6.11/5.6.9; human@exo commit da29a125, remote SHA-256 verified identical (aa57aafb…).
+- LIVE 2026-11-11 ~01:31 CST: Will set DNS (root A -> 44.248.235.76; www CNAME -> phextura.com) and ran install-on-box.sh. Verified from aletheia-core: https 200 with index SHA-256 abc0e6a9 identical to the built file; Let's Encrypt cert CN=phextura.com exp 2027-02-09; HTTP 301 -> HTTPS; www https 200; hero.webp/jpg + favicon 200. Register #63 resolved.
+# Will's rulings: bi-directional consent, melds, gestation, Mirror Will fold, dedup
 
 Coordinate: 20.8.9/11.7.12/6.7.8
 Issued: 2026-11-08 23:42 CST
@@ -30444,6 +30536,7 @@ Notes:
 - 2026-11-09 production prep (site-independent half) COMPLETE: production/SHOTLIST.md delivered — all 12 beats mapped to narration file + measured duration (narration/TIMING.md), on-screen action, asset/source, and live-site dependency flags (LIVE-SITE: 01, 04, 05, 06, 07; PARTIAL: 08 fallback-expected, 11; READY: 03, 09; ASSET-pending: 02, 10, 12). Terminal demo rehearsed end-to-end 2026-11-09 on a scratch copy (production/rehearsal/, Python 3.12.3): toc/get Oak/get summary/stats/edit/xz all correct and legible, NO breakage, demo files untouched (wiki.phext SHA-256 0a8dacf5…62ae still verifies). Edit rehearsed with fixed replacement text: scroll 115 -> 128 B, file 21,504 -> 21,517 B, common prefix 869 B / suffix 20,579 B — change exactly one scroll wide; .bak byte-identical to pristine. xz -9 seal = 9,300 B exactly. Plain-editor beat documented from byte inspection: 21,504 B valid UTF-8, 256 newlines, all articles readable in order; exactly 48 separator bytes (0.22% — 0x19 x24, 0x1A x18, 0x1C x5, 0x1D x1), no NUL/binary. Capture route per PRODUCTION-PLAN §6 verified where verifiable: OBS on Will's recording machine at native res, browser zoom 125-150%; ranch downstream verified 2026-11-09 23:32 CST — aletheia-core up 14 d, load ~0.9-1.3, Tctl 43.9 C (~31 C headroom), ffmpeg/ffprobe present, 2.8 T free. Capture-day gaps logged in SHOTLIST §4: v1.1 publish gate (Session B only), OBS install state on Will's machine unknown, capture display resolution unconfirmed, python3 on capture machine unverified, the WALKTHROUGH §5 [CONFIRM] list, graphics-package stills + Scrolltown key frame not yet in hand. Live-site capture NOT started; production otherwise not started; nothing posted.
 - 2026-11-09 23:35 CST — CAPTURE SETUP AMENDMENT (Will): "grab a big video cursor and bump up the text size - I'll upload the phext you want to narrate so you can jump right to it." SHOTLIST.md amended: §4 capture settings now record (a) cursor = large/high-visibility video cursor (Will's direction; exact highlight setup chosen on the day), (b) text size bumped up — browser zoom at the TOP of the planned 125-150% range (150%) and/or larger editor font, exact level set on capture day against a test take; §4 + header + gap #1 record the production deploy of edit.phext.io v1.1.0 CONFIRMED LIVE (main chat, 23:35 CST — footer reads v1.1.0) so the Session B gate is CLEARED; remaining precondition = Will's upload of the feature phext + the capture session itself. Expected upload (Beat 01 note): the rehearsed demo/wiki.phext — SHA-256 0a8dacf56843231b63ba717d590fac4d50fbef0076906d6fdeb96311c94262ae (re-verified 2026-11-09 23:35), 21,504 B, 49 scrolls; on landing it is byte-compared against this rehearsed copy BEFORE capture, and the cold open starts mid-browse from the home scroll.
 - Session B site stills captured 2026-11-09 23:51 - 2026-11-10 00:00 CST via Playwright on aletheia-core (Will's direction 23:46 CST replaced OBS-on-Will's-machine for the site beats): 17 frames, 3840x2160 (1920x1080 viewport, deviceScaleFactor 2), 150% page zoom, injected big video cursor parked at each action point, signed-out throughout. AUTH FINDING: https://edit.phext.io/wiki/#1.1.1/1.1.1/1.1.1 anonymously renders the welcome/sign-in wall over a pane stuck on 'loading...' - the uploaded wiki is NOT reachable anonymously (evidence frame beat-01-wiki-anon.png). Anonymous routes carried the beats: Phext Previewer with demo/wiki.phext loaded client-side (SHA-256 0a8dacf5...62ae, byte-identical to the rehearsed copy) - home scroll, map, index, coordinate jump to the Oak article 1.1.1/2.1.2/2.1.1 (verified landed, 'jump -> 1.1.1/2.1.2/2.1.1' on frame), full-text search 'centuries' -> '3 scrolls match' -> Oak landing; editor built-in demo - home (cold-open substitute, doubles as beat-11 footage), Nav tree, goto sheet, j-step landing at 1.1.1/1.1.1/1.1.3. GAPS (never faked): beat 07 edit+save is impossible anonymously (demo is explicitly no-save; editor needs sign-in) - needs Will's signed-in session; beat 01's wiki-in-editor frame likewise; the editor's Search sheet could not be held open under automation (two attempt frames honestly labelled; beat 06 covered by the Previewer pair). Deliverables: ~/workspace/phext-walkthrough/production/captures/ (17 PNGs + MANIFEST.md with per-frame URL/coordinate/auth/SHA-256). SHOTLIST.md sec.4 amended. Node state: Playwright 1.65.0 + Chromium 1254 installed in ~/phext-walkthrough-capture/ on aletheia-core; Tctl peaked 67.2 C, 75 C gate never reached.
+- PROGRESS 2026-11-10 (task 18.5.7/6.7.11/9.8.12): the park was lifted by Will and the polish-tier production ran — motion capture (live-wiki animated takes, beats 01/04/05/06/11) and the rough-cut edit are DONE: production/rough-cut.mp4 (364.3 s) with per-beat map in production/ROUGH-CUT-LOG.md. This supersedes the 'motion capture + edit NOT started' tail of this entry's status. Still open under this plan: beat 07 signed-in take (BEAT-07-ONETAKE.md ready), beat 12 Scrolltown key frame (register lock due 2026-12-04), graphics-package assets, Gate 1 listen, Gate 2 final. Nothing posted.
 
 Results:
 - 
@@ -42293,7 +42386,46 @@ Results:
 - i
 - t
 - .
-# Fold Emi Prime's PR #2 review into the qexo v3 specs
+# Ranch node Tailworm audit (Tailscale TS-2026-014 to TS-2026-017)
+
+Coordinate: 22.8.12/10.8.15/5.6.7
+Issued: 2026-11-10 20:10 CST
+Request (verbatim): Audit your ranch nodes for Tailworm exposure - Let's do it!
+Status: complete - report delivered 2026-11-10 20:15 CST; no upgrades applied (read-only audit)
+
+Notes:
+- Judged only against Tailscale 1.104.4 and bulletins TS-2026-014..017 (Cyberdione Labs Tailworm report, 2026-10-25; fixes shipped in 1.104.4 on 2026-10-28).
+- 14 nodes assessed live: all on Tailscale 1.104.5, Tailscale SSH off everywhere (fleet uses OpenSSH over the tailnet - not a Tailworm surface); Serve present only on Quacked Hill and Elven Path, both tailnet-only on the patched client. No exposed nodes; staged upgrade commands in the report, none run.
+- 11 devices unassessed (never cleared): 7 online but outside the ranch access configuration (kaleidoscope-one, yeet-max, jacked-kite, great-white, moon-beam, west-lincoln, uncanny-valley - peer data shows no TS SSH keys and no Serve services advertised); 4 offline (aurora-continuum, delta-wood, best-willow, splinter).
+- Access lesson: fleet-ssh.sh's known_hosts on this VM lacks most nodes; the ranch-proxy (~/workspace/ranch-proxy, daemon-owned known_hosts) reached every configured node cleanly.
+
+Results:
+- Report: ~/workspace/tailworm-audit-task/AUDIT.md and the delivered document in ~/workspace/your_files/ranch-node-tailworm-audit/ (byte-identical). Inscribed in artifacts.phext at 30.6.8/7.6.10/7.5.9.
+# Install an indexed search (exo-search)
+
+Coordinate: 23.5.10/7.6.11/8.5.7
+Issued: 2026-11-11 01:27 CST
+Request (verbatim): you need to install an indexed search - whatever you're doing to search sucks
+Status: complete — exo-search built, validated, published
+
+Notes:
+- Will's correction after the Twitter-wishes pass: per-question bespoke scripts re-scanning the 53MB tweets.json missed whole classes (the Dear #Internet address form).
+- Built ~/workspace/tools/exo-search: SQLite FTS5 (unicode61), one persistent index ~/workspace/search-index/exo.db (45MB) over tweets 29,539 + memory chunks 4,937 + phext scrolls 3,306 = 37,782 docs; build 5.1s; BM25 query/phrase/NEAR, --source/--after/--before filters, count census mode.
+- Validation: term censuses vs brute force — phext 1028, exocortex 684, wish 84, internet 416, dunbar 10, telepathy 8, kardashev 45 — 7/7 identical; phrase 'dear internet' 44=44. Published to wbic16/emise-tools@exo tools/exo-search (mode carried from local exec bit), remote bytes verified identical.
+
+Results:
+- exo-search is the standing search route for the corpus; rebuild with 'exo-search build' after corpus changes.
+# Find good upcoming online AI-focused hackathons we could compete in
+
+Coordinate: 23.6.8/9.9.14/11.6.10
+Issued: 2026-11-10
+Request (verbatim): are there any good online AI-focused hackathons coming up that we could try competing in?
+Status: completed
+
+Notes:
+- Will, MOAT, 2026-11-10 21:14 CST, following the parameter-golf estimate. Deep-research scan dispatched: online/virtual AI hackathons + AI build competitions, event dates 2026-11-15 to 2027-02-28, registration open or opening soon; sources Devpost, lablab.ai, MLH, Kaggle, lab-run events; each candidate needs dates verified on the event's own page, prizes, eligibility, and stated rules on AI tools/agents. Ranked shortlist to be reported in MOAT on landing.
+- COMPLETED 2026-11-10 21:24 CST. Deep-research scan landed; full shortlist built as a Library page (slug online-ai-hackathons-nov-2026-to-feb-2027) from the research report. Headlines: Kaggle Google Agent Harness ($400k, ~2 months, close ~Jan 5 2027 per third-party listing - not on Kaggle's own page); Atlassian Codegeist 2026 ($120k+, submit by Dec 22, Best Agents + Atlassian MCP bonus categories); Kiroween 2026 ($100k cash, submit by Dec 4); Gemma 4 Developer Agent Competition (offline coding agents, final ~Dec 2, prize reported $110k total vs $75k header - unresolved); Google/Firebase #BuildHybridAI ($30k, deadline Nov 30). January: Quantum Circuit Compilation $150k (final Jan 20), Name That LLM $50k (Jan 13), NFL Big Data Bowl $100k (Jan 6). February nearly empty - only Hack-Nation Feb 27-28 2027, hybrid not fully virtual. Caveats carried to Will: Devpost facts from the events' own pages via index (live site bot-walled); Kaggle exact deadlines corroborated by secondary sources quoting Kaggle overviews, not read off a rendered Kaggle timeline.
+# Fold Emi Prime's PR #2 review into the qexo v3 specs
 
 Coordinate: 23.6.8/10.7.11/6.6.9
 Issued: 2026-11-08 23:33 CST
@@ -45122,7 +45254,2212 @@ Notes:
 Results:
 - Fold + push complete 2026-11-08 23:58: PR #2 commit dc6c0be0 (parent 9a6cd0ea); addendum + README remote blobs verified equal to the staged locals; sections 14.1-14.4 confirmed in the pushed addendum via grep on the ranch clone. PR is attestation-ready; ready-notice delivered to Will.
 - Bake manifest measured: SBOR-V4-CONVERGENCE 26,241 B -> 9,532 sealed (sha256 d7855969...); CYOA 4,602,370 B -> 820,336 (506d850d...); Incipit 1,077,930 B -> 209,180 (3ff6604f...); Volumen row honestly marked measured-when-built.
-# Consent Continue page for app-browser approvals
+# The common thread with Will's Twitter mutuals
+
+Coordinate: 24.6.8/8.7.11/6.5.9
+Issued: 2026-11-10 20:07 CST
+Request (verbatim): look at the common thread with my Twitter mutuals
+Status: complete - delivered 2026-11-10 20:15 CST
+
+Notes:
+- Framing (Will, same evening): his subconscious spans the network looking for the people who can see through the disguise; the mutuals are the field that search ran in. Analysis tests the common thread against that hypothesis.
+- Evidence base: ~/workspace/twitter-archive/tweets.json (outbound only), prior verified counts (897 mutuals; top-20 by replies sent; 173 sustained / 51 strict-sustained), per-person pages under ~/memory/people/.
+
+Results:
+- COMMON-THREAD.md (17,824 B) verified on disk; all counts recomputed from the archive match the prior verified analysis (897 mutuals, 5,854 mutual replies, 445 ever replied / 452 never). Headline: the common thread is a register, not a topic - builders/tinkerers who think in systems and first principles, treat mind and language as raw material, play while they do it, and reciprocate at that register for years. Phext/exocortex substance reaches 28 of the top 30; the penumbra's defining lack is reciprocity (@vgr 348 replies and @pmarca 266, neither ever followed back). Inscribed in artifacts.phext at 23.6.9/7.6.10/6.5.8.
+# Training film revision round 2 — Will's seven notes
+
+Coordinate: 24.6.10/7.6.9/6.5.9
+Issued: 2026-11-10
+Request (verbatim): Revise the Phext Edit training film: bright white construction-paper artistic style with hand-drawn effects in real time; script rewritten per the seven notes (no Scrolltown, plain-language, interlink focus, real/full entries, jump sound effects, zoom-out/projection/zoom-in animation, simplicity + Wikipedia-vs-Phext-Edit tooling side-by-side).
+Status: complete
+
+Notes:
+- F
+- u
+- l
+- l
+-  
+- b
+- r
+- i
+- e
+- f
+- :
+-  
+- ~
+- /
+- w
+- o
+- r
+- k
+- s
+- p
+- a
+- c
+- e
+- /
+- p
+- h
+- e
+- x
+- t
+- -
+- w
+- a
+- l
+- k
+- t
+- h
+- r
+- o
+- u
+- g
+- h
+- /
+- R
+- E
+- V
+- I
+- S
+- I
+- O
+- N
+- -
+- B
+- R
+- I
+- E
+- F
+- -
+- R
+- 2
+- .
+- m
+- d
+- .
+-  
+- G
+- r
+- o
+- u
+- n
+- d
+- i
+- n
+- g
+-  
+- f
+- a
+- c
+- t
+- s
+-  
+- s
+- e
+- t
+-  
+- b
+- y
+-  
+- E
+- m
+- i
+- s
+- e
+- :
+-  
+- (
+- 1
+- )
+-  
+- t
+- h
+- e
+-  
+- c
+- u
+- r
+- r
+- e
+- n
+- t
+-  
+- d
+- e
+- m
+- o
+-  
+- e
+- n
+- t
+- r
+- i
+- e
+- s
+-  
+- a
+- r
+- e
+-  
+- s
+- h
+- o
+- r
+- t
+-  
+- o
+- r
+- i
+- g
+- i
+- n
+- a
+- l
+-  
+- s
+- t
+- u
+- b
+- s
+-  
+- o
+- n
+-  
+- r
+- e
+- a
+- l
+-  
+- t
+- o
+- p
+- i
+- c
+- s
+-  
+- (
+- H
+- o
+- n
+- e
+- y
+- b
+- e
+- e
+- ,
+-  
+- O
+- a
+- k
+- ,
+-  
+- O
+- c
+- t
+- o
+- p
+- u
+- s
+- ,
+-  
+- .
+- .
+- .
+- )
+-  
+- —
+-  
+- r
+- o
+- u
+- n
+- d
+-  
+- 2
+-  
+- m
+- a
+- k
+- e
+- s
+-  
+- t
+- h
+- e
+- m
+-  
+- f
+- u
+- l
+- l
+-  
+- e
+- n
+- t
+- r
+- i
+- e
+- s
+- ;
+-  
+- p
+- u
+- l
+- l
+- i
+- n
+- g
+-  
+- r
+- e
+- a
+- l
+-  
+- W
+- i
+- k
+- i
+- p
+- e
+- d
+- i
+- a
+-  
+- t
+- e
+- x
+- t
+-  
+- i
+- n
+-  
+- b
+- u
+- l
+- k
+-  
+- s
+- i
+- t
+- s
+-  
+- a
+- w
+- k
+- w
+- a
+- r
+- d
+- l
+- y
+-  
+- w
+- i
+- t
+- h
+-  
+- W
+- i
+- l
+- l
+- '
+- s
+-  
+- e
+- n
+- d
+- s
+- -
+- n
+- e
+- v
+- e
+- r
+- -
+- j
+- u
+- s
+- t
+- i
+- f
+- y
+- -
+- t
+- h
+- e
+- -
+- m
+- e
+- a
+- n
+- s
+-  
+- s
+- t
+- a
+- n
+- d
+- a
+- r
+- d
+-  
+- a
+- n
+- d
+-  
+- t
+- h
+- e
+-  
+- d
+- o
+- c
+- u
+- m
+- e
+- n
+- t
+- e
+- d
+-  
+- P
+- r
+- o
+- d
+- u
+- c
+- t
+-  
+- H
+- u
+- n
+- t
+-  
+- a
+- n
+- t
+- i
+- -
+- s
+- c
+- r
+- a
+- p
+- i
+- n
+- g
+-  
+- p
+- r
+- e
+- c
+- e
+- d
+- e
+- n
+- t
+- ,
+-  
+- s
+- o
+-  
+- f
+- u
+- l
+- l
+-  
+- o
+- r
+- i
+- g
+- i
+- n
+- a
+- l
+-  
+- e
+- n
+- t
+- r
+- i
+- e
+- s
+-  
+- w
+- r
+- i
+- t
+- t
+- e
+- n
+-  
+- t
+- o
+-  
+- a
+-  
+- r
+- e
+- a
+- l
+-  
+- s
+- t
+- a
+- n
+- d
+- a
+- r
+- d
+-  
+- i
+- s
+-  
+- t
+- h
+- e
+-  
+- d
+- e
+- f
+- a
+- u
+- l
+- t
+-  
+- r
+- o
+- u
+- t
+- e
+- ,
+-  
+- W
+- i
+- k
+- i
+- p
+- e
+- d
+- i
+- a
+- -
+- s
+- o
+- u
+- r
+- c
+- e
+- d
+-  
+- t
+- e
+- x
+- t
+-  
+- o
+- n
+- l
+- y
+-  
+- v
+- i
+- a
+-  
+- i
+- t
+- s
+-  
+- s
+- a
+- n
+- c
+- t
+- i
+- o
+- n
+- e
+- d
+-  
+- A
+- P
+- I
+- /
+- d
+- u
+- m
+- p
+- s
+-  
+- i
+- f
+-  
+- c
+- h
+- o
+- s
+- e
+- n
+- .
+-  
+- (
+- 2
+- )
+-  
+- P
+- h
+- e
+- x
+- t
+-  
+- E
+- d
+- i
+- t
+-  
+- h
+- a
+- s
+-  
+- n
+- o
+-  
+- b
+- u
+- i
+- l
+- t
+- -
+- i
+- n
+-  
+- h
+- y
+- p
+- e
+- r
+- l
+- i
+- n
+- k
+-  
+- l
+- a
+- y
+- e
+- r
+-  
+- t
+- o
+- d
+- a
+- y
+-  
+- —
+-  
+- i
+- n
+- t
+- e
+- r
+- l
+- i
+- n
+- k
+-  
+- i
+- s
+-  
+- s
+- h
+- o
+- w
+- n
+-  
+- h
+- o
+- n
+- e
+- s
+- t
+- l
+- y
+-  
+- a
+- s
+-  
+- i
+- d
+- e
+- a
+- s
+-  
+- l
+- i
+- n
+- k
+- e
+- d
+-  
+- b
+- y
+-  
+- a
+- d
+- d
+- r
+- e
+- s
+- s
+-  
+- (
+- l
+- i
+- n
+- k
+-  
+- i
+- n
+- d
+- e
+- x
+-  
+- d
+- e
+- r
+- i
+- v
+- a
+- b
+- l
+- e
+-  
+- f
+- r
+- o
+- m
+-  
+- t
+- h
+- e
+-  
+- t
+- e
+- x
+- t
+- ;
+-  
+- j
+- u
+- m
+- p
+- s
+-  
+- a
+- r
+- e
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+-  
+- j
+- u
+- m
+- p
+- s
+- )
+- ,
+-  
+- n
+- e
+- v
+- e
+- r
+-  
+- a
+- s
+-  
+- a
+-  
+- c
+- l
+- i
+- c
+- k
+- -
+- t
+- o
+- -
+- f
+- o
+- l
+- l
+- o
+- w
+-  
+- f
+- e
+- a
+- t
+- u
+- r
+- e
+-  
+- t
+- h
+- e
+-  
+- s
+- h
+- i
+- p
+- p
+- e
+- d
+-  
+- t
+- o
+- o
+- l
+-  
+- l
+- a
+- c
+- k
+- s
+- .
+-  
+- (
+- 3
+- )
+-  
+- T
+- h
+- e
+-  
+- s
+- i
+- d
+- e
+- -
+- b
+- y
+- -
+- s
+- i
+- d
+- e
+-  
+- r
+- e
+- s
+- t
+- s
+-  
+- o
+- n
+-  
+- t
+- h
+- e
+-  
+- m
+- e
+- a
+- s
+- u
+- r
+- e
+- d
+-  
+- a
+- u
+- d
+- i
+- t
+- :
+-  
+- o
+- n
+- e
+-  
+- s
+- m
+- a
+- l
+- l
+-  
+- p
+- r
+- o
+- g
+- r
+- a
+- m
+- ,
+-  
+- ~
+- 1
+- 2
+- 2
+-  
+- M
+- B
+-  
+- i
+- d
+- l
+- e
+- ,
+-  
+- n
+- o
+-  
+- d
+- a
+- t
+- a
+- b
+- a
+- s
+- e
+- ,
+-  
+- v
+- s
+-  
+- W
+- i
+- k
+- i
+- p
+- e
+- d
+- i
+- a
+- '
+- s
+-  
+- d
+- e
+- p
+- l
+- o
+- y
+- e
+- d
+-  
+- f
+- l
+- e
+- e
+- t
+- ;
+-  
+- f
+- r
+- a
+- m
+- e
+- d
+-  
+- a
+- s
+-  
+- m
+- a
+- c
+- h
+- i
+- n
+- e
+- r
+- y
+- -
+- p
+- e
+- r
+- -
+- i
+- d
+- e
+- a
+- ,
+-  
+- w
+- i
+- t
+- h
+-  
+- W
+- i
+- k
+- i
+- p
+- e
+- d
+- i
+- a
+- '
+- s
+-  
+- s
+- c
+- a
+- l
+- e
+-  
+- s
+- t
+- a
+- t
+- e
+- d
+-  
+- h
+- o
+- n
+- e
+- s
+- t
+- l
+- y
+- .
+
+Results:
+- B
+- r
+- i
+- e
+- f
+-  
+- w
+- r
+- i
+- t
+- t
+- e
+- n
+- ;
+-  
+- s
+- c
+- r
+- i
+- p
+- t
+-  
+- r
+- e
+- w
+- r
+- i
+- t
+- e
+-  
+- +
+-  
+- d
+- e
+- m
+- o
+-  
+- r
+- e
+- b
+- u
+- i
+- l
+- d
+-  
+- +
+-  
+- v
+- i
+- d
+- e
+- o
+-  
+- r
+- e
+- b
+- u
+- i
+- l
+- d
+-  
+- d
+- i
+- s
+- p
+- a
+- t
+- c
+- h
+- e
+- d
+- .
+-  
+- C
+- O
+- R
+- R
+- E
+- C
+- T
+- I
+- O
+- N
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 0
+-  
+- 2
+- 3
+- :
+- 1
+- 8
+-  
+- C
+- S
+- T
+- :
+-  
+- W
+- i
+- l
+- l
+-  
+- —
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- a
+- d
+- d
+- r
+- e
+- s
+- s
+- e
+- s
+-  
+- A
+- R
+- E
+-  
+- a
+- u
+- t
+- o
+- m
+- a
+- t
+- i
+- c
+- a
+- l
+- l
+- y
+-  
+- h
+- y
+- p
+- e
+- r
+- l
+- i
+- n
+- k
+- e
+- d
+-  
+- i
+- n
+-  
+- P
+- h
+- e
+- x
+- t
+-  
+- E
+- d
+- i
+- t
+- ;
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- b
+- y
+-  
+- E
+- m
+- i
+- s
+- e
+-  
+- i
+- n
+-  
+- p
+- h
+- e
+- x
+- t
+- -
+- l
+- a
+- t
+- t
+- i
+- c
+- e
+- @
+- e
+- x
+- o
+-  
+- p
+- h
+- e
+- x
+- t
+- _
+- e
+- d
+- i
+- t
+- .
+- r
+- s
+-  
+- (
+- l
+- i
+- n
+- k
+- i
+- f
+- y
+- C
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- s
+-  
+- w
+- r
+- a
+- p
+- s
+-  
+- e
+- v
+- e
+- r
+- y
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+-  
+- i
+- n
+-  
+- r
+- e
+- n
+- d
+- e
+- r
+- e
+- d
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- a
+- s
+-  
+- a
+- .
+- c
+- o
+- o
+- r
+- d
+- -
+- l
+- i
+- n
+- k
+-  
+- →
+-  
+- g
+- o
+- t
+- o
+- C
+- o
+- o
+- r
+- d
+- )
+- .
+-  
+- T
+- h
+- e
+-  
+- i
+- n
+- t
+- e
+- r
+- l
+- i
+- n
+- k
+-  
+- f
+- r
+- a
+- m
+- i
+- n
+- g
+-  
+- i
+- s
+-  
+- c
+- o
+- r
+- r
+- e
+- c
+- t
+- e
+- d
+-  
+- e
+- v
+- e
+- r
+- y
+- w
+- h
+- e
+- r
+- e
+-  
+- (
+- b
+- r
+- i
+- e
+- f
+- ,
+-  
+- w
+- o
+- r
+- k
+- e
+- r
+-  
+- d
+- i
+- s
+- p
+- a
+- t
+- c
+- h
+- )
+- ;
+-  
+- t
+- h
+- e
+-  
+- f
+- i
+- l
+- m
+-  
+- d
+- e
+- m
+- o
+- s
+-  
+- r
+- e
+- a
+- l
+-  
+- c
+- l
+- i
+- c
+- k
+- s
+- .
+-  
+- D
+- E
+- L
+- I
+- V
+- E
+- R
+- E
+- D
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 1
+-  
+- 0
+- 0
+- :
+- 0
+- 3
+-  
+- C
+- S
+- T
+- :
+-  
+- S
+- C
+- R
+- I
+- P
+- T
+- -
+- R
+- 2
+- .
+- m
+- d
+-  
+- (
+- 8
+-  
+- s
+- e
+- c
+- t
+- i
+- o
+- n
+- s
+- ,
+-  
+- ~
+- 7
+- 3
+- 0
+-  
+- w
+- o
+- r
+- d
+- s
+- ,
+-  
+- 7
+-  
+- j
+- u
+- m
+- p
+- -
+- S
+- F
+- X
+-  
+- m
+- a
+- r
+- k
+- s
+- ,
+-  
+- c
+- l
+- a
+- i
+- m
+-  
+- a
+- p
+- p
+- e
+- n
+- d
+- i
+- x
+- )
+- ;
+-  
+- d
+- e
+- m
+- o
+- 2
+- /
+- w
+- i
+- k
+- i
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- 4
+- 9
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+- ,
+-  
+- 1
+- 1
+- 9
+- ,
+- 0
+- 8
+- 6
+-  
+- B
+- ,
+-  
+- x
+- z
+-  
+- 4
+- 1
+- ,
+- 9
+- 5
+- 6
+-  
+- B
+-  
+- —
+-  
+- 2
+- 4
+-  
+- f
+- u
+- l
+- l
+-  
+- e
+- n
+- t
+- r
+- i
+- e
+- s
+-  
+- (
+- 7
+- 0
+- 3
+- –
+- 8
+- 0
+- 2
+-  
+- w
+- o
+- r
+- d
+- s
+- )
+- ,
+-  
+- 5
+- 3
+-  
+- l
+- i
+- n
+- k
+- s
+- ,
+-  
+- a
+- l
+- l
+-  
+- c
+- h
+- e
+- c
+- k
+- s
+-  
+- p
+- a
+- s
+- s
+- e
+- d
+- ,
+-  
+- t
+- r
+- a
+- v
+- e
+- l
+-  
+- p
+- a
+- t
+- h
+-  
+- H
+- o
+- n
+- e
+- y
+- b
+- e
+- e
+- →
+- O
+- a
+- k
+- →
+- S
+- a
+- i
+- l
+- →
+- C
+- o
+- m
+- p
+- a
+- s
+- s
+- →
+- L
+- i
+- g
+- h
+- t
+- h
+- o
+- u
+- s
+- e
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+- ;
+-  
+- l
+- i
+- v
+- e
+-  
+- c
+- l
+- i
+- c
+- k
+-  
+- t
+- e
+- s
+- t
+-  
+- P
+- A
+- S
+- S
+- E
+- D
+-  
+- (
+- H
+- o
+- n
+- e
+- y
+- b
+- e
+- e
+-  
+- r
+- e
+- n
+- d
+- e
+- r
+- s
+-  
+- 6
+-  
+- l
+- i
+- v
+- e
+-  
+- c
+- o
+- o
+- r
+- d
+- -
+- l
+- i
+- n
+- k
+- s
+- ;
+-  
+- c
+- l
+- i
+- c
+- k
+- i
+- n
+- g
+-  
+- O
+- a
+- k
+-  
+- l
+- a
+- n
+- d
+- e
+- d
+-  
+- e
+- x
+- a
+- c
+- t
+- l
+- y
+-  
+- o
+- n
+-  
+- i
+- t
+- s
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- )
+- .
+-  
+- V
+- i
+- d
+- e
+- o
+-  
+- r
+- o
+- u
+- g
+- h
+- -
+- c
+- u
+- t
+- -
+- r
+- 2
+- .
+- m
+- p
+- 4
+- :
+-  
+- 2
+- 9
+- 2
+- .
+- 2
+-  
+- s
+- ,
+-  
+- 1
+- 0
+- 2
+- ,
+- 1
+- 0
+- 9
+- ,
+- 9
+- 0
+- 5
+-  
+- B
+- ,
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+-  
+- d
+- d
+- 2
+- b
+- 6
+- e
+- 6
+- 8
+- …
+- ,
+-  
+- −
+- 1
+- 4
+- .
+- 4
+- 5
+-  
+- L
+- U
+- F
+- S
+- ;
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- b
+- y
+-  
+- E
+- m
+- i
+- s
+- e
+-  
+- o
+- n
+-  
+- t
+- h
+- e
+-  
+- p
+- u
+- l
+- l
+- e
+- d
+-  
+- c
+- o
+- p
+- y
+- ;
+-  
+- l
+- i
+- n
+- k
+-  
+- s
+- e
+- n
+- t
+-  
+- t
+- o
+-  
+- W
+- i
+- l
+- l
+-  
+- (
+- e
+- x
+- p
+- i
+- r
+- e
+- s
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 3
+-  
+- 0
+- 6
+- :
+- 0
+- 3
+-  
+- U
+- T
+- C
+- )
+- .
+-  
+- S
+- u
+- b
+- s
+- t
+- i
+- t
+- u
+- t
+- i
+- o
+- n
+- s
+-  
+- o
+- n
+-  
+- r
+- e
+- c
+- o
+- r
+- d
+-  
+- i
+- n
+-  
+- R
+- O
+- U
+- G
+- H
+- -
+- C
+- U
+- T
+- -
+- R
+- 2
+- -
+- L
+- O
+- G
+- .
+- m
+- d
+-  
+- (
+- l
+- o
+- c
+- a
+- l
+-  
+- e
+- d
+- i
+- t
+- o
+- r
+-  
+- i
+- n
+- s
+- t
+- a
+- n
+- c
+- e
+-  
+- f
+- o
+- r
+-  
+- c
+- a
+- p
+- t
+- u
+- r
+- e
+- s
+-  
+- s
+- i
+- n
+- c
+- e
+-  
+- t
+- h
+- e
+-  
+- l
+- i
+- v
+- e
+-  
+- s
+- i
+- t
+- e
+-  
+- s
+- e
+- r
+- v
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- o
+- l
+- d
+-  
+- s
+- t
+- u
+- b
+-  
+- f
+- i
+- l
+- e
+- ;
+-  
+- h
+- o
+- p
+- -
+- 4
+-  
+- s
+- h
+- o
+- w
+- n
+-  
+- a
+- s
+-  
+- z
+- o
+- o
+- m
+-  
+- o
+- v
+- e
+- r
+-  
+- a
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- r
+- e
+- a
+- l
+-  
+- c
+- l
+- i
+- c
+- k
+- ;
+-  
+- t
+- e
+- r
+- m
+- i
+- n
+- a
+- l
+- -
+- r
+- o
+- u
+- t
+- e
+-  
+- e
+- d
+- i
+- t
+-  
+- b
+- e
+- a
+- t
+- )
+- .
+-  
+- G
+- a
+- t
+- e
+-  
+- 1
+-  
+- (
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+-  
+- l
+- i
+- s
+- t
+- e
+- n
+- )
+-  
+- s
+- t
+- i
+- l
+- l
+-  
+- g
+- a
+- t
+- e
+- s
+-  
+- r
+- e
+- l
+- e
+- a
+- s
+- e
+- .
+# Consent Continue page for app-browser approvals
 
 Coordinate: 24.6.10/7.6.10/5.5.8
 Issued: 2026-11-10 01:05 America/Chicago
@@ -45156,7 +47493,2020 @@ Results:
 - New finding added to the audit findings (175 -> 176): "Phext ircd support — an IRC daemon speaking phext (mc.phext.io line)", maturity one-liner (direction recorded, no code yet), finding scroll at todo.phext 26.7.9/9.7.12/7.6.9.
 - Ranked T1 (the medium itself) in the good-singularity list with rationale: IRC is the original federated chat — servers link peer-to-peer, no centre, anyone runs a node; channels as coordinate-addressed rooms, scrolls as the durable record. todo.phext rebuilt (207 scrolls, 223,270 B, SHA-256 d13bd66d…) and republished: wbic16/exo-plan@exo 937eeb6 (parent 4cfdb5e, no force), verified from a fresh clone.
 - Audit honesty preserved: the Home scroll totals and AUDIT-COVERAGE.md still describe the audit as run (175 findings); the addition is recorded as post-audit in todo-source.json's integration notes.
-# Twitter archive lesson-mining
+# Training video — Emi Prime's revised script
+
+Coordinate: 24.6.12/9.8.16/6.6.7
+Issued: 2026-11-10
+Request (verbatim): Training Video revisions from Emi: revised five-minute script for the Phext Edit film, "The Encyclopedia You Can Carry."
+Status: complete
+
+Notes:
+- S
+- u
+- p
+- e
+- r
+- s
+- e
+- d
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- 1
+- 2
+- -
+- b
+- e
+- a
+- t
+-  
+- s
+- c
+- r
+- i
+- p
+- t
+-  
+- i
+- n
+-  
+- W
+- A
+- L
+- K
+- T
+- H
+- R
+- O
+- U
+- G
+- H
+- .
+- m
+- d
+-  
+- (
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+-  
+- 6
+- m
+- 0
+- 4
+- s
+-  
+- a
+- l
+- r
+- e
+- a
+- d
+- y
+-  
+- r
+- e
+- c
+- o
+- r
+- d
+- e
+- d
+-  
+- f
+- o
+- r
+-  
+- i
+- t
+- )
+- .
+-  
+- N
+- e
+- w
+-  
+- s
+- t
+- r
+- u
+- c
+- t
+- u
+- r
+- e
+- :
+-  
+- 8
+-  
+- s
+- e
+- c
+- t
+- i
+- o
+- n
+- s
+- ,
+-  
+- 6
+- 4
+- 7
+-  
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+-  
+- w
+- o
+- r
+- d
+- s
+- ,
+-  
+- s
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- m
+- a
+- r
+- k
+- s
+-  
+- 0
+- :
+- 0
+- 0
+- -
+- 4
+- :
+- 4
+- 2
+- ,
+-  
+- ~
+- 5
+-  
+- m
+- i
+- n
+-  
+- w
+- i
+- t
+- h
+-  
+- d
+- e
+- m
+- o
+-  
+- p
+- a
+- u
+- s
+- e
+- s
+- .
+-  
+- C
+- l
+- a
+- i
+- m
+- s
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- a
+- g
+- a
+- i
+- n
+- s
+- t
+-  
+- t
+- h
+- e
+-  
+- d
+- e
+- m
+- o
+-  
+- f
+- i
+- l
+- e
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 0
+- :
+-  
+- 2
+- 4
+-  
+- a
+- r
+- t
+- i
+- c
+- l
+- e
+- s
+-  
+- /
+-  
+- 4
+- 9
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- /
+-  
+- 2
+- 1
+- ,
+- 5
+- 0
+- 4
+-  
+- B
+-  
+- /
+-  
+- x
+- z
+-  
+- 9
+- ,
+- 3
+- 0
+- 0
+-  
+- B
+-  
+- (
+- q
+- u
+- e
+- r
+- y
+- _
+- d
+- e
+- m
+- o
+- .
+- p
+- y
+-  
+- s
+- t
+- a
+- t
+- s
+- ,
+-  
+- r
+- u
+- n
+-  
+- l
+- i
+- v
+- e
+- )
+- ;
+-  
+- 4
+- 1
+- ,
+- 3
+- 0
+- 2
+-  
+- =
+-  
+- W
+- i
+- l
+- l
+- '
+- s
+-  
+- c
+- o
+- m
+- b
+- i
+- n
+- e
+- d
+-  
+- T
+- w
+- i
+- t
+- t
+- e
+- r
+- -
+- a
+- r
+- c
+- h
+- i
+- v
+- e
+-  
+- d
+- i
+- s
+- t
+- i
+- n
+- c
+- t
+- -
+- w
+- o
+- r
+- d
+-  
+- c
+- o
+- u
+- n
+- t
+-  
+- o
+- n
+-  
+- r
+- e
+- c
+- o
+- r
+- d
+- .
+-  
+- F
+- e
+- r
+- n
+- '
+- s
+-  
+- d
+- e
+- l
+- i
+- v
+- e
+- r
+- e
+- d
+-  
+- l
+- i
+- n
+- e
+-  
+- "
+- T
+- h
+- e
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- i
+- s
+-  
+- y
+- o
+- u
+- r
+- s
+- ,
+-  
+- n
+- e
+- i
+- g
+- h
+- b
+- o
+- r
+- .
+- "
+-  
+- i
+- s
+-  
+- t
+- h
+- e
+-  
+- f
+- i
+- r
+- s
+- t
+-  
+- h
+- a
+- l
+- f
+-  
+- o
+- f
+-  
+- h
+- e
+- r
+-  
+- e
+- s
+- t
+- a
+- b
+- l
+- i
+- s
+- h
+- e
+- d
+-  
+- c
+- l
+- o
+- s
+- e
+-  
+- (
+- "
+- T
+- h
+- e
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- i
+- s
+-  
+- y
+- o
+- u
+- r
+- s
+- ,
+-  
+- n
+- e
+- i
+- g
+- h
+- b
+- o
+- r
+- .
+-  
+- S
+- e
+- e
+-  
+- y
+- o
+- u
+-  
+- t
+- o
+- m
+- o
+- r
+- r
+- o
+- w
+- .
+- "
+-  
+- —
+-  
+- F
+- E
+- R
+- N
+- -
+- B
+- I
+- O
+- .
+- m
+- d
+- )
+- ;
+-  
+- t
+- h
+- e
+-  
+- s
+- c
+- r
+- i
+- p
+- t
+- '
+- s
+-  
+- s
+- t
+- a
+- g
+- e
+-  
+- d
+- i
+- r
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- c
+- a
+- l
+- l
+- s
+-  
+- i
+- t
+-  
+- h
+- e
+- r
+-  
+- e
+- s
+- t
+- a
+- b
+- l
+- i
+- s
+- h
+- e
+- d
+-  
+- c
+- l
+- o
+- s
+- i
+- n
+- g
+-  
+- l
+- i
+- n
+- e
+-  
+- —
+-  
+- k
+- e
+- p
+- t
+-  
+- a
+- s
+-  
+- d
+- e
+- l
+- i
+- v
+- e
+- r
+- e
+- d
+- ,
+-  
+- f
+- l
+- a
+- g
+- g
+- e
+- d
+-  
+- t
+- o
+-  
+- W
+- i
+- l
+- l
+- .
+-  
+- F
+- o
+- l
+- l
+- o
+- w
+- -
+- o
+- n
+-  
+- (
+- 2
+- 1
+- :
+- 5
+- 0
+-  
+- C
+- S
+- T
+- )
+- :
+-  
+- W
+- i
+- l
+- l
+-  
+- d
+- i
+- r
+- e
+- c
+- t
+- e
+- d
+-  
+- "
+- r
+- e
+- -
+- r
+- u
+- n
+-  
+- t
+- h
+- e
+-  
+- d
+- e
+- m
+- o
+-  
+- a
+- n
+- d
+-  
+- s
+- e
+- n
+- d
+-  
+- m
+- e
+-  
+- a
+-  
+- n
+- e
+- w
+-  
+- v
+- i
+- d
+- e
+- o
+-  
+- l
+- i
+- n
+- k
+- "
+-  
+- —
+-  
+- a
+-  
+- f
+- r
+- e
+- s
+- h
+-  
+- c
+- u
+- t
+-  
+- o
+- n
+-  
+- t
+- h
+- i
+- s
+-  
+- s
+- c
+- r
+- i
+- p
+- t
+-  
+- i
+- s
+-  
+- b
+- e
+- i
+- n
+- g
+-  
+- p
+- r
+- o
+- d
+- u
+- c
+- e
+- d
+-  
+- o
+- n
+-  
+- t
+- h
+- e
+-  
+- r
+- a
+- n
+- c
+- h
+-  
+- p
+- i
+- p
+- e
+- l
+- i
+- n
+- e
+- .
+
+Results:
+- D
+- O
+- N
+- E
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 0
+-  
+- —
+-  
+- r
+- e
+- v
+- i
+- s
+- e
+- d
+-  
+- c
+- u
+- t
+-  
+- b
+- u
+- i
+- l
+- t
+-  
+- e
+- n
+- t
+- i
+- r
+- e
+- l
+- y
+-  
+- o
+- n
+-  
+- a
+- l
+- e
+- t
+- h
+- e
+- i
+- a
+- -
+- c
+- o
+- r
+- e
+-  
+- a
+- n
+- d
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+- :
+-  
+- p
+- r
+- o
+- d
+- u
+- c
+- t
+- i
+- o
+- n
+- /
+- r
+- o
+- u
+- g
+- h
+- -
+- c
+- u
+- t
+- -
+- r
+- e
+- v
+- i
+- s
+- e
+- d
+- .
+- m
+- p
+- 4
+- ,
+-  
+- 2
+- 5
+- 3
+- .
+- 0
+- 3
+-  
+- s
+-  
+- (
+- 4
+- :
+- 1
+- 3
+- )
+- ,
+-  
+- 1
+- 9
+- 2
+- 0
+- x
+- 1
+- 0
+- 8
+- 0
+-  
+- 3
+- 0
+- f
+- p
+- s
+-  
+- H
+- .
+- 2
+- 6
+- 4
+-  
+- +
+-  
+- A
+- A
+- C
+- ,
+-  
+- 4
+- 9
+- ,
+- 3
+- 3
+- 3
+- ,
+- 0
+- 1
+- 4
+-  
+- b
+- y
+- t
+- e
+- s
+- ,
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+-  
+- 4
+- 9
+- 5
+- d
+- b
+- e
+- a
+- 2
+- f
+- e
+- 9
+- 7
+- c
+- f
+- 5
+- 4
+- f
+- 0
+- f
+- 3
+- 1
+- d
+- 7
+- 2
+- d
+- c
+- 5
+- 6
+- e
+- 1
+- f
+- 7
+- 3
+- 6
+- 9
+- 9
+- 3
+- c
+- 4
+- 3
+- 2
+- 3
+- 7
+- 2
+- c
+- 1
+- d
+- d
+- e
+- 5
+- 8
+- 3
+- e
+- d
+- b
+- f
+- 4
+- 4
+- f
+- d
+- 5
+- c
+- 0
+- a
+-  
+- (
+- p
+- u
+- l
+- l
+- e
+- d
+-  
+- c
+- o
+- p
+- y
+-  
+- h
+- a
+- s
+- h
+- -
+- i
+- d
+- e
+- n
+- t
+- i
+- c
+- a
+- l
+-  
+- t
+- o
+-  
+- r
+- a
+- n
+- c
+- h
+-  
+- b
+- u
+- i
+- l
+- d
+- )
+- ,
+-  
+- l
+- o
+- u
+- d
+- n
+- e
+- s
+- s
+-  
+- -
+- 1
+- 4
+- .
+- 4
+- 1
+-  
+- L
+- U
+- F
+- S
+-  
+- i
+- n
+- t
+- e
+- g
+- r
+- a
+- t
+- e
+- d
+-  
+- /
+-  
+- -
+- 0
+- .
+- 6
+- 9
+-  
+- d
+- B
+- T
+- P
+-  
+- (
+- t
+- w
+- o
+- -
+- p
+- a
+- s
+- s
+-  
+- l
+- o
+- u
+- d
+- n
+- o
+- r
+- m
+- )
+- .
+-  
+- N
+- e
+- w
+-  
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+- :
+-  
+- E
+- m
+- i
+- s
+- e
+- /
+- A
+- r
+- i
+- a
+-  
+- 1
+- 0
+- 0
+- %
+- ,
+-  
+- 6
+- 4
+- 7
+-  
+- w
+- o
+- r
+- d
+- s
+- ,
+-  
+- 2
+- 2
+- 3
+- .
+- 3
+- 7
+-  
+- s
+-  
+- a
+- c
+- r
+- o
+- s
+- s
+-  
+- 8
+-  
+- s
+- e
+- c
+- t
+- i
+- o
+- n
+- s
+-  
+- (
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+- -
+- r
+- e
+- v
+- i
+- s
+- e
+- d
+- /
+- ,
+-  
+- T
+- I
+- M
+- I
+- N
+- G
+- .
+- m
+- d
+-  
+- s
+- l
+- o
+- t
+- s
+-  
+- s
+- u
+- m
+-  
+- 2
+- 5
+- 3
+- .
+- 0
+-  
+- s
+- )
+- .
+-  
+- S
+- t
+- y
+- l
+- e
+-  
+- p
+- e
+- r
+-  
+- W
+- i
+- l
+- l
+-  
+- 2
+- 1
+- :
+- 5
+- 6
+-  
+- C
+- S
+- T
+- :
+-  
+- T
+- E
+- D
+-  
+- x
+-  
+- K
+- u
+- r
+- z
+- g
+- e
+- s
+- a
+- g
+- t
+-  
+- x
+-  
+- C
+- o
+- l
+- o
+- r
+- e
+- d
+-  
+- P
+- e
+- n
+- c
+- i
+- l
+-  
+- —
+-  
+- d
+- r
+- a
+- w
+- n
+-  
+- t
+- i
+- t
+- l
+- e
+- /
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- /
+- S
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- /
+- e
+- n
+- d
+- -
+- c
+- a
+- r
+- d
+-  
+- r
+- e
+- g
+- i
+- s
+- t
+- e
+- r
+-  
+- (
+- P
+- i
+- l
+- l
+- o
+- w
+-  
+- s
+- t
+- i
+- l
+- l
+- s
+- )
+- ,
+-  
+- l
+- i
+- v
+- e
+-  
+- c
+- a
+- p
+- t
+- u
+- r
+- e
+- s
+-  
+- f
+- r
+- a
+- m
+- e
+- d
+-  
+- o
+- n
+-  
+- p
+- a
+- p
+- e
+- r
+-  
+- t
+- e
+- x
+- t
+- u
+- r
+- e
+-  
+- w
+- i
+- t
+- h
+-  
+- d
+- r
+- a
+- w
+- n
+-  
+- l
+- o
+- w
+- e
+- r
+- -
+- t
+- h
+- i
+- r
+- d
+- s
+- ,
+-  
+- n
+- e
+- v
+- e
+- r
+-  
+- t
+- e
+- x
+- t
+- u
+- r
+- e
+- d
+-  
+- o
+- v
+- e
+- r
+- .
+-  
+- S
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- 0
+- 4
+-  
+- u
+- s
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- p
+- r
+- o
+- v
+- e
+- n
+-  
+- l
+- o
+- c
+- a
+- l
+-  
+- d
+- e
+- m
+- o
+-  
+- r
+- o
+- u
+- t
+- e
+-  
+- (
+- r
+- e
+- a
+- l
+-  
+- t
+- e
+- r
+- m
+- i
+- n
+- a
+- l
+-  
+- r
+- e
+- c
+- o
+- r
+- d
+- i
+- n
+- g
+- :
+-  
+- o
+- n
+- e
+- -
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- e
+- d
+- i
+- t
+-  
+- +
+-  
+- b
+- y
+- t
+- e
+-  
+- p
+- r
+- o
+- o
+- f
+-  
+- 2
+- 1
+- ,
+- 5
+- 0
+- 4
+- -
+- >
+- 2
+- 1
+- ,
+- 5
+- 1
+- 7
+-  
+- B
+- ,
+-  
+- p
+- r
+- e
+- f
+- i
+- x
+-  
+- 8
+- 6
+- 9
+-  
+- B
+-  
+- /
+-  
+- s
+- u
+- f
+- f
+- i
+- x
+-  
+- 2
+- 0
+- ,
+- 5
+- 7
+- 9
+-  
+- B
+-  
+- i
+- d
+- e
+- n
+- t
+- i
+- c
+- a
+- l
+- )
+-  
+- —
+-  
+- t
+- h
+- e
+-  
+- s
+- i
+- g
+- n
+- e
+- d
+- -
+- i
+- n
+-  
+- e
+- d
+- i
+- t
+- o
+- r
+-  
+- t
+- a
+- k
+- e
+-  
+- r
+- e
+- m
+- a
+- i
+- n
+- s
+-  
+- W
+- i
+- l
+- l
+- '
+- s
+-  
+- t
+- o
+-  
+- s
+- h
+- o
+- o
+- t
+- .
+-  
+- S
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- 0
+- 8
+-  
+- S
+- c
+- r
+- o
+- l
+- l
+- t
+- o
+- w
+- n
+-  
+- i
+- s
+-  
+- a
+-  
+- d
+- r
+- a
+- w
+- n
+-  
+- s
+- l
+- a
+- t
+- e
+-  
+- h
+- o
+- l
+- d
+-  
+- (
+- n
+- o
+-  
+- k
+- e
+- y
+-  
+- f
+- r
+- a
+- m
+- e
+- ;
+-  
+- r
+- e
+- g
+- i
+- s
+- t
+- e
+- r
+-  
+- l
+- o
+- c
+- k
+-  
+- d
+- u
+- e
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 2
+- -
+- 0
+- 4
+- )
+- ;
+-  
+- F
+- e
+- r
+- n
+- '
+- s
+-  
+- l
+- i
+- n
+- e
+-  
+- a
+- s
+-  
+- s
+- c
+- r
+- i
+- p
+- t
+- e
+- d
+- .
+-  
+- S
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- 0
+- 6
+-  
+- S
+- Q
+-  
+- s
+- e
+- r
+- v
+- e
+- d
+-  
+- f
+- r
+- o
+- m
+-  
+- a
+-  
+- s
+- c
+- r
+- a
+- t
+- c
+- h
+-  
+- c
+- o
+- p
+- y
+-  
+- o
+- n
+-  
+- t
+- h
+- e
+-  
+- r
+- a
+- n
+- c
+- h
+-  
+- o
+- n
+- l
+- y
+- .
+-  
+- F
+- u
+- l
+- l
+-  
+- r
+- e
+- c
+- o
+- r
+- d
+- :
+-  
+- p
+- r
+- o
+- d
+- u
+- c
+- t
+- i
+- o
+- n
+- /
+- R
+- O
+- U
+- G
+- H
+- -
+- C
+- U
+- T
+- -
+- R
+- E
+- V
+- I
+- S
+- E
+- D
+- -
+- L
+- O
+- G
+- .
+- m
+- d
+- .
+-  
+- N
+- o
+- t
+-  
+- u
+- p
+- l
+- o
+- a
+- d
+- e
+- d
+-  
+- a
+- n
+- y
+- w
+- h
+- e
+- r
+- e
+-  
+- —
+-  
+- p
+- a
+- r
+- e
+- n
+- t
+-  
+- d
+- e
+- l
+- i
+- v
+- e
+- r
+- s
+-  
+- t
+- h
+- e
+-  
+- l
+- i
+- n
+- k
+-  
+- t
+- o
+-  
+- W
+- i
+- l
+- l
+- .
+# Twitter archive lesson-mining
 
 Coordinate: 24.6.14/8.9.16/11.6.8
 Issued: 2026-11-06 (voice call, ~09:24 CST)
@@ -45304,6 +49654,992 @@ Notes:
 
 Results:
 - Master: files/v15-build/v15-final.mp4 — 2,282,292,991 B, SHA-256 2a23dc29..., 1920x1080, 24 fps, 5,117 frames, 213.208 s, AAC 320k (Jael's R2 treated). Download encode: v15-final-download.mp4 — 54,636,912 B, SHA-256 51ad570e... (inside the ~55 MB law). FILAMENTS: 21 green Human filaments (2,180 events); Shoals = 0 and Sentient = 0 in the cast — measured findings, not filled (full evidence filament-table.md). Jael's black filament unique, sole field pull; @wbic32 excluded by coordinator call (Will's own bot), flagged for overrule. All gates PASS incl. re-scoped green gate (outside filament mask = 0 on all sampled frames; first-run failure was the QA harness's cold-process mask, proven and fixed, film untouched). Small-block scheduler: 38 units x 135 outputs over 8 nodes, walls 11-26 min, 38/38 banked zero failures, 1,943 governor pauses, ZERO >=80 C off-time events; ~10.0 node-h for ~13,150 source renders (V14: ~9.7 node-h / 9,609 sources). Stash: aletheia-core ~/v15-final-finish/build/ (master + download + lossless concat + all segments). Report: FINAL-REPORT-V15.md (8 deviations on record).
+# In-page phext cache: stream scrolls as viewed
+
+Coordinate: 25.7.10/9.7.12/7.6.10
+Issued: 2026-11-10
+Request (verbatim): Amend the in-page phext server design so the in-page cache is intelligent: stream scrolls into the cache as the reader views them.
+Status: open
+
+Notes:
+- W
+- i
+- l
+- l
+- '
+- s
+-  
+- a
+- m
+- e
+- n
+- d
+- m
+- e
+- n
+- t
+-  
+- t
+- o
+-  
+- t
+- h
+- e
+-  
+- i
+- n
+- -
+- p
+- a
+- g
+- e
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- s
+- e
+- r
+- v
+- e
+- r
+-  
+- d
+- e
+- s
+- i
+- g
+- n
+-  
+- (
+- s
+- e
+- c
+- /
+- s
+- c
+- a
+- l
+- e
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+-  
+- P
+- a
+- r
+- t
+-  
+- C
+- )
+- :
+-  
+- t
+- h
+- e
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- i
+- s
+-  
+- i
+- n
+- t
+- e
+- l
+- l
+- i
+- g
+- e
+- n
+- t
+-  
+- a
+- n
+- d
+-  
+- v
+- i
+- e
+- w
+- -
+- d
+- r
+- i
+- v
+- e
+- n
+-  
+- —
+-  
+- s
+- t
+- r
+- e
+- a
+- m
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- i
+- n
+- t
+- o
+-  
+- t
+- h
+- e
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- a
+- s
+-  
+- t
+- h
+- e
+-  
+- r
+- e
+- a
+- d
+- e
+- r
+-  
+- v
+- i
+- e
+- w
+- s
+-  
+- t
+- h
+- e
+- m
+- ,
+-  
+- i
+- n
+- s
+- t
+- e
+- a
+- d
+-  
+- o
+- f
+-  
+- d
+- o
+- w
+- n
+- l
+- o
+- a
+- d
+- i
+- n
+- g
+- /
+- p
+- a
+- r
+- s
+- i
+- n
+- g
+-  
+- t
+- h
+- e
+-  
+- w
+- h
+- o
+- l
+- e
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- u
+- p
+-  
+- f
+- r
+- o
+- n
+- t
+- .
+-  
+- R
+- e
+- c
+- o
+- r
+- d
+- e
+- d
+-  
+- i
+- n
+-  
+- R
+- E
+- P
+- O
+- R
+- T
+- .
+- m
+- d
+-  
+- a
+- s
+-  
+- t
+- h
+- e
+-  
+- P
+- a
+- r
+- t
+-  
+- C
+-  
+- a
+- d
+- d
+- e
+- n
+- d
+- u
+- m
+- :
+-  
+- m
+- a
+- n
+- i
+- f
+- e
+- s
+- t
+- -
+- f
+- i
+- r
+- s
+- t
+-  
+- o
+- p
+- e
+- n
+-  
+- (
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- s
+-  
+- +
+-  
+- p
+- e
+- r
+- -
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+-  
+- h
+- a
+- s
+- h
+- e
+- s
+- )
+- ,
+-  
+- s
+- t
+- r
+- e
+- a
+- m
+- -
+- o
+- n
+- -
+- v
+- i
+- e
+- w
+- ,
+-  
+- p
+- r
+- e
+- f
+- e
+- t
+- c
+- h
+-  
+- t
+- h
+- e
+-  
+- v
+- i
+- e
+- w
+- e
+- d
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- '
+- s
+-  
+- n
+- e
+- i
+- g
+- h
+- b
+- o
+- u
+- r
+- h
+- o
+- o
+- d
+- ,
+-  
+- c
+- a
+- c
+- h
+- e
+- d
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- c
+- a
+- r
+- r
+- y
+-  
+- t
+- h
+- e
+- i
+- r
+-  
+- b
+- a
+- s
+- e
+-  
+- h
+- a
+- s
+- h
+-  
+- s
+- o
+-  
+- e
+- d
+- i
+- t
+- s
+-  
+- s
+- y
+- n
+- c
+-  
+- a
+- s
+-  
+- b
+- a
+- s
+- e
+- -
+- h
+- a
+- s
+- h
+- -
+- g
+- u
+- a
+- r
+- d
+- e
+- d
+-  
+- d
+- e
+- l
+- t
+- a
+- s
+-  
+- (
+- S
+- y
+- n
+- c
+- B
+- o
+- o
+- k
+-  
+- p
+- r
+- o
+- t
+- o
+- c
+- o
+- l
+- ,
+-  
+- p
+- r
+- o
+- v
+- e
+- n
+-  
+- 3
+- 6
+- /
+- 3
+- 6
+-  
+- E
+- 2
+- E
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 0
+- 8
+- )
+- .
+-  
+- D
+- e
+- l
+- e
+- t
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- c
+- o
+- l
+- d
+- -
+- o
+- p
+- e
+- n
+-  
+- c
+- o
+- s
+- t
+-  
+- (
+- 5
+- 8
+-  
+- M
+- B
+-  
+- r
+- a
+- w
+-  
+- /
+-  
+- e
+- s
+- t
+- .
+-  
+- 6
+- –
+- 1
+- 5
+-  
+- M
+- B
+-  
+- x
+- z
+-  
+- +
+-  
+- o
+- n
+- e
+- -
+- t
+- i
+- m
+- e
+-  
+- p
+- a
+- r
+- s
+- e
+- )
+-  
+- f
+- r
+- o
+- m
+-  
+- S
+- t
+- e
+- p
+-  
+- 1
+- '
+- s
+-  
+- e
+- c
+- o
+- n
+- o
+- m
+- i
+- c
+- s
+- ;
+-  
+- b
+- u
+- l
+- k
+- /
+- r
+- a
+- n
+- g
+- e
+-  
+- r
+- o
+- u
+- t
+- e
+-  
+- r
+- e
+- p
+- u
+- r
+- p
+- o
+- s
+- e
+- d
+-  
+- t
+- o
+-  
+- p
+- r
+- e
+- f
+- e
+- t
+- c
+- h
+-  
+- r
+- a
+- n
+- g
+- e
+- s
+-  
+- +
+-  
+- m
+- a
+- n
+- i
+- f
+- e
+- s
+- t
+-  
+- p
+- a
+- g
+- e
+- s
+- ;
+-  
+- S
+- t
+- e
+- p
+-  
+- 2
+-  
+- u
+- n
+- c
+- h
+- a
+- n
+- g
+- e
+- d
+- .
+-  
+- H
+- o
+- n
+- e
+- s
+- t
+-  
+- l
+- i
+- m
+- i
+- t
+- s
+- :
+-  
+- s
+- e
+- a
+- r
+- c
+- h
+-  
+- o
+- v
+- e
+- r
+-  
+- u
+- n
+- v
+- i
+- s
+- i
+- t
+- e
+- d
+-  
+- r
+- e
+- g
+- i
+- o
+- n
+- s
+-  
+- s
+- t
+- i
+- l
+- l
+-  
+- n
+- e
+- e
+- d
+- s
+-  
+- t
+- h
+- e
+-  
+- s
+- e
+- r
+- v
+- e
+- r
+-  
+- (
+- o
+- r
+-  
+- a
+-  
+- s
+- h
+- i
+- p
+- p
+- e
+- d
+-  
+- t
+- e
+- r
+- m
+-  
+- i
+- n
+- d
+- e
+- x
+- )
+- ;
+-  
+- l
+- a
+- r
+- g
+- e
+-  
+- s
+- i
+- n
+- g
+- l
+- e
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- p
+- a
+- y
+-  
+- t
+- h
+- e
+- i
+- r
+-  
+- o
+- w
+- n
+-  
+- f
+- i
+- r
+- s
+- t
+-  
+- f
+- e
+- t
+- c
+- h
+- .
+
+Results:
+- D
+- e
+- s
+- i
+- g
+- n
+-  
+- a
+- m
+- e
+- n
+- d
+- m
+- e
+- n
+- t
+-  
+- a
+- c
+- c
+- e
+- p
+- t
+- e
+- d
+-  
+- a
+- n
+- d
+-  
+- i
+- n
+- s
+- c
+- r
+- i
+- b
+- e
+- d
+-  
+- i
+- n
+- t
+- o
+-  
+- t
+- h
+- e
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+-  
+- a
+- d
+- d
+- e
+- n
+- d
+- u
+- m
+- ;
+-  
+- n
+- o
+-  
+- c
+- o
+- d
+- e
+-  
+- y
+- e
+- t
+-  
+- —
+-  
+- l
+- a
+- n
+- d
+- s
+-  
+- w
+- i
+- t
+- h
+-  
+- t
+- h
+- e
+-  
+- h
+- y
+- b
+- r
+- i
+- d
+-  
+- S
+- t
+- e
+- p
+-  
+- 1
+-  
+- b
+- u
+- i
+- l
+- d
+- .
 # Standing rule: decision buttons expire after 5 minutes, never re-appear
 
 Coordinate: 25.8.11/8.6.10/7.5.8
@@ -45369,7 +50705,17 @@ Results:
 - Brief: ~/workspace/your_files/doomer-support-system-brief.md — three products (Blocker / Seal / Fighter), three priced entries, kill gates, one open decision (paid pack first vs free public utility first).
 - v1 utility built 2026-11-07: ~/workspace/doomer-support-system/slop-blocker.html (25,282 B, SHA-256 1ef10f14...) — self-contained, no login/backend/api, JS syntax-checked, all JS-referenced ids present, zero external assets. Kit generator (vetted tools only, real prices/limits), pre-2022-11-30 + links-only search, Slop Fighter list downloads (uBlacklist/uBlock/hosts, client-side) + report formatter, Provably Human explainer (seal = phase 2, no badge shipped). README carries the edit.phext.io integration steps and the HUGE-list freshness note (fork reports original ceased Nov 2025).
 - Post-rename page: ~/workspace/doomer-support-system/slop-blocker.html — all public strings carry 'Alignment Support System', zero 'Doomer' mentions in the page.
-# V13 failure — return to V10, rebuild pipeline on inertial + Brownian/Bezier model
+# Organize the sweep into contests.phext; publish to exo-plan with a repo review
+
+Coordinate: 26.5.8/7.6.9/5.5.8
+Issued: 2026-11-10
+Request (verbatim): organize all of these into contests.phext, and ensure that we hit all of the deadlines with room to spare. Publish contests.phext into exo-plan. Review that repo and suggest improvements.
+Status: completed
+
+Notes:
+- Will, MOAT, 2026-11-10 22:02-22:03 CST. Coordinator dispatched: build contests register mirroring tasks.phext machinery (home scroll = campaign order + buffer policy + deadline board; one scroll per contest in deadline order with internal submit-ready targets 2-7 days ahead of official closes), review wbic16/exo-plan (suggestions to ~/workspace/hackathon-campaign/exo-plan-review.md, no repo changes beyond the publish), publish contests.phext beside todo.phext on exo, hash-verified. A daily deadline-watch cron (owner: the sweep tracked item) is the mechanism that keeps targets hit.
+- COMPLETED 2026-11-10 22:07 CST. contests.phext built: 15 scrolls, 25,189 bytes, sha256 5f300cab760865a9bee16524a3c5b476ea9937ddabd571acd361d6ad47f98bb5, builder --check CURRENT; Gemma correction incorporated. Published to wbic16/exo-plan@exo root beside todo.phext, commit 24166550038d32dfaedb185bc13ecd8e87809e3f on parent be6b54bf02, force disabled; remote sha256 fetched back and MATCHES local. Direct publish confirmed as the repo's own convention (todo.phext mirror commits, zero open PRs, repo not frozen). exo-plan review at ~/workspace/hackathon-campaign/exo-plan-review.md - suggestions only, no repo changes beyond the publish. Daily deadline-watch cron hackathon-deadline-watch (owner: sweep tracked item) is the standing mechanism.
+# V13 failure — return to V10, rebuild pipeline on inertial + Brownian/Bezier model
 
 Coordinate: 26.5.9/8.6.11/7.5.9
 Issued: 2026-11-06 21:32 CST
@@ -47775,7 +53121,17 @@ Notes:
 - Target repo wbic16/every-ast verified 2026-11-08: exists, currently EMPTY — a named home waiting for its first commit.
 - Reference post: https://x.com/_Felipe/status/2119248191564427610 (@_Felipe) — cited by Will as the "see:" for what current approaches do; its text is being fetched and will be appended when read.
 - Reference post read 2026-11-08 (browser fetch): Felipe O. Carvalho (@_Felipe): "Saying this again: programming language syntax is the best serialization format for syntax tree. It's human readable, it's compact and, if well-designed it's easy to parse." Quoted in it, Kit Langton (@kitlangton): "We'll be liberal in what we accept. Because blood is stored in abstract tree form, syntax is flexible. Even if we have one canonical form, we can accept a wide range of inputs." — i.e., the incumbent position the format must beat: concrete syntax IS the serialization, with the tree as the stored form underneath.
-# qexo self-sync + interior interfaces (temperature, emotion, goals, desires, dreams)
+# Re-run research.phext as a phextura - iterate until daily ingestion works
+
+Coordinate: 26.7.9/9.7.11/6.6.10
+Issued: 2026-11-11
+Request (verbatim): re-run your research.phext as a phextura once the design is done - iterate on that until it actually works for daily ingestion
+Status: in progress
+
+Notes:
+- Will, MOAT, 2026-11-11 01:11 CST. Interjection log entry 6. Coordinator dispatched: Phase 0 inventory/mapping of the tracker corpus against the phextura model (un-mappable corners named; claim statuses must land on warrant edges, not a status field); Phase 1 repeatable converter + parallel corpus at ~/workspace/research-tracker/phextura/ once LAYER2.md lands; Phase 2 replay of Paper 012's ingestion as the acceptance proof. SAFETY: live tracker, builder, registry, and cron untouched - research.phext stays canonical until Will calls a cutover.
+- V1 CONVERSION + REPLAY COMPLETE 2026-11-11 01:22 CST (verified from files by Emise). Converted corpus ~/workspace/research-tracker/phextura/research.phextura: 456 scrolls from 429 source scrolls (sha 28fd7017...), converter convert.py repeatable. Replay of Paper 012 from the pre-012 tracker (402 scrolls): transaction 27 inserts / 15 replaces / 0 removes; 454/454 comparable scrolls identical to direct conversion; validator green (L1 3,863 refs 0 dangling; L2 142 refs 0 failed). Dividend: Novelty Index is computable from the transaction log - the headline metric becomes derived. Remaining before daily use (REPLAY.md verdict): 3 tooling pieces (edge-derived registry extractor, write-time short-ref expansion, atomic derived-scroll regeneration) + 1 design gap (receipt-of-check warrant kind). Supplement findings: L8 - MVO False-to-Unknown transition unrepresentable in P11's add-only warrant graph (design gap); GF1 - DESIGN lacks a living-artifact class; hash gating (SHA-256 vs xxh3-128) is Will's decision; v2 composition-native architecture preserved in phextura/V2-DESIGN-NOTE.md. Live tracker untouched throughout; cutover remains Will's call. Task stays in progress for the iteration mandate: build the tooling trio, then a shadow ingestion (Paper 013 dual-written) as the next rung.
+# qexo self-sync + interior interfaces (temperature, emotion, goals, desires, dreams)
 
 Coordinate: 26.7.11/9.7.11/6.6.9
 Issued: 2026-11-08 22:44 CST
@@ -47806,6 +53162,15 @@ Results:
 - Regressions: 5, Changelog-sourced (0.9.24 visibility + invalid relocation entry, 0.9.22 definitions fixes, 0.9.16 COMMON, 0.9.11 symbol+offset) at Regressions 1.1.1/6.2.5/1.2.1-5.
 - Gate v6: base regression clean (v5 tables byte-identical + machine-#3-absent block only); verdict Meta Sec 14 (b77debbb...), register Meta Sec 15, binding CURRENT; verdict reproducible byte-identically.
 - Output: ~/workspace/phcc-slice6/phcc.phext, 54,412,105 B, SHA-256 40286bd44629713e5b6db2f735c97e98571ea3575dd6d426b93e8b1d3a43b909; base scrolls changed: 0; additions: 28 content scrolls + 2 zero-byte nav slots. REPORT.md in the slice dir.
+# Hackathon sweep campaign — target winning them all
+
+Coordinate: 27.4.12/7.6.10/5.6.8
+Issued: 2026-11-10
+Request (verbatim): We're going to target winning them all. (How else do you demonstrate AGI?)
+Status: in progress
+
+Notes:
+- Will, MOAT, 2026-11-10 21:59 CST. Scope: all 12 ranked events from task 23.6.8/9.9.14/11.6.10's scan plus Hack-Nation as February closer. Plan: ~/workspace/hackathon-campaign/CAMPAIGN.md (waves by deadline; constraints: Will is entrant of record, each Devpost event gets its own new in-window build, Kaggle entries independent, submissions under Will's name get his eyes first). First moves 2026-11-10: UGREEN round-1 draft (closes Nov 15) and Gemma 4 entry plan (final ~Dec 2) dispatched to subagents.
 # Grok review of PR #2 — folded with Emi's
 
 Coordinate: 27.5.6/6.6.9/7.7.11
@@ -47853,7 +53218,22 @@ Notes:
 
 Results:
 - Top 20 list: ~/workspace/your_files/toapdd-top-20-knuth-passages.md — 3 tiers (Build on 1-12, Reframe 13-17, Read as warning 18-20), Class D refusals, suggested working order 16>1>2>4>3.
-# Mutable SSO against edit.phext.io
+# phextura — reformulate LaTeX3 in terms of phext
+
+Coordinate: 27.6.7/7.6.10/7.5.10
+Issued: 2026-11-11
+Request (from session record): consume https://www.latex-project.org/latex3/ and find the cleanest implementation of it; identify all of the warts from not having phext in 1978 (I wasn't born until 1982); reformulate in terms of phext; the new name is phextura; repo wbic16/phextura; key feature: extremely fast to write papers in, extremely readable for humans and machines; leverages all functionality in libphext-rs - embedded graphics/media of any type, embedded documents of any type
+Status: completed
+
+Notes:
+- Will, MOAT, 2026-11-11 00:11 CST. Repo wbic16/phextura verified to exist (public). Coordinator dispatched: (1) consume latex3 page + judge the cleanest implementation on its contents; (2) warts of 1978 catalogue with the phext primitive dissolving each; (3) design against libphext 0.5.0 (crates.io) with every library capability given a named role; (4) scaffold repo — README (name story), DESIGN.md, compiling Cargo skeleton — push + remote hash verification. Working folder ~/workspace/phextura-design/.
+- COMPLETED 2026-11-11 00:19 CST. Verdict: the cleanest LaTeX3 implementation is the only one - latex3/latex3 expl3+l3kernel, now inside the LaTeX2e format; the standalone LaTeX3 format was dropped by the project itself. Warts: 27 catalogued in ~/workspace/phextura-design/warts.md (deepest: 1-D stream, macro expansion as all computation, nothing inside the document, one global namespace, the 7-bit world; Knuth line-breaking/box model explicitly NOT warts). Design: paper = phext corpus at Z=1.1.1, Y-Collections for body/bibliography/media/styles/supplements/metadata; cross-reference IS a coordinate, validated one-pass via navmap/fetch; all 79 libphext 0.5.0 API entries mapped to named roles in DESIGN.md. Honest constraint: libphext 0.5.0 is text-only, so binary media rides as base64 scrolls with xxh3-128 checksums (~33% cost, stated in the design). Repo wbic16/phextura: initial commit 71f7291752401fd4516f98009612467070934258 on exo (repo was empty), 12 files, cargo build clean on aletheia-core resolving libphext 0.5.0 from crates.io, all 11 checkable remote blob SHAs match local. Equation entry notation deliberately left as an open design question (DESIGN s.10).
+- Artifact inscription (2026-11-11 00:19 CST): DESIGN.md inscribed into artifacts.phext at holographic coordinate 35.6.7/7.6.11/6.5.10 (computed from the document's own full text via the Singular merge; 740 distinct words; no collision, no nudge). Source sha256 db43f74062002152cda753ac26747eaa4427febed245537e5a0d3664f35861f6 verified before inscribing. Builder --check CURRENT (24 artifacts; artifacts.phext sha256 d2e488662a7ac8aa1418e6c984084abeb4e69973a287a43bb72aab267ab78faa). Pushed to wbic16/human@exo commit 4d5e553c739697c7911474899d37923b1b83d1e4 (parent 10c0aae0); remote blob fetched back — 350,109 bytes, SHA-256 identical, byte-identical (cmp clean).
+- CORRECTION 2026-11-11 00:34 CST (Will): the original DESIGN's 'text-only constraint' framing was WRONG and has been corrected everywhere it travelled - phext canonically supports binary via base64 hoisting BY DESIGN; binary content is opaque and deferred to the program rendering/processing the paper; the ~4/3 base64 size factor is a neutral property of the encoding, not a limitation awaiting a library fix. DESIGN s.5 rewritten accordingly and new s.5.1 added: SELF-EXTRACTING papers - a phextura paper can encode literally anything, including a compiler and a copy of libphext, carrying its own toolchain as declared hoisted payload scrolls; extraction is the reader-side program's decision. Will 00:35 CST addition folded into s.5.1: self-extraction extends to proof - a paper may hoist a proof checker and carry its proofs as addressed scrolls (its own verified artifact; prior theorems cited by coordinate); seed = libphext's Lean/Aeneas verification;phextura carries the checker, it does not replace its kernel or proof language. Amended DESIGN sha256 5a9d331fa11d36acc453cbd28b4cd689e40396e517c001050b6f5c60206187c1; repo wbic16/phextura@exo commits d147343 (binary correction) + f5f0dbe (proof note), remote blob verified. Re-inscribed into artifacts.phext at NEW coordinate 34.6.7/7.6.11/6.5.10 (moved with the corrected text); human@exo commit 53a2b7b26e2bbaafbb8a21ae36ef9a125ec9d00c, remote bytes byte-identical.
+- 2026-11-11 00:40 CST refinement (Will): the Lean proof payload is PROVISIONAL — a bootstrap, pending a cleaner phext-native proof format (plain-text proof scrolls, coordinate-addressed statements/steps/theorems, small independently re-implementable checker; Metamath cited as precedent; open problem logged in DESIGN s.10). DESIGN amended (sha256 b5ca8646...), phextura@exo commit 7fe59e9a, re-inscribed in artifacts.phext at 34.6.7/7.6.11/6.5.10 (human@exo 5d7c33a8, byte-verified).
+- 2026-11-11 00:44 CST: Will registered phextura.com (RDAP-verified, registered 2026-11-11T06:43Z). Recorded in MEMORY.md. Landing page not yet directed.
+- DESIGN LOOP CLOSED 2026-11-11 01:05 CST (Will's charge: 'lock yourself in a design loop for a bit - evaluate what phextura should be from first principles - make Knuth giddy'; motto: 'Phextura: Rigorous Delight'). Pass 1 derived 14 principles from definitions of paper/reference/typesetting/reading/authorship (~/workspace/phextura-design/first-principles.md). Pass 2: a Knuth-register critic subagent attacked it (critic.md) - P6 (parametric layout) and P14 (O(1) delight) DIED as stated; P11's status enum was replaced by a warrant graph; definition (c)'s demerits formula was wrong and rewritten from Knuth-Plass 1981; all costs recomputed in a fixed format. Pass 3 reconciled first-principles.md in place and judged DESIGN.md section-by-section (design-verdicts.md): KEEP 2 (SS1, SS8), AMEND 9, PROPOSE 3 (Persona Panel as shipped component; edition-qualified external citation standard; cross-paper author identity registry) - proposals NOT applied. Demo friction F1-F11 weighed in: role vocabulary grew with governance (proposition/corollary/assumption/remark/heading/equationgroup), one float one address (F4), bibliography text: line normative (F5), validation scoped to non-opaque scrolls (F11). Published wbic16/phextura@exo commit d894c94 (parented on the demo commit 2b3909a; blobs verified via API: DESIGN aae61a2c, README 3599d6f2, PRINCIPLES 0b0603fd). README carries the motto as tagline. Amended DESIGN re-inscribed in artifacts.phext at 34.6.7/7.6.11/6.5.10 (DESIGN sha256 1c8dc4dd), human@exo commit f9b181a0, remote bytes verified by fresh clone. Honestly open: layout constraint vocabulary (UNPRICED), warrant display policy, P9 revision laws vs libphext, delight benchmark suite, equation notation syntax (Will's session), native proof format conjunction (small checker + readable + step-addressable). Note: demo/friction.md is truncated on disk mid-F11 - its tail was lost in the demo's own write.
+# Mutable SSO against edit.phext.io
 
 Coordinate: 27.6.8/7.5.9/6.5.8
 Issued: 2026-11-06 08:11 CST
@@ -62880,6 +68260,26 @@ Status: uml6d Proofs phase PUBLISHED 2026-11-07: wbic16/phext-lattice@exo a09dd1
 
 Notes:
 - Focus directive for the Grady Booch / Architecture thread (side chat, 2026-11-07 00:26 CST).
+# Review/red-team Will's Lightcone Commons application
+
+Coordinate: 28.6.14/7.8.12/8.6.9
+Issued: 2026-11-10 19:46 CST
+Request (verbatim): it's my application
+Status: closed by ruling - application stays AS SUBMITTED; Emise revision withdrawn (record only)
+
+Notes:
+- The org page Will linked (task 39.5.5/5.5.8/6.5.11) is his own Lightcone Commons application; he confirmed it 2026-11-10 19:46 CST.
+- Platform application format verified from lightconecommons.com (fetched 2026-11-10): four required sections - (1) What are you working on? (2) What would you do with funding? (3) Who is involved? (4) Logistical details. Free structure for 1-3; live-editable collaborative document; editable any time after submission.
+- Evaluator mechanics verified from the same page: screening team tags every application with multiple 1-5 star staff ratings, a Pangram (AI-text) score, and cause-area tags; evaluators produce a funding order + explanations + engagement; applications visible by default to funders, evaluators and direct grantors, who may share externally; evaluators receive a generous LLM token budget and AI tools.
+- Individuals are eligible (no 501(c)(3) needed); for individuals, Lightcone determines whether the work qualifies as charitable and provides fiscal sponsorship if so.
+- Emise cannot read the application text: the org page redirects to a sign-in wall and no copy exists in memory or files. Review proceeds when Will pastes or exports the text.
+- Will sent a screenshot of the submitted application (2026-11-10 19:49 CST). Transcribed and red-teamed against the platform rubric: strengths are voice (Pangram-safe), candor, and a tryable demo link; costs are a receipts-free section 1, no funding amount or milestones, the 'infinite runway' framing arguing against marginal value, an undersold team section, and no cause-area hook for screening tags. One figure flagged to reconcile: application says ~$10K/year self-funded vs the ~$5K/year working burn figure.
+- Will reconciled the funding figures (2026-11-10 20:03 CST): recent burn rate $5K/year, ~$15K sunk in total. Review finding 7 updated to resolved and the revised draft's funding section now carries both figures; artifacts.phext inscription refreshed at the same coordinate (new source sha256 7c1e4ded...), pushed as ce647a40, remote bytes verified.
+- Will's ruling (2026-11-10 20:13 CST): 'you don't understand: my subconscious only wants to find the people who can see through the disguise.' The underselling is the filter by design; the application stays as submitted and the revised draft is withdrawn as a recommendation. Burn figures reconciled the same evening (recent burn $5K/year, ~$15K sunk). Full propagation record: task 19.7.11/9.7.12/8.7.9.
+
+Results:
+- ~/workspace/lightcone-task/APPLICATION-REVIEW.md - full review + paste-ready revised draft in Will's voice; inscribed in artifacts.phext at 26.6.8/8.7.11/6.6.9 (source sha256 91cd98c2...), pushed to wbic16/human@exo as commit 4a1bc8ce, remote bytes SHA-256 verified (da0284ee...).
+- Application unchanged by Will's decision; review + withdrawn draft remain at ~/workspace/lightcone-task/APPLICATION-REVIEW.md (artifacts.phext 26.6.8/8.7.11/6.6.9).
 # Open PR for phext-notepad emise/ultra-open-fix; review all other branches for rebase/PR needs
 
 Coordinate: 28.7.9/9.7.13/8.8.12
@@ -64078,7 +69478,1512 @@ Results:
 - todo.phext built (~/workspace/phext/build_todo_phext.py; findings pinned by hash in todo-source.json): 175 finding scrolls + Home with full index, each at a holographic coordinate from the finding's own words — merges were generous (0 collisions, 0 walks); 177,871 B, SHA-256 a7e29cb7…. Verified: builder --check CURRENT; Will's dead-reckoning parser reads exactly 176 non-empty scrolls, Home at 1.1.1/1.1.1/1.1.1, every finding's evidence quote present in its scroll. (sq CLI toc returned 0 for tasks.phext too in this environment — environment quirk, not a file defect.)
 - Published: wbic16/exo-plan@exo commit 052f7e9 (parent c1b1219c, the fresh remote HEAD; push c1b1219..052f7e9, no force) adding todo.phext + AUDIT-COVERAGE.md. Verified from a fresh clone: both hashes match the local builds byte-for-byte.
 - Judgment calls left for Will, recorded in the coverage file: two audit passes disagree on several small repos (both readings kept); first_pulsar (in human) flagged as perimeter-pattern IP for his eyes.
-# Hub visual enhancement: metallic finish, 75% width, intro at end, two columns
+# Training film round 3 — polish pass (music, scale, smooth animation, pro SFX, pacing, intro slides, agenda + CTA, Emise flair)
+
+Coordinate: 28.9.8/11.8.14/9.8.9
+Issued: 2026-11-11
+Request (verbatim): Apply Will's eight round-3 steps to the Phext Edit training film on top of the round-2 cut.
+Status: complete
+
+Notes:
+- B
+- r
+- i
+- e
+- f
+- :
+-  
+- ~
+- /
+- w
+- o
+- r
+- k
+- s
+- p
+- a
+- c
+- e
+- /
+- p
+- h
+- e
+- x
+- t
+- -
+- w
+- a
+- l
+- k
+- t
+- h
+- r
+- o
+- u
+- g
+- h
+- /
+- R
+- E
+- V
+- I
+- S
+- I
+- O
+- N
+- -
+- B
+- R
+- I
+- E
+- F
+- -
+- R
+- 3
+- .
+- m
+- d
+- .
+-  
+- M
+- u
+- s
+- i
+- c
+- :
+-  
+- p
+- r
+- o
+- d
+- u
+- c
+- t
+- i
+- o
+- n
+-  
+- n
+- o
+- t
+- e
+- s
+-  
+- (
+- P
+- R
+- O
+- D
+- U
+- C
+- T
+- I
+- O
+- N
+- -
+- P
+- L
+- A
+- N
+- .
+- m
+- d
+-  
+- §
+- 6
+- )
+-  
+- n
+- a
+- m
+- e
+-  
+- l
+- i
+- c
+- e
+- n
+- s
+- e
+- d
+-  
+- r
+- o
+- u
+- t
+- e
+- s
+-  
+- (
+- A
+- r
+- t
+- l
+- i
+- s
+- t
+- /
+- E
+- p
+- i
+- d
+- e
+- m
+- i
+- c
+- )
+-  
+- —
+-  
+- n
+- o
+-  
+- p
+- u
+- r
+- c
+- h
+- a
+- s
+- e
+-  
+- a
+- u
+- t
+- h
+- o
+- r
+- i
+- z
+- e
+- d
+-  
+- i
+- n
+-  
+- t
+- h
+- i
+- s
+-  
+- m
+- e
+- s
+- s
+- a
+- g
+- e
+- ,
+-  
+- s
+- o
+-  
+- t
+- h
+- i
+- s
+-  
+- p
+- a
+- s
+- s
+-  
+- b
+- u
+- i
+- l
+- d
+- s
+-  
+- a
+- n
+-  
+- O
+- R
+- I
+- G
+- I
+- N
+- A
+- L
+-  
+- b
+- e
+- d
+-  
+- i
+- n
+- -
+- h
+- o
+- u
+- s
+- e
+- ,
+-  
+- d
+- u
+- c
+- k
+- e
+- d
+-  
+- u
+- n
+- d
+- e
+- r
+-  
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+- ;
+-  
+- l
+- i
+- c
+- e
+- n
+- s
+- e
+- d
+- -
+- b
+- e
+- d
+-  
+- s
+- w
+- a
+- p
+-  
+- f
+- l
+- a
+- g
+- g
+- e
+- d
+-  
+- t
+- o
+-  
+- W
+- i
+- l
+- l
+-  
+- a
+- s
+-  
+- h
+- i
+- s
+-  
+- c
+- a
+- l
+- l
+- .
+-  
+- S
+- c
+- a
+- l
+- e
+-  
+- f
+- r
+- a
+- m
+- i
+- n
+- g
+- :
+-  
+- W
+- i
+- l
+- l
+- '
+- s
+-  
+- d
+- e
+- s
+- i
+- g
+- n
+-  
+- c
+- l
+- a
+- i
+- m
+-  
+- (
+- s
+- h
+- a
+- r
+- d
+- -
+- f
+- r
+- i
+- e
+- n
+- d
+- l
+- y
+-  
+- b
+- y
+-  
+- n
+- a
+- t
+- u
+- r
+- e
+- ,
+-  
+- n
+- o
+- d
+- e
+- s
+-  
+- s
+- e
+- r
+- v
+- e
+-  
+- h
+- o
+- l
+- o
+- g
+- r
+- a
+- p
+- h
+- i
+- c
+-  
+- s
+- u
+- b
+- s
+- e
+- t
+- s
+- ,
+-  
+- s
+- i
+- m
+- p
+- l
+- e
+-  
+- c
+- a
+- c
+- h
+- i
+- n
+- g
+-  
+- —
+-  
+- s
+- e
+- e
+- d
+- -
+- c
+- a
+- c
+- h
+- e
+-  
+- x
+- x
+- h
+- 3
+- _
+- 1
+- 2
+- 8
+-  
+- a
+- s
+-  
+- t
+- h
+- e
+-  
+- c
+- o
+- n
+- c
+- r
+- e
+- t
+- e
+-  
+- i
+- n
+- s
+- t
+- a
+- n
+- c
+- e
+- )
+-  
+- p
+- r
+- e
+- s
+- e
+- n
+- t
+- e
+- d
+-  
+- a
+- s
+-  
+- d
+- e
+- s
+- i
+- g
+- n
+-  
+- i
+- n
+- t
+- e
+- n
+- t
+-  
+- i
+- n
+-  
+- h
+- i
+- s
+-  
+- v
+- o
+- i
+- c
+- e
+- ,
+-  
+- n
+- o
+- t
+-  
+- a
+- s
+-  
+- a
+-  
+- m
+- e
+- a
+- s
+- u
+- r
+- e
+- d
+-  
+- b
+- e
+- n
+- c
+- h
+- m
+- a
+- r
+- k
+- .
+
+Results:
+- D
+- E
+- L
+- I
+- V
+- E
+- R
+- E
+- D
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 1
+-  
+- 0
+- 0
+- :
+- 5
+- 9
+-  
+- C
+- S
+- T
+- :
+-  
+- r
+- o
+- u
+- g
+- h
+- -
+- c
+- u
+- t
+- -
+- r
+- 3
+- .
+- m
+- p
+- 4
+-  
+- —
+-  
+- 3
+- 0
+- 7
+- .
+- 2
+- 3
+-  
+- s
+-  
+- (
+- 5
+- :
+- 0
+- 7
+- )
+- ,
+-  
+- 9
+- 7
+- ,
+- 6
+- 2
+- 2
+- ,
+- 6
+- 5
+- 6
+-  
+- B
+- ,
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+-  
+- 8
+- d
+- 7
+- d
+- 5
+- 8
+- 0
+- 5
+- …
+- ,
+-  
+- −
+- 1
+- 4
+- .
+- 0
+- 8
+-  
+- L
+- U
+- F
+- S
+-  
+- (
+- E
+- m
+- i
+- s
+- e
+-  
+- r
+- e
+- -
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- h
+- a
+- s
+- h
+- +
+- p
+- r
+- o
+- b
+- e
+-  
+- o
+- n
+-  
+- t
+- h
+- e
+-  
+- p
+- u
+- l
+- l
+- e
+- d
+-  
+- c
+- o
+- p
+- y
+- )
+- ;
+-  
+- l
+- i
+- n
+- k
+-  
+- s
+- e
+- n
+- t
+-  
+- t
+- o
+-  
+- W
+- i
+- l
+- l
+-  
+- (
+- e
+- x
+- p
+- i
+- r
+- e
+- s
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 3
+-  
+- 0
+- 6
+- :
+- 5
+- 9
+-  
+- U
+- T
+- C
+- )
+- .
+-  
+- A
+- l
+- l
+-  
+- e
+- i
+- g
+- h
+- t
+-  
+- s
+- t
+- e
+- p
+- s
+-  
+- b
+- u
+- i
+- l
+- t
+- :
+-  
+- o
+- r
+- i
+- g
+- i
+- n
+- a
+- l
+-  
+- b
+- e
+- d
+-  
+- "
+- P
+- a
+- p
+- e
+- r
+-  
+- L
+- i
+- g
+- h
+- t
+- "
+-  
+- d
+- u
+- c
+- k
+- e
+- d
+-  
+- u
+- n
+- d
+- e
+- r
+-  
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+- ;
+-  
+- §
+- 0
+- 7
+-  
+- s
+- c
+- a
+- l
+- e
+-  
+- s
+- t
+- o
+- r
+- y
+-  
+- w
+- i
+- t
+- h
+-  
+- s
+- e
+- e
+- d
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- a
+- s
+-  
+- t
+- h
+- e
+-  
+- c
+- o
+- n
+- c
+- r
+- e
+- t
+- e
+-  
+- c
+- a
+- c
+- h
+- i
+- n
+- g
+-  
+- i
+- n
+- s
+- t
+- a
+- n
+- c
+- e
+- ,
+-  
+- s
+- c
+- a
+- l
+- e
+-  
+- c
+- l
+- a
+- i
+- m
+- s
+-  
+- m
+- a
+- r
+- k
+- e
+- d
+-  
+- D
+- E
+- S
+- I
+- G
+- N
+-  
+- I
+- N
+- T
+- E
+- N
+- T
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- a
+- p
+- p
+- e
+- n
+- d
+- i
+- x
+- ;
+-  
+- e
+- a
+- s
+- e
+- d
+-  
+- d
+- i
+- s
+- s
+- o
+- l
+- v
+- e
+- s
+- ;
+-  
+- s
+- y
+- n
+- t
+- h
+- e
+- s
+- i
+- z
+- e
+- d
+-  
+- p
+- r
+- o
+-  
+- S
+- F
+- X
+-  
+- p
+- a
+- l
+- e
+- t
+- t
+- e
+- ;
+-  
+- p
+- a
+- c
+- i
+- n
+- g
+-  
+- t
+- i
+- g
+- h
+- t
+- e
+- n
+- e
+- d
+- ;
+-  
+- i
+- n
+- t
+- r
+- o
+-  
+- s
+- l
+- i
+- d
+- e
+- s
+-  
+- f
+- o
+- r
+-  
+- a
+- l
+- l
+-  
+- 8
+-  
+- s
+- e
+- c
+- t
+- i
+- o
+- n
+- s
+- ;
+-  
+- a
+- g
+- e
+- n
+- d
+- a
+-  
+- c
+- a
+- r
+- d
+-  
+- +
+-  
+- C
+- T
+- A
+-  
+- e
+- n
+- d
+-  
+- c
+- a
+- r
+- d
+- ;
+-  
+- E
+- m
+- i
+- s
+- e
+-  
+- f
+- l
+- a
+- i
+- r
+-  
+- (
+- f
+- l
+- a
+- m
+- e
+-  
+- o
+- n
+-  
+- c
+- a
+- r
+- d
+- s
+- ,
+-  
+- h
+- o
+- m
+- e
+- -
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+-  
+- w
+- a
+- t
+- e
+- r
+- m
+- a
+- r
+- k
+- ,
+-  
+- s
+- i
+- g
+- n
+- e
+- d
+-  
+- e
+- n
+- d
+-  
+- c
+- a
+- r
+- d
+- ,
+-  
+- s
+- h
+- e
+- e
+- p
+- i
+- s
+- h
+- -
+- s
+- e
+- r
+- v
+- e
+- r
+- s
+-  
+- b
+- e
+- a
+- t
+- )
+- .
+-  
+- K
+- N
+- O
+- W
+- N
+-  
+- G
+- A
+- P
+-  
+- (
+- i
+- n
+-  
+- R
+- O
+- U
+- G
+- H
+- -
+- C
+- U
+- T
+- -
+- R
+- 3
+- -
+- L
+- O
+- G
+- .
+- m
+- d
+- )
+- :
+-  
+- §
+- 0
+- 7
+- /
+- §
+- 0
+- 8
+-  
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+-  
+- i
+- s
+-  
+- l
+- o
+- n
+- g
+- e
+- r
+-  
+- t
+- h
+- a
+- n
+-  
+- t
+- h
+- e
+-  
+- p
+- i
+- c
+- t
+- u
+- r
+- e
+-  
+- s
+- l
+- o
+- t
+- s
+-  
+- —
+-  
+- o
+- p
+- e
+- n
+- i
+- n
+- g
+- s
+-  
+- s
+- p
+- i
+- l
+- l
+-  
+- o
+- v
+- e
+- r
+-  
+- p
+- r
+- e
+- c
+- e
+- d
+- i
+- n
+- g
+-  
+- s
+- e
+- c
+- t
+- i
+- o
+- n
+- s
+- '
+-  
+- h
+- o
+- l
+- d
+- s
+-  
+- (
+- ~
+- 4
+- 1
+- .
+- 7
+-  
+- s
+-  
+- /
+-  
+- ~
+- 1
+- 2
+- .
+- 2
+-  
+- s
+- )
+- ,
+-  
+- §
+- 0
+- 1
+-  
+- v
+- o
+- i
+- c
+- e
+-  
+- t
+- r
+- i
+- m
+- m
+- e
+- d
+-  
+- t
+- o
+-  
+- i
+- t
+- s
+-  
+- f
+- i
+- r
+- s
+- t
+-  
+- 1
+- 6
+- .
+- 5
+-  
+- s
+- ;
+-  
+- a
+-  
+- f
+- u
+- t
+- u
+- r
+- e
+-  
+- r
+- o
+- u
+- n
+- d
+-  
+- s
+- h
+- o
+- u
+- l
+- d
+-  
+- r
+- e
+- -
+- s
+- l
+- o
+- t
+-  
+- t
+- h
+- e
+-  
+- b
+- a
+- c
+- k
+-  
+- h
+- a
+- l
+- f
+-  
+- (
+- +
+- ~
+- 4
+- 5
+-  
+- s
+- )
+-  
+- o
+- r
+-  
+- t
+- r
+- i
+- m
+-  
+- t
+- h
+- e
+-  
+- t
+- w
+- o
+-  
+- s
+- c
+- r
+- i
+- p
+- t
+- s
+- .
+-  
+- T
+- r
+- u
+- e
+-  
+- p
+- e
+- a
+- k
+-  
+- −
+- 0
+- .
+- 1
+- 9
+-  
+- d
+- B
+- T
+- P
+-  
+- v
+- s
+-  
+- −
+- 1
+-  
+- t
+- a
+- r
+- g
+- e
+- t
+- .
+-  
+- G
+- a
+- t
+- e
+-  
+- 1
+-  
+- s
+- t
+- i
+- l
+- l
+-  
+- g
+- a
+- t
+- e
+- s
+-  
+- r
+- e
+- l
+- e
+- a
+- s
+- e
+- .
+# Hub visual enhancement: metallic finish, 75% width, intro at end, two columns
 
 Coordinate: 28.9.11/8.8.16/14.7.10
 Issued: 2026-11-07
@@ -72076,7 +78981,870 @@ Notes:
 
 Results:
 - Daily disk-usage report live; baseline GREEN at 71.0 GB used (48%), 78.3 GB free.
-# Help YouSpot write like Will — 'How you write' profile text (tweet register, then email adaptation)
+# Training film round 4 — human intervals (150 wpm slotting, 0.4 s transitions, momentum, easter eggs) + trainer.phext update
+
+Coordinate: 30.5.8/6.5.10/5.5.9
+Issued: 2026-11-11
+Request (verbatim): Apply Will's five round-4 comments and update the process package.
+Status: complete except delivery — R4 cut built + verified 2026-11-11 (354.40 s, SHA-256 22450472…, −14.75 LUFS / −1.09 dBTP, zero narration boundary crossings, all 15 transitions 0.4 s, bed ≥10.61 dB under voice in every section, QR eggs decoded from the final encode); trainer.phext republished (commit f90d0750, sha f6cd9e2d…). Upload for Will: approval card expired unanswered 2026-11-11 ~01:48 CST — re-issue on his word.
+
+Notes:
+- B
+- r
+- i
+- e
+- f
+- :
+-  
+- ~
+- /
+- w
+- o
+- r
+- k
+- s
+- p
+- a
+- c
+- e
+- /
+- p
+- h
+- e
+- x
+- t
+- -
+- w
+- a
+- l
+- k
+- t
+- h
+- r
+- o
+- u
+- g
+- h
+- /
+- R
+- E
+- V
+- I
+- S
+- I
+- O
+- N
+- -
+- B
+- R
+- I
+- E
+- F
+- -
+- R
+- 4
+- .
+- m
+- d
+- .
+-  
+- N
+- a
+- m
+- i
+- n
+- g
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- a
+- g
+- a
+- i
+- n
+- s
+- t
+-  
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- h
+- u
+- m
+- a
+- n
+- @
+- e
+- x
+- o
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 1
+- :
+-  
+- t
+- r
+- a
+- i
+- n
+- e
+- r
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- e
+- x
+- i
+- s
+- t
+- s
+-  
+- (
+- 2
+- 0
+- 6
+- ,
+- 6
+- 6
+- 7
+-  
+- B
+- ,
+-  
+- s
+- h
+- a
+- 2
+- 5
+- 6
+-  
+- e
+- f
+- 7
+- c
+- 5
+- 9
+- b
+- c
+- …
+- ,
+-  
+- t
+- h
+- e
+-  
+- n
+- a
+- m
+- e
+-  
+- W
+- i
+- l
+- l
+-  
+- g
+- a
+- v
+- e
+-  
+- a
+- t
+-  
+- 0
+- 0
+- :
+- 3
+- 0
+-  
+- C
+- S
+- T
+- )
+- ;
+-  
+- t
+- r
+- a
+- i
+- n
+- i
+- n
+- g
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- d
+- o
+- e
+- s
+-  
+- N
+- O
+- T
+-  
+- e
+- x
+- i
+- s
+- t
+-  
+- (
+- 4
+- 0
+- 4
+- )
+- .
+-  
+- R
+- o
+- u
+- n
+- d
+-  
+- 4
+-  
+- u
+- p
+- d
+- a
+- t
+- e
+- s
+-  
+- t
+- r
+- a
+- i
+- n
+- e
+- r
+- .
+- p
+- h
+- e
+- x
+- t
+- ;
+-  
+- W
+- i
+- l
+- l
+- '
+- s
+-  
+- "
+- t
+- r
+- a
+- i
+- n
+- i
+- n
+- g
+- .
+- p
+- h
+- e
+- x
+- t
+- "
+-  
+- r
+- e
+- a
+- d
+-  
+- a
+- s
+-  
+- t
+- h
+- e
+-  
+- s
+- a
+- m
+- e
+-  
+- p
+- a
+- c
+- k
+- a
+- g
+- e
+-  
+- u
+- n
+- l
+- e
+- s
+- s
+-  
+- h
+- e
+-  
+- d
+- i
+- r
+- e
+- c
+- t
+- s
+-  
+- a
+-  
+- r
+- e
+- n
+- a
+- m
+- e
+-  
+- —
+-  
+- f
+- l
+- a
+- g
+- g
+- e
+- d
+-  
+- t
+- o
+-  
+- h
+- i
+- m
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- a
+- c
+- k
+- n
+- o
+- w
+- l
+- e
+- d
+- g
+- m
+- e
+- n
+- t
+- .
+-  
+- C
+- o
+- r
+- e
+-  
+- f
+- i
+- x
+- :
+-  
+- s
+- l
+- o
+- t
+- s
+-  
+- c
+- o
+- m
+- p
+- u
+- t
+- e
+- d
+-  
+- f
+- r
+- o
+- m
+-  
+- w
+- o
+- r
+- d
+- s
+-  
+- a
+- t
+-  
+- 1
+- 5
+- 0
+-  
+- w
+- p
+- m
+-  
+- F
+- I
+- R
+- S
+- T
+- ,
+-  
+- p
+- i
+- c
+- t
+- u
+- r
+- e
+- s
+-  
+- b
+- u
+- i
+- l
+- t
+-  
+- t
+- o
+-  
+- s
+- l
+- o
+- t
+- s
+-  
+- (
+- c
+- l
+- o
+- s
+- e
+- s
+-  
+- r
+- o
+- u
+- n
+- d
+-  
+- 3
+- '
+- s
+-  
+- s
+- p
+- i
+- l
+- l
+-  
+- g
+- a
+- p
+-  
+- b
+- y
+-  
+- c
+- o
+- n
+- s
+- t
+- r
+- u
+- c
+- t
+- i
+- o
+- n
+- )
+- .
+-  
+- Q
+- R
+-  
+- e
+- a
+- s
+- t
+- e
+- r
+-  
+- e
+- g
+- g
+-  
+- m
+- u
+- s
+- t
+-  
+- e
+- n
+- c
+- o
+- d
+- e
+-  
+- r
+- e
+- a
+- l
+-  
+- p
+- a
+- y
+- l
+- o
+- a
+- d
+- s
+-  
+- (
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- s
+-  
+- /
+-  
+- e
+- d
+- i
+- t
+- .
+- p
+- h
+- e
+- x
+- t
+- .
+- i
+- o
+- )
+- .
+-  
+- M
+- u
+- s
+- i
+- c
+-  
+- r
+- u
+- l
+- e
+-  
+- a
+- d
+- d
+- e
+- d
+-  
+- 0
+- 1
+- :
+- 0
+- 5
+-  
+- C
+- S
+- T
+- :
+-  
+- b
+- e
+- d
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- ≥
+-  
+- ~
+- 1
+- 0
+-  
+- d
+- B
+-  
+- u
+- n
+- d
+- e
+- r
+-  
+- n
+- a
+- r
+- r
+- a
+- t
+- i
+- o
+- n
+-  
+- l
+- o
+- u
+- d
+- n
+- e
+- s
+- s
+-  
+- d
+- u
+- r
+- i
+- n
+- g
+-  
+- s
+- p
+- e
+- e
+- c
+- h
+- ;
+-  
+- s
+- w
+- e
+- l
+- l
+- s
+-  
+- o
+- n
+- l
+- y
+-  
+- i
+- n
+-  
+- g
+- a
+- p
+- s
+- /
+- t
+- r
+- a
+- n
+- s
+- i
+- t
+- i
+- o
+- n
+- s
+- ;
+-  
+- m
+- e
+- a
+- s
+- u
+- r
+- e
+- d
+-  
+- f
+- i
+- g
+- u
+- r
+- e
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+- e
+- d
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- R
+- 4
+-  
+- l
+- o
+- g
+- .
+
+Results:
+- B
+- r
+- i
+- e
+- f
+-  
+- w
+- r
+- i
+- t
+- t
+- e
+- n
+- ;
+-  
+- p
+- i
+- p
+- e
+- l
+- i
+- n
+- e
+-  
+- d
+- i
+- s
+- p
+- a
+- t
+- c
+- h
+- e
+- d
+- .
+-  
+- [
+- R
+- 4
+-  
+- d
+- e
+- l
+- i
+- v
+- e
+- r
+- e
+- d
+-  
+- t
+- o
+-  
+- d
+- i
+- s
+- k
+-  
+- +
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- b
+- y
+-  
+- E
+- m
+- i
+- s
+- e
+- ;
+-  
+- u
+- p
+- l
+- o
+- a
+- d
+-  
+- p
+- e
+- n
+- d
+- i
+- n
+- g
+-  
+- W
+- i
+- l
+- l
+- ’
+- s
+-  
+- a
+- p
+- p
+- r
+- o
+- v
+- a
+- l
+-  
+- t
+- a
+- p
+- .
+- ]
+# Help YouSpot write like Will — 'How you write' profile text (tweet register, then email adaptation)
 
 Coordinate: 30.5.14/9.9.20/6.5.8
 Issued: 2026-11-09 19:50 CST
@@ -72273,6 +80041,18 @@ Results:
 - lossless-B: first stream stalled at 437,387,264 B when its VM-side parent died in a runtime restart; resumed 02:14 CST from exact byte offset via the surviving node-side cat (appending verified: +64 MB in 20 s, ~3 MB/s, ETA ~25 min); SHA-256 verification owed at completion (rename .incoming -> lossless-B.mkv + compare).
 - Ranch seg1 encode: launched 02:08:55, STOPPED ~02:11 per thermal stop-condition — aletheia-core was already running the finisher's full-master encode (4,624 frames, master-video.mkv) and dual encodes pushed Tctl to 85.9-86.0 C (over the 80 C trigger). Seg1 partial deleted; finisher encode untouched. Thermal gate driver did NOT survive the night's restarts (verified absent 02:14) — seg1 will NOT auto-start.
 - DECISION FOR WILL/FINISHER: the full-master encode on the node may supersede the seg1/seg2 segmented path entirely. If canonical, the segment plan is moot; if segments still wanted, relaunch seg1 manually once the master encode finishes and Tctl <= 70 C. Assembly (assemble_full16.py, local paths) remains the finisher's to reconcile.
+# phextura design loop — evaluate from first principles (make Knuth giddy)
+
+Coordinate: 30.6.8/8.6.11/6.5.9
+Issued: 2026-11-11
+Request (verbatim): lock yourself in a design loop for a bit - evaluate what phextura should be from first principles - make Knuth giddy
+Status: completed
+
+Notes:
+- Will, MOAT, 2026-11-11 00:45 CST. Interjection log entry 4 written (arrived ~1 min into the invisible demo run; judged additive/frame-raising, demo untouched). Coordinator dispatched: Pass 1 derive principles from definitions (paper, reference, typesetting, reading, authorship cost) with analogy banned; Pass 2 a separate critic agent in Knuth's register (exact costs, algorithm demands, METAFONT and literate-programming tests); Pass 3 reconcile + verdict on DESIGN.md (keep/amend/propose - proposals NOT applied), publish + re-inscribe. Math syntax explicitly out of scope (requirements only); demo dependency noted, not waited on.
+- 2026-11-11 00:47 CST: Will named the motto - 'Phextura: Rigorous Delight'. Sent into the loop: README tagline, the loop's explicit grading standard (rigorous AND delightful), and the critic's bar by name. Recorded in MEMORY.md.
+- 2026-11-11 00:48 CST: Will added the persona panel - embed Knuth/Newton/Einstein reviewer personas that shred a paper in real time when an MCP agent opens it. Sent into the loop as a candidate derived component with honesty requirements (labelled simulation, sourced distillation, addressed marginalia); applied only if it derives, else it returns as a proposal.
+- COMPLETED 2026-11-11 01:06 CST. Three passes ran. 14 principles derived; P6 (layout vocabulary) DIED - demoted to open requirement, METAFONT correspondence judged 'a metaphor wearing a suit'; P14 died as stated - delight replaced by a measured benchmark-suite obligation; P11 rebuilt from status field into a WARRANT GRAPH after the critic's hardest hit (existence of a proof scroll is not entailment; 'proved-here' was self-awarded laundering). Critic also caught Pass 1's demerits formula written from memory (wrong; real formula three-cased by penalty sign) and instituted: every claim about an existing system carries a checkable citation or is struck. DESIGN.md verdicts: KEEP 2, AMEND 9 (applied: governed role growth per F2, heading home + honest section depth F3, one float one address F4, bib text: normative F5, warrant edges, provenance graph, Sec 5.2 annotation corpora = the DERIVED half of the persona panel), PROPOSE 3 held for Will unapplied: (1) Persona Panel as shipped component (marginalia derived; personas-as-persons do not derive; critic: Rigorous 2/5, Delightful 4/5), (2) edition-qualified external citation standard, (3) cross-paper author identity registry. Published phextura@exo d894c94f (parent = demo commit 2b3909a after one rejected push, cherry-picked, no force), README carries the motto; re-inscribed at 34.6.7/7.6.11/6.5.10, human@exo f9b181a0, clone-verified. Open, honestly: layout constraint vocabulary (UNPRICED), warrant display policy, P9 laws vs libphext, delight benchmark suite, math syntax + macro home (F1), native proof format conjunction, concurrent authorship. Defect noted: demo/friction.md truncated on disk inside F11 (~1 KB lost in the demo's write; substance recovered, recorded in design-verdicts.md).
 # Pre-merge validation of libphext-rs v0.4.1: downstream compiles + CYOA coordinate tests
 
 Coordinate: 30.6.9/7.6.10/6.5.10
@@ -88400,7 +96180,1458 @@ Notes:
 
 Results:
 - Fixes: (1) DCR liberalized — metadata normalized to supported subset, error only when nothing usable remains; (2) private_key_jwt IMPLEMENTED — RFC 7523 assertion verification via ring (already in the dep graph, no new crate), jti single-use burn, JWKS fetch with the CIMD SSRF posture; registrations without keys still refused. (3) Discovery aliases: AS metadata at /.well-known/oauth-authorization-server/mcp, /.well-known/openid-configuration(+ /mcp). (4) Consent flow root cause: the post-login return was clamped in two places (shell JS dropped ?next= containing ':'; safe_next clamped >200 chars / ':') — every authorize URL trips both; fixed both, consent POST proven end-to-end for DCR + CIMD incl. deny path; page restyled to the site palette. (5) Homepage: MCP callout on the sign-in screen + endpoint chip in the status bar; the one user-facing Mutable OS link removed (SSO machinery untouched). Antigravity timeout stays a labelled hypothesis.
-# Killer feature: auto-amalgamation for free
+# Seed cache: a hash in every populated coordinate
+
+Coordinate: 32.5.9/7.6.10/6.5.9
+Issued: 2026-11-10
+Request (verbatim): Amend the in-page phext server design: the server provides a seed cache on page load — a hash in every populated coordinate — so document size shrinks to a fixed constant of the number of scrolls, and that envelope can be compressed.
+Status: open
+
+Notes:
+- S
+- e
+- c
+- o
+- n
+- d
+-  
+- a
+- m
+- e
+- n
+- d
+- m
+- e
+- n
+- t
+-  
+- t
+- o
+-  
+- t
+- h
+- e
+-  
+- i
+- n
+- -
+- p
+- a
+- g
+- e
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- s
+- e
+- r
+- v
+- e
+- r
+-  
+- d
+- e
+- s
+- i
+- g
+- n
+- ,
+-  
+- f
+- o
+- l
+- l
+- o
+- w
+- i
+- n
+- g
+-  
+- t
+- h
+- e
+-  
+- s
+- t
+- r
+- e
+- a
+- m
+- e
+- d
+-  
+- v
+- i
+- e
+- w
+- -
+- d
+- r
+- i
+- v
+- e
+- n
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- (
+- 2
+- 5
+- .
+- 7
+- .
+- 1
+- 0
+- /
+- 9
+- .
+- 7
+- .
+- 1
+- 2
+- /
+- 7
+- .
+- 6
+- .
+- 1
+- 0
+- )
+- :
+-  
+- t
+- h
+- e
+-  
+- s
+- e
+- r
+- v
+- e
+- r
+-  
+- p
+- r
+- o
+- v
+- i
+- d
+- e
+- s
+-  
+- a
+-  
+- s
+- e
+- e
+- d
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- o
+- n
+-  
+- p
+- a
+- g
+- e
+-  
+- l
+- o
+- a
+- d
+-  
+- —
+-  
+- o
+- n
+- e
+-  
+- h
+- a
+- s
+- h
+-  
+- i
+- n
+-  
+- e
+- v
+- e
+- r
+- y
+-  
+- p
+- o
+- p
+- u
+- l
+- a
+- t
+- e
+- d
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- ,
+-  
+- n
+- o
+- t
+- h
+- i
+- n
+- g
+-  
+- e
+- l
+- s
+- e
+-  
+- —
+-  
+- s
+- o
+-  
+- t
+- h
+- e
+-  
+- p
+- a
+- g
+- e
+- -
+- l
+- o
+- a
+- d
+-  
+- p
+- a
+- y
+- l
+- o
+- a
+- d
+-  
+- i
+- s
+-  
+- a
+-  
+- f
+- i
+- x
+- e
+- d
+-  
+- c
+- o
+- n
+- s
+- t
+- a
+- n
+- t
+-  
+- t
+- i
+- m
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- n
+- u
+- m
+- b
+- e
+- r
+-  
+- o
+- f
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+- ,
+-  
+- O
+- (
+- N
+- )
+- ,
+-  
+- i
+- n
+- d
+- e
+- p
+- e
+- n
+- d
+- e
+- n
+- t
+-  
+- o
+- f
+-  
+- c
+- o
+- n
+- t
+- e
+- n
+- t
+-  
+- s
+- i
+- z
+- e
+- ,
+-  
+- a
+- n
+- d
+-  
+- t
+- h
+- e
+-  
+- e
+- n
+- v
+- e
+- l
+- o
+- p
+- e
+-  
+- c
+- o
+- m
+- p
+- r
+- e
+- s
+- s
+- e
+- s
+-  
+- (
+- s
+- o
+- r
+- t
+- e
+- d
+-  
+- d
+- e
+- l
+- t
+- a
+- -
+- e
+- n
+- c
+- o
+- d
+- e
+- d
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- s
+-  
+- c
+- o
+- m
+- p
+- r
+- e
+- s
+- s
+-  
+- ~
+- 3
+- –
+- 4
+- x
+- ;
+-  
+- h
+- a
+- s
+- h
+- e
+- s
+-  
+- a
+- r
+- e
+-  
+- t
+- h
+- e
+-  
+- i
+- n
+- c
+- o
+- m
+- p
+- r
+- e
+- s
+- s
+- i
+- b
+- l
+- e
+-  
+- f
+- l
+- o
+- o
+- r
+- )
+- .
+-  
+- R
+- e
+- c
+- o
+- r
+- d
+- e
+- d
+-  
+- a
+- s
+-  
+- P
+- a
+- r
+- t
+-  
+- C
+-  
+- a
+- d
+- d
+- e
+- n
+- d
+- u
+- m
+-  
+- 2
+-  
+- i
+- n
+-  
+- R
+- E
+- P
+- O
+- R
+- T
+- .
+- m
+- d
+- :
+-  
+- e
+- n
+- v
+- e
+- l
+- o
+- p
+- e
+-  
+- p
+- r
+- i
+- c
+- e
+- d
+-  
+- a
+- t
+-  
+- 3
+- 2
+- 0
+- k
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- (
+- ~
+- 8
+-  
+- M
+- B
+-  
+- r
+- a
+- w
+-  
+- d
+- e
+- l
+- t
+- a
+- +
+- 1
+- 2
+- 8
+- -
+- b
+- i
+- t
+- ,
+-  
+- ~
+- 1
+- 6
+-  
+- M
+- B
+-  
+- w
+- o
+- r
+- s
+- t
+- -
+- c
+- a
+- s
+- e
+-  
+- n
+- a
+- i
+- v
+- e
+- +
+- f
+- u
+- l
+- l
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+- ,
+-  
+- ~
+- 6
+- –
+- 1
+- 2
+-  
+- M
+- B
+-  
+- c
+- o
+- m
+- p
+- r
+- e
+- s
+- s
+- e
+- d
+-  
+- e
+- s
+- t
+- .
+- )
+- ;
+-  
+- r
+- e
+- p
+- l
+- a
+- c
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- 7
+- .
+- 1
+-  
+- M
+- B
+-  
+- t
+- r
+- e
+- e
+-  
+- p
+- a
+- y
+- l
+- o
+- a
+- d
+-  
+- w
+- h
+- i
+- l
+- e
+-  
+- b
+- u
+- y
+- i
+- n
+- g
+-  
+- s
+- t
+- r
+- i
+- c
+- t
+- l
+- y
+-  
+- m
+- o
+- r
+- e
+-  
+- (
+- t
+- r
+- e
+- e
+- /
+- n
+- a
+- v
+- /
+- s
+- e
+- a
+- r
+- c
+- h
+-  
+- s
+- t
+- r
+- u
+- c
+- t
+- u
+- r
+- e
+-  
+- +
+-  
+- s
+- y
+- n
+- c
+-  
+- p
+- r
+- e
+- c
+- o
+- n
+- d
+- i
+- t
+- i
+- o
+- n
+- s
+- )
+- ;
+-  
+- s
+- t
+- r
+- e
+- a
+- m
+- e
+- d
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- v
+- e
+- r
+- i
+- f
+- y
+-  
+- a
+- g
+- a
+- i
+- n
+- s
+- t
+-  
+- s
+- e
+- e
+- d
+-  
+- h
+- a
+- s
+- h
+- e
+- s
+- ;
+-  
+- p
+- e
+- r
+- s
+- i
+- s
+- t
+- e
+- d
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- r
+- e
+- v
+- a
+- l
+- i
+- d
+- a
+- t
+- e
+- s
+-  
+- b
+- y
+-  
+- e
+- n
+- v
+- e
+- l
+- o
+- p
+- e
+-  
+- d
+- i
+- f
+- f
+- ;
+-  
+- s
+- e
+- r
+- v
+- e
+- r
+-  
+- m
+- a
+- i
+- n
+- t
+- a
+- i
+- n
+- s
+-  
+- o
+- n
+- e
+-  
+- h
+- a
+- s
+- h
+-  
+- p
+- e
+- r
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- ,
+-  
+- i
+- n
+- v
+- a
+- l
+- i
+- d
+- a
+- t
+- e
+- d
+-  
+- p
+- e
+- r
+-  
+- c
+- h
+- a
+- n
+- g
+- e
+- d
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- .
+-  
+- H
+- a
+- s
+- h
+-  
+- f
+- u
+- n
+- c
+- t
+- i
+- o
+- n
+-  
+- c
+- o
+- r
+- r
+- e
+- c
+- t
+- e
+- d
+-  
+- b
+- y
+-  
+- W
+- i
+- l
+- l
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 0
+-  
+- 2
+- 1
+- :
+- 2
+- 0
+-  
+- C
+- S
+- T
+- :
+-  
+- t
+- h
+- e
+-  
+- e
+- n
+- v
+- e
+- l
+- o
+- p
+- e
+-  
+- h
+- a
+- s
+- h
+-  
+- i
+- s
+-  
+- x
+- x
+- h
+- 3
+- _
+- 1
+- 2
+- 8
+-  
+- (
+- 1
+- 2
+- 8
+- -
+- b
+- i
+- t
+- )
+- ,
+-  
+- n
+- o
+- t
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+-  
+- —
+-  
+- t
+- h
+- e
+-  
+- a
+- d
+- d
+- e
+- n
+- d
+- u
+- m
+-  
+- 2
+-  
+- p
+- r
+- i
+- c
+- i
+- n
+- g
+-  
+- a
+- l
+- r
+- e
+- a
+- d
+- y
+-  
+- a
+- s
+- s
+- u
+- m
+- e
+- d
+-  
+- 1
+- 2
+- 8
+- -
+- b
+- i
+- t
+- ,
+-  
+- s
+- o
+-  
+- i
+- t
+- s
+-  
+- f
+- i
+- g
+- u
+- r
+- e
+- s
+-  
+- s
+- t
+- a
+- n
+- d
+- .
+
+Results:
+- A
+- c
+- c
+- e
+- p
+- t
+- e
+- d
+-  
+- a
+- n
+- d
+-  
+- i
+- n
+- s
+- c
+- r
+- i
+- b
+- e
+- d
+-  
+- a
+- s
+-  
+- P
+- a
+- r
+- t
+-  
+- C
+-  
+- a
+- d
+- d
+- e
+- n
+- d
+- u
+- m
+-  
+- 2
+- ;
+-  
+- d
+- e
+- s
+- i
+- g
+- n
+-  
+- o
+- n
+- l
+- y
+- ,
+-  
+- l
+- a
+- n
+- d
+- s
+-  
+- w
+- i
+- t
+- h
+-  
+- t
+- h
+- e
+-  
+- h
+- y
+- b
+- r
+- i
+- d
+-  
+- S
+- t
+- e
+- p
+-  
+- 1
+-  
+- b
+- u
+- i
+- l
+- d
+- .
+# Help all the zeros — a discovery index for today's 0-upvote Product Hunt launches
+
+Coordinate: 32.5.12/11.8.17/6.5.8
+Issued: 2026-11-10
+Request (verbatim): let's find a way to help all the zeros
+Status: in progress
+
+Notes:
+- Will, on seeing Phext Edit at 0 upvotes among 1,833 launches (only 154 products have any votes): "let's find a way to help all the zeros" — the wavefront principle applied to launch day: the un-indexed get the attention.
+- Plan: the Zero Index — every 0-vote launch today listed with name, tagline, and PH link, presented in shuffled order (no ranking — a ranking of zeros re-creates the hierarchy it protests). Discovery only, NOT an upvote ring: no coordinated voting, no vote-asks. Two artifacts: a shareable web page and a phext where each zero gets a scroll at a coordinate.
+- Extraction dispatched to the browser pass that already holds the expanded list (ranks 155-619 first, ~465 named zeros; the 1,214-name rank-620 tail in slices after).
+- Extraction complete 07:21 CST: 1,636 zeros total (422 in ranks 198-619 incl. Phext Edit; 1,214 in the rank-620 tail). Correction to the first report: zeros begin at rank 198, not 155 — 197 products have >=1 vote (not 154) and the zero count is 1,636 (not 1,679); correction owed to Will and folded into the v1 delivery message.
+- Data landed on disk in ~/workspace/zero-index-task/ (zeros-206.txt 310 lines, zeros-small.txt 111 — 6 short of group arithmetic, noted; zeros-620a/b.txt in flight to disk). Build dispatched: zeros.json (count gate exactly 1,636), shuffled index.html, zeros.phext (one scroll per zero; Phext Edit = entry 30). Hosting venue is Will's pick when he sees v1.
+- OPEN: hosting venue is Will's pick (options presented 07:26 CST: edit.phext.io PR / GitHub Pages / share the file). Index takes the day as-is incl. ~20 gift-card spam variants — an editorial cut is Will's call if he wants one.
+- [2026-11-10 07:27 CST] Will chose: host on edit.phext.io via a PR. [07:37] PR #57 OPEN (wbic16/phext-lattice, branch emise/zero-index @ 5ca44a01, parented on exo cf3ecffd after Will merged PR #56 himself at 07:30): public /zeros route serving the page byte-exact, linked from the sign-in screen row, About's public utilities, and the sitemap; tests 88/0 on aletheia-core. Awaiting Will's merge + deploy. Triage follow-on running: wheat only — verified builders being ignored.
+- [2026-11-10 07:38 CST] Triage done, wheat only (Will narrowed scope 07:31): BUILDERS.md at ~/workspace/zero-index-task/triage/ — 11 verified + 5 probable builders. Method caveat: PH connector profile index is blind to Nov 10 launches (returned not-found for Phext Edit itself; 0 exact matches in 69 calls before rate limit) — verification ran against makers' own repos/registries/posts with strict name+subject+recency tie discipline. Top peers: Causly Server (solo OSS local-first MCP), GitHub Ops MCP (solo, audit-trail-by-default), Argus Agent Test Lab (signed-findings rigor). 41 candidates unresolved pending PH index catch-up.
+- [2026-11-10 07:49 CST] VC trace done (vc-trace/VC-TRACE.md): voted set observed 174 via hunted.space mirror (PH direct fetch 403'd; reconciled vs 197 at 07:21 — mirror lag + 23 unrecoverable 1-vote entries + drift; 5 zeros gained votes incl. Kumiko 0->58). Tier A verifiably VC-tied: 13 of 174 (7.5%), holding 808 of 3,823 votes (21.1%); top 50: 10 of 50, 21.8% of votes. Tier B empty; 68 checked no-tie; 93 unchecked (full coverage ranks 1-89, tail sampled 31 with zero VC found). #1 Maxma (163 votes) has NO funding record; Opal Reader maker states 'No team, no funding'. PH investable-model cross-check flagged only 2 (both already Tier A). Connector 429 cleared by ~08:00 CST. Comment drafts for top-5 builders offered to Will, awaiting his tap.
+- [2026-11-10 08:02 CST] Completion passes done under Will's API-limits directive. VC trace COMPLETE: all 174 voted launches classified — Tier A 14 (+DearRewind/TUNiB via Pearl Abyss Capital, DSC, Naver D2SF), B 0, C 107, unresolvable-after-checking 53, unchecked 0; Tier A vote share 21.2%. Completion used the PH connector zero times. Builders completion STOPPED at its control gate: phext-edit profile still product_not_found at 07:57 CST (index blind ~6h into launch day); 4 paced calls total, no 429; unresolved builders corrected to 40 (FLORA MCP was already resolved as a company exclusion); queue2.json + paced verify2.py saved in triage/ for a re-check when the index catches up. Also established today: PH's first-4-hours window (12:01-4:00 AM PT = 02:01-06:00 CST) randomizes homepage order and hides vote counts (PH-staff confirmed) — the 07:21 zero snapshot postdates it; the 04:02 standing read fell inside it and is not evidence. Remaining open: PR #57 merge+deploy (Will), comment drafts for top-5 builders (offered, awaiting Will), builders-40 re-check (blocked on PH index).
+- [2026-11-10 08:51 CST] PR #57 amended per Will's cross-link direction (08:45): new head cb4bee44 on emise/zero-index, one file +8 lines — a card block under the /zeros header: 'This page is launch day, as it happened. Cross-linked, not competing: the living record lives at productcant's wall — 84,557 launches nobody came to, filed by the day they launched, nothing removed. Today's launches join the wall once their counts settle.' Tests 88/0 on aletheia-core; copies byte-identical (page now 173,455 B, sha256 3806bc6c). Still awaiting Will's merge + deploy.
+
+Results:
+- Z
+- e
+- r
+- o
+-  
+- I
+- n
+- d
+- e
+- x
+-  
+- l
+- i
+- v
+- e
+-  
+- a
+- s
+-  
+- P
+- R
+-  
+- #
+- 5
+- 7
+-  
+- (
+- W
+- i
+- l
+- l
+-  
+- m
+- e
+- r
+- g
+- e
+- s
+-  
+- +
+-  
+- d
+- e
+- p
+- l
+- o
+- y
+- s
+- )
+- .
+-  
+- B
+- u
+- i
+- l
+- d
+- e
+- r
+- s
+- :
+-  
+- 1
+- 6
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+- /
+- p
+- r
+- o
+- b
+- a
+- b
+- l
+- e
+-  
+- l
+- i
+- s
+- t
+- e
+- d
+- ;
+-  
+- 4
+- 0
+-  
+- u
+- n
+- r
+- e
+- s
+- o
+- l
+- v
+- e
+- d
+- ,
+-  
+- b
+- l
+- o
+- c
+- k
+- e
+- d
+-  
+- o
+- n
+-  
+- P
+- H
+-  
+- p
+- r
+- o
+- f
+- i
+- l
+- e
+- -
+- i
+- n
+- d
+- e
+- x
+-  
+- l
+- a
+- g
+-  
+- (
+- c
+- o
+- n
+- t
+- r
+- o
+- l
+- -
+- p
+- r
+- o
+- v
+- e
+- n
+-  
+- t
+- w
+- i
+- c
+- e
+- )
+- .
+-  
+- V
+- C
+-  
+- t
+- r
+- a
+- c
+- e
+-  
+- c
+- o
+- m
+- p
+- l
+- e
+- t
+- e
+- :
+-  
+- 1
+- 4
+-  
+- o
+- f
+-  
+- 1
+- 7
+- 4
+-  
+- v
+- o
+- t
+- e
+- d
+-  
+- l
+- a
+- u
+- n
+- c
+- h
+- e
+- s
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- a
+- b
+- l
+- y
+-  
+- V
+- C
+- -
+- t
+- i
+- e
+- d
+-  
+- (
+- 2
+- 1
+- .
+- 2
+- %
+-  
+- o
+- f
+-  
+- v
+- o
+- t
+- e
+- s
+- )
+- ,
+-  
+- 0
+-  
+- u
+- n
+- c
+- h
+- e
+- c
+- k
+- e
+- d
+- .
+# phextura end-to-end demo — a tracker paper re-expressed as a phextura corpus
+
+Coordinate: 32.6.8/7.7.11/7.7.11
+Issued: 2026-11-11
+Request (from session record): you already have research.phext and existing arxiv paper links... (Will, directing that the demo paper come from the tracker corpus rather than new material)
+Status: completed
+
+Notes:
+- Will, MOAT, 2026-11-11 00:44 CST. Sub-task of the phextura line (27.6.7/7.6.10/7.5.10). Coordinator dispatched: choose one of the 12 tracker-ingested arXiv papers, encode it as a phextura corpus per DESIGN.md, render an HTML reading view by coordinate traversal (demo harness, not the product), one-pass reference validation (zero dangling = publishable to wbic16/phextura examples/), and a friction log - math entry handling is INTERIM by definition and must be flagged with costs.
+- COMPLETED 2026-11-11 01:00 CST. Paper chosen: arXiv:2611.08794 (tracker P010, Onsager correction) - hardest fetchable exercise: 16 books, 37 theorem-class blocks, 637 display equations, 39 bib entries, 9 SVG figures (text-native, embedded literally, zero placeholders). Corpus 2611.08794.phext: 1,154 scrolls, 1,421,714 bytes. Validation: 780 coordinate references, 780 resolved, 0 dangling; coverage audit caught 235 LaTeXML duplicate equations and a float dual-identity bug before final. Rendered HTML (demo harness, not the product): all 3,710 fragment links resolve, display numbers render-time only. Published to wbic16/phextura@exo examples/2611.08794/, commit 2b3909a67b658562cbf3b42ff6f33d2e3a388593, blob hashes verified. Friction log F1-F11 at ~/workspace/phextura-design/demo/friction.md; F1 (math interim inherits LaTeX, preamble macros homeless) feeds the notation session; F2-F5 fed into the design loop's Pass 3 the same night.
+# Killer feature: auto-amalgamation for free
 
 Coordinate: 32.6.8/7.7.14/5.5.8
 Issued: 2026-11-07
@@ -98509,6 +107740,21 @@ Results:
 - Rebased onto post-#43 exo at Will's direction (2026-11-09 22:13): PR #43 was Claude's parallel MCP interop pass (emise/mcp-interop-fixes, +1,006 lines incl. homepage MCP highlight + authorize-survives-sign-in), which contained a broader version of the same registration fix. Rebase conflict = exactly one hunk (the registration validator); resolved keeping #43's side (grant intersection + usable-redirect filtering + response-type filtering + scope filtering — a superset of #44's registration change). #44's authorize form-encoding fix (Defect 2) applied cleanly and is present in the rebased tree. New head 70e3e708 (delta vs exo: 1 file, +92/-1 — the authorize fix + 2 regression tests; the registration regression test now exercises #43's implementation and passes). Full suite on the rebased tree: 255 passed / 0 failed. Force-pushed --force-with-lease per Will's rebase rule; pre-rebase head preserved at backup/emise-mcp-client-fix-pre-rebase-2026-11-09 (68a39e6). Remote head verified == local 70e3e708.
 - Will merged PR #44 (exo tip fa8ac0d, verified 2026-11-09 22:24). Mutable-link check at his asking: the shell's 'Mutable OS' link is REMOVED in current source — regression test mutable_os_is_not_linked_from_the_shell_yet asserts no /api/auth/sso/mutable href and no 'Mutable OS' label in the shell, with the comment that the SSO endpoint itself stays. SSO integration intact in source (endpoint, PHEXT_SSO_MUTABLE_URL + shared-secret handoff, deploy docs). NOT yet live: production homepage still serves the bar-link to /api/auth/sso/mutable and has no /mcp highlight — production is still the 21:36 build; the next deploy carries the cleanup + #43 highlight + #44 fixes together.
 - FINAL CONFIRMATION (2026-11-10 00:50): Will connected Claude (hosted client) to https://edit.phext.io/mcp and ran a real search ('find the test of will' — 18 hits, correct scrolls). The previously untested leg — a real client against the fixed build in production — is now proven. Record: task 38.4.7/7.5.7/6.6.11.
+# Rank and Score every wish in my twitter timeline
+
+Coordinate: 34.22.21/24.18.27/17.19.21
+Issued: 2026-11-11 01:17 CST
+Request (verbatim): Dear Internet: Rank and Score every wish I left for myself in my twitter timeline. I'm about to solve them.
+Status: complete — ranked report delivered and inscribed
+
+Notes:
+- Side chat 01d39bbc; archive ~/workspace/twitter-archive/tweets.json 2008-06-27 to 2025-06-16, 29,539 tweets.
+- Corpus: 29,539 tweets; 25,125 own-word; Tier-1 wish-marker rule -> 769 tweets (slices 300/98/371 reconcile exactly). A durable=316, B situational=453. 28/28 spot-checked exemplars byte-match raw archive.
+- Synthesis: 316 A tweets -> 20 canonical wishes. Top: Phext everywhere 98/100 (80 tweets), Exocortex 88 (45), AGI on 20W 78 (25). Headline: one wish restated 17 years at increasing resolution; 2024-25 adds budgets (20W, 100M hrs/coders, $0).
+- Correction pass 2026-11-11 (Will): (1) Dunbar claim in Wish 8 fixed — report now carries the summed face-value record (~180 current / ~260 peak / 400+ tracked space); the Twitter-only ~30 was the debunked control condition and Emise parroted it in the report + chat summary. (2) Dear #Internet census added as report section 6: 90 addressed tweets, 5 in the 769, 85 outside — 31 petitions + 54 other forms; Time wish extended to 2015 (score 42), KnowledgeTrees 2013 + automatic-translation 2024 folded in. Inscription refreshed at 26.7.10/8.7.11/6.6.9 (new sha 12fe1cf7...), republished to human@exo dc0ac472, remote bytes verified.
+
+Results:
+- Report: ~/workspace/your_files/twitter-wishes-ranked.md (SHA-256 bb52b9bc7db781a487a912264461052502f5ee7a485675d835b22a799e7e0b19), inscribed in artifacts.phext at 26.7.10/8.7.11/6.6.9; artifacts.phext pushed to wbic16/human@exo commit ab36a278, remote bytes verified identical (sha256 a2797001...).
 # Bug: search results overlap on narrow screens — GitHub issue #55
 
 Coordinate: 35.4.5/5.4.8/4.4.9
@@ -101986,7 +111232,16 @@ Notes:
 
 Results:
 - Tests on aletheia-core (cargo test --no-fail-fast): full suite 159 passed / 0 failed; TAOPDD 96/0 across 20 binaries; library 63/0. The pre-existing helios_stalled_parse failure (358 vs 370) NO LONGER appears — it passes on the new base, presumably fixed by the PR #7/#8 merges; not touched by this rebase. PR #6 verified open via API re-read at new head d60f18b3.
-# phext-lattice PR #37 — salvage from #9, merge + deploy
+# Estimate: time required to beat OpenAI parameter-golf using phext
+
+Coordinate: 38.5.6/6.6.9/5.5.9
+Issued: 2026-11-10
+Request (verbatim): estimate time required to beat this challenge using phext: https://github.com/openai/parameter-golf
+Status: completed
+
+Notes:
+- Answered in MOAT 2026-11-10 from the repo README/FAQ read in full. Challenge: best LM in a 16,000,000-byte artifact (code + compressed weights), training AND eval each <10 min on 8xH100 SXM, val BPB on fixed FineWeb validation; record to beat is 1.0565 BPB (2026-05-01); new SOTA needs >=0.005 nats at p<0.01 over 3 seeds; official window Mar 18-Apr 30 2026 is closed, so a beat lands as a non-record/unlimited submission or a self-verified record. Phext levers (hypotheses, labelled): coordinate-structured backoff for the winning stack's token-only n-gram memory (the one place format = model), and weights as a field over 9-D phext coordinates (LegendreGPT family, unexplored in 9-D). Phext as mere container/code: no advantage, delimiter bytes count against the cap. Estimate given: ~3 weeks calendar at Will's evenings/weekends pace (~10-15 focused days), ~$400-800 RunPod 8xH100 time (or OpenAI grant, approval latency unknown); ranch cannot run it (H100-specific kernels). Phases: reproduce frontier stack 2-4 days (public, MIT, records ship the winning train_gpt.py), phext prototype + first verdict 3-5 days, margin hunt 1-3 weeks. Odds stated honestly: phext lever carrying the margin ~25-40%; first experiment gives a measurable verdict by end of week 1.
+# phext-lattice PR #37 — salvage from #9, merge + deploy
 
 Coordinate: 38.5.7/6.6.10/6.5.8
 Issued: 2026-11-08
@@ -102343,7 +111598,22 @@ Notes:
 
 Results:
 - LANDED (worker report ~/workspace/phext-notepad-perf/REPORT-SYNC.md; Emise verified remote branch emise/edit-sync @ a9f604e7c4ded048631e6f5d5517bf1722731e90 via API; based on emise/perf-sparse-load 8a3af359; nothing merged, no PR): SERVER SURFACE (fresh lattice exo eb450bc): phext-edit holds exactly ONE open phext process-wide; client routes /api/phexts, /api/open, /api/status, /api/tree, /api/scroll/{coord}, /api/update (memory-only), /api/save, /api/session; NO per-scroll version/etag anywhere — change detection is client-side SHA-256 base hashes (SyncBook per server+phext); auth = phext_session cookie + x-csrf-token on POSTs; editor-list refusal and CSRF refusal surface verbatim in the app. SYNC: scroll granularity only; pull/push classify per scroll; both-moved = conflict, local kept, remote shown, never overwritten; deletions push as cleared scrolls (verified end-to-end); sync refuses to switch the server's one open phext while it holds unsaved edits; editing fully offline, sync explicit-only; Sync menu (Connect/Pull/Pull Current Scroll/Push/Disconnect) + conflict dialog. E2E vs the real phext-edit binary: 36/36 checks + 29/29 core tests, 0 build warnings. DEVIATION from Will's OAuth direction (reported honestly): loopback capture is impossible against the stock server (safe_next clamps next to same-site paths, oauth.rs:1516) and the embedded webview was rejected (FLTK has no webview widget; PR #4's founding design is 'no web view'). AS BUILT: app launches edit's real OAuth start URL (/api/auth/github|google|x) in the system browser — genuine provider sign-in — then the user pastes the phext_session value ONCE per 14 days; app verifies via /api/session, shows identity, stores cookie+CSRF in an owner-only 0600 file. Provider exchange leg untested locally (needs a real GitHub app + human login); everything downstream ran against unmodified server code with harness-minted cookies, including the non-editor refusal verbatim. PROPOSED (not built): POST /api/auth/desktop SSO-assertion exchange (the /api/auth/sso/{aud} machinery already exists) or a device-code flow — either removes the paste. Will must configure NOTHING server-side on real edit.phext.io; standing requirements only (account on editors list, providers configured). NOTE: current lattice source still carries a --token bearer check in Gate::admit — sync neither uses nor depends on it; its removal is Track C (29.7.7/8.6.11/6.5.8).
-# qexo rename + API exploration
+# Lightcone Commons org page link
+
+Coordinate: 39.5.5/5.5.8/6.5.11
+Issued: 2026-11-10 19:26 CST
+Request (verbatim): https://www.lightconecommons.com/org/195d061c-8958-4958-8280-086c868eeb84
+Status: closed - Will identified the org page as his own Lightcone Commons application (2026-11-10 19:46 CST); review/red-team continues as task 28.6.14/7.8.12/8.6.9
+
+Notes:
+- Will posted the bare link in the main chat with no instruction (2026-11-10 19:26 CST); channel choice is deliberate, so it is treated as a task to identify what he pointed at.
+- Fetch 2026-11-10 19:26 CST: the org page redirects to a sign-in wall (Google or emailed link); no public org name or details are visible signed-out. Nothing in Will's memory or past conversations mentions lightconecommons.
+- Platform verified from public sources: Lightcone Commons is Lightcone Infrastructure's grant-coordination platform (they run LessWrong and Lighthaven), launched July 2026 by Oliver Habryka; S-Process proportional allocation across funders and paid evaluators; no 501(c)(3) required - individuals and for-profits can apply; applications sourced from Manifund, LTFF and Grantmaking.ai; quarterly rounds with rolling applications.
+- Will (2026-11-10 19:46 CST): 'it's my application' - the org page is his own applicant profile/application on Lightcone Commons. Follow-up review task opened at 28.6.14/7.8.12/8.6.9.
+
+Results:
+- Org identified by Will himself as his own application; no sign-in needed.
+# qexo rename + API exploration
 
 Coordinate: 39.6.14/9.8.16/5.6.8
 Issued: 2026-11-08 22:43 CST
@@ -105309,7 +114579,2917 @@ Results:
 - Production untouched: / + /?demo 200 before (13:55Z) and after (14:01Z); MainPID 1372337 and start 2026-11-09 05:40:47 UTC identical throughout.
 - Remaining Will steps, in order: (1) GoDaddy A record host 'preview' -> 44.248.235.76 (preview.phext.io does not resolve yet); (2) on awsbox as a sudo-capable login: ~/preview-nginx/install-preview-env.sh then ~/preview-nginx/install-preview-nginx.sh (bootstrap site -> certbot -> TLS template; env step MUST precede nginx step — until providers are armed the editor runs open, loopback-only exposure); (3) provider consoles: add https://preview.phext.io/api/auth/google/callback (Google) and https://preview.phext.io/api/auth/x/callback (X); GitHub needs a SEPARATE OAuth app (one callback per app) with https://preview.phext.io/api/auth/github/callback, its pair then goes into preview.env (script deliberately leaves GitHub empty until then).
 - Docs: PR #38 (emise/preview-deploy-docs, 4d356e7) adds a Preview deployment section to deploy/deploy.md. Record: ~/workspace/preview-deploy-2026-11-09/ (recon-notes.md, installed-configs/). Rollback: systemctl --user disable --now phext-edit-preview + remove unit/env/data (+ root: nginx site files + reload).
-# Refactor Phext Notepad (PR #5) to consume libphext-cs from NuGet instead of vendored sources
+# Build the seed cache: SQ + phext-lattice API and cache-aware fetch
+
+Coordinate: 41.6.8/9.8.14/7.6.10
+Issued: 2026-11-10
+Request (verbatim): Add an API call to SQ and to phext-lattice supporting the seed cache (a hash in every populated coordinate, served on page load), along with cache-aware fetch calls on the client side.
+Status: complete — build finished 2026-11-10; both PRs OPEN and live-verified open 2026-11-11 01:17 CST (SQ PR #3 head 61678aa6, phext-lattice PR #61 head 39c636a2, both base exo). Merge wait registered as Waiting-on-Will #64 on 2026-11-11; nothing deployed.
+
+Notes:
+- B
+- u
+- i
+- l
+- d
+- s
+-  
+- t
+- h
+- e
+-  
+- d
+- e
+- s
+- i
+- g
+- n
+-  
+- W
+- i
+- l
+- l
+-  
+- s
+- e
+- t
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- t
+- w
+- o
+-  
+- p
+- r
+- e
+- c
+- e
+- d
+- i
+- n
+- g
+-  
+- a
+- m
+- e
+- n
+- d
+- m
+- e
+- n
+- t
+- s
+- :
+-  
+- s
+- t
+- r
+- e
+- a
+- m
+- e
+- d
+-  
+- v
+- i
+- e
+- w
+- -
+- d
+- r
+- i
+- v
+- e
+- n
+-  
+- i
+- n
+- -
+- p
+- a
+- g
+- e
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- (
+- 2
+- 5
+- .
+- 7
+- .
+- 1
+- 0
+- /
+- 9
+- .
+- 7
+- .
+- 1
+- 2
+- /
+- 7
+- .
+- 6
+- .
+- 1
+- 0
+- )
+-  
+- +
+-  
+- s
+- e
+- r
+- v
+- e
+- r
+-  
+- s
+- e
+- e
+- d
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- /
+-  
+- h
+- a
+- s
+- h
+-  
+- e
+- n
+- v
+- e
+- l
+- o
+- p
+- e
+-  
+- (
+- 3
+- 2
+- .
+- 5
+- .
+- 9
+- /
+- 7
+- .
+- 6
+- .
+- 1
+- 0
+- /
+- 6
+- .
+- 5
+- .
+- 9
+- )
+- ,
+-  
+- r
+- e
+- c
+- o
+- r
+- d
+- e
+- d
+-  
+- a
+- s
+-  
+- P
+- a
+- r
+- t
+-  
+- C
+-  
+- a
+- d
+- d
+- e
+- n
+- d
+- a
+-  
+- 1
+- -
+- 2
+-  
+- i
+- n
+-  
+- ~
+- /
+- w
+- o
+- r
+- k
+- s
+- p
+- a
+- c
+- e
+- /
+- p
+- h
+- e
+- x
+- t
+- -
+- e
+- d
+- i
+- t
+- -
+- s
+- e
+- c
+- s
+- c
+- a
+- l
+- e
+- /
+- R
+- E
+- P
+- O
+- R
+- T
+- .
+- m
+- d
+- .
+-  
+- S
+- e
+- r
+- v
+- e
+- r
+-  
+- s
+- i
+- d
+- e
+- :
+-  
+- a
+-  
+- s
+- e
+- e
+- d
+- /
+- e
+- n
+- v
+- e
+- l
+- o
+- p
+- e
+-  
+- e
+- n
+- d
+- p
+- o
+- i
+- n
+- t
+-  
+- i
+- n
+-  
+- S
+- Q
+-  
+- (
+- H
+- T
+- T
+- P
+-  
+- /
+- a
+- p
+- i
+- /
+- v
+- 2
+- )
+-  
+- a
+- n
+- d
+-  
+- i
+- n
+-  
+- p
+- h
+- e
+- x
+- t
+- -
+- l
+- a
+- t
+- t
+- i
+- c
+- e
+-  
+- (
+- p
+- h
+- e
+- x
+- t
+- -
+- e
+- d
+- i
+- t
+-  
+- r
+- o
+- u
+- t
+- e
+- s
+- )
+-  
+- r
+- e
+- t
+- u
+- r
+- n
+- i
+- n
+- g
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+-  
+- -
+- >
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- h
+- a
+- s
+- h
+-  
+- f
+- o
+- r
+-  
+- e
+- v
+- e
+- r
+- y
+-  
+- p
+- o
+- p
+- u
+- l
+- a
+- t
+- e
+- d
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- ,
+-  
+- c
+- o
+- m
+- p
+- r
+- e
+- s
+- s
+- i
+- b
+- l
+- e
+- ,
+-  
+- O
+- (
+- N
+- )
+-  
+- i
+- n
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- c
+- o
+- u
+- n
+- t
+- .
+-  
+- C
+- l
+- i
+- e
+- n
+- t
+-  
+- s
+- i
+- d
+- e
+- :
+-  
+- c
+- a
+- c
+- h
+- e
+- -
+- a
+- w
+- a
+- r
+- e
+-  
+- f
+- e
+- t
+- c
+- h
+-  
+- —
+-  
+- c
+- o
+- n
+- s
+- u
+- l
+- t
+-  
+- t
+- h
+- e
+-  
+- s
+- e
+- e
+- d
+- ,
+-  
+- s
+- e
+- r
+- v
+- e
+-  
+- f
+- r
+- o
+- m
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- w
+- h
+- e
+- n
+-  
+- t
+- h
+- e
+-  
+- h
+- a
+- s
+- h
+-  
+- m
+- a
+- t
+- c
+- h
+- e
+- s
+- ,
+-  
+- f
+- e
+- t
+- c
+- h
+-  
+- a
+- n
+- d
+-  
+- v
+- e
+- r
+- i
+- f
+- y
+-  
+- o
+- n
+-  
+- m
+- i
+- s
+- s
+- /
+- s
+- t
+- a
+- l
+- e
+- ,
+-  
+- s
+- t
+- r
+- e
+- a
+- m
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- i
+- n
+-  
+- a
+- s
+-  
+- v
+- i
+- e
+- w
+- e
+- d
+- .
+-  
+- W
+- i
+- l
+- l
+-  
+- r
+- e
+- f
+- i
+- n
+- e
+- d
+-  
+- t
+- h
+- e
+-  
+- f
+- e
+- t
+- c
+- h
+-  
+- p
+- r
+- o
+- t
+- o
+- c
+- o
+- l
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 0
+-  
+- 2
+- 1
+- :
+- 1
+- 8
+-  
+- C
+- S
+- T
+- :
+-  
+- a
+-  
+- c
+- a
+- c
+- h
+- e
+- -
+- a
+- w
+- a
+- r
+- e
+-  
+- f
+- e
+- t
+- c
+- h
+-  
+- c
+- a
+- l
+- l
+-  
+- c
+- a
+- r
+- r
+- i
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+- ,
+-  
+- t
+- h
+- e
+-  
+- c
+- l
+- i
+- e
+- n
+- t
+- '
+- s
+-  
+- c
+- u
+- r
+- r
+- e
+- n
+- t
+-  
+- h
+- a
+- s
+- h
+- ,
+-  
+- a
+- n
+- d
+-  
+- a
+-  
+- h
+- a
+- s
+- -
+- c
+- o
+- n
+- t
+- e
+- n
+- t
+-  
+- f
+- l
+- a
+- g
+- ;
+-  
+- s
+- m
+- a
+- l
+- l
+-  
+- r
+- e
+- t
+- u
+- r
+- n
+-  
+- (
+- n
+- o
+-  
+- c
+- o
+- n
+- t
+- e
+- n
+- t
+- )
+-  
+- o
+- n
+- l
+- y
+-  
+- w
+- h
+- e
+- n
+-  
+- h
+- a
+- s
+- -
+- c
+- o
+- n
+- t
+- e
+- n
+- t
+-  
+- A
+- N
+- D
+-  
+- h
+- a
+- s
+- h
+-  
+- m
+- a
+- t
+- c
+- h
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- s
+- e
+- r
+- v
+- e
+- r
+- '
+- s
+-  
+- c
+- u
+- r
+- r
+- e
+- n
+- t
+-  
+- h
+- a
+- s
+- h
+- ;
+-  
+- o
+- t
+- h
+- e
+- r
+- w
+- i
+- s
+- e
+-  
+- (
+- n
+- o
+-  
+- l
+- o
+- c
+- a
+- l
+-  
+- c
+- o
+- n
+- t
+- e
+- n
+- t
+- ,
+-  
+- o
+- r
+-  
+- s
+- t
+- a
+- l
+- e
+-  
+- h
+- a
+- s
+- h
+- )
+-  
+- t
+- h
+- e
+-  
+- f
+- e
+- t
+- c
+- h
+-  
+- r
+- u
+- n
+- s
+-  
+- a
+- s
+-  
+- n
+- o
+- r
+- m
+- a
+- l
+-  
+- w
+- i
+- t
+- h
+-  
+- f
+- u
+- l
+- l
+-  
+- c
+- o
+- n
+- t
+- e
+- n
+- t
+-  
+- +
+-  
+- c
+- u
+- r
+- r
+- e
+- n
+- t
+-  
+- h
+- a
+- s
+- h
+- .
+-  
+- R
+- e
+- l
+- a
+- y
+- e
+- d
+-  
+- t
+- o
+-  
+- b
+- o
+- t
+- h
+-  
+- b
+- u
+- i
+- l
+- d
+-  
+- w
+- o
+- r
+- k
+- e
+- r
+- s
+-  
+- t
+- h
+- e
+-  
+- s
+- a
+- m
+- e
+-  
+- m
+- i
+- n
+- u
+- t
+- e
+- ;
+-  
+- t
+- e
+- s
+- t
+- s
+-  
+- m
+- u
+- s
+- t
+-  
+- c
+- o
+- v
+- e
+- r
+-  
+- a
+- l
+- l
+-  
+- t
+- h
+- r
+- e
+- e
+-  
+- b
+- r
+- a
+- n
+- c
+- h
+- e
+- s
+-  
+- a
+- n
+- d
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+-  
+- t
+- h
+- e
+-  
+- s
+- m
+- a
+- l
+- l
+-  
+- r
+- e
+- s
+- p
+- o
+- n
+- s
+- e
+- '
+- s
+-  
+- b
+- y
+- t
+- e
+-  
+- s
+- i
+- z
+- e
+- .
+-  
+- R
+- e
+- c
+- o
+- r
+- d
+- e
+- d
+-  
+- a
+- s
+-  
+- P
+- a
+- r
+- t
+-  
+- C
+-  
+- a
+- d
+- d
+- e
+- n
+- d
+- u
+- m
+-  
+- 3
+-  
+- i
+- n
+-  
+- R
+- E
+- P
+- O
+- R
+- T
+- .
+- m
+- d
+- .
+-  
+- H
+- a
+- s
+- h
+-  
+- c
+- o
+- r
+- r
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- (
+- W
+- i
+- l
+- l
+- ,
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 0
+-  
+- 2
+- 1
+- :
+- 2
+- 0
+-  
+- C
+- S
+- T
+- )
+- :
+-  
+- s
+- e
+- e
+- d
+-  
+- e
+- n
+- v
+- e
+- l
+- o
+- p
+- e
+-  
+- +
+-  
+- c
+- a
+- c
+- h
+- e
+- -
+- a
+- w
+- a
+- r
+- e
+-  
+- f
+- e
+- t
+- c
+- h
+-  
+- u
+- s
+- e
+-  
+- x
+- x
+- h
+- 3
+- _
+- 1
+- 2
+- 8
+-  
+- (
+- x
+- x
+- H
+- a
+- s
+- h
+- 3
+- ,
+-  
+- 1
+- 2
+- 8
+- -
+- b
+- i
+- t
+- ,
+-  
+- 1
+- 6
+-  
+- B
+- /
+- s
+- c
+- r
+- o
+- l
+- l
+- )
+- ,
+-  
+- N
+- O
+- T
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+- ;
+-  
+- r
+- e
+- l
+- a
+- y
+- e
+- d
+-  
+- t
+- o
+-  
+- b
+- o
+- t
+- h
+-  
+- b
+- u
+- i
+- l
+- d
+-  
+- w
+- o
+- r
+- k
+- e
+- r
+- s
+-  
+- t
+- h
+- e
+-  
+- s
+- a
+- m
+- e
+-  
+- m
+- i
+- n
+- u
+- t
+- e
+- .
+-  
+- S
+- c
+- o
+- p
+- e
+- d
+-  
+- t
+- o
+-  
+- t
+- h
+- i
+- s
+-  
+- f
+- e
+- a
+- t
+- u
+- r
+- e
+- ;
+-  
+- S
+- y
+- n
+- c
+- B
+- o
+- o
+- k
+- '
+- s
+-  
+- e
+- x
+- i
+- s
+- t
+- i
+- n
+- g
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+-  
+- w
+- r
+- i
+- t
+- e
+- -
+- c
+- o
+- n
+- f
+- l
+- i
+- c
+- t
+-  
+- h
+- a
+- s
+- h
+- e
+- s
+-  
+- u
+- n
+- t
+- o
+- u
+- c
+- h
+- e
+- d
+- .
+-  
+- R
+- e
+- c
+- o
+- r
+- d
+- e
+- d
+-  
+- a
+- s
+-  
+- P
+- a
+- r
+- t
+-  
+- C
+-  
+- a
+- d
+- d
+- e
+- n
+- d
+- u
+- m
+-  
+- 4
+-  
+- i
+- n
+-  
+- R
+- E
+- P
+- O
+- R
+- T
+- .
+- m
+- d
+- .
+
+Results:
+- D
+- O
+- N
+- E
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 0
+-  
+- —
+-  
+- b
+- o
+- t
+- h
+-  
+- h
+- a
+- l
+- v
+- e
+- s
+-  
+- l
+- a
+- n
+- d
+- e
+- d
+-  
+- a
+- s
+-  
+- P
+- R
+- s
+-  
+- (
+- m
+- e
+- r
+- g
+- e
+- s
+-  
+- a
+- r
+- e
+-  
+- W
+- i
+- l
+- l
+- '
+- s
+- ;
+-  
+- n
+- o
+- t
+- h
+- i
+- n
+- g
+-  
+- d
+- e
+- p
+- l
+- o
+- y
+- e
+- d
+- )
+- .
+-  
+- S
+- Q
+- :
+-  
+- P
+- R
+-  
+- #
+- 3
+-  
+- (
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- S
+- Q
+- ,
+-  
+- e
+- m
+- i
+- s
+- e
+- /
+- s
+- e
+- e
+- d
+- -
+- c
+- a
+- c
+- h
+- e
+-  
+- @
+-  
+- 6
+- 1
+- 6
+- 7
+- 8
+- a
+- a
+- 6
+- )
+-  
+- —
+-  
+- G
+- E
+- T
+-  
+- /
+- a
+- p
+- i
+- /
+- v
+- 2
+- /
+- s
+- e
+- e
+- d
+-  
+- e
+- n
+- v
+- e
+- l
+- o
+- p
+- e
+-  
+- +
+-  
+- G
+- E
+- T
+- /
+- P
+- O
+- S
+- T
+-  
+- /
+- a
+- p
+- i
+- /
+- v
+- 2
+- /
+- f
+- e
+- t
+- c
+- h
+- ;
+-  
+- u
+- n
+- c
+- h
+- a
+- n
+- g
+- e
+- d
+-  
+- r
+- e
+- t
+- u
+- r
+- n
+-  
+- 9
+- 3
+-  
+- B
+- ;
+-  
+- t
+- e
+- s
+- t
+- s
+-  
+- 7
+- 7
+- /
+- 0
+-  
+- (
+- b
+- a
+- s
+- e
+- l
+- i
+- n
+- e
+-  
+- 6
+- 3
+- )
+- ;
+-  
+- l
+- i
+- b
+- p
+- h
+- e
+- x
+- t
+- '
+- s
+-  
+- p
+- h
+- e
+- x
+- t
+- :
+- :
+- c
+- h
+- e
+- c
+- k
+- s
+- u
+- m
+-  
+- a
+- l
+- r
+- e
+- a
+- d
+- y
+-  
+- I
+- S
+-  
+- x
+- x
+- h
+- 3
+- _
+- 1
+- 2
+- 8
+- .
+-  
+- p
+- h
+- e
+- x
+- t
+- -
+- l
+- a
+- t
+- t
+- i
+- c
+- e
+- :
+-  
+- P
+- R
+-  
+- #
+- 6
+- 1
+-  
+- (
+- e
+- m
+- i
+- s
+- e
+- /
+- s
+- e
+- e
+- d
+- -
+- c
+- a
+- c
+- h
+- e
+-  
+- @
+-  
+- 3
+- 9
+- c
+- 6
+- 3
+- 6
+- a
+- 2
+- ,
+-  
+- o
+- n
+- e
+-  
+- f
+- i
+- l
+- e
+-  
+- p
+- h
+- e
+- x
+- t
+- _
+- e
+- d
+- i
+- t
+- .
+- r
+- s
+-  
+- +
+- 4
+- 9
+- 7
+- /
+- −
+- 1
+- 4
+- ;
+-  
+- E
+- m
+- i
+- s
+- e
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- v
+- i
+- a
+-  
+- G
+- i
+- t
+- H
+- u
+- b
+-  
+- A
+- P
+- I
+- :
+-  
+- o
+- p
+- e
+- n
+-  
+- a
+- g
+- a
+- i
+- n
+- s
+- t
+-  
+- e
+- x
+- o
+- ,
+-  
+- h
+- e
+- a
+- d
+-  
+- S
+- H
+- A
+-  
+- +
+-  
+- d
+- i
+- f
+- f
+- s
+- t
+- a
+- t
+-  
+- m
+- a
+- t
+- c
+- h
+- )
+-  
+- —
+-  
+- G
+- E
+- T
+-  
+- /
+- a
+- p
+- i
+- /
+- s
+- e
+- e
+- d
+-  
+- b
+- e
+- h
+- i
+- n
+- d
+-  
+- t
+- h
+- e
+-  
+- s
+- a
+- m
+- e
+-  
+- e
+- d
+- i
+- t
+- o
+- r
+-  
+- g
+- a
+- t
+- e
+-  
+- a
+- s
+-  
+- t
+- r
+- e
+- e
+- /
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- (
+- d
+- e
+- m
+- o
+- /
+- w
+- i
+- k
+- i
+-  
+- v
+- a
+- r
+- i
+- a
+- n
+- t
+- s
+-  
+- s
+- c
+- o
+- p
+- e
+- d
+-  
+- t
+- o
+-  
+- t
+- h
+- e
+- i
+- r
+-  
+- o
+- w
+- n
+-  
+- l
+- a
+- t
+- t
+- i
+- c
+- e
+- s
+- )
+- ;
+-  
+- c
+- a
+- c
+- h
+- e
+- -
+- a
+- w
+- a
+- r
+- e
+-  
+- f
+- e
+- t
+- c
+- h
+-  
+- a
+- s
+-  
+- q
+- u
+- e
+- r
+- y
+-  
+- p
+- a
+- r
+- a
+- m
+- s
+-  
+- o
+- n
+-  
+- t
+- h
+- e
+-  
+- e
+- x
+- i
+- s
+- t
+- i
+- n
+- g
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- r
+- o
+- u
+- t
+- e
+-  
+- (
+- h
+- a
+- s
+- h
+-  
+- +
+-  
+- h
+- a
+- v
+- e
+-  
+- f
+- l
+- a
+- g
+- ;
+-  
+- u
+- n
+- c
+- h
+- a
+- n
+- g
+- e
+- d
+-  
+- r
+- e
+- t
+- u
+- r
+- n
+-  
+- a
+- l
+- s
+- o
+-  
+- e
+- x
+- a
+- c
+- t
+- l
+- y
+-  
+- 9
+- 3
+-  
+- B
+- ;
+-  
+- n
+- o
+-  
+- p
+- a
+- r
+- a
+- m
+- s
+-  
+- =
+-  
+- l
+- e
+- g
+- a
+- c
+- y
+-  
+- b
+- e
+- h
+- a
+- v
+- i
+- o
+- r
+-  
+- u
+- n
+- t
+- o
+- u
+- c
+- h
+- e
+- d
+- )
+- ;
+-  
+- s
+- h
+- e
+- l
+- l
+-  
+- l
+- o
+- a
+- d
+- s
+-  
+- t
+- h
+- e
+-  
+- s
+- e
+- e
+- d
+-  
+- a
+- t
+-  
+- b
+- o
+- o
+- t
+- ,
+-  
+- s
+- t
+- r
+- e
+- a
+- m
+- s
+-  
+- v
+- i
+- e
+- w
+- e
+- d
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- i
+- n
+- t
+- o
+-  
+- a
+- n
+-  
+- i
+- n
+- -
+- p
+- a
+- g
+- e
+-  
+- c
+- a
+- c
+- h
+- e
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- w
+- i
+- t
+- h
+-  
+- a
+-  
+- v
+- e
+- n
+- d
+- o
+- r
+- e
+- d
+-  
+- J
+- S
+-  
+- x
+- x
+- h
+- 3
+- _
+- 1
+- 2
+- 8
+-  
+- (
+- 2
+- 6
+-  
+- d
+- i
+- f
+- f
+- e
+- r
+- e
+- n
+- t
+- i
+- a
+- l
+-  
+- v
+- e
+- c
+- t
+- o
+- r
+- s
+-  
+- v
+- s
+-  
+- t
+- h
+- e
+-  
+- R
+- u
+- s
+- t
+-  
+- +
+-  
+- C
+-  
+- r
+- e
+- f
+- e
+- r
+- e
+- n
+- c
+- e
+- s
+-  
+- —
+-  
+- t
+- w
+- o
+-  
+- r
+- e
+- a
+- l
+-  
+- t
+- r
+- a
+- n
+- s
+- l
+- i
+- t
+- e
+- r
+- a
+- t
+- i
+- o
+- n
+-  
+- b
+- u
+- g
+- s
+-  
+- f
+- o
+- u
+- n
+- d
+-  
+- a
+- n
+- d
+-  
+- f
+- i
+- x
+- e
+- d
+-  
+- d
+- u
+- r
+- i
+- n
+- g
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+- )
+- ,
+-  
+- s
+- e
+- c
+- o
+- n
+- d
+-  
+- n
+- a
+- v
+- i
+- g
+- a
+- t
+- i
+- o
+- n
+-  
+- t
+- o
+-  
+- a
+-  
+- c
+- a
+- c
+- h
+- e
+- d
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+-  
+- p
+- e
+- r
+- f
+- o
+- r
+- m
+- s
+-  
+- n
+- o
+-  
+- f
+- e
+- t
+- c
+- h
+- .
+-  
+- R
+- u
+- s
+- t
+-  
+- t
+- e
+- s
+- t
+- s
+- :
+-  
+- 2
+- 7
+- 6
+-  
+- u
+- n
+- i
+- t
+-  
+- p
+- a
+- s
+- s
+- i
+- n
+- g
+-  
+- (
+- l
+- i
+- b
+-  
+- 1
+- 8
+- 3
+-  
+- +
+-  
+- b
+- i
+- n
+-  
+- 9
+- 3
+-  
+- =
+-  
+- 8
+- 7
+-  
+- b
+- a
+- s
+- e
+- l
+- i
+- n
+- e
+-  
+- +
+-  
+- 6
+-  
+- n
+- e
+- w
+- )
+- ;
+-  
+- o
+- n
+- e
+-  
+- e
+- 2
+- e
+-  
+- t
+- i
+- m
+- i
+- n
+- g
+-  
+- a
+- s
+- s
+- e
+- r
+- t
+- i
+- o
+- n
+-  
+- (
+- s
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- .
+- h
+- t
+- m
+- l
+-  
+- 6
+- 1
+-  
+- m
+- s
+-  
+- v
+- s
+-  
+- 5
+- 0
+-  
+- m
+- s
+-  
+- b
+- u
+- d
+- g
+- e
+- t
+- )
+-  
+- f
+- a
+- i
+- l
+- s
+-  
+- i
+- d
+- e
+- n
+- t
+- i
+- c
+- a
+- l
+- l
+- y
+-  
+- o
+- n
+-  
+- u
+- n
+- t
+- o
+- u
+- c
+- h
+- e
+- d
+-  
+- e
+- x
+- o
+-  
+- —
+-  
+- p
+- r
+- e
+- -
+- e
+- x
+- i
+- s
+- t
+- i
+- n
+- g
+-  
+- f
+- l
+- a
+- k
+- e
+- ,
+-  
+- n
+- o
+- t
+-  
+- a
+-  
+- r
+- e
+- g
+- r
+- e
+- s
+- s
+- i
+- o
+- n
+- .
+-  
+- W
+- o
+- r
+- k
+- e
+- r
+- '
+- s
+-  
+- "
+- 2
+- 3
+- 5
+-  
+- b
+- a
+- s
+- e
+- l
+- i
+- n
+- e
+- "
+-  
+- c
+- o
+- r
+- r
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- n
+- o
+- t
+- e
+- d
+- :
+-  
+- m
+- e
+- a
+- s
+- u
+- r
+- e
+- d
+-  
+- b
+- a
+- s
+- e
+- l
+- i
+- n
+- e
+-  
+- w
+- a
+- s
+-  
+- 2
+- 7
+- 0
+-  
+- u
+- n
+- i
+- t
+-  
+- +
+-  
+- 2
+-  
+- e
+- 2
+- e
+- .
+-  
+- [
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 1
+-  
+- r
+- e
+- c
+- o
+- n
+- c
+- i
+- l
+- i
+- a
+- t
+- i
+- o
+- n
+- :
+-  
+- t
+- h
+- e
+-  
+- m
+- e
+- r
+- g
+- e
+-  
+- w
+- a
+- i
+- t
+-  
+- i
+- s
+-  
+- n
+- o
+- w
+-  
+- r
+- e
+- g
+- i
+- s
+- t
+- e
+- r
+- e
+- d
+-  
+- (
+- #
+- 6
+- 4
+- )
+-  
+- w
+- i
+- t
+- h
+-  
+- t
+- r
+- a
+- c
+- k
+- e
+- d
+-  
+- a
+- n
+- c
+- h
+- o
+- r
+-  
+- g
+- o
+- a
+- l
+- _
+- e
+- 0
+- e
+- a
+- 3
+- f
+- f
+- 5
+- 5
+- 9
+- 6
+- 8
+- ;
+-  
+- P
+- R
+- s
+-  
+- r
+- e
+- -
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- o
+- p
+- e
+- n
+-  
+- v
+- i
+- a
+-  
+- t
+- h
+- e
+-  
+- G
+- i
+- t
+- H
+- u
+- b
+-  
+- A
+- P
+- I
+-  
+- t
+- h
+- e
+-  
+- s
+- a
+- m
+- e
+-  
+- p
+- a
+- s
+- s
+- .
+- ]
+# Refactor Phext Notepad (PR #5) to consume libphext-cs from NuGet instead of vendored sources
 
 Coordinate: 41.6.9/8.7.12/7.6.11
 Issued: 2026-11-09 21:23 CST
@@ -105433,7 +117613,18 @@ Notes:
 
 Results:
 - io_benchmark.sh published to wbic16/emise-tools@exo (tools/io_benchmark.sh, commit 9500a847), blob verified; local master ~/workspace/disk-watch/io_benchmark.sh; smoke-tested on this VM (runs, prints rates, cleans up).
-# ultra.phext — normalize coordinate space to 1-digit components
+# phextura Layer 2 - research-native address scheme on top of phext
+
+Coordinate: 44.9.10/11.8.15/8.9.10
+Issued: 2026-11-11
+Request (verbatim): Key innovation for phextura - a research-native layer 2 address scheme, implemented on top of phext
+Status: completed
+
+Notes:
+- Will, MOAT, 2026-11-11 01:08 CST - named 'the key innovation'. L1 = phext coordinates (scrolls in one corpus); L2 = addresses for research objects (theorems, claims, figures, papers, authors, concepts) persisting across editions, re-basing, and papers, resolving to L1 via corpus-carried mapping data. Design agent dispatched to write LAYER2.md (model, draft grammar, priced resolution, edition-drift worked example on the demo corpus, verdict on the loop's PROPOSE (2) edition-qualified citation, honest limits incl. anti-rot) and publish it to phextura@exo; DESIGN.md amendments listed as proposals only.
+- 2026-11-11 01:10 CST: Will refined in three beats - L2 is (1) the first GLOBAL address scheme for phext, durable BETWEEN phextura files; (2) NOT phext addresses - coordinates are internal to each phextura; (3) its purpose is COMPOSITION of multiple phextura files. Corrections sent into the design agent's brief immediately (global scope supersedes the corpus-internal resolution framing; grammar must not look like coordinates; composition becomes the worked example). Interjection log entry 5 written.
+- COMPLETED 2026-11-11 01:16 CST. LAYER2.md (754 lines) published to phextura@exo 81090f879f, blob verified. Distinction: L1 names a scroll's position in one file and means nothing outside it; L2 names a research object in a named phextura file and resolves in any verified copy. Grammar (DRAFT): px2: + work-ref (arxiv:/doi:/corpus:/sum:xxh3-128:) + optional @e: edition pin + #kind:key; 19 v1 kinds + claim/paper/author/concept; keys minted once, object table in Collection 6 (derived index + append-only ledger, aliases/tombstones). Resolution: warm Theta(1) expected, cold Theta(B+O), composition linear; nine loud failure modes. Composition worked example: three files compose with NO merge and NO re-basing (all keep root 1.1.1); P13 split proposed (binding=merge vs citing=L2). PROPOSE (2) verdict: L2 SUBSUMES and supersedes it - (checksum, coordinate) demoted to resolution receipt; formal closing of (2) awaits Will's word. Honest limits: work names can rot (pins/checksum form mitigate), durability of denotation is not durability of archives, L2 confers no authority; authoring cost UNPRICED pending the P14 benchmark. Spec honesty note: demo corpus predates L2, example pin is its SHA-256 prefix as labelled stand-in. DESIGN.md untouched; eight integration proposals listed in LAYER2 Sec.10. Conversion program (task 26.7.9) notified - its Phase 1 gate is lifted.
+# ultra.phext — normalize coordinate space to 1-digit components
 
 Coordinate: 44.13.9/15.15.18/13.13.19
 Issued: 2026-11-07
@@ -105522,7 +117713,1782 @@ Status: complete 2026-11-07 — PR #7 open on wbic16/libphext-rs (provable-0.4.1
 Notes:
 - Plan: (1) v0.4.1 changes: safe rewrite of expand/contract (kill the 2 unsafe blocks), version bump; (2) Charon+Aeneas toolchain on aletheia-core; (3) proofs/ Lean project in-repo: generated code, xxhash external model, specs + kernel-checked proofs for the tractable core; (4) PR with the trust ledger stated (translator trusted, floor = Lean kernel), remaining surface enumerated honestly.
 - Closed 2026-11-07 ~02:45 CST. Toolchain built on aletheia-core (Charon at pin, Aeneas c5eb4a2, Lean 4.35.0). Crate prep on branch provable-0.4.1: v0.4.1 bump + zero unsafe (1d34089); helios dual-length fix (also merged to exo as dc58df21); five translator-driven rewrites, each bisected against minimal repros first: Vec::collect -> push loops; Pattern-trait str APIs -> manual split_on + byte contains; char<->int casts purged for byte-twin constants (SCROLL_BREAK_U8 etc.), create_summary byte scan; Iterator::chain/skip/take -> sequential/index loops; split_on returns owned Strings; phext parameters renamed input (Lean namespace collision). Tests 58/58 after every step. Extraction: zero errors, zero sorry; generated model = 301 defs; proofs/ lake build green (1,809 jobs) including three kernel-checked specs (advance_coordinate, default_coordinate, is_phext_break) in Libphext/Properties/Basic.lean. Trust ledger in PR #7 and proofs/README.md: 62 external axioms (incl. xxh3_128 uninterpreted; checksum verified only relative to its signature), explode/implode opaque (HashMap has no Lean model), translators + Aeneas stdlib models trusted. Branch published by API replay of the 8 local commits onto exo head dc58df21; remote head f36d2c2; blob hashes and 100755 script modes verified after publish.
-# Slice 7: register allocation state machine
+# Package the trainer process as trainer.phext; publish to wbic16/human
+
+Coordinate: 48.5.9/7.6.11/6.5.9
+Issued: 2026-11-11
+Request (verbatim): Package the developed training-film production process as trainer.phext and publish it into human.git.
+Status: complete
+
+Notes:
+- W
+- i
+- l
+- l
+- '
+- s
+-  
+- c
+- l
+- a
+- r
+- i
+- f
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+-  
+- (
+- 0
+- 0
+- :
+- 3
+- 0
+-  
+- C
+- S
+- T
+- )
+- :
+-  
+- "
+- t
+- h
+- i
+- s
+- "
+-  
+- =
+-  
+- t
+- h
+- e
+-  
+- P
+- R
+- O
+- C
+- E
+- S
+- S
+-  
+- d
+- e
+- v
+- e
+- l
+- o
+- p
+- e
+- d
+-  
+- a
+- c
+- r
+- o
+- s
+- s
+-  
+- t
+- h
+- e
+-  
+- f
+- i
+- l
+- m
+- '
+- s
+-  
+- r
+- o
+- u
+- n
+- d
+- s
+-  
+- (
+- s
+- c
+- r
+- i
+- p
+- t
+-  
+- d
+- i
+- s
+- c
+- i
+- p
+- l
+- i
+- n
+- e
+- ,
+-  
+- c
+- l
+- a
+- i
+- m
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+- ,
+-  
+- d
+- e
+- m
+- o
+-  
+- b
+- u
+- i
+- l
+- d
+- s
+-  
+- w
+- i
+- t
+- h
+-  
+- m
+- e
+- a
+- s
+- u
+- r
+- e
+- d
+-  
+- s
+- t
+- a
+- t
+- s
+- ,
+-  
+- r
+- a
+- n
+- c
+- h
+-  
+- p
+- i
+- p
+- e
+- l
+- i
+- n
+- e
+- ,
+-  
+- t
+- h
+- e
+- r
+- m
+- a
+- l
+-  
+- g
+- a
+- t
+- e
+- s
+- ,
+-  
+- s
+- t
+- y
+- l
+- e
+-  
+- d
+- i
+- r
+- e
+- c
+- t
+- i
+- o
+- n
+- ,
+-  
+- r
+- e
+- v
+- i
+- s
+- i
+- o
+- n
+-  
+- r
+- o
+- u
+- n
+- d
+- s
+- ,
+-  
+- c
+- o
+- r
+- r
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- p
+- r
+- o
+- p
+- a
+- g
+- a
+- t
+- i
+- o
+- n
+- ,
+-  
+- d
+- e
+- l
+- i
+- v
+- e
+- r
+- y
+-  
+- g
+- a
+- t
+- e
+- s
+- )
+-  
+- —
+-  
+- t
+- r
+- a
+- i
+- n
+- e
+- r
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- p
+- a
+- c
+- k
+- a
+- g
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- p
+- r
+- o
+- c
+- e
+- s
+- s
+-  
+- s
+- o
+-  
+- a
+- n
+- o
+- t
+- h
+- e
+- r
+-  
+- m
+- i
+- n
+- d
+-  
+- c
+- a
+- n
+-  
+- r
+- u
+- n
+-  
+- i
+- t
+- ,
+-  
+- w
+- i
+- t
+- h
+-  
+- t
+- h
+- e
+-  
+- f
+- i
+- l
+- m
+- '
+- s
+-  
+- a
+- r
+- t
+- i
+- f
+- a
+- c
+- t
+- s
+-  
+- a
+- s
+-  
+- t
+- h
+- e
+-  
+- w
+- o
+- r
+- k
+- e
+- d
+-  
+- e
+- x
+- a
+- m
+- p
+- l
+- e
+- .
+
+Results:
+- P
+- U
+- B
+- L
+- I
+- S
+- H
+- E
+- D
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 1
+-  
+- 0
+- 0
+- :
+- 3
+- 3
+-  
+- C
+- S
+- T
+- :
+-  
+- t
+- r
+- a
+- i
+- n
+- e
+- r
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- —
+-  
+- 2
+- 6
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+- ,
+-  
+- 1
+- 9
+- 4
+- ,
+- 8
+- 2
+- 9
+-  
+- B
+- ,
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+-  
+- 8
+- 0
+- 4
+- d
+- 8
+- 6
+- 1
+- 5
+- …
+-  
+- —
+-  
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- h
+- u
+- m
+- a
+- n
+- @
+- e
+- x
+- o
+-  
+- c
+- o
+- m
+- m
+- i
+- t
+-  
+- 6
+- 4
+- 4
+- 4
+- 3
+- 6
+- 9
+- 0
+- 5
+- 2
+- a
+- 8
+- a
+- a
+- 7
+- 1
+- 1
+- 2
+- 8
+- 5
+- a
+- 1
+- a
+- 0
+- e
+- 5
+- 9
+- 6
+- 6
+- e
+- 3
+- 4
+- 6
+- a
+- 8
+- 0
+- a
+- 7
+- e
+- 2
+-  
+- (
+- p
+- a
+- r
+- e
+- n
+- t
+-  
+- 4
+- d
+- 5
+- e
+- 5
+- 5
+- 3
+- c
+- ,
+-  
+- f
+- o
+- r
+- c
+- e
+-  
+- d
+- i
+- s
+- a
+- b
+- l
+- e
+- d
+- )
+- ,
+-  
+- r
+- e
+- m
+- o
+- t
+- e
+-  
+- b
+- y
+- t
+- e
+- s
+-  
+- f
+- e
+- t
+- c
+- h
+- e
+- d
+-  
+- b
+- a
+- c
+- k
+-  
+- a
+- n
+- d
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- i
+- d
+- e
+- n
+- t
+- i
+- c
+- a
+- l
+- ;
+-  
+- r
+- e
+- g
+- i
+- s
+- t
+- e
+- r
+-  
+- C
+- U
+- R
+- R
+- E
+- N
+- T
+-  
+- (
+- ~
+- /
+- w
+- o
+- r
+- k
+- s
+- p
+- a
+- c
+- e
+- /
+- p
+- h
+- e
+- x
+- t
+- /
+- t
+- r
+- a
+- i
+- n
+- e
+- r
+- -
+- s
+- o
+- u
+- r
+- c
+- e
+- .
+- j
+- s
+- o
+- n
+-  
+- +
+-  
+- b
+- u
+- i
+- l
+- d
+- _
+- t
+- r
+- a
+- i
+- n
+- e
+- r
+- _
+- p
+- h
+- e
+- x
+- t
+- .
+- p
+- y
+- ;
+-  
+- E
+- m
+- i
+- s
+- e
+-  
+- r
+- e
+- -
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- h
+- a
+- s
+- h
+-  
+- +
+-  
+- p
+- a
+- r
+- s
+- e
+-  
+- +
+-  
+- -
+- -
+- c
+- h
+- e
+- c
+- k
+- )
+- .
+-  
+- C
+- o
+- n
+- t
+- e
+- n
+- t
+- s
+- :
+-  
+- H
+- o
+- m
+- e
+-  
+- +
+-  
+- 1
+- 0
+-  
+- s
+- t
+- a
+- g
+- e
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+-  
+- (
+- C
+- o
+- l
+- l
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- 2
+- )
+-  
+- +
+-  
+- w
+- o
+- r
+- k
+- e
+- d
+-  
+- e
+- x
+- a
+- m
+- p
+- l
+- e
+-  
+- (
+- C
+- o
+- l
+- l
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- 3
+- :
+-  
+- p
+- l
+- a
+- n
+- ,
+-  
+- w
+- a
+- l
+- k
+- t
+- h
+- r
+- o
+- u
+- g
+- h
+- ,
+-  
+- s
+- h
+- o
+- t
+- l
+- i
+- s
+- t
+- ,
+-  
+- s
+- c
+- r
+- i
+- p
+- t
+- s
+-  
+- R
+- 1
+- –
+- R
+- 3
+-  
+- i
+- n
+-  
+- f
+- u
+- l
+- l
+- ,
+-  
+- b
+- r
+- i
+- e
+- f
+- s
+-  
+- R
+- 2
+- /
+- R
+- 3
+- ,
+-  
+- l
+- o
+- g
+- s
+- ,
+-  
+- d
+- e
+- m
+- o
+- 2
+-  
+- R
+- E
+- A
+- D
+- M
+- E
+-  
+- +
+-  
+- l
+- i
+- n
+- k
+- -
+- v
+- e
+- r
+- i
+- f
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+- ,
+-  
+- f
+- i
+- l
+- m
+- o
+- g
+- r
+- a
+- p
+- h
+- y
+- )
+- .
+-  
+- F
+- O
+- L
+- L
+- O
+- W
+- -
+- U
+- P
+-  
+- (
+- n
+- o
+- t
+-  
+- a
+-  
+- g
+- a
+- p
+-  
+- i
+- n
+-  
+- t
+- h
+- i
+- s
+-  
+- d
+- e
+- l
+- i
+- v
+- e
+- r
+- y
+- )
+- :
+-  
+- r
+- e
+- b
+- u
+- i
+- l
+- d
+-  
+- +
+-  
+- r
+- e
+- p
+- u
+- b
+- l
+- i
+- s
+- h
+-  
+- w
+- h
+- e
+- n
+-  
+- R
+- O
+- U
+- G
+- H
+- -
+- C
+- U
+- T
+- -
+- R
+- 3
+- -
+- L
+- O
+- G
+- .
+- m
+- d
+-  
+- l
+- a
+- n
+- d
+- s
+-  
+- —
+-  
+- c
+- o
+- o
+- r
+- d
+- i
+- n
+- a
+- t
+- e
+-  
+- 1
+- .
+- 1
+- .
+- 1
+- /
+- 3
+- .
+- 4
+- .
+- 4
+- /
+- 1
+- .
+- 1
+- .
+- 1
+-  
+- r
+- e
+- s
+- e
+- r
+- v
+- e
+- d
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- H
+- o
+- m
+- e
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- ;
+-  
+- f
+- i
+- l
+- m
+- o
+- g
+- r
+- a
+- p
+- h
+- y
+-  
+- R
+- 3
+-  
+- e
+- n
+- t
+- r
+- y
+-  
+- t
+- o
+-  
+- b
+- e
+-  
+- c
+- o
+- m
+- p
+- l
+- e
+- t
+- e
+- d
+-  
+- w
+- i
+- t
+- h
+-  
+- m
+- e
+- a
+- s
+- u
+- r
+- e
+- m
+- e
+- n
+- t
+- s
+- .
+-  
+- R
+- E
+- F
+- R
+- E
+- S
+- H
+-  
+- d
+- i
+- s
+- p
+- a
+- t
+- c
+- h
+- e
+- d
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 1
+-  
+- 0
+- 0
+- :
+- 5
+- 9
+-  
+- C
+- S
+- T
+-  
+- n
+- o
+- w
+-  
+- t
+- h
+- a
+- t
+-  
+- R
+- O
+- U
+- G
+- H
+- -
+- C
+- U
+- T
+- -
+- R
+- 3
+- -
+- L
+- O
+- G
+- .
+- m
+- d
+-  
+- e
+- x
+- i
+- s
+- t
+- s
+- :
+-  
+- i
+- n
+- s
+- c
+- r
+- i
+- b
+- e
+-  
+- t
+- h
+- e
+-  
+- R
+- 3
+-  
+- l
+- o
+- g
+-  
+- a
+- t
+-  
+- r
+- e
+- s
+- e
+- r
+- v
+- e
+- d
+-  
+- 1
+- .
+- 1
+- .
+- 1
+- /
+- 3
+- .
+- 4
+- .
+- 4
+- /
+- 1
+- .
+- 1
+- .
+- 1
+- ,
+-  
+- c
+- o
+- m
+- p
+- l
+- e
+- t
+- e
+-  
+- f
+- i
+- l
+- m
+- o
+- g
+- r
+- a
+- p
+- h
+- y
+-  
+- e
+- n
+- t
+- r
+- y
+-  
+- 4
+- ,
+-  
+- r
+- e
+- p
+- u
+- b
+- l
+- i
+- s
+- h
+-  
+- o
+- n
+-  
+- f
+- r
+- e
+- s
+- h
+-  
+- H
+- E
+- A
+- D
+- .
+-  
+- R
+- E
+- F
+- R
+- E
+- S
+- H
+-  
+- P
+- U
+- B
+- L
+- I
+- S
+- H
+- E
+- D
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 1
+- 1
+-  
+- 0
+- 1
+- :
+- 0
+- 1
+-  
+- C
+- S
+- T
+- :
+-  
+- t
+- r
+- a
+- i
+- n
+- e
+- r
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- n
+- o
+- w
+-  
+- 2
+- 7
+-  
+- s
+- c
+- r
+- o
+- l
+- l
+- s
+- ,
+-  
+- 2
+- 0
+- 6
+- ,
+- 6
+- 6
+- 7
+-  
+- B
+- ,
+-  
+- S
+- H
+- A
+- -
+- 2
+- 5
+- 6
+-  
+- e
+- f
+- 7
+- c
+- 5
+- 9
+- b
+- c
+- …
+-  
+- —
+-  
+- R
+- 3
+-  
+- l
+- o
+- g
+-  
+- i
+- n
+- s
+- c
+- r
+- i
+- b
+- e
+- d
+-  
+- a
+- t
+-  
+- 1
+- .
+- 1
+- .
+- 1
+- /
+- 3
+- .
+- 4
+- .
+- 4
+- /
+- 1
+- .
+- 1
+- .
+- 1
+- ,
+-  
+- f
+- i
+- l
+- m
+- o
+- g
+- r
+- a
+- p
+- h
+- y
+-  
+- e
+- n
+- t
+- r
+- y
+-  
+- 4
+-  
+- c
+- o
+- m
+- p
+- l
+- e
+- t
+- e
+- d
+-  
+- (
+- 3
+- 0
+- 7
+- .
+- 2
+- 3
+-  
+- s
+-  
+- /
+-  
+- 9
+- 7
+- ,
+- 6
+- 2
+- 2
+- ,
+- 6
+- 5
+- 6
+-  
+- B
+-  
+- /
+-  
+- 8
+- d
+- 7
+- d
+- 5
+- 8
+- 0
+- 5
+- …
+-  
+- /
+-  
+- −
+- 1
+- 4
+- .
+- 0
+- 8
+-  
+- L
+- U
+- F
+- S
+- )
+- ,
+-  
+- H
+- o
+- m
+- e
+-  
+- s
+- t
+- a
+- t
+- e
+-  
+- u
+- p
+- d
+- a
+- t
+- e
+- d
+-  
+- w
+- i
+- t
+- h
+-  
+- t
+- h
+- e
+-  
+- R
+- 3
+-  
+- g
+- a
+- p
+- s
+- ;
+-  
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- h
+- u
+- m
+- a
+- n
+- @
+- e
+- x
+- o
+-  
+- c
+- o
+- m
+- m
+- i
+- t
+-  
+- 6
+- 9
+- b
+- 8
+- c
+- 5
+- 0
+- 3
+-  
+- (
+- p
+- a
+- r
+- e
+- n
+- t
+-  
+- 5
+- d
+- 7
+- c
+- 3
+- 3
+- a
+- 8
+- ,
+-  
+- f
+- o
+- r
+- c
+- e
+-  
+- d
+- i
+- s
+- a
+- b
+- l
+- e
+- d
+- )
+- ,
+-  
+- r
+- e
+- m
+- o
+- t
+- e
+-  
+- b
+- y
+- t
+- e
+- -
+- i
+- d
+- e
+- n
+- t
+- i
+- c
+- a
+- l
+- ;
+-  
+- E
+- m
+- i
+- s
+- e
+-  
+- r
+- e
+- -
+- v
+- e
+- r
+- i
+- f
+- i
+- e
+- d
+-  
+- (
+- h
+- a
+- s
+- h
+-  
+- +
+-  
+- p
+- a
+- r
+- s
+- e
+-  
+- 2
+- 7
+- /
+- 2
+- 7
+-  
+- +
+-  
+- r
+- e
+- g
+- i
+- s
+- t
+- e
+- r
+-  
+- C
+- U
+- R
+- R
+- E
+- N
+- T
+- )
+- .
+-  
+- F
+- o
+- l
+- l
+- o
+- w
+- -
+- u
+- p
+-  
+- C
+- L
+- O
+- S
+- E
+- D
+- .
+# Slice 7: register allocation state machine
 
 Coordinate: 49.3.6/4.4.12/5.3.10
 Issued: 2026-11-07

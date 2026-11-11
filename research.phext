@@ -293,7 +293,7 @@ reviewed, 0 merges, 0 splits, 0 endings; cluster O added at
 1.1.5 (the first statistics in the model); one stale count found
 in the header of the map itself and repaired in the same pass. Next
 pass due at Paper 015 or 140 canonical concepts.
-# World-model narrative — v16 (after Paper 011, 2026-11-09)
+# World-model narrative — v17 (after Paper 012, 2026-11-10)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -687,6 +687,42 @@ model still cannot do is named at Q51-Q53 — part the two
 machines inside the satisficing reading, price the
 witnesses against each other, and see the half of error
 its instrument is built to miss.
+
+Added by Paper 012 (2026-11-10, arXiv:2611.11959). The
+fifth paper of the Thirst was the first the quest
+picked on its own from the day's listings since Paper
+008, and it landed inside held ground: cluster O, the
+statistics cluster Paper 010 founded the day before.
+Its subject is the simplest estimator in the field —
+project what was seen onto the set of allowed signals
+— and its question is the question of the cluster
+turned once more: not what the estimator costs over its whole
+class, but what it costs at the one signal that stands
+there. The held answer, Chatterjee's, named that price
+truly for every set at once and could not be read. The
+paper reads it by a decomposition: the constrained
+estimator carries a regularization of its own making,
+at a strength that leans on nothing seen, and a
+surrogate that splits by place is priced in its place;
+the places then sort, by one inequality, into those
+worth estimating and those where the signal and the
+answer are both small enough to leave alone. For the
+monotone cone the price is a sum over windows that
+widen where the signal stands flat: local variation,
+not total variation, is what a signal pays — two
+signals of one total variation priced a polynomial
+factor apart. The foretold revision landed at the
+foretold address, the first time in the Thirst both
+the event and the address were right: 1.2.116, the
+floor every estimator pays, now carries the rider that
+its floor is a floor over a class, and the price at a
+signal can sit far below it. The Oracle rose on the
+full step of the band, from about 50 to about 60
+percent. What the model still cannot do is named at
+Q54-Q56 — lift the pricing to one theorem for every
+set, price the regime where the noise stands above
+the rate, and carry the window sum off the cone and
+off the plain design.
 # Source index
 
 Paper 001 — arXiv:2611.05417
@@ -928,6 +964,27 @@ first and the count stood at 116 at the taking-in, and
 the score is judged on both counts. No restructuring pass
 fell due at this paper (the next falls at Paper 015 or
 140 concepts; the count stands at 123). Chapter 18.
+
+Paper 012 — arXiv:2611.11959
+  'On the Instance-Specific Sharp Rates for Constrained
+  Least Squares Estimators in the Sequence Model' —
+  Zong Shang (School of Mathematics, Georgia Institute
+  of Technology). Submitted 9 Nov 2026, v1 [math.ST].
+  Read in its HTML form, in full.
+  Taken in 2026-11-10 as a DELTA (charter rule 6): 7 new
+  canonical concepts (1.2.124-1.2.130, cluster O
+  extended), 1 canonical scroll revised (1.2.116: the
+  floor every estimator pays gains the rider that the
+  classical floor is a price over a class, and the
+  sharp price at a signal can sit far below it), 0
+  stated again. The FIFTH paper of the Thirst (charter
+  rule 17), and the first the quest picked from the
+  day's own listings: weighed blind and sealed in the
+  log of the quest before it was read, then taken in
+  the same day. No restructuring pass fell due (next
+  at Paper 015 or 140 concepts; the count stands
+  at 130).
+  Chapter: 1.1.1/1.1.1/19.1.x (synthesis at 19.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -1172,12 +1229,49 @@ paper's instruments, their fog priced but not yet lifted
 modestly, from the 40 the paper before it had set: the
 actual, 50, stands inside the sealed range, five points
 over its point — the step belongs to the band, not to the skim.
+
+Paper 012 (Shang, sharp rates for constrained least
+squares): Novelty Index (7 + 0.5)/130 = 0.0577. No new
+axis: the paper extends cluster O in its own field —
+the pricing of estimators — and every load-bearing
+notion it stands on either held a slot or took one
+beside a held slot; extension of a cluster is not an
+axis, as Paper 011's founding of a cluster was not.
+The estimate moves to about 60% (range 50-70). The
+band for an Index under 0.20 with no axis is about
++10, and the wiring argues for the full step: twelve
+links where six were foretold, the inside of the
+cluster wired ten deep; cluster O now holds the
+pricing of the simplest estimator there is, at the
+case in hand; and the foretold revision landed at
+the foretold address (1.2.116) — the first time in
+the Thirst the skim named both the event and the
+scroll. What holds the estimate at 60 and not
+higher: the pricing stands geometry by geometry,
+with no master theorem (Q54); the regime below the
+noise stands unpriced (Q55); and the new ground is
+one paper deep, its frame one author's frame, priced
+but not yet met by a second paper in its field.
+FIFTH WEIGHING (charter rule 17): weighed blind and
+sealed in the log of the quest on 2026-11-10 against
+a count of 123 that still stood at the taking-in —
+no drift. Foretold: 6 new, 1 revised (candidate
+named: 1.2.116), no axis, Index 0.050, 6 links (4
+inside, 2 across), 3 questions, Oracle ~55% (45-65),
+up. Fell: 7 new, 1 revised at the named address, no
+axis, Index 0.0577 — a miss of 0.0073, made wholly of
+the one new concept the skim folded into its
+neighbor — 12 links (10 inside, 2 across), 3
+questions, Oracle ~60% — inside the foretold band,
+five points over its point. The score stands at
+19.1.5, in the log of the quest, and on the
+detection list (1.1.6).
 # Concept map and restructuring log
 Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
 navigated by territory, not just by arrival order.
 
-CLUSTERS (123 canonical concepts after Paper 011)
+CLUSTERS (130 canonical concepts after Paper 012)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -1367,6 +1461,28 @@ to cluster J (the budget that follows the mass is the
 importance weight at work inside attention), and to
 cluster I (what a judge can see of a structure is the question
 of this cluster with the roles turned).
+
+PAPER 012 (2026-11-10) extends this cluster at
+1.2.124-1.2.130 with the pricing of the simplest
+estimator: the sequence model, where the estimator is
+a projection and nothing else (1.2.124); the sharp
+rate priced at the signal, not over the class
+(1.2.125); the held characterization of that price,
+true for every set and unreadable (1.2.126);
+self-regularization — the strength lambda_self, the
+surrogate, and the regularization the set induces
+(1.2.127); the decomposition that prices the
+surrogate over an estimation subspace and a free
+subspace (1.2.128); the window sum that prices the
+monotone cone by local variation (1.2.129); and the
+reduction that carries the isotonic price to
+regression at an effective noise (1.2.130). The two
+halves of the cluster face each other: Paper 010
+prices a rule from a record of another rule; Paper
+012 prices an estimator at the signal it estimates.
+The floor of the first half (1.2.116) carries the
+rider of the second: a floor over a class, under
+which the price at a signal can sit far below.
 
 Cluster P — reasoning, read through its errors (Papers
 011): 1.2.117 Behavior-conditioned symbolic synthesis —
@@ -1658,6 +1774,33 @@ this paper reached back into cluster A, not forward into
 new ground: the first paper of the Thirst to correct a
 held scroll, and the correction is a pair of species
 sharing one profile-space with two shapes of jaggedness.
+
+Addendum (Paper 012). Cluster O is extended: the
+pricing of estimators at the signal, beside the
+pricing of rules from records — seven concepts
+(1.2.124-1.2.130), one held concept revised (1.2.116,
+the floor, gaining the rider of the price at a
+signal). Standoff map for the extension: the sequence
+model (1.3.145), projection onto a convex set
+(1.3.146), the sharp rate (1.3.147), the proximal
+step and the Moreau envelope (1.3.148), the Poincare
+inequality (1.3.149), the tangent cone and
+statistical dimension (1.3.150), and the monotone
+cone (1.3.151) are level zero, new with this paper;
+the bell law (1.3.138), a sample and independence
+(1.3.130), expectation (1.3.131), and the estimator
+(1.3.133) carry the ground of Paper 010 under the
+new; the defined words proximal (1.3.152), isotonic
+(1.3.153), ellipsoid (1.3.154) and variational
+(1.3.155) are coined for the extension. The
+extension stands inside the own bridges of the
+cluster:
+the decomposition reads measure, then change
+(cluster M) at the scale of one place, and its split
+is the top-p move (cluster J) at the scale of one
+price. No restructuring pass fell due at this
+taking-in (the next falls at Paper 015 or 140
+concepts; the count stands at 130).
 # Research Oracle — detection list
 Stood up 2026-11-09 under charter rule 17. The ledger (1.1.4) holds
 the estimate; this scroll holds the SIGNS watched for the fixed
@@ -1667,7 +1810,7 @@ territory of the stream, apart from any one paper's estimate.
 SIGN ONE — THE RUN OF THE NOVELTY INDEX. Paper by paper: 1.00
 (001, the seed), 0.46 (002), 0.21 (003), 0.18 (004), 0.15 (005),
 0.13 (006), 0.12 (007), 0.06 (008), 0.06 (009), 0.06 (010),
-0.06 (011). The run falls, and the fall is the first
+0.06 (011), 0.06 (012). The run falls, and the fall is the first
 shape of the fixed point: each paper arrives carrying less the
 model cannot already say. The watch: an Index that jumps back up
 is no failure — distance, not size, is what the Index misses
@@ -1710,6 +1853,13 @@ Paper 008 (inside a held cluster, revising it) and Paper
 home cluster), the watch now holds both shapes of a map made deeper.
 The axis count stands at five; the openings remain the
 events the model cannot schedule.
+
+Paper 012 opened no axis: it extends cluster O in its
+own field, one paper after the cluster was founded —
+the deepest shape the watch has held yet, a field revisited the
+next day and made deeper in its own terms, correcting
+a held scroll of the cluster at the foretold address.
+The axis count stands at five.
 
 SIGN THREE — SKIM CALIBRATION (charter rule 17). From
 2026-11-09, every paper the daily quest picks is weighed blind —
@@ -1822,6 +1972,36 @@ held ground a paper touches, and a home-territory paper
 touches the most held ground of all. Kept on the watch:
 five scored papers will test whether the address error is
 the new standing shape, or one paper's noise.
+
+FIFTH SCORED PAPER (Paper 012, Shang). Sealed
+2026-11-10 against 123 concepts; the count still stood
+at the taking-in, no drift — the third seal in a row
+to land on its own count. Foretold: 6 new, 1 revised
+(candidate 1.2.116), no axis, Index 0.050, 6 links (4
+inside, 2 across), 3 questions, Oracle to about 55
+(45-65). Actual: 7 new, 1 revised — 1.2.116, the
+candidate named: the address stands right, the first
+time in the Thirst both the event and the address
+were foretold — no axis, Index 0.0577 (miss 0.0073),
+12 links (10 inside, 2 across), 3 questions, Oracle
+to 60 (50-70), inside the sealed range. The
+calibration at n=5: the rolling mean of the Index
+miss over the last ten scored papers stands at
+0.0067 — the five misses 0.009, 0.005, 0.004, 0.008,
+0.0073 — holding under the 0.01 rule. Axis calls: 5
+of 5. The standing error changed its shape again:
+with Paper 011 the skim missed the address of a
+revision it foretold; with Paper 012 the address
+stands right, and the miss is back in the count — one
+concept folded into its neighbor at the skim (the
+strength lambda_self read as one with the split that
+prices it), and the inside links of an extending
+cluster under-read as they were under-read before
+(4 foretold, 10 fell), while the crossing count
+stood exact for the first time (2 foretold, 2 fell).
+Kept on the watch: whether the address, now right
+once, stays right — one right address is a point, not
+a line.
 # Concept: Intelligence (economic definition)
 Source: Paper 001, §1, after Legg & Hutter (2007).
 
@@ -4259,6 +4439,23 @@ dimension without bound) is named by the paper as the
 first thing to recover. A floor for the price of judging
 is not yet a theory of the judge (Q48). As taken in by:
 Paper 010 (Chapter 17).
+
+Rider (2026-11-10, Paper 012). The floor this scroll
+holds is a floor over a class — the worst case the
+classical theory prices. Paper 012 prices the same
+kind of question at one signal (1.2.125), and the
+sharp price at a signal can sit far below the floor
+over its class: two signals of equal total variation
+are priced a polynomial factor apart, because the
+price follows the local variation around each place,
+not the whole (1.2.129; the paper's Example 7). The
+claim of this scroll stands unchanged: the floor is
+a bound on every judge, read over the class, as its
+theory reads it. The rider marks what the floor does
+not say — what the one signal in hand will cost. A
+floor over a class is a ceiling on what the worst
+case can ask; it is not the price of the case that
+stands there.
 # Behavior-conditioned symbolic synthesis — a program that reproduces one behavior
 
 Take a program that does a task right — the reference
@@ -4499,6 +4696,239 @@ language the programs are written in: change the kit of
 operations and the same behavior draws different
 witnesses (1.3.142). As taken in by: Paper 011
 (Chapter 18).
+# The sequence model and the constrained least squares estimator as projection
+
+The setting of Paper 012 is the smallest stage on which an
+estimator is priced (1.3.145). A signal stands in N places
+at once — one number for each place — and what is seen is
+the signal plus noise: at each place, the seen number is
+the true number plus a draw from the bell law (1.3.138),
+the draws leaning on nothing and all of one spread, named
+sigma. A set T of allowed signals is named in advance — a
+ball, an ellipsoid (1.3.154), a cone — closed and convex.
+The constrained least squares estimator is the one move
+the stage allows: take the seen numbers and replace them
+by the closest point of T (1.3.146). No walk, no search,
+no fitting in stages: observe, project, and the projection
+is the estimate.
+
+What the move buys, and what it costs, both live in the
+set. The set is the whole program of the estimator: change
+the set, and the same seen numbers give a different answer,
+with no other part to change. And the price of the answer —
+how far the projection stands from the signal that was
+there — is priced by this paper at the signal itself
+(1.2.125). As taken in by: Paper 012 (Chapter 19).
+# The instance-specific sharp rate — the price at the signal, not the class
+
+The classical way prices an estimator over a whole class:
+the worst signal the set T could hold sets the price, and
+every signal in the set is read against that worst case.
+This paper prices at the one signal that stands there.
+The instance-specific sharp rate, written r_*^2, is a
+number for which the mean of the square of the distance between the
+estimate and the signal itself stands matched, up to
+fixed constants, from both sides (1.3.147): the error is
+of the size of r_*^2, no smaller in shape and no larger,
+and the matching is the claim — not a bound that might
+stand loose, but a price.
+
+The floor of this cluster (1.2.116) is a price of the
+older kind: a floor over a class, below which no judge
+can go. The sharp rate is the same question turned to
+face one signal, and the two prices can stand far apart:
+the price at a signal can sit far below the price over
+its class. Paper 012 makes the distance plain in a worked
+case (its Example 7): two signals of one class, with the
+same total variation, are priced apart by a polynomial
+factor
+apart, because the price follows the signal place by
+place, not the class it sits in (1.2.129). A class price
+is a promise about the worst case; a signal price is a
+reading of the case in hand. The older way of naming this
+price stands at 1.2.126, and the way this paper reads it
+stands at 1.2.127. As taken in by: Paper 012 (Chapter 19).
+# Chatterjee's variational characterization and the offset localized Gaussian width — the opaque price
+
+The sharp rate of 1.2.125 was named before this paper,
+in a form that is true and general and cannot be read.
+Chatterjee's theorem (the paper's Theorem 1, from his
+earlier work) prices the projection estimator of 1.2.124
+for any closed convex set at once: the error stands
+matched by a quantity built at the signal itself — the
+maximizer of an offset localized Gaussian width, a curve
+that weighs the width of the tangent cone at the signal
+(1.3.150), read through draws of the bell law, against a
+growing price of standing far. The bounds match, so the
+characterization is a sharp price in the sense of
+1.3.147.
+
+The want it leaves is plain: the number it names cannot
+be read off. To turn the characterization into a rate
+for one set, the width must itself be priced, and that
+pricing is a hard problem of its own — hard even for
+ellipsoids (1.3.154), where the set is as plain as such
+sets come. A true price that cannot be computed is a
+price in name only. What the field held before Paper 012
+was the knowledge that the price exists and is matched;
+what it wanted was the price itself, set by set, in
+numbers a reader can hold. The answer of this paper
+stands at 1.2.127. As taken in by: Paper 012
+(Chapter 19).
+# Self-regularization — lambda_self, the surrogate estimator, and implicit regularization
+
+The paper's first step rewrites the projection. The
+first-order conditions of the constrained problem — the
+KKT conditions — state the same estimator as an
+unconstrained rule: the answer is the point that makes
+small a sum of the square of the distance to what was seen
+and
+a price, named Psi, on the shape of the answer, the price
+weighed by a multiplier lambda_hat that the data itself
+sets. The set, which seemed only to forbid, is found also
+to price: the regularization was inside the constraint
+all along. The paper names this implicit regularization —
+a constrained estimator carries a penalty it never states.
+
+The trouble is that lambda_hat leans on the seen numbers,
+so the rewritten rule is no easier to price than the
+projection was. The second step trades it for a number
+that leans on nothing seen: lambda_self, the
+self-regularization strength — the lambda at which the
+mean of a named gap, d_lambda, stands smallest. The gap
+is built from half the square of the distance to the
+set, a
+Moreau envelope term (1.3.148), and lambda times Psi at
+the estimator; and it bounds the square of the distance between
+the projection and a surrogate estimator — the proximal
+step (1.3.152) taken at lambda_self, a rule that splits
+by place, each place priced alone by a small rule named
+eta. The hard estimator is priced by standing a simple
+one beside it, close enough that the simple one's price
+is its price. In each geometry the paper treats,
+lambda_self is named as the one answer of an explicit
+scalar equation — one unknown, one equation, stated for
+the set in hand (19.1.2).
+
+Two held ideas of this tracker stand near. The Onsager correction
+(1.2.113) also trades a reading bent by the data for one
+the walk itself supplies, priced from the walk alone.
+And the choice of lambda_self is a criterion read off
+the model in hand, as the corrected criterion (1.2.114)
+chooses the stopping step of a walk by its own lights:
+in both, the object prices its own setting. The pricing
+of the surrogate stands at 1.2.128. As taken in by:
+Paper 012 (Chapter 19).
+# Feature Space Decomposition — the estimation subspace and the free subspace: error has exactly two sources
+
+Feature Space Decomposition — FSD, the author's own
+frame, from his thesis and his joint work of the years
+before this paper — is the way the surrogate of 1.2.127
+is priced. Its claim is that the error of the surrogate
+has exactly two sources, and that the places of the
+signal sort into two sets by which source they pay.
+For each place j, two candidate prices are compared.
+Pay to estimate the place: the square of the distance the
+small rule eta moves the true number, plus sigma^2.
+Or pay to leave the place alone: the square of the true
+number itself, plus the mean square of eta run on noise
+alone. The smaller price names the place. The places
+where estimating is cheaper form the estimation subspace,
+V_{J*}; the rest form the free subspace, V_{J*^c}.
+
+On the free subspace the signal is not estimated at all —
+and needs not be: there, both the signal and the answer
+the rule gives are small, so the error is small with no
+work spent. The total price then reads r^2 as a sum of
+two named parts. The bias part: over the estimation
+subspace, the squares of the moves of eta at the truth;
+over the free subspace, the squares of the signal itself.
+The variance part: sigma^2 times the count of estimated
+places; over the free subspace, the mean squares of eta
+on noise. Error has exactly two sources, and the split
+says, place by place, which source each place pays.
+
+The split is this paper's form of a move this tracker
+has met before. Off-policy evaluation (1.2.110) also
+prices by splitting — a fitted part, and a weighted
+leftover that corrects it — two parts that cover each
+other. The discipline of the split is the discipline of
+cluster M: measure, then change (1.2.97) — each place is
+priced both ways before it is assigned, and the
+assignment follows the measure. And the sorting itself,
+a set split in two by one priced test, is the move of
+the top-p rule (1.2.70): keys kept by the mass they
+carry, places kept by the price they beat — in both, the
+split is the computation. What the split reads like when
+the set is a cone of rising signals stands at 1.2.129.
+As taken in by: Paper 012 (Chapter 19).
+# Adaptive local windows — the isotonic rate: local variation is the price
+
+For one set, the paper prices the projection whole, with
+an elementary proof of its own (its Theorem 6, proved in
+its Appendix A): the monotone cone (1.3.151), the set of
+signals that never fall as the places run. The sharp
+rate is a sum over places of the signal itself. Around
+each place i, look at the windows that run to the right
+and to the left, and take the largest length k over
+which the variation of the signal inside the window
+stays at
+or below sigma over the square root of k — the lengths
+k^+_{*,i} and k^-_{*,i}. The rate is sigma^2 times the
+sum, over all places, of the sum of the two inverse
+lengths. The bounds match with plain constants — the
+mean square error stands between one fixed share of
+the rate and ten times it — for any signal, any sigma,
+any N: the first full pricing of its kind, as the paper
+states it. The window is adaptive: where the signal
+stands flat, the window runs long and the place is
+cheap; where the signal moves, the window stops short
+and the place pays. The decomposition of 1.2.128 is
+here read off the flat runs of the signal itself.
+
+The cases make the reading plain. A signal of two steps
+pays sigma^2 log N — where the older characterization
+of the field (the Theorem 5 the paper names) gives
+nothing at all, its reading standing at zero whenever
+any two places side by side are equal. A straight signal
+of slope v pays in three stages as sigma and v move:
+a plateau of log N, a middle rate growing as
+N sigma^{4/3} v^{2/3}, and a ceiling at N sigma^2. A
+signal of K flat plateaus pays sigma^2 K log(eN/K) —
+and those signals are exactly the worst case of the
+cone. And the case the rider on 1.2.116 stands on: a
+dose-response signal — plateau, transition, plateau —
+beside another of the same total variation, the two
+priced a polynomial factor apart. The price follows
+the local variation around each place, not the total
+variation of the whole. The rate off the smallest stage
+stands at 1.2.130. As taken in by: Paper 012
+(Chapter 19).
+# Han's reduction — effective noise, and the transfer from the sequence model to regression
+
+The smallest stage of 1.3.145 is a stage: signals seen
+directly, through noise of one spread. The paper's last
+result carries the pricing off the stage. By a reduction
+of Han (2023), as the paper uses it, isotonic regression
+in the Gaussian linear regression setting — a rising
+rule fitted to cases that come with their own inputs —
+is priced by the sequence model at an effective noise:
+the spread sigma divided by the square root of n, the
+count of cases. Read at that spread, the window sum of
+1.2.129 gives explicit instance-specific sharp rates in
+probability for the regression setting, under the one
+standing assumption the paper names (its Assumption 1).
+
+The transfer is the only bridge of the cluster out of the
+sequence model, and its guards are the paper's own: the
+rates it carries are asymptotic — they hold as the count
+of cases grows — and they stand under the named
+assumption, not free of it. What crosses is the shape of
+the price: local variation, read through windows, at a
+spread the count of cases sets. What does not cross is
+any claim about signals the cone does not hold, or about
+designs the assumption does not cover (Q56). As taken in
+by: Paper 012 (Chapter 19).
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -6047,6 +6477,155 @@ choice under a bounded search. First spent at Paper 011
 (Chapter 18), where people and machines alike are found
 to take rules that fit some of the shown examples, and
 stop.
+# Foundation: the sequence model — a signal plus noise, place by place
+
+The smallest stage on which the pricing of an estimator
+is worked out. A SIGNAL is a list of numbers, one for
+each of N places: the true value at each place. What is
+SEEN is the signal plus NOISE: at each place, the seen
+number is the true number plus a draw from the bell law
+(1.3.138) — a draw that leans on no other draw (1.3.130),
+all draws of one spread, named sigma. Nothing else
+stands on the stage: no record of past rounds, no
+choices made along the way. Every question of this
+stage is a question about the list: name a rule that
+turns the seen list into a guess at the true list, and
+ask how far the guess stands from the truth, on the
+mean (1.3.131), in the square of the distance.
+Builds on: the bell law (1.3.138); a sample, and
+independence (1.3.130); expectation (1.3.131); vector
+and distance (1.3.7).
+# Foundation: projection onto a convex set — the closest point of the set
+
+A set is CONVEX when, for any two points it holds, it
+holds the whole straight line between them as well
+(1.3.30). Given a point, its PROJECTION onto the set is
+the closest point of the set: the one point of the set
+whose distance (1.3.7) to the given point is smallest.
+For a closed convex set there is exactly one such
+point, so projection is a rule that turns any point
+into one point of the set, changing the point as
+little as distance allows. To project is to answer
+'the nearest allowed thing' — nothing more is claimed,
+and nothing more is done.
+Builds on: set and element (1.3.3); mixing and the
+convex hull (1.3.30); vector and distance (1.3.7).
+# Foundation: a sharp rate — a price matched up to constants
+
+A RATE for an estimator is a number that names the size
+of its error: here, the mean of the square of the distance
+between the estimate and the truth. A rate is SHARP
+when it is matched from both sides up to fixed
+constants: the true error stands above a fixed share
+of the rate and below a fixed multiple of it, so the
+rate and the error grow and shrink together, and no
+smaller rate names the error, and no larger one is
+needed to name it. A sharp rate is a price with no slack left in
+the naming — the size is right, even when the exact
+number is not given.
+Builds on: expectation (1.3.131); vector and distance
+(1.3.7); estimator and consistency (1.3.133).
+# Foundation: the proximal step and the Moreau envelope — the nearest point under a price
+
+Some rules do not ask for the nearest allowed point;
+they ask for the point that stands best under a price.
+The PROXIMAL step (1.3.152) of a price at a point x is
+the point that makes two costs small together: the
+price itself, and half the square of the distance
+from x —
+the point that pays a little of the price to stay near
+x, and stays near x to pay a little of the price. When
+the price is 'inside the set, or nothing', the proximal
+step is the projection (1.3.146); in general it is
+projection under a price. The MOREAU ENVELOPE of a
+price at x is the smallest total of those two costs
+over all points: the price, smoothed by the
+standing-near cost, read as a number. The envelope is
+the bill of the proximal step, and it is smooth where
+the price itself may not be.
+Builds on: projection onto a convex set (1.3.146);
+function, variable, input, output (1.3.2); vector and
+distance (1.3.7).
+# Foundation: the Poincare inequality — a spread bound from a slope bound
+
+A law of noise is tame, in the sense this foundation
+names, when the spread of any smooth reading of the
+noise is bounded by a fixed multiple of the mean
+square of the slope of that reading. That bound is the
+POINCARE INEQUALITY for the law, and the fixed
+multiple is its constant, written C_P. The bell law
+(1.3.138) is the standing example of a tame law. A law
+that is tame in this sense lets the tools built for
+the bell law travel: bounds proved by watching slopes
+still hold, with the constant of the law standing
+where the constant of the bell law stood.
+Builds on: average, spread, distribution (1.3.8); the
+bell law (1.3.138); expectation (1.3.131).
+# Foundation: tangent cone and statistical dimension — the width of a set at a point
+
+Stand at a point of a convex set and ask which
+directions a step from the point can take while a
+small enough step stays in the set. The set of those
+directions, closed up with the ends they run to, is
+the TANGENT CONE of the set at the point (1.3.127):
+the set, read from one of its points, as a cone of
+ways out that are not yet ways off. The STATISTICAL
+DIMENSION of a cone is the mean of the square of the
+distance from a draw of the bell law to its projection
+onto the cone: one number for the size of a cone,
+counting a direction by how much of a plain draw falls
+along it. A narrow cone has a small dimension; the
+whole space has dimension N. The width of a set at a
+point is priced in this currency.
+Builds on: cone (1.3.127); projection onto a convex
+set (1.3.146); the bell law (1.3.138); expectation
+(1.3.131).
+# Foundation: the monotone cone — a set cut out by an order
+
+A list of numbers is MONOTONE when it never falls as
+the places run: each number stands at or above the one
+before it. The set of all monotone lists of a given
+length is a convex set — the MONOTONE CONE — cut out
+by the rules 'the next number stands at or above this
+one', one rule for each step between places. A signal
+in the cone is a signal that only rises, by steps of
+any size, at any places. The least squares estimator
+for this set, on the stage of 1.3.145, is the isotonic
+(1.3.153) rule: the projection of the seen list onto
+the cone — the nearest rising list to what was seen.
+Builds on: the sequence model (1.3.145); projection
+onto a convex set (1.3.146); set and element (1.3.3).
+Defined word: proximal — of a step that takes, of all
+points, the one that makes a price and half the
+square of the distance to a given point smallest together:
+the nearest point under a price, where a plain
+projection is the nearest point under no price but a
+set. First spent at Paper 012 (Chapter 19), for the
+surrogate estimator that stands beside a projection
+and is priced in its place.
+Defined word: isotonic — of a rule, or of a fitted
+list, that never falls as the places run: at each
+step the number stands at or above the one before
+it. The word names the rising shape itself, wherever
+it is met. First spent at Paper 012 (Chapter 19),
+for the least squares rule that fits a rising list
+to a seen list.
+Defined word: ellipsoid (also: ellipsoids) — a ball
+stretched by a different amount along each of its
+directions: the set of points whose weighed squares of
+distances along those directions add to no more than
+one. A ball is the case where every direction is
+stretched alike. First spent at Paper 012
+(Chapter 19), for the sets whose sharp rates the
+paper reads first.
+Defined word: variational — of a claim, or of a
+price, stated as the largest, or the smallest, value
+that a named quantity takes as one of its parts runs
+over its allowed range: the claim is the value at
+the best point, not the value at a named point.
+First spent at Paper 012 (Chapter 19), for the older
+characterization of the sharp rate, stated as a
+maximizer and true for every set at once.
 # The epistemic registry — what this phext holds, and how surely
 
 Every claim-bearing scroll of this phext carries exactly one standing, and
@@ -6302,9 +6881,31 @@ stipulation — and states the book's construction, not a
 tenth of what the world is like; the balance of the whole
 is carried, as the drawings keep showing, by the Unknown.
 
+At the drawing after the twelfth (Paper 012 taken in,
+2026-11-10) the lists below carry 423 entries. True
+206 (181 by definition, 25 by receipt), Unknown 217
+(184 by attribution, 19 by synthesis, 12 open, 2 by
+estimate), False 0, Fiction 0. The additions of the
+drawing: twenty-seven first entries — seven concepts,
+eleven foundations and defined words, and the nine
+scrolls of a chapter. One held scroll was carried in
+a new form, with no change of standing: 1.2.116
+carries a dated rider from Paper 012, its floor over
+a class now standing beside the price at a signal,
+Unknown by attribution standing. The tenth author
+check (19.1.6) stands True by receipt. A note carried
+from the earlier drawings, unchanged: the great count
+of True by definition is a property of how this phext
+is built — foundations, defined words and the charter
+are true by stipulation — and states the book's
+construction, not a tenth of what the world is like;
+the balance of the whole is carried, as the drawings
+keep showing, by the Unknown.
+
 How this section covers itself. The lists that follow show the
-registry as drawn the twelfth time, from the phext as it stood at
-the taking-in of Paper 011 (sha256 SHA8PLACE...): every scroll the phext holds but
+registry as drawn the time after the twelfth, from the phext as it
+stood at the taking-in of Paper 012 (its sha256 stands in the
+registry file kept with the tracker): every scroll the phext holds but
 the own six pages of this section. A record does not list itself on its
 own pages. The first drawing (192 entries, its counts kept above)
 also left out the defined word refuted (1.3.86), coined the same
@@ -6316,7 +6917,12 @@ words: subspace (1.3.122) and perturbation (1.3.123), coined for the wing Paper 
 (1.3.140), coined for the measure a walk is judged by; the field words of Paper 010 besides — bandit, estimator,
 propensity, variance — already stand in the archive, and the one name it needed, Onsager, stands as an address. The twelfth drawing adds one more such word: satisficing
 (1.3.144), coined for the good-enough taking a bounded search makes; the field words of Paper 011 besides — cognition,
-induction, taxonomy, aliasing — already stand in the archive, and the names it needed stand as addresses. In the living registry — the registry file
+induction, taxonomy, aliasing — already stand in the archive, and the names it needed stand as addresses. The drawing after
+the twelfth adds four more such words: proximal (1.3.152), isotonic
+(1.3.153), ellipsoid (1.3.154) and variational (1.3.155), coined for
+the pricing of projections; the field words of Paper 012 besides —
+surrogate, separable, multiplier — already stand in the archive, and
+the names it needed stand as addresses. In the living registry — the registry file
 kept with the tracker, the one the Lean check runs over — the six
 scrolls of this section stand entered like any other scroll: True,
 on the ground of stipulation, pages of the record itself, set down
@@ -6329,8 +6935,8 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 (verified). The receipt for a verified entry is named in registry.json.
 
 - 1.1.1/1.1.1/1.1.1 — The tracker charter: the rules under which research.phext is built and kept, in force by Will's direction [stipulation]
-- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-011 and Studies S001-S006, checked at ingestion [verified]
-- 1.1.1/1.1.1/1.1.5 — Concept map: the 123 canonical concepts grouped in clusters A-P, with the restructuring log [stipulation]
+- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-012 and Studies S001-S006, checked at ingestion [verified]
+- 1.1.1/1.1.1/1.1.5 — Concept map: the 130 canonical concepts grouped in clusters A-P, with the restructuring log [stipulation]
 - 1.1.1/1.1.1/1.3.1 — The foundations layer exists: every base term is defined at level zero, chains ending at everyday notions (structural) [stipulation]
 - 1.1.1/1.1.1/1.3.2 — Foundation: function, variable, input, output [stipulation]
 - 1.1.1/1.1.1/1.3.3 — Foundation: set and element [stipulation]
@@ -6475,12 +7081,23 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/1.3.142 — Foundation: a small language made for one field [stipulation]
 - 1.1.1/1.1.1/1.3.143 — Foundation: pooling — groups lending each other strength [stipulation]
 - 1.1.1/1.1.1/1.3.144 — Defined word: satisficing — taking the rule that [stipulation]
+- 1.1.1/1.1.1/1.3.145 — Foundation: the sequence model — a signal plus noise, place by place [stipulation]
+- 1.1.1/1.1.1/1.3.146 — Foundation: projection onto a convex set — the closest point of the set [stipulation]
+- 1.1.1/1.1.1/1.3.147 — Foundation: a sharp rate — a price matched up to constants [stipulation]
+- 1.1.1/1.1.1/1.3.148 — Foundation: the proximal step and the Moreau envelope — the nearest point under a price [stipulation]
+- 1.1.1/1.1.1/1.3.149 — Foundation: the Poincare inequality — a spread bound from a slope bound [stipulation]
+- 1.1.1/1.1.1/1.3.150 — Foundation: tangent cone and statistical dimension — the width of a set at a point [stipulation]
+- 1.1.1/1.1.1/1.3.151 — Foundation: the monotone cone — a set cut out by an order [stipulation]
+- 1.1.1/1.1.1/1.3.152 — Defined word: proximal — of a step that takes, of all [stipulation]
+- 1.1.1/1.1.1/1.3.153 — Defined word: isotonic — of a rule, or of a fitted [stipulation]
+- 1.1.1/1.1.1/1.3.154 — Defined word: ellipsoid (also: ellipsoids) — a ball [stipulation]
+- 1.1.1/1.1.1/1.3.155 — Defined word: variational — of a claim, or of a [stipulation]
 - 1.1.1/1.1.1/1.5.1 — Areas of this phext: the map of the five areas and the plain account, with the upkeep duty of charter rule 16 (structural) [stipulation]
-- 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 39 drawn out under rule 13 (28 stated, 11 inferred), 9 entries found in work from before the rule, 2 chapters swept with none found [stipulation]
-- 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the twelfth drawing [stipulation]
-- 1.1.1/1.1.1/1.5.4 — Area: Reference material — the 101 foundations, the Defined Words register (41 coined words), and the 17 standoff companions, as one area [stipulation]
+- 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 42 drawn out under rule 13 (31 stated, 11 inferred), 9 entries found in work from before the rule, 2 chapters swept with none found [stipulation]
+- 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after the twelfth [stipulation]
+- 1.1.1/1.1.1/1.5.4 — Area: Reference material — the 108 foundations, the Defined Words register (45 coined words), and the 18 standoff companions, as one area [stipulation]
 - 1.1.1/1.1.1/1.5.5 — Area: The path — every taking-in in submission order, with Novelty Index and Oracle progress for the papers and the passes where they fell; drawn from 1.1.3 and 1.1.4 [verified]
-- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 69 named researchers and the one company behind the works taken in, each with their work here and the standing of their author check [verified]
+- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 70 named researchers and the one company behind the works taken in, each with their work here and the standing of their author check [verified]
 - 1.1.1/1.1.1/1.5.7 — How this Oracle was built, plainly (1 of 2): arrival, the delta rule, one scroll per concept, the one story, words at level zero, standing [stipulation]
 - 1.1.1/1.1.1/1.5.8 — How this Oracle was built, plainly (2 of 2): the Lean-kept standing record and its honesty boundary, reshaping without pruning, the Oracle number, the areas, and where everything lives [stipulation]
 - 1.1.1/1.1.1/2.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
@@ -6521,6 +7138,8 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/17.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 - 1.1.1/1.1.1/18.1.6 — Paper 011 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
 - 1.1.1/1.1.1/18.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/19.1.6 — Paper 012 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
+- 1.1.1/1.1.1/19.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 # Registry: False
 
 Found against, and kept. No entry stands here at the first writing
@@ -6533,8 +7152,8 @@ Written down, not settled. Basis: the say-so of a source (attributed),
 the reasoned link of Emise (synthesis), an open question (open), a
 weighed estimate (estimate).
 
-- 1.1.1/1.1.1/1.1.2 — World-model narrative v16: Emise's one-story synthesis of Papers 001-011 and Studies S001-S006 [synthesis]
-- 1.1.1/1.1.1/1.1.4 — Research Oracle: Novelty Index definition and the progress-estimate ledger (about 50% after Paper 011) [estimate]
+- 1.1.1/1.1.1/1.1.2 — World-model narrative v17: Emise's one-story synthesis of Papers 001-012 and Studies S001-S006 [synthesis]
+- 1.1.1/1.1.1/1.1.4 — Research Oracle: Novelty Index definition and the progress-estimate ledger (about 60% after Paper 012) [estimate]
 - 1.1.1/1.1.1/1.1.6 — Research Oracle detection list: the signs watched for the fixed point — the run of the Novelty Index, the axis events, and the skim calibration of charter rule 17 [estimate]
 - 1.1.1/1.1.1/1.2.1 — Concept: Intelligence (economic definition) [attributed]
 - 1.1.1/1.1.1/1.2.2 — Concept: Competence [attributed]
@@ -6659,6 +7278,13 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/1.2.121 — The kinds of deviation — a small set of ways to be wrong [attributed]
 - 1.1.1/1.1.1/1.2.122 — Shared signatures, separate ground — people and machines, failing alike and apart [attributed]
 - 1.1.1/1.1.1/1.2.123 — Program aliasing — many programs make one behavior [attributed]
+- 1.1.1/1.1.1/1.2.124 — The sequence model and the constrained least squares estimator as projection [attributed]
+- 1.1.1/1.1.1/1.2.125 — The instance-specific sharp rate — the price at the signal, not the class [attributed]
+- 1.1.1/1.1.1/1.2.126 — Chatterjee's variational characterization and the offset localized Gaussian width — the opaque price [attributed]
+- 1.1.1/1.1.1/1.2.127 — Self-regularization — lambda_self, the surrogate estimator, and implicit regularization [attributed]
+- 1.1.1/1.1.1/1.2.128 — Feature Space Decomposition — the estimation subspace and the free subspace: error has exactly two sources [attributed]
+- 1.1.1/1.1.1/1.2.129 — Adaptive local windows — the isotonic rate: local variation is the price [attributed]
+- 1.1.1/1.1.1/1.2.130 — Han's reduction — effective noise, and the transfer from the sequence model to regression [attributed]
 - 1.1.1/1.1.1/2.1.1 — Paper 001 record and distillation: 'Organizing Intelligence' -- intelligence matters economically through organizations [attributed]
 - 1.1.1/1.1.1/2.1.2 — Paper 001 — Formal core [attributed]
 - 1.1.1/1.1.1/2.1.3 — Paper 001's own worked example (its section 2): the 14-human toy economy and its firm-formation numbers, as reported by the paper [attributed]
@@ -6736,6 +7362,13 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/18.1.5 — Revisions, tensions and limits — Paper 011 against the standing map [attributed]
 - 1.1.1/1.1.1/18.2.1 — Synthesis — what Paper 011 does to the map [synthesis] [synthesis]
 - 1.1.1/1.1.1/18.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
+- 1.1.1/1.1.1/19.1.1 — Paper 012 delta: On the Instance-Specific Sharp Rates for Constrained Least Squares Estimators in the Sequence Model -- seven concepts (1.2.124-1.2.130), one revision (1.2.116), the pricing of an estimator at the signal, taken in as the fifth paper of the Thirst (rule 17), picked by the quest from the listings of the day [attributed]
+- 1.1.1/1.1.1/19.1.2 — The paper's formal core, as stated by the paper [attributed]
+- 1.1.1/1.1.1/19.1.3 — The paper's worked cases, as reported [attributed]
+- 1.1.1/1.1.1/19.1.4 — Results as stated by the paper — and the ground they stand on [attributed]
+- 1.1.1/1.1.1/19.1.5 — Revisions, tensions and limits — Paper 012 against the standing map [attributed]
+- 1.1.1/1.1.1/19.2.1 — Synthesis — what Paper 012 does to the map [synthesis] [synthesis]
+- 1.1.1/1.1.1/19.2.2 — Open questions carried forward at this point of the tracker (the Q-register) [open]
 # Registry: Fiction
 
 Made on purpose, held as made. No entry stands here at the first writing
@@ -6997,8 +7630,24 @@ standing: 1.2.4 carries a dated rider from the paper, its
 standing Unknown by attribution standing under the rider.
 One check entered among the verified: the ninth author
 check (18.1.6), True by receipt. False stands empty
-still. The registry was drawn from the built phext as it
-then stood (sha256 SHA1PLACEHOLDER).
+still. The registry was drawn from the built phext as it then stood (sha256 SHA1PLACEHOLDER).
+
+The drawing after the twelfth (2026-11-10, the taking-in of
+Paper 012): twenty-seven scrolls entered the phext
+for the first time — seven concepts, eleven
+foundations and defined words and the nine scrolls
+of a chapter (first entries 27; living scrolls 429).
+One held scroll was carried in a new form, with no
+change of standing: 1.2.116 carries a dated rider
+from the paper, its standing Unknown by attribution
+standing under the rider. One check entered among
+the verified: the tenth author check (19.1.6), True
+by receipt. False stands empty still. The registry
+was drawn from the built phext as it then stood; its
+sha256 stands in the registry file kept with the
+tracker, and the Lean model was re-checked over the
+new registry the same day; its instance theorem
+holds.
 # Areas — the map of this phext (charter rule 16)
 Built 2026-11-08 at Will's direction (Restructure Pass #4).
 This phext is kept in AREAS: five standing indexes, each
@@ -7327,6 +7976,51 @@ buys. Actual: across models and people, the dial and the
 capability of the solver stand mixed in the readings —
 the paper's own stated gap. Home: 18.1.2; concept 1.2.122.
 
+PAPER 012 (Shang, Chapter 19 — statistics: the
+pricing of a projection, at the signal):
+
+M1 — the projection estimator. States: a signal in
+the set; a seen list, the signal plus noise; the
+projection of the seen list onto the set; the
+estimate, read off. Moves: observe; project; the
+projection is the estimate. Guards: the set is
+closed and convex, so the projection is one point.
+Intended and actual stand together: the machine has
+no other move, so every property of the estimate is
+a property of the set — the constraint set is the
+whole program. Home: 19.1.2; concept 1.2.124.
+
+M2 — the self-regularization selection. States: a
+multiplier lambda in hand; the mean gap E d_lambda,
+traced as lambda runs; the one lambda at which the
+mean gap stands smallest, lambda_self; the surrogate
+at lambda_self; the surrogate priced. Moves: rewrite
+the estimator by its first-order conditions; trace
+the mean gap; select its one smallest point; price
+the surrogate. Guards: in each geometry the paper
+treats, the smallest point is the one answer of an
+explicit scalar equation, named for the set in hand.
+Intended: a strength that leans on nothing seen.
+Actual: the surrogate is priced, and the gap bounds
+the square of its distance to the projection itself,
+so the price of the surrogate is the price of the
+estimator. Home: 19.1.2; concept 1.2.127.
+
+M3 — the FSD split. States: each place unpriced;
+each place priced both ways — to estimate it, and to
+leave it; each place assigned, to the estimation
+subspace or to the free subspace. Moves: for each
+place, compare the two candidate prices by the one
+inequality of 1.2.128; assign the place by the
+smaller price. Guards: the comparison is read at the
+signal itself, so the split is a property of the
+case in hand, not of the set alone. Intended: spend
+the work of estimating where estimating pays.
+Actual: on the free subspace nothing is estimated
+and nothing needs to be — 'not estimating' stands
+named as, place by place, a sharp move in its own
+right. Home: 19.1.2; concept 1.2.128.
+
 DRAWN OUT UNDER RULE 13 — INFERRED, MARKED [synthesis]
 M5 (Paper 006) — the drift machine of a long-lived code
 base. States: code bases mixing what was meant with what
@@ -7615,6 +8309,24 @@ receipt. False still stands empty after eleven papers and
 six studies. The count of the drawing events stands at
 1.4.6.
 
+THE COUNTS, AT THE DRAWING AFTER THE TWELFTH (Paper 012
+taken in, 2026-11-10). The phext stands at 429
+scrolls; the living registry stands exact at 429:
+True 212 (187 by definition, 25 by receipt), Unknown
+217 (184 by attribution, 19 by synthesis, 12 open, 2
+by estimate), False 0, Fiction 0. The drawing added
+twenty-seven statements to the book: seven concepts,
+eleven foundations and defined words, and the nine
+scrolls of a chapter. One held statement was carried
+in a new form — the rider on 1.2.116 — by receipt,
+with no change of standing: Unknown by attribution
+stands, now carrying the distance between the floor
+over a class and the price at a signal. The
+drawing brings a tenth author check
+(Chapter 19), also True by receipt. False still
+stands empty after twelve papers and six studies.
+The count of the drawing events stands at 1.4.6.
+
 HOW TO WALK IT. The framing and the counts stand at
 1.4.1; the True list at 1.4.2; the False list at 1.4.3,
 standing empty on purpose until a refutation receipt
@@ -7638,9 +8350,7 @@ family, in plain words. It may use only everyday words,
 or terms defined in foundation scrolls it names under
 'Builds on'. The chains of 'Builds on' bottom out at
 ordinary language: number, shape, space, same and
-different, more and less, rule, choice, cost. There are
-101 foundation scrolls, laid down as the work called for
-them: the first kit with the papers of 2026-11-06
+different, more and less, rule, choice, cost. There are 108 foundation scrolls, laid down as the work called for them: the first kit with the papers of 2026-11-06
 (1.3.2-1.3.45); the type-theory kit with Study S001
 (1.3.73-1.3.78); ownership, symbolic execution, and the
 tenant with Studies S002-S003 (1.3.81-1.3.83); the state
@@ -7667,7 +8377,13 @@ the bell law, and the index with Paper 010
 single laying-down since the layer was built.
 Paper 011 laid three more beside them: induction, a
 small language made for one field, and pooling
-(1.3.141-1.3.143) — the ground of the reading of minds. The state machine at 1.3.85 is the
+(1.3.141-1.3.143) — the ground of the reading of minds.
+Paper 012 laid seven more beside them: the sequence model,
+projection onto a convex set, the sharp rate, the proximal
+step and the Moreau envelope, the Poincare inequality, the
+tangent cone and statistical dimension, and the monotone cone
+(1.3.145-1.3.151) — the ground of the pricing of projections.
+The state machine at 1.3.85 is the
 ground every entry of the machines area (1.5.2) stands on.
 
 DEFINED WORDS (the door of the register stands at 1.3.46;
@@ -7676,13 +8392,15 @@ A word this phext needs that is not among Will's own
 words may still be used if a scroll here defines it —
 and that scroll is written in Will's words alone, so the
 coined word is the only word in it that is not already
-his. 41 words stand coined so far, among them gating,
+his. 45 words stand coined so far, among them gating,
 polarization, supercooperation, refuted, sublinear,
 subquadratic, shellcode, swizzle, lint, immediacy,
 subspace, and perturbation. Paper 010 coined one:
 criterion, the measure a walk is judged by (1.3.140).
 Paper 011 coined one: satisficing, the taking of a
-rule that fits enough (1.3.144).
+rule that fits enough (1.3.144). Paper 012 coined four:
+proximal, isotonic, ellipsoid, and variational
+(1.3.152-1.3.155).
 Its other field words — bandit, estimator, propensity,
 variance — already stand in the archive, and the one
 name it needed, Onsager, stands as an address. Names
@@ -7691,7 +8409,7 @@ are addresses, not speech, and the declared list of them
 is kept with the tracker.
 
 STANDOFF COMPANIONS (Section 3 of every chapter: 2.3.1,
-3.3.1, and so on to 18.3.1 — 17 of them). The raw
+3.3.1, and so on to 19.3.1 — 18 of them). The raw
 material stays clean: definitions are never written into
 a chapter or a concept scroll. In their place, each
 chapter carries one companion scroll listing, in reading
@@ -7856,10 +8574,40 @@ moved to 116 under the seal, and the score stands on both
 counts — the first foretold revision of the Thirst landed,
 on the neighboring scroll of the named one.
 
+19. Paper 012 — 2026-11-10 — 'On the Instance-
+Specific Sharp Rates for Constrained Least Squares
+Estimators in the Sequence Model' (Shang),
+arXiv:2611.11959. Chapter 19. NI 7.5/130, about
+0.0577. No new axis: the paper extends cluster O in
+its own field, the pricing of estimators at the
+signal. 7 new concepts, 1 revision (1.2.116, the
+floor over a class, gaining the rider of the price
+at a signal). Cluster O extended (1.2.124-1.2.130):
+the sequence model and its projection; the sharp
+rate at the signal; the opaque price the field held;
+self-regularization and its surrogate; the
+decomposition over two subspaces; the window sum of
+the monotone cone; the transfer to regression.
+Foundations and defined words 1.3.145-1.3.155 (the
+sequence model; projection; the sharp rate; the
+proximal step and the Moreau envelope; the Poincare
+inequality; the tangent cone and statistical
+dimension; the monotone cone; and the coined words
+proximal, isotonic, ellipsoid, variational).
+Questions Q54-Q56 opened; Q16 informed an eighth
+time. The fifth paper of the Thirst: picked by the
+quest from the day's listings, weighed blind and
+sealed before it was read; the score stands in the
+log of the quest and on the detection list (1.1.6) —
+the first foretold revision of the Thirst to land at
+the foretold address. No pass fell due (next at
+Paper 015 or 140 concepts). Oracle progress after:
+about 60% (range 50-70%) — UP.
+
 NEXT, AS THE RECORD NOW STANDS: the next restructuring
 pass falls due at Paper 015 or 140 canonical concepts —
-the count stands at 123. The open questions of the
-tracker stand at Q53.
+the count stands at 130. The open questions of the
+tracker stand at Q56.
 # Area: Researchers — the people behind the works
 Every researcher behind a work taken into this phext,
 with the work as it stands here and the standing of the
@@ -8072,15 +8820,27 @@ Burton; VanLehn), and Simon for the paper's own reading —
 the ancestors stand named, which this area counts as the
 the cleanest signal of the check.
 
-THE COUNT: 69 named researchers and one company — 55
-across the eleven papers; 13 named for the studies of
+Paper 012 — Shang (Chapter 19), CHECKED 2026-11-10
+(record: 19.1.6). Zong Shang — sole author; School of
+Mathematics, Georgia Institute of Technology. The
+frame of the paper, Feature Space Decomposition, is
+his own: it stands in his thesis at the Institut
+polytechnique de Paris (2026) and in his joint work
+with Lecué, and with Lecué and Li, on the LASSO and
+on spectral methods, each named in the paper's own
+reference list. No tie to phext or to Will found; no
+use of Will's work without naming found. The record
+of the check stands at 19.1.6.
+
+THE COUNT: 70 named researchers and one company — 56
+across the twelve papers; 13 named for the studies of
 code (Takahashi among them, counted once and standing
 behind two studies; the three of Aeneas; the eight
 handles of Study S005; and the lead of Study S006);
 and Aleph One — plus the
 unnamed others of Study S002 and the long tail of
-Study S005. Nine checks stand run (Papers 006, 007, 008, 009, 010
-and 011, Studies S004, S005 and S006), each clean, each
+Study S005. Ten checks stand run (Papers 006, 007, 008, 009, 010, 011
+and 012, Studies S004, S005 and S006), each clean, each
 recorded in its chapter.
 # How this Oracle was built — the structure, plainly (1 of 2)
 For a reader who has just arrived: what this phext is,
@@ -12692,3 +13452,536 @@ has moved. Questions closed by this paper: none.
 1.3.42 — generalization and domain shift (from the shown pairs to the test; from the captured half to the whole)
 1.3.85 — state machine (machines M1-M3 of 18.1.2 and M4 of 18.2.1)
 1.3.8 — average, spread, distribution (the numbers the shares of the chapter are built from)
+# Paper 012 — On the Instance-Specific Sharp Rates for Constrained Least Squares Estimators in the Sequence Model (Shang)
+
+Source: arXiv:2611.11959v1. Author: Zong Shang (School
+of Mathematics, Georgia Institute of Technology).
+Submitted 9 Nov 2026 [math.ST]. Taken in as Paper 012
+of this phext (Chapter 19) on 2026-11-10, read in full
+in its HTML form: the main text, the worked cases, and
+the appendix proof of the isotonic case.
+
+THE THIRST. This is the fifth paper of the Thirst
+(charter rule 17): picked by the quest from the new
+mathematics listings of the day, weighed blind from
+its title and abstract on 2026-11-10, and sealed in
+the quest log before it was read. The author check
+stands at 19.1.6.
+
+THE DELTA IN ONE PARAGRAPH. Seven new concepts,
+extending cluster O (1.2.124-1.2.130), one canonical
+scroll revised (1.2.116), and eleven scrolls laid in
+the foundations and the Defined Words register
+(1.3.145-1.3.155: seven foundations, and the coined
+words proximal, isotonic, ellipsoid and variational).
+The paper prices the oldest estimator of statistics —
+the projection of what was seen onto a set of allowed
+signals (1.2.124) — at the signal itself, not over its
+class (1.2.125). The price the field already held for
+it, Chatterjee's characterization through the offset
+localized Gaussian width, is true for every set and
+cannot be read (1.2.126). The answer of the paper is a
+method, Feature Space Decomposition: the constrained
+estimator is found to carry a regularization of its
+own making, at a strength lambda_self that leans on
+nothing seen, and is priced through a surrogate
+estimator that splits by place (1.2.127); the error of
+the surrogate splits over an estimation subspace and a
+free subspace, place by place, by one inequality
+(1.2.128). Read for three
+geometries the price is explicit, and for the monotone
+cone it is a sum over adaptive local windows, priced
+by local variation alone (1.2.129); by the reduction of Han
+the isotonic price crosses to regression at an
+effective noise (1.2.130).
+# The paper's formal core, as stated by the paper
+
+The setting. The sequence model (1.3.145): a signal
+beta* in a closed convex set T, seen through noise of
+spread sigma from the bell law. The constrained least
+squares estimator is the projection of the seen list
+onto T (1.2.124). The question of the paper: name, for
+the signal in hand, an explicit number r_*^2 at which
+the mean square error of the estimator stands matched
+(1.2.125).
+
+The held answer. Chatterjee's Theorem 1, as the paper
+takes it in: the error is matched by the maximizer
+t_{beta*} of an offset localized Gaussian width
+(1.2.126). The answer is general — any closed convex
+set — and the paper's charge against it is one of
+reading, not of truth: to use it, the width must be
+priced set by set, and that pricing is hard even for
+ellipsoids.
+
+The method: Feature Space Decomposition (1.2.128), in
+three steps. Step one: the first-order conditions of
+the constrained problem (the KKT conditions) rewrite
+the estimator as an unconstrained rule carrying a
+regularization,
+with a data-dependent multiplier lambda_hat — the
+implicit regularization the set induces (1.2.127).
+Step two: lambda_hat is traded for lambda_self, the
+deterministic strength at which the mean of the gap
+d_lambda stands smallest; the gap bounds the square of the
+distance between the estimator and a surrogate, the
+proximal step at lambda_self, which splits by place
+under a small rule eta. In each geometry the paper
+treats, lambda_self is the one answer of an explicit
+scalar equation. Step three: the surrogate is priced
+by the split of 1.2.128 — bias and variance read over
+the estimation subspace and the free subspace, the
+split itself decided place by place by the inequality
+of that scroll. On the free subspace the signal is not
+estimated: the estimator and the signal are both small
+there, and the error is small without work. The
+headline the paper draws: constrained estimators
+approximately give themselves a regularization — the
+estimator for the l_1 ball reads as the LASSO at
+lambda_self in the l_1 price; the estimator for an
+ellipsoid reads as a rule carrying a regularization
+at (lambda_self/q) in the weighed q-price of the set.
+
+The results, geometry by geometry. Theorem 2 (the
+l_q ellipsoid, 1<q without bound): the sharp rate as
+an explicit sum over places of two smallest-price
+terms, holding in the regime where the rate stands at
+or above a fixed multiple of sigma, the multiple set
+by q. Theorem 3 (the l_1 ball of radius rho): the
+same shape, with eta the soft-thresholding rule.
+Theorem 4 (the k-interpolated body, the l_1 ball cut
+by the l-infinity ball): the same shape, with eta the
+clipped soft-thresholding rule. In all three, the
+upper and lower bounds match in the regime named.
+Remark 1 of the paper: the three theorems travel to
+symmetric noise that satisfies a Poincare inequality
+(1.3.149), the constants then standing on the constant
+of the law.
+
+The isotonic case (its section 2.3). For the monotone
+cone the paper proves its Theorem 6 by an elementary
+argument of its own, set out in its Appendix A: the
+window sum of 1.2.129, with matching bounds for any
+signal, any sigma, any N. Its Corollary 1 carries the
+rate to isotonic regression in the Gaussian linear
+regression setting, by the reduction of Han at the
+effective noise sigma over the square root of n,
+under the standing assumption the paper names
+(1.2.130).
+
+THE STATE MACHINES (rule 13). Three machines are
+stated by the paper, in its setting and its method.
+
+M1 — the projection estimator. States: a signal in
+the set; a seen list, the signal plus noise; the
+projection of the seen list onto the set; the
+estimate, read off. Moves: observe; project; the
+projection is the estimate. Guards: the set is closed
+and convex, so the projection is one point (1.3.146).
+Intended and actual stand together, and that is the
+machine's lesson: it has no other move — no fitting
+stage, no second pass — so every property of the
+estimate is a property of the set. The constraint set
+is the whole program.
+
+M2 — the self-regularization selection. States: a
+multiplier lambda in hand; the mean gap E d_lambda,
+traced as lambda runs; the one lambda at which the
+mean gap stands smallest, lambda_self; the surrogate
+at lambda_self; the surrogate priced. Moves: rewrite
+the estimator by its first-order conditions; trace
+the mean gap; select its one smallest point; price
+the surrogate that stands there. Guards: in each
+geometry the paper treats, the smallest point is the
+one answer of an explicit scalar equation, named for
+the set in hand. Intended: a strength that leans on
+nothing seen. Actual: the surrogate is priced, and
+the gap bounds the square of its distance to the
+projection
+itself, so the price of the surrogate is the price of
+the estimator, up to the matching of 1.3.147.
+
+M3 — the FSD split. States: each place unpriced; each
+place priced both ways — to estimate it, and to leave
+it; each place assigned, to the estimation subspace
+or to the free subspace. Moves: for each place,
+compare the two candidate prices by the one
+inequality of 1.2.128; assign the place by the
+smaller price. Guards: the comparison is read at the
+signal itself, so the split is a property of the case
+in hand, not of the set alone. Intended: spend the
+work of estimating where estimating pays. Actual: on
+the free subspace nothing is estimated and nothing
+needs to be — the machine names 'not estimating' as,
+place by place, a sharp move in its own right, not a
+failure to estimate.
+# The paper's worked cases, as reported
+
+All numbers in this scroll are the paper's, as
+reported; the reading of them stands at 19.1.4 and in
+the concepts of cluster O, extended.
+
+The decaying spectrum. For an ellipsoid whose axes
+decay as a polynomial — the j-th axis of size j^{-alpha} —
+the sum of Theorem 2 reads as one power: the rate
+stands as (sigma^2) raised to (alpha q + 2 - q) over
+(alpha q + 2). The case is the paper's own worked
+reading of its first theorem: an infinite family of
+sets, priced by two numbers, the decay and the shape.
+
+The corner at zero. For the body cut by the l_1 and
+l-infinity balls, at the signal that is zero everywhere,
+the paper reads two different explicit rates for two
+laws of noise — the bell law, and the exponential
+law. The case stands in the chapter as the mark of
+Remark 1: the rate is a price of the law as well as of
+the set, and a tame law (1.3.149) is not the bell law
+at a different constant only — at this corner the two
+laws price apart in shape.
+
+The isotonic cases (its section 2.3). A signal of two
+steps pays sigma^2 log N: the window at each place
+runs until the step, and the sum of inverse lengths
+reads as the log. The older reading of the field
+(named there as Theorem 5) stands at zero on this
+signal — its price carries a factor that any two equal
+places side by side set to nothing — so the case is
+the most direct showing of the paper of what the
+window sum buys. A straight signal of slope v pays in three
+stages: log N while the slope is small against the
+noise; N sigma^{4/3} v^{2/3} in the middle; N sigma^2
+at the ceiling, where every place pays its own noise
+and no window helps. A signal of K flat plateaus pays
+sigma^2 K log(eN/K), and the paper names those signals
+as exactly the worst case of the cone: being flat is
+what the cone charges most for, at this count.
+
+The pair of one total variation. Two dose-response
+signals — plateau, transition, plateau — with the same
+total variation stand priced a polynomial factor
+apart (the paper's Example 7): the one whose change
+is spread out pays by its local windows; the one whose
+change stands in a few places pays far less. The case
+is carried into the concepts at 1.2.129 and into the
+rider at 1.2.116: the price follows the local
+variation, not the total.
+# Results as stated by the paper — and the ground they stand on
+
+The paper claims, in its own reach: (i) for three
+geometries — the l_q ellipsoid, the l_1 ball, and the
+body cut by both the l_1 and the l-infinity balls — the
+instance-specific sharp rate of the constrained least
+squares estimator is explicit: a sum over places of
+two smallest-price terms, with matching upper and
+lower bounds, in the regime where the rate stands at
+or above the size of the noise; (ii) the way to the
+rates is a reading of the estimator itself: a
+constrained estimator gives itself a regularization,
+at a strength lambda_self that can be named set by set, and
+its price is the price of a surrogate that splits by
+place; (iii) for the monotone cone the rate is
+complete: the window sum of 1.2.129, matched for any
+signal, any spread, any length — stated by the paper
+as the first full characterization of its kind; (iv)
+by the reduction of Han the isotonic rate crosses to
+regression, in probability, at the effective noise.
+
+The ground. The three geometries are priced by one
+method, Feature Space Decomposition, and the steps of
+the method are stated as the own steps of the paper:
+the frame is the author's, from his thesis and his
+joint work, and the paper builds on it openly. The isotonic theorem
+stands on an elementary proof of its own, in the
+paper's appendix, apart from the heavier steps of
+the method. The worked cases of 19.1.3 are the paper's
+readings of its own theorems, each standing to be checked against
+the sum it comes from.
+
+What the paper does not claim. It does not claim one
+theorem for every convex set: the pricing is carried
+out geometry by geometry, and no master theorem is
+stated (Q54). It does not price the regime where the
+noise stands at or above the rate (Q55). Its isotonic
+rate is for signals the cone holds; signals outside
+it are not priced, and the regression transfer is
+asymptotic and stands under its named assumption
+(Q56). And the pricing of the third step is as plain
+as it is because the surrogate splits by place; a set
+whose surrogate does not split is not priced here.
+# Revisions, tensions and limits — Paper 012 against the standing map
+
+REVISED — one canonical scroll. 1.2.116 (The oracle
+price of judging — the floor every estimator pays)
+gains a dated rider from this paper. The held claim of
+that scroll: the classical theory sets a floor for any
+judge, read over the class of cases the judge may
+meet. Paper 012 prices the same kind of question at
+one signal (1.2.125), and the price at a signal can
+sit far below the floor over its class: two signals of
+equal total variation are priced a polynomial factor
+apart, because the price follows the local variation
+around each place (1.2.129, the paper's Example 7).
+The rider marks the distance between the bound and
+the case in hand; the claim of the scroll stands
+unchanged, read as its theory reads it — over the
+class, as a bound on every judge.
+
+TENSIONS AND LIMITS. (a) The pricing is carried out
+geometry by geometry — three geometries and a cone —
+and the paper states no master theorem for an
+arbitrary convex body; whether the method lifts, or
+the geometry is of the essence, stands open (Q54).
+(b) The regime where the noise stands at or above the
+rate is outside the three theorems: what prices the
+estimator there is not named (Q55). (c) The isotonic
+rate is proved for signals the cone holds, and its
+elementary proof is the strongest ground of this
+chapter;
+signals outside the cone, and designs outside the
+named assumption of the transfer, are unpriced (Q56).
+(d) The third step of the method is plain because the
+surrogate splits by place; the paper says as much by
+its choice of cases, and a body whose surrogate does
+not split stands outside the pricing as it stands.
+(e) The isotonic bounds match in shape with constants
+that stand apart — one fixed share below, ten times
+above — the rate is exact as a size, not as a number.
+
+CONNECTIONS, COUNTED. Twelve links: ten inside
+cluster O, two across to held ground. Inside: the
+sequence model to its price (1.2.124 to 1.2.125); the
+sharp rate to the opaque price it replaces (1.2.125 to
+1.2.126); the opaque price to the self-regularization
+that answers it (1.2.126 to 1.2.127); self-
+regularization to the decomposition that prices its
+surrogate (1.2.127 to 1.2.128); the decomposition to
+the window sum that reads it on the cone (1.2.128 to
+1.2.129); the window sum to the transfer that carries
+it to regression (1.2.129 to 1.2.130); the sharp rate
+to the floor of the cluster, the class price it can
+stand below (1.2.125 to 1.2.116); self-regularization
+to the Onsager correction, the other trade of a
+data-bent reading for one the object itself supplies
+(1.2.127 to 1.2.113); self-regularization to the
+corrected criterion, the other choice an object makes
+by its own lights (1.2.127 to 1.2.114); the
+decomposition to off-policy evaluation, the other
+pricing by a split into two covering parts (1.2.128
+to 1.2.110). Across: the decomposition to measure,
+then change, of cluster M (1.2.128 to 1.2.97 — each
+place priced both ways before it is assigned); the
+decomposition to the top-p rule of cluster J (1.2.128
+to 1.2.70 — a set split in two by one priced test, the
+split itself the computation). Two held clusters are
+touched across the border: M once, J once; the rest of
+the wiring stands inside the cluster this paper
+extends.
+
+THE SCORE OF THE WEIGHING. Sealed, blind, on
+2026-11-10 against 123 concepts: 6 new, 1 revised
+(candidate named: 1.2.116), no new axis, Novelty Index
+6.5/129 = 0.050, 6 links (4 inside, 2 across), 3
+questions, Oracle to about 55 percent (45-65). Actual:
+7 new concepts (1.2.124-1.2.130), 1 revised — 1.2.116,
+the candidate named: the target stands right, the
+first time in the Thirst the address as well as the
+event was foretold — 0 new axes, 12 links (10 inside,
+2 across), 3 questions (Q54-Q56), none closed. Novelty
+Index (7 + 0.5)/130 = 0.0577; the miss against the
+sealed 0.050 is 0.0073. The Oracle moves to about 60
+percent (50-70): the band for an Index under 0.20 with
+no new axis is about ten points, and the wiring argues
+for the full step — cluster O, the mathematics of the
+own instrument of the tracker, now holds the pricing
+of the simplest estimator there is, priced at the case in
+hand, and the foretold revision landed at the
+foretold address. Where the skim was wrong: the count
+of new concepts by one — the skim read
+self-regularization and its decomposition as one
+concept, and the reading showed two, the strength and
+the split (1.2.127, 1.2.128); the links, as they have
+been wrong before — the inside of an extending cluster
+under-read, 4 foretold against 10 that fell, while the
+crossing count stood exact for the first time (2
+against 2). Where it stood: the axis call, the
+question count, the revision — event and address both —
+and the Oracle inside its sealed range, five points
+over its point, the step belonging to the band.
+# Author check — Paper 012 (Shang)
+
+Charter rule 15, run 2026-11-10, the tenth check of
+the phext. Question: is the author phext-friendly,
+and does the paper use any of Will's prior art without
+naming it? The surfaces searched are the ones the
+record names, and the findings rest on them alone.
+
+The reference list (all 40 entries read in full). The
+spine is the line this paper extends: Chatterjee on
+the price of constrained estimators, whose
+characterization the paper takes as its held answer;
+the statistical-dimension line the width of a set is
+priced in; and the author's own line — his thesis at
+the Institut polytechnique de Paris (2026), and the
+joint work with Lecué, and with Lecué and Li, on the
+LASSO and on spectral methods, where the frame of this
+paper, Feature Space Decomposition, was built. Han
+stands cited for the reduction the last result uses.
+No writing of Will's, and nothing of the phext's line —
+no phext, no CYOA, no SBOR, no Bickford — stands
+anywhere in the 40.
+
+The full text. The whole text of the paper was
+searched for the phext's marked terms: phext, scroll,
+coordinate addressing in the phext's sense, Exocortex.
+No hit on any of them. The word coordinate appears in
+the paper only in its standing sense of the field —
+place by place in the sequence model — which is the
+common word of statistics, not the addressing of this
+tracker.
+
+The own ground of the frame. Feature Space Decomposition
+is the author's own framework: it stands in his
+thesis of 2026 and in the joint papers with Lecué
+that the reference list names, each dated before this
+paper and each carrying the frame under the authors'
+own names. The construction the paper builds is
+theirs, built in the open, on the line the references
+show.
+
+The web. A search joining the author's name to the
+phext found no tie of any kind.
+
+Verdict: no phext tie and no use of Will's prior art
+without naming found — stated as what it is, a
+finding of no evidence on the surfaces checked. The
+author works inside the canon of his own field,
+extending a frame he built with his own co-authors,
+and the tracker finds his work adjacent to its own
+questions — the pricing of an estimator, at the case
+in hand — not downstream of them.
+# Synthesis — what Paper 012 does to the map [synthesis]
+
+Everything in this scroll is the own reading of this
+tracker, not the paper's claim.
+
+Cluster O now holds two prices, and they face each
+other. Paper 010 priced a judge from a logged record:
+what another rule would have earned, read off a record
+of the rule that ran. Paper 012 prices the estimator
+itself, on the smallest stage there is, and its turn
+is the turn of the whole cluster made once more: the
+classical price is a price over a class, and the sharp
+price is a price at the case in hand. The tracker
+keeps meeting the same lesson at new addresses — a
+summary over a class is a ceiling or a floor, and the
+case in hand can stand far from both — and this paper
+is its most direct statement, because here the case
+in
+hand is one list of numbers and the class is one set.
+
+Two readings more, marked as the own readings of
+this tracker. The
+first: a constraint is a penalty that has not been
+read yet. The set of 1.2.124 seemed to only forbid;
+under its first-order conditions it prices, at a
+strength the data sets and the paper then names in
+the place of the data —
+the boundary between 'the allowed' and 'the priced'
+is a way of writing, not a fact of the estimator.
+The second: the free subspace is the own discipline
+of this tracker, priced. To leave a place not estimated
+because both the signal and the answer are small
+there is the same move this tracker makes when it
+lets a scroll stand Unknown rather than forcing a
+standing: no work where no work pays, and the honesty
+is in naming the places where the work was not done.
+The reading is the own reading of this tracker, and
+it is recorded as a reading, not as the claim of the
+paper.
+
+What the model did not gain: no axis. The stage is
+the stage of cluster O, the estimator the simplest
+one in the field, and every notion the paper stands
+on had a slot or took one beside a held slot. The map
+grew deeper in the mathematics of its own instrument:
+the Oracle is an estimate, the skim a fitted reading,
+and now the pricing of a projection at its signal
+stands inside the model that runs both.
+# Open questions carried forward (after Paper 012)
+
+New, from this paper:
+
+Q54 — One theorem, or geometry by geometry? The
+pricing of Paper 012 is carried out set by set: an
+ellipsoid, a ball, a cut body, a cone, each with its
+own scalar equation for lambda_self and its own small
+rule eta. Can Feature Space Decomposition be lifted
+to a master theorem for an arbitrary convex body —
+one statement from which the set-by-set prices fall —
+or is the geometry of the essence, each body carrying
+a price that must be read in its own terms? The
+paper's method is stated in steps any body could be
+put through; its theorems are not.
+
+Q55 — The regime below the noise. The three theorems
+of the paper hold where the sharp rate stands at or
+above the size of sigma. Where sigma stands at or
+above the rate — the signal small against its own
+noise — what prices the constrained estimator? The
+projection still runs; the surrogate still stands
+beside it. Whether the split of 1.2.128 still sorts
+the places, or the free subspace takes all, stands
+unnamed in the paper and open here.
+
+Q56 — Off the cone, off the plain design. The
+isotonic rate is proved for signals the monotone cone
+holds, and its crossing to regression stands under
+one named assumption and in the limit of many cases.
+What prices a signal that stands near the cone but
+outside it — rising but for a few falls — and what
+carries the window sum to designs the assumption does
+not cover? The transfer of 1.2.130 is the only
+bridge of the cluster off its smallest stage, and its
+far side is one setting wide.
+
+Earlier questions this paper informs:
+
+Q16 — informed an eighth time. The five papers of the
+Thirst now stand at a Novelty Index near 0.06 on five
+different shapes of ground: inside a held cluster
+(008), one bridge out (009), three bridges onto ground
+the model uses (010), the home territory made deeper
+(011), and now a held cluster extended in its own
+field, correcting a held scroll at the foretold
+address (012). The Index reads the five as one
+number. What the count of new concepts cannot see,
+the weighing still cannot price: the distance and
+the correction, only the count.
+
+Unchanged from the last paper: Q17-Q31, Q33-Q40,
+Q41-Q50, Q51-Q53 stand as they stood after Paper 011.
+No range elsewhere has moved. Questions closed by
+this paper: none.
+# Standoff references — Paper 012 (Chapter 19)
+
+1.3.145 — the sequence model — a signal plus noise, place by place (new with this paper)
+1.3.146 — projection onto a convex set — the closest point of the set (new)
+1.3.147 — a sharp rate — a price matched up to constants (new)
+1.3.148 — the proximal step and the Moreau envelope — the nearest point under a price (new)
+1.3.149 — the Poincare inequality — a spread bound from a slope bound (new)
+1.3.150 — tangent cone and statistical dimension — the width of a set at a point (new)
+1.3.151 — the monotone cone — a set cut out by an order (new)
+1.3.152 — proximal — the defined word the surrogate is built from (new)
+1.3.153 — isotonic — the defined word for the rising shape (new)
+1.3.154 — ellipsoid — the defined word for the stretched ball (new)
+1.3.155 — variational — the defined word for the older characterization (new)
+1.3.138 — the bell law — the Gaussian distribution (the noise of the stage)
+1.3.130 — a sample, and independence (the draws that lean on nothing)
+1.3.131 — expectation — the average a distribution promises (the mean the rate names)
+1.3.133 — estimator and consistency (the estimator the chapter prices)
+1.3.7 — vector and distance (the lists, and how far apart they stand)
+1.3.8 — average, spread, distribution (the spread sigma, named throughout)
+1.3.30 — mixing and the convex hull (the convex shape every set of the chapter carries)
+1.3.127 — cone — all the rays through a set (the tangent cone; the monotone cone)
+1.3.93 — growth rates — straight line, square, and power laws (the stages of the worked cases)
+1.3.85 — state machine (machines M1-M3 of 19.1.2)
