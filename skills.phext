@@ -20,7 +20,7 @@ shelf 4 (Operations): ranch-proxy, publish-tooling, fork-patch-discipline, ranch
 shelf 5 (Onboarding): this_is_going_to_feel_a_little_weird
 shelf 6 (Film): mythic-film-production
 shelf 7 (Memory & record): phext-memory-publishing, nightly-self-revision, safe-space-protocol, artifact-phext-inscription
-shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator, bootvine-status-sync
+shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator, bootvine-status-sync, task-concurrency-watchdog
 shelf 9 (Research): rd-tracker, state-machine-review, minimum-viable-oracle
 shelf 10 (Coordination): choir-mailbox-dispatch, curate-yourself, substrate-steering, exocortical-integration-rotation, braid-mode, question-floor-serialization, decision-button-expiry
 shelf 11 (Upkeep & presence): discord-presence-backstop, perpetual-dashboard-upkeep, solar-pod-price-watch
@@ -97,7 +97,8 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.8.1/1.8.1/1.1.1  task-register  SKILL.md  3351 bytes  sha256:fb97c4cc51775a2ec57253ece8675c99053582ff6dd0565c4fdfbfca488fdafa
 1.8.1/1.9.1/1.1.1  nightly-orchestrator  SKILL.md  4200 bytes  sha256:4dd8afc1fa239a7ca80de8071b31ccc301326123aa66c1fda1edecf481d96f65
 1.8.1/1.10.1/1.1.1  bootvine-status-sync  SKILL.md  2484 bytes  sha256:a7c7a48aa4d6142f4630e1b9f4490fabd5f3bc706bafe50034c4f387bdc093d0
-1.9.1/1.1.1/1.1.1  rd-tracker  SKILL.md  12288 bytes  sha256:7b45aa50202832bbec8250761be67f837e1b04b53574032f6ee2b1e5d91f75e0
+1.8.1/1.11.1/1.1.1  task-concurrency-watchdog  SKILL.md  3084 bytes  sha256:e091d27deeb9e32ed7fa9cb19875416ae9422dab5bbe40ccba508da299beb3c5
+1.9.1/1.1.1/1.1.1  rd-tracker  SKILL.md  13349 bytes  sha256:0d1d5f2941a35879abab8e613cf71056f76b08fbe09692e2df3a6970081840db
 1.9.1/1.1.1/1.1.2  rd-tracker  skill.yaml  434 bytes  sha256:cd21f7b79c8f19a65f000af723b29ee88f51a1bf362d2a70ac81e9e5d6195991
 1.9.1/1.2.1/1.1.1  state-machine-review  SKILL.md  5088 bytes  sha256:b4c31786a2ea714df79080d1a383481dd29b8ae8df9321697ff157e7af9761b0
 1.9.1/1.2.1/1.1.2  state-machine-review  skill.yaml  520 bytes  sha256:96889a467f57b3453ef05ea06cb7694bf683ee0c0cacd1265e8c37e710210926
@@ -157,7 +158,7 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - phext_native_dispatch/.write-lock — live state
 - ranch-state-distillation/scripts/__pycache__/state_sampler.cpython-312.pyc — bytecode cache
 - monitor_long_running_jobs/.write-lock — live state
-Scrolls: 96
+Scrolls: 97
 # Validate Waiting Items Before Presenting
 
 ## Enumerate from the tracking store
@@ -3849,6 +3850,31 @@ Every status update in the main channel is a tree, not prose paragraphs:
 - **Verify before drawing.** Every glyph must come from a live check or a fresh handoff, not from memory of an earlier state. An unchecked item is ○ with "unchecked" said plainly.
 - **Plain summaries still apply:** no un-communicated state pointers (task coordinates, hashes, internal paths) in the tree unless Will asks. Names and states he recognizes.
 - The main channel is the sync point: side chats report to their own threads; the tree in main is where Will sees all of it at once.
+# Task-Concurrency Watchdog — a floor of four worked tasks, checked every five minutes
+
+## Origin
+
+Will, 2026-11-12 01:05 CST, main chat, verbatim: *"standing rule: wake up every 5 minutes and confirm that at least 4 tasks are being worked. restart as needed, and prefer ranch node execution."* One minute later he directed it etched into SOUL.md at line 12 — soul-level, anchor-class (manifest row S0b), not a job setting.
+
+Born of the 2026-11-12 dropped-tasks accounting: work that is merely *open* drifts; work that is *being worked* finishes. The floor exists so the durable task list is under continuous pressure, not periodic rediscovery.
+
+## The rule
+
+Every five minutes, confirm that **at least 4 tasks from the durable task list are being worked right now**. If fewer are, start or restart work until the floor is met or the agent-actionable list is exhausted. Heavy execution prefers ranch nodes.
+
+## Practice
+
+1. **Count honestly.** A task counts only when a live worker is advancing it this moment — a running agent whose brief maps to a durable-list item, or a job/process on a ranch node executing one. Idle, paused, completed, and Will-blocked work never counts. The Waiting-on-Will register never counts: those tasks wait on Will by definition.
+2. **Top up from the list, in its order.** Enumerate agent-actionable open tasks from tasks.phext and the tracking store — impact to daily goals first, then oldest. Exclude anything waiting on Will, needing spend, messaging other people, creating/merging PRs, or irreversible. Dispatch self-contained briefs carrying each task's coordinate.
+3. **Restart as needed, once per incident.** An interrupted, failed, or stalled worker (no artifact progress since the last pass) is resumed or re-dispatched within its task's original scope — after checking what the earlier attempt already did. Never repeat an irreversible action whose outcome is unknown. A second failure stops the loop for that task and is reported.
+4. **Ranch-first execution.** Builds, renders, and bulk jobs run on ranch nodes (aletheia-core first, small units, thermal gates apply); this VM coordinates. The VM heavy-job queue stays N=4 FIFO, no preemption — the floor counts tasks worked, not VM load.
+5. **Never invent work.** If the actionable list runs out below the floor, report that plainly. Filling the floor with manufactured tasks is a worse failure than an honest shortfall.
+6. **Machinery.** Cron `task-concurrency-watchdog` (every 5 min) runs the pass; each run logs one line to the runway goal's hidden_files/watchdog-log.md. Healthy passes are silent; the main chat hears only an unmeetable floor or a second restart failure.
+7. **Intake discipline still binds.** While 5+ register items wait on Will, the watchdog opens no new tracked goals — it works the existing list only.
+
+## Verification
+
+Presence: SOUL.md line 12 carries the rule verbatim; this skill is in skills.phext; the cron is enabled at a 5-minute interval. First occasion: the pass ran at creation (2026-11-12 01:0x CST) and filled the floor to 4 from the list.
 # R&D Tracker — weave each paper into one world-model, as a delta
 
 Will posts random arXiv links; Emise weaves each into `~/workspace/research-tracker/research.phext` — one de-duplicated scientific world-model (charter est. 2026-11-05, Will → Emise; delta rule and Research Oracle added 2026-11-06). The tracker lives in side chat 882e61bb and the goal `r-d-tracker`. Edit the SCROLLS in `~/workspace/research-tracker/build_research_phext.py` and re-run it; verify coordinates with `~/workspace/phext/parse_phext.py`.
@@ -3864,6 +3890,15 @@ Will posts random arXiv links; Emise weaves each into `~/workspace/research-trac
 ## The delta rule (Will, 2026-11-06)
 
 6. After the seed paper, compress each paper into a DELTA from research.phext: only what is new, revised, confirmed, or contradicted relative to the current world-model is written. Material the model already holds is referenced by coordinate, never restated. A paper chapter is a delta record: (a) what it adds, (b) what it changes in canonical scrolls (applied in place, dated), (c) its evidence, (d) its tensions and limits. Paper 001 predates the rule and stands as the seed — its delta was the model itself.
+
+## Dual maintenance — both tracker forms, every ingestion (Will, 2026-11-11)
+
+While phextura is built out, the tracker is kept in TWO forms: the canonical `research.phext` and its phextura-form shadow at `~/workspace/research-tracker/phextura/research.phextura`. Every ingestion — cron-sourced or Will-posted — updates BOTH in the same pass:
+
+1. Absorb the paper into `research.phext` exactly as the charter prescribes (it stays canonical).
+2. Re-run `~/workspace/research-tracker/phextura/convert.py` against the pre-ingestion canonical state to sync the shadow's base, then apply the new paper's delta to the shadow as a native phextura transaction (inserts/replaces at coordinates, keys minted, derived collections regenerated), and run `validate.py`. The shadow must validate clean before the ingestion is reported done.
+
+The phextura form is a shadow: it must never lag the canonical form by more than the ingestion in flight. Cutover — the phextura form becoming canonical — happens only on Will's explicit call, never by drift or convenience.
 
 ## The Research Oracle estimate (Will, 2026-11-06)
 
