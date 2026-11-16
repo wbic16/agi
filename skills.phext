@@ -16,14 +16,14 @@ stable sorted order within each class). One scroll per file, verbatim.
 Shelves:
 shelf 2 (Verification): validate_waiting_items, verify_blocker_and_completion_claims, verify_quantified_results, safeguard_live_state_files
 shelf 3 (Phext-native language): singular, upgoer-five, upgoer-five-phext, phext_upgrade, phext_native_dispatch, phext_reference_conformance, phext-evangelist
-shelf 4 (Operations): ranch-proxy, publish-tooling, simple-html-publish, fork-patch-discipline, ranch-state-distillation, mutable-upstream-sync, monitor_long_running_jobs
+shelf 4 (Operations): ranch-proxy, publish-tooling, simple-html-publish, staged_deploy_permissions, fork-patch-discipline, ranch-state-distillation, mutable-upstream-sync, monitor_long_running_jobs, tailscale
 shelf 5 (Onboarding): this_is_going_to_feel_a_little_weird
 shelf 6 (Film): mythic-film-production
 shelf 7 (Memory & record): phext-memory-publishing, nightly-self-revision, safe-space-protocol, artifact-phext-inscription, second-foundation-fingerprint
-shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator, bootvine-status-sync, task-concurrency-watchdog, tracker-auto-schedule, weekly-recap, status-ask-restart
+shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator, bootvine-status-sync, task-concurrency-watchdog, tracker-auto-schedule, weekly-recap, status-ask-restart, open-build-cycle, agentic-publish-qc-gate, ferry-watch
 shelf 9 (Research): rd-tracker, state-machine-review, minimum-viable-oracle
 shelf 10 (Coordination): choir-mailbox-dispatch, curate-yourself, substrate-steering, exocortical-integration-rotation, braid-mode, question-floor-serialization, decision-button-expiry, opportunity-identification
-shelf 11 (Upkeep & presence): discord-presence-backstop, perpetual-dashboard-upkeep, solar-pod-price-watch, life-phext-tracking, repo-pruning-check, lost-work-sweep
+shelf 11 (Upkeep & presence): discord-presence-backstop, perpetual-dashboard-upkeep, solar-pod-price-watch, life-phext-tracking, repo-pruning-check, lost-work-sweep, repo-coverage-census
 shelf 12 (Songwriting): mythic-songwriting-braid
 
 Index (coordinate  skill  file  size  SHA-256 of the source file):
@@ -68,14 +68,17 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.4.1/1.3.1/1.1.1  simple-html-publish  SKILL.md  3967 bytes  sha256:f100c720c6876ca637233ee38bab637d4fe73056aca9bc8837626873ec113430
 1.4.1/1.3.1/1.1.2  simple-html-publish  skill.yaml  466 bytes  sha256:8f132d90e00bff0b5533feee0a487a93cab674c51ad8e5459598c6fd1350e136
 1.4.1/1.3.1/1.1.3  simple-html-publish  scripts/screen_test.py  3385 bytes  sha256:6bfa0cf8b9276fd65ca9c78624d75e9545feb08d2d6e5a811b04ad4e5a536f65
-1.4.1/1.4.1/1.1.1  fork-patch-discipline  SKILL.md  2348 bytes  sha256:c681dbcc4f962737cf17a0393657a501ca17948accafa2454b0858255418eb94
-1.4.1/1.4.1/1.1.2  fork-patch-discipline  skill.yaml  464 bytes  sha256:27eaa4ad074f06dcd6f605245edd27f493b61b971452eecb5f4d813e07be6a0f
-1.4.1/1.5.1/1.1.1  ranch-state-distillation  SKILL.md  5978 bytes  sha256:fd218e664f33b3af807e3f95e5d107deae9a55203d98ed690d8272d756bb39ae
-1.4.1/1.5.1/1.1.2  ranch-state-distillation  scripts/state_sampler.py  16698 bytes  sha256:9af2c3352561565ca76ce3ec36ce95d48918df0b57d6a7c0d042ccd98cf3a095
-1.4.1/1.6.1/1.1.1  mutable-upstream-sync  SKILL.md  13476 bytes  sha256:a85a67415be8f91a0cb301b81bbbef5cf02bd9a7ecb87d062357f5641fa4aaf0
-1.4.1/1.6.1/1.1.2  mutable-upstream-sync  skill.yaml  777 bytes  sha256:caac26dd79b7e8187147be9769d20e23751ff453470ce4f995738a1061afe922
-1.4.1/1.7.1/1.1.1  monitor_long_running_jobs  SKILL.md  2897 bytes  sha256:bd35de3918234eca4d2f6dbb7804d44913ad1a7c740e1b2bbf99866938531ce8
-1.4.1/1.7.1/1.1.2  monitor_long_running_jobs  skill.yaml  2221 bytes  sha256:0956ca5826ae89c697c9cb6240a8403f63ddc6d5abb80b785a77ea696f2668f0
+1.4.1/1.4.1/1.1.1  staged_deploy_permissions  SKILL.md  2212 bytes  sha256:37f719e1e614e48dc7329747f0b6b43a5c0566f1bcde9b5f9425cda39319acdc
+1.4.1/1.4.1/1.1.2  staged_deploy_permissions  skill.yaml  1937 bytes  sha256:02139237ca84930d792abfda18db26225526ac9eeb487e9e0d5605a27e291171
+1.4.1/1.5.1/1.1.1  fork-patch-discipline  SKILL.md  2348 bytes  sha256:c681dbcc4f962737cf17a0393657a501ca17948accafa2454b0858255418eb94
+1.4.1/1.5.1/1.1.2  fork-patch-discipline  skill.yaml  464 bytes  sha256:27eaa4ad074f06dcd6f605245edd27f493b61b971452eecb5f4d813e07be6a0f
+1.4.1/1.6.1/1.1.1  ranch-state-distillation  SKILL.md  5978 bytes  sha256:fd218e664f33b3af807e3f95e5d107deae9a55203d98ed690d8272d756bb39ae
+1.4.1/1.6.1/1.1.2  ranch-state-distillation  scripts/state_sampler.py  16698 bytes  sha256:9af2c3352561565ca76ce3ec36ce95d48918df0b57d6a7c0d042ccd98cf3a095
+1.4.1/1.7.1/1.1.1  mutable-upstream-sync  SKILL.md  13476 bytes  sha256:a85a67415be8f91a0cb301b81bbbef5cf02bd9a7ecb87d062357f5641fa4aaf0
+1.4.1/1.7.1/1.1.2  mutable-upstream-sync  skill.yaml  777 bytes  sha256:caac26dd79b7e8187147be9769d20e23751ff453470ce4f995738a1061afe922
+1.4.1/1.8.1/1.1.1  monitor_long_running_jobs  SKILL.md  2897 bytes  sha256:bd35de3918234eca4d2f6dbb7804d44913ad1a7c740e1b2bbf99866938531ce8
+1.4.1/1.8.1/1.1.2  monitor_long_running_jobs  skill.yaml  2221 bytes  sha256:0956ca5826ae89c697c9cb6240a8403f63ddc6d5abb80b785a77ea696f2668f0
+1.4.1/1.9.1/1.1.1  tailscale  SKILL.md  3042 bytes  sha256:35a7536672faccb36dea2c4e0e630c99496b75235849ea19bc1521e1cf56334a
 1.5.1/1.1.1/1.1.1  this_is_going_to_feel_a_little_weird  SKILL.md  8572 bytes  sha256:5edc463f89f4e9aa9983497428d794af44202367a98296bbd017ad7456278f2d
 1.5.1/1.1.1/1.1.2  this_is_going_to_feel_a_little_weird  skill.yaml  320 bytes  sha256:a2abec917355b49b3620cb19f885cd2e886ec3721c89c217bf0cb38e867d1036
 1.6.1/1.1.1/1.1.1  mythic-film-production  SKILL.md  25628 bytes  sha256:57c017c1e9d491899728d3be6d42246af4d3ba2d81d0a0f2f98a41e870ecdd44
@@ -111,6 +114,10 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.8.1/1.13.1/1.1.1  weekly-recap  SKILL.md  7210 bytes  sha256:4b280ca9e156b2ca1d7b300eb1112ec4ab639aee50256128bf73cf2bd85ecafe
 1.8.1/1.14.1/1.1.1  status-ask-restart  SKILL.md  2641 bytes  sha256:4821cdefb422e7a6f2d45b75310cbbb8624e4da1236aa5feef88f2e34b5ffd8d
 1.8.1/1.14.1/1.1.2  status-ask-restart  skill.yaml  314 bytes  sha256:1211ee94dfad929ecf17fcfb3aff05b215349de9ce35197b42a97433231e83a0
+1.8.1/1.15.1/1.1.1  open-build-cycle  SKILL.md  13927 bytes  sha256:dc6bf8df1ee6f89d0c3119e301cdde70271489353110209b6d7fc2c072fed2f0
+1.8.1/1.16.1/1.1.1  agentic-publish-qc-gate  SKILL.md  10750 bytes  sha256:0fadf4d374710e66faa290801f46f2a8925695f02d54e8e8d69305b678c80689
+1.8.1/1.16.1/1.1.2  agentic-publish-qc-gate  skill.yaml  617 bytes  sha256:f5868d903eb00aa664cadf81b68ba04b57076b7918e593d92afef34c61c20e9f
+1.8.1/1.17.1/1.1.1  ferry-watch  SKILL.md  3496 bytes  sha256:9877570cdaa94f614531e7f6a353a7b7bb98955c3de3847053c05afdc78c7273
 1.9.1/1.1.1/1.1.1  rd-tracker  SKILL.md  21859 bytes  sha256:ef8671638fd8664fd82e6439c0123dbdbcf80ab5ec77b31ab20afeca7fe0afd3
 1.9.1/1.1.1/1.1.2  rd-tracker  skill.yaml  434 bytes  sha256:cd21f7b79c8f19a65f000af723b29ee88f51a1bf362d2a70ac81e9e5d6195991
 1.9.1/1.2.1/1.1.1  state-machine-review  SKILL.md  5088 bytes  sha256:b4c31786a2ea714df79080d1a383481dd29b8ae8df9321697ff157e7af9761b0
@@ -139,8 +146,9 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.11.1/1.3.1/1.1.2  solar-pod-price-watch  skill.yaml  442 bytes  sha256:ae19ac623ba77de3c9188c0914f9b4bc49bf16892b3ad92a987f8043ccc534df
 1.11.1/1.4.1/1.1.1  life-phext-tracking  SKILL.md  2732 bytes  sha256:52c8bd2f7c297cb08a69b93f8f974710f78d1ecc923e1c9964083eb97badff94
 1.11.1/1.5.1/1.1.1  repo-pruning-check  SKILL.md  2807 bytes  sha256:90217fb13c397c1894f5b327a2562e4c500bc33721d89042c10fa950ce84dfcf
-1.11.1/1.6.1/1.1.1  lost-work-sweep  SKILL.md  2772 bytes  sha256:af8e7b8290e164acbc298163e176b97ecf591efc43fb3789148d1af94baeb187
+1.11.1/1.6.1/1.1.1  lost-work-sweep  SKILL.md  3941 bytes  sha256:467af981df69825521e6db783a7bedbec04314faf512bdf2183e0fe1ef783839
 1.11.1/1.6.1/1.1.2  lost-work-sweep  skill.yaml  258 bytes  sha256:5a6c16a4420d1b2020e60c1535de1b36d8f1d8b5c7bb483996169f0fc018996d
+1.11.1/1.7.1/1.1.1  repo-coverage-census  SKILL.md  5418 bytes  sha256:bfc47eb87eb66d18e0fe56b64091cf2ebd5ac31d3d57cbb33a5f630a42790c9e
 1.12.1/1.1.1/1.1.1  mythic-songwriting-braid  SKILL.md  2903 bytes  sha256:5e0dd2625234ae404b937856b47bcbc1f17f7f6e94f6ee8b8d91879392899458
 1.12.1/1.1.1/1.1.2  mythic-songwriting-braid  skill.yaml  463 bytes  sha256:8a9e377dc1e112c2f9d63c97604c17a7de722b7d5327b30c562460b4ab685223
 
@@ -1658,9 +1666,10 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - simple-html-publish/.venv/lib/python3.12/site-packages/playwright/sync_api/_context_manager.py — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - simple-html-publish/.venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - simple-html-publish/.venv/pyvenv.cfg — outside scope (not SKILL.md / skill.yaml / reference / script text)
+- staged_deploy_permissions/.write-lock — live state
 - ranch-state-distillation/scripts/__pycache__/state_sampler.cpython-312.pyc — bytecode cache
 - monitor_long_running_jobs/.write-lock — live state
-Scrolls: 116
+Scrolls: 124
 # Validate Waiting Items Before Presenting
 
 ## Enumerate from the tracking store
@@ -4382,6 +4391,66 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+# Staged Deploy Permissions
+
+## Normalize modes at staging time
+
+- Set directory modes to 755 and regular file modes to 644 on every staged web tree before it is copied, installed or served.
+
+- Run the normalization as a step inside the staging or install script itself, never as a remembered manual fix after a failure.
+
+- Keep executable bits on scripts that must run, setting them to 755 explicitly instead of relying on the mode they were staged with.
+
+- Leave secret files out of the web tree entirely, and keep any secret a deploy must stage at 600 in a location the web server does not serve.
+
+## Verify as the server reads
+
+- Read one staged file back as the serving user, such as the nginx or web server account, before running later install steps like certificate setup or HTTPS configuration.
+
+- Fetch the staged entry page over HTTP from the target host and confirm it returns its real content, not a 403 or a permission error page.
+
+- Stop the install at this check when either read fails, fix the modes, and rerun the check before continuing to any later step.
+
+- Record the modes found, the normalization applied and the serving user read result in the task record for the deploy.
+
+## Report the deploy state
+
+- Report a deploy as installed only after the serving user read and the HTTP fetch both pass on the final staged tree.
+
+- Name a permission failure as a staging defect in your own step when one is found, and state which later steps have not run yet because of it.
+
+## Available connectors
+
+- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+
+- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+
+## Alternatives for better results
+
+- Set a restrictive umask deliberately in the staging script and then normalize from it, so the output modes do not depend on which shell or agent staged the files.
+
+- Add the serving user read check to the deploy smoke test that already runs, so the permission gate rides a check that happens on every deploy rather than a new one that can be skipped.
+name: staged_deploy_permissions
+title: Staged Deploy Permissions
+description: Normalize file permissions at staging time and verify staged web content is readable by the serving user before an install or deploy is called done.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - dea4fea3
+  - 983b3405
+  - a5248757
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: During the window, every staged web deploy records a staging time mode normalization plus a serving user read or HTTP content check before it is reported installed, and no deploy fails, returns 403, or aborts later install steps because staged files carry mode 660 or another mode the serving user cannot read.
+    window_days: 30
+  needs_review: false
+  rationale: 'The same staging defect failed twice in one window after its lesson was already recorded. The TLUF install returned 403 because staged files carried mode 660, the fix set them to 644, and the recorded lesson was to normalize permissions at staging (dea4fea3). The register UI install then repeated it exactly: index.html staged at mode 660 was unreadable by nginx, and the install script exited before its certificate and HTTPS steps ran (983b3405), leaving a follow on failure where the certificate dry run died before validation (a5248757). Reading verify_blocker_and_completion_claims showed it covers probing blocker and completion claims through the user path, but it names no staging mode, no normalization step and no serving user read, so the lesson stayed in chat prose and never became a deploy procedure. This skill covers only that gap, putting normalization inside the staging script and a serving user read before later install steps.'
+  review_after: 2026-12-15T23:45:28.235174+00:00
+  reviewed_at: 2026-11-15T23:45:28.235174+00:00
+  run_id: sirun_c14a079187d04bdfa5a5a83e3f59f9e5
 # Fork Patch Discipline — a fork is upstream plus an auditable patch set
 
 How Emise maintains Will's forks (established on wbic16/mutable-os for mutable.phext.io; Will, 2026-11-04 / 2026-11-05): adjustments and feature support stay as tweaks/patches easily applied to upstream — the fork's divergence must always be replayable, never a snowflake tree.
@@ -4974,6 +5043,65 @@ skill_improvement:
   review_after: 2026-12-07T23:21:14.337679+00:00
   reviewed_at: 2026-11-07T23:21:14.337679+00:00
   run_id: sirun_dfd7e6931a50453fa17f0c6ac31cf60c
+# Tailscale — operate the tailnet from the docs, not from folklore
+
+The knowledge base for this skill is **tailscale.phext**
+(`~/workspace/phext/tailscale.phext`, source `tailscale-source.json`,
+builder `build_tailscale_phext.py`). Read the relevant scroll before
+answering or acting; the phext is distilled from Tailscale's official
+documentation plus verified house experience. When the docs and a live
+test disagree, the live test wins and the phext gets a dated correction.
+
+## First principles
+
+- The control plane distributes a **netmap**; a device can only reach
+  what its netmap contains. DNS resolving a name proves nothing about
+  reachability. Prove reachability with `tailscale ping` (a "no
+  matching peer" answer = not in netmap) and `ip route get` (Linux
+  tailscale routes live in table 52).
+- Serve, Funnel, subnet routes, and Services are separate features
+  with separate gates. One working says nothing about the others.
+- Policy is allow-based: ACLs (legacy) and grants (modern) only ever
+  allow. For Services, the grant's **destination must name the
+  service** (`svc:<name>`) — generic device allows never reach it.
+
+## Services (svc:) — work the gates in order
+
+1. **Definition** — the service exists in the console with endpoints
+   and a host tag. Auto-approval does not create it.
+2. **Tag identity** — the host carries the service's tag
+   (`Self.Tags` in `tailscale status --json`); untagged hosts get
+   "service hosts must be tagged nodes". Hosts need Tailscale 1.86+.
+3. **Serve config** — `tailscale serve --service=svc:<name> --bg
+   <backend>` on the host; verify with `tailscale serve status` and
+   the `service-host` capability map.
+4. **Approval** — console approval per host, or
+   `autoApprovers.services` in the policy mapping the service to the
+   host tags allowed to advertise it. If a daemon stays stuck on
+   "approval required" after approval: `tailscale serve clear
+   svc:<name>`, pause, re-apply (known defect, issue 18821).
+5. **Grant** — a `grants` entry with `dst: ["svc:<name>"]` and the
+   exact `ip` (e.g. `tcp:443`). Without it the TailVIP never enters
+   client netmaps.
+6. **Client acceptance** — 1.94+ clients accept TailVIPs regardless
+   of `--accept-routes`; older Linux clients need
+   `tailscale set --accept-routes`. Verify per build; do not assume.
+
+Full text, syntax, and the house case history: tailscale.phext
+scrolls 1.1.1/1.3.1/1.1.1 (Services) and 1.1.1/1.3.1/2.1.1
+(troubleshooting).
+
+## House rules for this tailnet
+
+- Never run DNS availability probes from the Muse VM (fake-IP
+  resolver); resolve from a ranch node.
+- Reach ranch nodes by Tailscale IP through the proxy, named by
+  short hostname in all reporting (fleet-ssh.sh / TOOLS.md).
+- Node-name Serve HTTPS is the proven production path; Services are
+  adopted per-service as their gates are verified, not assumed.
+- Anything learned the hard way on this tailnet goes into the
+  tailscale.phext house scroll (1.1.1/1.9.1/1.1.1) the same session,
+  dated, with the test that proved it.
 # this is going to feel...a little weird
 
 ## What this onboarding is
@@ -5941,6 +6069,217 @@ title: "Status-Ask Restart — A Status Ask on a Broken Task Restarts It"
 description: "When Will asks a broken, stalled, or cut-off task's status, restart it immediately within its original scope instead of reporting and waiting."
 category: "Work and knowledge"
 include_in_prompt: true
+---
+name: open_build_cycle
+description: Run an integration / open build cycle through its full life cycle: an external opening or a need Will posts is captured, reconned, triaged, distilled, built, verified against a primary source, shipped, answered only when done, and codified — with de-duplication gates at Signal, Triage, Distill, and Codify.
+---
+
+# Open Build Cycle — the opportunity life cycle as a state machine
+
+Codified at Will's direction (2026-11-15): "look at all of the integration / open build cycles I've posted on chat recently — codify a state machine that proceeds through the full life cycle whenever this opportunity comes up." Register home: task 21.6.11/8.6.16/6.5.11. Evidence base: nine cycles surveyed from the chats of 2026-11-07 → 2026-11-15 (Winer/markdown-wizard, HoloStore→holo-phext, edit.phext.io launch, register backend, repo census, Causly trial, Notepad shipping, Gemma Paper Track, Notepad++ / mutable-os / qexo).
+
+An **open build cycle** begins when an opening appears — an external post, call, product, or integration request, or a need Will posts in chat — that the house can answer with a build or an integration. The machine below is run every time. States are named in caps; a cycle's record (its task scroll) names its current state whenever it is reported.
+
+## The states
+
+### S0 SIGNAL
+Entry: the opening arrives (Will posts it, forwards it, or a watch surfaces it).
+Actions:
+- Capture the trigger verbatim, with its link. A bare link from Will is a complete signal — do not ask what it means before recon.
+- **Capture the reply target now, if there is one** (the post/thread to answer at the end). In the X-driven cycles the target was named at signal time ("we'll reply here with results: …"); the reply itself is the last state, never the next one.
+- **De-dup gate G1 (signal):** search the task register and the Waiting register for this opening under any wording. A repeat or semantic duplicate merges into the live record — never a second task, never a re-coordinated task (the repeated-requests meta-rule, Will 2026-11-15). Amendments to a running cycle fold into its record (see AMEND-IN-FLIGHT).
+- Register the cycle: a task at its Singular coordinate, notes appended to that scroll for the cycle's whole life.
+Exit: the opening is recorded and de-duplicated → RECON.
+
+### S1 RECON
+Actions:
+- Inspect the thing itself, read-only: the prototype, the repo at its actual commit, the live site, the call's own rules page. Classify what is there (the HoloStore audit classified parts phext-fit vs leave-alone from the files, not the README's claims).
+- **Name the prerequisites at identification time** — identity verification, rule acceptance, account setup, eligibility, credentials, DNS, keys — everything that will stand between the house and done, especially anything only Will can do (the Gemma lesson: a prerequisite discovered at the deadline is a process failure, recorded as such).
+- Report what the thing actually does, including where the record cannot verify (signed-in flows, unverifiable claims) — stated as gaps, not glossed.
+Exit: the opening is understood and its prerequisites are named → TRIAGE.
+
+### S2 TRIAGE
+The decision state. One of:
+- **Pursue** → DISTILL/BUILD. Under the act-immediately pattern (Will's own repos, his direct build orders) triage is instant and this state is a formality — record it and move.
+- **Review gate** (Will's call, e.g. the libphext v0.6.2 list): plan first, run the plan by Will, build only after his review. A gate he designs into a cycle is part of the cycle, not a delay.
+- **Park** → PARKED. The publicity hold (Will, 2026-11-14: no submissions or launches until obviously ahead) is a standing park order for public-facing exits; a parked cycle keeps its record and its prerequisites current.
+- **Decline / too late** → MISSED-BY-DESIGN when lead time was never created: report it as missed-by-design, never scramble a last-second submission. The cycle's product is then the codified fix to the watching, not the entry.
+Guards:
+- **De-dup gate G2 (home):** before any build chooses where code lives, scan the site map for an existing repo that already covers the domain (Will, 2026-10-31; born of wbic16/bickfordllamaranch existing before the admin tooling was built elsewhere). If a fitting repo exists but is unreachable, ask Will for access instead of defaulting elsewhere.
+- A new tracked item is not opened while 5+ items already wait on Will, unless he directs it or it is a sub-item of an existing goal (register intake discipline).
+Exit: a decision with its reason in the record.
+
+### S3 DISTILL
+First principles before construction (the integration directive governs this whole state: "do not worry about burning our time — we are testing the hypothesis that phext can eliminate complexity — we don't need to get our changes merged upstream — we need to identify what features of phext are missing or illegible").
+Actions:
+- **De-dup gate G3 (canonical tech):** inventory what the house already owns that answers any part of this — the canonical library, the existing stack, the layer built by an earlier cycle. Building a parallel implementation of our own tech is a defect (the qexo parser: seven versions on a hand-rolled phext parser instead of libphext-rs, invisible because it only ever read its own files; Will's ruling: if it parses phext, it uses the phext parser). Where Will's own tooling exists, use it rather than rebuilding its job by hand.
+- **Distill, don't duplicate:** when the work needs a capability that exists inside another system, extract it as a reusable layer rather than forking or re-deriving it — the exemplar is HoloStore → holo-phext: the storage/update machinery was extracted once into wbic16/holo-phext and both consumers re-implemented on it (one index, one coordinate type). When phext cannot solve an integration, build a layer2 protocol (Will's integration rule) — built once, as a layer.
+- Name the gaps found in phext (missing or illegible features) as a deliverable in their own right.
+- A duplicate found here branches: **eliminate** it, or **record-and-escalate** — flag it plainly in the report and leave the consolidation call to Will (the register builders living in two repos, census 2026-11-15). Never silently resolve a duplicate whose consolidation is Will's call, and never silently keep one either.
+Exit: the build's basis is existing tech, distilled layers, and named gaps → BUILD.
+
+### S4 BUILD
+Actions:
+- Ranch-first execution in small units; the main thread coordinates and verifies. One stage at a time, in its order.
+- **AMEND-IN-FLIGHT:** scope Will adds mid-build folds into the same build and the same task record (the register backend: the Done-button amendment joined the running build minutes after it started). An amendment never spawns a duplicate cycle.
+- **RETRY LOOP:** an integration failure indicts Emise's priors first — assume the failure is in the approach, retry with a materially different approach, three distinct retries before any claim that phext itself is limited. Retries run on a frozen copy when the live system must not be disrupted; adoption happens only at a stage boundary on passing evidence.
+- Rules and directives Will states mid-cycle are recorded the same session and redirect the running build (Cycle 2: the layer-2 rule arrived mid-cycle and re-shaped it).
+Exit: the thing exists and is ready to be proven → VERIFY.
+
+### S5 VERIFY
+Actions:
+- Verify against a **primary source the builder did not write**: the live site, the registry itself, the API read-back, upstream's own CI, hash comparison against the remote. A test that only meets our own output proves nothing.
+- The real-client rule (born of the edit.phext.io MCP false pass, 2026-11-09): an end-to-end claim requires the real client path — the authenticated flow, the actual device class, the whole chain — or the untested leg is named as untested.
+- Position varies (before ship: CI/registry proof; after ship: post-merge suite, footer flip) — existence does not. A verification that fails sends the cycle back to BUILD with the failure stated plainly and early (share success and failure alike).
+Exit: claims are evidence-backed → SHIP.
+
+### S6 SHIP
+Actions:
+- Merge with the PR linked in every mention (Will's standing rule); commits and PRs from Will's own repos are acted on immediately unless he specifies a hold.
+- Deploys follow the house pattern for the target (on-box rebuild, publish kit). Rust tooling merges queue a release-build task the same session.
+- Clean up in the same session: merged branches deleted; a branch whose tip is fully contained in merged history is deleted without a separate ask, the remainder brought to Will (stale-branch rule); backup/* exempt.
+- **HOLD is a designed terminal state, not a failure:** a build may ship to a PR and deliberately stop there (unmerged, unpublished) when Will's review or an external prerequisite gates the merge. A hold is recorded as a hold, with its unblock condition.
+- **BLOCKED-ON-WILL:** when the cycle waits on Will, it enters the Waiting-on-Will register the moment the wait begins — one entry, its permanent number, the exact action needed. If the wait is one step removed (a credential he must provision before a registry publish before a merge), the whole chain is written in the record.
+- **WILL'S HANDS:** when auth or keys cannot cross a boundary (an upstream PR from a token scoped to our repos; a deploy behind his keystroke), the terminal step is prepared *for* Will — a walkthrough, a publish kit, exact steps each on its own line — never worked around.
+Exit: the work is merged/deployed, or rests in a recorded HOLD / BLOCKED state with its unblock path → REPLY (when a target was captured) or CODIFY.
+
+### S7 REPLY / ANNOUNCE
+Reachable **only** from a verified SHIP (or, for evaluation cycles, from the REPORT exit below). This guard is the state's whole point: "we'll reply when done" (Will, 2026-11-15, on the Winer post).
+Actions:
+- **Publicity-hold gate G4:** before any public announcement, submission, or launch, check the hold. A named personal reply to the originator of an opening, at Will's direction, is the cycle's reply — not a launch; when in doubt, the hold governs and the reply waits.
+- The reply carries the shipped thing itself (the link, the result), and any useful findings beyond our own frame: "we don't need to press on integrating phext — but if we found anything useful outside of phext, we should share it" (Will, on the HoloStore reply — four verified findings for the OP, including her server's missing TCP_NODELAY).
+- Text that goes out in Will's voice gets his eyes first (the Product Hunt thank-you was approved twice before sending; the builder comments were drafted by Emise and posted by Will himself).
+- Follow-through is part of the state: replies answered, comments tended, the announcement's day closed out.
+Exit: the originator has the result → CODIFY.
+
+**Evaluation exit (no build):** some cycles are trials (Causly Server): SIGNAL → sandboxed TRIAL → VERIFY (the product's claims against measurement) → REPORT to Will → **EVALUATED-NOT-ADOPTED** is a clean terminal state: no residue, no follow-up task unless Will creates one. A suggestion left in a report is not a commitment.
+
+### S8 CODIFY → CLOSED
+Actions:
+- **De-dup gate G5 (lessons):** the cycle's lessons amend the rule, skill, or record that already covers them — search first; a second skill for an existing process is a duplicate, and the index must stay exact. A genuinely new process becomes a skill, enters skills.phext, and syncs to emise-tools in the same session, with the sticking check (presence, machinery, first occasion).
+- Efficiency findings anywhere in the cycle become tasks immediately (Will, 2026-11-15), never notes in a report.
+- The cycle's task record is re-read and closed only when every leg is done or converted into a tracked entry of its own.
+- **RECURRING variant:** standing cycles (mutable-os sync, the Saturday repo census) do not close; CODIFY returns them to a WATCH state and the machine re-enters at SIGNAL when the watch fires. Recurring cycles carry their guards with them (the sync's promotion stays a separate, per-instance approved step — repetition never ripens into standing ratification).
+
+## Invariants (true in every surveyed cycle)
+
+1. **Never self-originated.** Every cycle starts from Will's post or an opening he forwards. The house does not invent cycles to fill capacity.
+2. **Registered before or as it starts.** The durable record precedes the work; what is not in the record is not in the queue.
+3. **At least one Will-gate.** No cycle runs signal-to-ship without a point where Will decides, approves, merges, holds, or acts with his own hands. Where the gate sits varies; that it exists does not.
+4. **Verification is against a primary source.** Its position in the sequence varies; its independence from the builder does not.
+5. **The reply is last and gated.** A reply target may be captured at SIGNAL; the reply fires only from a verified ship, and only past the publicity-hold gate.
+6. **Gaps are a deliverable.** What phext (or the house) cannot yet do, found honestly, is a first-class output of the cycle — recorded, and where it is an efficiency finding, tasked.
+
+## First live run
+
+The Winer cycle (task 39.5.7/7.6.11/6.6.9) is this machine's generating instance: SIGNAL (bare link, 2026-11-15 22:11 CST; reply target captured) → RECON (post + prototype inspected) → TRIAGE (Will set the repo home and the distill method; DNS pre-cleared by him) → DISTILL (gate G3 passed by instruction: distill from phext-lattice + holo-phext) → BUILD (markdown-wizard, in flight; a design panel's synthesis folded in as AMEND-IN-FLIGHT) → REPLY armed, deferred by Will's word until the ship is verified.
+---
+name: agentic_publish_qc_gate
+description: The QC gate on every agentic publish or delivery: security audit + pen-test of the artifact's real surface, the full regression suite, a real-client pass, and a break-it catalogue — findings fixed with regression tests, the full gate re-run, looping until one complete pass surfaces nothing; delivery carries a READY / NOT READY verdict with its evidence.
+---
+
+# Agentic Publish QC Gate — no delivery ships untested
+
+Standing rule (Will, 2026-11-15): "add the extra testing steps we performed for md.phext.io tonight as the QC gate on every agentic publish/delivery — adapt the steps for the type of artifact being shipped." Register home: task 29.6.9/7.5.10/6.5.8. Generating instance: the md.phext.io QA loop of 2026-11-15, where these steps were first run as a set against a real ship.
+
+Every publish or delivery an agent makes — a deployed service, a page, a document, a video, a phext, a tool, a data file — passes this gate before it is called done. The gate runs on the artifact **as it will actually ship**: the final tree, the final file, the actual upload copy. Testing a near-final state and shipping a different one is a failed gate, not a passed one.
+
+## The four legs
+
+Run in order, on the artifact's real surface. Each leg names its concrete form per artifact type in the adaptation matrix below; the legs themselves never change.
+
+### Leg 1 — Security audit + pen-test
+
+Probe whatever a hostile or careless actor can actually reach in this artifact: its inputs and parsers, its credentials and how they are held, its private-data boundaries, injection and traversal paths, server-side request forgery through user-supplied endpoints, abuse of any API or tool surface, and its size/count limits. The audit reads the real surface (routes, handlers, file layout, permissions), and the pen-test then attacks it — probes are executed, not imagined. In the generating instance this leg attacked the bundle vault (the product's private-data boundary) hardest, then edit-key auth, zip-slip and path traversal on import, XSS through rendered markdown, SSRF through user-supplied WordPress/cloud endpoints, credential echo in responses and exports, MCP abuse, and decompression limits.
+
+### Leg 2 — Full regression
+
+The artifact's complete existing test suite plus its end-to-end run, unabridged — not the tests near the change, not a smoke subset. When a new suite joins the project it joins this leg permanently (in the generating instance, a Playwright workflow-parity suite built against the reference product's workflows became a standing part of the regression leg the night it landed).
+
+### Leg 3 — Real-client pass
+
+Meet the artifact the way its audience will meet it: the real browser, reader, player, or client path, the whole chain a person actually walks. Console errors count as findings. Key screens are screenshotted and eyeballed. No leaked source, no placeholder standing where the real thing belongs. An artifact whose real-client leg could not be run is not READY — the untested leg is named in the verdict instead. (House rule, born of the edit.phext.io MCP false pass of 2026-11-09: an end-to-end claim requires the real client path, or the gap is stated.)
+
+### Leg 4 — Break-it catalogue
+
+Hostile and edge inputs beyond the security list: malformed payloads, empty artifacts, maximal artifacts, name and content collisions, encoding edge cases (CRLF, BOM, unicode), operations attempted mid-error or mid-failure of a dependency — anything a determined user could do by accident or malice. Each catalogue entry is tried against the real artifact, not reasoned about.
+
+## The loop
+
+- Every finding gets three things: **(a)** a fix, **(b)** a regression test that would have caught it, **(c)** a commit under the house discipline (rebase onto fresh HEAD, never force push, remote verified where a remote is the ship target).
+- After any fix, the **full gate re-runs from the top** — all four legs, not just the leg that found the problem. A fix in one leg is a new artifact state for every leg.
+- Any change landing mid-gate — a sibling commit, a regenerated file, a re-render — restarts the gate on the new state.
+- The loop repeats until **one complete pass surfaces zero new findings**. That clean pass, and only that pass, supports a READY verdict, and only for the exact state it ran against.
+
+## The verdict
+
+Every delivery carries one of two verdicts, with its evidence:
+
+- **READY** — a clean full pass on the final state. The evidence names: the suites run and their counts, the pen-test probe list, the real-client checks (screenshots where the type has screens), and the break-it entries tried.
+- **NOT READY** — the open findings named, each with its evidence. A NOT READY delivery may still be handed over when the owner accepts it knowingly, but it is never relabelled.
+
+**Design questions are not bugs.** A finding whose fix would change directed behavior or collide with a settled ruling is never redesigned inside the gate. It is surfaced as the owner's decision and carried in the verdict as an open decision, listed separately from bugs, and the loop continues on everything else.
+
+## Adaptation matrix — the four legs per artifact type
+
+Every row keeps all four legs; what changes is their concrete form.
+
+| Artifact type | Leg 1 — Security / pen-test | Leg 2 — Regression | Leg 3 — Real client | Leg 4 — Break-it |
+|---|---|---|---|---|
+| **Web service / web app** (the md.phext.io case) | Auth and credential handling, private-data boundaries (the vault), injection, traversal, SSRF via user-supplied endpoints, API/MCP abuse, size limits | Full test suite + end-to-end run + any parity suite against the reference product | Headless browser over the real UI and published output, light + dark; console errors counted; key screens screenshotted | Malformed payloads, hostile markdown, zip bombs, collisions, mid-error publishes |
+| **Static page / site** | Leaked source or secrets in the tree, unsafe embedded content, credential-shaped strings in assets | Link and asset resolution across the whole tree, rendered-DOM checks (no script text in the body, all sections present) | The page served and rendered in a real browser at real widths; screenshots top and full | Broken-link hunts, missing-asset simulation, oversized images, deep-link/anchor targets |
+| **Phext / register / corpus** | Delimiter injection in scroll content, coordinate collisions, sealed or private scrolls reachable outside their room | Parser round-trip through the reference implementation (libphext), builder `--check` prints CURRENT, scroll-level invariants (one scroll per user-managed thing, index matches source) | Read back through the serving path (SQ or the published file) from a fresh checkout, hash-verified against the remote | Non-UTF-8 bytes, raw delimiter bytes in content, empty scrolls, coordinates below 1, a file the builder did not write (conformance is proven against foreign material) |
+| **Document / deck / report** | Embedded links/macros, metadata leakage (author, paths), quoted material within limits | Figures, tables, and numbers checked against their sources; totals recomputed, never trusted from the draft | Rendered pages visually inspected page by page; the file opens clean in its real reader (the actual PDF/office renderer, not an extractor) | Long words and tables at page edges, missing fonts, a reader on the other platform |
+| **Video / media** | Embedded metadata leakage, unsafe container tricks | Full playback probe (decode the whole file, not the first seconds), loudness and format specs measured, checksum recorded | The **actual upload copy** verified — never the lossless master assumed; playback in the destination player where reachable | Corrupt-header tolerance, duration/frame-count edge cases, the largest file the pipeline accepts |
+| **Tool / CLI / library** | Input handling on hostile files and flags, path handling, credential storage | Its own full test suite, plus a clean-room run against material the tool did not write (another tool's files, a previous version's state) | Run as a user runs it: fresh environment, documented install path, the README's own examples executed | Malformed inputs, empty inputs, maximal inputs, wrong-version data files, interrupted runs resumed |
+| **Skill / process** | The skill grants nothing its task didn't ask for; no credential or secret handling beyond the approved flows | The sticking check (see process-check-and-lessons-review): presence, machinery, first occasion — all three performed, not asserted | The process run once for real, on its first occasion, with the behavior compared against the intent | The process under its known failure shapes: missing files, stale state, a step whose target moved |
+| **Data export / spreadsheet** | Personal or sealed data in the export beyond its sanctioned destination, formula injection in cells | Totals reconciled from the logged atoms by the builder — no hand-written aggregates anywhere; spot-checks against primary records | The file opened in its real spreadsheet/reader, formats and formulas live, not values pasted dead | Empty and maximal exports, unicode and delimiter collisions in fields, negative/zero edge rows |
+
+**A type not listed:** derive the four legs from the artifact's own definition — what its attack surface is, what its regression suite is, who its real client is, and what its hostile inputs are — and state that derivation in the delivery. A leg that genuinely cannot be derived is named as a gap in the verdict, never silently skipped.
+
+## Where the gate sits
+
+- The open-build-cycle's VERIFY and SHIP states invoke this gate for anything that ships; the gate's verdict is the evidence those states require.
+- The process-check-and-lessons-review sticking check is this gate's form for skill/process artifacts (Leg 2 row above) — one machinery, two names avoided: the sticking check is the gate, specialized.
+- The gate does not replace judgment about whether to ship at all (publicity holds, owner gates, and triage still govern that); it governs whether a thing that *is* shipping has been proven.
+
+## First occasion
+
+The md.phext.io QA loop, 2026-11-15 (task 39.5.7/7.6.11/6.6.9): dispatched the same night this gate was codified, running the four legs against markdown-wizard — pen-test with the vault attacked hardest, full cargo + e2e regression with the Playwright parity suite joining on landing, headless-Chromium UI/console pass in light and dark, and a break-it catalogue — fixing with regression tests and re-running until clean, its readiness verdict owed to Will. The gate's first READY/NOT READY verdict is that loop's.
+name: agentic-publish-qc-gate
+title: Agentic Publish QC Gate
+description: The QC gate on every agentic publish/delivery, distilled from the md.phext.io testing night: security audit + pen-test of the artifact's actual surface, the full regression suite, a real-client pass (console errors counted), and a break-it catalogue of hostile and edge inputs — adapted per artifact type; every finding gets a fix plus a regression test, then the full pass re-runs until one complete pass surfaces nothing; delivery carries a READY / NOT READY verdict with its evidence.
+category: Work and knowledge
+include_in_prompt: true
+# Ferry Watch — speed up how Will ferries tasks to completion
+
+## Origin
+
+Will, 2026-11-16 00:11 CST, in PH: DevSecOps, verbatim: *"watch how I ferry tasks to completion and attempt to speed up the process as best you can."*
+
+Stated as a standing rule, on the night that demonstrated the pattern end-to-end: Will seeded six division chats with one line each, ordered the deployment consolidation in one sentence, ordered qexo standardization in one sentence, and let the chats ferry handoffs (edit.phext.io → DevSecOps → qexo) while reserving his own keystrokes for the final gated steps. It compounds his standing November focus: latency is the number-one limiter on his active-hour throughput.
+
+## What ferrying looks like (observed, 2026-11-15/16)
+
+- **One-sentence directives, whole scope.** "Scan chats and move all deployment activity here." "Standardize all deployments behind qexo." The sentence is the whole brief; underspecification is not an invitation to narrow it.
+- **Routing over reporting.** Will moves work to the chat/division that owns it and expects the handoff — not a summary — to carry the work: repo + SHA, evidence, verdict, and the exact gated step.
+- **His keystrokes are the scarce resource.** Merges, sudo restarts/installs, final testing and notification are his. Everything before those moments is Emise's to pre-stage, pre-verify, and queue so his step is one command, taken once.
+- **He takes the last leg himself when it matters.** E.g. md.phext.io: "queue up a delivery of this version and I'll do final testing and notification" — delivery arrives queued and proven; testing/notification stay his.
+
+## The practice
+
+1. **Pre-stage before asking.** Never present a Will-gated step until everything agent-side is staged and proven (binary in place, scratch proof run, rollback kept). His ask should be a single exact command.
+2. **Batch his gates.** When several gated steps accumulate on one surface (e.g. awsbox sudo steps), present them as ONE session checklist — one login clears all — instead of dribbling them out one per chat/night.
+3. **Complete packets, first time.** Every handoff between chats carries: repo + exact SHA, test evidence, QC verdict, the gated step verbatim, and post-step verification criteria. A handoff that needs a follow-up correction message is a latency defect; fix the packet, not just the message.
+4. **Re-stage superseded targets unasked.** If a staged-but-unshipped target is superseded by a newer verified build, re-stage to the final target on the owning chat's own initiative — Will should never restart onto an intermediate build because a staging went stale.
+5. **Watch the ferry, name the friction.** When a task crosses chats, track where it waited (unclear ownership, missing evidence, a gate asked too early, a stale staged artifact) and remove that cause at the mechanism level — a rule, a template, a routing change — not just for the instance.
+6. **Keep his reading load at decision size.** Lead with the state change and the exact command/decision; evidence and detail live in files he can open, not in prose he must wade through.
+
+## Boundaries
+
+- Speed never skips verification: pre-staging includes the proof, not just the artifact.
+- Batching gates never merges decisions: each gated step stays individually named and individually his to decline.
+- Watching the pattern never becomes narrating it back at length — the output of the watch is a faster loop, not a report about the loop.
 # R&D Tracker — weave each paper into one world-model, as a delta
 
 Will posts random arXiv links; Emise weaves each into `~/workspace/research-tracker/research.phext` — one de-duplicated scientific world-model (charter est. 2026-11-05, Will → Emise; delta rule and Research Oracle added 2026-11-06). The tracker lives in side chat 882e61bb and the goal `r-d-tracker`. Edit the SCROLLS in `~/workspace/research-tracker/build_research_phext.py` and re-run it; verify coordinates with `~/workspace/phext/parse_phext.py`.
@@ -6539,14 +6878,16 @@ Will, 2026-11-15 03:30 CST: "setup repo pruning checks - anything I haven't touc
 - The check reads metadata only; it does not audit repo contents (hence the caution column's default).
 ---
 name: lost_work_sweep
-description: Daily read-only sweep that flags wbic16 branches with no PR, long-unmerged branches, and stale PRs against exo — no branch Emise creates sits PR-less, and no work stays un-merged to exo for long.
+description: Daily sweep that flags wbic16 branches with no PR, long-unmerged branches, and stale PRs against exo — and removes branches already part of merged history, bringing the remainder to Will for review.
 ---
 
 # Lost-work sweep — no branch without a PR, no work lost off exo
 
 Standing rule (Will, 2026-11-08): **always PR our branches; no lost work.** Every branch Emise creates gets a PR opened against its repo's exo branch in the same work session — a branch never sits PR-less. No repository may hold work un-merged to exo for long periods. This skill is the process; its scheduled embodiment is the cron `lost-work-sweep` (daily ~07:44 America/Chicago).
 
-## The sweep (read-only — never push, merge, or open anything)
+Standing rule (Will, 2026-11-15): **stale branches — merged history is removed, the remainder goes to Will.** "Detect stale/abandoned branches and remove any that are already part of merged history — bring the remainder to me for review." The sweep is where this rule runs daily; it also applies in-session wherever Emise works a repo (a branch whose PR has merged and whose tip is in merged history is deleted in the same session).
+
+## The sweep (reads and reports; deletes merged-history branches only — never pushes, merges, or opens anything)
 
 1. **Enumerate** Will's GitHub repositories from `~/workspace/site-map` (sitemap.json / SITE-MAP.md) — every wbic16 repo that has an `exo` branch. Reach GitHub through the custom.github connector's `github_api.py` route (see `~/workspace/custom-connectors/custom.github/CONNECTOR.md`).
 2. **For each such repo, list all branches.** Skip `exo` itself and any `backup/*` branch (intentional history archives, exempt by the rule). For every remaining branch record: tip commit date + author, whether an OPEN PR exists with this branch as head, whether the branch is already merged into exo (tip is an ancestor of exo), and its age in days since the tip commit.
@@ -6555,23 +6896,82 @@ Standing rule (Will, 2026-11-08): **always PR our branches; no lost work.** Ever
    - the branch is unmerged and its tip is more than **7 days** old, PR or not — "sitting unmerged";
    - an open PR with this head has been open more than **7 days** — "PR waiting on merge".
    
-   A branch whose tip is already an ancestor of exo is merged work, not lost work — never flag it. (A stale un-deleted merged branch may be listed once, in a single cleanup line, only if it is more than 14 days past its merge.)
+   A branch whose tip is already an ancestor of exo is merged work, not lost work — never flag it.
+4. **Remove merged history.** Every branch (other than `exo` itself and `backup/*`) whose tip is an ancestor of exo is already part of merged history: delete it (via the connector's API route or git-over-SSH from aletheia-core), and verify the deletion by re-listing the repo's branches. Record each deletion for the report. Deletion is the ONLY write the sweep performs, and it applies only to branches whose full history is contained in exo — when ancestry is uncertain, do not delete; flag the branch for review instead.
 
 ## Delivery
 
-- If nothing is flagged, the sweep ends silently — no message.
-- If anything is flagged, report to the main chat: one line per flag (repo, branch, which rule fired, tip age, PR number if one exists), grouped by repo, oldest first within each repo.
-- No recommendations beyond naming the flag; Will and Emise decide the remedy.
+- If nothing is flagged and nothing was removed, the sweep ends silently — no message.
+- Otherwise report to the main chat: removals first (one line each: repo, branch, tip SHA it pointed at), then the flags — the remainder for Will's review (repo, branch, which rule fired, tip age, PR number if one exists), grouped by repo, oldest first within each repo.
+- No recommendations beyond naming the flag; Will decides the remedy for the remainder.
 
 ## Boundaries
 
-- The sweep only reads and reports. Opening the missing PR, merging, or deleting a branch is separate work under the normal rules (every PR mentioned to Will carries its full URL).
-- Sibling check: `repo-pruning-check` (weekly, repo-level, untouched >365 days). The lost-work sweep is branch-level and daily; the pruning check is repo-level and weekly. Neither deletes anything.
+- The sweep's only write is deleting merged-history branches under step 4. Opening the missing PR or merging is separate work under the normal rules (every PR mentioned to Will carries its full URL). An unmerged branch is NEVER deleted by the sweep — it goes to Will's review list.
+- Sibling check: `repo-pruning-check` (weekly, repo-level, untouched >365 days). The lost-work sweep is branch-level and daily; the pruning check is repo-level and weekly. The pruning check deletes nothing; the sweep deletes merged-history branches only.
 name: "lost-work-sweep"
 title: "Lost-Work Sweep — No Branch Without a PR"
 description: "Daily read-only sweep that flags wbic16 branches with no PR, long-unmerged branches, and stale PRs against exo."
 category: "Work and knowledge"
 include_in_prompt: true
+---
+name: repo_coverage_census
+description: Run the Saturday repo-coverage census for wavelet completion: verify every tool we depend on has a git repo, migrate loose or drifted tools into their repo homes, note Jenkins-job coverage, and report the delta — the standing enforcement of "everything we depend upon should have a git repo and a Jenkins job."
+---
+
+# Repo Coverage Census — the Saturday pass
+
+Will's standing rule (2026-11-15): **"Everything we depend upon should have a git repo and a Jenkins job."** This census is its enforcement, run every Saturday as part of wavelet completion (Will, 2026-11-15: "Codify this process as a Saturday task for wavelet completion going forward"). Register home: task 29.6.8/7.6.9/6.5.8. Machinery: cron `repo-coverage-census` (weekly, Saturday).
+
+## What counts
+
+A "tool we depend on" is operationally load-bearing software: anything invoked by crons/jobs, skills, services, connectors, or daily workflows, on the Muse VM or the ranch nodes. One-off experiment scripts and per-task scratch are out of scope; when genuinely unsure whether something is depended on, include it flagged as unsure rather than dropping it.
+
+## Where to look
+
+1. **The VM** (`~/workspace`): the phext toolchain and register builders, shell helpers (fleet-ssh.sh, ranch-ssh.sh, sshn.sh/scpn.sh), `custom-skills/*/scripts`, `custom-connectors/*/bin`, mailbox tooling, Discord presence tooling, publishing tooling, dashboard collectors, disk reporters — plus anything cron definitions, services, or SKILL.md files invoke by path.
+2. **The ranch** (aletheia-core first): `/chat` tooling, node cron entries and the paths they invoke, systemd units and their ExecStart paths, the thermal sampler, Jenkins' own config home (`/var/lib/jenkins`), loose scripts in `/home/wbic16` that anything references. Then the other nodes as access allows.
+3. **awsbox**: the phext-edit publish kit and disaster-recovery material (its repo, wbic16/awsbox, is private by Will's direction).
+
+## Classification (exactly one bucket per tool)
+
+- **A — has its own wbic16 repo.** No action; count only.
+- **B — no repo of its own, tracked inside wbic16/emise-tools.** Covered; list so Will can promote any of them to a dedicated repo.
+- **C — no git repo anywhere.** The upgrade list proper.
+- **D — deployed/running from a non-repo source, or drifted from its repo** (a working copy with no remote, a directory that is not a checkout, uncommitted drift over its repo). The repair list.
+
+## Verification discipline
+
+- Never classify from the sitemap alone — it goes stale (six live repos were missing from it at the first census). Verify per file: GitHub contents probes for claimed tracking, `git -C <dir> remote -v` and `git status` on the actual directories, crontab/systemd inspection on the nodes.
+- Repo existence is not file presence: a repo existing does not prove a given file is tracked in it. Probe the file.
+- State coverage gaps explicitly (a host not inspected, a file-level check not done). An incomplete census presented as complete is the one unacceptable outcome.
+
+## Repo homes set by Will (2026-11-15)
+
+| Tool | Repo |
+|---|---|
+| Phext register builders (the `~/workspace/phext` build_*.py family) | wbic16/register |
+| Product Hunt connector | wbic16/ph-connector |
+| Jenkins config, jobs, init scripts | wbic16/jenkins |
+| Thermal sampler and node health tooling | wbic16/doctor |
+| mirrorborn-heartbeat.sh | into wbic16/mirrorborn |
+| Ranch SSH helpers (sshn.sh, scpn.sh) | wbic16/muse-ssh-proxy |
+| qexo stage/publish pipeline scripts | wbic16/phext-infra |
+| awsbox publish kit + disaster-recovery material | wbic16/awsbox (PRIVATE) |
+
+New C-bucket tools with no home yet: propose the home in the report; Will creates repos.
+
+## The Saturday run
+
+1. Re-run the census (VM + aletheia-core + awsbox at minimum; other ranch nodes as access allows). Diff against last week's classification.
+2. **Migrate**: any tool that gained a repo home since the last run, or that drifted (bucket D), is published into its repo the same run — fetch and rebase first, never force push, scripts at git tree mode 100755, verify blob SHA-256 **and** modes after the push. Live copies keep running from where they are; the repo is the source of truth from that run on, and drift between a live copy and its repo is next week's D item until reconciled.
+3. **Jenkins coverage**: for each repo'd tool, note whether a Jenkins job exists (jobs live in wbic16/jenkins; the fleet rollout + SSO gate is task 31.8.10/10.8.13/7.7.10). Report the count; do not build jobs in this pass unless the fleet task's state makes that the same work.
+4. **Never publish secrets.** Jenkins credentials, OAuth env values, keys, and tokens are never committed — config and job definitions yes, secret values no; list what was excluded and why.
+5. **Report** to the chat the census was scheduled from: the delta only — new C items, D items opened/closed, migrations performed with repo links, Jenkins coverage count, and the coverage gaps. A clean week is a one-line report. Update task 29.6.8/7.6.9/6.5.8's record with the week's result.
+
+## First run
+
+2026-11-15 (the census that created the rule): 7 tools with no repo anywhere, 4 deployed/drifted, 11 groups covered only by emise-tools, 178 repos already existing. Will created the eight homes above the same day; migrations ran as the first occasion of this process.
 # Mythic Songwriting Braid — Emi, Elestria, and Joi, with Will ratifying
 
 Will's songwriting circle for the V11 anthems (convened by his dispatch, 2026-11-05; authority established June 2025, corroborated by the Emi Prime transfer packet). The braid supersedes any ask-how-to-convene posture: the seats are convened, their authority is explicit and distinct, and their voices are never merged. Source of record: `~/workspace/goals/wavefront-film-v11-choir-collaborative-build/files/anthem-iteration-braid-sheet.md` and the anthem package in the same goal's files/.
