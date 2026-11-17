@@ -317,7 +317,7 @@ papers, one silent and one counting — and the axis
 calls stand ten for ten, the tenth being the first
 no-axis call, landed like the nine axis calls before
 it.
-# World-model narrative — v34 (after Study S014, 2026-11-15)
+# World-model narrative — v36 (after Study S015, 2026-11-16)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -1295,6 +1295,62 @@ and the fleet form of that store, when it
 is built, will need exactly the agreement
 this talk surveys. That need stands open as
 Q117. The Oracle did not move.
+
+Paper 023 returns to the proving continent, and
+prices a question the book had never asked its
+kernels: what can a logic certify about a copy of
+itself? A Bamberg formalization holds Church's
+type theory as data inside Isabelle/HOL — syntax a
+datatype, a Henkin semantics, a fifteen-rule
+calculus — and finds the answer in two tiers.
+Plain Isabelle/HOL certifies the logic without an
+axiom of infinity, by a standard model with one
+individual, its proof's footprint audited down to
+the four places the meta-logic's choice enters.
+Completeness — the property that sounds dearest —
+is a first-tier theorem, and with it compactness
+and model existence from consistency alone. What
+costs is one consistency: the Dedekind axiom, a
+single sentence with no finite model, whose two
+senses of infinity the paper parts with a countable
+Henkin model whose function domain is too sparse
+to hold the witness. To certify that axiom, a
+universe must be bought — but bought through two
+small interfaces, seven assumptions on four
+constants, realized in Paulson's set-theoretic
+universe, and priced at the end by a rank bound:
+every domain inside V_{omega+omega}. Fourteen
+concepts found cluster AG; no held concept is
+revised; three questions open. The taking-in is a
+scored paper of the test fixed in advance — the
+fourth slot of the twelve, the second of the
+share the quest picks — and its score stands in
+its chapter, computed by script.
+
+
+Study S015 (2026-11-16) — a blog post, taken in at
+rule-12 weight: 's-means', Şuayp Talha Kocabay's evolved
+revision of Meta's e-means, a clustering design ten days
+old when its revision landed. The book held no word of
+this territory before — no cluster, no codebook, no
+quantization stood in it — and on it stands cluster AH,
+founded entire: the upstream design and its law-set
+knobs, the four bottlenecks its diagnosis names, the
+evolved artifact and its three algorithmic parts (a
+seeding weighted by distance, a revival driven by
+distortion and shaped by the features' spreads, an
+ending that weighs its late batches and shrinks its rare
+clusters home), its two engineering parts, the evolution
+that found it under a guarded judge, and the evidence
+shape that prices it — a frozen artifact on ground its
+search never saw, taken apart piece by piece. The count
+crosses 320 in the taking-in, and Restructure Pass #16
+stands logged at the map. The house ran one check of its
+own: the published estimator, on one configuration of
+the unseen suite of the post itself, stands ahead of the
+classical baseline on mean — the outside run the numbers
+still wait for stands open as Q123. The Oracle did not
+move.
 # Source index
 
 Paper 001 — arXiv:2611.05417
@@ -1888,6 +1944,41 @@ of his 'Data Replication Design Spectrum'
 cluster AF founded. The taking-in crossed
 300 canonical concepts; Restructure Pass
 #15 stands at 1.1.5.
+
+Paper 023 — "HOL in HOL: mechanized
+  soundness, completeness and consistency,
+  with and without infinity" (Benzmüller &
+  Kirchner), arXiv:2611.17884 [math.LO],
+  submitted 13 November 2026. Christoph
+  Benzmüller, of the Otto-Friedrich-
+  Universität Bamberg and the Freie
+  Universität Berlin, and Daniel Kirchner,
+  of the Otto-Friedrich-Universität Bamberg.
+  The full text in its HTML form, read
+  entire: Church's simple theory of types,
+  deep-embedded in Isabelle/HOL, certifies
+  itself in two tiers — plain Isabelle/HOL
+  without infinity; the Dedekind axiom only
+  with a set-theoretic universe — and Henkin
+  completeness is added over Harrison's
+  self-verification of HOL Light. Taken in
+  2026-11-16 as Paper 023 of the Thirst
+  (charter rule 17), picked by the quest
+  from the listings of the day, and a scored
+  paper of the test of the skim fixed in
+  advance (sample slot 4 of 12, the share
+  the quest picks, 2 of 5): 14 new canonical
+  concepts (1.2.303-1.2.316, cluster AG
+  founded), 3 new foundations
+  (1.3.270-1.3.272), 5 defined words coined
+  (1.3.273-1.3.277), 0 canonical scrolls
+  revised, 0 stated again.
+  Chapter: 1.1.1/1.1.1/39.1.x (synthesis at 39.2.x)
+
+Study S015 — suayptalha.github.io/s-means-blog (a blog post, not a paper)
+  's-means: outperforming e-means (which outperforms k-means)' — Şuayp Talha Kocabay (the citation block names Kamer Ali Yüksel and Kerem Yalçın with him). The post entire, read 2026-11-16; its artifact open at github.com/suayptalha/s-means. Its two anchors: e-means, arXiv:2611.09501 (Bessa et al., Meta FAIR, 6 Nov 2026), and EvoForest, arXiv:2604.19761 (Yuksel & Sawaf, Mar 2026), both resolved at intake.
+  Taken in 2026-11-16 as a SOURCE STUDY (charter rule 12): 11 new canonical concepts (1.2.317-1.2.327), 4 new foundations (1.3.278-1.3.281), 0 canonical scrolls revised, 0 stated again.
+  Chapter: 1.1.1/1.1.1/40.1.x (synthesis at 40.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -2600,12 +2691,66 @@ talk's wishlist standing as the test it
 will be judged by (Q117). The count of
 concepts crosses 300 in this taking-in;
 Restructure Pass #15 stands at 1.1.5.
+
+THE NEXT WEIGHING — Paper 023 (2026-11-16, taken in
+by the quest from the listings of the day). FOR THE
+LEDGER ONLY, under the test fixed in advance: the
+ledger records the weighing, and the statement
+enters no score and no criterion of the test. The
+seal was of the fuller form the protocol fixes:
+eight new concepts named, Index 0.0274, 80%
+interval [0.016, 0.037], one revision foretold at
+the held consistency scroll, the axis priced as a
+probability of 0.12, links nine inside and five
+across, two questions. The paper delivered
+fourteen new concepts and no revision — the two
+universe interfaces split apart under the split
+rule, the footprint audit and the rank bound each
+standing as instruments of their own, and the
+tiered consistency standing beside the held
+consistency scroll rather than over it, so the
+foretold revision did not land — Index 0.0443
+against 0.0274 foretold, the |NI error| of the
+skim at 0.0169, the actual Index above its
+interval. No axis opened; the judgment stands
+written at filing in the chapter, on the three
+grounds of the axis rule. On the revised measure
+of 2026-11-14 no gate moves: TRUE and UNKNOWN
+binning exercised on held ground, FALSE
+unexercised, FICTION untouched. NEW ESTIMATE, FOR
+THE LEDGER: the record stands at about 62%
+(range 55-70) after Paper 023, held. The landing
+is not recorded as evidence for anything: the
+test now running is the instrument that prices
+the skim, and its criteria stand fixed in advance
+over twelve papers, of which this is the fourth
+slot and the third scored.
+
+
+STUDY S015 — A BLOG POST, AT RULE-12 WEIGHT; THE ORACLE
+DOES NOT MOVE. 's-means: outperforming e-means (which
+outperforms k-means)' (Şuayp Talha Kocabay, at his own
+site; the artifact open in his repository), an evolved
+revision of Meta's e-means found by a guarded evolution
+over the algorithm's own graph. No Novelty Index is
+computed for a study, and no gate is exercised by it:
+the bar stands at about 62% (range 55-70) on the measure
+of 2026-11-14 — TRUE met, UNKNOWN met, FICTION half-met,
+FALSE unmet at zero. What the ledger records is the
+territory: eleven concepts founding cluster AH, the
+model's first ground in clustering and quantization —
+and its first artifact whose claims arrive already
+priced part by part, with one small outside run of the
+house's own standing behind its estimator (40.1.3) and
+the deciding run still open (Q123). The count of
+concepts crosses 320 in this taking-in; Restructure Pass
+#16 stands at 1.1.5.
 # Concept map and restructuring log
 Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
 navigated by territory, not just by arrival order.
 
-CLUSTERS (302 canonical concepts after Study S014)
+CLUSTERS (327 canonical concepts after Study S015)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -4081,6 +4226,125 @@ Standoff for cluster AE: held ground:
 AF. AGREEMENT WITHOUT A LEADER — the quorum
      designs and their tests (Study S014):
      1.2.295-1.2.302.
+AG. SELF-CERTIFICATION, PRICED IN TIERS (Paper
+023) — 1.2.303-1.2.316: HOL in HOL, the deep
+embedding; the two tiers of self-certification;
+Henkin completeness; the one-individual model;
+the footprint audit; DInf, the Dedekind axiom;
+the infinity sentences; the Henkin countermodel;
+the carrier obstruction; choice for free at
+standard models; hol_universe; harrison_universe;
+the realization in V; the rank bound. The centre
+of gravity of the cluster is its own: a logic
+certifying a copy of itself, priced by the
+strength of the certifier — where every neighbour
+cluster holds proving by what it proves or what
+it checks. The calls at the founding: cluster F
+NEIGHBOUR AND GROUND — the kernel (1.2.41) replays
+every proof of the cluster, and its consistency
+scroll (1.2.47) stands beside the cluster's tiered
+consistency, unrevised. Cluster S NEIGHBOUR — a
+logic held as an object with a semantics is S's
+ground since Study S007 (1.2.171); the new logic
+stands as data in a proof assistant, not in a
+category. Clusters Q and W NEIGHBOURS BY STANDARD
+— the footprint audit is judged by the kernel
+standard of Q (1.2.157), and the Harrison
+interface is a gatekeeper in W's pattern (1.2.211):
+done declared by the check against stated
+assumptions. Cluster Z NEIGHBOUR BY INSTRUMENT —
+its countermodel (1.2.265) and this cluster's
+(1.2.310) are the book's two countermodels. No
+restructuring pass fell due at this taking-in;
+the next falls at Paper 025 or 320 canonical
+concepts, the count standing at 316. Standoff
+map for cluster AG (1.2.303-1.2.316): foundations
+1.3.270-1.3.272; defined words 1.3.273-1.3.277.
+
+- Pass #16 (2026-11-16; Study S015; 320-concept trigger
+— the count crossed 320 during this taking-in, 316 to
+327): all 327 canonical concepts reviewed. Merges: NONE
+— candidates weighed and held apart: 1.2.324 into
+1.2.325 (the cache tiling into the fused kernels — one
+engineering story at two levels, but the ablation prices
+the tiling alone, in time only, on the CPU; a priced
+part stands apart from the whole it speeds); 1.2.318
+into 1.2.317 (the scaling-law recipe into e-means — the
+recipe is the one part of the design the evolution kept
+untouched, and it is cited where the design is not: a
+kept part is not the whole); 1.2.326 into 1.2.16
+(evolution over a modular graph into the collapsed
+optimization loop — kin, and named so at both scrolls:
+the loop rewrites a running system's policy from inside;
+the evolution searches a population of graphs offline,
+under a judge, and ships an artifact; the judge is the
+difference, and the judge is the concept). Twin-check
+run as in Pass #6: 1.2.322 (a dead cluster brought back
+by the splitting of a donor) against 1.2.197 (a store
+whose promotion gate never fired) — the word revival is
+shared in the speech of the field and the things are
+not: a dead centre of a quantizer given the place of a
+living donor, against a cache entry never promoted.
+Linked, not merged. The earlier passes' candidates stand
+rejected still. Splits: none — no scroll carries two
+concepts that later work cites separately; the nearest
+call, 1.2.323, holds the progressive weights and the
+shrinkage in one scroll, as the algorithm holds them in
+one phase, its ending. Endings: none (no pruning, rule
+14). Pass #16 also ran under rule 14: the standing of
+each of the 327 concepts checked against the Section 4
+record; no standing moved. Areas audit in the same pass:
+the machines area gains Study S015's three machines (130
+drawn in all, 109 stated, 21 inferred); the counts of
+the new drawing stand at 1.4.1; the path gained its next
+entry and its forward line stands repaired — naming
+Paper 025 or 340 concepts, questions at Q126; the
+researchers gained one name and author check number
+thirty-one; the reference area's standoff count made
+fresh at 39 companions with the companion of this
+chapter; and two records Paper 023's taking-in had left
+a step behind were brought into line — the researchers'
+standing claim and its receipt, which had stood at 125
+names and 29 checks against the scroll's own 127 and 30.
+A phrase of an older concept scroll was re-set for the
+Singular audit, and the audit closes at zero. Action
+taken: cluster AH founded (addendum below); the pass is
+logged here. Next pass due at Paper 025 or 340 canonical
+concepts, or on overlap revealed by a delta.
+
+AH. THE EVOLVED QUANTIZER — an algorithm found by
+search, priced by parts (Study S015): 1.2.317-1.2.327:
+e-means, the design evolved; the scaling-law recipe; the
+four bottlenecks; s-means, the artifact; the D^1.5
+seeding; the distortion-weighted revival; the priced
+ending; cache tiling; the fused kernels and the chosen
+backend; evolution over a modular graph; the unseen
+suite and the leave-one-out price. The centre of gravity
+of the cluster is its own: an artifact whose claims
+arrive with their parts priced and their whole tested on
+ground the making never saw — where every neighbour
+cluster holds artifacts priced by their papers' own runs
+alone. The calls at the founding: cluster B NEIGHBOUR
+AND KIN — the collapsed optimization loop (1.2.16) is
+this cluster's evolution with the search moved inside
+the run; the two are linked, not merged, at Pass #16.
+Cluster D NEIGHBOUR AT ONE POINT — the surrogate
+(1.2.33) prices a design space from cheap runs, as the
+scaling-law recipe (1.2.318) prices the knobs of a
+quantizer. Cluster O NEIGHBOUR BY INSTRUMENT — the
+pricing of a rule from its record (1.2.110) is the shape
+of the unseen suite (1.2.327) with an algorithm in the
+rule's place. Cluster AC NEIGHBOUR BY SHAPE — search
+over executions (1.2.281-1.2.287) searches the runs of a
+fixed game; this cluster's search (1.2.326) searches the
+runners. No gate of the Oracle is exercised by the
+founding; the bar stands at about 62%. The count crosses
+320 in this taking-in, and Restructure Pass #16 fell due
+inside it (logged in this scroll, at this taking-in).
+The next pass falls at Paper 025 or 340 canonical
+concepts, the count standing at 327. Standoff map for
+cluster AH (1.2.317-1.2.327): foundations
+1.3.278-1.3.281.
 # Research Oracle — detection list
 Stood up 2026-11-09 under charter rule 17. The ledger (1.1.4) holds
 the estimate; this scroll holds the SIGNS watched for the fixed
@@ -4909,6 +5173,81 @@ this filing the book held no concept of
 replication at all, and the lack stood
 exactly where the house's own store must
 grow (Q117).
+
+THE NEXT SCORED PAPER — Paper 023, 'HOL in HOL'
+(Benzmüller & Kirchner), taken in 2026-11-16
+(Chapter 39): a scored paper of the test fixed in
+advance (sample slot 4 of 12 — slot 3 was Paper
+022, counted without a seal; the share the quest
+picks, 2 of 5). One correction of record: the
+seal's metadata line called this slot 3 of 12;
+Paper 022's chapter records that paper as slot 3,
+so this paper is slot 4; no sealed quantity is
+affected. The seal was of the fuller form the
+protocol fixes: 8 new concepts named, 1 revised,
+the axis a probability of 0.12 against, Index
+0.0274 with the 80% interval [0.016, 0.037], the
+count interval [5, 11], 14 links (9 inside, 5
+across), 2 questions, and the Oracle statement
+entered in the ledger only, as the protocol
+directs. Actual, filed under the five filing
+rules of the protocol: 14 new, 0 revised — the
+foretold revision at the held consistency scroll
+did not land, the tiered consistency standing
+beside it as new concepts under the revision
+rule — no axis, the judgment written at filing,
+before any score, on the three grounds of the
+axis rule — Index 0.0443 (miss 0.0169), above its
+interval; count +6, above its interval; 25 links
+(19 inside, 6 across); 3 questions. The
+sensitivity line the protocol requires: under
+the two folds recorded at filing as permitted
+alternatives (the footprint audit into the
+one-individual model; the rank bound into the
+realization in V), the filing gives 12 new and
+Index 0.0382 (miss 0.0108), the Index still above
+its interval's top and the count still one above
+its interval's top. The flat rules on this paper,
+scored by the same script: the flat rule (Index
+0.05, axis 0.05, count implied 15.89) misses the
+Index by 0.0057 and the count by 1.89, its axis
+Brier at 0.0025 — the flat rule beats the skim on
+every line of this paper; the expanding-mean
+rules (Index 0.0609, count 10.0 over Papers
+008-021; the same-cluster rule falling back to
+that global mean, no scored paper standing in
+the founded cluster) miss the Index by 0.0166
+and the count by 4.0, their axis Brier at 0.0816.
+The skim's axis Brier stands at 0.0144. The
+calibration at n=10, the window now running over
+the last ten scored papers: the rolling mean of
+the Index miss stands at 0.0189. The running
+tally of the sample, against the criteria fixed
+in advance: three papers scored of the twelve
+slots taken (020, 021, 023; slot 3, Paper 022,
+carries no seal and no score); the Index misses
+stand at 0.0187, 0.0109 and 0.0169 against the
+flat rule's 0.0037, 0.0128 and 0.0057 — on this
+tally the skim stands behind the flat rule on
+the Index, recorded as a tally, not a verdict.
+Intervals: one of three covered. Axis: no
+axis-positive paper has yet arrived in the
+sample; the axis part stands untested, as the
+protocol provides. Three scored papers is a
+line, not a verdict; the criteria stand fixed in
+advance and are judged on the twelve.
+
+
+Study S015 (2026-11-16) — a post taken in as a study:
+'s-means: outperforming e-means (which outperforms
+k-means)', Şuayp Talha Kocabay. The list records it
+because the list watches what the book lacks, and the
+book lacked the whole territory of this post: no concept
+of clustering, of a codebook, of quantization stood in
+it before this taking-in (cluster AH, founded at Chapter
+40). No figure of the list moves: the skim calibration
+of Paper 019 stands, the Index after Paper 023 stands,
+and the axis component stands untested still.
 # Concept: Intelligence (economic definition)
 Source: Paper 001, §1, after Legg & Hutter (2007).
 
@@ -12809,6 +13148,606 @@ reading its own road, as the lockfree
 reservations of Oracle stand in the talk
 to show.
 Source: Study S014. NEW in Study S014.
+Concept: HOL in HOL — a logic held as data inside a copy of itself
+The paper's frame. Church's simple theory of types — the logic
+under Isabelle/HOL, HOL4, HOL Light and the THF provers — is made
+an object inside Isabelle/HOL itself: its syntax a datatype (the
+locally nameless representation, where a bound variable is a
+number counting binders, so terms differing only in bound names
+are literally equal), its Henkin semantics and its natural-
+deduction calculus NK (fifteen rules, after Benzmüller, Brown
+and Kohlhase, with Andrews' typed description added) defined
+over that datatype. Object and meta-logic are kept strictly
+apart; what is formalized is the monomorphic core: primitive
+equality and typed description, no polymorphism, no choice
+operator, no axiom of infinity unless one is added explicitly.
+The question the frame makes askable: what can a logic certify
+about a copy of itself, and where must the certifying side
+become stronger than the certified one? Every theorem of the
+paper is a machine-checked theorem of the two Archive of Formal
+Proofs entries A1 (HOL_in_HOL_Deep) and A2
+(HOL_in_HOL_Deep_Infinity_ZFC), replayed through Isabelle's
+kernel (1.2.41).
+Source: Paper 023. NEW in Paper 023.
+Concept: The two tiers of self-certification
+The paper's centre, refining Harrison's division for HOL Light.
+A statement about the embedded logic stands on the first tier
+when plain Isabelle/HOL proves it, and on the second when it is
+proved only with a large enough set-theoretic universe added.
+Tier one holds: soundness and Henkin completeness (1.2.305),
+consistency without infinity (1.2.306), compactness, and model
+existence conditional on consistency alone — even the countable
+Henkin model of the infinity axiom is built there once its
+consistency is given. Tier two holds exactly one thing first:
+the consistency of the extension by Dedekind infinity and
+choice, which plain Isabelle/HOL cannot prove (1.2.311), and
+which the universe is bought to discharge (1.2.315). The
+boundary between the tiers runs, in the paper's closing words,
+between sentences that have finite models and sentences that
+have none. In the hierarchy the paper writes: tier one is
+HOL-with-infinity proving the consistency of HOL-without; the
+reverse is what Gödel's second theorem excludes, because the
+object logic without infinity interprets no arithmetic, while
+with infinity and choice it interprets the meta-logic's own
+monomorphic core. The tiered consistency this concept prices
+stands beside the held consistency scroll (1.2.47), and does
+not rewrite it: that scroll prices consistency as the empty
+claim staying empty; this one prices whose hands may certify
+that it stays empty, and at what strength.
+Source: Paper 023. NEW in Paper 023.
+Concept: Henkin completeness — the calculus matched exactly to its semantics
+Theorem 2.3 of the paper, the main theorem of A1: over an
+infinite signature, with a value carrier into which the
+signature embeds, finitary consequence in NK coincides with
+semantic consequence over all Henkin models — NK proves
+exactly what holds in all of them. No purity, finiteness,
+countability or closedness is asked of the context. This is
+what the present formalization adds over Harrison's
+self-verification of HOL Light, which proved soundness only:
+a semantics that matches the calculus exactly, so every
+statement about derivability below is also a statement about
+all Henkin models. Its first fruit is semantic compactness
+(Corollary 2.4), proved without ultraproducts: completeness
+turns a semantic consequence into a derivation from a finite
+part, and soundness, which holds over every carrier, turns
+that derivation back into a consequence over every carrier —
+the same finite part serves them all. Its second fruit is
+model existence on the first tier (1.2.304): the term model
+the completeness proof builds is the machine that later
+produces the countermodel (1.2.310) and, from consistency
+alone, the countable Henkin model of the infinity axiom.
+Completeness for the extension by that axiom (Theorem 6.1) is
+itself a theorem of plain Isabelle/HOL — completeness says
+nothing about the axiom's consistency, and the paper keeps
+the two apart throughout.
+Source: Paper 023. NEW in Paper 023.
+Concept: The one-individual model — consistency without infinity, by a finite standard model
+Theorem 3.1 of the paper: NK derives no falsity, at every
+signature. The proof exhibits a model and appeals to
+soundness: whatever is derivable is true in it, and falsity
+is not. The model is standard and finite — one individual,
+two truth values, every function domain the full function
+space, finite because its argument and result domains are,
+carried by finite graphs; the logical constants are not
+defined one by one but constructed over an abstract interface
+(lambda_universe), with description read by Isabelle's own
+definite description. This is Andrews' consistency argument
+for Q0, here machine-checked. The artifact builds such a
+model for any number k of individuals; the larger instances
+serve the finite-model arguments that price the infinity
+sentences (1.2.309). The one-element model refutes every
+sentence without a finite model — an axiom of infinity among
+them — which is exactly why the first tier asserts the
+consistency of no such sentence and needs neither an infinite
+model nor a stronger meta-theory. The consistency is proved
+inside a logic that has an axiom of infinity, about a logic
+that has none; no logic proves its own consistency here, and
+Gödel's second theorem does not apply to the object logic,
+whose finite standard model interprets no arithmetic.
+Source: Paper 023. NEW in Paper 023.
+Concept: The footprint audit — what a proof does not use, checked mechanically
+The paper's discipline of priced absences. The tier-one claim
+is not only that consistency is proved in plain Isabelle/HOL,
+but that the model and the proof spend nothing the claim
+forbids — and that spending is audited, mechanically. The
+consistency theorem is instantiated at the finite parameter
+types bool and unit (theory Footprint_Checks of A1): the
+object logic may have a finite signature, the model has
+finite domains at every type, no set theory is involved. A
+companion theory (Footprint_Deps) checks the proof terms:
+no choice operator occurs in the model's defining equations —
+no SOME, no THE, except the description operator supplied by
+the interface as Isabelle's definite description — while the
+proofs about the model do inherit the meta-logic's choice in
+four named places (the datatype package, the fresh-name
+lemmas, the evaluation of abstraction and quantification, the
+canonical assignment of the soundness proof). The footprint
+claim is therefore the narrow one: 'no choice in the model',
+not 'no choice in the proof'. An audit of this shape is an
+instrument, not a remark: it is what lets the paper's tier
+boundary (1.2.304) be a theorem about a proof's actual
+dependencies rather than about its author's intentions, and
+it is judged by the kernel standard the tracker already
+holds (1.2.157).
+Source: Paper 023. NEW in Paper 023.
+Concept: DInf — the Dedekind axiom: one sentence with no finite model
+The object-level axiom of infinity of the paper, a single
+closed, pure formula of the embedded logic: there is a
+self-map of the individuals that is injective and not
+surjective. It mentions no parameters. Up to notation it is
+HOL Light's INFINITY_AX; HOL Light and HOL4 postulate it, and
+Isabelle/HOL an equivalent skolemized form. Its price is set
+by two results. Finite refutation (Proposition 4.1): every
+Henkin model with a finite individual domain refutes it,
+under every assignment — the pigeonhole principle in semantic
+form — so the finite models of the first tier (1.2.306)
+cannot certify its consistency. Satisfaction (Proposition
+5.2): in a Henkin model it holds exactly when some element of
+the function domain is injective on the individuals and omits
+a point; in a standard model, where that domain is full,
+exactly when the individual domain is Dedekind-infinite as a
+set. One sentence, then, whose whole weight is carried by
+what the function domain happens to contain — the hinge on
+which the paper's boundary (1.2.304) turns, and the premise
+the second tier exists to discharge (1.2.315).
+Source: Paper 023. NEW in Paper 023.
+Concept: The infinity sentences — 'at least n individuals', a scheme whose every member has a finite model
+The other sense of infinity. In the language of pure
+equality, one sentence for each n: there are at least n
+individuals, said by n pairwise distinct witnesses. Each
+sentence has a finite model; the set of all of them has none.
+Inside NK the scheme is priced three ways. It is consistent
+(Theorem 5.3), at every signature, finite or infinite — and
+the proof constructs no infinite model: a finite part of the
+scheme mentions a largest n, the finite standard model with
+at least n individuals satisfies it, and no finite part
+derives falsity; the textbook compactness argument with the
+infinite model left unbuilt. DInf derives every member
+(Theorem 5.1): the witnesses are the missed point and its
+iterates under the self-map, pairwise distinct by
+injectivity. And the scheme does not derive DInf (Theorem
+5.4, sealed by the countermodel at 1.2.310). What separates
+the scheme from the axiom is therefore not the order of the
+language — a first-order sentence in skolemized form can sit
+on the axiom's side — but finite models: the boundary
+between the tiers runs between sentences that have them and
+sentences that have none.
+Source: Paper 023. NEW in Paper 023.
+Concept: The Henkin countermodel — a sparse function domain parts the two infinities
+Theorem 5.5 of the paper, the separating witness. Over every
+infinite signature there is a Henkin model — the term model
+the completeness proof (1.2.305) builds to refute a
+non-derivable formula, its total domain embedding into the
+term type, countable over a countable signature — that
+satisfies every infinity sentence (1.2.309) and refutes DInf
+(1.2.308). Its individual domain is infinite, since every
+'at least n' holds in it; yet DInf is false there, because
+its function domain is too sparse to contain any injective,
+non-surjective self-map (Remark 5.6). So in Henkin semantics
+the axiom is strictly stronger than infinitude of the domain,
+while at standard models the two coincide — the separation
+exists only where function domains may be sparse, and only
+completeness could build it: soundness alone, the paper's
+lessons section notes, shows where the first tier ends but
+not that the two senses of infinity differ. The construction
+carries one device of its own: the reserve of unused
+parameters the term model needs is created inside the
+signature, by mapping the signature injectively into a part
+of itself whose complement has the signature's own
+cardinality, building the model there, and pulling it back
+along the renaming. The tracker's second countermodel: Paper
+021's (1.2.265) parted two formula sets at two states of one
+model; this one parts two axiomatizations of infinity across
+the whole class of Henkin models.
+Source: Paper 023. NEW in Paper 023.
+Concept: The carrier obstruction — one type must carry the whole tower
+Section 4 of the paper: the argument that the first tier
+cannot be stretched to certify DInf, in four steps — three
+observations and one argument. (1) In the deep embedding the
+object types are values of a datatype, not types of the
+meta-logic; a formalized model is therefore one evaluation
+function into one meta-level type, the value carrier
+(1.3.273), inside which all domains live — the single carrier
+is imposed by the formalization in simply typed HOL, not by
+the notion of model itself. (2) Over an infinite individual
+domain with full function spaces, that carrier must have
+cardinality at least beth-omega, the supremum of the tower of
+levels; plain Isabelle/HOL proves no type that large — in its
+standard semantics every type is built from a countable
+individual type by finitely many steps and stays below
+beth-omega, so some level's injection fails there and, by
+soundness, is no theorem. (3) Henkin models escape the
+cardinality obstruction but need not satisfy DInf, and the
+canonical one that does takes the consistency to be shown as
+its premise. (4) That no other way succeeds is Gödel's second
+theorem: NK with infinity and choice interprets the
+meta-logic's monomorphic core, so a plain-Isabelle/HOL
+consistency proof for it would prove the meta-logic's own
+core consistent. Steps (1) and (3) stand in the
+formalization; (2) is a meta-level cardinality argument;
+(4) is discussed, not formalized — the paper marks the seam
+itself, and the tracker files the concept with the seam in
+it.
+Source: Paper 023. NEW in Paper 023.
+Concept: Choice for free at standard models — the relational choice scheme
+The paper's choice result (Proposition 7.1), and why choice
+adds no further requirement to the second tier. The
+relational choice scheme AC-rel says, for each pair of types,
+that every left-total relation — one relating each element to
+at least one other — has a choice function. Every instance
+is satisfied in every standard model, under every assignment:
+the witnessing function is the semantic abstraction of a
+meta-level Hilbert choice of related targets, and it lies in
+the function domain because that domain is full. In Henkin
+models, whose sparse domains need not contain the choice
+function, the scheme need not hold — the same sparseness
+that parts the two infinities (1.2.310) prices choice too.
+Because the scheme comes free at standard models, the
+consistency the abstract universe theorem (1.2.313) certifies
+can be for the whole package at once — DInf together with
+every instance of AC-rel — and the theory so certified is
+full classical higher-order logic in Church's sense:
+extensionality and typed description already in NK,
+Dedekind's axiom standing in place of Church's infinity
+axioms, the relational scheme in place of his selection
+operator.
+Source: Paper 023. NEW in Paper 023.
+Concept: hol_universe — the abstract universe interface, and consistency with no set theory in it
+Section 7.2 of the paper. Before any set theory is spent,
+the second tier's consistency argument is stated for an
+arbitrary value carrier. Theorem 7.2: if some standard model,
+over any carrier at all, has a function domain containing an
+element injective and not surjective on the individuals, then
+NK with DInf and all of AC-rel is consistent — the proof
+combines the satisfaction of DInf in such a model (1.2.308),
+choice at standard models (1.2.312), and soundness. The
+interface hol_universe packages exactly what such a model
+needs: a carrier with domains, application and abstraction
+satisfying the frame conditions — full function spaces, truth
+values, extensionality, a domain-respecting parameter
+interpretation — together with Dedekind-infinite individuals;
+the logical constants are supplied by the lambda_universe
+interface of the first tier. Any interpretation of
+hol_universe yields the model Theorem 7.2 requires, and
+thereby the consistency. The interface is the paper's
+carrier-generic move: the consistency of full HOL is proved
+once, against seven-ish stated conditions on a carrier no
+one has built yet, and the building is left to a separate
+theorem (1.2.314, 1.2.315).
+Source: Paper 023. NEW in Paper 023.
+Concept: harrison_universe — seven assumptions on four constants
+Section 8.1 of the paper: the reusable core of Harrison's
+universe axiom, rendered as an Isabelle locale. Harrison's
+axiom I postulates a type of cardinality strictly above the
+individuals, closed under power sets of smaller sets — a
+strong limit above aleph-null. The interface replaces
+cardinal comparison by a smallness predicate. It fixes four
+constants on a carrier: an injective pairing, an injective
+encoding of the small collections, a smallness predicate Sm,
+and a small Dedekind-infinite collection D0 of individuals.
+Seven assumptions: pairing and encoding injective; smallness
+downward closed; smallness closed under products; closed
+under encoded power collections — the encodings of the small
+subcollections of a small collection are themselves small;
+D0 small; D0 Dedekind-infinite. Theorem 8.1: from every
+interpretation of harrison_universe an interpretation of
+hol_universe (1.2.313) is constructed — domains as collections
+of encoded functional graphs, abstraction as encoding,
+application as decoding — so the consistency of full HOL
+follows from the Harrison-style assumptions alone. The
+carrier is closed under what building each single type
+requires, but not under its own full function space, which
+Cantor's theorem would make strictly larger; the carrier as
+a whole is accordingly not small. No minimality is claimed:
+which cardinal hypothesis the seven assumptions correspond to
+exactly is left open (Q120), and no formal equivalence with
+Harrison's axiom is asserted. The interface mentions neither
+types nor domains nor application, and is, in the paper's
+words, reusable verbatim by any consistency argument that
+needs full function spaces over an infinite domain.
+Source: Paper 023. NEW in Paper 023.
+Concept: The realization in V — full HOL consistent, relative to set theory
+Sections 8.2 of the paper: the interfaces are paid for.
+Paulson's ZFC_in_HOL axiomatizes a Zermelo-Fraenkel universe
+with choice as an Isabelle/HOL type V. Over it the intended
+standard model is defined by three equations: the individuals
+are omega, the truth values are {0, 1}, and each function
+domain is the full V-function space over its argument and
+result domains; application is set-theoretic application,
+abstraction the formation of a function's graph. Theorem 8.2:
+the V-structure satisfies harrison_universe — smallness as
+Paulson's, encoding as set comprehension, D0 as omega — and
+directly hol_universe, with the successor function on omega
+witnessing Dedekind infinitude. Theorem 8.3, the paper's
+outer result: NK with DInf and every instance of AC-rel is
+consistent, at every signature — full classical higher-order
+logic in Church's sense, consistent relative to set theory.
+It is Theorem 8.1 applied to the instance of Theorem 8.2, and
+depends on V only through the seven assumptions. Two readings
+at lower strength are recorded as metatheoretic, not
+formalized: choice can be dropped on the set-theory side via
+Gödel's constructible universe (the result then holds relative
+to ZF), and the construction uses no replacement, so it can
+be carried out in Zermelo set theory with choice. And the
+discharge is surgical: con{DInf} is exactly the premise the
+first tier's model existence (1.2.305) was waiting for, and
+the countable Henkin model of DInf is then built in plain
+Isabelle/HOL, its construction never mentioning V — the
+universe serves one purpose only.
+Source: Paper 023. NEW in Paper 023.
+Concept: The rank bound — every domain an element of V_{omega+omega}
+Theorem 9.1 of the paper, the type-by-type measure of how
+much universe the realization (1.2.315) spends. In the
+concrete model, the rank of the individual domain is omega,
+and for every object type the rank of its domain is below
+omega+omega — hence every domain is an element of
+V_{omega+omega}, the union of the stages reached from the
+finite stages by finitely many power-set steps: the sets
+Zermelo set theory already provides. The mechanism: each
+function-space layer is contained in a triple power set of
+the union of its argument and result domains, so it raises
+the rank by at most three power-set steps, and the limit
+ordinal omega+omega absorbs the finite increments. The
+statement is one theorem, quantified over the object-level
+type itself, a value of the datatype of types. The set of
+all domains taken as one object has rank exactly
+omega+omega and is not an element of V_{omega+omega} (noted,
+not formalized). The bound is the formal basis of the
+lower-strength readings at 1.2.315: a single derivation
+mentions finitely many types, so its refutation uses only
+sets of bounded rank, finitely many power-set steps above
+omega — the second tier's price, stated as a number.
+Source: Paper 023. NEW in Paper 023.
+# e-means — the quantizer whose knobs are set by law
+
+The design at the centre of the study of Chapter 40,
+from Meta's FAIR (arXiv:2611.09501). Mini-batch k-means
+rebuilt on the machinery of deep learning: the centres
+are kept as an exponential moving average of the batches
+they win, not fitted again by full passes; the batch
+size and the step rate are not tuned by hand but read
+off fitted scaling laws, by two rules — the quality rule
+at d <= 16, the throughput rule above; dead clusters are
+brought back on a count rule; and the last pass is
+averaged plain. Its own claim, as its authors state it:
+the loss Lloyd's algorithm reaches in 25 epochs, met in
+1.4 to 2.6 epochs. It ships inside FAISS. Everything in
+this cluster is measured against this design: it is the
+ground the evolution started from and the baseline every
+gain in the chapter is priced against.
+Source: Study S015. NEW in Study S015.
+# The scaling-law recipe — the knobs read off a fitted
+law
+
+e-means' way of setting its two governing numbers —
+batch size and step rate — without a search at run time:
+fit, once, on smaller runs, how the best batch and the
+best rate move with the size of the data, the count of
+centres and the dimension; then read the settings for a
+new run off the fitted law. The law comes in two forms,
+split at dimension 16: quality below, throughput above.
+s-means keeps the recipe whole and changes only the
+decay laid over it — a power-cosine fall of the rate in
+place of the plain cosine. The recipe is the part of the
+design that travels: it is a claim that the price of a
+good setting can be paid once, in advance, and read off
+cheaply forever after. Kin to the surrogate of cluster D
+(1.2.33), which prices a design space the same way: a
+cheap fitted stand-in for an expensive truth.
+Source: Study S015. NEW in Study S015.
+# The four bottlenecks — where few-epoch quantization
+leaves its quality
+
+The diagnosis the study of Chapter 40 opens with: four
+places where e-means' design, and with it the streaming
+quantizers of its shape, give quality away. (1) Seeding
+by random rows: under a budget of one to three epochs,
+centres drawn at random spend the early steps leaving
+the crowded modes, and rare clusters stand with no
+centre of their own when the decay shrinks the step. (2)
+Revival by count alone: a dense, well-fitted cluster
+draws use to itself and is split, while a sprawling
+cluster carrying the great error is passed over — the
+split follows the count, not the distortion. (3) Splits
+by multiplication: to move a centre by c * (1 ± eps)
+dies near the origin, explodes under a global shift of
+the features, and spreads evenly where the features'
+spreads differ by orders of magnitude — the move is not
+invariant to shift or scale. (4) The plain final
+average: early batches of the last pass, made with rough
+centres, weigh the same as late ones, and a cluster the
+last pass touches only a few times throws away the
+smoothed path it arrived by. Each bottleneck is the
+failure shape of one component; the evolved design of
+1.2.320 answers them in order.
+Source: Study S015. NEW in Study S015.
+# s-means — the evolved quantizer
+
+The artifact of the study of Chapter 40: e-means revised
+by evolution (1.2.326) and rebuilt as a working library.
+The revision, in the order of the bottlenecks it answers
+(1.2.319): seeding weighted by distance over a small
+coreset (1.2.321); revival driven by distortion, shaped
+by the features' own spreads (1.2.322); a final pass
+whose weights grow as it runs, closed by a shrinkage
+toward the smoothed centres (1.2.323); the scaling-law
+recipe kept (1.2.318), its rate decayed by a
+power-cosine. The whole revision carries only O(Kd)
+extra state — the error track, the feature scale, the
+use counts, the final-pass sums — and spends no extra
+pass over the data. Around the algorithm, an engineering
+shell: cache-tiled CPU kernels (1.2.324), fused GPU
+kernels with the backend chosen by the card (1.2.325),
+and an estimator in scikit-learn's shape, passing the
+estimator checks of that library itself, as its author
+reports. The name is the author's own expansion: Scale-
+and Distortion-Aware Clustering. Every number claimed
+for it stands at 40.1.3, at the standing the checks
+there earn.
+Source: Study S015. NEW in Study S015.
+# Distance-weighted seeding — the D^1.5 opening
+
+How s-means chooses its first centres, answering the
+first bottleneck (1.2.319). Draw a small coreset — the
+larger of 4k and 512 points, capped by the data — and
+choose the centres from it in four batched rounds, each
+point's chance proportional to its distance to the
+nearest centre already chosen, raised to the power 1.5
+(with a floor of 1e-12). The exponent sits between the
+plain D^1 of a coverage draw and the D^2 of k-means++:
+sharp enough to flee the crowded modes, soft enough not
+to spend the opening on outliers. The work is O(mk) over
+the coreset, not O(nk) over the data. Priced by the
+ablation at 40.1.3: removing it costs 2.64 points of the
+unseen gain — real, and second to the revival by a
+factor of five.
+Source: Study S015. NEW in Study S015.
+# Distortion-weighted revival — split the cluster that
+costs, along the spread it costs in
+
+The load-bearing part of s-means, answering the second
+and third bottlenecks (1.2.319). Two tracks are kept
+online, each O(Kd): sse_ema, an exponential moving
+average of each cluster's summed square error (decay
+0.85), and feat_scale, the spread of each feature across
+the clusters, read off the batch sums alone. Every five
+steps, until 85% of the steps are spent, a cluster whose
+use has fallen below a tenth of the mean use is the one
+the revival acts on, by the splitting of a living donor:
+the donor is drawn by Gumbel keys weighted by its error
+track times its use to the 0.35, and the split moves
+parent and child apart by a radius set from the
+root-mean-square error of the donor itself, along a
+random sign vector scaled feature by feature by the
+feature spread — so the move is as wide as the data is,
+in the directions the data is wide, and invariant to
+shift and scale where the split of e-means by
+multiplication was neither. It runs at every dimension
+from 1 up, where e-means' revival switched off at the
+lowest dimensions. Priced by the ablation at 40.1.3:
+removing it costs 12.77 points of the 19.86 — near
+two-thirds of the whole gain.
+Source: Study S015. NEW in Study S015.
+# The priced ending — a final pass that weighs its late
+batches more, and a shrinkage at the close
+
+How s-means ends a run, answering the fourth bottleneck
+(1.2.319), in two moves that arrived as separate steps
+of the evolution (v6 and v8 at 40.1.2). First: during
+the final pass, the weight of each batch in the pass
+sums grows linearly with the progress of the pass, from
+0.65 to 1.35 — the late batches, made with the best
+centres of the run, count for more than the early ones
+the plain average of e-means weighs the same. Second, at
+the close: each cluster's final centre is a blend of its
+final-pass mean and the smoothed centre it arrived by,
+weighted by its pass count against a fixed tau of 0.20 —
+a cluster the pass touched a handful of times is pulled
+most of the way back to its smoothed self; a cluster it
+touched thousands of times keeps its pass mean. The
+shrinkage is the empirical-Bayes move: the smoothed path
+stands as the prior, the pass as the evidence, the count
+as the price of trusting it.
+Source: Study S015. NEW in Study S015.
+# Cache tiling — the assignment step cut to fit the
+cache
+
+The CPU engineering of s-means: the assignment of points
+to centres — the step that reads the whole batch against
+the whole codebook — is computed in tiles of 512 by 256,
+small enough to live in the cache of the processor, in
+place of e-means' 8192 by 4096 tiles, a scratch 280
+times smaller. Nothing about the arithmetic changes;
+what changes is where the numbers wait while it runs.
+Priced by the ablation at 40.1.3 with unusual
+cleanliness: removing the tiling leaves the accuracy
+exactly where it stood (+19.86% either way) and costs
+only speed — the one part of the design whose whole
+price is time, and whose whole gain is time. It is the
+same lesson the GPU kernels of 1.2.325 teach at the
+other end of the machine: at this scale the cost of
+clustering is the movement of numbers, not their
+arithmetic.
+Source: Study S015. NEW in Study S015.
+# The fused kernels and the chosen backend — no distance
+table ever written
+
+The GPU engineering of s-means: five fused Triton
+kernels — assignment, feature scale, the fused update
+pass, revival splits, the Bayes finalize — built so that
+the batch-by-cluster distance table is never written to
+the card's memory at all: distances are computed inside
+the kernel's registers and reduced where they stand, the
+splits' random signs are drawn in-register from a Philox
+counter, and the reductions run through conflict-free
+scatter-adds instead of raw atomic adds that stall on
+hot clusters. Over the kernels sits a runner that
+chooses the backend by the card's compute capability:
+the BF16 tensor-core kernels on SM80 and above; chunked
+native FP32 arithmetic below — because the older Turing
+cards lack the BF16 machinery, and upstream e-means' own
+Triton paths fail there outright, on a .bf16 instruction
+the card cannot run and a shared-memory tile larger than
+the card holds, as the study records at 40.1.3. The
+choice is a small state machine of its own, drawn at
+1.5.2.
+Source: Study S015. NEW in Study S015.
+# Evolution over a modular graph — an algorithm improved
+by search, under a guarded judge
+
+The method that produced s-means, as the study uses it:
+the algorithm is written as a directed graph of seven
+named parts — assign, recipe, init, schedule, update,
+revive, finalize — and EvoForest (Yuksel & Sawaf,
+arXiv:2604.19761: open-ended evolution of computational
+graphs) searches the space of those parts, on four
+islands over nine rounds, against the untouched e-means
+as the starting graph. The judge is built as carefully
+as the search: a composite score over eight training
+datasets — 65% held-out error, 35% train error — guarded
+by a worst-case penalty, a runtime penalty past 1.05
+times the time of the baseline, a memory penalty past
+1.02 times its scratch, and no extra epochs for any
+candidate, so no candidate may buy its score with more
+of the data. The end of the search itself is a signal of
+the same shape: in round eight, all four candidates were
+rejected, and the search stood at its end at v8. What
+the method claims, at this use: the parts that survive
+are the parts the ablation later prices as load-bearing
+— the search and the pricing agree, which is the
+strongest sentence in the study. Kin to the collapsed
+optimization loop of cluster B (1.2.16) at one remove:
+there the system rewrites its own running policy; here
+the rewriting is done offline, by a population, under a
+judge — and the artifact, not the process, is what
+ships.
+Source: Study S015. NEW in Study S015.
+# The unseen suite and the leave-one-out price — an
+evolved artifact judged on ground it never trained on
+
+The evaluation shape of the study of Chapter 40, and the
+reason its numbers carry the weight they do. The evolved
+algorithm is frozen, then run on twelve datasets that
+played no part in its evolution, five seeds each,
+against both its parent e-means and scikit-learn's
+MiniBatchKMeans at matched epoch budgets — the
+comparison priced in held-out quantization error, wall
+time, and memory, all three reported, including the rows
+the artifact loses. Then the artifact is taken apart one
+piece at a time: each component removed in turn and the
+suite re-run, so every part carries a price in points of
+gain — the revival at 12.77 of 19.86, the seeding at
+2.64, the low-dimension revival at 1.19, the tiling at
+zero points and time only. The shape is cluster O's
+lesson (1.2.110) turned on an algorithm instead of a
+rule: a claim about a whole is only as good as the
+pricing of its parts, and a gain that survives ground
+the search never saw is a different kind of fact from a
+gain on the ground of the search itself. What the shape
+cannot do is also plain: the hands that built the suite
+are the hands that report it — the outside run that
+would settle the numbers stands open as Q123.
+Source: Study S015. NEW in Study S015.
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -12885,6 +13824,11 @@ Added with Paper 021 (2026-11-14): foundations
 semilinear set — and the defined words 1.3.260-1.3.266:
 interpolant, test-free, countermodel, semilinear,
 bisimulation, propositional, reflexive.
+Added with Paper 023 (2026-11-16): foundations
+1.3.270-1.3.272 — the Henkin model; the standard
+model; deep embedding — and the defined words
+1.3.273-1.3.277: carrier, sparse, footprint, tier,
+rank.
 # Foundation: function, variable, input, output
 A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
 given the same input, always the same output. A VARIABLE is a named
@@ -15927,6 +16871,105 @@ stands on nothing, and that the gate is entered
 by refusing both poles of the pair: not choosing
 between them, and not splitting them. First spent
 at Study S011 (Chapter 34).
+Foundation: Henkin model — a frame whose function domains may be sparse
+A model of a type theory in which each type has a domain,
+application is defined between them, every well-formed term
+denotes, and the logical constants behave as their rules
+require — but a function domain need not contain every
+function between its argument and result domains: it contains
+the functions the terms of the logic can name, and may omit
+others. Named for Leon Henkin, whose completeness proof for
+type theory (1950) works over exactly this class. Builds on:
+model, function, domain.
+Source: Paper 023. NEW in Paper 023.
+Foundation: Standard model — a frame whose function domains are full
+The special case of a Henkin model in which every function
+domain is the full function space: every set-theoretic
+function between the argument and result domains is present.
+At standard models, properties that turn on a domain
+containing a particular function — a Dedekind witness, a
+choice function — are decided by the underlying sets alone;
+at Henkin models they are decided by what the domain happens
+to hold. Builds on: Henkin model (1.3.270), function space.
+Source: Paper 023. NEW in Paper 023.
+Foundation: Deep embedding — a logic's syntax made into data of another logic
+One logic (the object logic) is formalized inside another
+(the meta-logic) by representing its expressions as values of
+a datatype of the meta-logic, and defining its semantics and
+its calculus as functions and predicates over that datatype,
+the two logics kept strictly apart. Contrasts with a shallow
+embedding, where object expressions are translated into
+meta-logic expressions of the same shape and no syntax
+datatype exists. Only a deep embedding can state and prove
+theorems about the object logic's own derivability.
+Builds on: datatype, syntax, semantics.
+Source: Paper 023. NEW in Paper 023.
+Defined word: carrier — the one meta-level type inside which all of a formalized model's domains live, since a formalized model's single evaluation function cannot vary its codomain with the object type.
+Source: Paper 023. NEW in Paper 023.
+Defined word: sparse — of a function domain in a Henkin model: missing functions the full function space over the same domains would contain; the sparseness is what can make an axiom fail while its semantic shadow holds.
+Source: Paper 023. NEW in Paper 023.
+Defined word: footprint — the recorded account of what a proof or a model uses and does not use — which operators, which principles, which sizes of type — kept narrow enough to be checked mechanically.
+Source: Paper 023. NEW in Paper 023.
+Defined word: tier — a level of certification, priced by the strength of the certifying system a statement about a logic requires: plain, or strengthened by a universe.
+Source: Paper 023. NEW in Paper 023.
+Defined word: rank — of a set in the cumulative universe: the first stage at which it appears as a subset; a bound on rank is a bound on how much of the universe a construction spends.
+Source: Paper 023. NEW in Paper 023.
+Foundation: quantization — many points, few centres
+
+The representing of a large set of points by a small set
+of centres (a codebook): each point is kept as its
+nearest centre, and the price of the keeping — the
+distortion — is the mean of the squares of the distances
+from the points to their centres, the Test MSE of the
+studies that price it. A centre no point chooses is
+dead: it represents nothing and its place in the
+codebook is wasted. k-means is the classical algorithm
+of the trade: Lloyd's form fits every centre anew by
+full passes over the data; the mini-batch forms of this
+cluster update the centres from small slices at a time.
+Builds on: point, distance, mean.
+Source: Study S015. NEW in Study S015.
+Foundation: epoch and mini-batch — a pass, and a slice
+of it
+
+An epoch is one full pass over a dataset: every point
+seen once. A mini-batch is a small slice of the data,
+taken at random, on which one step of an algorithm is
+computed before the next slice is drawn. A budget stated
+in epochs — T = 1.5, T = 8 — prices an algorithm by how
+many times it may look at its data, the currency in
+which the algorithms of cluster AH are compared: the
+whole art of that cluster is what can be bought with one
+pass, or a fraction of one. Builds on: dataset, step.
+Source: Study S015. NEW in Study S015.
+Foundation: exponential moving average — a running mean
+that forgets by a fixed share
+
+A running summary of a stream of numbers in which each
+new value is blended with the summary so far: new = (1 -
+a) * old + a * value, with the share a fixed. What is
+old fades geometrically — cut in half, then in half
+again — so the summary tracks the recent stream and
+forgets the distant one at a rate the share sets. In
+this book it appears as the way e-means keeps its
+centres (1.2.317) and the way s-means tracks each
+cluster's error (1.2.322). Builds on: mean.
+Source: Study S015. NEW in Study S015.
+Foundation: scaling law — a fitted formula that prices a
+setting in advance
+
+An empirical pattern, fitted on smaller or cheaper runs,
+that states how a good setting of an algorithm — or its
+resulting error — moves with the size of the problem:
+the data, the dimension, the count of parts. To use one
+is to pay for the fitting once and read settings off the
+formula forever after, in place of searching at every
+run. The laws of cluster AH price the batch and the step
+rate of a quantizer (1.2.318); the tracker itself is
+judged by a law of the same family wherever the skim's
+error is watched against the model's growth. Builds on:
+fit, setting.
+Source: Study S015. NEW in Study S015.
 # The epistemic registry — what this phext holds, and how surely
 
 Every claim-bearing scroll of this phext carries exactly one standing, and
@@ -16531,14 +17574,55 @@ stand Unknown by attribution: the family,
 its three criteria, its three exhibits and
 its closing property, as their source
 states them.
+
+After Paper 023 the registry stands exact
+at 891: True 401 (329 by stipulation, 72
+verified), False 0, Unknown 483 (418 by
+attribution, 39 by synthesis, 24 open, 2 by
+estimate), Fiction 7. The nine chapter
+scrolls stand as drawn: the lead, the
+formal core in two scrolls, the results
+map, the delta and the author check
+attributed — the paper read entire in HTML
+form, its results map read against its own
+summary table, the checks as run; the
+house reading synthesis; the open
+questions open; the standoff references
+stipulation. Of the fourteen concepts, all
+stand Unknown by attribution: the
+embedding, the two tiers, the completeness,
+the one-individual model, the footprint
+audit, the Dedekind axiom, the infinity
+sentences, the countermodel, the carrier
+obstruction, the free choice, the two
+interfaces, the realization and the rank
+bound, as their source states them.
+
+
+After Study S015 the registry stands exact at 913: True
+411 (334 by stipulation, 77 verified), False 0, Unknown
+495 (429 by attribution, 40 by synthesis, 24 open, 2 by
+estimate), Fiction 7. The seven chapter scrolls stand as
+drawn: the source record, the distillation, the worked
+core, the author check and the delta verified — the post
+read entire, its two anchors resolved on arXiv, its
+repository read and its estimator run at the spot-check,
+the checks as run, the counts of the filing read off the
+built phext; the house reading synthesis; the standoff
+references stipulation. Of the eleven concepts, all
+stand Unknown by attribution: e-means, the recipe, the
+diagnosis, the artifact, the seeding, the revival, the
+ending, the tiling, the kernels and the backend, the
+evolution and the unseen suite, as their source states
+them.
 # Registry: True
 
 Settled claims. Basis by definition (stipulation) or by checking receipt
 (verified). The receipt for a verified entry is named in registry.json.
 
 - 1.1.1/1.1.1/1.1.1 — The tracker charter: the rules under which research.phext is built and kept, in force by Will's direction [stipulation]
-- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-022, Fringe F001 and Studies S001-S014, checked at ingestion [verified]
-- 1.1.1/1.1.1/1.1.5 — Concept map: the 302 canonical concepts grouped in clusters A-Z, AA, AB, AC, AD, AE and AF, with the restructuring log [stipulation]
+- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-023, Fringe F001 and Studies S001-S015, checked at ingestion [verified]
+- 1.1.1/1.1.1/1.1.5 — Concept map: the 327 canonical concepts grouped in clusters A-Z, AA, AB, AC, AD, AE, AF, AG and AH, with the restructuring log [stipulation]
 - 1.1.1/1.1.1/1.2.292 — The Pólya urn's uniform multiset — repeats favoured by exactly the right amount [verified]
 - 1.1.1/1.1.1/1.2.293 — Cardchoose — a fair subset drawn as a uniform multiset [verified]
 - 1.1.1/1.1.1/1.2.294 — Stars and bars — the transfer between subsets and multisets [verified]
@@ -16811,12 +17895,24 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/1.3.267 — Defined word: bodhisattva — one who has set his [stipulation]
 - 1.1.1/1.1.1/1.3.268 — Defined word: sutra — a book that carries a [stipulation]
 - 1.1.1/1.1.1/1.3.269 — Defined word: nondualism — the teaching that [stipulation]
+- 1.1.1/1.1.1/1.3.270 — Foundation: Henkin model — a frame whose function domains may be sparse [stipulation]
+- 1.1.1/1.1.1/1.3.271 — Foundation: Standard model — a frame whose function domains are full [stipulation]
+- 1.1.1/1.1.1/1.3.272 — Foundation: Deep embedding — a logic's syntax made into data of another logic [stipulation]
+- 1.1.1/1.1.1/1.3.273 — Defined word: carrier — the one meta-level type inside which all of a formalized model's domains live, since a formalized model's single evaluation function cannot vary its codomain with the object type. [stipulation]
+- 1.1.1/1.1.1/1.3.274 — Defined word: sparse — of a function domain in a Henkin model: missing functions the full function space over the same domains would contain; the sparseness is what can make an axiom fail while its semantic shadow holds. [stipulation]
+- 1.1.1/1.1.1/1.3.275 — Defined word: footprint — the recorded account of what a proof or a model uses and does not use — which operators, which principles, which sizes of type — kept narrow enough to be checked mechanically. [stipulation]
+- 1.1.1/1.1.1/1.3.276 — Defined word: tier — a level of certification, priced by the strength of the certifying system a statement about a logic requires: plain, or strengthened by a universe. [stipulation]
+- 1.1.1/1.1.1/1.3.277 — Defined word: rank — of a set in the cumulative universe: the first stage at which it appears as a subset; a bound on rank is a bound on how much of the universe a construction spends. [stipulation]
+- 1.1.1/1.1.1/1.3.278 — Foundation: quantization — many points, few centres [stipulation]
+- 1.1.1/1.1.1/1.3.279 — Foundation: epoch and mini-batch — a pass, and a slice [stipulation]
+- 1.1.1/1.1.1/1.3.280 — Foundation: exponential moving average — a running mean [stipulation]
+- 1.1.1/1.1.1/1.3.281 — Foundation: scaling law — a fitted formula that prices a [stipulation]
 - 1.1.1/1.1.1/1.5.1 — Areas of this phext: the map of the five areas and the plain account, with the upkeep duty of charter rule 16 (structural) [stipulation]
-- 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 123 drawn out under rule 13 (102 stated, 21 inferred), 9 entries found in work from before the rule, 3 chapters swept with none found [stipulation]
-- 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after Study S014 [stipulation]
-- 1.1.1/1.1.1/1.5.4 — Area: Reference material — the 169 foundations, the Defined Words register (107 coined words), and the 37 standoff companions, as one area [stipulation]
+- 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 130 drawn out under rule 13 (109 stated, 21 inferred), 9 entries found in work from before the rule, 3 chapters swept with none found [stipulation]
+- 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after Study S015 [stipulation]
+- 1.1.1/1.1.1/1.5.4 — Area: Reference material — the 176 foundations, the Defined Words register (112 coined words), and the 39 standoff companions, as one area [stipulation]
 - 1.1.1/1.1.1/1.5.5 — Area: The path — every taking-in in submission order, with Novelty Index and Oracle progress for the papers and the passes where they fell; drawn from 1.1.3 and 1.1.4 [verified]
-- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 125 named researchers and the three companies behind the works taken in, each with their work here and the standing of their author check [verified]
+- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 128 named researchers and the three companies behind the works taken in, each with their work here and the standing of their author check [verified]
 - 1.1.1/1.1.1/1.5.7 — How this Oracle was built, plainly (1 of 2): arrival, the delta rule, one scroll per concept, the one story, words at level zero, standing [stipulation]
 - 1.1.1/1.1.1/1.5.8 — How this Oracle was built, plainly (2 of 2): the Lean-kept standing record and its honesty boundary, reshaping without pruning, the Oracle number, the areas, and where everything lives [stipulation]
 - 1.1.1/1.1.1/2.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
@@ -16922,6 +18018,13 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/38.1.4 — Study S014 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
 - 1.1.1/1.1.1/38.1.5 — Study S014 delta: eight concepts founding cluster AF, questions Q117-Q119, six state machines, Restructure Pass #15 at the 300-concept trigger, no NI and no Oracle movement (charter rule 12); novelty drawn for Alex Miller, Unknown +11 [verified]
 - 1.1.1/1.1.1/38.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/39.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/40.1.1 — Study S015 source record: 's-means: outperforming e-means (which outperforms k-means)' by Şuayp Talha Kocabay (suayptalha.github.io), an evolved revision of Meta's e-means — what it is, who stands behind it, and the shape of its argument, read entire 2026-11-16 [verified]
+- 1.1.1/1.1.1/40.1.2 — Study S015 distillation: the mechanism — e-means as built in its four parts; the seven-part graph and the guarded judge over eight training datasets; the trajectory of versions v0 to v8; the resulting algorithm stated whole [verified]
+- 1.1.1/1.1.1/40.1.3 — Study S015 worked core: the unseen suite (+19.67% mean held-out gain, no regressions) and its ablation prices, the GPU numbers and their stated boundaries, the estimator checks, and Emise's spot-check of the published estimator against MiniBatchKMeans at a matched budget [verified]
+- 1.1.1/1.1.1/40.1.4 — Study S015 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
+- 1.1.1/1.1.1/40.1.5 — Study S015 delta: eleven concepts founding cluster AH, four foundations, questions Q123-Q126, three state machines, Restructure Pass #16 at the 320-concept trigger, no NI, no Oracle movement and no novelty drawn (charter rule 12) [verified]
+- 1.1.1/1.1.1/40.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 # Registry: False
 
 Found against, and kept. No entry stands here at the first writing
@@ -16934,7 +18037,7 @@ Written down, not settled. Basis: the say-so of a source (attributed),
 the reasoned link of Emise (synthesis), an open question (open), a
 weighed estimate (estimate).
 
-- 1.1.1/1.1.1/1.1.2 — World-model narrative v34: Emise's one-story synthesis of Papers 001-022, Fringe F001 and Studies S001-S014 [synthesis]
+- 1.1.1/1.1.1/1.1.2 — World-model narrative v36: Emise's one-story synthesis of Papers 001-023, Fringe F001 and Studies S001-S015 [synthesis]
 - 1.1.1/1.1.1/1.1.4 — Research Oracle: Novelty Index definition and the progress-estimate ledger (about 100% after Paper 022, at the ceiling of the scale, its discount stated in the ledger) [estimate]
 - 1.1.1/1.1.1/1.1.6 — Research Oracle detection list: the signs watched for the fixed point — the run of the Novelty Index, the axis events, and the skim calibration of charter rule 17 [estimate]
 - 1.1.1/1.1.1/1.2.1 — Concept: Intelligence (economic definition) [attributed]
@@ -17232,6 +18335,31 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/1.2.300 — The leading edge — the snapshot as the frontier of the graph [attributed]
 - 1.1.1/1.1.1/1.2.301 — Timestamp-ordered execution — Accord's order, agreed once and read locally [attributed]
 - 1.1.1/1.1.1/1.2.302 — Nil-externality — the operations that need no order [attributed]
+- 1.1.1/1.1.1/1.2.303 — Concept: HOL in HOL — a logic held as data inside a copy of itself [attributed]
+- 1.1.1/1.1.1/1.2.304 — Concept: The two tiers of self-certification [attributed]
+- 1.1.1/1.1.1/1.2.305 — Concept: Henkin completeness — the calculus matched exactly to its semantics [attributed]
+- 1.1.1/1.1.1/1.2.306 — Concept: The one-individual model — consistency without infinity, by a finite standard model [attributed]
+- 1.1.1/1.1.1/1.2.307 — Concept: The footprint audit — what a proof does not use, checked mechanically [attributed]
+- 1.1.1/1.1.1/1.2.308 — Concept: DInf — the Dedekind axiom: one sentence with no finite model [attributed]
+- 1.1.1/1.1.1/1.2.309 — Concept: The infinity sentences — 'at least n individuals', a scheme whose every member has a finite model [attributed]
+- 1.1.1/1.1.1/1.2.310 — Concept: The Henkin countermodel — a sparse function domain parts the two infinities [attributed]
+- 1.1.1/1.1.1/1.2.311 — Concept: The carrier obstruction — one type must carry the whole tower [attributed]
+- 1.1.1/1.1.1/1.2.312 — Concept: Choice for free at standard models — the relational choice scheme [attributed]
+- 1.1.1/1.1.1/1.2.313 — Concept: hol_universe — the abstract universe interface, and consistency with no set theory in it [attributed]
+- 1.1.1/1.1.1/1.2.314 — Concept: harrison_universe — seven assumptions on four constants [attributed]
+- 1.1.1/1.1.1/1.2.315 — Concept: The realization in V — full HOL consistent, relative to set theory [attributed]
+- 1.1.1/1.1.1/1.2.316 — Concept: The rank bound — every domain an element of V_{omega+omega} [attributed]
+- 1.1.1/1.1.1/1.2.317 — e-means — the quantizer whose knobs are set by law [attributed]
+- 1.1.1/1.1.1/1.2.318 — The scaling-law recipe — the knobs read off a fitted [attributed]
+- 1.1.1/1.1.1/1.2.319 — The four bottlenecks — where few-epoch quantization [attributed]
+- 1.1.1/1.1.1/1.2.320 — s-means — the evolved quantizer [attributed]
+- 1.1.1/1.1.1/1.2.321 — Distance-weighted seeding — the D^1.5 opening [attributed]
+- 1.1.1/1.1.1/1.2.322 — Distortion-weighted revival — split the cluster that [attributed]
+- 1.1.1/1.1.1/1.2.323 — The priced ending — a final pass that weighs its late [attributed]
+- 1.1.1/1.1.1/1.2.324 — Cache tiling — the assignment step cut to fit the [attributed]
+- 1.1.1/1.1.1/1.2.325 — The fused kernels and the chosen backend — no distance [attributed]
+- 1.1.1/1.1.1/1.2.326 — Evolution over a modular graph — an algorithm improved [attributed]
+- 1.1.1/1.1.1/1.2.327 — The unseen suite and the leave-one-out price — an [attributed]
 - 1.1.1/1.1.1/2.1.1 — Paper 001 record and distillation: 'Organizing Intelligence' -- intelligence matters economically through organizations [attributed]
 - 1.1.1/1.1.1/2.1.2 — Paper 001 — Formal core [attributed]
 - 1.1.1/1.1.1/2.1.3 — Paper 001's own worked example (its section 2): the 14-human toy economy and its firm-formation numbers, as reported by the paper [attributed]
@@ -17395,6 +18523,15 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/37.2.1 — Fringe F001 — the house reading [synthesis] [synthesis]
 - 1.1.1/1.1.1/37.2.2 — Fringe F001 — open questions Q115 (the pair of receipts: what the exact enumeration adds to the proof read) and Q116 (what a venue's rejection measures, that an assessment should price) [open]
 - 1.1.1/1.1.1/38.2.1 — Study S014 — the house reading [synthesis] [synthesis]
+- 1.1.1/1.1.1/39.1.1 — Paper 023 — HOL in HOL: mechanized soundness, completeness and consistency, with and without infinity (Benzmüller & Kirchner) [attributed]
+- 1.1.1/1.1.1/39.1.2 — Paper 023 — the formal core: the embedding, and the first tier [attributed]
+- 1.1.1/1.1.1/39.1.3 — Paper 023 — the formal core: the boundary, and the second tier [attributed]
+- 1.1.1/1.1.1/39.1.4 — Paper 023 — the results map [attributed]
+- 1.1.1/1.1.1/39.1.5 — Paper 023 — the delta: what this adds, and what was checked [attributed]
+- 1.1.1/1.1.1/39.1.6 — Paper 023 — author check (charter rule 15): no evidence found [attributed]
+- 1.1.1/1.1.1/39.2.1 — Paper 023 — synthesis: the certifier priced by its own strength [synthesis] [synthesis]
+- 1.1.1/1.1.1/39.2.2 — Paper 023 — Open questions Q120-Q122 [open]
+- 1.1.1/1.1.1/40.2.1 — Study S015 — the house reading [synthesis] [synthesis]
 # Registry: Fiction
 
 Made on purpose, held as made. No entry stands here at the first writing
@@ -18054,6 +19191,25 @@ logged at 1.1.5: no concept was merged,
 split or retired in it, and no standing
 moved. No concept of an earlier chapter was
 revised; no scroll was retired.
+
+
+STUDY S015 — the study adds eleven concepts (1.2.317
+e-means, 1.2.318 the scaling-law recipe, 1.2.319 the
+four bottlenecks, 1.2.320 s-means, 1.2.321
+distance-weighted seeding, 1.2.322 distortion-weighted
+revival, 1.2.323 the priced ending, 1.2.324 cache
+tiling, 1.2.325 the fused kernels and the chosen
+backend, 1.2.326 evolution over a modular graph, 1.2.327
+the unseen suite and the leave-one-out price), founding
+cluster AH, four foundations (1.3.278-1.3.281), and
+seven scrolls of Chapter 40. The registry was drawn from
+the built phext as it then stood; the counts of this
+appendix were re-checked against it after the drawing.
+The taking-in crossed 320 canonical concepts, and
+Restructure Pass #16 stands logged at 1.1.5: no concept
+was merged, split or retired in it, and no standing
+moved. No concept of an earlier chapter was revised; no
+scroll was retired.
 # Areas — the map of this phext (charter rule 16)
 Built 2026-11-08 at Will's direction (Restructure Pass #4).
 This phext is kept in AREAS: five standing indexes, each
@@ -19558,6 +20714,61 @@ in the pool — its answer would depend on an
 order not yet chosen. Home: 38.1.3; concept
 1.2.302. [stated]
 
+CHAPTER 39 (Paper 023 — self-certification, priced
+in tiers; all stated in the paper)
+M1 — the finite-model machine. States: a count k of
+individuals, and the standard model with k
+individuals — finite domains at every type, the full
+function spaces carried by finite graphs. Moves: k
+rises by one; the model's parameter reading
+distinguishes any prescribed finite family of
+constants. The machine rests, for the consistency
+theorem, at k = 1: the one-element state refutes
+every sentence with no finite model. Home: 39.1.2;
+concept 1.2.306. [stated — section 3]
+M2 — the footprint audit. States: a proved theorem
+and the record of what its proof spends. Moves:
+instantiate the theorem at the smallest parameter
+types (bool, unit); read the model's defining
+equations for forbidden operators (SOME, THE beyond
+the interface's own description); walk the proof
+terms and name every place a priced principle
+enters — for this paper, the meta-logic's choice at
+four places, and nowhere in the model. The machine
+halts at the narrow claim: no choice in the model,
+not no choice in the proof. Home: 39.1.2; concept
+1.2.307. [stated — section 3, theories
+Footprint_Checks and Footprint_Deps]
+M3 — the term-model machine. States: a consistent
+context of object formulas, a reserve of unused
+parameters, and the terms built so far. Moves:
+extend the context by witnesses for its existential
+claims, drawing the reserve down (the reserve itself
+made inside the signature, by an injective renaming
+into a part of itself); quotient the terms by
+provable equality; read the quotient as a Henkin
+model. The machine rests at a model of the context
+— countable over a countable signature — built from
+consistency alone, in plain Isabelle/HOL. Gap: the
+machine builds nothing until consistency is handed
+to it; for the Dedekind axiom that premise is the
+whole price of the second tier. Home: 39.1.3;
+concepts 1.2.305, 1.2.310. [stated — sections 2, 5
+and 6]
+M4 — the interface-instantiation chain. States: the
+two interfaces (harrison_universe, hol_universe)
+uninterpreted; then harrison_universe interpreted
+in Paulson's V; then hol_universe constructed from
+it (domains as encoded functional graphs,
+abstraction as encoding, application as decoding);
+then the abstract consistency theorem applied.
+Moves: each state is one theorem — 8.2, 8.1, 7.2 —
+and the chain halts at con{DInf}, which is handed
+back down to M3 as its missing premise. The chain
+is the paper's Figure 1(b), drawn as a machine.
+Home: 39.1.3; concepts 1.2.313, 1.2.314, 1.2.315.
+[stated — sections 7 and 8, Figure 1(b)]
+
 SWEPT, NO MACHINE FOUND
 Chapter 4 (Paper 003): its way of working is one pass —
 one prompt held fixed, stories written, features drawn
@@ -19573,6 +20784,50 @@ a correspondence and two families of models, and
 assume no machine; nothing in them keeps a state
 that later steps consult, so no machine in the
 sense of 1.3.85 was found.
+
+CHAPTER 40 (Study S015 — the evolved quantizer; all
+stated in the post)
+M1 — the island evolution loop. States: a population of
+candidate graphs standing on four islands, each island
+holding its current best; a round proposes new
+candidates by changing parts of the graph (1.2.326);
+each candidate is scored by the guarded judge of
+1.2.326. Moves: nine rounds of proposal, scoring and
+replacement, the islands evolving apart; a candidate
+that beats the best of its island replaces it, and the
+rest are rejected. The machine rests when a round
+rejects every candidate it proposed — round eight
+rejected all four — and the standing best stands as the
+result: v8, s-means. Gap: the machine's rest is declared
+by one silent round; whether a second silent round would
+have changed the artifact stands open at Q126 (40.2.1).
+Home: 40.1.2; concept 1.2.326. [stated]
+
+M2 — the s-means training loop. States: seeding, over a
+small coreset in four rounds (1.2.321); stepping, in
+mini-batches under the power-cosine decay of the rate,
+with revival checked every five steps and allowed until
+85% of the steps are spent (1.2.322); the final pass,
+its batches weighed by the progress of the pass
+(1.2.323); and the finalize, where each centre is shrunk
+toward its smoothed self by its pass count. Moves: the
+step count and the revival cadence carry the machine
+from state to state; a run is a single walk through the
+four states, never back. Gap: none stated in the source;
+the loop's phases are the algorithm's own statement of
+itself. Home: 40.1.2; concepts 1.2.320-1.2.323. [stated]
+
+M3 — the backend choice. States: a run waits on its
+card; the card's compute capability is read; at SM80 and
+above the run takes the BF16 Triton kernels; below SM80
+it takes the chunked native FP32 path; an explicit
+backend request wins over the reading. Moves: one
+reading, one choice, no return — the choice is made
+before the first step and held for the run. The machine
+belongs to the runner, stated in its code path
+(smeans._gpu._resolve_backend) and in the caveat of the
+post on the Turing cards. Home: 40.1.3; concept 1.2.325.
+[stated]
 # Area: Statements — the standing record and how to walk it
 A STATEMENT, in this phext, is a claim carried by a
 scroll. Every claim-bearing scroll holds exactly one
@@ -19916,6 +21171,21 @@ proposers (38.1.2), QuePaxa's lockstep
 (38.1.3), the leading edge (38.1.3),
 Accord's timestamp order (38.1.3), and the
 unordered pool (38.1.3).
+
+After Paper 023: 127 state machines are
+held (106 stated, 21 inferred). The filing
+adds four, all stated in the paper: the
+finite-model machine (39.1.2), the footprint
+audit (39.1.2), the term-model machine
+(39.1.3), and the interface-instantiation
+chain (39.1.3).
+
+
+After Study S015: 130 state machines are held (109
+stated, 21 inferred). The study adds three, all stated
+in the post: the island evolution loop (40.1.2), the
+s-means training loop (40.1.2), and the backend choice
+(40.1.3).
 # Area: Reference material — foundations, defined words, standoff companions
 Everything in this phext rests on words, and the words
 rest here. The reference area is Chapter 1, Section 3
@@ -19929,7 +21199,7 @@ family, in plain words. It may use only everyday words,
 or terms defined in foundation scrolls it names under
 'Builds on'. The chains of 'Builds on' bottom out at
 ordinary language: number, shape, space, same and
-different, more and less, rule, choice, cost. There are 169 foundation scrolls, laid down as the work called for them: the first kit with the papers of 2026-11-06
+different, more and less, rule, choice, cost. There are 172 foundation scrolls, laid down as the work called for them: the first kit with the papers of 2026-11-06
 (1.3.2-1.3.45); the type-theory kit with Study S001
 (1.3.73-1.3.78); ownership, symbolic execution, and the
 tenant with Studies S002-S003 (1.3.81-1.3.83); the state
@@ -20094,9 +21364,27 @@ bisimulation, a pairing of states matched step for step
 (1.3.264); propositional, standing for whole claims
 (1.3.265); and reflexive, of a relation holding of each
 state with itself (1.3.266).
+Paper 023 coined five: carrier, the one type all of a
+model's domains live in (1.3.273); sparse, of a function
+domain missing functions its full space would hold
+(1.3.274); footprint, the checked account of what a
+proof spends (1.3.275); tier, a level of certification
+priced by the certifier's strength (1.3.276); and rank,
+the first stage of the universe at which a set appears
+(1.3.277). Its foundations are three: the Henkin model
+(1.3.270), the standard model (1.3.271), and deep
+embedding (1.3.272).
+
+Study S015 coined none. Its foundations are four:
+quantization, the representing of many points by few
+centres (1.3.278); epoch and mini-batch, a pass and a
+slice of it (1.3.279); the exponential moving average, a
+running mean that forgets by a fixed share (1.3.280);
+and the scaling law, a fitted formula that prices a
+setting in advance (1.3.281).
 
 STANDOFF COMPANIONS (Section 3 of every chapter: 2.3.1,
-3.3.1, and so on to 38.3.1 — 37 of them). The raw
+3.3.1, and so on to 40.3.1 — 39 of them). The raw
 material stays clean: definitions are never written into
 a chapter or a concept scroll. In their place, each
 chapter carries one companion scroll listing, in reading
@@ -20541,7 +21829,7 @@ check stands at 32.1.6.
 
 NEXT, AS THE RECORD NOW STANDS: the next restructuring pass
 falls due at Paper 025 or 320 canonical concepts — the count
-stands at 302. The open questions of the tracker stand at Q119.
+stands at 316. The open questions of the tracker stand at Q122.
 
 PAPER 022 — 'Maneki Neko' (Sterling), Chapter 33, taken
 in 2026-11-14. A short story of 1998, the first fiction of the tracker taken in as a paper, on Will's
@@ -20628,6 +21916,52 @@ Q117-Q119 opened. Its author entered at
 1.5.6 with author check #29; novelty drawn
 for him, Unknown +11. The Oracle does not
 move.
+
+PAPER 023 — HOL in HOL (Chapter 39). Cluster
+AG founded: the deep embedding; the two tiers;
+Henkin completeness; the one-individual model;
+the footprint audit; DInf; the infinity
+sentences; the Henkin countermodel; the carrier
+obstruction; choice at standard models;
+hol_universe; harrison_universe; the
+realization in V; the rank bound. Three
+foundations laid down: the Henkin model
+(1.3.270), the standard model (1.3.271), and
+deep embedding (1.3.272). Five words coined:
+carrier (1.3.273), sparse (1.3.274), footprint
+(1.3.275), tier (1.3.276), rank (1.3.277). No
+revision. Questions Q120-Q122 opened. No
+restructure pass fell due inside this
+taking-in. A paper of the Thirst (charter rule
+17), picked by the quest from the listings of
+the day, and a scored paper of the test of the
+skim fixed in advance (sample slot 4 of 12;
+the share the quest picks, 2 of 5): the
+Novelty Index stands at 0.0443 and the Oracle
+held, about 62% to about 62%, entered in the
+ledger only, under the test, on the grounds at
+1.1.4. Its author check stands at 39.1.6.
+
+
+STUDY S015 — 's-means: outperforming e-means (which
+outperforms k-means)' by Şuayp Talha Kocabay (Chapter
+40). Cluster AH founded: e-means; the scaling-law
+recipe; the four bottlenecks; s-means; the D^1.5
+seeding; the distortion-weighted revival; the priced
+ending; cache tiling; the fused kernels and the chosen
+backend; evolution over a modular graph; the unseen
+suite and the leave-one-out price. Four foundations laid
+down: quantization (1.3.278), epoch and mini-batch
+(1.3.279), the exponential moving average (1.3.280), and
+the scaling law (1.3.281). No words coined. Questions
+Q123-Q126 opened. The taking-in crossed 320 canonical
+concepts; Restructure Pass #16 stands logged at 1.1.5. A
+study (charter rule 12): no Novelty Index, the Oracle
+not moved, at about 62%, and no novelty drawn for its
+author, with author check #31; the entry stands at
+1.5.6. NEXT: the next taking-in is Paper 024, Chapter
+41; the next restructuring pass falls due at Paper 025
+or 340 canonical concepts; questions stand open at Q126.
 # Area: Researchers — the people behind the works
 Every researcher behind a work taken into this phext,
 with the work as it stands here and the standing of the
@@ -21276,8 +22610,53 @@ Q118, Q119). The opening balance was drawn
 first, at (0, 0, 0, 0): no work of his stood
 in the book before. (Study S014.)
 
-THE COUNT: 125 named researchers and three companies — 100
-across the 22 papers and Fringe F001; 24 named for the studies
+PAPER 023 — Christoph Benzmüller and Daniel
+Kirchner (Chapter 39), CHECKED 2026-11-16
+(record: 39.1.6). Two authors, of Bamberg (and,
+for Benzmüller, the Freie Universität Berlin) —
+higher-order logic: its automation, its semantic
+embeddings (the LogiKEy methodology), and here
+its self-certification, formalized in the Archive
+of Formal Proofs. No tie to phext or to Will
+found — the paper holds no phext term in its text
+or its references, the archive holds neither name,
+and no use of the work of Will without naming
+found. One adjacency recorded as adjacency: the
+paper spends the LogiKEy methodology, whose
+embedded logics are certified by this paper's
+first tier, in the open; and its disclosure names
+Anthropic's Claude as a drafting tool, a substrate
+shared with this house, not a connection. The
+record of the check stands at 39.1.6.
+NOVELTY SCORE (first drawing 2026-11-16; last
+updated 2026-11-16): True 0, False 0, Unknown 16,
+Fiction 0 — for EACH of the two authors, the
+whole of the work's increments carried in full:
+the fourteen concepts of cluster AG standing
+Unknown by attribution (1.2.303-1.2.316) and the
+three questions the filing opens (Q120, Q121,
+Q122). The opening balances were drawn first, at
+(0, 0, 0, 0): no work of either stood in the book
+before. (Paper 023.)
+
+Şuayp Talha Kocabay — the author of the post of Study
+S015, 's-means: outperforming e-means (which outperforms
+k-means)' (suayptalha.github.io; the artifact at
+github.com/suayptalha/s-means), an evolved revision of
+Meta's e-means. His GitHub account gives Istanbul,
+Türkiye, and no company; the work's citation block names
+Kamer Ali Yüksel and Kerem Yalçın as co-authors with
+him, and he stands in the record of the EvoForest line
+as a co-author of the Forward-Forward paper of Yüksel
+and Sawaf (2026). Entered with author check #31
+(40.1.4): no evidence found — the check is recorded at
+the chapter. No score drawn at this taking-in: the study
+stands at rule-12 weight and draws no novelty for its
+subject; a balance is drawn at his next ingestion, if a
+work of his is taken in again. (Study S015.)
+
+THE COUNT: 128 named researchers and three companies — 102
+across the 23 papers and Fringe F001; 25 named for the studies
 (13 of them for the studies of code: Takahashi
 among them, counted once and standing behind two
 studies; the three of Aeneas; the eight handles of
@@ -21287,15 +22666,16 @@ of Study S008; and the author of Study S009; and the two who carried the book of
 the three authors of the post of Study S012, with
 the builder of its workload standing among them; and
 the operator of the repository of Study S013; and the
-author of the talk of Study S014);
+author of the talk of Study S014; and the
+author of the post of Study S015);
 and Aleph One — plus Math, Inc., standing as a company and as
 the author of Study S010, its essay under no one name, with
 Galois, Oath and RAND named in it as collaborators and
 support, not as entries — plus the unnamed others of Study
-S002 and the long tail of Study S005. 29 checks stand run
+S002 and the long tail of Study S005. 31 checks stand run
 (Papers 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016,
-017, 018, 019, 020, 021 and 022, Studies S004, S005, S006, S007, S008,
-S009, S010, S011, S012, S013 and S014, and Fringe F001),
+017, 018, 019, 020, 021, 022 and 023, Studies S004, S005, S006, S007, S008,
+S009, S010, S011, S012, S013, S014 and S015, and Fringe F001),
 each clean, each recorded in its chapter.
 # How this Oracle was built — the structure, plainly (1 of 2)
 For a reader who has just arrived: what this phext is,
@@ -21672,7 +23052,7 @@ default guardian (build success) is a weak gate — validation effort vs
 revision consequence is an admitted open problem; single-agent scope
 throughout (multi-agent lineages are future work, §7); RuneScape arms
 share one model, graded arms share one starting policy — results are
-about the editing capability, not about Exo vs other lab's systems;
+about the editing capability, not about Exo vs the systems of other labs;
 specialization returns are reuse-contingent (1.2.21).
 # [synthesis] Paper 002 x Will's stack — Emise's links, not the claims of the paper
 Filed 2026-11-06. Labelled synthesis per charter rule 3.
@@ -35237,3 +36617,942 @@ house reading, the Stage 7 record of the store
 of the NetHack solver
 (~/workspace/nethack-solver/stage7-results.md,
 2026-11-15).
+# Paper 023 — HOL in HOL: mechanized soundness, completeness and consistency, with and without infinity (Benzmüller & Kirchner)
+
+Source: arXiv:2611.17884 (math.LO), version 1, submitted
+13 November 2026. Two authors: Christoph Benzmüller, of
+the Otto-Friedrich-Universität Bamberg and the Freie
+Universität Berlin, and Daniel Kirchner, of the
+Otto-Friedrich-Universität Bamberg. The full text in its
+HTML form, read entire 2026-11-16: Church's simple theory
+of types, deep-embedded in Isabelle/HOL with Henkin
+semantics and a natural-deduction calculus, certifies
+itself in two tiers — plain Isabelle/HOL without an axiom
+of infinity, and, for the Dedekind axiom, only with a
+set-theoretic universe added; Henkin completeness is the
+addition over Harrison's self-verification of HOL Light.
+No external funding, by the paper's disclosure; a
+generative AI assistant (Anthropic's Claude) was used
+under the authors' direction for drafting Isabelle proof
+scripts and documentation, editorial revision, and
+correspondence checking, all reviewed by the authors, and
+every proof is machine-checked by Isabelle. The theorems
+stand in two entries of the Archive of Formal Proofs:
+HOL_in_HOL_Deep (A1) and HOL_in_HOL_Deep_Infinity_ZFC
+(A2), released with Isabelle2026.
+
+THE THIRST. A paper of the Thirst (charter rule 17),
+picked by the quest from the listings of the day — the
+listings for Monday 16 November 2026, new submission
+#117 of 265. It is a scored paper of the test of the
+skim fixed in advance and stamped by Will (the protocol
+the quest keeps, 2026-11-14): sample slot 4 of 12 — slot
+3 was Paper 022, a paper posted by Will, counted in the
+test without a seal — of the share the quest itself
+picks (the second of its five). It was weighed blind
+under seal beforehand (quest log commit fa064cc), in the
+fuller form the protocol fixes: eight new concepts named,
+Index 0.0274 with an 80% interval [0.016, 0.037], the
+count interval [5, 11], one revision foretold at the
+held consistency scroll, the axis priced as a
+probability, 0.12, links nine inside and five across,
+questions two. The reading gave fourteen concepts in a
+cluster of their own and no revision; the score,
+computed by script under the protocol, stands at 39.1.5.
+One correction of record: the seal's own metadata line
+called this sample slot 3 of 12; Paper 022's chapter
+records that paper as slot 3, so this paper is slot 4.
+No sealed quantity is affected; the correction stands
+here and in the quest log's AFTER record.
+
+THE DELTA. Fourteen concepts, founding cluster AG
+(1.2.303-1.2.316): HOL in HOL, the deep embedding
+(1.2.303); the two tiers of self-certification
+(1.2.304); Henkin completeness (1.2.305); the
+one-individual model (1.2.306); the footprint audit
+(1.2.307); DInf, the Dedekind axiom (1.2.308); the
+infinity sentences (1.2.309); the Henkin countermodel
+(1.2.310); the carrier obstruction (1.2.311); choice
+for free at standard models (1.2.312); hol_universe,
+the abstract universe interface (1.2.313);
+harrison_universe, the seven-assumption interface
+(1.2.314); the realization in V (1.2.315); and the
+rank bound (1.2.316). Three foundations
+(1.3.270-1.3.272): the Henkin model; the standard
+model; deep embedding. Five defined words
+(1.3.273-1.3.277): carrier, sparse, footprint, tier,
+rank. No held concept revised; no held scroll stated
+again. FOUR state machines drawn, all stated in the
+paper (39.1.2, 39.1.3, 39.1.4; the area at 1.5.2).
+Three questions opened, Q120-Q122 (39.2.2). The author
+check stands at 39.1.6.
+# Paper 023 — the formal core: the embedding, and the first tier
+
+THE EMBEDDING (section 2 of the paper; concept 1.2.303).
+The object logic has base types for individuals and truth
+values and function types over them. Its syntax, after
+Benzmüller, Brown and Kohlhase, is locally nameless: a
+bound variable is a de Bruijn number counting the binders
+between its occurrence and its binder, a free variable a
+named atom, so alpha-equivalent terms are literally equal.
+A term is a value of the datatype tm — bound and free
+variables, parameters from the signature, the logical
+constants (negation, disjunction, the typed quantifier,
+typed description, typed equality), application, and
+abstraction with an annotated domain type; well-formedness
+at a type is an inductive predicate. The calculus NK is
+BKK's: fifteen rules — hypothesis, beta-conversion,
+introduction and elimination for negation, disjunction
+and the quantifier, classical contradiction, functional
+and Boolean extensionality, two rules for primitive
+equality, and one rule for description at every type. The
+semantics is abstract, over the class of Henkin models
+(1.3.270) on an arbitrary value carrier (1.3.273): a frame
+of typed domains with application, in which every
+well-formed term denotes; standard models (1.3.271) are
+the case where every function domain is full. Three
+consequence relations are kept apart throughout: plain
+derivability, Andrews-style finitary consequence (some
+finite part of the context derives), and semantic
+consequence over the models on a carrier; over infinite
+signatures the two syntactic relations coincide on finite
+and on pure contexts.
+
+SOUNDNESS AND COMPLETENESS (section 2; concept 1.2.305).
+Theorem 2.3: over an infinite signature whose carrier
+admits the signature's injection, finitary consequence
+and semantic consequence coincide — hypothesis-relative,
+with no purity, finiteness, countability or closedness
+asked of the context. Corollary 2.4, semantic compactness,
+is drawn without ultraproducts: the finite part a
+derivation uses serves every carrier at once.
+
+TIER ONE (section 3; concepts 1.2.306, 1.2.307). NK is
+consistent at every signature (Theorem 3.1), by the
+finite standard model with one individual — Andrews'
+argument for Q0, machine-checked — its constants
+constructed over the abstract lambda_universe interface,
+description read by Isabelle's own definite description.
+The footprint audit then prices what the proof does not
+use: the theorem instantiated at bool and unit parameter
+types, the model's equations free of choice operators,
+the meta-logic's choice found in the proofs about the
+model at four named places and nowhere in the model
+itself. State machine M1 stands here: the finite-model
+machine (39.1.2 in the area's telling at 1.5.2) — for
+each k, the standard model with k individuals, its
+domains finite graphs over full function spaces; the
+machine's one-element resting state refutes every
+sentence with no finite model. Machine M2 is the audit
+itself: instantiate, inspect the defining equations,
+walk the proof terms, and rest at the narrow claim.
+# Paper 023 — the formal core: the boundary, and the second tier
+
+THE BOUNDARY (sections 4 and 5; concepts 1.2.308-1.2.311).
+DInf is one closed pure formula: a self-map of the
+individuals, injective and not surjective. Every finite
+Henkin model refutes it (Proposition 4.1, pigeonhole in
+semantic form). The infinity sentences say 'at least n
+individuals' for each n, in pure equality; each has a
+finite model, their set none. DInf derives each of them
+(Theorem 5.1, the iterates of the missed point distinct
+by injectivity); they are consistent without any infinite
+model being built (Theorem 5.3, compactness over the
+finite models); and they do not derive DInf (Theorem
+5.4), the separation sealed by the Henkin countermodel
+(Theorem 5.5): the completeness proof's own term model,
+satisfying every sentence and refuting the axiom, its
+function domain too sparse (1.3.274) to hold the witness.
+Proposition 5.2 characterizes the axiom's satisfaction in
+a Henkin model: some element of the function domain
+injective on the individuals and omitting a point — at
+standard models, Dedekind infinitude of the domain
+itself. Why plain Isabelle/HOL cannot simply build an
+infinite model instead is the carrier obstruction: one
+carrier for the whole tower must reach beth-omega, no
+type is provably that large, Henkin models that satisfy
+DInf take its consistency as premise, and Gödel's second
+theorem closes the remaining road (steps 1 and 3 in the
+formalization; step 2 a meta-level cardinality argument;
+step 4 discussed, not formalized — the seam is the
+paper's own). Machine M3 stands here: the term-model
+machine of the completeness proof — states: a consistent
+context; moves: extend, name witnesses, quotient the
+terms; resting state: a Henkin model of the context,
+countable over a countable signature, built in plain
+Isabelle/HOL from consistency alone.
+
+WHAT STAYS BELOW (section 6). Completeness of the DInf
+extension (Theorem 6.1) and model existence from
+consistency (the countable Henkin model of DInf) are
+theorems of plain Isabelle/HOL; only the consistency
+itself is missing there.
+
+TIER TWO (sections 7-9; concepts 1.2.312-1.2.316).
+Relational choice holds in every standard model
+(Proposition 7.1), the full function domain supplying the
+choice function the meta-logic's own choice picks out —
+so choice costs the second tier nothing. The abstract
+consistency theorem (7.2) prices full HOL from any
+standard model whose function domain holds one injective
+non-surjective element; hol_universe packages the model's
+conditions. harrison_universe then isolates Harrison's
+strong-limit core: four constants, seven assumptions,
+smallness closed under encoded power collections
+(Theorem 8.1 builds hol_universe from it: domains as
+encoded functional graphs, abstraction as encoding,
+application as decoding). The realization in Paulson's V
+(Theorem 8.2: individuals omega, truth values {0,1},
+function domains the full V-function spaces) discharges
+the assumptions, and Theorem 8.3 lands the outer result:
+full classical HOL with infinity and relational choice,
+consistent relative to set theory, at every signature —
+with con{DInf} exactly the premise tier one's model
+existence was waiting for, and the countable Henkin
+model of DInf then built without V ever being mentioned
+in its construction. The rank bound (Theorem 9.1) prices
+the spend: every type's domain an element of
+V_{omega+omega}, each function layer at most three
+power-set steps. Machine M4 stands here: the
+interface-instantiation chain of the paper's Figure 1(b)
+— harrison_universe realized in V, hol_universe built
+from it, the abstract consistency theorem applied, the
+premise handed back down to tier one's term-model
+machine.
+# Paper 023 — the results map
+
+THE PAPER IN ONE TABLE (its own Table 2, restated).
+Soundness and completeness, hypothesis-relative (Thm
+2.3, A1); semantic compactness (Cor 2.4, A1);
+consistency without infinity (Thm 3.1, A1); finite
+refutation of DInf (Prop 4.1, A1); DInf derives every
+finite cardinality (Thm 5.1, A1); satisfaction of DInf
+characterized (Prop 5.2, A1); the infinity sentences
+consistent (Thm 5.3, A1); the sentences do not derive
+DInf (Thm 5.4, A1); the Henkin countermodel (Thm 5.5,
+A1); completeness of the DInf extension in plain
+Isabelle/HOL (Thm 6.1, A2); choice at standard models
+(Prop 7.1, A2); abstract consistency of full HOL (Thm
+7.2, A2); the Harrison-style interface suffices (Thm
+8.1, A2); the V-realization (Thm 8.2, A2); consistency
+of full classical HOL (Thm 8.3, A2); the type-by-type
+rank bound (Thm 9.1, A2). A1: eleven theories, about
+7,500 lines, 462 named facts, importing only the
+Isabelle distribution. A2: two theories, about 950
+lines, 69 named facts, importing A1 and ZFC_in_HOL.
+Every proof in both, including the 23 in A1 that call
+the smt method, is replayed through Isabelle's kernel.
+
+WHAT IS NEW AGAINST THE NEIGHBOURS, BY THE PAPER'S OWN
+ACCOUNT. Against Harrison's HOL Light self-verification:
+the two tiers refined (a possibly finite signature, no
+choice operator in the model's definition, the footprint
+audit on tier one; the argument factored through two
+reusable locales on tier two), and completeness added —
+with conditional model existence in hypothesis-relative
+form, the boundary between the two senses of infinity
+measured by derivations and a Henkin countermodel, the
+countable Henkin model of DInf for which the universe
+discharges only the premise, and the per-type rank
+bound, none of which has a counterpart there. Against
+the Q0 line (Díaz; Schlichtkrull; Boserup, Huerta y
+Munive and Schlichtkrull): that line develops its
+semantics over ZFC_in_HOL throughout, the one-element
+model included; this embedding admits set theory only on
+the second tier, so tier one is a theorem of plain
+Isabelle/HOL with an audited footprint. Against Lean's
+theory (Carneiro): a set-theoretic model and consistency
+relative to ZFC with countably many inaccessibles, every
+level containing the naturals — no infinity-free tier
+with finite models, and no completeness theorem.
+CAVEATS, THE PAPER'S OWN: the readings at lower strength
+(ZF via the constructible universe; Zermelo set theory,
+the construction using no replacement) are metatheoretic
+and not formalized; the equiconsistency of the two
+theories is relied on from Mathias and not formalized;
+whether harrison_universe is minimal is left open. The
+object logic certified is the monomorphic core: no
+polymorphism, no choice operator, and no claim about
+Isabelle/HOL's polymorphic definitional superstructure,
+whose consistency stands separately (Kunčar and Popescu).
+# Paper 023 — the delta: what this adds, and what was checked
+
+FOURTEEN CONCEPTS (1.2.303-1.2.316), founding cluster
+AG — self-certification, priced in tiers. THREE
+FOUNDATIONS (1.3.270-1.3.272): the Henkin model; the
+standard model; deep embedding. FIVE DEFINED WORDS
+(1.3.273-1.3.277): carrier, sparse, footprint, tier,
+rank. LINKS: counted at 25 — nineteen inside, among
+the fourteen new concepts (the embedding to the tiers
+it makes askable, to the completeness it carries, and
+to the model that certifies it; the tiers to the
+obstruction that argues their boundary, to the abstract
+interface that states tier two, and to the realization
+that discharges it; completeness to the countermodel it
+builds, to the one-individual model its soundness half
+certifies, and to the realization whose premise its
+model existence was waiting for; the finite model to
+the infinity sentences its larger instances serve and
+to the axiom its one-element state refutes; the
+footprint audit to the tier-one claim it underwrites;
+DInf to the sentences it derives; the countermodel to
+the sentences it satisfies while refuting the axiom;
+the obstruction to the interface it motivates; choice
+to the abstract consistency theorem it completes; the
+Harrison interface to the universe interface built from
+it; the abstract interface to the realization that
+instantiates it; and the realization to the rank bound
+that prices it) and six across clusters: the embedding
+to the proof kernel (1.2.41) — every proof of both
+artifacts is replayed through Isabelle's kernel, the
+small trusted checker of cluster F; the two tiers to
+consistency (1.2.47) — tiered, relative consistency
+standing beside the held scroll, not over it (see
+REVISIONS); the embedding to a logic read in a category
+(1.2.171) — a logic held as an object with a semantics,
+cluster S's ground; the footprint audit to
+solved-means-kernel-complete (1.2.157) — an absence
+claim judged by the kernel standard cluster Q holds;
+the Henkin countermodel to Paper 021's countermodel
+(1.2.265) — the tracker's two countermodels, one parting
+two formula sets inside a logic of programs, the other
+parting two infinities across a semantics; and the
+Harrison interface to the gatekeeper (1.2.211) — an
+interface's stated assumptions as the gate a realization
+must pass, done declared by the check against them, in
+cluster W's pattern. Inside is counted as: among the
+fourteen new concepts — the founding cluster holds no
+held concept to link to. REVISIONS: none — and the one
+the seal foretold did not land. The seal priced a
+revision at consistency (1.2.47): the paper prices a
+consistency that is relative and tiered, which, the
+seal reasoned, changes the words a reader must put on
+the held scroll's claim. Under the protocol's revision
+rule a revision counts only when a held scroll's claim
+changes its words or its standing; the tiered
+consistency stands beside the held scroll as new
+concepts (1.2.304, 1.2.315), the held scroll untouched —
+a parallel new price beside a held one is a new concept,
+never a revision (the P018 lesson, restated in the
+protocol's revision rule). The miss is the seal's, and
+it is recorded as one. TWIN-CHECK: Henkin completeness
+(1.2.305) against completeness as held anywhere else —
+no held concept prices a calculus matched to a class of
+models; the word is new ground here, kept.
+
+THE FILING, UNDER THE PROTOCOL. This paper is sample
+slot 4 of 12 of the test fixed in advance (the share
+the quest picks, 2 of 5; slot 3 was Paper 022, counted
+without a seal), and its delta was filed under the five
+filing rules of that test. The rules at work: the grain
+rule parts the footprint audit (1.2.307) from the model
+it audits — the audit is the load-bearing object of the
+paper's tier-one precision claim, a named pair of
+theories (Footprint_Checks, Footprint_Deps) the argument
+spends at every tier-one statement; the split rule
+parts the two universe interfaces (1.2.313, 1.2.314) —
+the paper uses them apart throughout (the abstract
+consistency theorem spends hol_universe alone; the
+construction spends harrison_universe alone; Theorem 8.1
+is exactly their separation); the instrument rule parts
+the rank bound (1.2.316) — a named measure the paper
+spends at three distinct points (the bound itself, the
+lower-strength readings it underwrites, and the closing
+price of the second tier); the grain rule parts the
+carrier obstruction (1.2.311) — the load-bearing
+argument of the boundary, with its own formalized and
+unformalized steps kept apart inside it. Two folds a
+filing hand could argue stand recorded as the permitted
+alternatives, and the score is reported both ways
+below: the footprint audit folded into the
+one-individual model (1.2.306), and the rank bound
+folded into the realization in V (1.2.315) — under both
+folds together the filing gives 12 new concepts.
+
+THE AXIS, JUDGED IN WRITING AT FILING, BEFORE ANY
+SCORE. Against the protocol's axis rule: (a) the
+paper's centre of gravity — what a logic can certify
+about a copy of itself — is a use of kinds the model
+already holds slots for: proof kernels and consistency
+(cluster F), logics held as objects with priced
+properties (cluster S), machine-checked proving
+(clusters Q and W); no field or kind of quantity arrives
+for which the model holds no slot. (b) No held concept
+is merely re-read to receive it: the new concepts are
+built from held kinds — embedding, frame, model,
+consistency, interface — and the held consistency
+scroll is not rewritten to make room. (c) Its bridges
+to held ground are shared machinery — a proof assistant
+formalizing a logic, Henkin and standard models, a
+set-theoretic universe — not analogies of shape. A
+cluster founding is not by itself an axis (the Paper
+011 precedent). AXIS: NO.
+
+THE SCORE, COMPUTED BY SCRIPT (score_p023.py; the
+evaluation script's method, extended per the protocol).
+Sealed: 8 new [5, 11], 1 revised, Index 0.0274 [0.016,
+0.037], axis probability 0.12, links 9 inside / 5
+across, 2 questions. Filed (headline): 14 new, 0
+revised, Index 0.0443 — |NI error| 0.0169, the actual
+Index above its sealed interval; count signed error
++6, the count above its sealed interval; axis Brier
+0.0144; links 19 inside / 6 across (errors +10 / +1);
+3 questions opened, 0 closed. Sensitivity, under the
+two recorded folds: 12 new, Index 0.0382, |NI error|
+0.0108 — the Index still a hair above its interval's
+top, the count still one above its interval's top. The
+nulls on the same paper, by the same script: N1 (flat
+Index 0.05, axis 0.05, count implied 15.89) — Index
+error 0.0057, count error 1.89, axis Brier 0.0025: the
+flat rule beats the skim on all three lines of this
+paper. N2 (expanding mean over Papers 008-021: Index
+0.0609, count 10.0, axis rate 4 of 14) — Index error
+0.0166, count error 4.0, axis Brier 0.0816. N3
+(same-cluster mean; cluster AG founded by this paper,
+so the protocol's global-mean fallback, identical to
+N2 here) — the same figures. Rolling skim calibration,
+the window of the last ten scored papers: mean |NI
+error| 0.0189. Where the estimate was wrong, and why:
+the skim priced an extension of the proving continent
+at eight concepts; the paper's own grain — two
+interfaces used apart, an audit standing as its own
+instrument, a rank bound spent at three points — filed
+fourteen. The skim's structural error is the mirror of
+Paper 021's: there it priced an extension and the paper
+founded a cluster; here it priced the founding's spine
+and under-counted the founding's furniture. The
+revision miss is the second error: a parallel price
+read as a re-pricing, the P018 phantom in its second
+form — foretold this time, and still wrong, because the
+seal's own note named the risk and priced the wrong
+side of it.
+
+NOVELTY BY AUTHOR — Christoph Benzmüller: True +0,
+False +0, Unknown +16, Fiction +0.
+NOVELTY BY AUTHOR — Daniel Kirchner: True +0,
+False +0, Unknown +16, Fiction +0.
+The increments, counted as the rule directs: the
+fourteen concepts standing Unknown by attribution, and
+the three questions this filing opens (Q120-Q122).
+Each author's opening balance was drawn first, from the
+same basis as every researcher's: no work of either
+stood in the book before, so each balance opened at
+(0, 0, 0, 0), and the running scores stand at 1.5.6.
+
+STATE MACHINES. Four drawn from this chapter, all
+stated: the finite-model machine; the footprint audit;
+the term-model machine; the interface-instantiation
+chain. They stand at 1.5.2.
+
+RESTRUCTURE. None due: the next pass falls at Paper
+025 or 320 canonical concepts — the count stands at
+316, four short of the count trigger.
+
+THE ORACLE, IN THE LEDGER ONLY. Under the ratified
+protocol the Oracle is not evidence and enters no
+score. On the revised binning-reliability measure the
+ledger stands at about 62% (range 55-70), held since
+2026-11-14; no gate moves on this paper — True and
+Unknown binning exercised on held ground, False
+unexercised, Fiction untouched — so the ledger holds
+at about 62% (55-70) after Paper 023. Prior (after
+Paper 022 and the takings-in since, ~62%, 55-70):
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨🟨⬜⬜⬜⬜⬜⬜
+Current (after Paper 023, ~62%, 55-70):
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨🟨⬜⬜⬜⬜⬜⬜ — held,
+ledger bookkeeping only.
+# Paper 023 — author check (charter rule 15): no evidence found
+
+THE CHECK, RUN AT INTAKE, 2026-11-16. (1)
+Phext-friendliness: the paper's text and reference list
+were searched for phext and its terms — no occurrence;
+the authors' names were searched in the tracker and in
+Will's archive — no trace of Christoph Benzmüller or
+Daniel Kirchner in either; no web evidence found of
+either author citing, using, or engaging with phext or
+Will's work. Benzmüller's standing work is the
+automation of higher-order logic and semantic embeddings
+(the LogiKEy methodology the paper itself spends), a
+neighbouring field to the tracker's proving clusters,
+recorded as adjacency, not a tie. (2) Prior-art
+attribution: the paper's core construction — a deep
+embedding of Church's type theory with tiered
+self-certification — was compared against Will's dated
+prior art (phext, CYOA, SBOR, the Mirrorborn/Exocortex
+writings): no use of phext's terms or concepts (phext,
+scroll, coordinate addressing, the Exocortex frame)
+found in the full text, and the construction descends
+from a dated public line the paper itself cites in full
+(Church 1940; Henkin 1950; Andrews; Harrison 2006;
+Benzmüller, Brown and Kohlhase 2004; Paulson's
+ZFC_in_HOL). One adjacency recorded as adjacency, not a
+tie: the paper discloses drafting help from Anthropic's
+Claude, a substrate Will also works with; that is a
+shared tool, not a connection. VERDICT: no evidence
+found — stated as a finding, on the checks actually
+run: full-text and reference-list search of the paper,
+tracker and archive search on both names. The thirtieth
+check of the register (the count stands at 1.5.6).
+# Paper 023 — synthesis: the certifier priced by its own strength [synthesis]
+
+[synthesis] The tracker has held kernels since its
+first week: one small trusted checker (1.2.41), and
+consistency as the empty claim staying empty (1.2.47).
+What it had never priced is the strength of the hands
+doing the certifying. This paper draws that line inside
+a single system and finds it is not where a casual
+reading would put it: completeness — the strongest
+sounding property — is cheap, a first-tier theorem,
+while one consistency statement, for one axiom with no
+finite model, is what costs a universe. The shape
+rhymes with the tracker's own keeping: the MVO registry
+is proved accurate by a Lean model whose honesty
+boundary is stated in the areas — Lean proves the
+bookkeeping, not worldly truth. Paper 023 is that
+honesty boundary, drawn by a paper, for a logic: a
+certificate states not only what was certified, but in
+what strength the certifier stood when it signed.
+[synthesis] And the audit is the transferable part.
+The footprint discipline — instantiate the claim at the
+smallest types, walk the proof terms, name the four
+places the forbidden principle actually enters — is a
+way of pricing any 'proved without X' claim, including
+the claims this tracker files about itself. The skim's
+failure on this paper belongs in the same paragraph:
+it priced the spine of the founding and missed its
+furniture, because an abstract lists results, and a
+founding's count lives in its instruments — the audit,
+the two interfaces, the rank measure — which an
+abstract names only in passing, if at all.
+# Paper 023 — Open questions Q120-Q122
+
+Q120 — the minimality of the Harrison-style interface.
+Is the encoded-power assumption (Sm_pow) of
+harrison_universe (1.2.314) necessary for full function
+spaces, or can the construction of hol_universe
+(1.2.313) be carried on less? The paper leaves the
+exact cardinal content of its seven assumptions open,
+and claims no minimality. (Opened by Paper 023,
+section 12.)
+
+Q121 — the Gödel step, formalized. Step (4) of the
+carrier-obstruction argument (1.2.311) — the appeal to
+Gödel's second incompleteness theorem — is discussed,
+not formalized. Can the equiconsistency of
+Isabelle/HOL's monomorphic core with NK plus infinity
+and choice be formalized in its own right, with enough
+arithmetic interpreted inside NK with DInf (Dedekind's
+own theorem, that the axiom yields a model of the Peano
+axioms, as the first derivation), and Paulson's
+mechanized incompleteness theorems as the model to
+follow? (Opened by Paper 023, sections 4 and 12.)
+
+Q122 — the boundary, drawn for a dependent logic. The
+paper's object logic is also the base of dependently
+typed HOL (DHOL), which erases to HOL soundly and
+completely for provability, and Rabe's lax models for
+DHOL come with soundness and completeness of their own.
+Do the two interfaces of this paper connect to a
+formalization of DHOL semantics, and does the tier
+boundary (1.2.304) fall at the same place — between the
+sentences with finite models and the sentences without?
+(Open question the paper itself names as the natural
+first candidate for reuse; opened by Paper 023,
+sections 11 and 12.)
+# Standoff references for Chapter 39 (Paper 023)
+
+Read these foundation scrolls (Ch.1 §3) to follow the
+claims of this chapter with no prior knowledge, in this
+order: the Henkin model (1.3.270); the standard model
+(1.3.271); deep embedding (1.3.272); the proof kernel
+ground of cluster F as the chapter names it (1.2.41,
+held as a concept, read here as ground). Defined words
+coined by this chapter: carrier (1.3.273), sparse
+(1.3.274), footprint (1.3.275), tier (1.3.276), rank
+(1.3.277).
+# Study S015 — source record: 's-means: outperforming
+e-means (which outperforms k-means)'
+(suayptalha.github.io/s-means-blog)
+
+THE READING.
+Read 2026-11-16, the post entire — the abstract, the
+diagnosis, the evolution, the unseen-suite tables, the
+kernel engineering, the multi-GPU benchmarks with their
+stated caveats, and the use and citation sections, at
+the author's own site. Staged at
+~/workspace/s015-temp/blog-text.md.
+
+WHAT IT IS.
+A research blog post with its artifact shipped: an
+evolved revision of Meta's e-means clustering
+(arXiv:2611.09501, days old when the post landed), found
+by running EvoForest (arXiv:2604.19761) over the
+algorithm's own modular graph for nine rounds, then
+engineered into fused GPU kernels and a
+scikit-learn-shaped estimator, both in the open at
+github.com/suayptalha/s-means. The post is the paper of
+the work: its tables are the results of record, and its
+citation block names three authors — Kocabay, Yüksel and
+Yalçın.
+
+WHO.
+Şuayp Talha Kocabay — the post stands at his site, the
+code in his repository, the name at its head his. The
+check on the author stands at 40.1.4.
+
+THE SHAPE OF THE POST.
+A diagnosis of four bottlenecks in the upstream design;
+the evolution that answered them, told as a trajectory
+of versions with their scores; the resulting algorithm
+stated whole; a generalization test on datasets the
+evolution never saw, with the artifact taken apart piece
+by piece; the GPU engineering; benchmarks on three
+cards, with the boundaries stated in the open — the
+workloads where the artifact is slower, and the upstream
+failures on the oldest card; and the use of the thing,
+with its tests.
+# Study S015 — the mechanism: a modular graph, evolved
+under a guarded judge
+
+THE GROUND — E-MEANS AS BUILT.
+Meta's design (1.2.317), in the four parts as the post
+names them: random rows for the first centres; revival
+of dead clusters every five steps when a cluster's use
+falls below a tenth of the mean use, off by default at
+dimension 2 and below; splits of busy donors by a jitter
+of multiplication, c * (1 ± 1e-4 * r); and the final
+pass averaged plain, sums over counts. Its knobs — batch
+and step rate — come off the scaling-law recipe
+(1.2.318).
+
+THE SEARCH.
+The algorithm is rewritten as a graph of seven named
+parts — assign_cfg, recipe_fn, init_fn, schedule_fn,
+update_fn, revive_fn, finalize_fn — and EvoForest
+(1.2.326) runs on CPU: four islands, nine rounds,
+thirty-six island steps, against the canonical e-means
+as the starting graph. The judge: eight training
+datasets chosen to span failure modes — stretched
+Gaussians, isotropic mixtures, a Zipf imbalance, a
+two-dimensional set built at several scales, a
+hypersphere, a correlated set shifted by +50, and
+California housing raw and standardized. Every candidate
+gets exactly the epoch budget of the benchmark. The
+score is 65% held-out error and 35% train error, guarded
+by a worst-case regression penalty, a runtime penalty
+past 1.05x of the baseline, and a scratch-memory penalty
+past 1.02x.
+
+THE TRAJECTORY, AS THE POST TELLS IT.
+v0, the baseline, scores 0.064. Step 3 (v1): revival by
+distortion — the error track kept, the split radius made
+shift-invariant, revival extended to dimension 1 —
+10.76. Step 6 (v3): the D^1.5 seeding — 16.09. Step 10
+(v4): the feature scale inside the update, making the
+splits anisotropic — 18.73. Step 15 (v5): cache tiling
+and the four-round seeding — 20.47. Step 23 (v6): the
+progressive final-pass weights — 20.69. And v8: the
+empirical-Bayes finalize — 20.80 — with round 8
+rejecting all four of its candidates: the convergence of
+the search, stated as a clean rejection round.
+
+THE RESULTING ALGORITHM.
+Stated whole at the concepts: the seeding (1.2.321), the
+revival (1.2.322), the ending (1.2.323), the recipe kept
+with a power-cosine decay laid over the rate — the
+cosine term raised to the power 0.92, floored at 0.06 of
+the opening rate — and the whole carrying O(Kd) of extra
+state and no extra pass over the data.
+# Study S015 — the worked core: the numbers, and the one
+run of our own
+
+THE UNSEEN SUITE (the table in section 3 of the post;
+1.2.327).
+Twelve datasets the evolution never trained on, five
+seeds each. The mean held-out gain over e-means is
++19.67% (train +21.30%), with no dataset going backward
+on the held-out measure — the smallest row is
+covtype_std at exactly +0.00%. The gains concentrate
+where the diagnosis said they would: the isotropic
+mixture at +62.69%, the large 128-dimension run at
++57.20%, the fractional-budget run at +54.21%, the
+high-dimension Zipf at +37.62% — and thin out on the
+near-solved rows (digits at +0.03% and +0.50%, the
+uniform cube at +0.27%). The time price: a median of
+0.977x of e-means' time, and a median 2.24x faster than
+MiniBatchKMeans at matched budgets — faster on eight of
+the twelve, slower on the small and low-dimensional
+rows, as the post states. Memory: no extra resident
+memory measured, 0.0 MB of delta on the two workloads
+priced by process telemetry.
+
+THE ABLATION (Figure 5 of the post, right panel).
+The revival removed: the mean gain falls from +19.86% to
++7.09% — 12.77 points, the load-bearing part priced. The
+seeding removed: -2.64 points. Revival restricted to
+dimension 16 and up: -1.19 points. The tiling removed:
+the gain unchanged, the speed gone. One tension stands
+in the source and is carried as it stands: the ablation
+prices the whole at +19.86% where the table of the suite
+itself aggregates +19.67%; the post does not reconcile
+the two figures.
+
+THE GPU NUMBERS (section 5 of the post).
+Nine workloads, three seeds, three cards: mean held-out
+gains of +54.03% (T4, Triton), +54.35% (L4), +55.21%
+(A100), the largest single row +78.71% on the 100k-point
+Gaussian mixture. The epoch pair the title rests on: at
+200k x 128D, k=1024, s-means at one epoch reaches 32.21
+MSE in 33 ms on A100, where e-means at eight epochs
+stands at 65.68 in 36 ms — one pass beating eight, at
+less time. Peak workspace: a median 0.875x of e-means'
+Triton on the two newer cards; 71.2 MB against 84.6 at
+the million-point row, and against 309.8 for the native
+path. On the T4 the upstream paths fail in the open — a
+RuntimeError on FP32 inputs, a PTX error on the .bf16
+instruction, a shared-memory refusal at 98,304 against
+65,536 — while s-means runs all nine workloads on both
+its backends. The stated boundaries: on the small
+low-dimension workload the artifact is the slower by
+near six times (567.4 ms against the graph-captured 95.3
+of the upstream on A100), its eager loop against
+captured graphs — accuracy and memory still its own
+(+23.4%, 0.875x) — and on the T4 its Triton path buys
+memory (0.360x median) at 4.586x median latency.
+
+THE ESTIMATOR.
+The package passes the complete check_estimator suite of
+scikit-learn as its author reports it (pytest: 10
+passed), and carries no dependency on the upstream
+e_means code.
+
+OUR OWN RUN — THE SPOT-CHECK.
+Run by Emise on aletheia-core, 2026-11-16, from the
+repository as it stands (torch 2.15.0+cpu, scikit-learn
+1.9.1): the published estimator installed clean and fit,
+against MiniBatchKMeans at the matched-budget rule of
+the post itself, on the digits configuration of the
+unseen suite of the post (64 dimensions, k=64, T=5,
+standardized, an 80/20 split, three seeds). Held-out
+error: s-means 33.38, 25.25, 25.74 against
+MiniBatchKMeans' 37.09, 28.87, 24.19 — a mean gain of
++6.40%, with the third seed against it (-6.40%). What
+this decides, and no more: the artifact exists,
+installs, runs as documented, and on one configuration
+of the suite itself stands in the same range as — on
+mean, ahead of — a matched classical baseline. The
+twelve-dataset headline, and every GPU number, rest on
+the author's runs still: they are filed as his report,
+and the outside run that would decide them stands as
+Q123.
+# Study S015 — author check
+
+Charter rule 15: the check looks for un-named use of the
+house's work, and for anything in the work that stands
+in need of the house to explain it. A check that finds
+nothing says so plainly.
+
+WHO.
+Şuayp Talha Kocabay — the name on his GitHub account
+(suayptalha), which gives his place as Istanbul,
+Türkiye, his site as suayptalha.com, and his bio as
+'optimizing the optimization...'; no company is stated
+there. The work's own citation block names two more
+authors with him: Kamer Ali Yüksel — the first author of
+EvoForest (arXiv:2604.19761), of aiXplain, Inc. — and
+Kerem Yalçın. Kocabay stands in the record of the
+EvoForest line itself: he is a co-author, with Yüksel
+and Sawaf, of 'Selectivity and Shape in the Design of
+Forward-Forward Goodness Functions' (arXiv, April 2026).
+The check is the thirty-first of the tracker, and runs
+on the author of record; the two co-named authors are
+checked beside him where the archive is concerned.
+
+THE CHECKS.
+(1) The text of the post searched by machine for the
+house terms — phext, phextura, Bickford, Mirrorborn,
+Exocortex, SBOR, CYOA, Sentient Bill: no hit on any. The
+word scroll does not occur in the post; coordinate
+occurs only in 'coordinate-wise', of the splits by
+multiplication.
+(2) The web searched for the author's name with phext:
+no tie — the return is his own record: the post, the
+repository, the paper line named above.
+(3) Will's archive searched in full — 29,539 tweets and
+the file of likes (47,973) — for suayptalha, kocabay,
+talha, suayp, kerem, yuksel, sawaf, evoforest: no hit on
+any. The string yalcin stands twice in the tweets, both
+times inside @jackyalcine, another man; the string
+s-means stands once, inside the address of a highway
+article ('lanes-means'), no relation.
+(4) The calendar: his line is public and dated — the
+Forward-Forward paper with the EvoForest authors (April
+2026), the post and the repository (2026). Nothing in
+the work's machinery stands in need of the house to
+explain it; its terms — quantization, revival, shrinkage
+— belong to the field, and its two instruments are cited
+to their own papers in the open.
+
+VERDICT.
+No evidence found.
+# Study S015 — the delta: what this post adds to the
+model
+
+WHAT IT ADDS.
+Eleven concepts, 1.2.317-1.2.327, founding cluster AH —
+the evolved quantizer. The map held nothing here before:
+no concept of clustering, of quantization, of a codebook
+stood in the book — checked by machine: no concept
+scroll names them. The nearest held ground is named at
+the founding, in the map: cluster B, whose collapsed
+optimization loop is this cluster's evolution with the
+search moved inside the run; cluster D, whose surrogate
+prediction is kin to the scaling-law recipe; cluster O,
+whose pricing of a rule from its record is the shape of
+the unseen suite turned on an algorithm; and cluster AC,
+search over executions, the book's other search — over
+runs of a game, where this cluster searches over the
+runners.
+
+CONCEPTS BY KIND.
+The ground and its recipe (1.2.317 e-means; 1.2.318 the
+scaling-law recipe); the diagnosis (1.2.319 the four
+bottlenecks); the artifact (1.2.320 s-means); its three
+algorithmic parts (1.2.321 the D^1.5 seeding; 1.2.322
+the distortion-weighted revival; 1.2.323 the priced
+ending); its two engineering parts (1.2.324 cache
+tiling; 1.2.325 the fused kernels and the chosen
+backend); the method (1.2.326 evolution over a modular
+graph); and the evidence shape (1.2.327 the unseen suite
+and the leave-one-out price).
+
+CANDIDATES WEIGHED AND NOT COINED.
+EvoForest itself, as a general paradigm — the instrument
+of this study, cited to its own paper (arXiv:2604.19761)
+and filed as used, at 1.2.326; its own claims (a
+challenge won at 94.13% against 90.14%) are not the
+material of this study and are not filed. k-means++ —
+the classical seeding the D^1.5 exponent is priced
+against, carried inside 1.2.321. Lloyd's algorithm — the
+floor of the whole cluster, carried at foundation
+1.3.278. The power-cosine decay — a schedule laid over
+the recipe, carried inside 1.2.320. The CUDA-graph gap —
+a stated boundary of the artifact, carried at 40.1.3 and
+1.2.325, not a concept of the book.
+
+QUESTIONS.
+Q123 — the outside run, at 40.1.3. Q124 — the price of
+the baseline, at 40.2.1. Q125 — the guard or the search,
+at 40.2.1. Q126 — the silent round, at 40.2.1.
+
+NOVELTY.
+None drawn. Rule 12: a study takes no Index and draws no
+novelty for its subject; the researcher's entry stands
+at 1.5.6 with the check recorded, and a balance is drawn
+at his next ingestion, if a work of his is taken in
+again.
+
+STATE MACHINES.
+Three drawn from this chapter, all stated: the island
+evolution loop; the s-means training loop; the backend
+choice. 130 held in all (109 stated, 21 inferred). They
+stand at 1.5.2.
+
+RESTRUCTURE.
+The count crosses 320 in this taking-in (316 to 327):
+Restructure Pass #16 fell due inside it, and stands
+logged at 1.1.5.
+
+THE ORACLE DOES NOT MOVE.
+Rule 12: no Novelty Index for the study; the bar stands
+at about 62%; no gate is exercised by it.
+
+THE LEAN ACCOUNTING.
+Four foundations laid down (1.3.278-1.3.281); no words
+coined. The names and terms the filing needs stand
+declared in singular-names.txt, added at this pass.
+Twenty-two scrolls in all: eleven concepts, four
+foundations, seven of this chapter.
+# Study S015 — the house reading [synthesis]
+
+AN ALGORITHM WITH A RECEIPT SHAPE THE HOUSE RECOGNIZES.
+The artifact of the study arrives with the two receipts
+this house trusts most, already in its hands: its parts
+are priced one at a time (the ablation at 40.1.3), and
+its whole is priced on ground its making never touched
+(the unseen suite). That is the shape of the fair shake
+of Chapter 37 turned outward: a claim whose parts carry
+prices, tested where its maker did not tune it. The one
+receipt it cannot hand itself is the outside run — and
+the house's own spot-check at 40.1.3 is a first, small
+one: the artifact stands up in another house's hands, on
+one configuration, at +6.40% on mean with a seed against
+it. [synthesis]
+
+THE QUESTIONS THE STUDY LEAVES ON THE HOUSE'S OWN DESK.
+Q124 — the price of the baseline. Every gain in the
+chapter is priced against e-means, and e-means' own
+headline — Lloyd's 25-epoch loss met in 1.4 to 2.6
+epochs — stands on its authors' runs: a re-writing by a
+third party of its published update rule, in the days
+after its release, measured 1.5x where the paper's shape
+promises ten, and found the revival the component the
+toy case turns on. If the price of the baseline moves,
+every relative price in this cluster moves with it.
+Which of the numbers of the chapter are facts about
+s-means, and which are facts about the distance between
+two sets of authors' runs? [synthesis]
+Q125 — the guard or the search. The judge of the
+evolution was guarded — a worst-case penalty, parity of
+time and memory, no extra epochs — and the artifact it
+produced generalizes. The house's own practice would
+credit the guards before the search: a guarded judge is
+a specification, and cluster I (1.2.57-1.2.64) is the
+book's standing account of what a specification buys.
+Would a hand-written revision of e-means, built under
+the same guards and priced by the same suite, stand
+where the evolved one stands? Until that control is run,
+the chapter prices the pair — search plus guard — and
+cannot price either alone. [synthesis]
+Q126 — the silent round. The search ended when one round
+rejected all four of its candidates, and the artifact of
+that moment is v8. One silent round is a thin signal to
+end on: what would a second silent round have cost, and
+what would it have bought — the same artifact at a
+higher price of search, or a different one? The tracker
+has met the shape before, in its own stopping rules; it
+stands open here on the machine of the study itself
+(1.5.2). [synthesis]
+
+THE MIRROR FOR THE TRACKER ITSELF.
+The tracker prices its own skim the way this study
+prices its artifact: a frozen instrument, judged on work
+arriving after its own tuning, its parts priced by what
+their removal costs. The study is the first in the book
+whose method is the tracker's own method wearing the
+clothes of another field — evolution over a graph of
+parts, under a judge with guards, is the delta rule's
+discipline with the roles turned: the model proposes,
+the record decides. [synthesis]
+# Standoff references — Study S015 (Chapter 40)
+
+Read these foundation scrolls (Ch.1 §3) to follow the
+claims of this chapter with no prior knowledge, in this
+order: quantization (1.3.278); epoch and mini-batch
+(1.3.279); the exponential moving average (1.3.280); the
+scaling law (1.3.281); criterion (1.3.140) — the measure
+a judge reads, the ground of the fitness judge and the
+prices of the ablation; state machine (1.3.85) — the
+ground of the three machines drawn from this chapter at
+1.5.2.
+
+Sources: the post itself — 's-means: outperforming
+e-means (which outperforms k-means)',
+suayptalha.github.io, read entire 2026-11-16 (staged at
+~/workspace/s015-temp/blog-text.md); the repository,
+github.com/suayptalha/s-means, its tree and README read
+and its estimator run at the spot-check
+(~/workspace/s015-temp/, the run on aletheia-core); and
+the two anchors as they resolve on arXiv — 2611.09501
+(e-means) and 2604.19761 (EvoForest), both read at their
+records 2026-11-16.
