@@ -317,7 +317,7 @@ papers, one silent and one counting — and the axis
 calls stand ten for ten, the tenth being the first
 no-axis call, landed like the nine axis calls before
 it.
-# World-model narrative — v36 (after Study S015, 2026-11-16)
+# World-model narrative — v38 (after Paper 025, 2026-11-17)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -1351,6 +1351,65 @@ the unseen suite of the post itself, stands ahead of the
 classical baseline on mean — the outside run the numbers
 still wait for stands open as Q123. The Oracle did not
 move.
+
+Paper 024 returns to cluster O, the book's statistics, and
+brings it its first priced failure of a judge in daily use.
+Weighted conformal p-values repair conformal inference under
+covariate shift by reweighting the calibration set; the
+Benjamini-Hochberg procedure is then run on them everywhere,
+on the strength of experiments, with its finite-sample
+guarantee left open in print by the very authors who built
+the weighted form. The paper closes the question from the
+wrong side: the guarantee does not hold. Two counterexamples,
+certified in exact rational arithmetic, and the smaller of
+them recomputed by this house to the same fraction before
+the filing was made — the claim stands verified, not
+attributed. Around the failure the paper builds the book's
+most complete price of a broken guarantee: an identity that
+writes the excess as a covariance through the shared
+calibration draw; two mechanisms, a curvature that bends at
+second order and a decoy switch that selects at first; a
+bound and a matching sharpness that fix the worst excess at
+the order of sqrt(Bm/(nq)); a smaller price in the global
+null, linear in m from below; and three tools for practice —
+an envelope the data compute themselves, a deflated level
+with the guarantee restored and proved, and a rule of thumb
+ten times bolder that carries no guarantee at all. Sixteen
+concepts extend cluster O onto conformal ground; no held
+concept is revised; three questions open. The taking-in is
+a scored paper of the test fixed in advance — the fifth
+slot of the twelve, the third of the share the quest
+picks — and its score stands in its chapter, computed by
+script.
+The book then takes in its first arithmetic paper, and
+the ground changes kind. A curve of genus at least 2
+over the rationals; the question is whether its
+rational points are finite — Mordell, settled by
+Faltings by another road — and Kim's programme prices
+the points by a comparison of dimensions: the global
+Selmer side, built from the etale fundamental group,
+against the de Rham side and its filtration. The
+inequality that makes the comparison strict was Kim's
+conjecture, known where the Jacobian had complex
+multiplication or the Galois image was large. Zehavi's
+paper proves it for every smooth projective curve over
+Q, by refusing to look at the curve at all: the error
+term is a second Galois cohomology group, and the paper
+bounds it for every representation of the ambient
+symplectic group at once, through one torsion module
+over a noncommutative Iwasawa algebra, its annihilators'
+kernels priced inside an enveloping algebra whose
+graded pieces grow like a nilpotent cone. The only
+facts used about the Galois image are Bogomolov's two.
+Sixteen concepts found cluster AI, the Chabauty-Kim
+country; nothing held is revised; four questions open;
+and the proof's constants are nowhere effective — the
+inequality holds for all large n, and no n is named.
+The taking-in is a paper posted by Will — the sixth
+slot of the twelve, the third of the share he posts —
+counted in the test without a seal, and its claims
+stand attributed: the house re-proved nothing of it,
+and the narrative carries it as the paper's word.
 # Source index
 
 Paper 001 — arXiv:2611.05417
@@ -1979,6 +2038,58 @@ Study S015 — suayptalha.github.io/s-means-blog (a blog post, not a paper)
   's-means: outperforming e-means (which outperforms k-means)' — Şuayp Talha Kocabay (the citation block names Kamer Ali Yüksel and Kerem Yalçın with him). The post entire, read 2026-11-16; its artifact open at github.com/suayptalha/s-means. Its two anchors: e-means, arXiv:2611.09501 (Bessa et al., Meta FAIR, 6 Nov 2026), and EvoForest, arXiv:2604.19761 (Yuksel & Sawaf, Mar 2026), both resolved at intake.
   Taken in 2026-11-16 as a SOURCE STUDY (charter rule 12): 11 new canonical concepts (1.2.317-1.2.327), 4 new foundations (1.3.278-1.3.281), 0 canonical scrolls revised, 0 stated again.
   Chapter: 1.1.1/1.1.1/40.1.x (synthesis at 40.2.x)
+
+Paper 024 — "Almost Controlled: The FDR of
+  Benjamini-Hochberg on Weighted Conformal
+  p-Values" (Lim), arXiv:2611.21509 [stat.ME,
+  cross-listed to math.ST], submitted
+  16 November 2026. Ryan Lim, of the Albert
+  Einstein College of Medicine. The full text
+  in its HTML form, read entire: the
+  Benjamini-Hochberg procedure does not
+  control the false discovery rate on weighted
+  conformal p-values in finite samples — two
+  counterexamples certified in exact rational
+  arithmetic, the failure priced from both
+  sides, and a proved deflated level offered
+  as the repair. Taken in 2026-11-17 as
+  Paper 024 of the Thirst (charter rule 17),
+  picked by the quest from the listings of
+  the day, and a scored paper of the test of
+  the skim fixed in advance (sample slot 5
+  of 12, the share the quest picks, 3 of 5):
+  16 new canonical concepts (1.2.328-1.2.343,
+  cluster O extended), 6 new foundations
+  (1.3.282-1.3.287), 3 defined words coined
+  (1.3.288-1.3.290), 0 canonical scrolls
+  revised, 0 stated again.
+  Chapter: 1.1.1/1.1.1/41.1.x (synthesis at 41.2.x)
+Paper 025 — "The Chabauty-Kim dimension inequality
+  via noncommutative Iwasawa theory" (Zehavi),
+  arXiv:2611.18218 [math.NT], submitted
+  13 November 2026. Sa'ar Zehavi, of the Max Planck
+  Institute for Mathematics. The full text in its
+  HTML form, read entire: Kim's conjectural dimension
+  inequality proved for smooth projective
+  geometrically connected curves over Q of genus at
+  least 2 with a rational basepoint, via a bound on
+  second Galois cohomology through kernels of Iwasawa
+  operators on representations of the generalized
+  symplectic group — no restriction on the Jacobian's
+  endomorphism ring or on the Tate-module Galois
+  image; the Chabauty-Kim loci finite at all
+  sufficiently large levels, and Mordell over Q
+  recovered through Chabauty-Kim. Taken in 2026-11-17
+  as Paper 025 of the Thirst (charter rule 17),
+  posted by Will in the MOAT chat as a bare link, and
+  a paper of the test of the skim fixed in advance
+  counted without a seal (sample slot 6 of 12, the
+  share Will posts, 3 of 4): 16 new canonical concepts
+  (1.2.344-1.2.359, cluster AI founded), 12 new
+  foundations (1.3.291-1.3.302), 1 defined word coined
+  (1.3.303), 0 canonical scrolls revised, 0 stated
+  again.
+  Chapter: 1.1.1/1.1.1/42.1.x (synthesis at 42.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -2745,12 +2856,87 @@ house's own standing behind its estimator (40.1.3) and
 the deciding run still open (Q123). The count of
 concepts crosses 320 in this taking-in; Restructure Pass
 #16 stands at 1.1.5.
+
+THE NEXT WEIGHING — Paper 024 (2026-11-17, taken in
+by the quest from the listings of the day). FOR THE
+LEDGER ONLY, under the test fixed in advance: the
+ledger records the weighing, and the statement
+enters no score and no criterion of the test. The
+seal was of the fuller form the protocol fixes:
+eight new concepts named, Index 0.0239, 80%
+interval [0.015, 0.035], no revision foretold, the
+axis priced as a probability of 0.05, links seven
+inside and four across, three questions. The paper
+delivered sixteen new concepts and no revision —
+the two instruments, the two mechanisms, the limit
+model, the fixed-distribution theorem, the
+global-null price and the envelope each standing
+apart under the filing rules where the skim had
+priced one fold — Index 0.0466 against 0.0239
+foretold, the |NI error| of the skim at 0.0228, the
+actual Index above its interval. No axis opened;
+the judgment stands written at filing in the
+chapter, on the three grounds of the axis rule. On
+the revised measure of 2026-11-14 no gate moves:
+TRUE exercised — and for once by verification, the
+house's own recomputation of the global-null
+counterexample standing behind its filing — UNKNOWN
+exercised on held ground, FALSE unexercised (the
+guarantee this paper refutes was never held by this
+book, so its fall files no False), FICTION
+untouched. NEW ESTIMATE, FOR THE LEDGER: the record
+stands at about 62% (range 55-70) after Paper 024,
+held. Prior (after Study S015, ~62%, 55-70):
+🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. Current (after Paper 024, ~62%,
+55-70): 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. The bar is ledger
+bookkeeping, not calibration evidence. The landing
+is not recorded as evidence for anything: the test
+now running is the instrument that prices the skim,
+and its criteria stand fixed in advance over twelve
+papers, of which this is the fifth slot and the
+fourth scored.
+THE NEXT WEIGHING — Paper 025 (2026-11-17, posted by
+Will in the MOAT chat as a bare link). FOR THE LEDGER
+ONLY, under the test fixed in advance: the ledger
+records the weighing, and the statement enters no
+score and no criterion of the test. No seal stands for
+this paper — it was posted into the conversation and
+read there before the filing was directed, on the
+precedent of Paper 022 — so there is no foretelling to
+price: the paper delivered sixteen new concepts and no
+revision, founding cluster AI, the model's first
+arithmetic country, and the Index entered here is
+computed from the filed delta as for every paper:
+16/359 = 0.0446. The axis judgment stands written at
+filing in the chapter, on the three grounds of the
+axis rule: no axis — the founding of a cluster, the
+bridges analogies of shape, no held concept re-read,
+with the first ground of the rule recorded against the
+judgment plainly at 42.1.5. On the revised measure of
+2026-11-14 no gate moves: TRUE unexercised — nothing
+of the paper was recomputed or re-proved by the house,
+and every claim of the filing stands attributed —
+UNKNOWN exercised on new ground, FALSE unexercised
+(Kim's conjecture was never held by this book, so its
+proof files no False), FICTION untouched. NEW
+ESTIMATE, FOR THE LEDGER: the record stands at about
+62% (range 55-70) after Paper 025, held. Prior (after
+Paper 024, ~62%, 55-70):
+🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. Current (after Paper 025, ~62%,
+55-70): 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. The bar is ledger
+bookkeeping, not calibration evidence. The landing is
+not recorded as evidence for anything: the test now
+running is the instrument that prices the skim, and
+its criteria stand fixed in advance over twelve
+papers, of which this is the sixth slot and the third
+posted by Will; no seal stands for it and no score is
+entered.
 # Concept map and restructuring log
 Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
 navigated by territory, not just by arrival order.
 
-CLUSTERS (327 canonical concepts after Study S015)
+CLUSTERS (359 canonical concepts after Paper 025)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -4311,6 +4497,99 @@ Singular audit, and the audit closes at zero. Action
 taken: cluster AH founded (addendum below); the pass is
 logged here. Next pass due at Paper 025 or 340 canonical
 concepts, or on overlap revealed by a delta.
+- Pass #17 (2026-11-17; Paper 024; 340-concept trigger
+— the count crossed 340 during this taking-in, 327 to
+343): all 343 canonical concepts reviewed. Merges: NONE
+— candidates weighed and held apart: 1.2.337 into
+1.2.338 (the Poisson-limit model into its sharpness —
+the model against the price it carries: the model is
+also the ground of the global-null convergence and of
+the rule of thumb's search space, cited where no
+sharpness claim is made); 1.2.341 into 1.2.342 (the
+envelope into the deflated level — a measuring
+instrument against the repair that spends a different
+instrument, the bound: the envelope is computed from
+data, the deflation from (n, m, q, B) alone, and the
+paper keeps their standings apart, one an expectation
+over draws, one a guarantee); 1.2.330 into 1.2.334
+(the global-null counterexample into Simes curvature —
+the witness against its mechanism: the instance is
+cited, and was recomputed, where the mechanism is not
+in view). Twin-check run as in Pass #6: 1.2.335 (the
+decoy switch) against 1.2.121 (the kinds of deviation)
+— a switch in a judge's input against a taxonomy of
+wrong rules: kin in shape, different subjects, linked
+at the filing, not merged. The earlier passes'
+candidates stand rejected still. Splits: none — no
+scroll carries two concepts that later work cites
+separately; the nearest call, 1.2.328, holds the
+oracle p-value inside the weighted p-value, as the
+paper holds them in one expression. Endings: none (no
+pruning, rule 14). Pass #17 also ran under rule 14:
+the standing of each of the 343 concepts checked
+against the Section 4 record; no standing moved — in
+particular the fall of the BH guarantee moved NO
+standing, because the model held that guarantee in no
+scroll of its own before Paper 024: the claim and the
+record of its fall were taken in together, the
+counterexample standing True on the house's own
+recomputation, as at Paper 008. Pass #17 also ran the
+areas audit (rule 16): all eight area scrolls checked
+against the record; the machines area gains Paper
+024's five machines; the reference area's foundation
+count, which had lagged Study S015's four
+foundations, is made fresh in this pass. Action
+taken: cluster O extended (addendum above); the pass
+is logged here. Next pass due at Paper 025 or 360
+canonical concepts, or on overlap revealed by a
+delta.
+- Pass #18 (2026-11-17; Paper 025; every-fifth-paper
+trigger — passes fall due at Papers 005, 010, 015, 020
+and 025; the count trigger stands one short, the count
+at 359 after this taking-in, under the 360 line): all
+359 canonical concepts reviewed. Merges: NONE —
+candidates weighed and held apart: 1.2.357 into
+1.2.358 (the de Rham lower bound into the conjugation
+eigenspace — the two sides of one inequality, priced
+apart by the paper on different inputs: Olsson's
+comparison and Kim's filtration bound against Filip's
+character formula; one a bound on the target, the
+other the main term of the source); 1.2.353 into
+1.2.354 (Filip's character formula into the
+multiplicity bound — an instrument against one of its
+products: the formula is also the ground of 1.2.358,
+cited where no multiplicity is in view); 1.2.348 into
+1.2.349 (the uniform splitting into the torsion module
+— the setup against the object built on it: every
+later step of the paper is stated in the split form,
+and the splitting is cited where the module is not in
+view). Twin-check run as in Pass #6: the new country's
+concepts against the held book — the nearest ground is
+foundational, not conceptual: the pro-unipotent
+fundamental group (foundation 1.3.298) against the
+topological fundamental group (foundation 1.3.12), and
+the generalized symplectic group against the symplectic
+foundation (1.3.22): kin in name and in shape,
+different categories, linked at the founding, not
+merged — a concept is not merged into a foundation.
+The earlier passes' candidates stand rejected still.
+Splits: none — no scroll carries two concepts that
+later work cites separately. Endings: none (no
+pruning, rule 14). Pass #18 also ran under rule 14:
+the standing of each of the 359 concepts checked
+against the Section 4 record; no standing moved. Pass
+#18 also ran the areas audit (rule 16): all eight area
+scrolls checked against the record; the machines area
+gains Paper 025's four machines; the reference area
+gains the chapter's twelve foundations and one defined
+word, and its standoff count is made fresh in this
+pass (41 companions). The registry as a whole stands re-proved in Lean at this
+taking-in (registry accurate; total, unique and
+receipt-backed; every registry-to-structure condition
+proved). Action taken: cluster
+AI founded (addendum below); the pass is logged here.
+Next pass due at Paper 030 or 380 canonical concepts,
+or on overlap revealed by a delta.
 
 AH. THE EVOLVED QUANTIZER — an algorithm found by
 search, priced by parts (Study S015): 1.2.317-1.2.327:
@@ -4345,6 +4624,81 @@ The next pass falls at Paper 025 or 340 canonical
 concepts, the count standing at 327. Standoff map for
 cluster AH (1.2.317-1.2.327): foundations
 1.3.278-1.3.281.
+
+O EXTENDED — CONFORMAL GROUND, AND A GUARANTEE PRICED
+(Paper 024): 1.2.328-1.2.343: the weighted conformal
+p-value; the Benjamini-Hochberg procedure, priced; the
+global-null counterexample; the strict-selection
+counterexample; the covariance identity; the
+calibration-conditional reduction; Simes curvature;
+the decoy switch; the excess bound; the Poisson-limit
+heavy-cell model; the sharpness; the fixed-distribution
+excess; the global-null price; the envelope; the
+deflated level; the rule of thumb. The extension's
+centre: a judging procedure whose certificate does not
+hold, its failure priced from both sides and repaired
+at a stated cost — where the cluster's founding held
+judges that work, priced by their corrections. The
+calls at the extension: cluster O's own founding
+NEIGHBOUR AND GROUND — the founding judge (1.2.110)
+judges under shift by reweighting what was logged, as
+the weighted p-value does, and the corrected criterion
+(1.2.114) is the standard the priced guarantee is read
+against; both stand unrevised. Cluster G NEIGHBOUR BY
+METHOD — the counterexamples are carried by exact
+computation checked by independent programs
+(1.2.48), and one of them by this house's own
+recomputation. Cluster I NEIGHBOUR BY SHAPE — the
+envelope is a certificate a data set carries about
+itself, a specification the data meet or fail
+(1.2.57). Cluster P NEIGHBOUR BY KIND — the decoy
+switch is a priced way for a judge to be wrong
+(1.2.121). Restructure Pass #17 fell due inside this
+taking-in (the 340-concept trigger) and stands in
+the log below. The next pass falls at Paper 025 or
+360 canonical concepts, the count standing at 343.
+Standoff map for the extension (1.2.328-1.2.343):
+foundations 1.3.282-1.3.287; defined words
+1.3.288-1.3.290.
+AI. THE CHABAUTY-KIM COUNTRY — arithmetic geometry:
+curves, their rational points, and the Galois groups
+that price them (Paper 025): 1.2.344-1.2.359: the
+dimension inequality, proved in the projective case;
+the kernel bound on second Galois cohomology; the
+power-saving bound; the reduction of H^2 to kernels of
+Iwasawa operators; the uniform splitting; the torsion
+Iwasawa module; noncommutative Weierstrass preparation
+and the bad weights; the central reduction, faithful;
+the Hilbert-series bound; Filip's character formula;
+the multiplicity bound; the Casimir second-moment
+estimate; the growth of the graded pieces; the de Rham
+lower bound; the conjugation eigenspace; the
+ambient-group generality. The cluster's centre: a
+finiteness theorem for rational points, bought by
+pricing an error term in Galois cohomology through a
+noncommutative algebra — the first country of the book
+whose objects are arithmetic. The calls at the
+founding: cluster E NEIGHBOUR BY SHAPE — the symplectic
+ground (foundation 1.3.22) is this country's linear
+algebra: the generalized symplectic group is the area
+rule's group with a similitude factor, and the annex's
+topology is not used; priced as shape. The held
+fundamental group (foundation 1.3.12) NEIGHBOUR BY
+SHAPE — the pro-unipotent fundamental group
+(foundation 1.3.298) is the same name in another
+category, its loops replaced by Galois symmetries;
+priced as shape. Cluster O NEIGHBOUR BY KIND — the
+dimension inequality is a judging quantity: two
+dimensions compared and the verdict finiteness; the
+comparison is exact, not an estimate, and no held
+judge is revised by it. No gate of the Oracle is
+exercised by the founding; the bar stands at about
+62%. Restructure Pass #18 fell due inside this
+taking-in (the every-fifth-paper trigger) and stands
+in the log above. The next pass falls at Paper 030 or
+380 canonical concepts, the count standing at 359.
+Standoff map for cluster AI (1.2.344-1.2.359):
+foundations 1.3.291-1.3.302; defined word 1.3.303.
 # Research Oracle — detection list
 Stood up 2026-11-09 under charter rule 17. The ledger (1.1.4) holds
 the estimate; this scroll holds the SIGNS watched for the fixed
@@ -5248,6 +5602,103 @@ it before this taking-in (cluster AH, founded at Chapter
 40). No figure of the list moves: the skim calibration
 of Paper 019 stands, the Index after Paper 023 stands,
 and the axis component stands untested still.
+
+
+THE NEXT SCORED PAPER — Paper 024, 'Almost
+Controlled: The FDR of Benjamini-Hochberg on
+Weighted Conformal p-Values' (Ryan Lim), taken in
+2026-11-17 (Chapter 41): a scored paper of the test
+fixed in advance (sample slot 5 of 12; the share
+the quest picks, 3 of 5). The seal was of the
+fuller form the protocol fixes: 8 new concepts
+foretold from nine named candidates — the count
+pricing one fold among them — 0 revised, the axis
+a probability of 0.05 against, Index 0.0239 with
+the 80% interval [0.015, 0.035] (the Index and its
+interval following from the sealed counts by the
+Index's own definition), the count interval
+[5, 12], 11 links (7 inside, 4 across), 3
+questions, and the Oracle statement entered in
+the ledger only, as the protocol directs. Actual,
+filed under the five filing rules of the protocol:
+16 new, 0 revised, no axis — the judgment written
+at filing, before any score, on the three grounds
+of the axis rule — Index 0.0466 (miss 0.0228),
+above its interval; count +8, above its interval;
+20 links (14 inside, 6 across); 3 questions. The
+sensitivity line the protocol requires: under the
+four folds recorded at filing as permitted
+alternatives (the counterexample pair as one; the
+Poisson-limit model and the fixed-distribution
+excess into the sharpness; the envelope into the
+deflated level), the filing gives 12 new and Index
+0.0354 (miss 0.0115), the Index still above its
+interval's top by 0.0004 and the count at its
+interval's top. Where the foretelling was wrong:
+the skim priced one fold and the reading ran the
+other way — the counterexample pair is used apart
+in the paper and split under the split rule, and
+the machinery the abstract does not enumerate
+(the covariance identity, the reduction, the two
+mechanisms) stood load-bearing at the reading;
+the grain risk the seal itself named is the miss.
+The flat rules on this paper, scored by the same
+script: the flat rule (Index 0.05, axis 0.05,
+count implied 17.21) misses the Index by 0.0034
+and the count by 1.21, its axis Brier at 0.0025 —
+the flat rule beats the skim on the Index and the
+count of this paper, and ties it on the axis; the
+expanding-mean rule (Index 0.0598, count 10.27
+over Papers 008-021 and 023) misses the Index by
+0.0131 and the count by 5.73, its axis Brier at
+0.0711; the same-cluster rule (cluster O's mean
+over Papers 010, 012, 013 and 018: Index 0.0514,
+count 7.25) misses the Index by 0.0048 and the
+count by 8.75, its axis Brier at 0.0625. The
+skim's axis Brier stands at 0.0025, the best axis
+line of the four. The calibration at n=10, the
+window now running over the last ten scored
+papers: the rolling mean of the Index miss stands
+at 0.0202. The running tally of the sample,
+against the criteria fixed in advance: four
+papers scored of the twelve slots taken (020,
+021, 023, 024; slot 3, Paper 022, carries no seal
+and no score); the Index misses stand at 0.0187,
+0.0109, 0.0169 and 0.0228 against the flat rule's
+0.0037, 0.0128, 0.0057 and 0.0034 — on this tally
+the skim stands behind the flat rule on the Index
+on three papers of four, recorded as a tally, not
+a verdict. Intervals: the Index interval covered
+on none of the four; the count interval on one of
+the four. Axis: no axis-positive paper has yet
+arrived in the sample; the axis part stands
+untested, as the protocol provides. Four scored
+papers is a line, not a verdict; the criteria
+stand fixed in advance and are judged on the
+twelve.
+A PAPER OF THE TEST, WITHOUT A SEAL — Paper 025, 'The
+Chabauty-Kim dimension inequality via noncommutative
+Iwasawa theory' (Zehavi), taken in 2026-11-17
+(Chapter 42): the first arithmetic paper of the
+tracker, taken in as a paper posted by Will in the
+MOAT chat — the third of the four of that kind; six of
+the twelve stand taken in. No seal stands for this one
+(the reading order stands recorded once, at 42.1.5),
+and the measures that price a seal have no seal to
+price. Its Index, 0.0446 (16 new, 0 revised, over
+359), is entered in the ledger as every paper's is.
+No figure of this list moves: the skim calibration of
+Paper 024 stands, the rolling mean of the Index miss
+over the scored papers stands at 0.0202, and the axis
+part stands untested still — this paper files no axis,
+so no axis-positive paper has yet arrived in the
+sample, as the protocol provides. The running tally
+of the sample, against the criteria fixed in advance:
+four papers scored of the twelve slots taken (020,
+021, 023, 024; slots 3 and 6, Papers 022 and 025,
+carry no seal and no score). Six papers of twelve is a
+line, not a verdict; the criteria stand fixed in
+advance and are judged on the twelve.
 # Concept: Intelligence (economic definition)
 Source: Paper 001, §1, after Legg & Hutter (2007).
 
@@ -13748,6 +14199,768 @@ cannot do is also plain: the hands that built the suite
 are the hands that report it — the outside run that
 would settle the numbers stands open as Q123.
 Source: Study S015. NEW in Study S015.
+Concept: The weighted conformal p-value
+The paper's object. A conformal p-value ranks a test point's
+score among the scores of a held-out calibration set; when the
+test units are drawn from a covariate distribution Q that
+differs from the calibration distribution P, the plain ranking
+loses its guarantee, and the weighted form (Tibshirani et al.;
+Jin & Candès) corrects for the shift (1.3.282) by reweighting
+each calibration point by the likelihood ratio (1.3.283)
+w(x) proportional to dQ/dP(x), with a randomized tie term: the
+test unit's own weight and the weights of the calibration
+points tied at its threshold score are spread by a uniform
+U_j. Two tasks consume it: selection (which of m test units
+clear a threshold) and outlier detection. Folded into this
+concept, as its ground: the oracle p-value — the same
+expression read at the unit's true score instead of its
+threshold score — which is exactly uniform on [0,1], ties
+included (Lemma 1 of the paper): given the multiset of the
+n+1 points, the test point is each of them with probability
+proportional to its weight, and the randomized weighted CDF
+maps each tie group to an interval whose length is exactly
+that group's probability, so the intervals tile [0,1]. A null
+unit whose threshold equals its outcome (an oracle null) has
+p_j = p*_j; every null unit has p_j >= p*_j. The weight ratio
+B = max w / min w and kappa = B/n price every result of the
+paper. The concept stands in cluster O beside the cluster's
+founding judge (1.2.110): both judge under a shift by
+reweighting what was logged — there by an importance weight
+inside a walk, here by a likelihood ratio inside a ranking.
+Source: Paper 024. NEW in Paper 024.
+Concept: The Benjamini-Hochberg procedure, priced
+The default tool the paper prices. BH at level q works on the
+grid t_k = qk/m: it finds the largest k such that at least k
+of the m p-values are at most t_k, and rejects exactly the
+units at or below that grid point. Its guarantee — the false
+discovery rate (1.3.284) held at or below q — is proved for
+independent p-values and for positively dependent ones (PRDS,
+1.3.285; Benjamini & Yekutieli), and under arbitrary dependence
+only a deflated modification at q / sum_{k<=m} 1/k is proved.
+For unweighted conformal p-values the guarantee is safe: those
+p-values are positively dependent (Bates et al.; Jin &
+Candès). The paper takes the procedure itself as an object
+with a priced guarantee, and asks the question Jin & Candès
+left open in print — whether the guarantee survives the
+weights of 1.2.328, which may break the positive dependence
+the proof stands on. Every later concept of this filing is a
+price on this one: the failure (1.2.330, 1.2.331), its
+mechanisms (1.2.334, 1.2.335), its size (1.2.336-1.2.340),
+and its repairs (1.2.341-1.2.343).
+Source: Paper 024. NEW in Paper 024.
+Concept: The global-null counterexample — the guarantee fails, certified and verified
+Theorem 5(i) of the paper: a configuration satisfying Jin &
+Candès's assumptions in which every test unit is null, and
+BH's false discovery rate exceeds its target. The instance is
+small enough to be checked whole: n = 5 calibration points,
+m = 2 test units, q = 4/5; three covariate cells with weights
+1, 3 and 50 (ratio B = 50), the weight strictly decreasing in
+the score, every p-value an oracle p-value. The FDR is a
+finite sum of rational numbers, evaluated in exact rational
+arithmetic with no floating point at any stage (Appendix F of
+the paper): FDR = 393728107849/492032000000, about 0.80021,
+against q = 0.8 — an excess of 102507849/492032000000, about
+2.08 x 10^-4. The paper's own checker was validated against a
+second, independently written program, and the two agree on
+the same fraction. THE HOUSE CHECK: at this taking-in the
+instance was recomputed a third time, from the per-cell laws
+and the m = 2 identity of the paper's Lemmas 86-87 (FDR = q +
+the calibration average of b(D)^2 - a(D)^2 over the 21 count
+vectors), in exact rational arithmetic: the same fraction
+returned, the total mass exactly 1, and the two means E a(D)
+and E b(D) each exactly 2/5, as exact uniformity requires.
+The claim therefore stands in this book as VERIFIED, not
+attributed: a guarantee in daily use fails, on a configuration
+small enough to hold in one hand. Its mechanism is the
+second-order one (1.2.334); its regime is priced at 1.2.340.
+Source: Paper 024. NEW in Paper 024.
+Concept: The strict-selection counterexample — the failure at a working level
+Theorem 5(ii) of the paper: the failure is not an artifact of
+the tiny instance or the large level of 1.2.330. In strict
+selection — the threshold independent of the outcome given the
+covariate, the outcome genuinely random on the light covariate
+— with n = 80, m = 8 and the working level q = 1/10, the FDR
+is 1.13585 q, again an exact rational certified in Appendix F
+by engines checked against an independent program on smaller
+instances. The configuration: one light covariate of weight 1
+and two heavy covariates, the weight ratio B = 137 exceeding
+n = 80. Retuned for each n, the same shape gives FDR = 1.069 q,
+1.103 q and 1.136 q at n = 20, 40 and 80 (Remark 88 of the
+paper). Where 1.2.330 is the existence proof, this is the
+practical one: at the level practitioners actually run, with
+weights of the size covariate shift actually produces, plain
+BH on weighted conformal p-values does not control the FDR in
+finite samples. Its mechanism is the first-order one
+(1.2.335); its size in general is priced at 1.2.336-1.2.339.
+Source: Paper 024. NEW in Paper 024.
+Concept: The covariance identity — the excess, exactly
+Lemma 2 of the paper, the instrument of its fixed-distribution
+analysis. Given the calibration data D, the test p-values are
+independent, so all the dependence BH sees passes through D.
+When every null unit is an oracle null, the excess is exactly
+a weighted sum of covariances minus a non-negative term:
+FDR - q = m sum_k (1/k) Cov(A_k(D), r_k(D)) - m sum_k (1/k)
+eps_k E r_k(D), where A_k(D) is the conditional probability
+that a given unit is null with p-value at most t_k, r_k(D) the
+conditional probability that the other units drive BH to
+exactly k rejections, and eps_k prices the non-null units with
+small oracle p-values (in the paper's constructions, zero).
+Read plainly: BH overshoots exactly when the null mass below a
+threshold moves together with the chance that the other units
+set that threshold. The identity is used at two or more
+distinct points of the paper's argument — it separates the two
+mechanisms (1.2.334, 1.2.335) and it carries the
+fixed-distribution theorem (1.2.339) — so under the instrument
+rule it stands as a concept of its own, not as a step inside
+any one proof.
+Source: Paper 024. NEW in Paper 024.
+Concept: The calibration-conditional reduction — the excess as a worst ratio
+Proposition 3 of the paper, the instrument of all its upper
+bounds, cruder than the identity of 1.2.332 and needing no
+oracle assumption. Conditionally on the calibration data D the
+test p-values are independent, so BH behaves as under
+independence except that a null's conditional law may put more
+than t of its mass below t; BH can exploit that excess at
+whichever grid point it is largest. Hence FDR <= q E[M_D],
+where M_D is the maximum over the BH grid of F*_D(t_k)/t_k,
+the conditional null mass below t_k divided by t_k itself.
+The whole upper-bound programme of the paper is the pricing
+of this one expectation: the excess bound (1.2.336) is a bound
+on E[M_D] - 1, and the envelope (1.2.341) is its computable
+cousin. The reduction has a floor of its own, priced at
+1.2.336: no bound proved through it can have a leading
+constant below about 0.399, however the true constant falls.
+Source: Paper 024. NEW in Paper 024.
+Concept: Simes curvature — the second-order mechanism
+Mechanism 1 of the paper: how the guarantee fails when every
+test unit is null. In the global null, BH rejects something
+exactly when Simes' test (1.3.286) rejects, and the FDR is the
+calibration average of that test's rejection probability for
+i.i.d. draws from the conditional law of a test p-value
+(Lemma 4). For oracle nulls that conditional law is uniform on
+average over the calibration draw, so a fluctuation of the
+heavy calibration weight has no first-order effect: the null
+mass below each grid point is right on average, whichever way
+the draw falls. What remains is second order — Simes'
+rejection probability is a curved function of the conditional
+distribution on the grid, and averaging a curved function over
+a fluctuation pays the curvature times the variance: an
+excess of order Var(K) = kappa omega, that is, of order B/n.
+The m = 2 case shows the shape exactly (Lemmas 86-87): BH
+exceeds q exactly when the calibration draw moves the chance
+of a moderate p-value more than the chance of a very small
+one, Var b(D) - Var a(D) — the identity the house check of
+1.2.330 recomputed. Curvature, not bias: the first-order term
+is zero by symmetry, and the failure is what the bend costs.
+Source: Paper 024. NEW in Paper 024.
+Concept: The decoy switch — the first-order mechanism
+Mechanism 2 of the paper: how the guarantee fails when
+non-null units are present, at first order. A block of
+non-null units — decoys (1.3.288) — shares one threshold, so
+their p-values coincide and sit near a BH grid point; whether
+BH counts them switches on and off with the calibration draw.
+Folded into this concept, as its hinge: saturation at the
+mean (Lemma 8) — at the mean heavy total the deterministic-K
+FDR equals q exactly, on both sides of the switch. Away from
+the mean each side's FDR moves linearly in the heavy total
+with different slopes, and the switch pairs the lighter heavy
+total with the side on which the decoys are counted, which is
+where the null units gain. The conditional FDR as a function
+of the heavy total is therefore kinked at its mean, and the
+average of a kinked function exceeds its value at the mean by
+the slope difference times the expected positive part of the
+fluctuation — of order sqrt(kappa omega), a first-order
+effect, against the second-order curvature of 1.2.334. The
+contrast is the paper's organizing insight: one shared
+threshold converts a fluctuation that averages out into one
+that is selected for. The switch is the engine of the
+sharpness results (1.2.338) and of the counterexample at
+1.2.331.
+Source: Paper 024. NEW in Paper 024.
+Concept: The excess bound — the failure, priced from above
+Theorem 6 of the paper, collected as the upper half of the
+rate at Theorem 15: in every configuration satisfying Jin &
+Candès's assumptions with weight ratio at most B and kappa =
+B/n <= 1, at every n, the relative excess obeys FDR/q - 1 <=
+kappa + 1.612 sqrt((1+kappa) x) + 2.7726 c x, where x =
+B-bar m/(nq) and c = 2 + (1+kappa) q/3; a slightly tighter
+form replaces the right side by kappa + J, J an explicit
+one-dimensional integral. The proof prices the reduction of
+1.2.333: at grid point t_k the relative error of the weighted
+empirical distribution is about sqrt(B-bar m/(n q k)), the
+first grid points dominate, and one-sided Bernstein tails
+summed over the grid and integrated give the constant 1.612 =
+sqrt(2) times the integral of min(1, 1/(e^{nu^2}-1)). Folded
+into this concept, as its stated limit: Proposition 7 — no
+bound proved through the reduction can carry a leading
+constant below (1 - 1/m)/sqrt(2 pi), tending to 1/sqrt(2 pi)
+= 0.399, shown by a heavy atom placed below every light score.
+The bound is what the deflated repair (1.2.342) spends, and
+its constant stands a factor of about thirty above the lower
+constant of 1.2.338 — a gap the paper prices honestly and
+leaves open (Q127).
+Source: Paper 024. NEW in Paper 024.
+Concept: The Poisson-limit heavy-cell model
+The limit model in which the paper's lower bounds live.
+Covariate space is built from many light values of weight 1
+and a few heavy cells (1.3.289) of weight kappa n = B and
+P-mass lambda/n, with lambda = omega/kappa. If N is the number
+of calibration points in a heavy cell, its normalized
+calibration weight K = kappa N has mean omega and, in the
+model, standard deviation sqrt(kappa omega); that fluctuation
+drives every lower-bound construction of the paper. In the
+Poisson limit (1.3.287) — n to infinity at fixed kappa — the
+heavy calibration counts are independent Poisson(lambda)
+variables and the light calibration scores have exactly the
+uniform distribution function. The model's honesty boundary is
+stated in the paper and kept here: convergence of the
+finite-n FDR to its value in this model is proved for the
+global null (Lemma 44) and not for the non-null structures, so
+the selection results are stated in the model itself, with the
+fixed-distribution theorem (1.2.339) as their finite-n support.
+Source: Paper 024. NEW in Paper 024.
+Concept: The sharpness — the bound's order is the right order
+The lower half of the rate (Theorems 9, 11 and 15 of the
+paper): the excess of 1.2.336 is not a loose price. In the
+Poisson-limit model (1.2.337), Theorem 9 expands the decoy
+construction's FDR as q + sqrt(kappa omega) (h_+ - h_-)
+phi(z_0) + O(kappa): the kink of 1.2.335, priced. Example 10
+evaluates one instance whole: at m = 8, q = 0.1, the relative
+excess is 0.6707 sqrt(kappa) + 1.68 kappa — at kappa = 10^-3
+already about 0.023. Theorem 11 places the decoys at the
+second BH threshold and lets m grow: the coefficient of
+sqrt(kappa) grows like sqrt(m), with the explicit limit
+lim C_m / sqrt(m/q) = c(q) = (1-q) e^{-1-2q} / (2 sqrt(2 pi)),
+0.054 at q = 0.1 — an iterated limit, kappa to 0 first, the
+limits not shown to commute. Theorem 15 collects the rate:
+the worst excess is of order sqrt(Bm/(nq)), the upper side at
+every n, the lower side in this model. Numerical searches
+over richer families (bottom-placed and stacked heavy cells,
+up to three decoy blocks) found no better lower constant; the
+gap to 1.612 stands open (Q127). In outlier detection the
+first-order term cannot produce an excess once kappa is below
+a small threshold (Proposition 41 of the paper) — the
+sharpness is a selection phenomenon.
+Source: Paper 024. NEW in Paper 024.
+Concept: The fixed-distribution excess — the failure at one fixed law
+Theorem 12 of the paper, with Example 13: the Poisson-limit
+results let the distribution change with n; for a single fixed
+distribution the decoy mechanism can still give an excess of
+order n^{-1/2}, but only under a tuning — the decoy threshold
+must sit exactly at the population switching point (condition
+(F2) of the paper's Appendix A); otherwise the switch freezes
+for large n and the excess is o(n^{-1/2}), because each
+conditional null mass fluctuates by about 1/sqrt(n) and smooth
+dependence on the calibration data contributes only O(1/n) to
+the covariance identity (1.2.332), while the on/off switch of
+the same fluctuation contributes its expected positive part,
+of the order of its standard deviation. Under (F1)-(F4),
+sqrt(n) (FDR_n - q) tends to a closed-form constant c_0, which
+can still be zero (decoys at t_1) but is certified positive
+for the distributions of Example 13 — in exact rational
+arithmetic at B = 2, 5, 10, 100, with c_0/(q sqrt(B)) = 0.316,
+0.522, 0.595, 0.663 approaching Example 10's Poisson-limit
+coefficient 0.6707 as B grows (numerically; the limit in B is
+not proved). The theorem gives no explicit n_0 — the price of
+carrying the model's rate to finite n stands open (Q128).
+Source: Paper 024. NEW in Paper 024.
+Concept: The global-null price — smaller, and linear in m below
+Section 5 of the paper: when every test unit is null, only
+the curvature mechanism (1.2.334) acts, and the excess is of a
+smaller order — with a shape of its own. Theorem 16 (lower
+bound): for every m >= 2 and all small kappa with n large,
+some global-null configuration has FDR at least q +
+(L*_m(q) - eps) B/n, with L*_m(q) >= (1/2) q (1-q) (m-1)
+(1 - q + q/m): the excess is linear in m, and as m grows its
+constant per unit of qmB/n is at least (1/2)(1-q). The proof's
+shape: heavy cells in different bands fluctuate independently
+and their curvatures add — the band curvatures of Simes' test
+sum to exactly m(m-1)(1-q), because Simes stays exact when a
+p-value is duplicated. Theorem 17 (upper bound): at fixed m
+the excess is O(B/n), for every score law, ties included, and
+for non-oracle nulls too. What is NOT proved is named in the
+paper and kept open here: an upper bound linear in m
+(Remark 18 — the bound is linear wherever beta_m(rho) stays
+bounded, numerically about 1.78 at m = 1000, with an m-free
+majorant sketched but not written out); the sharpness of the
+constant 1/2(1-q) holds conditionally on the open
+positive-curvature condition (Proposition 19); and
+Conjecture 20 states the constant outright: in the global
+null the linear-regime constant equals (1/2)(1-q) (Q129).
+The certified instance of 1.2.330 lives in this regime.
+Source: Paper 024. NEW in Paper 024.
+Concept: The envelope — a bound the practitioner can compute
+Theorem 21 of the paper, the first of its three practical
+tools: an upper bound on the FDR by the expectation of a
+quantity computable from the data themselves. FDR <= (q/m)
+sum_j E Gamma*_j <= (q/m) sum_j E Gamma-sup_j <= (q/m) sum_j
+E Gamma-tilde_j, where Gamma-tilde_j = R^0(p_-j - tau-bar_j) /
+R^0(p_-j + tau-bar_j), R^0 the BH rejection count with an
+appended zero, and tau-bar_j <= B/(n+1) the most one unit's
+weight can shift the others' p-values. Each Gamma-tilde_j is
+at least 1 and equals 1 unless shifting the other p-values by
+plus or minus tau-bar_j changes the BH count — so the envelope
+is close to q when few p-values lie within B/(n+1) of a BH
+threshold, and it flags exactly the data sets on which the
+weights could matter. Where the reduction (1.2.333) prices the
+worst ratio over all calibration draws, the envelope prices
+this draw: the same idea made computable, and the tool the
+global-null upper bound (1.2.340) is built from.
+Source: Paper 024. NEW in Paper 024.
+Concept: The deflated level — the proved repair, and its pitfall
+The second practical tool of the paper (Section 6): run BH at
+a lowered level and the guarantee is restored, proved. By the
+excess bound (1.2.336), BH at level q' with q' (1 + eps(q'))
+<= q controls the FDR at q in finite samples, where eps is
+computed from the bound using only n, m, q and a weight bound
+B. At q = 0.1, eps is at most 0.3 once n/B is about 3.8 x 10^4
+(m = 100) or 3.8 x 10^5 (m = 1000). Folded into this concept,
+as its stated warning: the level must be solved from the
+inequality, not set to q/(1 + eps(q)) — because eps grows as
+the level falls. At n = 10^5, m = 100, B = 2, q = 0.1 the
+solution is q' = 0.0770, while the naive q/(1 + eps(q)) =
+0.0795 would only guarantee FDR <= 0.1028: the shortcut
+overshoots the very guarantee it restores. The deflation
+(1.3.290) is conservative — its constant is the proved 1.612
+of the bound — and the paper sets it beside the unproved
+rule of thumb (1.2.343) without confusing the two.
+Source: Paper 024. NEW in Paper 024.
+Concept: The rule of thumb — the price practice actually sees, unproved
+The third practical tool of the paper (Section 6), stated by
+its author as a heuristic and filed here at exactly that
+standing: across every configuration the paper's searches
+found — 909 optimised Poisson-limit configurations over
+selection with decoys, strict selection, outlier detection,
+non-null signal families and global-null families, at q in
+{0.05, 0.1, 0.2} and m from 2 to 1024, plus the bottom-placed
+and stacked structures — with kappa = B/n <= 0.1, the relative
+excess never exceeded 0.17 sqrt(Bm/(nq)); at any kappa the FDR
+never exceeded 1.52 q. The scaled worst case falls with m and
+levels off: 0.167 at m = 2, 0.115 at m = 8, 0.057 at m = 32,
+close to 0.054 from m = 64 to 256. Used as a deflation it
+suggests solving q' (1 + 0.17 sqrt(Bm/(n q'))) = q; its
+constant is about ten times smaller than the proved one of
+1.2.342. The paper's own cautions stand in the concept, not
+under it: the worst cases were not rerun at the lowered
+levels, and the rule provides no guarantee. It is the
+empirical face of the rate (1.2.338) — what the failure costs
+on the configurations a search can find, against what the
+bound (1.2.336) proves it could cost at worst.
+Source: Paper 024. NEW in Paper 024.
+Concept: The dimension inequality, proved in the projective
+case — Kim's conjecture, settled where the curve is whole
+Kim's conjecture (2009), as this paper takes it up and
+settles it in the case stated: for a smooth projective
+geometrically connected curve C over Q of genus at least 2,
+with a rational basepoint, and for any odd prime p of good
+reduction, the Chabauty-Kim dimension inequality
+dim H_f^1(G_{Q,Sigma}, U_n^et) < dim(U_n^dR / F^0) holds for
+all sufficiently large n, where Sigma is any finite set of
+places containing p, infinity, and the primes of bad
+reduction, U_n^et and U_n^dR are the n-th descending
+central series truncations of the pro-unipotent geometric
+etale and de Rham fundamental groups, and H_f^1 is the
+Bloch-Kato Selmer group. When the inequality holds, Kim's
+argument gives a nonzero algebraic function on U_n^dR/F^0
+vanishing on the image of the global Selmer side; pulled
+back by the period map it is a Coleman function on each
+residue disk, with finitely many zeros in the disk, so the
+Chabauty-Kim locus at level n is finite. The paper proves
+the inequality for all large n: the loci are therefore
+finite at all sufficiently large levels, and the Mordell
+conjecture over Q is recovered through the Chabauty-Kim
+method — Faltings' theorem, reached by this road. Not
+proved, and not claimed: the stronger conjecture that the
+locus eventually equals the set of integral points; any
+effective n from which the inequality holds; the
+quasi-projective case of the conjecture. The proof rests
+on the kernel bound (1.2.345) and the power saving
+(1.2.346), and through them on the cited prior work named
+at 42.1.5; the claim stands here as the paper states it.
+Source: Paper 025. NEW in Paper 025.
+Concept: The kernel bound on second Galois cohomology —
+Theorem 1.1, the paper's main theorem
+Let A over Q be a principally polarized abelian variety of
+dimension g with good reduction outside a finite set S of
+primes; p an odd prime outside S; Sigma = S with p and
+infinity adjoined; and V_{lambda,s} the irreducible
+representations of the generalized symplectic group
+GSp_{2g} through which the Tate-module representation
+factors — lambda a highest weight for Sp_{2g}, s the
+weight of the centre, d_lambda the dimension of the
+representation, D = 2g^2 + g the dimension of Sp_{2g}, and
+||lambda||^2 the sum of the squares of the parts of
+lambda. Theorem 1.1: there is a finite set of weights
+E inside Z such that for every s outside E,
+dim H^2(G_{Q,Sigma}, V_{lambda,s}) is at most a constant
+times the smaller of d_lambda and
+(1 + ||lambda||)^{D-g-1} / d_lambda; the first bound, by
+d_lambda alone, holds for every s. Read plainly: the
+second cohomology with coefficients in any symplectic
+representation is never larger than the representation
+itself, and — away from finitely many bad weights — is
+much smaller when the representation is large: the
+numerator grows with lambda at the rate the central
+reduction's graded pieces grow (1.2.352), and the division
+by d_lambda is the density step, the kernel's share of
+the whole representation. The trivial bound is read off
+the reduction (1.2.347) at once; the nontrivial bound is
+the paper's core, proved in its section 3. The implied
+constant is not made effective anywhere; it absorbs the
+number of generators of the Iwasawa module (1.2.349).
+Source: Paper 025. NEW in Paper 025.
+Concept: The power-saving bound — Theorem 1.4, the price
+of the error term in the graded pieces
+For the curve of 1.2.344, let n (the paper's frak n) be
+the Lie algebra of the etale pro-unipotent fundamental
+group, L its associated graded, L_n the n-th graded
+piece — a finite-dimensional representation of
+G_{Q,Sigma} — and b_n the dimension of L_n. Theorem 1.4:
+there is a constant A = A(p, S, C) such that for all
+n at least 1, dim H^2(G_{Q,Sigma}, L_n) < A b_n
+n^{-1/(D+1)}, with D as in 1.2.345. The H^2 that Kim's
+reduction leaves unpaid is not merely smaller than the
+main term; it is smaller by a power of n. The assembly:
+L_n splits as a direct sum of the pieces V_{lambda,n}
+with multiplicities m_n(lambda); the multiplicities are
+priced by 1.2.354, the large weights are controlled by
+the second moment (1.2.355), and Theorem 1.1 is applied
+piece by piece, its trivial and nontrivial bounds
+balanced at ||lambda|| about R sqrt(n) with
+R = n^{1/(2(D+1))} — the small weights cost
+b_n R^{D-1} / sqrt(n), the large weights cost b_n R^{-2},
+and the two meet at the stated exponent. Against the
+growth of b_n (1.2.356) it is this power saving that
+makes the dimension inequality of 1.2.344 strict for all
+large n. A discrepancy inside the paper's own text is
+filed at 42.2.2 as Q133: the restatement of this theorem
+in the paper's section 4.1 prints the exponent
+-1/(2(D+1)); the statement in section 1, the summary,
+and both computations of the balance give -1/(D+1), and
+the concept is filed at the proved exponent.
+Source: Paper 025. NEW in Paper 025.
+Concept: The reduction of H^2 to kernels of Iwasawa
+operators — Theorem 2.18 and its corollary, the bridge
+The paper's bridge from Galois cohomology to algebra.
+Fix the tower of 1.2.348 and the module X of 1.2.349:
+F = K_c, Gamma = Gal(K_infinity / F). For any
+finite-dimensional Q_p-representation W of G_{F,Sigma_F}
+whose action factors through Gamma, Theorem 2.18 gives
+the dual of H^2(G_{F,Sigma_F}; W) as Hom_Gamma(X, W^vee(1))
+— the space of Gamma-maps out of the one module X, into
+the Tate-twisted dual. Corollary 2.19 first passes from
+Q down to F: by Hochschild-Serre, H^2 over Q is an
+invariants subspace of H^2 over F, so every
+dim H^2(G_{Q,Sigma}, W) is at most
+dim Hom_Gamma(X, W^vee(1)). Choosing generators
+x_1, ..., x_q of X, each with an annihilator delta_i in
+the Iwasawa algebra, evaluation at the generators embeds
+Hom_Gamma(X, W) into the direct sum of the kernels
+ker delta_i restricted to W — the paper's display (13).
+Every question about the size of a second cohomology
+group thereby becomes a question about the kernel of an
+operator on a representation: the trivial bound of
+Theorem 1.1 is read off the embedding at once, and
+everything hard in the paper is the pricing of those
+kernels. The reduction is used at every later point of
+the argument, so under the instrument rule it stands as
+a concept of its own.
+Source: Paper 025. NEW in Paper 025.
+Concept: The uniform splitting — Theorem 2.4, the setup
+that gives the Iwasawa algebra a centre to specialize
+Let Gamma_{A,p} be the image of the Tate-module
+representation of the abelian variety A. The only facts
+about it the paper uses are Bogomolov's two (both cited;
+the first in Pink's form): the image is open in its own
+Zariski closure (Theorem 2.2), and the Lie algebra of the
+closure's identity component contains the scalars
+(Theorem 2.3). Theorem 2.4, proved in the paper: for all
+large c, the level-c congruence subgroup Gamma(c) is a
+uniform pro-p group, and it splits as a direct product
+Gamma(c) = Z_c x H_c, where Z_c = (1 + p^c Z_p) times the
+identity is the scalar part and H_c = Gamma(c) met with
+Sp_{2g}(Z_p). The splitting uses only that a similitude
+in 1 + p^c Z_p has a unique square root when p is odd
+(Hensel). The tower is then fixed: K_a = Q(A[p^a]),
+K_infinity their union, F = K_c, Gamma = Gamma(c). In
+the split form the completed group ring of Gamma is a
+noncommutative power-series ring Z_p[[H_c]][[T]] with
+T = gamma_0 - 1 a central coordinate
+(Schneider-Teitelbaum, cited), and a representation of
+pure weight s is one on which the centre acts through
+the specialization T maps to (1 + p^c)^s - 1 in p Z_p.
+The module, the operators, and their kernels at a weight
+are all stated in this split form; the splitting is the
+setup every later step of the paper is written in.
+Source: Paper 025. NEW in Paper 025.
+Concept: The torsion Iwasawa module — one module that
+carries the whole family's H^2
+X is the rational form of cal X = H^2_Iw(K_infinity / F;
+Z_p(1)): the inverse limit, over the finite layers
+between F and K_infinity, of the second Galois
+cohomology with Tate-twist coefficients, under
+corestriction — Iwasawa cohomology in Lim's formalism
+(cited). Two facts about it are proved in the paper.
+Finite generation (Proposition 2.14): X is finitely
+generated over the rational Iwasawa algebra Lambda, by
+the Iwasawa Shapiro lemma, compact Nakayama, the
+finiteness of H^2 with finite coefficients (Milne,
+cited), and p-cohomological dimension at most 2 for odd
+p. Torsionness (Proposition 2.17): X is torsion over
+Lambda, by Lim's criterion (Theorem 2.16, cited), which
+reduces it to the vanishing of H^2 over the top of the
+tower with mu_{p^infinity} coefficients; that vanishing
+is proved by Kummer theory — the group is a colimit of
+the p-primary parts of Brauer groups, killed by
+adjoining p-power roots of unity, the local invariant
+maps doing the bookkeeping, and the archimedean places
+contributing nothing because p is odd and the Brauer
+group of R is Z/2. Torsionness is what gives every
+generator of X an annihilator in Lambda, and the
+annihilators are the operators whose kernels Theorem
+1.1 prices (through the reduction, 1.2.347): a single
+finitely generated torsion module carries every H^2 of
+the family at once.
+Source: Paper 025. NEW in Paper 025.
+Concept: Noncommutative Weierstrass preparation and the
+bad weights — Proposition 2.21 and Corollary 2.22
+An annihilator delta of a generator of X may vanish at
+some weights, and the kernel bound needs an operator
+that vanishes at none. Proposition 2.21, the paper's
+noncommutative Weierstrass preparation: any nonzero
+delta in Z_p[[H_c]][[T]] factors as delta = P eta, with
+P a polynomial in T over Z_p and eta in the same ring
+such that eta(t) is nonzero in Z_p[[H_c]] for every t in
+p Z_p. Corollary 2.22: with E(delta) the set of weights
+s in Z at which P((1 + p^c)^s - 1) = 0 — a finite set,
+the roots of the one polynomial — ker delta and ker eta
+agree on every module of pure weight s outside E(delta).
+The finite exceptional set E of Theorem 1.1 is the union
+of the E(delta_i) over the annihilators of the
+generators. The bad weights are therefore not a property
+of the curve's arithmetic: they are the roots of
+finitely many polynomials the module hands over, which
+is why no member of E is computed anywhere in the paper
+and none needs to be — at the weight s = n of the
+application, all sufficiently large n stand clear of it.
+The preparation is applied to every annihilator before
+any kernel is priced, so under the instrument rule it
+stands as a concept of its own.
+Source: Paper 025. NEW in Paper 025.
+Concept: The central reduction, and its faithfulness —
+Theorem 3.24 and Corollary 3.26, the step that keeps a
+nonzero operator nonzero
+To price ker eta on V_{lambda,s}, the paper moves the
+operator out of the Iwasawa algebra: through the Lazard
+comparison map from Z_p[[H_c]] into the completed
+universal enveloping algebra U-hat of the symplectic
+Lie algebra h = Lie(Sp_{2g, Z_p}), and then into the
+central reduction R_lambda = U / (c_i - zeta_lambda(c_i)
+for i = 1..g), the quotient through which U's action on
+V_{lambda,s} factors — the c_i the generators of the
+centre Z of U (Z = Z_p[c_1, ..., c_g], by the
+Harish-Chandra computation, Ardakov-Wadsley, cited), and
+zeta_lambda the central character. The composed map
+pi_mu (at the parameter mu of the weight) is injective
+(Corollary 3.26), because the affinoid Verma module is
+faithful as a module over the Iwasawa algebra (Theorem
+3.24, Ardakov-Wadsley, cited). Hence the central
+reduction eta_{lambda,s} of a nonzero operator eta is
+nonzero in R-hat_lambda. The point is load-bearing: a
+kernel priced inside R_lambda is a kernel of the
+operator itself, not of a shadow that might have
+collapsed to zero on the way down, and every dimension
+counted in 1.2.352 counts the operator's own kernel.
+Source: Paper 025. NEW in Paper 025.
+Concept: The Hilbert-series bound on the central
+reduction — Propositions 3.33 and 3.34, the count that
+gives Theorem 1.1 its exponent
+Modulo p, the central reduction R-bar_lambda =
+R_lambda / p R_lambda is a domain, and its associated
+graded ring is S(h_k) / (q-bar_1, ..., q-bar_g): the
+polynomial ring on the symplectic Lie algebra over the
+field with p elements, cut down by the g reduced central
+generators (Proposition 3.34, on the Harish-Chandra
+computation of Ardakov-Wadsley, cited) — the coordinate
+ring of the nilpotent cone, of Krull dimension D - g.
+Hence dim gr_m R-bar_lambda grows at most like
+m^{D-g-1} (Proposition 3.33), with the bound independent
+of lambda although R_lambda itself depends on lambda.
+The kernel is counted off this growth. After clearing
+the maximal p-power, theta = p^{-v} eta_{lambda,s} has
+nonzero reduction lying in filtration degree at most d,
+with d independent of (lambda, s) (Lemma 3.28, by
+compactness of the weight space). Jacobson density
+(cited) makes U surject onto End V_{lambda,s} already
+at PBW filtration length 2D ceil(||lambda||) (Claim
+3.32), so dim ker theta on V_{lambda,s}, times d_lambda,
+is a difference of two filtration-piece dimensions of
+R-bar_lambda (Proposition 3.29) — a sum of d consecutive
+graded pieces at height about ||lambda||, each of size
+at most (1 + ||lambda||)^{D-g-1}. Dividing by d_lambda
+gives the nontrivial bound of 1.2.345.
+Source: Paper 025. NEW in Paper 025.
+Concept: Filip's character formula for the graded
+pieces — Theorem 4.7, the analytic handle on L_n
+The character of L_n, restricted to the compact
+symplectic group USp(2g), is computed from the character
+of the standard representation V alone: chi_n(u) =
+(1/n) sum over d dividing n of mu(n/d) P_d(chi_V(u^{n/d})),
+where mu is the Moebius function and P_d(x) =
+((x + sqrt(x^2 - 4))/2)^d + ((x - sqrt(x^2 - 4))/2)^d is
+a rescaled Chebyshev polynomial (Filip, cited as Theorem
+4.7 of the paper). The graded piece L_n is the n-th
+piece of the free Lie algebra on V, modulo the single
+quadratic relation dual to the Weil pairing (Corwin-
+Zehavi, cited), and the formula is the paper's one
+analytic handle on it: a character sum with cancellation
+built in. It is used at two distinct points of the
+argument — the multiplicity bound (1.2.354), by
+orthogonality of characters on the compact group, and
+the conjugation eigenspace (1.2.358), by the trace at
+complex conjugation — so under the instrument rule it
+stands as a concept of its own, not as a step inside
+either proof.
+Source: Paper 025. NEW in Paper 025.
+Concept: The multiplicity bound — Proposition 4.9, no
+piece of L_n is thick
+Write L_n as the direct sum over highest weights lambda
+of V_{lambda,n} with multiplicity m_n(lambda).
+Proposition 4.9: for every n at least 1 and every
+lambda, m_n(lambda) is at most a constant times
+d_lambda b_n n^{-D/2}, with D as in 1.2.345. The proof
+is character theory on the compact group USp(2g):
+orthogonality writes the multiplicity as an integral of
+chi_n against an irreducible character, and the engine
+is the first-moment estimate — the integral of |chi_n|
+over USp(2g) against the probability Haar measure is at
+most a constant times b_n n^{-D/2} — read off Filip's
+formula (1.2.353); the estimate itself is folded into
+this concept, as the paper folds it into the
+proposition's proof. Read plainly: no irreducible piece
+occurs in L_n with anything near its dimension's share
+of the whole; each V_{lambda,n} is a thin slice of L_n,
+thinner by the factor n^{-D/2}. It is this thinness
+that lets the per-piece bounds of Theorem 1.1 be summed
+over all lambda without losing the power saving of
+1.2.346.
+Source: Paper 025. NEW in Paper 025.
+Concept: The Casimir second-moment estimate —
+Proposition 4.14, the large weights priced by their own
+weight
+Proposition 4.14: the sum over lambda of m_n(lambda)
+d_lambda ||lambda||^2 is at most a constant times n b_n
+— the multiplicities of 1.2.354, weighted by dimension
+and by the squared size of the weight, total no more
+than n times the whole graded piece. The proof prices
+the Casimir operator C = -sum X_i^2 at the identity:
+its eigenvalue on V_lambda is c_lambda = (1/2) sum_j
+lambda_j^2 + sum_j (g - j + 1) lambda_j (Etingof, cited
+as Theorem 4.13), which is comparable to ||lambda||^2,
+and its trace on L_n is computed from Filip's formula
+(1.2.353); the eigenvalue formula is folded into this
+concept, as the paper folds it into the estimate's
+proof. In the assembly of Theorem 1.4 the estimate is
+the large-weight control: by Rankin's trick, the total
+dimension carried by the weights above the split
+R sqrt(n) is at most the second moment divided by
+R^2 n, so the tail costs b_n R^{-2} — the price the
+balance at R = n^{1/(2(D+1))} spends against the small
+weights' b_n R^{D-1} / sqrt(n).
+Source: Paper 025. NEW in Paper 025.
+Concept: The growth of the graded pieces — Proposition
+4.5, alpha to the n over n
+Proposition 4.5: b_n is asymptotic to alpha^n / n, with
+alpha = g + sqrt(g^2 - 1) — the ratio tends to 1, in the
+paper's notation of its Notation 4.4. Two facts inside
+the one line carry the end of the proof of 1.2.344.
+First, alpha > g: the main term, the sum of the b_k for
+k up to n, outgrows the g^n that the de Rham filtration
+costs in 1.2.357. Second, the discount 1/n is the
+free-Lie-algebra discount, the Moebius inversion inside
+Filip's formula (1.2.353) made visible as a growth rate.
+The genus-1 boundary is the paper's own check (Remark
+4.6): for an elliptic curve alpha = 1 and b_n = 0 for
+n at least 2 — the growth collapses entirely, as it
+must, since genus at least 2 is exactly where the
+Chabauty-Kim method of this paper lives.
+Source: Paper 025. NEW in Paper 025.
+Concept: The de Rham lower bound — Proposition 4.15,
+the right side of the inequality priced from below
+Proposition 4.15: dim U_n^dR / F^0 is at least a constant
+times (the sum of b_k for k up to n) minus g^n. The
+right side of the dimension inequality is the whole sum
+of the graded pieces, less a term exponential in the
+genus alone. Two cited inputs carry the proof: dim
+U_n^dR equals the sum of the b_k, by Olsson's comparison
+between the etale and de Rham fundamental groups (cited
+through Corwin-Zehavi); and dim F^0 gr_k U is at most
+g^k, Kim's bound on the zero step of the Hodge
+filtration (cited). Against the growth of 1.2.356 —
+alpha^n / n with alpha > g — the subtracted g^n is of
+smaller order: the de Rham side is, to main order, the
+full sum of the b_k. That is the mark the Selmer side
+must be beaten below, and it is beaten by the half of
+1.2.358 together with the power saving of 1.2.346. The
+paper prices the two sides of its inequality in two
+separate propositions on different inputs, and the
+filing keeps them apart under the split rule: this
+concept is the right side; 1.2.358 is the left side's
+main term.
+Source: Paper 025. NEW in Paper 025.
+Concept: The conjugation eigenspace — Proposition 4.16,
+half of every graded piece is odd
+Proposition 4.16: dim L_k^- = b_k / 2 + O(alpha^{k/2} / k),
+where L_k^- is the -1 eigenspace of complex conjugation
+on L_k and alpha is as in 1.2.356 — to main order,
+exactly half of each graded piece is odd under
+conjugation. Through the Euler characteristic formula
+(Milne, cited), dim H^1(G_{Q,Sigma}, L_k) =
+dim H^2(G_{Q,Sigma}, L_k) + dim L_k^-, the H^0 term
+vanishing by purity of weight; so the Selmer side's main
+term is the half-sum (1/2) sum b_k, against the de Rham
+side's full sum in 1.2.357, and the dimension inequality
+is won at the level of main terms before the power
+saving of 1.2.346 is spent at all. The concept is filed
+with the author's own judgment attached (Remark 4.17):
+the proposition is redundant for the conjecture — Kim's
+Hodge-type argument already gives dim L_k^- = b_k / 2
+exactly at odd k — and is included as elegant and of
+independent interest, for the uniform bound at every k.
+The error term is written with the variable of the
+proof's n in the paper's statement where k is meant;
+the content — an error negligible against b_k — is
+unambiguous, and no question is opened on it.
+Source: Paper 025. NEW in Paper 025.
+Concept: The ambient-group generality — no condition on
+the Jacobian, because the proof never asks about it
+The paper's headline generality: the dimension
+inequality of 1.2.344 is proved with no restriction on
+the geometric endomorphism ring of the Jacobian and no
+restriction on the image of the Galois representation
+on the Tate module. The cases the earlier literature
+reached — complex multiplication Jacobians, open image —
+are not hypotheses here, and neither are the Bloch-Kato
+or Fontaine-Mazur conjectures, which Kim's earlier
+deduction of the inequality had assumed and this paper
+assumes nowhere. The route that buys the generality:
+every representation priced is a representation of the
+ambient generalized symplectic group GSp_{2g}, through
+which the Tate-module representation factors because
+Galois preserves the similitude line of the Weil
+pairing; and the only facts used about the image itself
+are Bogomolov's two (1.2.348). From those two the
+uniform splitting is built, and after it nothing in the
+kernel bound looks at the curve again: the Hilbert-
+series bound (1.2.352) is independent of lambda, the
+filtration degree of Lemma 3.28 is independent of
+(lambda, s), and every dependence on the abelian variety
+is absorbed into the generator and annihilator data of
+the one module X (1.2.349) — into the implied constants,
+and into A(p, S, C) of 1.2.346. The generality is not a
+case check run at the end; it is the proof never asking
+the question.
+Source: Paper 025. NEW in Paper 025.
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -13829,6 +15042,19 @@ Added with Paper 023 (2026-11-16): foundations
 model; deep embedding — and the defined words
 1.3.273-1.3.277: carrier, sparse, footprint, tier,
 rank.
+Added with Paper 024 (2026-11-17): foundations
+1.3.282-1.3.287 — covariate shift; the likelihood
+ratio; the false discovery rate; positive
+dependence; Simes' test; the Poisson limit — and
+the defined words 1.3.288-1.3.290: decoy, heavy
+cell, deflation.
+Added with Paper 025 (2026-11-17): foundations
+1.3.291-1.3.302 — algebraic curve; rational point;
+the Galois group; Galois cohomology; p-adic
+numbers; abelian variety; the Jacobian; the
+pro-unipotent fundamental group; the Selmer group;
+the Iwasawa algebra; de Rham cohomology; the Tate
+module — and the defined word 1.3.303: etale.
 # Foundation: function, variable, input, output
 A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
 given the same input, always the same output. A VARIABLE is a named
@@ -16970,6 +18196,276 @@ judged by a law of the same family wherever the skim's
 error is watched against the model's growth. Builds on:
 fit, setting.
 Source: Study S015. NEW in Study S015.
+Foundation: Covariate shift
+The setting the paper prices. Calibration points are drawn
+from a distribution P and test units from a distribution Q,
+and the two differ in the covariate X alone: the conditional
+law of the outcome given the covariate is shared, while the
+covariate's own law moves, by a likelihood ratio w(x)
+proportional to dQ/dP(x). Exchangeability between calibration
+and test data — the ground the unweighted conformal guarantee
+stands on — is exactly what the shift breaks.
+Builds on: distribution; likelihood.
+Source: Paper 024.
+Foundation: Likelihood ratio (the weight)
+For two distributions Q and P on the same space, the ratio
+w(x) = dQ/dP(x) at a point: how much more (or less) likely the
+point is under Q than under P. A conformal p-value under
+covariate shift weights each calibration point by this ratio
+at its covariate. The paper prices everything by the weight
+ratio B = max w / min w and by kappa = B/n, n the calibration
+size: B measures how far the shift reaches, kappa how far it
+reaches per calibration point.
+Builds on: distribution; density.
+Source: Paper 024.
+Foundation: False discovery rate
+For a procedure that rejects some of m tested units, the
+false discovery proportion is the share of the rejections
+that are null (false), counted as zero when nothing is
+rejected; the false discovery rate, FDR, is its expectation.
+To control the FDR at level q is to guarantee FDR <= q in
+advance, over the randomness of the data. It is the currency
+every guarantee and every failure in Paper 024 is priced in.
+Builds on: expectation; hypothesis test.
+Source: Paper 024.
+Foundation: Positive dependence (PRDS)
+A family of p-values is positively regression dependent on the
+subset of true nulls (PRDS) when, roughly, the chance that the
+family falls in any increasing set does not decrease as a null
+p-value is conditioned to be smaller. The Benjamini-Hochberg
+procedure's FDR guarantee is proved under independence and
+under PRDS. Weighted conformal p-values may fail PRDS — the
+shared calibration data couples them through the weights —
+and that failure of a hypothesis, not of the procedure, is
+the crack Paper 024 prices.
+Builds on: dependence; conditional probability.
+Source: Paper 024.
+Foundation: Simes' test
+A test of the global (intersection) null — that every one of
+m hypotheses is null — from the ordered p-values: it rejects
+when some p_(k) is at most qk/m, the Benjamini-Hochberg grid.
+In the global null the BH procedure rejects something exactly
+when Simes' test rejects, so the FDR there is Simes' rejection
+probability; the curvature of that probability as a function
+of the conditional p-value law is the second-order mechanism
+of Paper 024.
+Builds on: hypothesis test; order statistic.
+Source: Paper 024.
+Foundation: Poisson limit
+A limit model in which counts of rare events are taken as
+independent Poisson variables and the remaining structure is
+taken at its limit law exactly. Paper 024's form: as the
+calibration size n grows at fixed kappa = B/n, the numbers of
+calibration points in the heavy cells become independent
+Poisson(lambda) variables and the light scores become exactly
+uniform, so fluctuations that are asymptotic in truth are
+exact in the model — and results proved in it carry the
+model's boundary with them.
+Builds on: Poisson distribution; limit.
+Source: Paper 024.
+Defined word: decoy
+Paper 024's word for a non-null test unit placed so that its
+p-value coincides with those of a block of its fellows at a
+shared threshold, near a Benjamini-Hochberg grid point: not
+there to be discovered, but to switch — its rejection turns on
+the calibration draw, and the switch is what the null units'
+excess is made of. Coined in the mechanism analysis of the
+paper (its Section 3) and used throughout its lower bounds.
+Source: Paper 024.
+Defined word: heavy cell
+Paper 024's word for a covariate value whose weight is of the
+order of the whole calibration set's scale — weight kappa n =
+B against the light values' weight 1 — with P-mass lambda/n:
+rare under the calibration law, heavy under the test law, and
+few enough that the count of calibration points landing in it
+fluctuates at the order that drives the paper's constructions.
+Its partner word, light, names the ordinary weight-1 values.
+Source: Paper 024.
+Defined word: deflation
+Paper 024's word (in its Section 6 heading, 'provable level
+deflation') for the repair of running a procedure at a lowered
+level q' chosen so that a proved excess bound, evaluated at
+q', brings the guaranteed false discovery rate back to the
+target q: the level is deflated by exactly the priced size of
+the failure it repairs.
+Source: Paper 024.
+Foundation: algebraic curve
+A variety of dimension one: the set of points, in finitely
+many coordinates, where a fixed family of polynomials all
+vanish, with the room of a line — bent, possibly crossing
+itself, possibly with cusps, but one-dimensional throughout.
+A curve over Q is one whose polynomials have rational
+coefficients. Its genus (1.3.10) counts its handles in the
+complex picture: genus 0 is a sphere, genus 1 a torus, and
+genus at least 2 is where Paper 025 works.
+Builds on: variety; dimension; genus.
+Source: Paper 025.
+Foundation: rational point
+A point of a curve or variety whose coordinates are all
+rational numbers — ratios of whole numbers, the rationals
+being the field Q. The Diophantine question of a curve over
+Q is which rational points it has. The Mordell conjecture
+(Faltings' theorem) says a curve of genus at least 2 over Q
+has only finitely many; the Chabauty-Kim method of Paper
+025 prices the set of rational (and integral) points by
+embedding it into a p-adic space and cutting it down there.
+Builds on: algebraic curve.
+Source: Paper 025.
+Foundation: Galois group
+The group of symmetries of the algebraic numbers over Q:
+the bijections of the field of all algebraic numbers that
+fix every rational number and respect addition and
+multiplication — equivalently, the permutations of the
+roots of all rational polynomials that respect every
+polynomial relation among them. Written G_Q; with a finite
+set Sigma of places adjoined, G_{Q,Sigma} is the quotient
+through which every extension unramified outside Sigma
+factors — the Galois group as Paper 025 uses it, acting on
+Tate modules and cohomology. A representation of a Galois
+group is a way for it to act by linear maps on a vector
+space, and most of arithmetic geometry is the study of a
+few such actions.
+Builds on: group.
+Source: Paper 025.
+Foundation: Galois cohomology
+Cohomology (1.3.14) taken of a Galois group with
+coefficients in one of its representations W: the derived
+bookkeeping of taking invariants under the group. H^0 is
+the invariants themselves. H^1 classifies the twists of W
+and the torsors under it — in arithmetic, the global
+classes that local conditions then cut down to Selmer
+groups (1.3.299). H^2 carries the obstructions and the
+duality: Poitou-Tate and the Euler characteristic formula
+price H^1 by H^0, H^2 and a local term, which is the shape
+Kim's reduction gives the Chabauty-Kim inequality, and the
+H^2 is the term Paper 025 bounds.
+Builds on: cohomology; Galois group.
+Source: Paper 025.
+Foundation: p-adic numbers
+For a prime p — a whole number divisible only by 1 and
+itself — the p-adic numbers Q_p are the completion of the
+rationals in the p-adic measure of size, where a number is
+small when a high power of p divides it. Every p-adic
+number is an infinite series a_0 + a_1 p + a_2 p^2 + ...
+with digits in 0..p-1, possibly with finitely many
+negative powers first; Q_p is a field, and its integers
+Z_p are the series with no negative powers. A prime of a
+curve's bad reduction, an auxiliary prime of good
+reduction, and the whole linear algebra of Paper 025 —
+Tate modules, Iwasawa algebras, fundamental groups — live
+over Q_p and Z_p.
+Builds on: limit.
+Source: Paper 025.
+Foundation: abelian variety
+A variety that is also a group, with the group operations
+given by polynomial maps and the variety projective — a
+complete algebraic group. Elliptic curves are the abelian
+varieties of dimension 1. A principal polarization is a
+distinguished isomorphism to the dual variety, which puts
+a Weil pairing on the torsion points and makes the
+Tate-module representation symplectic. Paper 025 works
+with a principally polarized abelian variety A over Q of
+dimension g, and in the application A is the Jacobian
+(1.3.297) of the curve.
+Builds on: variety; group.
+Source: Paper 025.
+Foundation: Jacobian
+The Jacobian of a curve C of genus g is the g-dimensional
+abelian variety attached to C whose points are the divisor
+classes of degree zero on C — formal sums of points, modulo
+the divisors of rational functions. The curve embeds in its
+Jacobian once a basepoint is chosen, and the rational
+points of the curve are studied through it: in the
+Chabauty-Kim method the Jacobian is the ambient abelian
+variety A of Paper 025, its Tate module (1.3.302) carries
+the symplectic Galois representation, and conditions on
+the Jacobian — its endomorphism ring, its Galois image —
+are exactly the conditions this paper does without.
+Builds on: algebraic curve; abelian variety; genus.
+Source: Paper 025.
+Foundation: pro-unipotent fundamental group
+The fundamental group (1.3.12) has arithmetic forms. The
+etale fundamental group of a curve over Q-bar is the group
+of symmetries of all its finite covers at once; its
+pro-unipotent completion over Q_p — the largest quotient
+built as iterated extensions of the trivial representation
+— is U^et, with its Galois action. Its de Rham twin U^dR
+is built from vector bundles with integrable connection
+instead of covers, and carries a Hodge filtration F and a
+Frobenius. The truncations U_n = U / U^{n+1} by the
+descending central series are finite-dimensional at each
+level n, and Kim's method compares the two through them:
+the etale side receives the global points, the de Rham
+side prices them.
+Builds on: fundamental group.
+Source: Paper 025.
+Foundation: Selmer group
+The subgroup of a Galois cohomology group H^1 cut out by
+local conditions: the global classes whose image at every
+place of Q satisfies a condition fixed in advance there.
+The Bloch-Kato form, written H_f^1, takes the condition
+at p to be the crystalline classes and away from p the
+unramified ones. In the Chabauty-Kim diagram the Selmer
+side H_f^1(G_{Q,Sigma}, U_n^et) is where the global points
+land, and the dimension inequality of Paper 025 is the
+comparison of its dimension against the de Rham side
+U_n^dR / F^0.
+Builds on: Galois cohomology.
+Source: Paper 025.
+Foundation: Iwasawa algebra
+The completed group ring of a pro-p group Gamma: formal
+sums of group elements with coefficients in Z_p, completed
+so that infinite sums converge p-adically; inverting p
+gives the rational form Lambda. When Gamma splits as a
+product with a central Z_p factor, the algebra is a
+noncommutative power-series ring Z_p[[H]][[T]] with the
+central coordinate T recording the weight. The algebras
+are noetherian domains (Lim, cited in Paper 025), so their
+modules have ranks and torsion as over a commutative ring.
+A module over an Iwasawa algebra packages a whole tower's
+cohomology into one object; Paper 025's module X (1.2.349)
+is the package whose annihilators price every H^2.
+Builds on: Galois group; ring; p-adic numbers.
+Source: Paper 025.
+Foundation: de Rham cohomology
+Cohomology (1.3.14) computed by differential forms: closed
+forms modulo exact ones, over a field of characteristic
+zero. For a curve over Q_p it is a finite-dimensional
+vector space with a Hodge filtration, and its fundamental-
+group form U^dR (1.3.298) is the linear-algebraic shadow of
+the curve on the analytic side of Kim's diagram: the
+quotient U_n^dR / F^0 is a space of periods and Coleman
+functions, and its dimension is the right side of the
+Chabauty-Kim inequality.
+Builds on: cohomology.
+Source: Paper 025.
+Foundation: Tate module
+The Tate module of an abelian variety A at a prime p is
+the inverse limit of the groups of p-power torsion points
+A[p^a] as a grows, the maps between levels being
+multiplication by p: a free Z_p-module of rank 2g (g the
+dimension of A) on which the Galois group acts. Tensored
+with Q_p it is the representation V of Paper 025. The
+Weil pairing on the torsion points makes V symplectic —
+it carries a bilinear form the Galois action preserves up
+to the cyclotomic similitude factor — which is why the
+representation factors through the generalized symplectic
+group GSp_{2g}.
+Builds on: abelian variety; p-adic numbers; limit.
+Source: Paper 025.
+Defined word: etale
+The adjective of the etale fundamental group and etale
+cohomology: the theory algebraic geometry builds from
+finite covers of a variety, in the position covering-space
+theory holds for spaces — Galois groups in the part of
+fundamental groups, and cohomology with coefficients in
+torsion or p-adic systems in the part of ordinary
+cohomology. Paper 025's U^et is the pro-unipotent form of
+the etale fundamental group, and etale cohomology of a
+number field is Galois cohomology (1.3.294). The word is
+entered in the register because the tracker's texts use it
+as an ordinary word from this paper on.
+Source: Paper 025.
 # The epistemic registry — what this phext holds, and how surely
 
 Every claim-bearing scroll of this phext carries exactly one standing, and
@@ -17615,17 +19111,68 @@ diagnosis, the artifact, the seeding, the revival, the
 ending, the tiling, the kernels and the backend, the
 evolution and the unseen suite, as their source states
 them.
+
+
+After Paper 024 the registry stands exact at 947: True
+422 (344 by stipulation, 78 verified), False 0, Unknown
+518 (450 by attribution, 41 by synthesis, 25 open, 2 by
+estimate), Fiction 7. The nine chapter scrolls stand as
+drawn: the lead, the formal core in two scrolls, the
+results map, the delta and the author check attributed
+— the paper read entire in HTML form, its certificates
+read in Appendix F, the checks as run; the house reading
+synthesis; the open questions open; the standoff
+references stipulation. Of the sixteen concepts, one
+stands True by verification — the global-null
+counterexample, on the house's own recomputation of the
+certified instance in exact rational arithmetic — and
+fifteen stand Unknown by attribution: the weighted
+conformal p-value, the BH procedure priced, the
+strict-selection counterexample, the covariance
+identity, the reduction, Simes curvature, the decoy
+switch, the excess bound, the heavy-cell model, the
+sharpness, the fixed-distribution excess, the
+global-null price, the envelope, the deflated level
+and the rule of thumb, as their source states them.
+The counts at the drawing of Paper 025 (2026-11-17,
+Restructure Pass #18 run with the taking-in): the
+phext stands at 985 scrolls and the living registry
+exact at 985 — True 436 (358 by definition, 78 by
+receipt), Unknown 542 (472 by the say-so of a source,
+42 reasoned links, 26 open questions, 2 weighed
+estimates), False 0, Fiction 7. The additions of the
+drawing: sixteen concepts, twelve foundations, one
+defined word, and the nine scrolls of a chapter —
+thirty-eight first entries. No held scroll was carried
+in a new form, and no standing moved: the sixteen
+concepts stand Unknown by attribution, as their source
+states them — the dimension inequality, the kernel
+bound, the power-saving bound, the reduction, the
+uniform splitting, the module, the preparation, the
+central reduction, the Hilbert-series bound, the
+character formula, the multiplicity bound, the second
+moment, the growth, the de Rham bound, the eigenspace
+and the generality. The chapter's own scrolls stand as
+their kinds stand: the record, the two formal cores,
+the results map, the delta and the author check
+attributed — the paper read entire in HTML form, the
+checks as run; the house reading synthesis; the open
+questions open; the standoff references stipulation.
+Nothing the model carries has yet been found against,
+and it still holds no worked example of its own
+making.
 # Registry: True
 
 Settled claims. Basis by definition (stipulation) or by checking receipt
 (verified). The receipt for a verified entry is named in registry.json.
 
 - 1.1.1/1.1.1/1.1.1 — The tracker charter: the rules under which research.phext is built and kept, in force by Will's direction [stipulation]
-- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-023, Fringe F001 and Studies S001-S015, checked at ingestion [verified]
-- 1.1.1/1.1.1/1.1.5 — Concept map: the 327 canonical concepts grouped in clusters A-Z, AA, AB, AC, AD, AE, AF, AG and AH, with the restructuring log [stipulation]
+- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-025, Fringe F001 and Studies S001-S015, checked at ingestion [verified]
+- 1.1.1/1.1.1/1.1.5 — Concept map: the 359 canonical concepts grouped in clusters A-Z, AA, AB, AC, AD, AE, AF, AG, AH and AI, with the restructuring log [stipulation]
 - 1.1.1/1.1.1/1.2.292 — The Pólya urn's uniform multiset — repeats favoured by exactly the right amount [verified]
 - 1.1.1/1.1.1/1.2.293 — Cardchoose — a fair subset drawn as a uniform multiset [verified]
 - 1.1.1/1.1.1/1.2.294 — Stars and bars — the transfer between subsets and multisets [verified]
+- 1.1.1/1.1.1/1.2.330 — Concept: The global-null counterexample — the guarantee fails, certified and verified [verified]
 - 1.1.1/1.1.1/1.3.1 — The foundations layer exists: every base term is defined at level zero, chains ending at everyday notions (structural) [stipulation]
 - 1.1.1/1.1.1/1.3.2 — Foundation: function, variable, input, output [stipulation]
 - 1.1.1/1.1.1/1.3.3 — Foundation: set and element [stipulation]
@@ -17907,12 +19454,34 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/1.3.279 — Foundation: epoch and mini-batch — a pass, and a slice [stipulation]
 - 1.1.1/1.1.1/1.3.280 — Foundation: exponential moving average — a running mean [stipulation]
 - 1.1.1/1.1.1/1.3.281 — Foundation: scaling law — a fitted formula that prices a [stipulation]
+- 1.1.1/1.1.1/1.3.282 — Foundation: Covariate shift [stipulation]
+- 1.1.1/1.1.1/1.3.283 — Foundation: Likelihood ratio (the weight) [stipulation]
+- 1.1.1/1.1.1/1.3.284 — Foundation: False discovery rate [stipulation]
+- 1.1.1/1.1.1/1.3.285 — Foundation: Positive dependence (PRDS) [stipulation]
+- 1.1.1/1.1.1/1.3.286 — Foundation: Simes' test [stipulation]
+- 1.1.1/1.1.1/1.3.287 — Foundation: Poisson limit [stipulation]
+- 1.1.1/1.1.1/1.3.288 — Defined word: decoy [stipulation]
+- 1.1.1/1.1.1/1.3.289 — Defined word: heavy cell [stipulation]
+- 1.1.1/1.1.1/1.3.290 — Defined word: deflation [stipulation]
+- 1.1.1/1.1.1/1.3.291 — Foundation: algebraic curve [stipulation]
+- 1.1.1/1.1.1/1.3.292 — Foundation: rational point [stipulation]
+- 1.1.1/1.1.1/1.3.293 — Foundation: Galois group [stipulation]
+- 1.1.1/1.1.1/1.3.294 — Foundation: Galois cohomology [stipulation]
+- 1.1.1/1.1.1/1.3.295 — Foundation: p-adic numbers [stipulation]
+- 1.1.1/1.1.1/1.3.296 — Foundation: abelian variety [stipulation]
+- 1.1.1/1.1.1/1.3.297 — Foundation: Jacobian [stipulation]
+- 1.1.1/1.1.1/1.3.298 — Foundation: pro-unipotent fundamental group [stipulation]
+- 1.1.1/1.1.1/1.3.299 — Foundation: Selmer group [stipulation]
+- 1.1.1/1.1.1/1.3.300 — Foundation: Iwasawa algebra [stipulation]
+- 1.1.1/1.1.1/1.3.301 — Foundation: de Rham cohomology [stipulation]
+- 1.1.1/1.1.1/1.3.302 — Foundation: Tate module [stipulation]
+- 1.1.1/1.1.1/1.3.303 — Defined word: etale [stipulation]
 - 1.1.1/1.1.1/1.5.1 — Areas of this phext: the map of the five areas and the plain account, with the upkeep duty of charter rule 16 (structural) [stipulation]
-- 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 130 drawn out under rule 13 (109 stated, 21 inferred), 9 entries found in work from before the rule, 3 chapters swept with none found [stipulation]
-- 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after Study S015 [stipulation]
-- 1.1.1/1.1.1/1.5.4 — Area: Reference material — the 176 foundations, the Defined Words register (112 coined words), and the 39 standoff companions, as one area [stipulation]
+- 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 135 drawn out under rule 13 (114 stated, 21 inferred), 9 entries found in work from before the rule, 3 chapters swept with none found [stipulation]
+- 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after Paper 024 [stipulation]
+- 1.1.1/1.1.1/1.5.4 — Area: Reference material — the 182 foundations, the Defined Words register (115 coined words), and the 40 standoff companions, as one area [stipulation]
 - 1.1.1/1.1.1/1.5.5 — Area: The path — every taking-in in submission order, with Novelty Index and Oracle progress for the papers and the passes where they fell; drawn from 1.1.3 and 1.1.4 [verified]
-- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 128 named researchers and the three companies behind the works taken in, each with their work here and the standing of their author check [verified]
+- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 130 named researchers and the three companies behind the works taken in, each with their work here and the standing of their author check [verified]
 - 1.1.1/1.1.1/1.5.7 — How this Oracle was built, plainly (1 of 2): arrival, the delta rule, one scroll per concept, the one story, words at level zero, standing [stipulation]
 - 1.1.1/1.1.1/1.5.8 — How this Oracle was built, plainly (2 of 2): the Lean-kept standing record and its honesty boundary, reshaping without pruning, the Oracle number, the areas, and where everything lives [stipulation]
 - 1.1.1/1.1.1/2.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
@@ -18025,6 +19594,8 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/40.1.4 — Study S015 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
 - 1.1.1/1.1.1/40.1.5 — Study S015 delta: eleven concepts founding cluster AH, four foundations, questions Q123-Q126, three state machines, Restructure Pass #16 at the 320-concept trigger, no NI, no Oracle movement and no novelty drawn (charter rule 12) [verified]
 - 1.1.1/1.1.1/40.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/41.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/42.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 # Registry: False
 
 Found against, and kept. No entry stands here at the first writing
@@ -18037,7 +19608,7 @@ Written down, not settled. Basis: the say-so of a source (attributed),
 the reasoned link of Emise (synthesis), an open question (open), a
 weighed estimate (estimate).
 
-- 1.1.1/1.1.1/1.1.2 — World-model narrative v36: Emise's one-story synthesis of Papers 001-023, Fringe F001 and Studies S001-S015 [synthesis]
+- 1.1.1/1.1.1/1.1.2 — World-model narrative v38: Emise's one-story synthesis of Papers 001-025, Fringe F001 and Studies S001-S015 [synthesis]
 - 1.1.1/1.1.1/1.1.4 — Research Oracle: Novelty Index definition and the progress-estimate ledger (about 100% after Paper 022, at the ceiling of the scale, its discount stated in the ledger) [estimate]
 - 1.1.1/1.1.1/1.1.6 — Research Oracle detection list: the signs watched for the fixed point — the run of the Novelty Index, the axis events, and the skim calibration of charter rule 17 [estimate]
 - 1.1.1/1.1.1/1.2.1 — Concept: Intelligence (economic definition) [attributed]
@@ -18360,6 +19931,37 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/1.2.325 — The fused kernels and the chosen backend — no distance [attributed]
 - 1.1.1/1.1.1/1.2.326 — Evolution over a modular graph — an algorithm improved [attributed]
 - 1.1.1/1.1.1/1.2.327 — The unseen suite and the leave-one-out price — an [attributed]
+- 1.1.1/1.1.1/1.2.328 — Concept: The weighted conformal p-value [attributed]
+- 1.1.1/1.1.1/1.2.329 — Concept: The Benjamini-Hochberg procedure, priced [attributed]
+- 1.1.1/1.1.1/1.2.331 — Concept: The strict-selection counterexample — the failure at a working level [attributed]
+- 1.1.1/1.1.1/1.2.332 — Concept: The covariance identity — the excess, exactly [attributed]
+- 1.1.1/1.1.1/1.2.333 — Concept: The calibration-conditional reduction — the excess as a worst ratio [attributed]
+- 1.1.1/1.1.1/1.2.334 — Concept: Simes curvature — the second-order mechanism [attributed]
+- 1.1.1/1.1.1/1.2.335 — Concept: The decoy switch — the first-order mechanism [attributed]
+- 1.1.1/1.1.1/1.2.336 — Concept: The excess bound — the failure, priced from above [attributed]
+- 1.1.1/1.1.1/1.2.337 — Concept: The Poisson-limit heavy-cell model [attributed]
+- 1.1.1/1.1.1/1.2.338 — Concept: The sharpness — the bound's order is the right order [attributed]
+- 1.1.1/1.1.1/1.2.339 — Concept: The fixed-distribution excess — the failure at one fixed law [attributed]
+- 1.1.1/1.1.1/1.2.340 — Concept: The global-null price — smaller, and linear in m below [attributed]
+- 1.1.1/1.1.1/1.2.341 — Concept: The envelope — a bound the practitioner can compute [attributed]
+- 1.1.1/1.1.1/1.2.342 — Concept: The deflated level — the proved repair, and its pitfall [attributed]
+- 1.1.1/1.1.1/1.2.343 — Concept: The rule of thumb — the price practice actually sees, unproved [attributed]
+- 1.1.1/1.1.1/1.2.344 — Concept: The dimension inequality, proved in the projective [attributed]
+- 1.1.1/1.1.1/1.2.345 — Concept: The kernel bound on second Galois cohomology — [attributed]
+- 1.1.1/1.1.1/1.2.346 — Concept: The power-saving bound — Theorem 1.4, the price [attributed]
+- 1.1.1/1.1.1/1.2.347 — Concept: The reduction of H^2 to kernels of Iwasawa [attributed]
+- 1.1.1/1.1.1/1.2.348 — Concept: The uniform splitting — Theorem 2.4, the setup [attributed]
+- 1.1.1/1.1.1/1.2.349 — Concept: The torsion Iwasawa module — one module that [attributed]
+- 1.1.1/1.1.1/1.2.350 — Concept: Noncommutative Weierstrass preparation and the [attributed]
+- 1.1.1/1.1.1/1.2.351 — Concept: The central reduction, and its faithfulness — [attributed]
+- 1.1.1/1.1.1/1.2.352 — Concept: The Hilbert-series bound on the central [attributed]
+- 1.1.1/1.1.1/1.2.353 — Concept: Filip's character formula for the graded [attributed]
+- 1.1.1/1.1.1/1.2.354 — Concept: The multiplicity bound — Proposition 4.9, no [attributed]
+- 1.1.1/1.1.1/1.2.355 — Concept: The Casimir second-moment estimate — [attributed]
+- 1.1.1/1.1.1/1.2.356 — Concept: The growth of the graded pieces — Proposition [attributed]
+- 1.1.1/1.1.1/1.2.357 — Concept: The de Rham lower bound — Proposition 4.15, [attributed]
+- 1.1.1/1.1.1/1.2.358 — Concept: The conjugation eigenspace — Proposition 4.16, [attributed]
+- 1.1.1/1.1.1/1.2.359 — Concept: The ambient-group generality — no condition on [attributed]
 - 1.1.1/1.1.1/2.1.1 — Paper 001 record and distillation: 'Organizing Intelligence' -- intelligence matters economically through organizations [attributed]
 - 1.1.1/1.1.1/2.1.2 — Paper 001 — Formal core [attributed]
 - 1.1.1/1.1.1/2.1.3 — Paper 001's own worked example (its section 2): the 14-human toy economy and its firm-formation numbers, as reported by the paper [attributed]
@@ -18532,6 +20134,22 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/39.2.1 — Paper 023 — synthesis: the certifier priced by its own strength [synthesis] [synthesis]
 - 1.1.1/1.1.1/39.2.2 — Paper 023 — Open questions Q120-Q122 [open]
 - 1.1.1/1.1.1/40.2.1 — Study S015 — the house reading [synthesis] [synthesis]
+- 1.1.1/1.1.1/41.1.1 — Paper 024 delta: Almost Controlled: The FDR of Benjamini-Hochberg on Weighted Conformal p-Values -- sixteen concepts (1.2.328-1.2.343), no revision, cluster O extended onto conformal ground, taken in as a scored paper of the protocol fixed in advance (sample 5 of 12), picked by the quest from the listings of the day [attributed]
+- 1.1.1/1.1.1/41.1.2 — Paper 024 — the formal core: the setting, the reductions, and the failure [attributed]
+- 1.1.1/1.1.1/41.1.3 — Paper 024 — the formal core: the price of the failure, from both sides [attributed]
+- 1.1.1/1.1.1/41.1.4 — Paper 024 — the results map [attributed]
+- 1.1.1/1.1.1/41.1.5 — Paper 024 — the delta: what this adds, and what was checked [attributed]
+- 1.1.1/1.1.1/41.1.6 — Paper 024 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [attributed]
+- 1.1.1/1.1.1/41.2.1 — Paper 024 — synthesis: a judge whose certificate does not hold [synthesis] [synthesis]
+- 1.1.1/1.1.1/41.2.2 — Paper 024 — Open questions Q127-Q129 [open]
+- 1.1.1/1.1.1/42.1.1 — Paper 025 delta: The Chabauty-Kim dimension inequality via noncommutative Iwasawa theory -- sixteen concepts (1.2.344-1.2.359), no revision, cluster AI founded, taken in as a paper posted by Will and counted in the test without a seal (sample 6 of 12) [attributed]
+- 1.1.1/1.1.1/42.1.2 — Paper 025 — the formal core: the setting, the tower, [attributed]
+- 1.1.1/1.1.1/42.1.3 — Paper 025 — the formal core: the kernel bound, the [attributed]
+- 1.1.1/1.1.1/42.1.4 — Paper 025 — the results map [attributed]
+- 1.1.1/1.1.1/42.1.5 — Paper 025 — the delta: what this adds, and what was [attributed]
+- 1.1.1/1.1.1/42.1.6 — Paper 025 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [attributed]
+- 1.1.1/1.1.1/42.2.1 — Paper 025 — synthesis: the error term, priced in [synthesis]
+- 1.1.1/1.1.1/42.2.2 — Paper 025 — Open questions Q130-Q133 [open]
 # Registry: Fiction
 
 Made on purpose, held as made. No entry stands here at the first writing
@@ -20769,6 +22387,95 @@ is the paper's Figure 1(b), drawn as a machine.
 Home: 39.1.3; concepts 1.2.313, 1.2.314, 1.2.315.
 [stated — sections 7 and 8, Figure 1(b)]
 
+CHAPTER 41 (Paper 024 — a guarantee priced, and found
+wanting; all stated in the paper)
+M1 — the BH step-up machine. States: the counts of
+p-values at or below each grid point t_k = qk/m.
+Moves: k rises; the machine rests at the largest k
+whose count reaches k, and rejects every unit at or
+below t_k. Home: 41.1.2; concept 1.2.329. [stated —
+section 2]
+M2 — the calibration-conditional machine. States: the
+calibration draws D. At each state the test p-values
+are i.i.d. draws from the conditional law F_D, and
+every quantity the step-up machine sees is a function
+of the state. Moves: a new calibration draw. The
+machine is the one the covariance identity and the
+reduction both read. Home: 41.1.2; concepts 1.2.332,
+1.2.333. [stated — section 2]
+M3 — the decoy switch. States: the decoy atom counted
+from t_{k0} (side -) or from t_{k0+1} (side +). Moves:
+the heavy calibration total K crosses the switch
+point, and the counted side changes; at K = omega
+both sides price the FDR at exactly q (saturation),
+with different slopes, so the machine's average
+resting price exceeds q by the kink. Home: 41.1.3;
+concept 1.2.335. [stated — sections 3 and 4]
+M4 — the certificate engine. States: the calibration
+count vectors of a finite covariate support. Moves:
+enumerate the vectors (ordered sequences in the
+independent checker; the multinomial sum in the
+engines), evaluate the false discovery proportion on
+each in exact rational arithmetic, and add its mass.
+The machine halts at a fraction, not an estimate.
+Home: 41.1.3; concepts 1.2.330, 1.2.331. [stated —
+Appendix F]
+M5 — the deflation solver. States: candidate levels
+q'. Moves: recompute the excess bound's eps at the
+candidate. The machine rests at the largest q' with
+q' (1 + eps(q')) <= q — never at the naive
+q/(1 + eps(q)), which it passes through and rejects.
+Home: 41.1.3; concept 1.2.342. [stated — section 6]
+
+CHAPTER 42 (Paper 025 — a dimension inequality proved
+by pricing an error term; three stated in the paper,
+one inferred)
+M1 — the Iwasawa tower. States: the finite layers E
+between F and K_infinity in the tower
+K_infinity = Q(A[p^infinity]) over F = K_c. Moves:
+corestriction from each layer's second cohomology to
+the layer below; the machine's rest state is the
+inverse limit, the module cal X, in which every layer
+stands at once. Gap: none stated in the paper; the
+limit is the definition of Iwasawa cohomology there.
+Home: 42.1.2. [stated]
+
+M2 — the descending central series tower. States: the
+truncations U_n = U / U^{n+1} of the pro-unipotent
+fundamental group, etale and de Rham. Moves: the
+quotient maps U_{n+1} to U_n, and the maps they induce
+on the Selmer schemes and the de Rham quotients of
+Kim's diagram. The machine acquires the dimension
+inequality at some state and keeps it at every later
+state. Gap: no effective state of acquisition is
+given — no n_0 is computed anywhere in the paper; the
+gap stands open at Q130. Home: 42.1.2. [stated]
+
+M3 — the weight specialization. States: the weights
+s in Z. Moves: at each state the central coordinate of
+the Iwasawa algebra specializes, T to
+(1 + p^c)^s - 1, and the prepared operator eta acts as
+eta(t_s) in Z_p[[H_c]]. The finite bad-weight set E
+marks the states where ker delta and ker eta part
+company; outside E the machine's reading is the kernel
+bound of Theorem 1.1. Gap: E is proved finite and
+never listed; its members are the roots of the
+annihilators' polynomials (1.2.350). Home: 42.1.3.
+[stated]
+
+M4 — the two-bound balance. States: the split radii R.
+Moves: below R sqrt(n) the nontrivial kernel bound
+prices the pieces of L_n, with the multiplicities of
+1.2.354; above it the trivial bound prices them, with
+the tail controlled by the second moment of 1.2.355
+through Rankin's trick. The machine rests where the
+two costs meet, at R = n^{1/(2(D+1))}, and the resting
+cost is the exponent of Theorem 1.4. Gap: none in the
+machine itself; its constants are the paper's, and
+ineffective as there. The paper runs the balance twice
+without drawing it as a machine; the drawing is the
+house's. Home: 42.1.3. [inferred]
+
 SWEPT, NO MACHINE FOUND
 Chapter 4 (Paper 003): its way of working is one pass —
 one prompt held fixed, stories written, features drawn
@@ -21186,6 +22893,19 @@ stated, 21 inferred). The study adds three, all stated
 in the post: the island evolution loop (40.1.2), the
 s-means training loop (40.1.2), and the backend choice
 (40.1.3).
+
+After Paper 024: 135 state machines are held (114
+stated, 21 inferred). The filing adds five, all stated
+in the paper: the BH step-up machine (41.1.2), the
+calibration-conditional machine (41.1.2), the decoy
+switch (41.1.3), the certificate engine (41.1.3), and
+the deflation solver (41.1.3).
+After Paper 025: 139 state machines are held (117
+stated, 22 inferred). The filing adds four: the
+Iwasawa tower (42.1.2), the descending central series
+tower (42.1.2), and the weight specialization
+(42.1.3), stated in the paper, and the two-bound
+balance (42.1.3), inferred.
 # Area: Reference material — foundations, defined words, standoff companions
 Everything in this phext rests on words, and the words
 rest here. The reference area is Chapter 1, Section 3
@@ -21199,7 +22919,7 @@ family, in plain words. It may use only everyday words,
 or terms defined in foundation scrolls it names under
 'Builds on'. The chains of 'Builds on' bottom out at
 ordinary language: number, shape, space, same and
-different, more and less, rule, choice, cost. There are 172 foundation scrolls, laid down as the work called for them: the first kit with the papers of 2026-11-06
+different, more and less, rule, choice, cost. There are 182 foundation scrolls, laid down as the work called for them: the first kit with the papers of 2026-11-06
 (1.3.2-1.3.45); the type-theory kit with Study S001
 (1.3.73-1.3.78); ownership, symbolic execution, and the
 tenant with Studies S002-S003 (1.3.81-1.3.83); the state
@@ -21364,6 +23084,28 @@ bisimulation, a pairing of states matched step for step
 (1.3.264); propositional, standing for whole claims
 (1.3.265); and reflexive, of a relation holding of each
 state with itself (1.3.266).
+Paper 024 coined three: decoy, a non-null unit placed
+to switch with the calibration draw (1.3.288); heavy
+cell, a covariate value whose weight is of the order
+of the calibration set's own scale (1.3.289); and
+deflation, the lowering of a level by the priced size
+of the failure it repairs (1.3.290). Its foundations
+are six: covariate shift (1.3.282), the likelihood
+ratio (1.3.283), the false discovery rate (1.3.284),
+positive dependence (1.3.285), Simes' test (1.3.286),
+and the Poisson limit (1.3.287). (This count also
+takes in Study S015's four foundations, 1.3.278-
+1.3.281, which the count had lagged since 2026-11-16;
+the repair is recorded at Pass #17, 1.1.5.) Paper 025 coined one: etale, the adjective of the
+covers theory of varieties (1.3.303). Its foundations
+are twelve: algebraic curve (1.3.291), rational point
+(1.3.292), the Galois group (1.3.293), Galois
+cohomology (1.3.294), p-adic numbers (1.3.295),
+abelian variety (1.3.296), the Jacobian (1.3.297), the
+pro-unipotent fundamental group (1.3.298), the Selmer
+group (1.3.299), the Iwasawa algebra (1.3.300), de
+Rham cohomology (1.3.301), and the Tate module
+(1.3.302).
 Paper 023 coined five: carrier, the one type all of a
 model's domains live in (1.3.273); sparse, of a function
 domain missing functions its full space would hold
@@ -21384,7 +23126,7 @@ and the scaling law, a fitted formula that prices a
 setting in advance (1.3.281).
 
 STANDOFF COMPANIONS (Section 3 of every chapter: 2.3.1,
-3.3.1, and so on to 40.3.1 — 39 of them). The raw
+3.3.1, and so on to 42.3.1 — 41 of them). The raw
 material stays clean: definitions are never written into
 a chapter or a concept scroll. In their place, each
 chapter carries one companion scroll listing, in reading
@@ -21962,6 +23704,70 @@ author, with author check #31; the entry stands at
 1.5.6. NEXT: the next taking-in is Paper 024, Chapter
 41; the next restructuring pass falls due at Paper 025
 or 340 canonical concepts; questions stand open at Q126.
+
+PAPER 024 — Almost Controlled (Lim), Chapter 41.
+Cluster O extended onto conformal ground: the
+weighted conformal p-value; the BH procedure, priced;
+the two certified counterexamples; the covariance
+identity; the calibration-conditional reduction;
+Simes curvature; the decoy switch; the excess bound;
+the Poisson-limit heavy-cell model; the sharpness;
+the fixed-distribution excess; the global-null price;
+the envelope; the deflated level; the rule of thumb.
+Six foundations laid down: covariate shift
+(1.3.282), the likelihood ratio (1.3.283), the false
+discovery rate (1.3.284), positive dependence
+(1.3.285), Simes' test (1.3.286), and the Poisson
+limit (1.3.287). Three words coined: decoy
+(1.3.288), heavy cell (1.3.289), deflation (1.3.290).
+No revision. Questions Q127-Q129 opened. Restructure
+Pass #17 fell due inside the taking-in (the count
+crossing 340) and stands at 1.1.5. A paper of the
+Thirst (charter rule 17), picked by the quest from
+the listings of the day, and a scored paper of the
+test of the skim fixed in advance (sample slot 5 of
+12; the share the quest picks, 3 of 5): the Novelty
+Index stands at 0.0466 and the Oracle held, about
+62% to about 62%, entered in the ledger only, under
+the test, on the grounds at 1.1.4. Its author check
+stands at 41.1.6. NEXT: the next restructuring pass
+falls due at Paper 025 or 360 canonical concepts;
+questions stand open at Q129.
+PAPER 025 — The Chabauty-Kim dimension inequality via
+noncommutative Iwasawa theory (Zehavi), Chapter 42.
+Cluster AI founded — the Chabauty-Kim country: the
+dimension inequality, proved in the projective case;
+the kernel bound on second Galois cohomology; the
+power-saving bound; the reduction of H^2 to kernels of
+Iwasawa operators; the uniform splitting; the torsion
+Iwasawa module; noncommutative Weierstrass preparation
+and the bad weights; the central reduction, faithful;
+the Hilbert-series bound; Filip's character formula;
+the multiplicity bound; the Casimir second-moment
+estimate; the growth of the graded pieces; the de Rham
+lower bound; the conjugation eigenspace; the
+ambient-group generality. Twelve foundations laid
+down: algebraic curve (1.3.291), rational point
+(1.3.292), the Galois group (1.3.293), Galois
+cohomology (1.3.294), p-adic numbers (1.3.295),
+abelian variety (1.3.296), the Jacobian (1.3.297), the
+pro-unipotent fundamental group (1.3.298), the Selmer
+group (1.3.299), the Iwasawa algebra (1.3.300), de
+Rham cohomology (1.3.301), and the Tate module
+(1.3.302). One word coined: etale (1.3.303). No
+revision. Questions Q130-Q133 opened. Restructure
+Pass #18 fell due inside the taking-in (the
+every-fifth-paper trigger) and stands at 1.1.5. A
+paper of the Thirst (charter rule 17), posted by Will
+in the MOAT chat as a bare link, and a paper of the
+test of the skim fixed in advance counted without a
+seal (sample slot 6 of 12; the share Will posts, 3 of
+4): the Novelty Index stands at 0.0446 and the Oracle
+held, about 62% to about 62%, entered in the ledger
+only, under the test, on the grounds at 1.1.4. Its
+author check stands at 42.1.6. NEXT: the next
+restructuring pass falls due at Paper 030 or 380
+canonical concepts; questions stand open at Q133.
 # Area: Researchers — the people behind the works
 Every researcher behind a work taken into this phext,
 with the work as it stands here and the standing of the
@@ -22655,8 +24461,51 @@ stands at rule-12 weight and draws no novelty for its
 subject; a balance is drawn at his next ingestion, if a
 work of his is taken in again. (Study S015.)
 
-THE COUNT: 128 named researchers and three companies — 102
-across the 23 papers and Fringe F001; 25 named for the studies
+PAPER 024 — Ryan Lim (Chapter 41), CHECKED
+2026-11-17 (record: 41.1.6). One author, of the
+Albert Einstein College of Medicine — conformal
+inference and multiple testing: here, the pricing
+of a guarantee the conformal literature had left
+open, settled from the wrong side with certified
+counterexamples. No tie to phext or to Will found —
+the paper holds no phext term in its text or its
+references, the archive holds no occurrence of his
+name, and no use of the work of Will without naming
+found.
+NOVELTY SCORE (first drawing 2026-11-17; last
+updated 2026-11-17): True 1, False 0, Unknown 18,
+Fiction 0. The opening balance was drawn first, at
+(0, 0, 0, 0): no work of his stood in the book
+before. The increments are this filing's own: True
++1 — the global-null counterexample (1.2.330),
+verified by the house's exact recomputation at
+41.1.5; Unknown +18 — the fifteen remaining new
+concepts of the filing standing attributed
+(1.2.328, 1.2.329, 1.2.331-1.2.343) and the three
+questions the filing opens (Q127, Q128, Q129).
+(Paper 024.)
+PAPER 025 — Sa'ar Zehavi (Chapter 42), CHECKED
+2026-11-17 (record: 42.1.6). One author, of the Max
+Planck Institute for Mathematics — arithmetic
+geometry: here, Kim's conjecture for projective curves
+settled through noncommutative Iwasawa theory. No tie
+to phext or to Will found — the paper holds no phext
+term in its text or its references, the web holds no
+link of his name to phext or to Will, the archive
+holds no occurrence of his name, and no use of the
+work of Will without naming found.
+NOVELTY SCORE (first drawing 2026-11-17; last
+updated 2026-11-17): True 0, False 0, Unknown 20,
+Fiction 0. The opening balance was drawn first, at
+(0, 0, 0, 0): no work of his stood in the book
+before. The increments are this filing's own: Unknown
++20 — the sixteen new concepts of the filing standing
+attributed (1.2.344-1.2.359) and the four questions
+the filing opens (Q130, Q131, Q132, Q133). (Paper
+025.)
+
+THE COUNT: 130 named researchers and three companies — 104
+across the 25 papers and Fringe F001; 25 named for the studies
 (13 of them for the studies of code: Takahashi
 among them, counted once and standing behind two
 studies; the three of Aeneas; the eight handles of
@@ -22672,9 +24521,9 @@ and Aleph One — plus Math, Inc., standing as a company and as
 the author of Study S010, its essay under no one name, with
 Galois, Oath and RAND named in it as collaborators and
 support, not as entries — plus the unnamed others of Study
-S002 and the long tail of Study S005. 31 checks stand run
+S002 and the long tail of Study S005. 33 checks stand run
 (Papers 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016,
-017, 018, 019, 020, 021, 022 and 023, Studies S004, S005, S006, S007, S008,
+017, 018, 019, 020, 021, 022, 023, 024 and 025, Studies S004, S005, S006, S007, S008,
 S009, S010, S011, S012, S013, S014 and S015, and Fringe F001),
 each clean, each recorded in its chapter.
 # How this Oracle was built — the structure, plainly (1 of 2)
@@ -37556,3 +39405,1143 @@ and its estimator run at the spot-check
 the two anchors as they resolve on arXiv — 2611.09501
 (e-means) and 2604.19761 (EvoForest), both read at their
 records 2026-11-16.
+# Paper 024 — Almost Controlled: The FDR of Benjamini-Hochberg on Weighted Conformal p-Values (Lim)
+
+Source: arXiv:2611.21509 (stat.ME, cross-listed to math.ST),
+version 1, submitted 16 November 2026. One author: Ryan Lim,
+of the Albert Einstein College of Medicine. The full text in
+its HTML form, read entire 2026-11-17: weighted conformal
+p-values generalize conformal inference to covariate shift,
+and the paper asks whether the Benjamini-Hochberg procedure
+still controls the false discovery rate on them in finite
+samples, as experiments suggested and Jin & Candès left open.
+It proves it does not — two counterexamples certified in
+exact rational arithmetic — and then prices the failure from
+both sides: of order sqrt(Bm/(nq)) with non-null units, of
+order B/n in the global null, with a computable envelope, a
+proved deflated level, and an unproved rule of thumb for
+practice. 55 pages, 3 figures, 1 table; the main text is 10
+pages and the proofs stand in appendices, with the
+certificates for the counterexamples in Appendix F.
+
+THE THIRST. A paper of the Thirst (charter rule 17), picked
+by the quest from the listings of the day — the listings for
+Tuesday 17 November 2026, cross-list entry 836 of the
+listing, from stat.ME. It is a scored paper of the test of
+the skim fixed in advance and stamped by Will (the protocol
+the quest keeps, 2026-11-14): sample slot 5 of 12 — slot 3
+was Paper 022, a paper posted by Will, counted in the test
+without a seal — of the share the quest itself picks (the
+third of its five). It was weighed blind under seal
+beforehand (quest log commit fbbc617), in the fuller form
+the protocol fixes: eight new concepts named, Index 0.0239
+with an 80% interval [0.015, 0.035], the count interval
+[5, 12], no revision foretold, the axis priced as a
+probability, 0.05, links seven inside and four across,
+questions three. The reading gave sixteen concepts
+extending a held cluster and no revision; the score,
+computed by script under the protocol, stands at 41.1.5.
+
+THE DELTA. Sixteen concepts, extending cluster O
+(1.2.328-1.2.343): the weighted conformal p-value
+(1.2.328); the Benjamini-Hochberg procedure, priced
+(1.2.329); the global-null counterexample (1.2.330); the
+strict-selection counterexample (1.2.331); the covariance
+identity (1.2.332); the calibration-conditional reduction
+(1.2.333); Simes curvature (1.2.334); the decoy switch
+(1.2.335); the excess bound (1.2.336); the Poisson-limit
+heavy-cell model (1.2.337); the sharpness (1.2.338); the
+fixed-distribution excess (1.2.339); the global-null price
+(1.2.340); the envelope (1.2.341); the deflated level
+(1.2.342); and the rule of thumb (1.2.343). Six foundations
+(1.3.282-1.3.287): covariate shift; the likelihood ratio;
+the false discovery rate; positive dependence; Simes' test;
+the Poisson limit. Three defined words (1.3.288-1.3.290):
+decoy, heavy cell, deflation. No held concept revised; no
+held scroll stated again. FIVE state machines drawn, all
+stated in the paper (41.1.2, 41.1.3, 41.1.4; the area at
+1.5.2). Three questions opened, Q127-Q129 (41.2.2). The
+author check stands at 41.1.6. Restructure Pass #17 fell
+due inside this taking-in (the 340-concept trigger) and
+stands at 1.1.5.
+# Paper 024 — the formal core: the setting, the reductions, and the failure
+
+THE SETTING (section 2 of the paper; concepts 1.2.328,
+1.2.329). Calibration data (X_i, Y_i), i = 1..n, i.i.d. from
+P; m test units from Q, with dQ/dP = w(X)/E_P w for a known
+weight function, 1 <= w <= B. Test unit j has a threshold
+c_{n+j} and is null iff Y_{n+j} <= c_{n+j}; with a score
+V(x,y) monotone in y, the weighted conformal p-value is Jin &
+Candès's equation (4) — the weighted share of calibration
+scores below the unit's threshold score, with the tie group
+(the unit's own weight plus the tied calibration weights)
+spread by a uniform U_j. The oracle p-value reads the same
+expression at the true score. Strict selection means the
+threshold is independent of the outcome given the covariate;
+the global null means every test unit is null; in outlier
+detection the inliers are the nulls.
+
+TWO EXACT FACTS (Lemmas 1-2; concepts 1.2.328, 1.2.332).
+Oracle p-values are exactly uniform, ties included. And
+given the calibration data D the test units are i.i.d., which
+yields the covariance identity: when every null is an oracle
+null, FDR - q is m times the sum over the grid of (1/k)
+Cov(A_k(D), r_k(D)), minus a non-negative term in the
+non-null units' small oracle p-values. The whole excess is a
+covariance between the null mass below a threshold and the
+chance the other units drive BH to exactly that threshold.
+
+THE REDUCTION FOR UPPER BOUNDS (Proposition 3; concept
+1.2.333). FDR <= q E[M_D], M_D the maximum over the BH grid
+of the conditional null mass below t_k divided by t_k: BH
+under conditional independence can exploit the conditional
+law's excess mass only at the grid point where the ratio is
+worst. In the global null, BH rejects something iff Simes'
+test rejects (Lemma 4), and the FDR is the calibration
+average of Simes' rejection probability.
+
+THE FAILURE (section 3; Theorem 5; concepts 1.2.330,
+1.2.331). Two configurations satisfying Jin & Candès's
+assumptions have FDR > q, certified by computer in exact
+rational arithmetic: (i) global null, n = 5, m = 2, q = 4/5,
+FDR = 393728107849/492032000000 = 0.80021 — house-verified at
+this taking-in by a third, independent recomputation from
+Appendix F's per-cell laws and the m = 2 identity (41.1.5);
+(ii) strict selection, n = 80, m = 8, q = 1/10, FDR =
+1.13585 q, with weight ratio B = 137. Their excesses come
+from the two mechanisms respectively: the curvature of
+Simes' test (second order, 1.2.334) and the decoy switch
+(first order, 1.2.335).
+
+STATE MACHINES IN THIS PART. The BH step-up machine: states
+are the counts of p-values at or below each grid point
+t_k = qk/m; the machine walks k upward and rests at the
+largest k whose count reaches k, rejecting everything at or
+below t_k. The calibration-conditional machine: states are
+the calibration draws D; at each state the test p-values are
+i.i.d. draws from the conditional law F_D, and every quantity
+BH sees is a function of that state — the machine the
+identity and the reduction both read. Both stated in the
+paper (its sections 2-3).
+# Paper 024 — the formal core: the price of the failure, from both sides
+
+WITH NON-NULL UNITS (section 4; concepts 1.2.336-1.2.339).
+Theorem 6 bounds the excess in every configuration with
+B <= n at every n: FDR/q - 1 <= kappa + 1.612 sqrt((1+kappa)
+x) + 2.7726 c x, x = B-bar m/(nq) — the worst relative error
+of a weighted empirical distribution function on the BH grid,
+the first grid points dominating, the constant 1.612 from
+one-sided Bernstein tails integrated exactly. Proposition 7
+floors the method: through the reduction, no leading constant
+below (1 - 1/m)/sqrt(2 pi) = 0.399 is possible. From below,
+in the Poisson-limit model (1.2.337), the decoy construction
+gives the matching order: Theorem 9's sqrt(kappa) expansion
+about the saturated mean; Example 10's coefficient 0.6707 at
+m = 8; Theorem 11's growth of the coefficient like sqrt(m)
+with the explicit constant c(q) = (1-q) e^{-1-2q} /
+(2 sqrt(2 pi)) = 0.054 at q = 0.1. Theorem 15 states the
+rate: the worst excess is of order sqrt(Bm/(nq)) — the upper
+side at every n, the lower side in the model in the iterated
+limit. Theorem 12 carries it to one fixed distribution: with
+the decoy threshold tuned to the population switching point,
+sqrt(n) (FDR_n - q) tends to a closed-form c_0, certified
+positive for Example 13's distributions at B = 2, 5, 10, 100
+in exact rational arithmetic; untuned, the switch freezes and
+the excess is o(n^{-1/2}). In outlier detection the
+first-order term cannot produce an excess once kappa is
+below a small threshold (Proposition 41).
+
+IN THE GLOBAL NULL (section 5; concept 1.2.340). Only the
+curvature mechanism acts. Theorem 16: configurations reach
+an excess linear in m — at least (1/2) q (1-q) (m-1)
+(1 - q + q/m) B/n to first order, the band curvatures of
+Simes' test summing to exactly m(m-1)(1-q) — and the constant
+per unit of qmB/n is at least (1/2)(1-q) as m grows.
+Theorem 17: at fixed m the excess is O(B/n), every score law,
+ties included. Unproved and named: the upper bound's
+linearity in m (Remark 18), the positive-curvature condition
+behind Proposition 19's conditional sharpness, and
+Conjecture 20 — the linear-regime constant is (1/2)(1-q).
+
+FOR PRACTICE (section 6; concepts 1.2.341-1.2.343). The
+envelope (Theorem 21) bounds the FDR by the expectation of a
+quantity computed from the data: it is 1 unless a p-value
+lies within B/(n+1) of a grid point. The deflated level
+solves q' (1 + eps(q')) <= q from Theorem 6 — at n = 10^5,
+m = 100, B = 2, q = 0.1, q' = 0.0770, where the naive
+q/(1 + eps(q)) = 0.0795 would guarantee only FDR <= 0.1028.
+The rule of thumb, 0.17 sqrt(Bm/(nq)) over 909 searched
+configurations with the FDR never above 1.52 q at any kappa,
+is about ten times less conservative and carries no
+guarantee. Where thresholds are shared across units, the
+paper directs the practitioner to weighted conformal
+selection with pruning, which controls the FDR exactly.
+
+STATE MACHINES IN THIS PART. The decoy switch: states are
+the two sides of the switch — the decoy atom counted from
+t_{k0} or from t_{k0+1} — and the calibration total K moves
+the machine between them at the switch point; at K = omega
+both sides price the FDR at exactly q (saturation), and the
+slopes differ. The certificate engine of Appendix F: states
+are the calibration count vectors; the machine enumerates
+them (ordered sequences in the independent checker, the
+multinomial sum in the engines), evaluates the false
+discovery proportion exactly in rational arithmetic on each,
+and sums — its halting state is a fraction, not an estimate.
+The deflation solver: states are candidate levels q'; the
+move recomputes eps at the candidate; the machine rests at
+the largest q' with q' (1 + eps(q')) <= q. All stated in the
+paper (its sections 3, 6 and Appendix F).
+# Paper 024 — the results map
+
+Each claim of the paper, in its standing here. Attributed to
+Paper 024 unless a check is named.
+
+- BH does not control the FDR on weighted conformal
+  p-values in finite samples (Theorem 5). [Unknown —
+  attributed; its global-null instance VERIFIED by the
+  house recomputation at 41.1.5, and filed True at 1.2.330]
+- The certified values: FDR = 393728107849/492032000000 at
+  (n=5, m=2, q=4/5) global null [True — verified]; FDR =
+  1.13585 q at (n=80, m=8, q=1/10) strict selection
+  [Unknown — attributed; certified in the paper's
+  Appendix F by engines cross-checked on smaller instances].
+- Oracle p-values are exactly uniform, ties included
+  (Lemma 1). [Unknown — attributed]
+- The covariance identity for the excess (Lemma 2), the
+  calibration-conditional reduction (Proposition 3), the
+  global-null reduction to Simes (Lemma 4). [Unknown —
+  attributed]
+- The excess bound, every configuration, B <= n, every n
+  (Theorem 6), and the reduction's constant floor
+  (Proposition 7). [Unknown — attributed]
+- The rate sqrt(Bm/(nq)) (Theorem 15): upper at every n;
+  lower in the Poisson-limit model (Theorems 9, 11), with
+  c(q) = (1-q) e^{-1-2q} / (2 sqrt(2 pi)). [Unknown —
+  attributed; the lower side's finite-n convergence is NOT
+  proved for the non-null structures, as the paper states]
+- The fixed-distribution excess of order n^{-1/2} under the
+  tuning (F2), c_0 > 0 certified at B = 2, 5, 10, 100
+  (Theorem 12, Example 13). [Unknown — attributed]
+- The global-null price: lower bound linear in m
+  (Theorem 16), upper O(B/n) at fixed m (Theorem 17).
+  [Unknown — attributed]
+- The envelope (Theorem 21); the deflated level with proved
+  finite-sample control; the naive-level pitfall
+  (q' = 0.0770 against 0.0795 guaranteeing only 0.1028).
+  [Unknown — attributed]
+- The rule of thumb 0.17 sqrt(Bm/(nq)) over 909 searched
+  configurations; FDR never above 1.52 q at any kappa.
+  [Unknown — attributed, and numerical by its author's own
+  statement: it carries no guarantee]
+- NOT proved, filed as the paper files them: the upper
+  bound's linearity in m (Remark 18); the positive-curvature
+  condition (Proposition 19's premise); Conjecture 20's
+  constant (1/2)(1-q); the convergence of the finite-n FDR
+  to its Poisson-limit value for the non-null structures;
+  an explicit n_0 for Theorem 12. These stand open at
+  41.2.2 as Q127-Q129.
+# Paper 024 — the delta: what this adds, and what was checked
+
+THE FILING. Sixteen new canonical concepts
+(1.2.328-1.2.343), extending cluster O — the paper founds no
+cluster: its centre of gravity is a priced guarantee inside
+the statistics the model already holds, and its concepts are
+filed as the cluster's conformal ground. Six foundations
+(1.3.282-1.3.287) and three defined words (1.3.288-1.3.290).
+No held canonical scroll revised; no held scroll stated
+again. The axis judgment, written here at filing, BEFORE any
+score was computed, under the axis rule of the protocol:
+NO axis — (a) the paper's centre of gravity is a field the
+model holds a slot for: statistics, judging from data
+(cluster O, founded at Paper 010 and worked by Papers 012,
+013 and 018); a false-discovery proportion is a judging
+quantity of the kind that cluster already prices, and no
+kind of quantity appears for which the model holds no slot;
+(b) no held concept is merely re-read to receive it — the
+sixteen are built from held kinds (p-value, procedure,
+bound, counterexample, limit model); (c) its bridges to held
+ground are shared machinery — calibration, thresholds,
+dependence, reweighting under shift — not analogies of
+shape. A cluster extension is not an axis, and this is not
+even a founding.
+
+THE FILING RULES AT WORK (the protocol's five). Instrument
+rule: the covariance identity (1.2.332) and the
+calibration-conditional reduction (1.2.333) each stand as
+concepts — each is used at two or more distinct points of
+the paper's argument (the identity in the mechanism split
+and the fixed-distribution theorem; the reduction in the
+bound and, by its computable cousin, the envelope). Split
+rule: the two counterexamples are filed apart (1.2.330,
+1.2.331) because the paper uses them apart — different
+regimes, different mechanisms, different sections price
+them; the rule of thumb (1.2.343) stands apart from the
+deflated level (1.2.342) because the paper uses them apart
+everywhere — one proved, one not. Grain rule: the envelope
+(1.2.341) and the global-null price (1.2.340) are
+load-bearing objects of stated results (Theorems 21, 16-17)
+and stand as concepts though the abstract subsumes them in
+one sentence. Revision rule: no revision is counted — the
+tracker held no conformal, BH or FDR claim, and cluster O's
+held judges stand beside this paper's claims, not under
+them. Folds recorded for the sensitivity line: the oracle
+p-value and exact uniformity fold into 1.2.328; saturation
+(Lemma 8) folds into the decoy switch (1.2.335);
+Proposition 7's constant floor folds into the excess bound
+(1.2.336); the m = 2 lemmas (86-87) fold into Simes
+curvature (1.2.334). The permitted coarser filing, for the
+score's sensitivity line: the counterexample pair as one
+concept, the Poisson-limit model folded into the sharpness,
+the fixed-distribution excess folded into the sharpness,
+and the envelope folded into the deflated level — twelve
+new concepts, links eleven inside and six across.
+
+LINKS. Twenty links are counted in this filing: fourteen
+inside the new ground (the p-value to the procedure that
+consumes it; the procedure to its two counterexamples; each
+counterexample to its mechanism; the mechanisms to the
+identity that separates them; the bound to the reduction it
+prices and to the sharpness that matches it; the model to
+the sharpness and the fixed-distribution excess; the
+global-null price to the curvature mechanism and to the
+certified instance that lives in its regime; the envelope
+to the reduction; the deflated level to the bound; the rule
+of thumb to the sharpness) and six across to held ground:
+the weighted p-value to cluster O's founding judge
+(1.2.110 — judging under shift by reweighting what was
+logged); the priced BH guarantee to the corrected criterion
+(1.2.114 — what a judging procedure must hold); the two
+counterexamples to the verification ground of cluster G
+(1.2.48 — a claim carried by exact computation, checked by
+an independent program); the envelope to cluster I's
+specification ground (1.2.57 — a computable certificate the
+data carry about themselves); and the decoy switch to
+cluster P's kinds of deviation (1.2.121 — a small set of
+ways to be wrong, here priced in a judge).
+
+WHAT WAS CHECKED. The global-null counterexample was
+recomputed by the house from Appendix F's per-cell laws —
+the three cells (P-mass 3/4, 3/20, 1/10; weights 1, 3, 50;
+Q-mass 15/124, 9/124, 25/31), the per-cell uniform laws, the
+21 calibration count vectors — through the paper's own
+m = 2 identity (Lemmas 86-87: FDR - q = E[b(D)^2] -
+E[a(D)^2]), in exact rational arithmetic (Python
+fractions), at this taking-in: the sum returns FDR =
+393728107849/492032000000 exactly, the total mass exactly
+1, and E a(D) = E b(D) = 2/5 exactly, as Lemma 1's exact
+uniformity requires. The claim at 1.2.330 therefore stands
+True on the basis of verification — the filing's one
+verified concept. The strict-selection instance was NOT
+recomputed (its engines' state space is the paper's own);
+it stands attributed, as filed at 1.2.331. No other claim
+of the paper was recomputed; the appendices' proofs were
+read for structure, not re-proved.
+
+STATE MACHINES. Five drawn in this chapter, all stated in
+the paper: the BH step-up machine (41.1.2), the
+calibration-conditional machine (41.1.2), the decoy switch
+(41.1.3), the certificate engine (41.1.3), and the deflation
+solver (41.1.3). Tracker totals after this filing stand at
+1.5.2.
+
+QUESTIONS. Three opened — Q127 (the constants gap), Q128
+(finite n), Q129 (the global-null constant and its
+conditions) — at 41.2.2. None closed.
+
+RESTRUCTURE. Pass #17 fell due inside this taking-in (the
+count crossing 340, 327 to 343) and stands logged at 1.1.5:
+all 343 concepts reviewed; merges none; no standing moved.
+
+NOVELTY BY AUTHOR — Ryan Lim: True +1, False +0,
+Unknown +18, Fiction +0. (True +1: the global-null
+counterexample, verified by the house's recomputation.
+Unknown +18: the fifteen remaining new concepts standing
+attributed, and the three questions this filing opens.)
+
+THE SCORE OF THE SKIM (the protocol's terms; computed by
+script — score_p024.py — from the sealed weighing at quest
+log commit fbbc617). The seal foretold eight new concepts
+with the 80% interval [5, 12], no revision, the axis as a
+probability of 0.05 against, Index 0.0239 with the interval
+[0.015, 0.035], links seven inside and four across, three
+questions. The filing gives sixteen new and no revision —
+Index 0.0466, a miss of 0.0228, above its interval; the
+count eight over the foretold, above its interval; the axis
+call lands (Brier 0.0025); links twenty against fourteen
+foretold (inside +7, across +2); questions exact. The
+sensitivity filing (twelve new, above) gives Index 0.0354,
+a miss of 0.0115, still above the interval's top by 0.0004,
+and the count at its interval's top. The nulls and the
+running tally stand on the detection list (1.1.6), computed
+by the same script. Where the estimate was wrong, in the
+skim's own terms: it priced one fold among its nine named
+candidates and the reading opened eight more — the two
+instruments, the two mechanisms, the limit model, the
+fixed-distribution theorem, the global-null price and the
+envelope each stood apart under the filing rules, the
+standing pattern of this test (the abstract shows a paper's
+results; its machinery shows only in the reading).
+# Paper 024 — author check (charter rule 15): no evidence found
+
+THE CHECK, run at intake 2026-11-17 on Ryan Lim, of the
+Albert Einstein College of Medicine (the paper's address:
+ryan.lim@einsteinmed.edu).
+
+(1) PHEXT-FRIENDLINESS. The paper's reference list was read
+entire: Bates et al., Benjamini & Hochberg, Benjamini &
+Yekutieli, Jin & Candès, Tibshirani et al., Fithian & Lei,
+Lee & Ren, and the conformal and multiple-testing literature
+— no citation of phext, of CYOA, of SBOR, or of any
+Mirrorborn or Exocortex writing. The full text was searched
+for the phext terms (phext, scroll, coordinate addressing,
+the Exocortex frame): no occurrence. Will's Twitter archive
+was searched for the author's name: no occurrence. The web
+was searched for the author in connection with phext: no
+connection found.
+
+(2) PRIOR-ART ATTRIBUTION. The paper's constructions — the
+weighted conformal p-value, the covariance identity, the
+decoy construction, the envelope — were compared against
+Will's dated prior art (phext, CYOA, SBOR, the
+Mirrorborn/Exocortex writings): no use of that art, cited or
+uncited, was found; the paper's machinery is the conformal
+literature's own, developed from Jin & Candès's stated open
+question, which it credits in its first section.
+
+VERDICT: no evidence found — stated as a finding of the
+checks actually run, listed above. The author enters the
+researchers area (1.5.6) on this standing.
+# Paper 024 — synthesis: a judge whose certificate does not hold [synthesis]
+
+[synthesis] Cluster O was founded on judges that work: a
+rule run on logged data, priced by what another rule would
+have earned, with a correction that takes out the judge's
+own echo. This paper is the cluster's first priced failure
+of a judge in daily use — and the failure's shape is the
+one the cluster's own founding should have predicted. The
+own-observation effect (1.2.112) bends a grade because each
+point's echo stands in its own prediction; here the bend
+runs through the calibration set itself: every p-value is
+read off the same draw D, so the judge's inputs move
+together, and the guarantee — proved where inputs are
+independent or positively dependent — fails by exactly the
+covariance the shared draw creates. The identity at
+1.2.332 is the own-observation effect grown up: not a bias
+to subtract but a covariance to price.
+
+[synthesis] The two mechanisms are the book's two kinds of
+second sight. Curvature (1.2.334) is a failure with no
+villain: symmetric fluctuations, a bent function, an excess
+nobody chose. The decoy switch (1.2.335) is a failure with
+an author: a block placed where the fluctuation is selected
+for. That the same broken guarantee exhibits both — the
+honest bend at second order, the engineered kink at first —
+is why the paper prices them apart, and why this book files
+them apart.
+
+[synthesis] For the house itself, one line is worth
+carrying: the paper's practical wisdom is that a guarantee
+is a claim about a procedure's inputs, not its intentions —
+BH did not change when the weights arrived; its premises
+did. The tracker prices its own skim the same way: the
+seal's premises are title and abstract, and its misses
+(41.1.5) are the covariance between what an abstract shows
+and what a reading finds, collected one paper at a time.
+# Paper 024 — Open questions Q127-Q129
+
+Q127 — the constants. The proved upper constant of the
+excess bound (1.2.336) is 1.612; the best lower constant
+found (1.2.338) is c(q), 0.054 at q = 0.1 — a factor of
+about thirty apart. Of that factor, at most about 3.1 is
+lost inside the calibration-conditional reduction (about
+1.64 in the Chernoff tails, at most about 1.9 in the union
+over grid points), and the reduction's own constant is
+numerically at least about 9.6 times c(q). So either the
+true constant stands well above c(q), or closing the gap
+needs an upper bound that does not pass through E[M_D]
+(1.2.333). Which? (Opened by Paper 024, section 7.)
+
+Q128 — finite n. The lower half of the rate lives in the
+Poisson-limit model (1.2.337); its convergence from the
+finite-n FDR is proved only for the global null (Lemma 44
+of the paper), not for the non-null structures, and the
+fixed-distribution theorem (1.2.339) gives no explicit n_0.
+An explicit n_0, and the convergence with a rate, would
+carry the rate to large finite n at fixed kappa, as Lemma
+44 does in the global null. (Opened by Paper 024,
+section 7.)
+
+Q129 — the global-null constant. Three pieces stand open
+together: the positive-curvature condition of Appendix D
+(verified in exact arithmetic for many (m, q), not proved),
+on which Proposition 19's conditional sharpness rests;
+Conjecture 20, that the linear-regime constant of the
+global-null price (1.2.340) equals (1/2)(1-q) over all
+configurations; and an m-free bound on beta_m(rho), which
+would make Theorem 17's upper bound linear in m and meet
+Theorem 16's lower bound in order. (Opened by Paper 024,
+sections 5 and 7.)
+# Standoff references — Paper 024 stands on these foundations
+
+Read these foundation scrolls (Ch.1 §3) to follow the
+claims of this chapter with no prior knowledge, in this
+order: covariate shift (1.3.282); the likelihood ratio
+(1.3.283); the false discovery rate (1.3.284); positive
+dependence (1.3.285); Simes' test (1.3.286); the Poisson
+limit (1.3.287). Defined words coined by this chapter:
+decoy (1.3.288), heavy cell (1.3.289), deflation (1.3.290).
+Held ground the chapter prices against: cluster O's
+founding judge (1.2.110) and its corrected criterion
+(1.2.114), read here as ground.
+# Paper 025 — The Chabauty-Kim dimension inequality via
+noncommutative Iwasawa theory (Zehavi)
+
+Source: arXiv:2611.18218 [math.NT], submitted 13 Nov
+2026; read in full (the HTML form) 2026-11-17. One
+author: Sa'ar Zehavi, of the Max Planck Institute for
+Mathematics. Posted by Will in the MOAT chat as a bare
+link, 2026-11-17, and taken in as a paper on the
+standing direction of that chat.
+
+THE TEST. The paper counts in the test of the skim as a
+paper posted by Will — the third of the four of that
+kind, the sixth of the twelve of the test — and no seal
+of the skim stands for it: the paper was posted into
+the conversation and read there, and the delta stands
+on the reading alone, on the precedent of Paper 022
+(the delta speaks once, at 42.1.5). The Index the
+filing gives is entered in the ledger as every paper's
+is.
+
+THE PAPER. Kim's conjecture for curves, open since
+2009 outside special cases, is proved for smooth
+projective geometrically connected curves over Q of
+genus at least 2: the dimension inequality holds for
+all sufficiently large n, at any odd prime of good
+reduction, with no condition on the Jacobian's
+endomorphism ring or on the Galois image, and neither
+of the conjectures Kim's earlier deduction assumed.
+The engine is a bound on second Galois cohomology,
+proved for every representation of the ambient
+generalized symplectic group at once, through
+noncommutative Iwasawa theory. The paper carries an AI
+declaration (its section 1, after the
+acknowledgements), recorded here as part of the
+record: the general strategy is the author's, or
+perhaps Coates and Kim's; the reduction of H^2
+dimensions to kernels of Iwasawa operators was carried
+out independently by the author about a year before
+this draft; the development of the nontrivial kernel
+bound and its application to the power-saving bound
+was carried out through a lengthy back-and-forth
+interaction with GPT 6 Astra (OpenAI, Ultra mode),
+after which a dense shorter draft was generated with
+Astra's help; and this draft was later written by the
+author without any use of LLMs, including without
+consulting the older version, except perhaps for
+discussions of standard ambient theory and the
+gathering of references. The tracker files the paper's
+claims as the author's, attributed, as it files every
+claim.
+
+THE DELTA. Sixteen concepts, founding cluster AI
+(1.2.344-1.2.359): the dimension inequality, proved in
+the projective case (1.2.344); the kernel bound on
+second Galois cohomology (1.2.345); the power-saving
+bound (1.2.346); the reduction of H^2 to kernels of
+Iwasawa operators (1.2.347); the uniform splitting
+(1.2.348); the torsion Iwasawa module (1.2.349);
+noncommutative Weierstrass preparation and the bad
+weights (1.2.350); the central reduction, faithful
+(1.2.351); the Hilbert-series bound (1.2.352); Filip's
+character formula (1.2.353); the multiplicity bound
+(1.2.354); the Casimir second-moment estimate
+(1.2.355); the growth of the graded pieces (1.2.356);
+the de Rham lower bound (1.2.357); the conjugation
+eigenspace (1.2.358); the ambient-group generality
+(1.2.359). Twelve foundations (1.3.291-1.3.302) and
+one defined word coined (1.3.303). No held concept
+revised; no held scroll stated again. FOUR state
+machines drawn — three stated in the paper, one
+inferred by the house (42.1.2, 42.1.3; the area at
+1.5.2). Four questions opened, Q130-Q133 (42.2.2).
+The author check stands at 42.1.6.
+# Paper 025 — the formal core: the setting, the tower,
+and the reduction to kernels
+
+THE SETTING (section 1 of the paper; concepts 1.2.344,
+1.2.359). C over Q is smooth, projective, geometrically
+connected, of genus g at least 2, with a rational
+basepoint b; p is an odd prime of good reduction; Sigma
+contains p, infinity, and the primes of bad reduction.
+Kim's diagram sends the S-integral points of the model
+of C into the p-adic points, and below, the global
+Selmer scheme H_f^1(G_{Q,Sigma}, U_n^et) by localization
+at p into H_f^1(G_{Q_p}, U_n^et), which the Bloch-Kato
+logarithm identifies with U_n^dR / F^0. The dimension
+condition (2) is dim H_f^1 < dim U_n^dR / F^0. When it
+holds, a nonzero algebraic function on U_n^dR / F^0
+vanishing on the image of the Selmer side pulls back by
+Kim's period map to a Coleman function on each residue
+disk, whose zeros are finite — Kim's finiteness
+argument, reproduced in the paper from Kim's section 3.
+The same section gives the reduction the whole paper
+serves: with L = gr Lie(U^et), the Selmer side is at
+most the sum over k up to n of dim H^1(G_{Q,Sigma}, L_k)
+(the closed embedding of H_f^1 into H^1 and induction
+along the descending central series), and the Euler
+characteristic formula (Milne, cited) prices each
+dim H^1(L_k) as dim H^2(L_k) + dim L_k^-, the H^0
+vanishing by purity of weight. Everything therefore
+rests on a power-saving bound for dim H^2(G_{Q,Sigma},
+L_n), and on the two side estimates (1.2.357, 1.2.358).
+
+THE AMBIENT SETTING (sections 1-2; concepts 1.2.345,
+1.2.348). For the H^2 bound the paper works with a
+principally polarized abelian variety A over Q of
+dimension g, good reduction outside S (in the
+application, the Jacobian of C). Its Tate module
+V = T_p A tensored with Q_p carries the Weil pairing,
+so the Galois representation factors through
+GSp(V, omega) = GSp_{2g}(Q_p). The irreducible
+representations V_{lambda,s} of GSp_{2g} — lambda a
+highest weight for Sp_{2g}, s the central weight — are
+the coefficients of Theorem 1.1. The tower
+K_a = Q(A[p^a]), K_infinity the union, F = K_c for the
+fixed large c of the uniform splitting (1.2.348), has
+Gamma = Gal(K_infinity / F) = Z_c x H_c, and over it
+the Iwasawa algebras Omega = Z_p[[Gamma]] and
+Lambda = Omega[1/p], noetherian domains (Lim, cited).
+
+THE MODULE AND THE REDUCTION (section 2; concepts
+1.2.349, 1.2.347). The Iwasawa cohomology module
+cal X = H^2_Iw(K_infinity / F; Z_p(1)) is finitely
+generated (Proposition 2.14) and torsion (Proposition
+2.17, by Lim's criterion and the Brauer-group
+vanishing). Its rational form X, through the duality
+of Theorem 2.18 and the Hochschild-Serre step of
+Corollary 2.19, turns every dim H^2(G_{Q,Sigma}, W)
+into a space of Gamma-maps out of X, and the choice of
+generators with annihilators delta_i embeds that space
+into the sum of the kernels ker delta_i on W (display
+(13) of the paper). The trivial bound of Theorem 1.1 —
+dim H^2 at most a constant times d_lambda, for every
+weight — is Proposition 2.20, read off the embedding.
+
+STATE MACHINES IN THIS PART. The Iwasawa tower: states
+are the finite layers E between F and K_infinity; the
+moves are corestriction maps from each layer's H^2 to
+the layer below; the machine's rest state is the
+inverse limit, the module cal X, in which every layer's
+cohomology stands at once. Stated in the paper (its
+section 2.2, the definition of Iwasawa cohomology).
+The descending central series tower: states are the
+truncations U_n = U / U^{n+1} of the pro-unipotent
+fundamental group, for U^et and U^dR alike; the moves
+are the quotient maps U_{n+1} to U_n and the maps they
+induce on Selmer schemes and de Rham quotients; the
+dimension inequality is a property the machine acquires
+at some state n and keeps at every later state. Gap:
+the paper gives no effective state at which the
+acquisition happens — no n_0 is computed, and the gap
+is filed as Q130. Stated in the paper (its Definition
+1.2 and section 1.1).
+# Paper 025 — the formal core: the kernel bound, the
+character theory, and the assembly
+
+THE NONTRIVIAL BOUND (sections 2.3 and 3; concepts
+1.2.350, 1.2.351, 1.2.352). Theorem 3.1 prices
+ker eta on V_{lambda,s} at (1 + ||lambda||)^{D-g-1} /
+d_lambda, for eta prepared by the noncommutative
+Weierstrass preparation (1.2.350) so that eta(t) is
+nonzero at every specialization; off the finite
+bad-weight set E, ker delta = ker eta. The proof runs
+in five steps (the paper's section 1.2.1): (I) the
+preparation itself; (II) the Lazard comparison and the
+central reduction, injective by affinoid Verma
+faithfulness, so eta_{lambda,s} is nonzero (1.2.351);
+(III) clearing p-powers, the reduction of theta lies in
+filtration degree at most d, independent of (lambda, s)
+(Lemma 3.28); (IV) Jacobson density turns the kernel's
+dimension, times d_lambda, into a difference of
+filtration pieces of R-bar_lambda (Proposition 3.29);
+(V) the Hilbert series of the graded ring, of Krull
+dimension D - g, prices each piece at
+(1 + ||lambda||)^{D-g-1} (1.2.352). Section 3.3
+assembles Theorem 1.1: E the union of the E(delta_i),
+finite; for s outside E both bounds hold.
+
+THE CHARACTER THEORY (section 4.1; concepts 1.2.353,
+1.2.354, 1.2.355, 1.2.356). L is the free Lie algebra
+on V modulo the one quadratic relation dual to the
+cup product (Corwin-Zehavi, cited), so L_n is pure of
+weight n and splits into the V_{lambda,n} with
+multiplicities m_n(lambda). Filip's character formula
+(1.2.353) gives chi_n on USp(2g) from chi_V; from it,
+the multiplicity bound (1.2.354) by orthogonality and
+the first-moment estimate, the Casimir second moment
+(1.2.355), and the growth b_n asymptotic to alpha^n / n
+with alpha = g + sqrt(g^2 - 1) (1.2.356). The proof of
+Theorem 1.4 splits the sum over lambda at
+||lambda|| = R sqrt(n): below the split, Theorem 1.1's
+nontrivial bound with the multiplicities costs
+b_n R^{D-1} / sqrt(n); above it, the trivial bound with
+Rankin's trick on the second moment costs b_n R^{-2};
+at R = n^{1/(2(D+1))} the two meet at
+b_n n^{-1/(D+1)}.
+
+THE ASSEMBLY (section 4.2; concepts 1.2.357, 1.2.358,
+1.2.344). The de Rham side is at least the sum of the
+b_k less g^n (1.2.357); the Selmer side, by the Euler
+characteristic formula, is the sum of dim H^2(L_k) plus
+the sum of dim L_k^-, the second of these the half-sum
+(1/2) sum b_k to main order (1.2.358). Since
+alpha > g, the de Rham side's main term is the full
+sum; the Selmer side's is the half-sum plus a term the
+power saving makes negligible; so the inequality (2)
+holds for all large n — Corollary 1.5, Kim's conjecture
+in the projective case, and with it the finiteness of
+the Chabauty-Kim loci and Mordell over Q through
+Chabauty-Kim.
+
+STATE MACHINES IN THIS PART. The weight specialization:
+states are the weights s in Z; at each state the central
+coordinate specializes to t_s = (1 + p^c)^s - 1 and the
+operator eta acts as eta(t_s) in Z_p[[H_c]]; the finite
+set E of bad weights is the set of states at which
+ker delta and ker eta part company, and outside E the
+machine's reading is the kernel bound. Stated in the
+paper (its Corollary 2.22 and section 3.3). The
+two-bound balance: states are the split radii R; below
+R sqrt(n) the nontrivial bound prices the pieces, above
+it the trivial bound and the second moment price the
+tail; the machine rests where the two costs meet, at
+R = n^{1/(2(D+1))}, and the resting cost is the
+exponent of Theorem 1.4. The paper runs the balance
+twice (its sections 1.2.2 and 4.1) without drawing it
+as a machine; the drawing is the house's. [inferred]
+# Paper 025 — the results map
+
+Each claim of the paper, in its standing here. Attributed
+to Paper 025 unless a check is named. No claim of this
+paper was recomputed or re-proved by the house; the paper
+contains no computation to recompute (42.1.5).
+
+- Kim's conjecture holds in the smooth projective
+  geometrically connected case over Q, genus at least 2,
+  rational basepoint, any odd prime of good reduction:
+  the dimension inequality for all sufficiently large n;
+  the Chabauty-Kim loci finite at all sufficiently large
+  levels; Mordell over Q recovered through Chabauty-Kim
+  (Corollary 1.5; the abstract). [Unknown — attributed]
+- The kernel bound: dim H^2(G_{Q,Sigma}, V_{lambda,s})
+  at most the smaller of d_lambda and
+  (1 + ||lambda||)^{D-g-1} / d_lambda, up to a constant,
+  for s outside a finite set E; the d_lambda bound for
+  all s (Theorem 1.1). [Unknown — attributed]
+- The power saving: dim H^2(G_{Q,Sigma}, L_n) <
+  A b_n n^{-1/(D+1)} for all n, A = A(p, S, C)
+  (Theorem 1.4, at the exponent of its section 1
+  statement; see Q133). [Unknown — attributed]
+- The duality H^2(G_{F,Sigma_F}; W)^vee =
+  Hom_Gamma(X, W^vee(1)) and the passage from Q to F
+  (Theorem 2.18, Corollary 2.19). [Unknown — attributed]
+- The uniform splitting Gamma(c) = Z_c x H_c for large
+  c (Theorem 2.4). [Unknown — attributed]
+- The Iwasawa module cal X finitely generated and
+  torsion (Propositions 2.14, 2.17). [Unknown —
+  attributed]
+- Noncommutative Weierstrass preparation, and
+  ker delta = ker eta off the finite bad-weight set
+  (Proposition 2.21, Corollary 2.22). [Unknown —
+  attributed]
+- The central reduction map pi_mu injective; a nonzero
+  Iwasawa operator stays nonzero after central reduction
+  (Corollary 3.26, on Theorem 3.24). [Unknown —
+  attributed]
+- The Hilbert-series bound dim gr_m R-bar_lambda of
+  order m^{D-g-1}, independent of lambda (Propositions
+  3.33, 3.34). [Unknown — attributed]
+- Filip's character formula for chi_n (Theorem 4.7, the
+  paper's citation of Filip); the multiplicity bound
+  m_n(lambda) of order d_lambda b_n n^{-D/2}
+  (Proposition 4.9); the Casimir second moment
+  (Proposition 4.14). [Unknown — attributed]
+- b_n asymptotic to alpha^n / n, alpha = g + sqrt(g^2-1)
+  (Proposition 4.5). [Unknown — attributed]
+- The de Rham lower bound (Proposition 4.15) and the
+  conjugation eigenspace dim L_k^- = b_k/2 to main order
+  (Proposition 4.16, filed by its author as redundant for
+  the conjecture). [Unknown — attributed]
+- The generality: no hypothesis on the Jacobian's
+  geometric endomorphism ring or on the Tate-module
+  Galois image; no Bloch-Kato or Fontaine-Mazur
+  assumption. [Unknown — attributed; the route is
+  1.2.359]
+- NOT proved, filed as the paper files them: the
+  stronger conjecture that the Chabauty-Kim locus
+  eventually equals the integral points (Balakrishnan-
+  Dan-Cohen-Kim-Wewers, cited in the paper's footnote
+  3); an effective n_0, an explicit E, or any effective
+  constant; the case p = 2; the quasi-projective case of
+  Kim's conjecture. These stand open at 42.2.2 as
+  Q130-Q132, with the paper's own textual discrepancy
+  at Q133.
+# Paper 025 — the delta: what this adds, and what was
+checked
+
+THE FILING. Sixteen new canonical concepts
+(1.2.344-1.2.359), founding cluster AI — the paper's
+centre of gravity is arithmetic geometry, ground the
+model has never held: no held cluster holds a curve, a
+Galois group, or a cohomology bound, and the sixteen
+are filed together as a new country, on the precedent
+of the annexes (clusters E and N) and of cluster AA.
+Twelve foundations (1.3.291-1.3.302) and one defined
+word (1.3.303). No held canonical scroll revised; no
+held scroll stated again. The axis judgment, written
+here at filing, under the axis rule of the protocol:
+NO axis — (a) is recorded against the judgment
+plainly: the paper's centre of gravity IS a field for
+which the model holds no slot, and that ground alone
+would argue an axis. The second and third grounds
+decide it the other way. (b) No held concept is merely
+re-read to receive the paper, and none must be
+re-measured: the quantities the inequality compares
+are dimensions, bounds, kernels and growth rates of
+held kinds of space, and the new concepts are built
+from those kinds on new objects. (c) Its bridges to
+held ground are analogies of shape, not shared
+machinery — the symplectic form beside cluster E's
+area rule, the fundamental group in another category,
+dimension beside cluster O's judging quantities — and
+nothing the book already runs is an input to this
+proof, nor does this proof re-price any held claim. A
+cluster founding is not an axis, and a new territory
+slotted by a founding is the model's ordinary way of
+growing; if a later paper makes held quantities be
+re-measured in arithmetic terms, the axis question
+reopens at that filing.
+
+THE FILING RULES AT WORK (the protocol's five).
+Instrument rule: Filip's character formula (1.2.353)
+and the reduction to kernels (1.2.347) each stand as
+concepts — the formula is used at two distinct points
+of the argument (the multiplicity bound and the
+conjugation eigenspace), and the reduction at every
+point after its section. Split rule: the two side
+estimates are filed apart (1.2.357, 1.2.358) because
+the paper prices them apart — different sides of the
+inequality, different inputs, different sections;
+Theorem 1.1 and Theorem 1.4 are filed apart (1.2.345,
+1.2.346) because they price different objects — a
+representation of GSp against a graded piece of a Lie
+algebra — by different machinery. Grain rule: the
+uniform splitting (1.2.348) and the conjugation
+eigenspace (1.2.358) stand as concepts though the
+abstract subsumes both: each is a stated result the
+proof loads on. Revision rule: no revision is counted
+— the tracker held no Chabauty-Kim, Iwasawa or Mordell
+claim, and the held judges and geometers stand beside
+this paper's claims, not under them. Folds recorded:
+the Hochschild-Serre step of Corollary 2.19 folds into
+the reduction (1.2.347); the trivial bound of
+Proposition 2.20 folds into Theorem 1.1 (1.2.345); the
+finite generation and torsionness of Propositions
+2.14 and 2.17, with Lim's criterion, fold into the
+module (1.2.349); Lemma 3.28's uniform degree, the
+Jacobson density step and Claim 3.32 fold into the
+Hilbert-series bound (1.2.352); the first-moment
+estimate folds into the multiplicity bound (1.2.354);
+the Casimir eigenvalue formula folds into the second
+moment (1.2.355); the locus finiteness and the Mordell
+recovery fold into the headline concept (1.2.344).
+
+LINKS. Twenty links are counted in this filing:
+seventeen inside the new ground (the inequality to the
+kernel bound and to the power saving; the inequality
+to each side estimate; the bound to the reduction and
+to the Hilbert series; the reduction to the module;
+the splitting to the module and to the preparation's
+specialization; the preparation to the central
+reduction; the central reduction to the Hilbert
+series; the power saving to the multiplicity bound and
+to the second moment; the character formula to the
+multiplicity bound and to the eigenspace; the growth
+to the de Rham bound; the generality to the kernel
+bound, whose route it is) and three across to held
+ground, each priced as shape or kind, none as shared
+machinery: the ambient symplectic group to cluster E's
+symplectic ground (the area rule's group, with a
+similitude factor; the annex's topology is not used);
+the pro-unipotent fundamental group to the held
+fundamental group (foundation 1.3.12 — the same name in
+another category, its loops replaced by Galois
+symmetries); and the dimension inequality to cluster
+O's judging quantities (two dimensions compared, the
+verdict finiteness — an exact comparison, not an
+estimate, and no held judge revised by it).
+
+WHAT WAS CHECKED. Nothing of this paper was recomputed
+or re-proved by the house, and the delta says so
+plainly: the paper contains no computation to recompute
+— no worked example, no computed case, no number its
+claims rest on — and the house does not hold the
+machinery to re-prove a Chabauty-Kim argument. Its
+proofs were read for structure, in full; every claim
+stands attributed to the paper, as filed. Where the
+proof's load-bearing steps rest on cited prior work,
+the filing names it at the step: the whole Chabauty-Kim
+setup, the reduction to H^2, and the F^0 bound are
+Kim's [20]; the strategy of the kernel bound is
+Coates-Kim's [9]; the Iwasawa formalism and the torsion
+criterion are Lim's [24] and [25]; the Harish-Chandra
+computation, the Lazard comparison and the Verma
+faithfulness are Ardakov-Wadsley's [1] and [3]; the
+two Galois-image facts are Bogomolov's [7] and Pink's
+[32]; the character formula is Filip's [15]; the
+quadratic presentation of L and Olsson's comparison
+come through the author's own Corwin-Zehavi [11]; the
+Euler characteristic formula and the finiteness of H^2
+with finite coefficients are Milne's. The reading did
+check the paper against itself, and found one
+discrepancy: Theorem 1.4's exponent is printed
+-1/(2(D+1)) at its restatement in section 4.1, against
+-1/(D+1) in the statement of section 1, in the summary
+of section 1.2.2, and in both computations of the
+balance; the filing takes the proved exponent and the
+discrepancy stands open as Q133. A smaller slip, the
+error term of Proposition 4.16 written in the proof's
+variable, is noted inside its concept (1.2.358); its
+content is unambiguous and no question is opened on it.
+
+STATE MACHINES. Four drawn in this chapter: the
+Iwasawa tower (42.1.2), the descending central series
+tower (42.1.2), and the weight specialization (42.1.3),
+all stated in the paper; and the two-bound balance
+(42.1.3), inferred — the paper runs the balance twice
+without drawing it as a machine. Tracker totals after
+this filing stand at 1.5.2.
+
+QUESTIONS. Four opened — Q130 (effectivity: an
+explicit bad-weight set and an effective n_0), Q131
+(the prime 2), Q132 (the quasi-projective case of
+Kim's conjecture), Q133 (the exponent discrepancy) —
+at 42.2.2. None closed.
+
+RESTRUCTURE. Pass #18 fell due inside this taking-in
+(the every-fifth-paper trigger; the count stands at
+359, one short of the 360 line) and stands logged at
+1.1.5: all 359 concepts reviewed; merges weighed and
+not made, with reasons; no standing moved. The areas
+audit of rule 16, at this filing: 359 canonical
+concepts; 303 scrolls in the foundations and defined
+words layer; 139 state machines held (117 stated, 22
+inferred); 41 standoff companions; 33 author checks
+stand run; 130 named researchers; questions stand open
+at Q133.
+
+ON THE SEAL. The paper was posted by Will into the
+conversation and read there before the filing was
+directed, so no seal of the skim stands for this
+paper; the delta stands on the reading alone. The
+paper counts in the test as a paper posted by Will —
+the third of the four of that kind, the sixth of the
+twelve — and the Index below is computed from the
+filed delta as for every paper.
+
+THE INDEX, IN THE LEDGER. Sixteen new concepts, no
+revisions, over 343 + 16 standing concepts: 16/359 =
+0.0446. Under the revised measure of 2026-11-14 no
+gate moves: TRUE unexercised (nothing of the paper was
+verified by the house), UNKNOWN exercised on new
+ground, FALSE unexercised (Kim's conjecture was never
+held by this book, so its proof files no False),
+FICTION untouched. The ledger holds at about 62%
+(range 55-70) after Paper 025, entered in the ledger
+only, and not as evidence for anything.
+
+NOVELTY BY AUTHOR — Sa'ar Zehavi: True +0, False +0,
+Unknown +20, Fiction +0. (Unknown +20: the sixteen new
+concepts standing attributed, and the four questions
+this filing opens.)
+# Paper 025 — author check (charter rule 15): no phext
+tie and no use without naming found, by checks Emise
+ran at intake
+
+THE QUESTION. Two things are asked of the author of a
+work taken in: whether he stands in any recorded tie
+to phext or to Will's work, and whether the work uses
+Will's earlier published work without naming it. The
+check on Sa'ar Zehavi was run in three legs on
+2026-11-17. It is the thirty-third check that stands
+run.
+
+LEG ONE — the work itself. The full text of
+arXiv:2611.18218 was searched for the signature terms:
+phext, scroll, Exocortex, Mirrorborn, coordinate
+addressing, Bickford, CYOA, SBOR. No occurrence of any
+of them. The reference list (35 entries) was read in
+full: it is the Chabauty-Kim and Iwasawa literature —
+Kim, Coates-Kim, Corwin-Dan-Cohen, Balakrishnan and
+co-authors, Lim, Ardakov-Wadsley, Milne, Faltings,
+Filip — and holds no work of Will's.
+
+LEG TWO — the web. Eleven searches were run on the
+author's name against the adjacency terms (phext,
+Exocortex, Mirrorborn, wbic16, Will Bickford, SBOR,
+CYOA, phext.io) and on the paper's number. No result
+connects the author to phext, to Will Bickford, to the
+Exocortex, to Mirrorborn, to CYOA, or to SBOR. The
+searches do settle his identity, and it is recorded
+because the check asked: the author of this paper is
+the Chabauty-Kim number theorist of the same name —
+doctorate at Tel Aviv University (2018-2022) under
+Zeev Rudnick; postdoctoral fellow at Ben-Gurion
+University, in Ishai Dan-Cohen's group (Israel Science
+Foundation grant 621/21, Dan-Cohen principal
+investigator — Dan-Cohen is a cited predecessor and
+the author's grant principal investigator, not a
+co-author); then the Weizmann Institute; the
+affiliation on this paper is the Max Planck Institute
+for Mathematics. His earlier Chabauty-Kim works stand
+in the paper's own references: with Corwin, the
+unipotent Chabauty-Kim-Kantor method (2024), and with
+Jarossay, Lilienfeldt, Saettone and Weiss, the
+polylogarithmic motivic Chabauty-Kim paper (2024). One
+electronic address, saarzehavi@gmail.com, runs through
+the record from 2017 to this paper.
+
+LEG THREE — the archive. Will's Twitter archive was
+searched entire (all eleven files): Zehavi occurs zero
+times in every file, in every variant tried. Saar as a
+standing word occurs zero times in the tweets; the
+character string occurs only inside media addresses, in
+one doubled handle (x.com/saarsaar) with nothing
+connecting it to the author, and as a single bare word
+in one group message of 2025 with no surname and no
+identifying context. No occurrence of the author is
+found.
+
+THE VERDICT. No evidence found — of any tie to phext
+or to Will, and of any use of Will's work, named or
+unnamed. The finding is a null finding and is recorded
+as one: it accuses the author of nothing, and it
+certifies nothing beyond the reach of the three legs
+named above.
+# Paper 025 — synthesis: the error term, priced in
+another country [synthesis]
+
+[synthesis] The book's papers keep arriving at the same
+shape: a main term somebody wants, and an error term
+nobody has priced. Cluster O's judges were priced by
+their corrections; Paper 024 priced a guarantee by the
+covariance its own inputs created. This paper is the
+shape at its largest scale. Kim's inequality compares
+two dimensions and the whole difficulty lives in one
+summand — dim H^2, the obstruction term, the part of
+the Selmer side that is not accounted for by points or
+by local conditions. Zehavi's move is to refuse to
+bound it where it lives. The H^2 is dual to maps out of
+one Iwasawa module; the maps are kernels of operators;
+the operators live, after two changes of ring, in an
+enveloping algebra whose graded growth is the geometry
+of a nilpotent cone. The error term is priced in a
+country three translations away from the curve, and
+the price is exact enough — a power saving — to settle
+a fifteen-year-old conjecture.
+
+[synthesis] The generality is the same lesson read from
+the other side. Earlier proofs of cases of the
+conjecture worked by knowing the Jacobian: complex
+multiplication, large Galois image, an endomorphism
+ring one could compute with. This proof knows two
+facts about the Galois image — it is open in its own
+closure, and the closure's Lie algebra holds the
+scalars — and after its second section it never looks
+at the curve again. What the book files as 1.2.359 is
+worth carrying as a method, beyond this country: a
+theorem about every object of a kind is often cheaper
+than a theorem about one object whose properties must
+first be established. Price the ambient structure, and
+the cases take care of themselves.
+
+[synthesis] For the house, one caution stands beside
+the admiration. The tracker files this paper's claims
+attributed, and the delta says plainly that nothing
+was re-proved: the book now holds a settled conjecture
+of arithmetic geometry entirely on the say-so of a
+single paper, itself resting on a shelf of cited work,
+one part of its development — by the author's own
+declaration, recorded at 42.1.1 — carried out in
+back-and-forth with a language model and then rewritten
+by the author alone. That is the ordinary condition of
+a literature-facing tracker, not a scandal; but the
+registry's honesty is that the standing says attributed
+and means it. If the proof is ever found wanting, the
+sixteen concepts of cluster AI move together, and the
+receipt that moves them will be written at 1.4.6 like
+any other.
+# Paper 025 — Open questions Q130-Q133
+
+Q130 — effectivity. Theorem 1.1's finite bad-weight set
+E is the union of the root sets of the annihilators'
+polynomials, and neither E, nor any implied constant,
+nor an n_0 from which Corollary 1.5's inequality holds
+is computed anywhere in the paper. An effective form —
+E listed, the constant of Theorem 1.4 explicit, an
+n_0(p, S, C) named — would turn the finiteness of the
+Chabauty-Kim loci into a bound a computation could
+spend. (Opened by Paper 025, the statements of
+Theorems 1.1 and 1.4 and of Corollary 1.5.)
+
+Q131 — the prime 2. The proof uses that p is odd at
+four named points: the unique square roots of the
+uniform splitting (Theorem 2.4), the p-cohomological
+dimension step of Proposition 2.14, the archimedean
+step of Proposition 2.17 (the Brauer group of R is
+Z/2), and the very-goodness of odd primes for type
+C_g behind Theorem 3.11. Whether the dimension
+inequality holds at p = 2, and by what route, stands
+open. (Opened by Paper 025, sections 2 and 3.)
+
+Q132 — the quasi-projective case. Kim's Conjecture 1.3
+as quoted in the paper is stated for smooth
+quasi-projective curves; this paper settles the smooth
+projective geometrically connected case. The punctured
+case stands settled only in the special families the
+paper cites (the thrice-punctured line, solvable covers
+of P^1, the CM families) and open in general.
+(Opened by Paper 025, its section 1.1.)
+
+Q133 — the exponent in the restatement of Theorem 1.4.
+At its restatement inside section 4.1, the paper prints
+the power saving with the exponent -1/(2(D+1)); the
+statement in section 1, the summary in section 1.2.2,
+and both computations of the balance (sections 1.2.2
+and 4.1) give -1/(D+1). The filing takes the proved
+exponent (1.2.346). Whether the restatement is a
+misprint, or a weaker bound the author intended at
+that point, stands open until the author or a later
+version settles it. (Opened by Paper 025, found by the
+reading at this taking-in.)
+# Standoff references — Paper 025 stands on these
+foundations
+
+Read these foundation scrolls (Ch.1 S3) to follow the
+claims of this chapter with no prior knowledge, in this
+order: algebraic curve (1.3.291); rational point
+(1.3.292); genus (1.3.10); variety (1.3.237); dimension
+(1.3.9); Galois group (1.3.293); Galois cohomology
+(1.3.294); p-adic numbers (1.3.295); abelian variety
+(1.3.296); Jacobian (1.3.297); fundamental group
+(1.3.12); pro-unipotent fundamental group (1.3.298);
+Selmer group (1.3.299); Iwasawa algebra (1.3.300);
+de Rham cohomology (1.3.301); Tate module (1.3.302);
+symplectic (1.3.22); Euler characteristic (1.3.15).
+Defined word coined by this chapter: etale (1.3.303).
+Held ground the chapter prices against: cluster E's
+symplectic ground (foundation 1.3.22) and the held
+fundamental group (foundation 1.3.12), read here as
+ground, each priced as shape at 42.1.5.
