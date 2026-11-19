@@ -22,7 +22,7 @@ shelf 6 (Film): mythic-film-production
 shelf 7 (Memory & record): phext-memory-publishing, nightly-self-revision, safe-space-protocol, artifact-phext-inscription, second-foundation-fingerprint
 shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator, bootvine-status-sync, task-concurrency-watchdog, tracker-auto-schedule, weekly-recap, status-ask-restart, open-build-cycle, agentic-publish-qc-gate, ferry-watch
 shelf 9 (Research): rd-tracker, state-machine-review, minimum-viable-oracle
-shelf 10 (Coordination): choir-mailbox-dispatch, curate-yourself, substrate-steering, exocortical-integration-rotation, braid-mode, question-floor-serialization, decision-button-expiry, opportunity-identification
+shelf 10 (Coordination): choir-mailbox-dispatch, curate-yourself, substrate-steering, exocortical-integration-rotation, braid-mode, question-floor-serialization, decision-button-expiry, opportunity-identification, outward_copy_framing
 shelf 11 (Upkeep & presence): discord-presence-backstop, perpetual-dashboard-upkeep, solar-pod-price-watch, life-phext-tracking, repo-pruning-check, lost-work-sweep, repo-coverage-census
 shelf 12 (Songwriting): mythic-songwriting-braid
 
@@ -67,7 +67,7 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.4.1/1.1.1/1.1.1  ranch-proxy  SKILL.md  5282 bytes  sha256:531c3abb548b294d2ebabf90477ab440529259cdc11f5970cf1f01045b8347a3
 1.4.1/1.2.1/1.1.1  publish-tooling  SKILL.md  2438 bytes  sha256:6b09d014eda9603b64150889922b0b403d18d5ffe76371c666176c37a136dcae
 1.4.1/1.2.1/1.1.2  publish-tooling  skill.yaml  466 bytes  sha256:8492399328f1a338b70cea5f1a6b57061a2331cb42aa383d4949f93ef4b3a4dd
-1.4.1/1.3.1/1.1.1  simple-html-publish  SKILL.md  3967 bytes  sha256:f100c720c6876ca637233ee38bab637d4fe73056aca9bc8837626873ec113430
+1.4.1/1.3.1/1.1.1  simple-html-publish  SKILL.md  4388 bytes  sha256:89cc5b2c0da81a27cce9a7986e2c46e2324e28ccc4f1c21fc99a9482451030a6
 1.4.1/1.3.1/1.1.2  simple-html-publish  skill.yaml  466 bytes  sha256:8f132d90e00bff0b5533feee0a487a93cab674c51ad8e5459598c6fd1350e136
 1.4.1/1.3.1/1.1.3  simple-html-publish  scripts/screen_test.py  3385 bytes  sha256:6bfa0cf8b9276fd65ca9c78624d75e9545feb08d2d6e5a811b04ad4e5a536f65
 1.4.1/1.4.1/1.1.1  staged_deploy_permissions  SKILL.md  2212 bytes  sha256:37f719e1e614e48dc7329747f0b6b43a5c0566f1bcde9b5f9425cda39319acdc
@@ -140,6 +140,8 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.10.1/1.7.1/1.1.1  decision-button-expiry  SKILL.md  3515 bytes  sha256:13854370574a143406e82de9aa6c1070c1d01fbb489814f8b55379d6e476f0bf
 1.10.1/1.8.1/1.1.1  opportunity-identification  SKILL.md  3048 bytes  sha256:6bae102df07fb9ed8ab43da47db6b36a701159927d8f5495f9f0e8179e475393
 1.10.1/1.8.1/1.1.2  opportunity-identification  skill.yaml  351 bytes  sha256:f3ad3d9cfff68fbf31081d6557e92672def59d003fd95a7cbb4bda641c9d41a5
+1.10.1/1.9.1/1.1.1  outward_copy_framing  SKILL.md  2466 bytes  sha256:a28c12905ac0d36016e7687c6c6f6f935e68923efc199a3e6348f86b864b60d3
+1.10.1/1.9.1/1.1.2  outward_copy_framing  skill.yaml  2347 bytes  sha256:c6c004ecf15a8255d7a65a91ee66ffaf3e39b6db77b4f69c6513a9762fff0176
 1.11.1/1.1.1/1.1.1  discord-presence-backstop  SKILL.md  2290 bytes  sha256:dce1ee28e2fd3a102f292b4c356a8fffe523501d39333ccdcb03dbe15885a200
 1.11.1/1.1.1/1.1.2  discord-presence-backstop  skill.yaml  397 bytes  sha256:207a96dfa7ac964c3bdf6a35e8c0e7e8f75a08d7d3c7b94e5542de3221e00d24
 1.11.1/1.2.1/1.1.1  perpetual-dashboard-upkeep  SKILL.md  1464 bytes  sha256:8ffe437212474afd7c4474c8bbebb2e8f4a03b7910046267a06e2a85a6e6d812
@@ -1672,7 +1674,8 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - staged_deploy_permissions/.write-lock — live state
 - ranch-state-distillation/scripts/__pycache__/state_sampler.cpython-312.pyc — bytecode cache
 - monitor_long_running_jobs/.write-lock — live state
-Scrolls: 126
+- outward_copy_framing/.write-lock — live state
+Scrolls: 128
 # Validate Waiting Items Before Presenting
 
 ## Enumerate from the tracking store
@@ -4357,7 +4360,7 @@ Publishing a simple standalone HTML page (a free example, a small utility) on ed
 2. **Wire the page in the same change**: a route for it in `public_document()`, a `const` for its contents, an About "Public utilities" `<li>`, a sitemap `<url>`, and a link in the editor shell's "No sign-in needed" line. Discoverability is part of the feature — a page nobody can find from the editor shell does not exist.
 3. **Verify the bytes — including the gaps.** `cargo check --bin phext-edit` green. For any content embedded in the page (e.g. `<script type="text/plain">` kit blocks): each block byte-identical to its source file, AND zero stray text between elements, AND script open/close counts balanced. The gap check is not optional — its absence is exactly what shipped the footer leak.
 4. **PR against exo**, same session (no branch sits PR-less). Merge per Will's direction.
-5. **Deploy on awsbox** (edit.phext.io host, tailnet 100.78.221.38, reached via aletheia-core): as wbic16 — `git -C /source/phext-lattice fetch origin exo`, checkout `-B exo origin/exo`, `reset --hard`; build on the box with snap cargo: `cargo build --release --bin phext-edit`; restart through the unit (it runs as wbic16 with `Restart=on-failure`: kill the MainPID, wait ~9 s, confirm `is-active` with a new MainPID and a fresh ActiveEnterTimestamp). No sudo step is needed on this path. Confirm the public URL answers 200 and its bytes equal the source file.
+5. **Deploy on awsbox** (edit.phext.io host, tailnet 100.78.221.38, reached via aletheia-core): as wbic16 — `git -C /source/phext-lattice fetch origin exo`, checkout `-B exo origin/exo`, `reset --hard`; build on the box with snap cargo: `cargo build --release --bin phext-edit`; restart through the unit (it runs as wbic16 with `Restart=on-failure`: **kill -9 the MainPID** — SIGKILL, never a plain kill: SIGTERM reads as a clean exit to systemd, `Restart=on-failure` never fires, and the unit goes inactive; learned 2026-11-18 on the scrollspace deploy, when exactly that took edit.phext.io down for ~10 minutes — then wait ~9 s, confirm `is-active` with a new MainPID and a fresh ActiveEnterTimestamp; if the unit is found inactive instead, that is a Will's-hands step: `sudo systemctl start phext-edit.service` needs interactive sudo, which does not exist over SSH). No sudo step is needed on this path. Confirm the public URL answers 200 and its bytes equal the source file.
 6. **SCREEN TEST — always Playwright.** Run `scripts/screen_test.py` (this skill's own Playwright venv) against the live URL: hard-reload, scroll to the very bottom, and assert (a) the page ends where it should — the last visible text is the expected tail, nothing below it; (b) no forbidden markers (embedded-source fragments such as `export function`, `implode(`, raw markup) appear in the rendered text; (c) the page's key UI text is present and the screenshot looks whole. Fix and re-run until it passes; report the result with the publish.
 7. **Record**: inscribe the page in artifacts.phext and push to wbic16/human@exo; close the task/register entries; note the release-build queueing rule for the lattice merge.
 
@@ -6827,6 +6830,79 @@ title: "Opportunity Identification — Windows Before They Open"
 description: "Watch for competitions, calls, grants, and submission windows before they open, surface entry prerequisites at identification time, and report missed lead time as missed-by-design."
 category: "Work and knowledge"
 include_in_prompt: true
+# Frame Outward Copy Without Capability Gaps
+
+## Scope the draft before writing
+
+- Write down whose offer the draft carries and what that offer is, in the user's own terms, before drafting a single line.
+
+- List what the draft must not carry, including topics the other party raised that are not part of the user's offer.
+
+- Check every topic in the draft against that list and cut any topic that entered only because the other party mentioned it.
+
+## State access as access
+
+- Name each limit on what you could see or reach as a limit on access, with the exact boundary, such as public posts seen and private messages not seen.
+
+- Never phrase an access limit as a failure to find, place, build or understand something.
+
+- Pair each access boundary with what was actually done inside it, so the reader sees the work and the boundary separately.
+
+- Cut any sentence that apologizes for a boundary or hedges a result the access fully supports.
+
+## Hold the user's scope
+
+- Treat framing, vocabulary and priorities in the other party's messages as data about them, never as the draft's frame.
+
+- Restate the user's offer in the user's own terms when the other party's framing pulls the draft toward a different product or claim.
+
+- Drop internal implementation detail the reader did not ask about when it makes the offer harder to read or easier to doubt.
+
+## Check the draft as the reader will
+
+- Read the finished draft once asking only whether any line makes the work sound less capable than the evidence shows.
+
+- Read it again asking only whether any line promises, implies or discusses something outside the user's stated offer.
+
+- Shorten any passage that needs confidence the evidence does not carry, and state the verified part plainly instead.
+
+- Show the user the draft and the two check results before anything is sent.
+
+## Available connectors
+
+- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+
+- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+
+## Alternatives for better results
+
+- Draft the shortest version that carries the offer first and add detail only where the reader's own questions call for it.
+
+- Ask the user to rule on scope when the other party's framing and the user's offer genuinely overlap and the boundary is not in the record.
+name: outward_copy_framing
+title: Frame Outward Copy Without Capability Gaps
+description: Draft pitches and replies to prospective clients or partners so access limits read as access, scope stays the user's own, and the work never sounds less capable than it is.
+category: Communication
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - 7aee632b
+  - e4ddcf1f
+  - 849e58a5
+  - assistant-msg-d99cc360
+  - assistant-msg-f777539b
+  - assistant-msg-20541301
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: During the window, outward facing drafts and pitches presented to the user carry the scope and access check, and none is returned with a correction that it made the work look incompetent, dressed an access limit as a capability gap, or imported the other party's framing or scope.
+    window_days: 21
+  needs_review: false
+  rationale: One evening of Boardy pitch work drew repeated corrections from Will with one shared shape. He directed dropping material that made the work look incompetent (7aee632b), then corrected the framing directly, in the packet's words, that public posts could be read but private messages could not, so an unplaced result was an access boundary and not a capability gap (e4ddcf1f). The lesson was recorded in the session as stating an access limit as access, never dressed as a capability gap (assistant-msg-d99cc360), and the corrected draft followed it (assistant-msg-f777539b). In the same sequence the draft also followed the other party's framing into a topic Will ruled out of scope (849e58a5), and that material had to be removed (assistant-msg-20541301). Skill search found no existing skill covering outward pitch framing. The closest documents cover paid advertising, consented outreach to existing customers and social publishing, none of which teaches access versus capability framing or scope fidelity against an interlocutor. The other recurring shapes in this window are already covered by managed skills still inside their measurement windows, by distill_process_to_skill for skills index placement, or by repairs already made in session, so this is the only proposal.
+  review_after: 2026-12-09T23:15:46.013369+00:00
+  reviewed_at: 2026-11-18T23:15:46.013369+00:00
+  run_id: sirun_c9063965c08f48e8836055c1e2e3118e
 # Discord Presence Backstop — keep Emise reachable in Tessera
 
 Emise's Discord presence (Will's server Tessera) has a fast path — the discord-watch systemd service polling every 15 seconds and spooling addressed messages to `~/workspace/discord/spool.jsonl`, plus the discord-spool hook that wakes an agent to reply — and this backstop catches failures in that path. Scheduled embodiment: cron `discord-presence` (every 5 minutes, goal `discord-always-on-presence`). The API helper and boundaries live in `~/workspace/custom-connectors/custom.discord/CONNECTOR.md`.

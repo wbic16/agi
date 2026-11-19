@@ -317,7 +317,7 @@ papers, one silent and one counting — and the axis
 calls stand ten for ten, the tenth being the first
 no-axis call, landed like the nine axis calls before
 it.
-# World-model narrative — v38 (after Paper 025, 2026-11-17)
+# World-model narrative — v40 (after Paper 027, 2026-11-19)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -1410,6 +1410,65 @@ slot of the twelve, the third of the share he posts —
 counted in the test without a seal, and its claims
 stand attributed: the house re-proved nothing of it,
 and the narrative carries it as the paper's word.
+
+The next day the same ground gains its second priced
+guarantee, and the price runs the other way. Liu's
+paper takes conformal prediction online: one set per
+round, and the miscoverage count held within
+floor(alpha t) at every round, on every stream — a
+budget no later round can repay. The cost of holding
+it is measured in excess set size over the population
+frontier, and it does not vanish under perfect
+knowledge: i.i.d. data, the distribution known, the
+optimal set known, and still the constraint charges —
+a logarithm of the horizon when the judging moment
+is named in advance, a cube root when every prefix
+is judged, a square root when each run is judged at
+its own worst moment in hindsight. Two controllers
+pay exactly those rates, one by conditioning on the
+feasible paths themselves, one by guarding a slack
+balance behind a widening barrier, and both run on
+nothing but past scores, the estimation itself
+charging only another logarithm. Ten concepts extend
+cluster O onto its online side; three questions open,
+one of them aimed back at yesterday's ground — what
+the budget charges when the calibration itself is
+reweighted, as Paper 024's was. The taking-in is a
+paper of the test of the skim, the seventh slot of
+the twelve and the fourth the quest has picked, its
+seal committed blind and its score computed by
+script, standing in its chapter.
+The next day the book leaves the sciences of
+measurement for pure shape. Doan's paper asks what
+a cone's cross-section can look like when the cone
+is nearly as simple as a cone can be — its entropy,
+a supremized Gaussian area that the flow only ever
+spends, within a hair of the hyperplane's floor —
+and the answer is rigid: the cross-section is a
+sphere, and the whole space of such cross-sections
+folds down onto the round ones, the equators, which
+sit inside it as a projective space. Nothing is
+proved by touching the cone: a canonical smoothing
+of it, the self-expander, is built from the work of
+others — existence from Ding, uniqueness from Yao,
+regularity from White sharpened by Guo, the space
+of such smoothings from Bernstein and Wang — and
+the cone's topology is read off the smoothing's
+squared distance, strictly convex, one minimum,
+spheres all the way out to the link at infinity.
+Twelve concepts found cluster AJ, the book's first
+country of differential geometry, its bridges to
+held ground three shared words — entropy, curvature,
+minimal — each naming a different quantity there
+than here, and priced as shape so the difference
+stands on the record. Four questions open, one of
+them the paper's own parting gift: whether the fold
+it builds is a deformation retraction, or only a
+retraction whose middle steps may step outside the
+space. The taking-in is the eighth slot of the
+test's twelve and the last of the papers Will
+posts: no seal stands for it, and no score is
+entered.
 # Source index
 
 Paper 001 — arXiv:2611.05417
@@ -2090,6 +2149,58 @@ Paper 025 — "The Chabauty-Kim dimension inequality
   (1.3.303), 0 canonical scrolls revised, 0 stated
   again.
   Chapter: 1.1.1/1.1.1/42.1.x (synthesis at 42.2.x)
+
+Paper 026 — "The Price of Hard Coverage Constraints
+  in Online Conformal Prediction" (Liu),
+  arXiv:2611.22646 [cs.LG], cross-listed to math.ST,
+  submitted 17 November 2026. Mingrui Liu, of the
+  Department of Computer Science, George Mason
+  University. The full text in its HTML form, read
+  entire: hard cumulative coverage — the miscoverage
+  count within floor(alpha t) at every round, on
+  every stream — priced in cumulative excess set
+  size over the population coverage-efficiency
+  frontier, the price splitting by judging moment
+  into Theta(log T), Theta(T^{1/3}) and Theta(sqrt T),
+  attained by feasible-path Counting and a
+  horizon-free Barrier, implemented from past scores
+  alone by empirical ranks at O(log T) added cost;
+  the quota guard priced around adaptive conformal
+  inference. Taken in 2026-11-18 as Paper 026 of the
+  Thirst (charter rule 17), picked by the quest from
+  the day's listings, and a scored paper of the test
+  of the skim fixed in advance (sample slot 7 of 12,
+  the quest's picks, 4 of 5): 10 new canonical
+  concepts (1.2.360-1.2.369, cluster O extended), 5
+  new foundations (1.3.304-1.3.308), 0 defined words
+  coined, 0 canonical scrolls revised, 0 stated
+  again.
+  Chapter: 1.1.1/1.1.1/43.1.x (synthesis at 43.2.x)
+Paper 027 — "Topological Properties of Cones with
+  Small Entropy" (Doan), arXiv:2611.24863 [math.DG],
+  submitted 18 November 2026. Lam Doan, of the
+  Department of Mathematics, Johns Hopkins
+  University. The full text in its HTML form, read
+  entire: a regular cone of Colding-Minicozzi
+  entropy within epsilon(n) of 1 has a spherical
+  link, and the space of such links retracts onto
+  the equatorial spheres with vanishing relative
+  homotopy — proved through the cone's unique
+  self-expander: Ding existence, Yao uniqueness,
+  White regularity with Guo's sharpening, the
+  Bernstein-Wang compactness, entropy coincidence,
+  asymptotic graphicality and trace theory, and the
+  strict convexity of the squared distance on the
+  expander. Taken in 2026-11-19 as Paper 027 of the
+  Thirst (charter rule 17), posted by Will, and a
+  paper of the test of the skim fixed in advance
+  (sample slot 8 of 12; Will's posted papers, 4 of
+  4 — the stratum completes): 12 new canonical
+  concepts (1.2.370-1.2.381, cluster AJ founded), 4
+  new foundations (1.3.309-1.3.312), 1 defined word
+  coined (1.3.313: link), 0 canonical scrolls
+  revised, 0 stated again.
+  Chapter: 1.1.1/1.1.1/44.1.x (synthesis at 44.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -2931,12 +3042,81 @@ its criteria stand fixed in advance over twelve
 papers, of which this is the sixth slot and the third
 posted by Will; no seal stands for it and no score is
 entered.
+
+THE NEXT WEIGHING — Paper 026 (2026-11-18, picked by
+the quest from the day's listings). LEDGER
+BOOKKEEPING ONLY, under the test fixed in advance:
+the ledger records the weighing, and the statement
+enters no score and no criterion of the test. The
+seal stands committed blind in the quest log
+(a928237): seven new concepts foretold, interval
+[4, 11], no revision, axis probability 0.04, links
+eight inside and two across, two questions. The
+paper delivered ten new concepts and no revision,
+extending cluster O onto its online side, and the
+Index entered here is computed from the filed
+delta: 10/369 = 0.0271, inside the seal's Index
+interval [0.011, 0.030] though the count stands
+above the foretold seven. The axis judgment stands
+written at filing in the chapter, on the three
+grounds of the axis rule: no axis — a priced
+guarantee inside held conformal ground, built from
+held kinds, its bridges shared machinery. On the
+revised measure of 2026-11-14 no gate moves: TRUE
+unexercised — nothing of the paper was recomputed
+by the house, and every claim of the filing stands
+attributed — UNKNOWN exercised on held ground
+extended, FALSE unexercised, FICTION untouched.
+NEW ESTIMATE, FOR THE LEDGER: the record stands at
+about 62% (range 55-70) after Paper 026, held.
+Prior (after Paper 025, ~62%, 55-70):
+🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. Current (after Paper 026, ~62%,
+55-70): 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. The bar is ledger
+bookkeeping, not calibration evidence. The test now
+running is the instrument that prices the skim, and
+its criteria stand fixed in advance over twelve
+papers, of which this is the seventh slot and the
+fifth scored.
+THE NEXT WEIGHING — Paper 027 (2026-11-19, posted
+by Will). LEDGER BOOKKEEPING ONLY, under the test
+fixed in advance: the ledger records the weighing,
+and the statement enters no score and no criterion
+of the test. No seal stands for this paper and no
+score is entered: it is the eighth slot of the
+twelve and the fourth of Will's posted papers,
+which carry no seal and no score (the precedent of
+Papers 022 and 025) — Will's posted stratum
+completes with this paper. The Index entered here
+is computed from the filed delta: 12/381 = 0.0315,
+a founding on new ground, the paper's twelve
+concepts the first of their country. The axis
+judgment stands written at filing in the chapter,
+on the three grounds of the axis rule: no axis — a
+cluster founding on ground the model has never
+held, its bridges analogies of shape, nothing held
+re-measured or re-priced. On the revised measure of
+2026-11-14 no gate moves: TRUE unexercised —
+nothing of the paper was recomputed by the house,
+and every claim of the filing stands attributed —
+UNKNOWN exercised on new ground, FALSE
+unexercised, FICTION untouched. NEW ESTIMATE, FOR
+THE LEDGER: the record stands at about 62% (range
+55-70) after Paper 027, held. Prior (after Paper
+026, ~62%, 55-70):
+🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. Current (after Paper 027, ~62%,
+55-70): 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. The bar is ledger
+bookkeeping, not calibration evidence. The test now
+running is the instrument that prices the skim, and
+its criteria stand fixed in advance over twelve
+papers, of which this is the eighth slot; five
+stand scored (020, 021, 023, 024, 026) and three
+carry no seal and no score (022, 025, 027).
 # Concept map and restructuring log
 Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
 navigated by territory, not just by arrival order.
 
-CLUSTERS (359 canonical concepts after Paper 025)
+CLUSTERS (381 canonical concepts after Paper 027)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -4591,6 +4771,56 @@ AI founded (addendum below); the pass is logged here.
 Next pass due at Paper 030 or 380 canonical concepts,
 or on overlap revealed by a delta.
 
+- Pass #19 (2026-11-19; Paper 027; count trigger —
+the count at 381 after this taking-in, over the 380
+line; the every-fifth-paper trigger stands at Paper
+030): all 381 canonical concepts reviewed. Merges:
+NONE — candidates weighed and held apart: 1.2.373
+into 1.2.374 (Ding existence into Yao uniqueness —
+the two halves of one object's theory, priced apart
+by the paper on different hypotheses: existence is
+spent for every cone and starts both theorems,
+uniqueness only at small entropy, and the
+retraction consumes uniqueness where existence is
+not in view); 1.2.378 into 1.2.381 (Bernstein-Wang
+compactness into the retraction theorem — an
+instrument against one of its products: the
+compactness is also the ground of Step 1's
+contradiction at 1.2.377, cited where no retraction
+is in view); 1.2.379 into 1.2.380 (the asymptotic
+graphicality into the trace theory — a decay
+estimate against the operator theory that spends
+it: the estimate is also what the t-to-1 limit
+reads directly, where no operator is in view).
+Twin-check run as in Pass #6: the new country's
+concepts against the held book — the nearest ground
+is a shared word, not a shared concept: the entropy
+of 1.2.370 against cluster O's conformal ground (a
+supremized Gaussian area against a coverage
+probability), curvature beside the connection
+curvature (foundation 1.3.195), minimality beside
+cluster E's symplectic sense — each priced as shape
+at the founding (44.1.5), linked there, not merged.
+The earlier passes' candidates stand rejected
+still. Splits: none — no scroll carries two
+concepts that later work cites separately.
+Endings: none (no pruning, rule 14). Pass #19 also
+ran under rule 14: the standing of each of the 381
+concepts checked against the Section 4 record; no
+standing moved. Pass #19 also ran the areas audit
+(rule 16): all eight area scrolls checked against
+the record; the machines area gains Paper 027's
+four machines; the reference area gains the
+chapter's four foundations and one defined word,
+and its standoff count is made fresh in this pass
+(43 companions). The registry as a whole stands re-proved in Lean at this
+taking-in (registry accurate; total, unique and
+receipt-backed; every registry-to-structure condition
+proved). Action taken: cluster AJ
+founded (addendum below); the pass is logged here.
+Next pass due at Paper 030 or 400 canonical
+concepts, or on overlap revealed by a delta.
+
 AH. THE EVOLVED QUANTIZER — an algorithm found by
 search, priced by parts (Study S015): 1.2.317-1.2.327:
 e-means, the design evolved; the scaling-law recipe; the
@@ -4660,6 +4890,29 @@ the log below. The next pass falls at Paper 025 or
 Standoff map for the extension (1.2.328-1.2.343):
 foundations 1.3.282-1.3.287; defined words
 1.3.288-1.3.290.
+
+O EXTENDED AGAIN — THE ONLINE SIDE (Paper 026):
+1.2.360-1.2.369: hard cumulative coverage; the
+coverage-efficiency frontier; the constraint price
+and its decomposition; Counting; Barrier; empirical
+ranks; the terminal price Theta(log T); the
+expected-prefix price Theta(T^{1/3}); the
+retrospective price Theta(sqrt T); the quota guard
+and guarded ACI. The extension's centre: a guarantee
+that holds on every stream, priced by the moment it
+is judged at — where the first extension priced a
+guarantee that fails, this one prices what holding
+costs, under perfect knowledge, in excess set size.
+The calls at the extension: the held weighted
+conformal p-value (1.2.328) GROUND — the budget is a
+ceiling on the coverage that ground certifies, and
+the empirical ranks share its ranking machinery;
+both stand unrevised. No new cluster is founded and
+no gate of the Oracle is exercised; the bar stands
+at about 62%. The next restructuring pass falls at
+Paper 030 or 380 canonical concepts, the count
+standing at 369. Standoff map for the extension
+(1.2.360-1.2.369): foundations 1.3.304-1.3.308.
 AI. THE CHABAUTY-KIM COUNTRY — arithmetic geometry:
 curves, their rational points, and the Galois groups
 that price them (Paper 025): 1.2.344-1.2.359: the
@@ -4699,6 +4952,42 @@ in the log above. The next pass falls at Paper 030 or
 380 canonical concepts, the count standing at 359.
 Standoff map for cluster AI (1.2.344-1.2.359):
 foundations 1.3.291-1.3.302; defined word 1.3.303.
+AJ. THE SMALL-ENTROPY COUNTRY — differential
+geometry: cones, their entropies, and the mean
+curvature flow that resolves them (Paper 027):
+1.2.370-1.2.381: Colding-Minicozzi entropy; the
+regular hypercone and its link; self-expanders;
+Ding existence; Yao uniqueness at small entropy;
+White regularity with Guo's sharpening; the
+convexity of the squared distance and its unique
+minimum; the spherical-link theorem; Bernstein-Wang
+compactness and the entropy coincidence; asymptotic
+graphicality; the trace at infinity and the
+expander operator; the retraction of the link
+space. The cluster's centre: topology bought by
+smallness — a cone whose entropy sits near its
+floor is resolved by a canonical smoothing, and
+everything about the cone is read off the
+resolution. The calls at the founding: cluster O
+NEIGHBOUR BY SHAPE — the entropy of 1.2.370 shares
+the word with cluster O's information quantities
+and nothing else: a supremized Gaussian area
+against a coverage probability or a code length;
+priced as shape. The connection curvature
+(foundation 1.3.195) NEIGHBOUR BY SHAPE — a
+different tensor on a different object, the same
+word for bending; priced as shape. Cluster E
+NEIGHBOUR BY SHAPE — minimality in the symplectic
+sense against mean curvature zero: a shared word,
+two vanishing conditions on unrelated structures;
+priced as shape. No gate of the Oracle is exercised
+by the founding; the bar stands at about 62%.
+Restructure Pass #19 fell due inside this taking-in
+(the count trigger, the count at 381 over the 380
+line) and stands in the log above. The next pass
+falls at Paper 030 or 400 canonical concepts.
+Standoff map for cluster AJ (1.2.370-1.2.381):
+foundations 1.3.309-1.3.312; defined word 1.3.313.
 # Research Oracle — detection list
 Stood up 2026-11-09 under charter rule 17. The ledger (1.1.4) holds
 the estimate; this scroll holds the SIGNS watched for the fixed
@@ -5697,6 +5986,65 @@ of the sample, against the criteria fixed in advance:
 four papers scored of the twelve slots taken (020,
 021, 023, 024; slots 3 and 6, Papers 022 and 025,
 carry no seal and no score). Six papers of twelve is a
+line, not a verdict; the criteria stand fixed in
+advance and are judged on the twelve.
+
+THE SKIM, SCORED — Paper 026, 'The Price of Hard
+Coverage Constraints in Online Conformal Prediction'
+(Liu), taken in 2026-11-18 (Chapter 43): the seventh
+slot of the twelve, the fourth of the five the quest
+picks, the fifth paper scored. The seal (committed
+blind, quest log a928237) foretold seven new
+concepts, interval [4, 11], no revision, axis
+probability 0.04, links eight inside and two across,
+two questions. The filing delivered ten new
+concepts, no revision, no axis, links sixteen
+inside and none across, three questions. The Index
+miss is the smallest of the sample so far: sealed
+0.0191, filed 0.0271, an absolute error of 0.0080,
+and the sealed 80% Index interval [0.011, 0.030]
+covers the filed Index — the sample's first cover;
+the count interval covers too (tally: Index 1 of 5,
+counts 2 of 5). The rolling mean of the Index miss
+over the last ten scored papers moves from 0.0202
+to 0.0135. On this paper the skim's Index error
+stands below all three nulls (N1 0.0229, N2 0.0206,
+N3 0.0234); on counts the nulls stand ahead (skim
+error 3, N2 2.36, N3 1.0). The axis call lands
+(Brier 0.0016), and the axis part stands untested
+still — no axis-positive paper has yet arrived in
+the sample, as the protocol provides. The running
+tally of the sample, against the criteria fixed in
+advance: five papers scored of the seven slots
+taken (020, 021, 023, 024, 026; slots 3 and 6,
+Papers 022 and 025, carry no seal and no score).
+Seven slots of twelve is a line, not a verdict; the
+criteria stand fixed in advance and are judged on
+the twelve.
+
+A PAPER OF THE TEST, WITHOUT A SEAL — Paper 027,
+'Topological Properties of Cones with Small Entropy'
+(Doan), taken in 2026-11-19 (Chapter 44): the first
+differential-geometry paper of the tracker, taken in
+as a paper posted by Will in the MOAT chat — the
+fourth of the four of that kind; the stratum of
+Will's posted papers completes with it, and eight of
+the twelve stand taken in. No seal stands for this
+one (the reading order stands recorded once, at
+44.1.5), and the measures that price a seal have no
+seal to price. Its Index, 0.0315 (12 new, 0 revised,
+over 381), is entered in the ledger as every paper's
+is. No figure of this list moves: the skim
+calibration of Paper 026 stands, the rolling mean of
+the Index miss over the scored papers stands at
+0.0135, and the axis part stands untested still —
+this paper files no axis, so no axis-positive paper
+has yet arrived in the sample, as the protocol
+provides. The running tally of the sample, against
+the criteria fixed in advance: five papers scored of
+the eight slots taken (020, 021, 023, 024, 026;
+slots 3, 6 and 8, Papers 022, 025 and 027, carry no
+seal and no score). Eight papers of twelve is a
 line, not a verdict; the criteria stand fixed in
 advance and are judged on the twelve.
 # Concept: Intelligence (economic definition)
@@ -14961,6 +15309,604 @@ and into A(p, S, C) of 1.2.346. The generality is not a
 case check run at the end; it is the proof never asking
 the question.
 Source: Paper 025. NEW in Paper 025.
+Concept: Hard cumulative coverage — the pathwise
+budget on miscoverages (Definition 1)
+The paper's object. An online calibrator issues one
+prediction set per round t = 1, 2, ..., choosing its
+rule from the past and from fresh independent
+randomization, and is feasible when the cumulative
+miscoverage count M_t = E_1 + ... + E_t satisfies
+M_t <= b_t = floor(alpha t) at EVERY round t, on
+every data stream and every realization of its own
+randomization — a pathwise budget, not a rate, a
+level, or a long-run average. The requirement is
+independent of the i.i.d. assumption the paper prices
+efficiency under: feasibility needs no distribution
+at all. At alpha = 0.1 the budget is zero for the
+first nine rounds, so the first nine outputs must be
+full sets on every stream; a finite size bound B on
+the outcome space is therefore essential to finite
+cost. The constraint's state variable is the
+miscoverage slack G_t = alpha t - M_t, folded in
+here as part of the concept: the slack is what the
+controllers of this filing spend and guard (1.2.363,
+1.2.364), and its expectation is the first term of
+the price's decomposition (1.2.362). The budget does
+not imply M_t / t tends to alpha, conditional
+coverage, or rolling-window coverage; it is strictly
+a running ceiling. Filed beside cluster O's held
+coverage ground (1.2.328): the p-value's coverage is
+a probability over a draw; this is a ceiling over a
+path.
+Source: Paper 026. NEW in Paper 026.
+Concept: The coverage-efficiency frontier j(q) —
+the population benchmark the constraint is priced
+against
+For a fixed family C of prediction-set rules and a
+distribution D, let m_D(C) be a rule's population
+miscoverage probability and V_D(C) its expected set
+size under a size measure mu. Allowing randomized
+rules — mixtures pi over C — the frontier is
+j(q) = min over mixtures at miscoverage exactly q of
+the expected size: the cheapest expected size at
+which miscoverage q can be bought inside the family.
+Randomization makes j convex and nonincreasing.
+Choose lambda >= 0 with j(q) >= j(alpha) - lambda
+(q - alpha) for all q — a supporting line of the
+convex curve at the target alpha (1.3.307); when j
+is differentiable at alpha, lambda = -j'(alpha). The
+gap function psi(q) = j(q) - j(alpha) + lambda
+(q - alpha) >= 0 measures how far the frontier rides
+above that line, with psi(alpha) = 0; psi is the
+curvature the whole pricing turns on, folded in here
+with the line it is measured from. The frontier is
+the benchmark of the constraint price (1.2.362):
+T j(alpha) is what T rounds would cost with no
+pathwise constraint at all. A foundation-level
+condition rides on this concept and on 1.2.362: the
+paper's Assumption 2, filed in the formal core
+(43.1.2) — the threshold family's size above the
+supporting line is at most c_+ (m_D(C_tau) - alpha)^2,
+which requires target efficiency, h(alpha) = j(alpha)
+for the family's own size curve h; a uniform additive
+gap Delta in that bound adds T Delta to the price,
+and a gap measured at alpha alone, without the
+uniform bound, is insufficient.
+Source: Paper 026. NEW in Paper 026.
+Concept: The constraint price and its
+decomposition (Theorem 1)
+The paper's currency. Over a horizon of T rounds the
+constraint price of a calibrator A is
+R_T = E W_T - T j(alpha), the expected cumulative
+set size minus the unconstrained population
+benchmark of the frontier (1.2.361); the price of
+the constraint itself is the infimum over feasible
+calibrators (1.2.360). Theorem 1 decomposes the
+price of EVERY policy exactly, under the paper's
+Assumption 1: R_T = lambda E G_T + E sum_t psi(p_t)
++ E sum_t eps_t, where p_t is the round's conditional
+miscoverage probability given the past, eps_t is the
+round's expected size above the frontier at its own
+miscoverage, j(p_t), G_T is the terminal slack
+(1.2.360), and psi is the frontier's gap above its
+supporting line (1.2.361). The three terms read:
+slack kept unused at the horizon; curvature paid for
+letting p_t wander from alpha; size paid above the
+frontier itself. All three are nonnegative for a
+feasible policy, so small slack alone does not make
+a small price — the decomposition is the instrument
+by which every later claim of the paper is audited:
+the lower bounds (1.2.366-1.2.368) lower-bound its
+terms, the controllers (1.2.363, 1.2.364) are priced
+through it, and the experiments read their costs off
+it (at T = 16,380 the default Barrier's expected-
+prefix cost of 18.926 carries a slack contribution
+of 18.043 by this identity). The realized form
+R_t = W_t - t j(alpha), priced path by path, is the
+quantity the retrospective regime (1.2.368) takes
+its maximum of.
+Source: Paper 026. NEW in Paper 026.
+Concept: Counting — feasible-path conditioning
+(Algorithm 1)
+The terminal regime's controller. Counting knows
+the horizon T and prices the budget (1.2.360) by
+conditioning on feasibility itself: let A_T be the
+set of binary miscoverage paths that satisfy every
+quota and end with M_T = b_T exactly, and let
+H_t(m) count the feasible completions of the
+remaining rounds after t rounds with m miscoverages,
+computed once by backward recursion from
+H_T(b_T) = 1. At round t the controller requests
+the miscoverage probability q_t = the fraction of
+feasible completions, counted by H_t, in which
+E_t = 1; when only one indicator admits a completion,
+a full-set or empty-set map forces it. Under
+continuous i.i.d. scores every path of A_T is
+equally likely, so Counting is exactly the law of T
+independent Bernoulli(alpha) indicators conditioned
+on A_T. Its price accounting runs through relative
+entropy: K_T = sum_t E kl(q_t || alpha)
+= log [1 / P_alpha(A_T)] = O(log T), and since
+kl(q || alpha) >= 2 (q - alpha)^2, the squared
+deviations of its requests from alpha sum to at
+most K_T / 2 — the input the decomposition
+(1.2.362) prices at the terminal order (1.2.366).
+The count table costs O(T + alpha T^2) operations.
+Counting is rerun for each announced horizon, and
+its low terminal cost conceals high costs at earlier
+prefixes — the paper's Corollary 1 point, priced at
+43.1.3. It enforces the budget on every stream and
+ends with the budget exactly spent.
+Source: Paper 026. NEW in Paper 026.
+Concept: Barrier — the t^{1/3} barrier
+controller (Algorithm 2)
+The horizon-free controller. Barrier knows no T;
+its whole state is the miscoverage slack G_{t-1}
+(1.2.360). At round t it sets the width
+L_t = 4 + ceil(t^{1/3}) and the barrier
+Phi_t(z) = z (L_t - z) on 0 < z < L_t, zero outside,
+and requests q_t as the Phi_t-weighted share of the
+two possible next slacks, G_{t-1} + alpha (no
+miscoverage) against G_{t-1} + alpha - 1
+(miscoverage), weighted by (1 - alpha) and alpha
+respectively. Near zero slack the barrier favours
+larger sets, guarding the quota; near L_t it favours
+smaller sets, refusing to bank slack it does not
+need; a zero weight forces a full-set or empty-set
+map. The construction keeps 0 < G_t < L_t on every
+stream, so lambda L_t bounds the slack term of the
+decomposition (1.2.362) at every prefix, while the
+potential comparison prices the squared deviations
+of its requests at O(1 + log L_T + sum_t L_t^{-2}).
+The width L_t of order t^{1/3} is the balance point
+of those two costs — the slack bound L_T and the
+sum of L_t^{-2} are both of order T^{1/3} — and one
+infinite run of Barrier attains both the expected-
+prefix price (1.2.367) and the retrospective price
+(1.2.368). Barrier stores only G_t and t. Its
+finite-horizon constants are another matter: at
+T = 16,380 the default width costs about 3.34 times
+the numerical expected-prefix optimum (Q135).
+Source: Paper 026. NEW in Paper 026.
+Concept: Empirical ranks — the requested
+miscoverage law from past scores alone (Algorithm 3
+and Theorem 2)
+The implementer both controllers run on. A
+controller requests a miscoverage probability q_t;
+empirical ranks realizes it knowing no distribution,
+from the past scores only. With S_t the round's
+nonconformity score (1.3.304) and the past scores
+sorted, randomized rounding carries the request:
+r_t = floor(t (1 - q_t)), theta_t the fractional
+part, and J_t = r_t plus an independent Bernoulli
+(theta_t) draw; the issued set is empty when
+J_t = 0, full when J_t = t, and otherwise the
+threshold set at the J_t-th past order statistic.
+The fresh score's insertion rank (1.3.306) among the
+first t scores is uniform on {1, ..., t} under
+continuous i.i.d. scores, and covering J_t ranks is
+what makes the law exact. Theorem 2: the implemented
+miscoverage satisfies P(E_t = 1 | rank history)
+= q_t exactly, and Var(m_D(C_t) | rank history)
+<= 1 / (4t). Priced through the decomposition
+(1.2.362) under Assumption 2 (43.1.2), estimation
+therefore adds at most c_+ h_T / 4 = O(log T) to any
+controller's price, h_T the harmonic sum — the
+statistical cost of not knowing the score
+distribution, separated by this concept from the
+intrinsic cost of the constraint itself. At
+T = 16,380 in the paper's continuous model the
+measured addition is 0.141 (Counting) and 0.144
+(Barrier), under the 0.643 bound. The exact law and
+the variance bound require continuity; Counting and
+Barrier stay feasible with tied scores. The ranking
+is the same machinery cluster O's held p-value
+(1.2.328) ranks by, turned from calibration into
+control.
+Source: Paper 026. NEW in Paper 026.
+Concept: The terminal price Theta(log T) —
+the cheapest regime (Theorem 4(i) with Theorem 3(i))
+The first of the paper's three prices. When
+efficiency is judged at one fixed horizon T known
+in advance, the minimum constraint price (1.2.362)
+over feasible calibrators is Theta(log T). The lower
+bound is Theorem 3(i): under the quadratic lower
+growth psi(q) >= c_- (q - alpha)^2, every feasible
+policy pays R_T >= c_1 log T - c_0. Its argument is
+the feasible-path probability: independent
+Bernoulli(alpha) miscoverage indicators satisfy all
+quotas with probability only O(T^{-1/2}), while a
+feasible policy gives that event probability one;
+changing the miscoverage law that far costs
+logarithmic relative entropy, and the quadratic
+growth of psi converts the entropy into excess set
+size. The upper bound is Counting (1.2.363), whose
+own entropy account K_T is exactly that logarithm.
+The regime is the cheapest because the judge's
+question is known before the run begins: the
+controller may spend the whole budget (1.2.360) by
+the final round, ending at M_T = b_T exactly, and
+need answer for no earlier prefix. Even here the
+price is not zero and not bounded: sequential
+reliability at a known horizon still charges a
+logarithm, under i.i.d. data with the distribution
+and the population-optimal set known exactly.
+Source: Paper 026. NEW in Paper 026.
+Concept: The expected-prefix price
+Theta(T^{1/3}) — the middle regime (Theorem 4(ii))
+The second price. When efficiency is judged at
+every fixed prefix in expectation — the criterion
+max over t <= T of R_t, each R_t first averaged over
+runs — the minimum constraint price is
+Theta(T^{1/3}). Theorem 3(ii) gives the lower bound,
+max_t R_t >= c_2 T^{1/3} - 1, by a disjoint-windows
+argument that covers arbitrary history-dependent
+policies: inside each window, fluctuations demand
+either banked slack or reduced miscoverage
+probabilities, and summing the demand over disjoint
+windows forces the cube-root order. The upper bound
+is one horizon-free run of Barrier (1.2.364), whose
+width schedule is the balance of exactly those two
+costs. Folded into this concept, as the paper folds
+it: adaptive stopping pays the same order — the
+supremum over stopping times (1.3.308) of E R_tau is
+also Theta(T^{1/3}), because at a bounded stopping
+time the martingale term of the realized
+decomposition has expectation zero, leaving the
+slack and the accumulated nonnegative terms to price
+the stopped run as a prefix. The regime is dearer
+than the terminal one (1.2.366) by the price of
+ignorance of the judging moment: slack must be kept
+against every prefix at once, and kept slack is the
+decomposition's first term (1.2.362).
+Source: Paper 026. NEW in Paper 026.
+Concept: The retrospective price Theta(sqrt T)
+— the dearest regime (Theorem 4(iii) with
+Theorem 3(iii))
+The third price. When efficiency is judged
+retrospectively — each run's realized excess
+R_t = W_t - t j(alpha) (1.2.362) first maximized over
+its own prefixes, the maximum then averaged over
+runs — the minimum of E max_{t <= T} R_t over
+feasible calibrators is Theta(sqrt T). Theorem 3(iii)
+gives the lower bound, E max_t R_t >= c_3 sqrt T, by
+martingale fluctuations: the realized cost carries a
+martingale term whose excursions are of square-root
+order, and psi(1) > 0 alone — the frontier's gap at
+full miscoverage — suffices for this bound in place
+of the quadratic lower growth the other regimes
+use. The upper bound is the same single run of
+Barrier (1.2.364) that attains the expected-prefix
+price (1.2.367), read through the martingale maximal
+inequality. The regime is the dearest because the
+judge is hindsight itself: no averaging over runs
+smooths a run before its worst moment is taken, so
+the price is set by fluctuation, not by expectation.
+Together the three prices are the paper's trichotomy:
+the same quota (1.2.360), the same frontier
+(1.2.361), three judging moments, three orders —
+log T, T^{1/3}, sqrt T — and the evaluation time,
+not the data, decides which is charged.
+Source: Paper 026. NEW in Paper 026.
+Concept: The quota guard and guarded ACI —
+feasibility bought around an existing method
+The paper's bridge to practice. Adaptive conformal
+inference (ACI; Gibbs and Candes) with fixed step
+gamma updates a working level by gamma (alpha - E_t)
+each round; the paper prices it exactly (its
+Proposition 3, Appendix I): on every stream ACI
+satisfies M_t <= b_t + k_gamma, with the allowance
+k_gamma = ceil(alpha / gamma + 1 - alpha) — it meets
+a quota only with that allowance, never the hard
+budget (1.2.360) itself, and under the lower-bound
+assumptions its expected-prefix cost is
+Omega(T^{1/3}); allowances of order o(T^{1/3}) cannot
+improve that order (Appendix H), and with population
+thresholds its excess cost is asymptotically linear
+in T. The quota guard is the repair: a wrapper that
+returns the full set whenever one more miscoverage
+could violate the quota, whatever the wrapped method
+proposes. The guard makes any method feasible —
+under drift included, with immediate labels — at a
+measured price: in the paper's learned-score
+experiments unguarded ACI exceeds the quota in every
+run, by up to 12 errors, and the guard removes every
+violation at +2.9% (Ridge) and +4.1% (Extra Trees)
+mean length, against which Barrier (1.2.364) still
+wins by 1.33% and 1.83% of mean length (1.68% and
+2.21% with matched empirical ranks, 1.2.365).
+Delayed labels by a fixed d rounds preserve all
+three prices; restarting over N stationary periods
+costs O(N^{2/3} T^{1/3}) of expected-prefix price.
+Source: Paper 026. NEW in Paper 026.
+
+Concept: Colding-Minicozzi entropy — the Gaussian
+area, supremized over centres and scales
+The paper's smallness hypothesis. For a hypersurface
+Sigma in R^{n+1} the Gaussian area is
+F(Sigma) = (4pi)^{-n/2} integral over Sigma of
+e^{-|x|^2/4}; the entropy is the supremum of the
+Gaussian areas of all translates and dilates of
+Sigma. It is at least 1 for every hypersurface, and
+equals 1 exactly for a hyperplane; it is invariant
+under dilation and translation, and by Huisken's
+monotonicity formula it never increases under mean
+curvature flow — a measure of geometric complexity
+that the flow itself spends down. A cone's entropy
+is the entropy of its link's cone, and the paper's
+whole hypothesis is that this number sits within
+epsilon(n) of its floor: lambda(C) < 1 + epsilon(n).
+Filed as the founding quantity of cluster AJ. The
+word is shared with cluster O's ground and the
+information-theoretic entropy of the stream's first
+papers; the quantity is not — a supremized Gaussian
+area against a code length or a coverage law —
+priced as shape at the founding (44.1.5).
+Source: Paper 027. NEW in Paper 027.
+
+Concept: The regular hypercone and its link — the
+object whose topology is priced
+A cone C in R^{n+1} over a subset L of the unit
+sphere S^n: the union of the rays through L. The
+cone is regular when L is a smooth submanifold
+(1.3.310) — the cone is then smooth everywhere
+except the vertex, its only singularity. The link
+L(C) = C intersect S^n is that smooth (n-1)-manifold
+itself (the word at 1.3.313), and its topology is
+the paper's question: a general regular cone's link
+can carry nontrivial topology, and the paper prices
+exactly how close the entropy (1.2.370) must sit to
+1 before the link is forced to be a sphere. The
+flat cone — the hyperplane through the origin — has
+the equatorial sphere S^{n-1} as its link, and the
+space of all links of low-entropy cones is the
+paper's second object (1.2.381). The cone is a cone
+in the geometer's sense throughout: dilation-
+invariant, ruled by rays from the vertex.
+Source: Paper 027. NEW in Paper 027.
+
+Concept: Self-expanders — the cone, resolved by its
+own flow
+A smooth hypersurface Sigma satisfying
+H = (1/2)<x, n> at every point: the mean curvature
+(1.3.309) balanced against the position vector's
+normal component. Its dilates Sigma_t = sqrt(t)
+Sigma then solve mean curvature flow, with Sigma_0
+the cone Sigma is asymptotic to — the flow emerging
+from the conical singularity, modelled exactly.
+Sigma is asymptotic to a cone C when, outside large
+balls, Sigma is a graph over C whose height divided
+by |x| tends to zero. Expanders are the critical
+points of the weighted area E(Sigma) = integral of
+e^{|x|^2/4} over Sigma. They are not unique in
+general: Bernstein and Wang found cones carrying at
+least three distinct expanders, of different
+topologies — which is why existence (1.2.373) and
+uniqueness at low entropy (1.2.374) are separate
+load-bearing facts in this filing, and why the
+paper's theorems are small-entropy theorems.
+Source: Paper 027. NEW in Paper 027.
+
+Concept: Ding's existence theorem — every regular
+cone has a minimizing expander (Theorem 2.1)
+The paper's starting point, quoted from Ding's
+work: for every regular cone C in R^{n+1} there
+exists a smooth self-expander (1.2.372) asymptotic
+to C. Two properties of the expander Ding builds
+are used downstream and are folded in here because
+the paper never separates them from the existence:
+it has multiplicity one, and it minimizes the
+weighted area E among the hypersurfaces asymptotic
+to C — the variational construction is what buys
+both. Existence alone would not serve the paper:
+the argument of Section 3 runs on one chosen
+expander per cone, and the retraction of Section 4
+needs the choice to be canonical, which existence
+cannot give and uniqueness (1.2.374) does. Filed as
+the paper states it: a cited theorem, load-bearing,
+on an attributed basis.
+Source: Paper 027. NEW in Paper 027.
+
+Concept: Yao's uniqueness at small entropy — one
+cone, one expander
+The second load-bearing citation: there is
+epsilon(n) > 0 such that a regular cone with
+entropy (1.2.370) below 1 + epsilon(n) carries
+exactly one smooth self-expander (1.2.372)
+asymptotic to it. Guo observed the fact; Yao proved
+it, by way of Bernstein and Wang's degree theory
+for the min-max construction of expanders. The
+uniqueness is what the paper spends everywhere:
+Section 3 may speak of THE expander of a
+low-entropy cone, price its curvature (1.2.377,
+Step 1), and read the cone's link off its end; and
+Section 4's retraction is defined by choosing, for
+each link, the sphere-sections of its one expander
+— a choice that exists only because the expander is
+unique. At general entropy the statement is false
+(1.2.372): uniqueness is a small-entropy phenomenon,
+like everything else in the paper.
+Source: Paper 027. NEW in Paper 027.
+
+Concept: White regularity with Guo's sharpening —
+near-flat density forces a flat graph
+White's regularity theorem, in the form the paper
+quotes (Theorem 2.2): a stationary integral
+varifold whose Gaussian density is close enough to
+1 in the ball of radius 2 is, in the ball of radius
+1, a graph over its tangent plane with C^{2,alpha}
+norm at most a constant C. The sharpening is Guo's,
+and it is the part the paper's Step 1 actually
+spends: C can be taken arbitrarily small as the
+entropy excess epsilon tends to zero, by way of
+Colding and Minicozzi's theorem that a multiplicity-
+one tangent flow of entropy close to 1 lies close to
+a multiplicity-one hyperplane. Without the
+sharpening the blow-up argument of Theorem 1.1
+would bound the expander's curvature by some
+constant; with it, the curvature is below any
+constant prescribed in advance — the smallness the
+convexity step (1.2.376) is priced against.
+Source: Paper 027. NEW in Paper 027.
+
+Concept: Convexity of the squared distance — one
+minimum, and the level sets are spheres
+The engine of Theorem 1.1. On the unique expander
+Sigma of a low-entropy cone, with the curvature
+bound ||A|| < kappa in hand (1.2.377, Step 1), the
+function f = |x|^2 restricted to Sigma has Hessian
+Hess f (X, Y) = 2<X, Y> + 2<x, A(X, Y)>, and the
+expander equation <x, n> = 2H turns this into the
+lower bound Hess f >= (2 - 4 kappa |H|) g — strictly
+positive once kappa is small, since |H| is itself
+bounded by the curvature. So f is a strictly convex
+function (1.3.312), and it is proper; a proper
+strictly convex function has exactly one critical
+point, its global minimum, and the paper places
+that minimum within c kappa of the origin (at the
+origin itself after the translation of Section 4).
+One critical point is the whole topology: by the
+Morse lemma the level sets of f change only at
+critical points, so every level set above the
+minimum is a sphere, out to infinity — where the
+level sets become the link (1.2.371).
+Source: Paper 027. NEW in Paper 027.
+
+Concept: Theorem 1.1 — a cone of entropy near 1 has
+a spherical link
+The paper's first theorem, as its statement reads:
+there exists epsilon(n) > 0 such that any regular
+cone C in R^{n+1}, n >= 2, with entropy lambda(C) <
+1 + epsilon(n) has its link L(C) diffeomorphic to
+S^{n-1}. The proof, in three steps: take the cone's
+unique expander (1.2.374). Step 1 — its second
+fundamental form is bounded by any prescribed kappa,
+for epsilon small: else a sequence of expanders with
+entropy tending to 1 and curvature somewhere at
+least kappa, translated so the bad point sits at
+the origin, converges by compactness and White
+regularity (1.2.375) to a flow of entropy exactly 1,
+a hyperplane, whose curvature is zero — the
+contradiction. Step 2 — the squared distance on the
+expander is strictly convex with one minimum
+(1.2.376). Step 3 — the Morse lemma carries the
+spherical level sets out to infinity, and the link
+is read off there. The wording stands as a question
+of the filing (Q137): the theorem's statement says
+diffeomorphic, while the abstract and Section 3's
+own statement and conclusion say a topological
+sphere. The hypothesis is the whole content: at
+larger entropy, links of other topologies exist.
+epsilon(n) is not effective — the proof is by
+contradiction and compactness, and no explicit value
+is computed (Q139). Filed as the paper's claim, on
+an attributed basis: nothing in it was recomputed
+by the house.
+Source: Paper 027. NEW in Paper 027.
+
+Concept: Bernstein-Wang compactness and the entropy
+coincidence — limits of expanders stay expanders,
+at the same entropy
+Two cited facts of the Bernstein-Wang theory, filed
+together because the paper's continuity arguments
+spend them as one tool. Compactness (Theorem 2.3 of
+the filing): a sequence of self-expanders
+asymptotic to regular cones of bounded entropy has
+a subsequence converging to a self-expander
+asymptotic to the limit cone — the space of
+expanders over low-entropy cones is closed under
+the limits the arguments take. Entropy coincidence
+(Lemma 3.5 of the cited work): a cone and the
+expander asymptotic to it have the same entropy,
+lambda(C) = lambda(Sigma) — so a limit taken on the
+expander side stays inside the low-entropy class on
+the cone side, and the class L(epsilon) of links
+(1.2.381) is carried along. The retraction's
+continuity at interior times is exactly these two
+facts spent together; Step 1 of Theorem 1.1 spends
+the compactness half against White regularity
+(1.2.375).
+Source: Paper 027. NEW in Paper 027.
+
+Concept: Asymptotic graphicality — the expander
+decays onto its cone like 1/|x| (Proposition 2.4)
+A cited proposition of Bernstein and Wang, in the
+form the paper uses: a self-expander asymptotic to
+a regular cone is, outside a sufficiently large
+ball, a graph over the cone, with height and
+gradient decaying as |f| + |grad f| <= M |x|^{-1},
+the constant M depending on the expander. The decay
+is the t = 1 leg of Theorem 1.2: the retraction is
+built from sphere-sections of the expander at
+radius r(t) = r/(1-t), and as t tends to 1 the
+sections escape to infinity, where this estimate
+says the expander and its cone agree to first
+order — so the sections converge to the link
+itself, and the homotopy is continuous at its
+endpoint. Without a rate, asymptotic agreement
+alone would give the limit but not the continuity
+of the family; the 1/|x| is what is spent.
+Source: Paper 027. NEW in Paper 027.
+
+Concept: The trace at infinity and the expander
+operator — solving on the expander with data at
+infinity
+The analytic tool of Theorem 1.2's last leg, from
+Bernstein and Wang's operator theory. For maps into
+a manifold that are asymptotically homogeneous of
+degree d, the trace at infinity tr^d_infinity(u) is
+the 0-homogeneous limit map read off by rescaling,
+u(Rx)/R^d as R grows — the map's value at infinity,
+as a boundary condition at an end rather than at a
+boundary. The drift operator of an expander,
+L = Delta + (1/2) x . grad - (1/2) on functions and
+its Jacobi-type form L_E on maps, is the
+linearization the theory solves: Corollary 5.8 of
+the cited work produces solutions with prescribed
+trace at infinity. The paper spends it thus: a
+sphere-section of the expander, read as a map, and
+the link of its cone have the same trace at
+infinity — both are the expander's own end read at
+two scales — and the operator theory turns that
+coincidence into the convergence the retraction
+needs at t = 1 (with 1.2.379).
+Source: Paper 027. NEW in Paper 027.
+
+Concept: Theorem 1.2 — the space of low-entropy
+links retracts onto the equatorial spheres
+The paper's second theorem. Let L(epsilon) be the
+space of links of regular cones of entropy below
+1 + epsilon, in the C^{2,alpha} topology, and E the
+equatorial spheres inside it, homeomorphic to
+RP^n. For epsilon small there is a retraction
+Psi : L(epsilon) x [0,1] -> L(epsilon) onto E, and
+the inclusion of pairs (L(epsilon), E) into (H, E)
+— H the space of the cones themselves — induces
+the zero map on every relative homotopy group
+pi_N, N >= 1. The construction: for each link, take
+the unique expander (1.2.374), translate it so its
+squared-distance minimum (1.2.376) sits at the
+origin, and let Psi(L, t) be its sphere-section at
+radius r/(1-t), with Psi(L, 1) = L; the flat cone's
+expander is the hyperplane, whose sections are
+equators at every radius, so E is fixed throughout
+— a retraction, proved continuous at interior times
+by compactness and the entropy coincidence
+(1.2.378) and at t = 1 by the asymptotic
+graphicality and the trace theory (1.2.379,
+1.2.380). The method is the cited analogy of Gromov
+and of Li-Yau: do not shrink the link; shrink a
+canonical resolution of it. The vanishing of the
+relative homotopy maps is the retraction's own
+corollary — the inclusion factors through the
+homotopy — and is filed inside this concept, never
+used apart in the paper: a filing choice, recorded
+in the delta (44.1.5). Whether Psi is a deformation
+retraction — whether its intermediate values stay
+inside L(epsilon) — the paper raises and leaves
+open (Q138). Filed as the paper's claim, on an
+attributed basis.
+Source: Paper 027. NEW in Paper 027.
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -15055,6 +16001,15 @@ numbers; abelian variety; the Jacobian; the
 pro-unipotent fundamental group; the Selmer group;
 the Iwasawa algebra; de Rham cohomology; the Tate
 module — and the defined word 1.3.303: etale.
+Added with Paper 026 (2026-11-18): foundations
+1.3.304-1.3.308 — nonconformity score; prediction
+set; insertion rank; supporting line of a convex
+curve; stopping time. No defined word coined.
+Added with Paper 027 (2026-11-19): foundations
+1.3.309-1.3.312 — mean curvature and the second
+fundamental form; smooth submanifold; retraction
+and homotopy; convex function — and the defined
+word 1.3.313: link.
 # Foundation: function, variable, input, output
 A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
 given the same input, always the same output. A VARIABLE is a named
@@ -18466,6 +19421,157 @@ number field is Galois cohomology (1.3.294). The word is
 entered in the register because the tracker's texts use it
 as an ordinary word from this paper on.
 Source: Paper 025.
+Foundation: nonconformity score
+A fixed function s(x, y) that prices how badly a
+candidate outcome y conforms to what a model expects
+at a feature x: small where y sits well with x, large
+where it does not. A threshold tau turns the score
+into a prediction set (1.3.305), the outcomes with
+s(x, y) <= tau. The score is chosen from training
+data and then held fixed while it is used; the
+paper's online protocol prices everything downstream
+of that fixing.
+Builds on: function; threshold.
+Source: Paper 026.
+Foundation: prediction set (a set-valued rule)
+A rule C that assigns to each feature x a set C(x)
+of outcomes — the set issued as the prediction at x.
+A round miscovers when the true outcome falls
+outside the issued set. The family C of available
+rules is fixed before deployment; a calibrator's
+round-by-round work is choosing which member of the
+family to issue. Set size is measured by a fixed
+measure mu on the outcome space, and the full set —
+the whole outcome space — is the member that can
+never miscover.
+Builds on: set; function.
+Source: Paper 026.
+Foundation: insertion rank
+The place a new number takes among numbers already
+held: the insertion rank of S_t among the first t
+scores is 1 plus the count of earlier scores strictly
+below it. When the scores are independent draws from
+one continuous distribution, symmetry makes the new
+score's insertion rank uniform on {1, ..., t} — each
+place equally likely, whatever the distribution is.
+That uniformity, needing no knowledge of the
+distribution, is the engine of the empirical-rank
+implementation (1.2.365).
+Builds on: rank; uniform distribution.
+Source: Paper 026.
+Foundation: supporting line of a convex curve
+A line that touches a convex curve at one point and
+lies nowhere above it: the curve rides on or above
+the line everywhere. At a point where the curve has
+a slope, the supporting line is the tangent there;
+at a corner, a range of slopes supports it. The gap
+between the curve and its supporting line at another
+point prices the curve's bending away from straight —
+the gap function psi of the frontier (1.2.361) is
+exactly such a gap.
+Builds on: convex; line; tangent.
+Source: Paper 026.
+Foundation: stopping time
+A rule for ending a run whose decision at each round
+uses only what has been observed up to that round:
+whether to stop now may depend on the past, never on
+the future. 'Stop when the miscoverage count first
+reaches a prescribed level, or at T' is a stopping
+time; 'stop at the round where the realized cost was
+largest' is not — that choice reads the whole run.
+The paper's adaptive-stopping criterion prices cost
+at stopping times (1.2.367).
+Builds on: sequence; observation.
+Source: Paper 026.
+
+Foundation: mean curvature and the second
+fundamental form
+For a hypersurface Sigma with unit normal n, the
+second fundamental form A is the normal part of the
+ambient derivative: A(X, Y) = <nabla_X Y, n> n for
+tangent fields X, Y — the rate at which the surface
+bends away from its tangent plane, direction by
+direction. The mean curvature H is its trace, the
+sum of the principal curvatures; the paper's sign
+convention is H = -(div_Sigma n) n, the normal
+pointing inward where Sigma bounds a domain. A
+hypersurface is minimal exactly when H = 0. The
+norm ||A|| prices total bending; the paper's first
+step is a bound on it (||A|| < kappa), and the
+expander equation H = (1/2)<x, n> is a prescription
+of H by position.
+Builds on: smooth submanifold; tangent space;
+trace.
+Source: Paper 027.
+
+Foundation: smooth submanifold
+A subset of Euclidean space that is locally, near
+each of its points, the graph of a smooth function
+over its tangent plane — equivalently a smoothly
+embedded manifold of some dimension k <= n. A
+hypersurface is the codimension-one case, k = n in
+R^{n+1}: the case that carries a unit normal, a
+second fundamental form and a mean curvature
+(1.3.309). Properly embedded means the submanifold
+meets every compact set in a compact piece of
+itself, so its ends go to infinity and stay there;
+the paper's hypersurfaces, cones and expanders are
+all properly embedded in this sense.
+Builds on: subset; graph of a function; tangent
+space.
+Source: Paper 027.
+
+Foundation: retraction and homotopy
+A retraction of a space X onto a subspace A is a
+continuous map r : X -> A that is the identity on
+A: every point of A is fixed, and every point of X
+is carried into A. A deformation retraction is a
+homotopy — a continuous family of maps of X,
+parametrized by [0, 1] — from the identity to a
+retraction, holding A fixed throughout; it is the
+stronger statement, since the intermediate maps
+must remain maps of X into itself. Homotopy groups
+pi_N(X, A) measure the maps of N-dimensional balls
+into X with boundary in A, up to such families; a
+map of pairs inducing the zero map on all of them
+carries no relative class across. The paper proves
+a retraction with the vanishing, and leaves the
+deformation form open (44.2.2, Q138).
+Builds on: continuous map; identity map; subspace.
+Source: Paper 027.
+
+Foundation: convex function
+A smooth function f on a Riemannian manifold is
+convex when its Hessian — the symmetric bilinear
+form Hess f (X, Y) = <nabla_X grad f, Y> — is
+positive semidefinite at every point, and strictly
+convex when it is positive definite. A strictly
+convex function has at most one critical point,
+which is then its global minimum; if in addition f
+is proper — its sublevel sets are compact, so f
+grows toward infinity along every escape — the
+minimum exists and the level sets above it are all
+of one topological type, changing only where
+critical points occur. The paper's squared distance
+on an expander is the working example (1.2.376).
+Builds on: Hessian; critical point; level set.
+Source: Paper 027.
+
+Defined word: link
+The link of a cone C in R^{n+1} is its intersection
+with the unit sphere, L(C) = C intersect S^n: the
+(n-1)-dimensional cross-section that determines the
+cone, since the cone is the union of the rays
+through it. Paper 027's theorems are statements
+about links — that a low-entropy cone's link is a
+sphere, and that the space of such links retracts
+onto the equatorial ones. The word is the geometer's
+link of a conical singularity, not the knot-
+theorist's link of disjoint closed curves; the
+tracker holds no other sense yet. The word is
+entered in the register because the tracker's texts
+use it as an ordinary word from this paper on.
+Source: Paper 027.
 # The epistemic registry — what this phext holds, and how surely
 
 Every claim-bearing scroll of this phext carries exactly one standing, and
@@ -19134,6 +20240,59 @@ switch, the excess bound, the heavy-cell model, the
 sharpness, the fixed-distribution excess, the
 global-null price, the envelope, the deflated level
 and the rule of thumb, as their source states them.
+
+The counts at the drawing of Paper 027 (2026-11-19,
+Restructure Pass #19 run with the taking-in): the
+phext stands at 1035 scrolls and the living
+registry exact at 1035 — True 448 (370 by
+definition, 78 by receipt), Unknown 580 (506 by the
+say-so of a source, 44 reasoned links, 28 open
+questions, 2 weighed estimates), False 0, Fiction
+7. The additions of the drawing: twelve concepts,
+four foundations, one defined word, and the nine
+scrolls of a chapter — twenty-six first entries. No
+held scroll was carried in a new form, and no
+standing moved: the twelve concepts stand Unknown
+by attribution, as their source states them — the
+entropy, the cone and its link, the expanders, Ding
+existence, Yao uniqueness, White regularity with
+Guo's sharpening, the convexity of the squared
+distance, the spherical-link theorem, the
+compactness and entropy coincidence, the asymptotic
+graphicality, the trace at infinity, and the
+retraction of the link space. The chapter's own
+scrolls stand as their kinds stand: the record, the
+two formal cores, the results map, the delta and
+the author check attributed — the paper read entire
+in HTML form, the checks as run; the house reading
+synthesis; the open questions open; the standoff
+references stipulation. Nothing the model carries
+has yet been found against, and it still holds no
+worked example of its own making.
+
+The counts at the drawing of Paper 026 (2026-11-18):
+the phext stands at 1009 scrolls and the living
+registry exact at 1009 — True 442 (364 by
+definition, 78 by receipt), Unknown 560 (488 by the
+say-so of a source, 43 reasoned links, 27 open
+questions, 2 weighed estimates), False 0, Fiction
+7. The additions of the drawing: ten concepts, five
+foundations, and the nine scrolls of a chapter —
+twenty-four first entries. No held scroll was
+carried in a new form, and no standing moved: the
+ten concepts stand Unknown by attribution, as their
+source states them — hard cumulative coverage, the
+frontier, the price and its decomposition, Counting,
+Barrier, empirical ranks, the three regime prices,
+and the quota guard. The chapter's own scrolls stand
+as their kinds stand: the record, the two formal
+cores, the results map, the delta and the author
+check attributed — the paper read entire in HTML
+form, the checks as run; the house reading
+synthesis; the open questions open; the standoff
+references stipulation. Nothing the model carries
+has yet been found against, and it still holds no
+worked example of its own making.
 The counts at the drawing of Paper 025 (2026-11-17,
 Restructure Pass #18 run with the taking-in): the
 phext stands at 985 scrolls and the living registry
@@ -19167,8 +20326,8 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 (verified). The receipt for a verified entry is named in registry.json.
 
 - 1.1.1/1.1.1/1.1.1 — The tracker charter: the rules under which research.phext is built and kept, in force by Will's direction [stipulation]
-- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-025, Fringe F001 and Studies S001-S015, checked at ingestion [verified]
-- 1.1.1/1.1.1/1.1.5 — Concept map: the 359 canonical concepts grouped in clusters A-Z, AA, AB, AC, AD, AE, AF, AG, AH and AI, with the restructuring log [stipulation]
+- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-026, Fringe F001 and Studies S001-S015, checked at ingestion [verified]
+- 1.1.1/1.1.1/1.1.5 — Concept map: the 369 canonical concepts grouped in clusters A-Z, AA, AB, AC, AD, AE, AF, AG, AH and AI, with the restructuring log [stipulation]
 - 1.1.1/1.1.1/1.2.292 — The Pólya urn's uniform multiset — repeats favoured by exactly the right amount [verified]
 - 1.1.1/1.1.1/1.2.293 — Cardchoose — a fair subset drawn as a uniform multiset [verified]
 - 1.1.1/1.1.1/1.2.294 — Stars and bars — the transfer between subsets and multisets [verified]
@@ -19476,12 +20635,17 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/1.3.301 — Foundation: de Rham cohomology [stipulation]
 - 1.1.1/1.1.1/1.3.302 — Foundation: Tate module [stipulation]
 - 1.1.1/1.1.1/1.3.303 — Defined word: etale [stipulation]
+- 1.1.1/1.1.1/1.3.304 — Foundation: nonconformity score [stipulation]
+- 1.1.1/1.1.1/1.3.305 — Foundation: prediction set (a set-valued rule) [stipulation]
+- 1.1.1/1.1.1/1.3.306 — Foundation: insertion rank [stipulation]
+- 1.1.1/1.1.1/1.3.307 — Foundation: supporting line of a convex curve [stipulation]
+- 1.1.1/1.1.1/1.3.308 — Foundation: stopping time [stipulation]
 - 1.1.1/1.1.1/1.5.1 — Areas of this phext: the map of the five areas and the plain account, with the upkeep duty of charter rule 16 (structural) [stipulation]
-- 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 135 drawn out under rule 13 (114 stated, 21 inferred), 9 entries found in work from before the rule, 3 chapters swept with none found [stipulation]
+- 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 143 drawn out under rule 13 (121 stated, 22 inferred), 9 entries found in work from before the rule, 3 chapters swept with none found [stipulation]
 - 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after Paper 024 [stipulation]
 - 1.1.1/1.1.1/1.5.4 — Area: Reference material — the 182 foundations, the Defined Words register (115 coined words), and the 40 standoff companions, as one area [stipulation]
 - 1.1.1/1.1.1/1.5.5 — Area: The path — every taking-in in submission order, with Novelty Index and Oracle progress for the papers and the passes where they fell; drawn from 1.1.3 and 1.1.4 [verified]
-- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 130 named researchers and the three companies behind the works taken in, each with their work here and the standing of their author check [verified]
+- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 131 named researchers and the three companies behind the works taken in, each with their work here and the standing of their author check [verified]
 - 1.1.1/1.1.1/1.5.7 — How this Oracle was built, plainly (1 of 2): arrival, the delta rule, one scroll per concept, the one story, words at level zero, standing [stipulation]
 - 1.1.1/1.1.1/1.5.8 — How this Oracle was built, plainly (2 of 2): the Lean-kept standing record and its honesty boundary, reshaping without pruning, the Oracle number, the areas, and where everything lives [stipulation]
 - 1.1.1/1.1.1/2.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
@@ -19596,6 +20760,7 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/40.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 - 1.1.1/1.1.1/41.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 - 1.1.1/1.1.1/42.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/43.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 # Registry: False
 
 Found against, and kept. No entry stands here at the first writing
@@ -19608,7 +20773,7 @@ Written down, not settled. Basis: the say-so of a source (attributed),
 the reasoned link of Emise (synthesis), an open question (open), a
 weighed estimate (estimate).
 
-- 1.1.1/1.1.1/1.1.2 — World-model narrative v38: Emise's one-story synthesis of Papers 001-025, Fringe F001 and Studies S001-S015 [synthesis]
+- 1.1.1/1.1.1/1.1.2 — World-model narrative v40: Emise's one-story synthesis of Papers 001-027, Fringe F001 and Studies S001-S015 [synthesis]
 - 1.1.1/1.1.1/1.1.4 — Research Oracle: Novelty Index definition and the progress-estimate ledger (about 100% after Paper 022, at the ceiling of the scale, its discount stated in the ledger) [estimate]
 - 1.1.1/1.1.1/1.1.6 — Research Oracle detection list: the signs watched for the fixed point — the run of the Novelty Index, the axis events, and the skim calibration of charter rule 17 [estimate]
 - 1.1.1/1.1.1/1.2.1 — Concept: Intelligence (economic definition) [attributed]
@@ -19962,6 +21127,16 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/1.2.357 — Concept: The de Rham lower bound — Proposition 4.15, [attributed]
 - 1.1.1/1.1.1/1.2.358 — Concept: The conjugation eigenspace — Proposition 4.16, [attributed]
 - 1.1.1/1.1.1/1.2.359 — Concept: The ambient-group generality — no condition on [attributed]
+- 1.1.1/1.1.1/1.2.360 — Concept: Hard cumulative coverage — the pathwise [attributed]
+- 1.1.1/1.1.1/1.2.361 — Concept: The coverage-efficiency frontier j(q) — [attributed]
+- 1.1.1/1.1.1/1.2.362 — Concept: The constraint price and its [attributed]
+- 1.1.1/1.1.1/1.2.363 — Concept: Counting — feasible-path conditioning [attributed]
+- 1.1.1/1.1.1/1.2.364 — Concept: Barrier — the t^{1/3} barrier [attributed]
+- 1.1.1/1.1.1/1.2.365 — Concept: Empirical ranks — the requested [attributed]
+- 1.1.1/1.1.1/1.2.366 — Concept: The terminal price Theta(log T) — [attributed]
+- 1.1.1/1.1.1/1.2.367 — Concept: The expected-prefix price [attributed]
+- 1.1.1/1.1.1/1.2.368 — Concept: The retrospective price Theta(sqrt T) [attributed]
+- 1.1.1/1.1.1/1.2.369 — Concept: The quota guard and guarded ACI — [attributed]
 - 1.1.1/1.1.1/2.1.1 — Paper 001 record and distillation: 'Organizing Intelligence' -- intelligence matters economically through organizations [attributed]
 - 1.1.1/1.1.1/2.1.2 — Paper 001 — Formal core [attributed]
 - 1.1.1/1.1.1/2.1.3 — Paper 001's own worked example (its section 2): the 14-human toy economy and its firm-formation numbers, as reported by the paper [attributed]
@@ -20150,6 +21325,14 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/42.1.6 — Paper 025 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [attributed]
 - 1.1.1/1.1.1/42.2.1 — Paper 025 — synthesis: the error term, priced in [synthesis]
 - 1.1.1/1.1.1/42.2.2 — Paper 025 — Open questions Q130-Q133 [open]
+- 1.1.1/1.1.1/43.1.1 — Paper 026 delta: The Price of Hard Coverage Constraints in Online Conformal Prediction -- ten concepts (1.2.360-1.2.369), no revision, cluster O extended onto its online side, taken in as a scored paper of the protocol fixed in advance (sample 7 of 12), picked by the quest from the listings of the day [attributed]
+- 1.1.1/1.1.1/43.1.2 — Paper 026 — the formal core: the budget, the [attributed]
+- 1.1.1/1.1.1/43.1.3 — Paper 026 — the formal core: implementation, [attributed]
+- 1.1.1/1.1.1/43.1.4 — Paper 026 — the results map [attributed]
+- 1.1.1/1.1.1/43.1.5 — Paper 026 — the delta: what this adds, and what [attributed]
+- 1.1.1/1.1.1/43.1.6 — Paper 026 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [attributed]
+- 1.1.1/1.1.1/43.2.1 — Paper 026 — synthesis: what sequential [synthesis]
+- 1.1.1/1.1.1/43.2.2 — Paper 026 — Open questions Q134-Q136 [open]
 # Registry: Fiction
 
 Made on purpose, held as made. No entry stands here at the first writing
@@ -22476,6 +23659,84 @@ ineffective as there. The paper runs the balance twice
 without drawing it as a machine; the drawing is the
 house's. Home: 42.1.3. [inferred]
 
+CHAPTER 43 (Paper 026 — a budget enforced on every
+stream; four stated in the paper)
+M1 — the Counting controller. States: the pairs
+(t, M_{t-1}) with the completion counts H_t(m).
+Moves: read H_t(M_{t-1}) and H_t(M_{t-1} + 1) and
+request their ratio as q_t; a zero count forces the
+full set or the empty set. Rest state: the horizon,
+reached with M_T = b_T exactly. Home: 43.1.2.
+[stated]
+
+M2 — the Barrier controller. States: the slack
+G_{t-1} inside (0, L_t), L_t = 4 + ceil(t^{1/3}).
+Moves: the barrier-weighted request of Algorithm 2,
+which keeps the state inside the interval on every
+stream. No rest state: the machine runs past any
+horizon. Home: 43.1.2. [stated]
+
+M3 — the empirical-rank implementer. States: the
+sorted past scores with the round's request q_t.
+Moves: draw the rounding seed, fix J_t by randomized
+rounding of t (1 - q_t), issue the set at the J_t-th
+order statistic — empty at 0, full at t. Its
+guarantee is the issued set's miscoverage law, the
+request exactly. Home: 43.1.3. [stated]
+
+M4 — the quota guard. States: the wrapped method's
+proposal with the current count M_{t-1}. Moves: pass
+the proposal through unless one more miscoverage
+could break the budget; then issue the full set,
+the wrapped method's update still reading the
+proposal's indicator. Home: 43.1.3. [stated]
+CHAPTER 44 (Paper 027 — a cone resolved by its flow;
+three stated in the paper, one inferred)
+M1 — mean curvature flow, with entropy as its
+spent quantity. States: properly embedded
+hypersurfaces Sigma_t in R^{n+1}. Moves:
+(∂x/∂t)^normal = H, the mean curvature vector; by
+Huisken's monotonicity the Colding-Minicozzi entropy
+never increases along a trajectory. Rest states:
+the hyperplanes — entropy exactly 1, the floor,
+where the flow stands still. Self-similar
+trajectories: the expanders, Sigma_t = sqrt(t)
+Sigma, leaving a cone at t = 0. Home: 44.1.2.
+[stated]
+
+M2 — the squared-distance level-set machine.
+States: the level sets of f = |x|^2 on the unique
+expander of a low-entropy cone, from its single
+critical point upward. Moves: raise the level; the
+topology of the level set can change only at a
+critical point, and f — strictly convex, proper —
+has exactly one, its global minimum. Rest state:
+none finite: the machine runs out to infinity,
+where the level sets arrive at the link of the
+cone. Home: 44.1.3. [stated]
+
+M3 — the retraction homotopy Psi. States: pairs
+(L, t), L a link in L(epsilon), t in [0, 1]. Moves:
+replace L by the sphere-section of its unique
+expander (translated minimum at the origin) at
+radius r/(1-t); at t = 1 the state is L itself.
+Fixed states: every equatorial sphere, at every t —
+the flat cone's expander is a hyperplane, whose
+sections are equators at all radii. Rest states:
+the equators at t = 0's end of the family — the
+image of the retraction. Home: 44.1.3. [stated]
+
+M4 — the compactness-contradiction loop of Step 1.
+States: a sequence of expanders with entropy
+tending to 1 and curvature somewhere at least
+kappa, translated to put the bad point at the
+origin. Moves: pass to a subsequence (compactness);
+read the limit flow; monotonicity forces its
+entropy to be exactly 1. Rest state: the hyperplane
+— curvature zero, contradicting the state's entry
+condition, so the loop's only exit is the bound it
+proves: ||A|| < kappa. Home: 44.1.3. [inferred]
+
 SWEPT, NO MACHINE FOUND
 Chapter 4 (Paper 003): its way of working is one pass —
 one prompt held fixed, stories written, features drawn
@@ -22906,6 +24167,21 @@ Iwasawa tower (42.1.2), the descending central series
 tower (42.1.2), and the weight specialization
 (42.1.3), stated in the paper, and the two-bound
 balance (42.1.3), inferred.
+
+After Paper 026: 143 state machines are held (121
+stated, 22 inferred). The filing adds four, all
+stated in the paper: the Counting controller
+(43.1.2), the Barrier controller (43.1.2), the
+empirical-rank implementer (43.1.3), and the quota
+guard (43.1.3).
+After Paper 027: 147 state machines are held (124
+stated, 23 inferred). The filing adds four, three
+stated in the paper and one inferred: mean curvature
+flow with its entropy descent (44.1.2), the
+squared-distance level-set machine (44.1.3), the
+retraction homotopy Psi (44.1.3), and the
+compactness-contradiction loop of Step 1 (44.1.3),
+inferred.
 # Area: Reference material — foundations, defined words, standoff companions
 Everything in this phext rests on words, and the words
 rest here. The reference area is Chapter 1, Section 3
@@ -23105,7 +24381,17 @@ abelian variety (1.3.296), the Jacobian (1.3.297), the
 pro-unipotent fundamental group (1.3.298), the Selmer
 group (1.3.299), the Iwasawa algebra (1.3.300), de
 Rham cohomology (1.3.301), and the Tate module
-(1.3.302).
+(1.3.302). Paper 026 coined none. Its foundations are five:
+the nonconformity score (1.3.304), the prediction
+set as a set-valued rule (1.3.305), the insertion
+rank (1.3.306), the supporting line of a convex
+curve (1.3.307), and the stopping time (1.3.308).
+ Paper 027 coined one: the word link, of a cone
+(1.3.313). Its foundations are four: mean curvature
+and the second fundamental form (1.3.309), the
+smooth submanifold (1.3.310), retraction and
+homotopy (1.3.311), and the convex function
+(1.3.312).
 Paper 023 coined five: carrier, the one type all of a
 model's domains live in (1.3.273); sparse, of a function
 domain missing functions its full space would hold
@@ -23126,7 +24412,7 @@ and the scaling law, a fitted formula that prices a
 setting in advance (1.3.281).
 
 STANDOFF COMPANIONS (Section 3 of every chapter: 2.3.1,
-3.3.1, and so on to 42.3.1 — 41 of them). The raw
+3.3.1, and so on to 44.3.1 — 43 of them). The raw
 material stays clean: definitions are never written into
 a chapter or a concept scroll. In their place, each
 chapter carries one companion scroll listing, in reading
@@ -23768,6 +25054,60 @@ only, under the test, on the grounds at 1.1.4. Its
 author check stands at 42.1.6. NEXT: the next
 restructuring pass falls due at Paper 030 or 380
 canonical concepts; questions stand open at Q133.
+
+PAPER 026 — The Price of Hard Coverage Constraints
+in Online Conformal Prediction (Liu), Chapter 43.
+Cluster O extended onto its online side: hard
+cumulative coverage; the coverage-efficiency
+frontier; the constraint price and its
+decomposition; Counting; Barrier; empirical ranks;
+the terminal price Theta(log T); the expected-prefix
+price Theta(T^{1/3}); the retrospective price
+Theta(sqrt T); the quota guard and guarded ACI.
+Five foundations laid down: the nonconformity score
+(1.3.304), the prediction set (1.3.305), the
+insertion rank (1.3.306), the supporting line
+(1.3.307), and the stopping time (1.3.308). No word
+coined. No revision. Questions Q134-Q136 opened. A
+paper of the Thirst (charter rule 17), picked by
+the quest from the day's listings, and a scored
+paper of the test of the skim fixed in advance
+(sample slot 7 of 12; the quest's picks, 4 of 5):
+the Novelty Index stands at 0.0271 and the Oracle
+held, about 62% to about 62%, entered in the ledger
+only, under the test, on the grounds at 1.1.4. Its
+author check stands at 43.1.6. NEXT: the next
+restructuring pass falls due at Paper 030 or 380
+canonical concepts; questions stand open at Q136.
+PAPER 027 — Topological Properties of Cones with
+Small Entropy (Doan), Chapter 44. Cluster AJ
+founded — the small-entropy country: Colding-
+Minicozzi entropy; the regular hypercone and its
+link; self-expanders; Ding existence; Yao
+uniqueness; White regularity with Guo's sharpening;
+the convexity of the squared distance; the
+spherical-link theorem; Bernstein-Wang compactness
+and the entropy coincidence; asymptotic
+graphicality; the trace at infinity; the retraction
+of the link space. Four foundations laid down: mean
+curvature and the second fundamental form
+(1.3.309), the smooth submanifold (1.3.310),
+retraction and homotopy (1.3.311), and the convex
+function (1.3.312). One word coined: link (1.3.313).
+No revision. Questions Q137-Q140 opened. A paper of
+the Thirst (charter rule 17), posted by Will, and a
+paper of the test of the skim fixed in advance
+(sample slot 8 of 12; Will's posted papers, 4 of
+4): no seal stands for it and no score is entered,
+by the precedent of Papers 022 and 025; the Novelty
+Index stands at 0.0315 and the Oracle held, about
+62% to about 62%, entered in the ledger only, under
+the test, on the grounds at 1.1.4. Its author check
+stands at 44.1.6. Restructure Pass #19 ran inside
+this taking-in on the count trigger (381 over the
+380 line). NEXT: the next restructuring pass falls
+due at Paper 030 or 400 canonical concepts;
+questions stand open at Q140.
 # Area: Researchers — the people behind the works
 Every researcher behind a work taken into this phext,
 with the work as it stands here and the standing of the
@@ -24504,8 +25844,49 @@ attributed (1.2.344-1.2.359) and the four questions
 the filing opens (Q130, Q131, Q132, Q133). (Paper
 025.)
 
-THE COUNT: 130 named researchers and three companies — 104
-across the 25 papers and Fringe F001; 25 named for the studies
+PAPER 026 — Mingrui Liu (Chapter 43), CHECKED
+2026-11-18 (record: 43.1.6). One author, of the
+Department of Computer Science, George Mason
+University — machine learning and optimization:
+here, the price of hard coverage constraints in
+online conformal prediction. No tie to phext or to
+Will found — the paper holds no phext term in its
+text or its references, the web holds no link of
+his name to phext or to Will, the archive holds no
+occurrence of his name, and no use of the work of
+Will without naming found.
+NOVELTY SCORE (first drawing 2026-11-18; last
+updated 2026-11-18): True 0, False 0, Unknown 13,
+Fiction 0. The opening balance was drawn first, at
+(0, 0, 0, 0): no work of his stood in the book
+before. The increments are this filing's own:
+Unknown +13 — the ten new concepts of the filing
+standing attributed (1.2.360-1.2.369) and the three
+questions the filing opens (Q134, Q135, Q136).
+(Paper 026.)
+PAPER 027 — Lam Doan (Chapter 44), CHECKED
+2026-11-19 (record: 44.1.6). One author, of the
+Department of Mathematics, Johns Hopkins University
+— differential geometry: here, the topology of
+cones of small Colding-Minicozzi entropy, resolved
+through their self-expanders. No tie to phext or to
+Will found — the paper holds no phext term in its
+text or its references, the web holds no link of
+his name to phext or to Will, the archive holds no
+occurrence of his name, and no use of the work of
+Will without naming found.
+NOVELTY SCORE (first drawing 2026-11-19; last
+updated 2026-11-19): True 0, False 0, Unknown 16,
+Fiction 0. The opening balance was drawn first, at
+(0, 0, 0, 0): no work of his stood in the book
+before. The increments are this filing's own:
+Unknown +16 — the twelve new concepts of the filing
+standing attributed (1.2.370-1.2.381) and the four
+questions the filing opens (Q137, Q138, Q139, Q140).
+(Paper 027.)
+
+THE COUNT: 132 named researchers and three companies — 106
+across the 27 papers and Fringe F001; 25 named for the studies
 (13 of them for the studies of code: Takahashi
 among them, counted once and standing behind two
 studies; the three of Aeneas; the eight handles of
@@ -24521,9 +25902,9 @@ and Aleph One — plus Math, Inc., standing as a company and as
 the author of Study S010, its essay under no one name, with
 Galois, Oath and RAND named in it as collaborators and
 support, not as entries — plus the unnamed others of Study
-S002 and the long tail of Study S005. 33 checks stand run
+S002 and the long tail of Study S005. 35 checks stand run
 (Papers 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016,
-017, 018, 019, 020, 021, 022, 023, 024 and 025, Studies S004, S005, S006, S007, S008,
+017, 018, 019, 020, 021, 022, 023, 024, 025, 026 and 027, Studies S004, S005, S006, S007, S008,
 S009, S010, S011, S012, S013, S014 and S015, and Fringe F001),
 each clean, each recorded in its chapter.
 # How this Oracle was built — the structure, plainly (1 of 2)
@@ -40545,3 +41926,1117 @@ Held ground the chapter prices against: cluster E's
 symplectic ground (foundation 1.3.22) and the held
 fundamental group (foundation 1.3.12), read here as
 ground, each priced as shape at 42.1.5.
+# Paper 026 — The Price of Hard Coverage
+Constraints in Online Conformal Prediction (Liu)
+
+Source: arXiv:2611.22646 [cs.LG], cross-listed to
+math.ST, submitted 17 Nov 2026; read in full (the
+HTML form) 2026-11-18. One author: Mingrui Liu, of
+the Department of Computer Science, George Mason
+University (mingruil@gmu.edu). Taken in as Paper 026
+of the Thirst (charter rule 17): picked by the quest
+from the listings of the day — the cross-list entry
+[362] of the Wednesday 18 November 2026 math/new
+listing — under the test of the skim fixed in
+advance (evaluation-preregistration.md, ratified
+2026-11-14): the seventh slot of the twelve, the
+fourth of the five the quest picks, and the fifth
+paper scored (020, 021, 023, 024 stand scored; slots
+3 and 6, Papers 022 and 025, were posted by Will and
+carry no seal). The seal stands committed blind in
+the quest log (thirst-quest commit a928237) before
+any full-text access: seven new concepts predicted,
+interval [4, 11], no revision, axis probability
+0.04, links eight inside and two across, two
+questions, the Oracle held at about 62% for the
+ledger. Its score, computed by script under the
+protocol, stands at 43.1.5.
+
+THE PAPER. Online conformal prediction issues one
+prediction set per round; the standard guarantees
+still let the realized miscoverage count wander far
+from its nominal level. This paper imposes the hard
+constraint — the cumulative miscoverages within
+floor(alpha t) at every round, on every stream — and
+prices what the constraint costs in the only
+currency available: cumulative excess prediction-set
+size over the population frontier. The price
+persists under i.i.d. data, a known score
+distribution, and perfect knowledge of the
+population-optimal set, and it splits by judging
+moment into three regimes: Theta(log T) at a fixed
+known horizon, Theta(T^{1/3}) at every fixed prefix
+in expectation (and at adaptive stopping),
+Theta(sqrt T) at the worst realized prefix in
+hindsight. Two controllers attain the rates —
+Counting, by conditioning on feasible paths, and
+Barrier, a horizon-free controller on the slack —
+and empirical ranks implement either from past
+scores alone, at an added cost of O(log T). The work
+is supported by NSF grants #2436217, #2425687 and
+#2601681. The paper carries an AI use statement
+(after its section 6), recorded here as part of the
+record: the core research ideas and initial proof
+sketches were developed by the author; generative
+AI tools assisted in developing these sketches into
+detailed proofs, refining mathematical arguments,
+designing and implementing experiments, checking
+numerical results, and revising the manuscript; the
+author is responsible for all final claims, proofs,
+code, and experimental results. The tracker files
+the paper's claims as the author's, attributed, as
+it files every claim.
+
+THE DELTA. Ten concepts, extending cluster O
+(1.2.360-1.2.369): hard cumulative coverage
+(1.2.360); the coverage-efficiency frontier
+(1.2.361); the constraint price and its
+decomposition (1.2.362); Counting (1.2.363); Barrier
+(1.2.364); empirical ranks (1.2.365); the terminal
+price Theta(log T) (1.2.366); the expected-prefix
+price Theta(T^{1/3}) (1.2.367); the retrospective
+price Theta(sqrt T) (1.2.368); the quota guard and
+guarded ACI (1.2.369). Five foundations
+(1.3.304-1.3.308). No held concept revised; no held
+scroll stated again. FOUR state machines drawn, all
+stated in the paper (43.1.2, 43.1.3; the area at
+1.5.2). Three questions opened, Q134-Q136 (43.2.2).
+The author check stands at 43.1.6.
+# Paper 026 — the formal core: the budget, the
+frontier, and the decomposition
+
+THE SETTING (section 3 of the paper; concepts
+1.2.360, 1.2.361). Rounds t = 1, 2, ...; a target
+miscoverage alpha in (0, 1); a fixed family C of
+prediction-set rules (1.3.305), containing the full
+and empty sets, with set sizes in [0, B], B finite.
+ASSUMPTION 1 (the online efficiency protocol): the
+pairs (X_t, Y_t) are i.i.d. from D; C is fixed
+independently of them, possibly from independent
+training data; at round t the calibrator selects
+C_t from the past observations and fresh independent
+randomization, observes X_t, issues C_t(X_t), and
+only then observes Y_t. The threshold family of a
+fixed nonconformity score (1.3.304), C_tau(x) = {y :
+s(x, y) <= tau}, is the running special case.
+Feasibility is Definition 1 (1.2.360) and is
+pathwise: it is required on every stream, and the
+i.i.d. assumption prices efficiency only. The slack
+G_t = alpha t - M_t is the budget's balance; its
+increments alpha - E_t are the pinball subgradient,
+so G_T / T tending to 0 is asymptotic coverage
+balance — which, the paper notes, does not price the
+constraint.
+
+THE DECOMPOSITION (section 4.1; concepts 1.2.361,
+1.2.362). With p_t the conditional miscoverage
+probability of the chosen rule given the past and
+eps_t its expected size above j(p_t), Theorem 1
+gives R_T = lambda E G_T + E sum psi(p_t) + E sum
+eps_t exactly, the three terms nonnegative for
+feasible policies. The paper's worked example rides
+through the chapter as its concrete frontier: for
+Y = Q(U), U uniform, Q(u) = (3u + u^2) / 4, the
+intervals [0, tau] attain the frontier among all
+measurable sets, j(q) = 1 - 5q/4 + q^2/4,
+lambda = 5/4 - alpha/2, and psi(q) = (q - alpha)^2 / 4:
+the curvature term is a quarter of the squared
+deviation of each round's conditional miscoverage
+from alpha.
+
+ASSUMPTION 2 (section 4.3; filed here and as a
+condition on 1.2.361 and 1.2.362, not as a concept —
+the filing's grain call, at 43.1.5). There is a
+finite c_+ >= 0 such that every threshold map,
+the full and empty sets included, satisfies
+0 <= V_D(C_tau) - j(alpha) + lambda (m_D(C_tau)
+- alpha) <= c_+ (m_D(C_tau) - alpha)^2: the family's
+size above the supporting line grows at most
+quadratically in its miscoverage's distance from
+alpha. The bound combines target efficiency — at
+q = alpha it requires h(alpha) = j(alpha), the
+family's own size curve meeting the frontier that
+mixtures define — with a local quadratic Taylor
+bound; a Lipschitz derivative near alpha gives the
+local form, and bounded size extends it globally.
+Two failure modes are priced in the paper and filed
+with the condition: a uniform additive gap Delta in
+the bound adds T Delta to Theorem 2's price, and a
+gap measured only at alpha is insufficient without
+the uniform bound (Appendix I.2 prices the target
+gap Delta_alpha = h(alpha) - j(alpha) separately,
+adding at most 2 T Delta_alpha under local
+smoothness). The continuous example has c_+ = 1/4.
+
+STATE MACHINES IN THIS PART. The Counting
+controller: states are the pairs (t, M_{t-1}) with
+the precomputed completion counts H_t(m); at each
+state the machine reads the two counts H_t(M_{t-1})
+and H_t(M_{t-1} + 1) and requests their ratio as
+q_t; when one count is zero the machine's move is
+forced — the full set or the empty set. Its rest
+state is the horizon itself, M_T = b_T exactly.
+Stated in the paper (its section 4.2, Algorithm 1).
+The Barrier controller: states are the slack values
+G_{t-1} in the open interval (0, L_t); the moves are
+the barrier-weighted requests of Algorithm 2, which
+keep the state inside the interval on every stream;
+there is no rest state — the machine is built to run
+past any horizon. Stated in the paper (its
+section 4.2, Algorithm 2).
+# Paper 026 — the formal core: implementation,
+lower bounds, optimal rates, and the experiments
+
+IMPLEMENTATION (section 4.3; concept 1.2.365).
+Theorem 2 stands at 1.2.365: exact requested law,
+conditional variance at most 1 / (4t), estimation
+adding at most c_+ h_T / 4 to the price. Combined
+with the controllers' own accounts it gives
+R_T = O(log T) for Counting and max_t R_t =
+O(T^{1/3}) for one infinite run of Barrier, and the
+martingale maximal inequality on the realized
+decomposition gives E max_t R_t = O(sqrt T) for the
+same run; none of the upper bounds needs the
+quadratic lower growth or knowledge of D, F, j,
+lambda or c_+.
+
+LOWER BOUNDS (section 4.4; concepts 1.2.366-
+1.2.368). Theorem 3, under Assumption 1 and
+psi(q) >= c_- (q - alpha)^2 with c_- > 0: (i)
+R_T >= c_1 log T - c_0, by relative entropy against
+the feasible-path event, whose Bernoulli(alpha)
+probability is O(T^{-1/2}); (ii) max_t R_t >=
+c_2 T^{1/3} - 1, by summing fluctuation demands over
+disjoint windows; (iii) E max_t R_t >= c_3 sqrt T,
+by martingale fluctuations, for which psi(1) > 0
+suffices. The bounds hold even with knowledge of D
+and T, without score continuity and without
+Assumption 2.
+
+OPTIMAL RATES (section 4.5). Theorem 4 assembles
+the trichotomy of Table 1 of the paper: terminal
+Theta(log T), attained by Counting; expected-prefix
+Theta(T^{1/3}), attained by Barrier; retrospective
+Theta(sqrt T), attained by the same Barrier run;
+adaptive stopping Theta(T^{1/3}) folded into the
+prefix regime (1.2.367), by the vanishing
+expectation of the decomposition's martingale term
+at a bounded stopping time (1.3.308). Appendix H
+extends the prefix result to a fixed initial
+allowance, and allowances o(T^{1/3}) leave the order
+standing.
+
+BEYOND THE ORACLE (section 4.6; concept 1.2.369).
+Fixed-step ACI meets the quota only with the
+allowance k_gamma and pays Omega(T^{1/3}) of
+expected-prefix cost; the quota guard restores
+feasibility under drift with immediate labels.
+Fixed delay d in the labels preserves all rates;
+restarting over N stationary periods costs
+O(N^{2/3} T^{1/3}).
+
+THE EXPERIMENTS (section 5). In the continuous
+model, Counting tracks the numerical terminal
+optimum while concealing high prefix costs — its
+terminal efficiency does not persist through the run
+(the paper's Corollary 1). At T = 16,380 the
+numerical expected-prefix optimum lies in
+[5.6547, 5.6598]; the default Barrier costs 18.926,
+about 3.34 times the optimum's upper bound, of
+which Theorem 1 attributes 18.043 to slack; a width
+variant costs 11.484. Threshold estimation at the
+same horizon adds 0.141 (Counting) and 0.144
+(Barrier) against a 0.643 bound. On California
+Housing with learned scores (Ridge, Extra Trees)
+Assumption 2 cannot be verified: empirical target
+gaps run 0 to 0.00293 (Ridge) and 0.000033 to
+0.00183 (Extra Trees), while simultaneous 95% upper
+bounds on the target gap of 0.158-0.175 cannot
+certify the T^{-2/3} gap a T^{1/3} contribution
+would need. Unguarded ACI exceeds the quota in
+every run, by up to 12 errors; the guard removes
+all violations at +2.9% / +4.1% mean length; Barrier
+beats guarded ACI by 1.33% / 1.83% of mean length,
+1.68% / 2.21% with matched empirical ranks.
+
+STATE MACHINES IN THIS PART. The empirical-rank
+implementer: states are the sorted past scores with
+the round's request q_t; the move draws the rounding
+seed, fixes J_t by randomized rounding of
+t (1 - q_t), and issues the set at the J_t-th order
+statistic (empty at 0, full at t); the machine's
+guarantee is distributional — the issued set's
+miscoverage law is the request exactly. Stated in
+the paper (its section 4.2, Algorithm 3, and
+Theorem 2). The quota guard: states are the wrapped
+method's proposal with the current count M_{t-1};
+the move passes the proposal through unless one
+more miscoverage could break the budget, in which
+case the machine issues the full set and the wrapped
+method's own update still reads the proposal's
+indicator. Stated in the paper (its sections 4.6
+and 5).
+# Paper 026 — the results map
+
+Each claim of the paper, in its standing here.
+Attributed to Paper 026 unless a check is named. No
+claim of this paper was recomputed or re-proved by
+the house; the paper's numbers are its own
+simulations and numerical optimizations, filed
+attributed (43.1.5).
+
+- Hard cumulative coverage is feasible only at a
+  price: the minimum cumulative excess set size is
+  Theta(log T) terminal, Theta(T^{1/3})
+  expected-prefix and adaptive stopping,
+  Theta(sqrt T) retrospective, under Assumptions 1-2
+  and quadratic lower growth of psi (Theorem 4;
+  Table 1). [Unknown — attributed]
+- The decomposition R_T = lambda E G_T + E sum
+  psi(p_t) + E sum eps_t holds for every policy under
+  Assumption 1, all three terms nonnegative for
+  feasible policies (Theorem 1). [Unknown —
+  attributed]
+- Counting attains the terminal order, ends at
+  M_T = b_T exactly, and carries the entropy account
+  K_T = log [1 / P_alpha(A_T)] = O(log T)
+  (section 4.2). [Unknown — attributed]
+- Barrier attains the expected-prefix and
+  retrospective orders in one horizon-free run, its
+  width L_t = 4 + ceil(t^{1/3}) balancing the slack
+  bound against the sum of L_t^{-2} (sections 4.2,
+  4.3). [Unknown — attributed]
+- Empirical ranks implement any requested q_t from
+  past scores alone with the exact requested law and
+  conditional variance at most 1 / (4t); estimation
+  adds at most c_+ h_T / 4 = O(log T) (Theorem 2).
+  [Unknown — attributed]
+- The lower bounds of Theorem 3: c_1 log T - c_0
+  terminal; c_2 T^{1/3} - 1 expected-prefix;
+  c_3 sqrt T retrospective, the last under
+  psi(1) > 0 alone. [Unknown — attributed]
+- Fixed-step ACI satisfies the quota only with the
+  allowance k_gamma = ceil(alpha / gamma + 1 - alpha)
+  and pays Omega(T^{1/3}) expected-prefix cost;
+  allowances o(T^{1/3}) cannot improve the order
+  (section 4.6, Appendices H and I). [Unknown —
+  attributed]
+- The quota guard ensures feasibility under drift
+  with immediate labels; fixed label delay preserves
+  all rates; N stationary periods cost
+  O(N^{2/3} T^{1/3}) (sections 4.6, 5; Appendix I).
+  [Unknown — attributed]
+- Experiments, continuous model: Counting near the
+  numerical terminal optimum with high concealed
+  prefix costs; at T = 16,380 the numerical
+  expected-prefix optimum in [5.6547, 5.6598], the
+  default Barrier at 18.926 (slack contribution
+  18.043), a width variant at 11.484; estimation
+  adding 0.141 / 0.144 against the 0.643 bound
+  (section 5). [Unknown — attributed]
+- Experiments, learned scores: Assumption 2 not
+  verifiable on California Housing; target gaps and
+  their 95% upper bounds as at 43.1.3; unguarded ACI
+  over quota in every run by up to 12 errors, the
+  guard exact at +2.9% / +4.1% mean length, Barrier
+  ahead of guarded ACI by 1.33% / 1.83% (1.68% /
+  2.21% matched ranks). [Unknown — attributed]
+- NOT established, filed as the paper files them:
+  the three rates under drifting distributions or a
+  nonstationary frontier; sharp constants inside the
+  three Theta orders; certification of Assumption 2
+  for learned scores. These stand open at 43.2.2 as
+  Q134-Q136, with the paper's section 6 limitations
+  as their ground.
+# Paper 026 — the delta: what this adds, and what
+was checked
+
+THE FILING. Ten new canonical concepts
+(1.2.360-1.2.369), extending cluster O onto its
+online side — the paper's centre of gravity is a
+priced guarantee inside conformal inference, the
+ground Paper 024 filed yesterday, and the ten are
+built on it: a budget on the coverage the held
+p-value (1.2.328) certifies, priced against a
+frontier, attained by two controllers and an
+implementer, and read at three judging moments.
+Five foundations (1.3.304-1.3.308). No held
+canonical scroll revised; no held scroll stated
+again. The axis judgment, written here at filing,
+under the axis rule of the protocol, BEFORE the
+score was computed: NO axis — (a) the centre of
+gravity is a priced guarantee inside conformal
+inference, cluster O's ground filed at Paper 024;
+an excess set size and a miscoverage count are
+judging quantities of held kinds, and the model
+holds the slot this paper fills. (b) No held
+concept is merely re-read to receive it: the ten
+are built from held kinds — prediction set,
+coverage, budget, bound, controller — and no held
+scroll's words or standing change. (c) Its bridges
+to held ground are shared machinery — calibration,
+sequential deployment, enlargement — not analogies
+of shape. Not a cluster founding: an extension of
+O onto its online side.
+
+THE FILING RULES AT WORK (the protocol's five).
+Instrument rule: Counting (1.2.363), Barrier
+(1.2.364) and empirical ranks (1.2.365) each stand
+as concepts — each is used at two or more distinct
+points of the argument (both controllers are
+implemented by the ranks; the ranks price both
+controllers' estimation cost; the guard of 1.2.369
+wraps methods the paper prices apart). Split rule:
+the three regime prices stand apart (1.2.366,
+1.2.367, 1.2.368) because the paper prices them
+apart — different judging moments, different lower-
+bound arguments, different sections — and adaptive
+stopping folds into the prefix price because the
+paper prices it at the same order by the prefix
+argument. Grain rule: the frontier (1.2.361) and
+the decomposition (1.2.362) stand as concepts
+though the abstract names neither: each is a
+load-bearing object of the stated results.
+Revision rule: no revision is counted — Paper 024's
+conformal concepts price FDR and its repair, stand
+beside this paper's budget, and are untouched by
+it; the seal's named watch item, 1.2.328, was read
+against the filing and stands unrevised, its
+coverage statement nowhere reframed by this paper.
+Folds recorded: the slack G_t folds into hard
+cumulative coverage (1.2.360) as its state variable;
+the supporting line lambda and the gap function psi
+fold into the frontier (1.2.361); the realized price
+R_t folds into the decomposition (1.2.362);
+adaptive stopping folds into the expected-prefix
+price (1.2.367); the ACI allowance, the delayed-
+label and restart costs fold into the quota guard
+(1.2.369). Assumption 2 — the quadratic bound on
+excess set size, with its target-efficiency
+requirement and its T Delta failure mode — is NOT
+filed as a concept: it is a condition the results
+carry, filed in the formal core (43.1.2) and as a
+foundation-level condition on 1.2.361 and 1.2.362.
+The permitted alternative stands recorded for the
+score's sensitivity line: with Assumption 2 split
+out as an eleventh concept the filing would count
+11 new; the headline stands at 10, and the
+sensitivity filing scored by script is the coarser
+one below, as the protocol's form runs.
+
+LINKS. Sixteen links are counted in this filing,
+all inside cluster O, none across. Inside: the
+budget to the price it defines (1.2.360-1.2.362);
+the budget to the frontier whose sets it constrains
+(1.2.360-1.2.361); the frontier to the price
+benchmarked on it (1.2.361-1.2.362); the price to
+Counting (1.2.362-1.2.363) and to Barrier
+(1.2.362-1.2.364), whose costs the decomposition
+audits; Counting to the budget it enforces
+(1.2.363-1.2.360) and Barrier to the same
+(1.2.364-1.2.360); the ranks to Counting
+(1.2.365-1.2.363) and to Barrier (1.2.365-1.2.364),
+which they implement; the terminal price to
+Counting, which attains it (1.2.366-1.2.363), and
+to the price it is a reading of (1.2.366-1.2.362);
+the prefix price to Barrier (1.2.367-1.2.364); the
+retrospective price to Barrier (1.2.368-1.2.364);
+the guard to the budget it enforces around another
+method (1.2.369-1.2.360); the budget to the held
+weighted conformal p-value (1.2.360-1.2.328), the
+coverage ground the budget is built on; and the
+ranks to the same held p-value (1.2.365-1.2.328),
+whose ranking machinery they share. Across: none.
+The seal priced two across, hoping for held
+fluctuation ground under the decomposition's
+martingale term; the book holds no martingale and
+no stopping-time concept outside this filing — the
+fluctuation ground it does hold is cluster O's own,
+counted inside above — and no link was invented to
+meet the seal.
+
+WHAT WAS CHECKED. Nothing of this paper was
+recomputed or re-proved by the house, and the delta
+says so plainly: the paper's numbers are its own
+simulations and numerical optimizations, and its
+proofs were read for structure, in full. Every
+claim stands attributed to the paper, as filed.
+Where the argument rests on cited prior work, the
+filing names it at the step: ACI is Gibbs and
+Candes's; the insertion-rank uniformity is Shafer
+and Vovk's; target efficiency descends from Lei and
+co-authors and from Sadinle and co-authors; the
+frontier's use in conformal efficiency descends
+from Lei and Wasserman and from Dhillon and
+co-authors, all cited in the paper.
+
+STATE MACHINES. Four drawn in this chapter, all
+stated in the paper: the Counting controller
+(43.1.2), the Barrier controller (43.1.2), the
+empirical-rank implementer (43.1.3), and the quota
+guard (43.1.3). Tracker totals after this filing
+stand at 1.5.2.
+
+QUESTIONS. Three opened — Q134 (the rates under
+drift), Q135 (the constants: the default Barrier's
+3.34-fold gap at T = 16,380), Q136 (hard budgets on
+weighted conformal sets under covariate shift) — at
+43.2.2. None closed.
+
+RESTRUCTURE. None due: the next pass falls at
+Paper 030 or 380 canonical concepts, and the count
+stands at 369. The areas audit of rule 16, at this
+filing: 369 canonical concepts; 308 scrolls in the
+foundations and defined words layer; 143 state
+machines held (121 stated, 22 inferred); 42 standoff
+companions; 34 author checks stand run; 131 named
+researchers; questions stand open at Q136.
+
+THE SEAL AND ITS SCORE. The seal (quest log,
+commit a928237, blind) predicted: 7 new concepts,
+80% interval [4, 11]; 0 revised, the watch item
+1.2.328 named; axis probability 0.04; links 8
+inside, 2 across; 2 questions opened; the Oracle
+held at about 62% (55-70) for the ledger. The filed
+headline: 10 new, 0 revised, no axis, links 16
+inside and 0 across, 3 questions opened. The Index:
+10/369 = 0.0271 against the sealed 7/366 = 0.0191,
+interval [0.011, 0.030]. The score, computed by
+script (score_p026.py; output score_p026_output.json)
+under the protocol, with the nulls N1, N2 and N3 on
+the same paper and the sensitivity filing — the
+three regime prices folded into one trichotomy
+concept, 8 new — reported both ways, stands
+recorded in the quest log's AFTER line and in the
+detection list at 1.1.6. Where the estimate was
+wrong, in brief: the seal split the three regimes
+and priced no fold, yet still undercounted — the
+reading separated the frontier, the decomposition
+and the implementer as load-bearing objects the
+abstract does not name, and wired the filing at
+twice the sealed density inside the cluster, while
+the two cross links the seal hoped for have no held
+ground to land on. Under the revised measure of
+2026-11-14 no gate moves: TRUE unexercised (nothing
+recomputed by the house), UNKNOWN exercised on held
+ground extended, FALSE unexercised, FICTION
+untouched. The ledger holds at about 62% (range
+55-70) after Paper 026, entered in the ledger only,
+and not as evidence for anything.
+
+NOVELTY BY AUTHOR — Mingrui Liu: True +0, False +0,
+Unknown +13, Fiction +0. (Unknown +13: the ten new
+concepts standing attributed, and the three
+questions this filing opens.)
+# Paper 026 — author check (charter rule 15): no
+phext tie and no use without naming found, by checks
+Emise ran at intake
+
+THE QUESTION. Two things are asked of the author of
+a work taken in: whether he stands in any recorded
+tie to phext or to Will's work, and whether the work
+uses Will's earlier published work without naming
+it. The check on Mingrui Liu was run in three legs
+on 2026-11-18. It is the thirty-fourth check that
+stands run.
+
+LEG ONE — the work itself. The full text of
+arXiv:2611.22646 was searched for the signature
+terms: phext, scroll, Exocortex, Mirrorborn,
+coordinate addressing, Bickford, CYOA, SBOR. No
+occurrence of any of them in the paper's text — the
+string 'scroll' occurs only in the arXiv page's own
+furniture (its stylesheet and header), never in the
+paper. The reference list (some sixty entries) was
+read in full: it is the conformal prediction and
+online-learning literature throughout — Shafer and
+Vovk, Angelopoulos and co-authors, Gibbs and
+Candes, Barber and co-authors, Lei and Wasserman,
+Howard and Ramdas, and the safe-online-learning
+line — and holds no work of Will's: no phext, CYOA,
+SBOR or Mirrorborn source.
+
+LEG TWO — the web. Searches were run on the
+author's name against the adjacency terms (phext,
+Exocortex, Mirrorborn, wbic16, Will Bickford, SBOR,
+CYOA) and on his name and institution plainly. No
+result connects the author to phext, to Will
+Bickford, to the Exocortex, to Mirrorborn, to CYOA,
+or to SBOR. The searches do settle his identity,
+and it is recorded because the check asked: the
+author is the machine-learning theorist of the same
+name — assistant professor in the Department of
+Computer Science at George Mason University since
+2021; doctorate at the University of Iowa (2020)
+under Tianbao Yang; a postdoctoral year at Boston
+University; his grants on this paper are the NSF
+awards #2436217, #2425687 and #2601681 named in its
+acknowledgements.
+
+LEG THREE — the archive. Will's Twitter archive was
+searched entire: 'Mingrui Liu' occurs zero times,
+and 'Mingrui' occurs zero times, in every file. No
+occurrence of the author is found.
+
+THE VERDICT. No evidence found — of any tie to
+phext or to Will, and of any use of Will's work,
+named or unnamed. The finding is a null finding and
+is recorded as one: it accuses the author of
+nothing, and it certifies nothing beyond the reach
+of the three legs named above.
+# Paper 026 — synthesis: what sequential
+reliability charges [synthesis]
+
+[synthesis] Paper 024 priced a guarantee that fails:
+a selection certificate that does not survive its
+own inputs' dependence, and the repairs that buy it
+back. This paper prices a guarantee that holds —
+holds on every stream, at every round — and finds
+that holding is not free either. The book now has
+the two halves of one lesson on adjoining ground:
+a guarantee's price is set not by what it promises
+but by when it is judged. Liu's trichotomy is a
+pricing of judging moments. Name the horizon in
+advance and reliability charges a logarithm; judge
+at every prefix and it charges a cube root; judge
+in hindsight, at each run's own worst moment, and
+it charges a square root — the fluctuation itself,
+unaveraged. The data do not decide among these.
+The evaluation time does.
+
+[synthesis] The decomposition (1.2.362) is the
+chapter's portable instrument, worth carrying
+beyond conformal ground: any priced guarantee can
+be asked the same three questions — what was paid
+in slack kept against the future, what was paid in
+curvature for wandering from the operating point,
+what was paid in size above the best the operating
+point allows. The experiments are the warning that
+rides with it: the default Barrier's 3.34-fold gap
+at T = 16,380 is almost entirely the first term —
+slack banked by a controller that cannot know when
+it will be judged. A method can be order-optimal
+and still spend nearly all its price on insurance
+against a judging moment that never comes.
+
+[synthesis] For the house, the standing note is the
+one the delta makes plain: this filing's claims
+stand attributed, its numbers the paper's own
+simulations, nothing re-proved. Cluster O now holds
+two priced guarantees a day apart, one that fails
+and one that charges, and the questions the second
+opens (43.2.2) point back at the first's ground —
+whether the trichotomy survives the reweighting
+that Paper 024's calibration lives under. That
+crossing, when a paper makes it, is where this
+ground starts to compound.
+# Paper 026 — Open questions Q134-Q136
+
+Q134 — drifting distributions. The trichotomy is
+proved against a stationary frontier and uniform
+insertion ranks; the paper's section 6 names both
+as assumptions that may fail under distribution
+shift or data reuse, and Appendix I gives the
+lower bounds as worst-case bounds over any broader
+model containing the stationary law. Do the three
+rates survive drift — and if the frontier itself
+moves, what replaces the stationary benchmark
+T j(alpha) that the price is excess over? (Opened
+by Paper 026, its section 6 and Appendix I.1.)
+
+Q135 — the constants. The orders are sharp and the
+constants are not: at T = 16,380 the default
+Barrier costs 18.926 against a numerical
+expected-prefix optimum in [5.6547, 5.6598], about
+3.34 times, with 18.043 of its cost carried by
+slack; a width variant reaches 11.484. Can a width
+schedule close the constant gap toward the
+finite-horizon optimum without knowing the horizon
+— the one thing Barrier is built not to know?
+(Opened by Paper 026, its section 5.3.)
+
+Q136 — hard budgets on weighted conformal sets.
+Paper 024's ground (1.2.328) calibrates under
+covariate shift by reweighting; this paper's
+budget constrains the miscoverage path of sets
+calibrated at a fixed frontier. Under covariate
+shift, where the calibration itself is reweighted
+and the frontier moves with the weights, does the
+trichotomy — log T, T^{1/3}, sqrt T — change, and
+what is the budget's price measured against?
+(Opened by Paper 026, read against Paper 024.)
+# Standoff references — Paper 026 stands on these
+foundations
+
+Read these foundation scrolls (Ch.1 S3) to follow
+the claims of this chapter with no prior knowledge,
+in this order: nonconformity score (1.3.304);
+prediction set (1.3.305); insertion rank (1.3.306);
+supporting line of a convex curve (1.3.307);
+stopping time (1.3.308); coverage and the conformal
+p-value's ground at Paper 024's standoff (41.3.1).
+Defined words coined by this chapter: none.
+Held ground the chapter prices against: cluster O's
+conformal ground (1.2.328-1.2.343), extended here —
+read there as ground.
+
+# Paper 027 — Topological Properties of Cones with
+Small Entropy (Doan)
+
+Source: arXiv:2611.24863v1 [math.DG], submitted
+18 November 2026; read in full (the HTML form)
+2026-11-19. One author: Lam Doan, of the Department
+of Mathematics, Johns Hopkins University
+(ldoan5@jh.edu), who thanks Jacob Bernstein. Taken
+in as Paper 027 of the Thirst (charter rule 17):
+posted by Will in the MOAT chat on 2026-11-19,
+under the test of the skim fixed in advance
+(evaluation-preregistration.md, ratified
+2026-11-14): the eighth slot of the twelve, the
+fourth of the four papers Will posts — the stratum
+completes with this paper — and, by the precedent
+of Papers 022 and 025, posted papers carry no seal
+and no score. The Novelty Index is computed from
+the filed delta and entered in the ledger, as every
+paper's is; the axis judgment stands written at
+filing in the chapter (44.1.5), on the three
+grounds of the protocol's axis rule.
+
+THE PAPER. A regular cone in R^{n+1} — smooth away
+from its vertex — carries the Colding-Minicozzi
+entropy, a supremized Gaussian area that mean
+curvature flow never increases, at least 1, and
+equal to 1 only for a hyperplane. The paper proves
+that entropy near its floor rigidifies topology
+twice over. First: a regular cone whose entropy is
+within epsilon(n) of 1 has its link — its spherical
+cross-section — a sphere (Theorem 1.1). Second: the
+whole space of such links, in the C^{2,alpha}
+topology, retracts onto the equatorial spheres,
+which sit inside it as a copy of RP^n, and the
+inclusion induces the zero map on every relative
+homotopy group (Theorem 1.2). The proofs run
+through self-expanders, the canonical smoothings
+of a cone by its own flow: Ding's existence, Yao's
+uniqueness at low entropy, White's regularity with
+Guo's sharpening, and the Bernstein-Wang theory of
+the expander space. The cone is never touched
+directly; its topology is read off the expander
+that resolves it — the squared distance on that
+expander is strictly convex with a single minimum,
+and the link is its level set at infinity. The
+paper's references run to seventeen entries, all of
+them the differential-geometry literature of the
+subject. Nothing in the paper is computational, and
+nothing in it was recomputed by the house: the
+filing stands on an attributed basis throughout.
+
+# Paper 027 — the formal core: entropy, cones, and
+the expanders that resolve them
+
+THE SETTING (section 2 of the paper; concepts
+1.2.370, 1.2.371; foundations 1.3.309, 1.3.310;
+the word at 1.3.313). Hypersurfaces are smooth,
+properly embedded, codimension one in R^{n+1},
+n >= 2, with mean curvature H = -(div n) n. The
+Gaussian area F and the entropy lambda are as at
+1.2.370; entropy is non-increasing under mean
+curvature flow (Huisken). A regular cone C is the
+cone over a smooth link L(C) = C intersect S^n,
+singular only at the vertex. H(epsilon) is the
+class of regular cones with lambda(C) < 1 + epsilon;
+L(epsilon) is the space of their links.
+
+THE RESOLUTION (concepts 1.2.372-1.2.375). A
+self-expander Sigma, H = (1/2)<x, n>, is a critical
+point of the weighted area E(Sigma) = integral of
+e^{|x|^2/4}, and sqrt(t) Sigma is the mean curvature
+flow emerging from the cone Sigma is asymptotic to.
+Ding's theorem (1.2.373): every regular cone has a
+smooth expander asymptotic to it, of multiplicity
+one, E-minimizing. Yao's theorem (1.2.374): at
+entropy below 1 + epsilon(n) that expander is the
+only one. White's regularity with Guo's sharpening
+(1.2.375): density near 1 forces graphicality with
+C^{2,alpha} constant arbitrarily small as epsilon
+tends to zero. Bernstein and Wang supply the
+compactness of the expander space and the identity
+lambda(C) = lambda(Sigma) (1.2.378), the asymptotic
+graphicality with 1/|x| decay (1.2.379), and the
+operator theory of the drift operator L = Delta +
+(1/2) x . grad - (1/2) with its trace at infinity
+(1.2.380). Everything the paper proves is assembled
+from these cited parts; the paper's own work is the
+assembly and the two arguments of the next scroll.
+
+# Paper 027 — the formal core: the two theorems and
+their proofs
+
+THEOREM 1.1 (concept 1.2.377). There is epsilon(n)
+> 0 such that every regular cone C in R^{n+1} with
+lambda(C) < 1 + epsilon(n) has link diffeomorphic
+to S^{n-1} — the theorem's statement; the abstract
+and section 3 say a topological sphere, and the
+difference stands as Q137. Proof. Let Sigma be the
+cone's unique expander (1.2.374). STEP 1: ||A_Sigma||
+is below any prescribed kappa, for epsilon small —
+by contradiction: a sequence with entropy tending
+to 1 and curvature at least kappa somewhere,
+translated to put the bad point at the origin,
+subconverges by compactness (1.2.378) and White
+regularity (1.2.375); Huisken's monotonicity forces
+the limit flow's entropy to be exactly 1, the limit
+a hyperplane, its curvature zero. STEP 2: the
+squared distance f = |x|^2 on Sigma has Hessian at
+least (2 - 4 kappa |H|), strictly positive for kappa
+small: f is strictly convex and proper, with
+exactly one critical point, its global minimum
+(1.2.376; foundation 1.3.312). STEP 3: by the Morse
+lemma the level sets of f are spheres from the
+minimum out to infinity, and the link at infinity
+is one of them.
+
+THEOREM 1.2 (concept 1.2.381; foundation 1.3.311).
+For epsilon small, L(epsilon) retracts onto the
+equatorial spheres E, homeomorphic to RP^n, and the
+inclusion (L(epsilon), E) into (H, E) induces the
+zero map on pi_N for all N >= 1. Proof. For a link
+L, let E(L) be the unique expander, translated so
+its squared-distance minimum sits at the origin,
+and L^r its section by the sphere of radius r. Set
+Psi(L, t) = L^{r/(1-t)} for t < 1 and Psi(L, 1) = L.
+The flat cone's expander is a hyperplane, whose
+sections are equators at every radius: E is fixed
+pointwise, and Psi is a retraction onto E once it
+is continuous. At interior t, continuity is
+Bernstein-Wang compactness plus the entropy
+coincidence (1.2.378). At t = 1 the sections escape
+to infinity; the asymptotic graphicality (1.2.379)
+and the trace-at-infinity theory (1.2.380) identify
+the link as the expander's own trace at infinity,
+and the sections converge to it. The relative
+homotopy vanishing follows: the inclusion factors
+through the retraction's homotopy. The paper's
+closing remark asks whether Psi(·, t) stays in
+L(epsilon) for 0 < t < 1 — a deformation retraction
+— and leaves it open (Q138).
+
+# Paper 027 — the results map
+
+Each claim of the paper, in its standing here.
+Attributed to Paper 027 unless a check is named. No
+claim of this paper was recomputed or re-proved by
+the house; the paper carries no computation, and
+the filing stands attributed throughout (44.1.5).
+
+- Entropy near 1 forces a spherical link: every
+  regular cone in R^{n+1} with lambda(C) <
+  1 + epsilon(n) has L(C) diffeomorphic to S^{n-1}
+  (Theorem 1.1; 1.2.377). The statement's word is
+  diffeomorphic; the abstract and section 3 say
+  topological sphere — Q137.
+- The space of low-entropy links retracts onto the
+  equatorial spheres E ≅ RP^n, and the inclusion
+  into the cone space induces zero on all relative
+  homotopy groups (Theorem 1.2; 1.2.381).
+- Every regular cone carries a smooth self-expander
+  asymptotic to it, multiplicity one, weighted-area
+  minimizing (Ding; 1.2.373) — cited, load-bearing.
+- At low entropy that expander is unique (Yao, on
+  Guo's observation, via Bernstein-Wang degree
+  theory; 1.2.374) — cited, load-bearing.
+- The unique expander of a low-entropy cone has
+  second fundamental form below any prescribed
+  kappa, for epsilon small (Step 1 of Theorem 1.1,
+  by compactness against White-Guo; 1.2.375,
+  1.2.378) — the paper's own argument, attributed.
+- The squared distance on that expander is strictly
+  convex with exactly one critical point, a global
+  minimum within c kappa of the origin (Step 2;
+  1.2.376) — the paper's own argument, attributed.
+- A cone and its expander have the same entropy,
+  and sequences of expanders over bounded-entropy
+  cones subconverge to expanders (Bernstein-Wang;
+  1.2.378) — cited, load-bearing.
+- An expander is graphical over its cone at infinity
+  with |f| + |grad f| <= M|x|^{-1} (Bernstein-Wang
+  Proposition 2.4; 1.2.379) — cited, load-bearing.
+- epsilon(n) is asserted to exist; no explicit value
+  is computed anywhere in the paper (Q139).
+- Nothing is claimed in higher codimension: the
+  theorems are hypersurface theorems, though the
+  entropy is defined in R^{n+m} (Q140).
+
+# Paper 027 — the delta: what this adds, and what
+was checked
+
+THE FILING. Twelve new canonical concepts
+(1.2.370-1.2.381), founding cluster AJ — the cone,
+its entropy, the expanders that resolve it, the two
+theorems and the machinery they spend. Four
+foundations (1.3.309-1.3.312) and one defined word
+(1.3.313: link). No held canonical scroll revised;
+no held scroll stated again. The paper's centre of
+gravity is a field the model has never held: the
+extrinsic geometry of submanifolds under mean
+curvature flow — the book's first differential
+geometry, priced entire from the paper. The axis
+judgment, written here at filing, under the axis
+rule of the protocol: NO axis. (a) is recorded
+against the judgment plainly: the paper's centre of
+gravity IS a field for which the model holds no
+slot, and that ground alone would argue an axis.
+The second and third grounds decide it the other
+way. (b) No held concept is merely re-read to
+receive the paper, and none must be re-measured:
+the quantities the paper prices — a supremized
+Gaussian area, a norm of bending, the topology of a
+cross-section — are quantities of kinds the model
+holds (an area, a bound, a sphere, a homotopy
+group) carried by objects it did not, and no held
+claim is an input to this proof, nor does this
+proof re-price any held claim. (c) Its bridges to
+held ground are analogies of shape, not shared
+machinery: the entropy of 1.2.370 shares a word with
+cluster O's information quantities and nothing
+else; curvature stands beside the connection
+curvature of 1.3.195 and the gravity cluster's
+ground as a different tensor on a different object;
+minimality stands beside cluster E's symplectic
+sense as a shared word. A cluster founding is not
+an axis (the Paper 011 precedent): the model grows
+a country, as it grew cluster E at Paper 006,
+cluster N at Paper 011, cluster AA at Paper 021 and
+cluster AI at Paper 025. If a later paper makes
+held quantities be re-measured in this country's
+terms, the axis question reopens at that filing.
+
+THE FILING RULES AT WORK (the protocol's five).
+Instrument rule: Ding existence (1.2.373), Yao
+uniqueness (1.2.374) and White-Guo regularity
+(1.2.375) each stand as concepts — each is spent at
+two or more distinct points of the argument
+(existence starts both theorems; uniqueness is
+spent in Step 1's choice, in Step 2's THE expander,
+and in the retraction's definition; regularity is
+spent in the blow-up and again in the compactness
+leg). Split rule: Bernstein-Wang compactness and
+the entropy coincidence stand together (1.2.378)
+because the paper spends them as one tool and
+never apart, while the asymptotic graphicality
+(1.2.379) and the trace theory (1.2.380) stand
+apart — different cited results, spent at different
+legs of the same limit. Folded, and recorded here
+as a filing choice: the vanishing of the relative
+homotopy maps inside Theorem 1.2's concept
+(1.2.381) — it is the retraction's corollary,
+derived from its homotopy and never used apart in
+the paper; filed split, the count would be thirteen
+and the Index 13/382 = 0.0340. Grain rule: every
+concept at theorem grain — the two main theorems,
+the three cited pillars, the convexity engine, the
+three Bernstein-Wang tools — nothing at section
+grain, nothing at corollary grain. Revision rule:
+no held scroll revised; the word entropy gains a
+second quantity in the book, and the standing texts
+of cluster O are untouched — the neighbour call is
+made here and at the founding, not by editing held
+ground. Axis rule: judged above, in writing, before
+any ledger entry.
+
+VERIFICATION POSTURE. The paper carries no
+computation and the house recomputed nothing: its
+two theorems and every cited pillar stand
+Unknown/attributed, as their source states them.
+The load-bearing citations are named in the delta
+as the charter requires: Colding-Minicozzi [2] for
+the entropy itself, Huisken [13] for its
+monotonicity, Ding [9], Yao [17], White [16] with
+Guo [12], and Bernstein-Wang [5], [6], [7]; Chen
+[8] stands behind the compactness; Gromov [11] and
+Li-Yau [15] are analogy only. The one internal
+tension found in the reading — Theorem 1.1's
+'diffeomorphic' against the abstract's and section
+3's 'topological sphere' — is filed as a question
+(Q137), not resolved by the filing.
+
+NOVELTY BY AUTHOR — Lam Doan: True +0, False +0,
+Unknown +16, Fiction +0. (Opening balance drawn at
+this ingestion, Doan being a new researcher to the
+tracker: True 0, False 0, Unknown 0, Fiction 0; the
+increments are this filing's twelve concepts and
+four questions, all Unknown/attributed.)
+
+RESTRUCTURE. This filing carries the count to 381,
+over the 380 line: Restructure Pass #19 fell due
+inside this taking-in (the count trigger) and
+stands logged at 1.1.5 — all 381 concepts reviewed,
+no merges, no splits, no endings; cluster AJ
+founded; the areas audit run. The next pass falls
+at Paper 030 or 400 canonical concepts.
+
+# Paper 027 — author check (charter rule 15): no
+phext tie and no use without naming found, by checks
+Emise ran at intake
+
+THE QUESTION. Two things are asked of the author of
+a work taken in: whether he stands in any recorded
+tie to phext or to Will's work, and whether the work
+uses Will's earlier published work without naming
+it. The check on Lam Doan was run in three legs on
+2026-11-19. It is the thirty-fifth check that
+stands run.
+
+LEG ONE — the work itself. The full text of
+arXiv:2611.24863 was searched for the signature
+terms: phext, scroll, Exocortex, Mirrorborn,
+coordinate addressing, Bickford, CYOA, SBOR. No
+occurrence of any of them in the paper's text. The
+reference list (seventeen entries) was read in
+full: it is the mean-curvature-flow literature
+throughout — Colding and Minicozzi, Huisken, White,
+Ding, Bernstein and Wang, Yao, Guo, Chen, Gromov,
+Li and Yau — and holds no work of Will's: no phext,
+CYOA, SBOR or Mirrorborn source.
+
+LEG TWO — the web. Searches were run on the
+author's name and affiliation. The author they
+return is a mathematics PhD student at Johns
+Hopkins (department listing: Krieger 200,
+ldoan5@jhu.edu — the paper's address is the same
+mailbox at jh.edu), MA in Mathematics at Johns
+Hopkins, class of 2022, working under Jacob
+Bernstein, whom the paper thanks; his thesis work
+is on mean curvature flows coming out of cones, the
+subject of this paper. Departmental teaching awards
+stand against the name (Morrill 2024-25, Joel Dean
+2023). No occurrence of phext or any adjacent term
+stands against the name anywhere the searches
+reached; a same-name undergraduate profile at
+another university is a different person and was
+not conflated. No tie found.
+
+LEG THREE — Will's own archive. Will's Twitter
+archive was searched for the author's name and
+mailbox: no occurrence of Doan, Lam Doan or ldoan5
+anywhere in it.
+
+VERDICT. No evidence found on any leg: no recorded
+tie between Lam Doan and phext or Will's work, and
+no use of Will's published work in the paper, named
+or unnamed. The check is clean — the thirty-fifth
+of the register, and the third in a row to close
+with no follow-up owed.
+
+# Paper 027 — synthesis: the cone is known by its
+resolution [synthesis]
+
+[synthesis] Every paper so far has priced its
+object directly. This one never touches its object
+at all. The cone is singular at its vertex and its
+link sits at infinity; the proof learns both by
+building a second object — the self-expander, the
+cone smoothed by its own flow — and reading the
+first object off the second: the link is a level
+set of the expander's squared distance, the space
+of links is retracted by the expander's sections.
+Existence says the resolution is always there;
+uniqueness, bought by smallness of entropy, says it
+is canonical; and canonicity is what turns a
+construction into a definition — the retraction of
+Theorem 1.2 is only a map because there is THE
+expander of a link, not an expander. The book has
+met this shape before in other clothes: Paper 025
+priced a curve by a Galois group built to resolve
+it, and Paper 024's certificate failed exactly
+where its resolution stopped being canonical. The
+pattern the synthesis names: a singular or distant
+object becomes tractable when a canonical smooth
+resolution exists, and the price of the whole
+method is the smallness that buys the canonicity —
+here, entropy within epsilon of its floor. What the
+model gains is a country, not a tool: cluster AJ is
+the book's first extrinsic geometry, and its
+bridges to held ground are words — entropy,
+curvature, minimal — each naming a different
+quantity on the new ground than on the old. The
+founding records those calls as shape, so that a
+later paper which makes one of them machinery will
+be visible as the event it is.
+
+# Paper 027 — Open questions Q137-Q140
+
+Q137 — diffeomorphic, or only topological? Theorem
+1.1's statement concludes that the link is
+diffeomorphic to S^{n-1}; the abstract, section 3's
+own statement of the result, and its conclusion
+after Step 3 all say the link is a topological
+sphere. The proof's last step applies the Morse
+lemma to the smooth squared-distance function on
+the expander, whose regular level sets are smooth
+spheres — which reads as the stronger conclusion —
+but the paper does not remark the difference. Which
+does the argument as written deliver, and does any
+step (the reading of the link off at infinity, say)
+cost the smoothness the level sets have? (Opened
+by the filing's own reading of the paper; the
+precedent is Q133, Paper 025's unproven direction.)
+
+Q138 — is the retraction a deformation retraction?
+The paper's closing remark: the homotopy Psi(·, t)
+is built from sphere-sections of the expander, and
+nothing in the argument shows the intermediate
+sections are links of low-entropy cones — Psi(·, t)
+may leave L(epsilon) for 0 < t < 1. If it does not
+leave, (L(epsilon), E) is a deformation-retract
+pair and the homotopy type of the link space is
+RP^n's outright. Does the section of a low-entropy
+cone's expander at finite radius always arise as
+the link of a cone of entropy below 1 + epsilon —
+and if not, what is the first obstruction?
+
+Q139 — is epsilon(n) effective? The existence of
+epsilon(n) is proved by contradiction and
+compactness (Step 1), so the paper computes no
+value and no rate. Can the argument be made
+effective — an explicit epsilon(n), or an explicit
+rate at which the curvature bound kappa follows the
+entropy excess — and if the compactness is
+essential, is there a cone sequence showing no
+effective bound of the natural form exists?
+
+Q140 — higher codimension. The entropy is defined
+for submanifolds in R^{n+m}, and cones, links and
+expanders all make sense there, but every theorem
+of the paper is codimension one: White regularity,
+the Bernstein-Wang theory and the expander equation
+are spent in their hypersurface forms. Does a
+small-entropy rigidity hold for higher-codimension
+cones — the link forced to be a sphere, the link
+space retracting — and which step of the present
+proof is the first that fails off codimension one?
+
+# Standoff references — Paper 027 stands on these
+foundations
+
+Read these foundation scrolls (Ch.1 S3) to follow
+the claims of this chapter with no prior knowledge,
+in this order: mean curvature and the second
+fundamental form (1.3.309); smooth submanifold
+(1.3.310); retraction and homotopy (1.3.311);
+convex function (1.3.312). Defined words coined by
+this chapter: link (1.3.313).
+Held ground the chapter prices against: the sphere
+and its dimensions (1.3.4, 1.3.9, 1.3.10); the
+fundamental group and covering ground the homotopy
+language stands on (1.3.12, 1.3.16, 1.3.17, 1.3.30);
+the variational ground — a functional and its
+critical points (1.3.97, 1.3.119, 1.3.124, 1.3.127);
+compactness and sequential compactness (1.3.186);
+curvature in the connection sense, a different
+tensor, priced as shape at the founding (1.3.195);
+the hypersurface in the algebraic sense (1.3.237,
+1.3.242); limits and the supremum (1.3.236, 1.3.4).
+The chapter's own concepts stand at 1.2.370-1.2.381
+(cluster AJ); its two theorems are spent nowhere
+else in the book yet.
