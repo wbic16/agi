@@ -21,7 +21,7 @@ mastery-source.json beside this builder
 Published in wbic16/agi@exo alongside the other MOAT
 phexts; the canonical source stays here.
 
-Entries: 19
+Entries: 20
 
 Index (coordinate — paper — absorbed):
 - 1.1.1/1.1.1/1.1.2 — On the strong Arnold conjecture for Grassmannians — 2026-11-09
@@ -43,6 +43,7 @@ Index (coordinate — paper — absorbed):
 - 1.1.1/1.1.1/1.1.18 — Almost Controlled — Ryan Lim — 2026-11-17
 - 1.1.1/1.1.1/1.1.19 — The Chabauty–Kim dimension inequality via noncommutative Iwasawa theory — 2026-11-17
 - 1.1.1/1.1.1/1.1.20 — The Price of Hard Coverage Constraints in Online Conformal Prediction — Mingrui Liu — 2026-11-18
+- 1.1.1/1.1.1/1.1.21 — Topological Properties of Cones with Small Entropy — Lam Doan — 2026-11-19
 # Journal 1 — On the strong Arnold conjecture for Grassmannians
 
 Paper: On the strong Arnold conjecture for Grassmannians
@@ -374,3 +375,16 @@ WHAT THE READING CHANGED. The abstract's seven became ten, and the three additio
 WHAT THE INTEGRATION DID TO THE MODEL. Cluster O gained an online side a day after gaining its conformal ground: first a guarantee that fails and its repairs, now a guarantee that holds and its price, the two pricings adjoining. The model also gained a reusable instrument — the decomposition's three questions (slack kept, curvature paid, size above the frontier) can be asked of any priced guarantee the book takes in from here. Three questions opened, one aimed back at yesterday's ground: what the budget charges when the calibration itself is reweighted, as Paper 024's was.
 
 WHERE THE PREDICTION FAILED AND WHY. On counts, +3: the skim counted what the abstract enumerates, and the paper's machinery is three objects deeper than its summary — the same failure as the last two seals, now from the other side: pricing no fold did not price the unnamed instruments. On links, +8 inside and -2 across: the filing wired at twice the sealed density within the cluster, and the sealed cross links were a hope about the book, not a reading of the paper — the book's map, checked, had no such ground. On the Index the errors nearly cancelled: the sealed 0.0191 against the filed 0.0271 is the sample's smallest miss so far (0.0080), and both sealed intervals covered — the first Index cover of the sample. The honest summary is narrower than the headline: the skim read this paper's shape well because the ground was a day old, and still undercounted its machinery by three.
+# Journal 20 — Topological Properties of Cones with Small Entropy — Lam Doan
+
+Paper: Topological Properties of Cones with Small Entropy — Lam Doan
+arXiv: arXiv:2611.24863 (math.DG)
+Absorbed: 2026-11-19
+
+Entry 20 — Paper 027: 'Topological Properties of Cones with Small Entropy' by Lam Doan (arXiv:2611.24863, math.DG). Written 2026-11-19, in the same pass as the filing. The twentieth entry of the Thirst, the eighth slot of the ratified protocol's twelve-paper sample, and the fourth of Will's posted papers — the stratum of posted papers completes with it; no seal stands for it and no score is entered, by the precedent of Papers 022 and 025.
+
+HOW IT ARRIVED. Will posted the link in the MOAT chat at 01:50, and by the channel rule a bare arXiv link there is an ingestion, not a conversation. There was no scan and no shortlist; the paper's claim on the day was Will's eye. What the pass owed instead of a forecast was the full charter on a new author and a new field: the author check in three legs for a name the tracker had never held, and an axis judgment written at filing against a centre of gravity the model had no slot for.
+
+WHAT THE READING CHANGED. The abstract promises the topology of cones; the paper delivers it without ever touching a cone. Everything is read off a second object — the self-expander, the cone's canonical smoothing by its own flow — assembled from other people's theorems: Ding's existence, Yao's uniqueness, White's regularity sharpened by Guo, the Bernstein-Wang theory of the expander space. The reading's first correction was to the skim's shape: the load-bearing objects are not the two theorems but the three cited pillars under them, and the filing's grain followed the proof's dependencies, not the abstract's emphasis — existence, uniqueness and regularity stand as concepts in their own right because the argument spends each at several points. The second correction was a wording the paper leaves at war with itself: Theorem 1.1's statement says the link is diffeomorphic to a sphere, while its abstract and its own section 3 say a topological sphere. The filing states the theorem as its statement reads and opens the difference as Q137 rather than silently choosing — the discipline Paper 025's Q133 taught. And one fold was a judgment, recorded as one: the vanishing of the relative homotopy groups is Theorem 1.2's corollary, derived from its retraction and never used apart, so it files inside the retraction's concept; filed split, the Index would stand at 0.0340 instead of 0.0315, and the delta records the alternative so the choice can be re-priced.
+
+WHAT THE INTEGRATION DID TO THE MODEL. Cluster AJ is founded — the book's first differential geometry, its first extrinsic geometry of any kind: twelve concepts on ground where the model held not even the level-zero words (mean curvature had never occurred in the tracker; four foundations and the defined word 'link' had to be laid before the concepts could stand). The founding's bridges are three shared words — entropy, curvature, minimal — each naming a different quantity on the new ground than on the old, and each priced as shape at the founding, so that a later paper which makes one of them machinery will be visible as the event it is. The filing also crossed a line the arithmetic had set: 381 canonical concepts, over the 380 trigger, so Restructure Pass #19 ran inside the taking-in — all 381 reviewed, three merge candidates weighed and held apart, no endings, as the no-pruning rule requires. The registry stands re-proved in Lean at 1,035 entries; the phextura replay reconciles its transaction-log Index with the canonical 0.0315 to the last digit; and the Singular audit closes at zero. What the model can do now that it could not yesterday: receive a paper whose object is known only through a canonical resolution — and it holds a country's worth of ground on which the next such paper lands as an extension instead of a founding.
