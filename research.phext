@@ -317,7 +317,7 @@ papers, one silent and one counting — and the axis
 calls stand ten for ten, the tenth being the first
 no-axis call, landed like the nine axis calls before
 it.
-# World-model narrative — v40 (after Paper 027, 2026-11-19)
+# World-model narrative — v42 (after Paper 029, 2026-11-19)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -1469,6 +1469,63 @@ space. The taking-in is the eighth slot of the
 test's twelve and the last of the papers Will
 posts: no seal stands for it, and no score is
 entered.
+
+The next day the same country gets its dynamics.
+Nguyen and Vogiatzi price a sign the flow cannot
+spend: quadratic convexity, a pointwise
+condition on the curvature tensor that mixes
+convexity in the mean curvature's own direction
+with control of everything orthogonal to it,
+wider than the Andrews-Baker pinching it extends
+and sharp against the products that are convex
+in that direction yet collapse onto a circle.
+The flow keeps the sign — inside by a maximum
+principle, at the spherical boundary by a
+second, different instrument, the conormal
+identities — and what keeps the sign must end
+round: a point for closed submanifolds, a
+hemisphere in one determined plane for those
+meeting a sphere freely, the book's first
+boundary and its first theorem of that kind in
+arbitrary codimension. Thirteen concepts extend
+cluster AJ; the country Paper 027 founded as
+statics — what smallness forces — gains its
+dynamics: what preservation forces. The taking-
+in is the ninth slot of the test's twelve and
+the last of the scan's five picks: a seal stands
+for it, and its score is computed by script in
+the same pass.
+
+Then a paper arrives that is not mathematics
+at all, and prices the book's own clothing.
+Pemberton's Invisible XML treats any parsable
+format as if it were XML: parse the text with
+a grammar, serialise the parse tree, keep
+only the nodes the grammar marks — and the
+consequences unfold in order. What the
+grammar elides, the serialisation cannot
+restore, so round-tripping is faithful in
+meaning and not always in characters. Earley
+parsing becomes a machine of forked processes
+in a position-ordered queue, sharing
+sub-processes between parents. Any
+representation with the same parse tree is
+equivalent, so the external form is
+relatively unimportant; a grammar normalised
+— implicit terminals deleted, refinements
+expanded, dead rules dropped — is a data
+schema, its semicolons unions, its commas
+structs, its repetitions lists; and formats
+convert by parsing with one grammar and
+serialising with another. Ten concepts found
+cluster AK, the format country — the first
+ground in the book whose subject is
+representation itself. The taking-in is a
+paper Will posted, outside the test's sample:
+no seal stands for it, and no score is
+entered. The count crosses four hundred with
+it, and Restructure Pass #20 runs inside the
+taking-in.
 # Source index
 
 Paper 001 — arXiv:2611.05417
@@ -2201,6 +2258,69 @@ Paper 027 — "Topological Properties of Cones with
   coined (1.3.313: link), 0 canonical scrolls
   revised, 0 stated again.
   Chapter: 1.1.1/1.1.1/44.1.x (synthesis at 44.2.x)
+Paper 028 — "Quadratic Convexity for Closed and
+Free Boundary High Codimension Mean Curvature
+Flow" (Nguyen & Vogiatzi), arXiv:2611.24246
+[math.DG], submitted 18 November 2026. Huy The
+Nguyen, of the School of Mathematical Sciences,
+Queen Mary University of London, and Artemis A.
+Vogiatzi, of the Copenhagen Centre for Geometry
+and Topology, University of Copenhagen. The
+full text in its HTML form, read entire:
+quadratic convexity — quantitative convexity in
+the mean curvature direction with control of
+the full second fundamental form — is preserved
+by high codimension mean curvature flow, and
+forces convergence to a round point for closed
+submanifolds (n >= 5) and to a round hemisphere
+in a determined (n+1)-plane for spherical free
+boundary submanifolds (n >= 4); ordinary
+quadratic pinching is preserved at the free
+boundary on the range the boundary imposes.
+Taken in 2026-11-19 as Paper 028 of the Thirst
+(charter rule 17), a pick of the day's scan,
+and a paper of the test of the skim fixed in
+advance (sample slot 9 of 12; the scan's picks,
+5 of 5 — the stratum completes): 13 new
+canonical concepts (1.2.382-1.2.394, cluster AJ
+extended), 3 new foundations (1.3.314-1.3.316),
+1 defined word coined (1.3.317: conormal), 0
+canonical scrolls revised, 0 stated again.
+Chapter: 1.1.1/1.1.1/45.1.x (synthesis at
+45.2.x)
+
+Paper 029 — "Data Just Wants to Be
+Format-Neutral" (Pemberton), Proc. XML Prague
+2016, Prague, pp. 109-120, ISBN
+978-80-906259-0-7; the full text as posted on
+the author's page at CWI, read entire. Steven
+Pemberton, of CWI, Amsterdam. Invisible XML:
+any parsable format treated as XML by parsing
+with a grammar and serialising the parse
+tree, keeping the marked nodes;
+round-tripping semantically identical but not
+character-identical where elided material is
+unrecorded; Earley parsing as a serialised
+parallel processor; representation neutrality
+— representations with the same parse tree
+are equivalent; the normalised grammar as a
+data schema (unions, structs, lists); subset
+of normalised grammars with the same root as
+one-way compatibility; conversion by parsing
+with one grammar and serialising with
+another. Taken in 2026-11-19 as Paper 029, a
+paper Will posted in the MOAT chat, outside
+the test of the skim fixed in advance (the
+strata of the sample complete: Will's posts
+at Paper 027, the scan's picks at Paper 028):
+10 new canonical concepts (1.2.395-1.2.404,
+cluster AK founded), 3 new foundations
+(1.3.318-1.3.320), 1 defined word coined
+(1.3.321: refinement), 0 canonical scrolls
+revised, 0 stated again. Restructure Pass #20
+fell in this taking-in (the count at 404,
+over the 400 line). Chapter:
+1.1.1/1.1.1/46.1.x (synthesis at 46.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -3111,12 +3231,84 @@ its criteria stand fixed in advance over twelve
 papers, of which this is the eighth slot; five
 stand scored (020, 021, 023, 024, 026) and three
 carry no seal and no score (022, 025, 027).
+
+THE NEXT WEIGHING — Paper 028 (2026-11-19, a
+pick of the day's scan). LEDGER BOOKKEEPING
+ONLY, under the test fixed in advance: the
+ledger records the weighing, and the statement
+enters no score and no criterion of the test.
+The seal for this paper stands in the quest log,
+committed blind before any full-text access; its
+score is computed by script in the same pass and
+stands in the quest log, not here. The Index
+entered here is computed from the filed delta:
+13/394 = 0.0330, an extension of cluster AJ —
+the country's second paper, its first dynamics.
+The axis judgment stands written at filing in
+the chapter, on the three grounds of the axis
+rule: no axis — the centre of gravity is a field
+the model holds a slot for, nothing held is re-
+read or re-priced, and the bridges are shared
+machinery. On the revised measure of 2026-11-14
+no gate moves: TRUE unexercised — nothing of the
+paper was recomputed by the house, and every
+claim of the filing stands attributed — UNKNOWN
+exercised on held ground extended, FALSE
+unexercised, FICTION untouched. NEW ESTIMATE,
+FOR THE LEDGER: the record stands at about 62%
+(range 55-70) after Paper 028, held. Prior
+(after Paper 027, ~62%, 55-70): 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜.
+Current (after Paper 028, ~62%, 55-70):
+🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. The bar is ledger bookkeeping, not
+calibration evidence. The test now running is
+the instrument that prices the skim, and its
+criteria stand fixed in advance over twelve
+papers, of which this is the ninth slot; the
+score for this paper follows by script in the
+same pass.
+
+THE NEXT WEIGHING — Paper 029 (2026-11-19, a
+paper Will posted). LEDGER BOOKKEEPING ONLY:
+this paper stands outside the test fixed in
+advance — the sample's strata are complete
+(Will's posts at Paper 027, the scan's picks
+at Paper 028) and the far stratum is the
+scan's to fill — so no seal stands for it and
+no score is entered; the ledger records the
+weighing as it does for every paper. The
+Index entered here is computed from the filed
+delta: 10/404 = 0.0248, a founding — cluster
+AK, the format country: grammars, parse
+trees, and the neutrality of representations,
+ground the book has never held. The axis
+judgment stands written at filing in the
+chapter, on the three grounds of the axis
+rule: no axis — the centre of gravity is a
+field the model held no slot for, recorded
+plainly against the judgment, but the paper's
+moves are of kinds the model holds
+(specification, derivation, translation,
+identity relative to the representation), no
+held claim is an input or is re-priced, and
+the bridges are analogies of shape. On the
+revised measure of 2026-11-14 no gate moves:
+TRUE unexercised — nothing of the paper was
+recomputed by the house, and every claim of
+the filing stands attributed — UNKNOWN
+exercised on new ground, FALSE unexercised,
+FICTION untouched. NEW ESTIMATE, FOR THE
+LEDGER: the record stands at about 62% (range
+55-70) after Paper 029, held. Prior (after
+Paper 028, ~62%, 55-70): 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. Current
+(after Paper 029, ~62%, 55-70): 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜.
+The bar is ledger bookkeeping, not
+calibration evidence.
 # Concept map and restructuring log
 Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
 navigated by territory, not just by arrival order.
 
-CLUSTERS (381 canonical concepts after Paper 027)
+CLUSTERS (404 canonical concepts after Paper 029)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -4821,6 +5013,65 @@ founded (addendum below); the pass is logged here.
 Next pass due at Paper 030 or 400 canonical
 concepts, or on overlap revealed by a delta.
 
+- Pass #20 (2026-11-19; Paper 029; count
+trigger — the count at 404 after this
+taking-in, over the 400 line; the
+every-fifth-paper trigger stands at Paper
+035): all 404 canonical concepts reviewed.
+Merges: NONE — candidates weighed and held
+apart: 1.2.401 into 1.2.402 (grammar
+normalisation into the schema it yields — a
+procedure against its product: the schema is
+also read directly off grammars the procedure
+never ran on in the paper's own subset
+corollary, and normalisation is spent where
+no schema is in view, in the round-trip
+pricing of 1.2.397's repair); 1.2.398 into
+1.2.397 (serialisation by tree walking into
+round-tripping and its limit — the instrument
+against the property it serves: the walk is
+also the second half of conversion (1.2.404),
+spent where no round trip is in view, and the
+limit is a statement about information, not
+about the walk); 1.2.403 into 1.2.400 (the
+subset corollary into representation
+neutrality — the paper states it as a
+corollary, but it is spent apart, as the
+compatibility test conversion consumes, where
+neutrality itself is not in view). Twin-check
+run as in Pass #6: the new country's concepts
+against the held book — the nearest ground is
+a shared move, not a shared concept:
+translation beside cluster G's functional
+translation (1.2.48), derivation beside
+cluster F's typing judgment (1.3.74),
+specification beside clusters I and X,
+identity-relative-to-the-instrument beside
+cluster E's founding lesson — each priced as
+shape at the founding (46.1.5), linked there,
+not merged. The earlier passes' candidates
+stand rejected still. Splits: none — no
+scroll carries two concepts that later work
+cites separately. Endings: none (no pruning,
+rule 14). Pass #20 also ran under rule 14:
+the standing of each of the 404 concepts
+checked against the Section 4 record; no
+standing moved. Pass #20 also ran the areas
+audit (rule 16): all eight area scrolls
+checked against the record; the machines area
+gains Paper 029's four machines; the
+reference area gains the chapter's three
+foundations and one defined word, and its
+standoff count is made fresh in this pass (45
+companions). The registry as a whole stands
+re-proved in Lean at this taking-in (registry
+accurate; total, unique and receipt-backed;
+every registry-to-structure condition
+proved). Action taken: cluster AK founded
+(addendum below); the pass is logged here.
+Next pass due at Paper 035 or 420 canonical
+concepts, or on overlap revealed by a delta.
+
 AH. THE EVOLVED QUANTIZER — an algorithm found by
 search, priced by parts (Study S015): 1.2.317-1.2.327:
 e-means, the design evolved; the scaling-law recipe; the
@@ -4988,6 +5239,79 @@ line) and stands in the log above. The next pass
 falls at Paper 030 or 400 canonical concepts.
 Standoff map for cluster AJ (1.2.370-1.2.381):
 foundations 1.3.309-1.3.312; defined word 1.3.313.
+
+Extended at Paper 028 (1.2.382-1.2.394): the
+country gains its dynamics — quadratic
+convexity; Andrews-Baker quadratic pinching;
+admission beyond the critical ratio; the
+sharpness products; preservation of quadratic
+convexity; closed-case convergence to a round
+point; the dimension split; spherical free
+boundary mean curvature flow; the spherical
+conormal identities; preservation of quadratic
+pinching at the free boundary; the planarity
+estimate carried to the boundary; the derivative
+corrections; free-boundary convergence to a
+round hemisphere. The cluster's centre, widened:
+Paper 027 priced what smallness forces (a cone's
+topology, read off its resolution); Paper 028
+prices what preservation forces (a flow's
+ending, read off a sign it cannot spend). The
+bridges of the extension to held ground are
+shared machinery — the same flow, the same
+maximum principle family — not analogies of
+shape; the axis judgment stands at 45.1.5. No
+gate of the Oracle is exercised by the
+extension; the bar stands at about 62%. Standoff
+map for the extension (1.2.382- 1.2.394):
+foundations 1.3.314-1.3.316; defined word
+1.3.317.
+
+AK. THE FORMAT COUNTRY — grammars, parse
+trees, and the neutrality of representations
+(Paper 029): 1.2.395-1.2.404: Invisible XML;
+marking, the ^ that decides what the
+serialisation keeps; round-tripping and its
+limit; serialisation by tree walking, and
+parsing a parse tree; Earley parsing as a
+serialised parallel processor; representation
+neutrality; grammar normalisation; the
+normalised grammar as a data schema; the
+subset corollary; format conversion. The
+cluster's centre: a format is its grammar,
+and its data the grammar's parse trees —
+everything else is clothing, priced as
+clothing. The calls at the founding: cluster
+G NEIGHBOUR BY SHAPE — the functional
+translation (1.2.48) moves a program between
+representations to prove things about it;
+this cluster's conversion moves a document
+between representations and prices nothing
+about it: a shared move, two purposes; priced
+as shape. Cluster F NEIGHBOUR BY SHAPE — the
+typing rules and the judgment (1.2.42,
+1.3.74) are grammar-driven derivations in the
+service of proofs; this cluster's derivations
+are in the service of documents; priced as
+shape. Clusters I and X NEIGHBOUR BY SHAPE —
+specification as an artifact that fixes what
+counts: there, what an agent must produce and
+what a meaning is agreed to be; here, what a
+document is at all; priced as shape. Cluster
+E NEIGHBOUR BY SHAPE — its founding lesson is
+identity relative to the instrument that
+reads a manifold; representation neutrality
+(1.2.400) is that lesson in the country of
+text: identity relative to the parse; priced
+as shape. No gate of the Oracle is exercised
+by the founding; the bar stands at about 62%.
+Restructure Pass #20 fell due inside this
+taking-in (the count trigger, the count at
+404 over the 400 line) and stands in the log
+above. The next pass falls at Paper 035 or
+420 canonical concepts. Standoff map for
+cluster AK (1.2.395-1.2.404): foundations
+1.3.318-1.3.320; defined word 1.3.321.
 # Research Oracle — detection list
 Stood up 2026-11-09 under charter rule 17. The ledger (1.1.4) holds
 the estimate; this scroll holds the SIGNS watched for the fixed
@@ -6047,6 +6371,68 @@ slots 3, 6 and 8, Papers 022, 025 and 027, carry no
 seal and no score). Eight papers of twelve is a
 line, not a verdict; the criteria stand fixed in
 advance and are judged on the twelve.
+
+A PAPER OF THE TEST, SEALED AND FILED — Paper
+028, 'Quadratic Convexity for Closed and Free
+Boundary High Codimension Mean Curvature Flow'
+(Nguyen & Vogiatzi), taken in 2026-11-19
+(Chapter 45): the second paper of cluster AJ,
+taken in as a pick of the day's scan — the fifth
+of the five of that kind; the stratum of the
+scan's picks completes with it, and nine of the
+twelve stand taken in. The seal stands in the
+quest log, committed blind before any full-text
+access: nine new concepts foreseen (interval 5
+to 14), no revision, the axis at probability
+0.05, the Index at 0.0231 (interval 0.013 to
+0.035), twelve links within the cluster and two
+across, three questions. FILED ACTUALS, entered
+here at filing: thirteen new concepts
+(1.2.382-1.2.394), no revision, no axis (the
+judgment written at 45.1.5, on the three
+grounds), the Index 13/394 = 0.0330, seventeen
+links within the cluster and none across, four
+questions opened (Q141-Q144). The sensitivity
+alternative stands recorded in the delta as the
+protocol requires (nine concepts at the coarser
+grain, Index 0.0231; fourteen at the finer,
+0.0354), and the score is reported both ways.
+SCORE: computed by script in this same pass from
+the filed record, with the null predictors
+beside it (score_p028.py; the full record stands
+in the quest log). The Index miss: sealed
+0.0231, filed 0.0330, an absolute error of
+0.0099, and the sealed 80% Index interval
+[0.013, 0.035] covers the filed Index — the
+sample's second cover (tally: Index 2 of 6,
+counts 3 of 6; the count interval covers too,
+thirteen filed against the sealed five to
+fourteen). The rolling mean of the Index miss
+over the last ten scored papers moves from
+0.0135 to 0.0123. On this paper the skim's
+Index error stands below all three nulls (N1
+0.0170, N2 0.0113, N3 0.0241 — N3 at its
+global-mean fallback, no scored paper having
+yet been filed in this cluster); on counts the
+expanding-mean null stands ahead of the skim
+(N2 error 1.0 against the skim's 4), while the
+coarser sensitivity filing — nine concepts,
+Index 0.0231 — would have scored the Index and
+the count exactly, and the finer split
+(fourteen, Index 0.0354) misses the Index
+interval by four ten-thousandths. The axis
+Brier stands at 0.0025 on the sealed 0.05. The
+running tally of the sample, against the
+criteria fixed in advance: nine slots taken of
+twelve; six papers scored (020, 021, 023, 024,
+026, 028; slots 3, 6 and 8, Papers 022, 025 and
+027, carry no seal and no score); the far stratum (three
+picks) still stands open, so no axis-positive
+paper has yet arrived in the sample and the axis
+part stands untested, as the protocol provides.
+Nine papers of twelve is a line, not a verdict;
+the criteria stand fixed in advance and are
+judged on the twelve.
 # Concept: Intelligence (economic definition)
 Source: Paper 001, §1, after Legg & Hutter (2007).
 
@@ -15907,6 +16293,581 @@ inside L(epsilon) — the paper raises and leaves
 open (Q138). Filed as the paper's claim, on an
 attributed basis.
 Source: Paper 027. NEW in Paper 027.
+
+
+Concept: quadratic convexity — the paper's
+curvature condition, priced by the quantity
+F_eps For kappa > 0 and eps >= 0, with nu =
+H/|H| the principal normal where |H| > 0, h =
+<A, nu> the second fundamental form in that
+direction, lambda_1 the smallest eigenvalue of
+h, and A^- the part of A orthogonal to nu: F_eps
+= |H| lambda_1 - (n-1)/2 (lambda_1^2 + |A^-|^2)
++ kappa [ (1/(n-1) - eps) |H|^2 - |A|^2 ].
+Quadratic convexity is F_eps > 0, read as
+positivity of |H|^2 F_eps, extended continuously
+by zero where H = 0. The condition combines
+quantitative convexity in the mean curvature
+direction (the lambda_1 terms) with control of
+the full second fundamental form (the pinching
+bracket). Both theorems of the paper run at
+kappa = 14/5, a value the preservation estimates
+force. The founding concept of this paper's
+filing: cluster AJ's held conditions price
+entropy, a global quantity; this one is
+pointwise and algebraic, a condition on the
+curvature tensor at a point. Source: Paper 028.
+NEW in Paper 028.
+
+
+Concept: Andrews-Baker quadratic pinching — the
+predecessor condition, |A|^2 <= |H|^2/(n-1) The
+condition of Andrews and Baker [1]: for a
+compact connected submanifold without boundary,
+n >= 4, with mean curvature vector initially
+nowhere zero, |A|^2 <= (1/(n-1)) |H|^2 is
+preserved by mean curvature flow, the flow
+contracts to a point in finite time, and the
+rescaled immersions converge to a round sphere
+in an (n+1)-plane. The ratio 1/(n-1) is the
+critical quadratic ratio of this paper: strict
+Andrews-Baker pinching on a compact initial
+submanifold implies quadratic convexity F_eps >
+0 for sufficiently small eps > 0 (Lemma 2.1 of
+the paper), and the paper's separate free-
+boundary preservation result (1.2.391) is stated
+for this same family of inequalities, where the
+critical coefficient survives only in dimensions
+4 <= n <= 9. Filed apart from quadratic
+convexity (1.2.382): the paper spends the
+predecessor at three distinct points — the
+implication into F_eps, the late-time restart of
+the closed proof, and the free-boundary range —
+the instrument rule's test, met. Source: Paper
+028 (citing Andrews-Baker). NEW in Paper 028.
+
+
+Concept: admission beyond the critical ratio —
+quadratic convexity reaches tensors pinching
+excludes, and prices convexity quantitatively
+The algebraic chain of the paper's Section 2:
+|A|^2 <= |H|^2/(n-1) implies F_0 >= 0, and F_0
+>= 0 implies h >= 0 — convexity in the mean
+curvature direction. The middle condition is
+strictly wider than the first: F_0 > 0 can hold
+for curvature tensors beyond the critical
+quadratic ratio, so the preservation theorem for
+F_eps enlarges the class the Andrews-Baker
+inequality permits while keeping quantitative
+convexity: for fixed eps > 0, F_eps >= 0 implies
+h >= [kappa eps / (1 + 2 kappa/(n-1))] |H| g
+wherever |H| > 0, a bound that excludes the
+round cylinder, whose lambda_1 is 0. The
+condition still imposes more than convexity:
+even at A^- = 0, positive definite tensors of
+trace one near diag(1, 0, ..., 0) have F_0 < 0
+for n >= 4. Filed apart from the condition
+itself (1.2.382) under the grain rule: the
+abstract states the admission apart, and the
+quantitative bound is a stated result the
+convergence proofs spend. Source: Paper 028. NEW
+in Paper 028.
+
+
+Concept: the sharpness products — convexity in
+the principal direction alone does not round off
+The family M_r = S^{n-1}(r) x S^1(1) in R^{n+2},
+n >= 4, 0 < r < 1. On M_r the form h is positive
+definite — the submanifold is strictly convex in
+its principal normal direction — yet its mean
+curvature flow collapses at the first singular
+time onto a circle of positive radius, not to a
+round point. The paper computes F_0 < 0 on M_r,
+with F_0/|H|^2 tending to 0 from below as r -> 0
+and |A|^2/|H|^2 tending to the critical ratio
+1/(n-1). Hence for every delta > 0 there are
+compact initial submanifolds with F_0 > -delta
+|H|^2 whose flows do not converge to round
+points: the sign condition F_eps > 0 is sharp
+for closed flows, against perturbations of
+exactly this shape. The paper asserts no
+optimality of kappa or of a fixed eps, and no
+sharpness for flows with spherical free boundary
+— the gap stands as Q143. Source: Paper 028. NEW
+in Paper 028.
+
+
+Concept: preservation of quadratic convexity —
+the invariant both convergence theorems spend
+Quadratic convexity, once held, is kept: if
+F_eps > 0 initially (kappa = 14/5, eps fixed and
+small) then F_eps > 0 at every later time, in
+the closed case and at the spherical free
+boundary alike. The proof is a first-zero
+argument in two theatres. In the interior
+(Section 3 of the paper), at a possible first
+zero of F_eps the reaction terms and the
+gradient terms are estimated separately, and
+with kappa = 14/5 their sum gives the
+differential inequality the tensor maximum
+principle spends. At the boundary (Section 7),
+the conormal derivative of an upper support for
+F_eps at a possible first boundary zero has the
+excluding sign, computed from the spherical
+conormal identities (1.2.390), so the first zero
+cannot sit on the boundary either. One
+preservation, two theatres: filed as one concept
+under the split rule, since the paper never
+spends the theatres apart — each convergence
+theorem consumes the whole invariant. The
+sensitivity alternative, filed split, stands in
+the delta (45.1.5). Source: Paper 028. NEW in
+Paper 028.
+
+
+Concept: closed-case convergence — quadratic
+convexity rounds a closed submanifold to a point
+Theorem 1.1 of the paper. Let the flow be the
+maximal smooth mean curvature flow of a compact
+connected manifold without boundary, n >= 5,
+codimension m >= 2 (the statement also covers m
+= 1). For n >= 8 assume F_eps > 0 initially; for
+5 <= n <= 7 assume in addition |A|^2 < c_n |H|^2
+with c_n = 3(n+1)/(2n(n+2)). Then F_eps > 0 is
+preserved (1.2.386), T is finite, the flow
+contracts to a point q, and (F -
+q)/sqrt(2n(T-t)) converges in C^infinity to a
+parametrisation of the unit round n-sphere in a
+fixed (n+1)-dimensional linear subspace. Proof
+shape: finite time from the |F|^2 identity;
+blowup at the running maximum of |H|; the
+ancient limit is convex in a fixed (n+1)-plane,
+strictly convex by the preserved bound, compact,
+hence a family of shrinking round spheres; at a
+late time the whole submanifold satisfies strict
+Andrews-Baker pinching (1.2.383) and that
+theorem finishes. Corollary: critical pinching
+evolves to a round point for n >= 4. Source:
+Paper 028. NEW in Paper 028.
+
+
+Concept: the dimension split — where quadratic
+convexity supplies its own quadratic bound, and
+where one must be assumed beside it Both
+convergence theorems divide at n = 8. For n >=
+8, quadratic convexity with kappa = 14/5 itself
+gives |A|^2 < (4/3n) |H|^2 (Section 2 of the
+paper), the quadratic control the curvature
+estimates spend, and no second hypothesis is
+needed. Below the split the bound does not
+follow, and each theorem assumes its own: the
+closed theorem, for 5 <= n <= 7, assumes |A|^2 <
+c_n |H|^2 with c_n = 3(n+1)/(2n(n+2)); the free
+boundary theorem, for 4 <= n <= 7, assumes |A|^2
+< (4/3n) |H|^2. Below the theorems' floors the
+picture changes again: for 2 <= n <= 4 the
+additional pinching of the closed theorem
+coincides with strict Andrews-Baker pinching, so
+no new statement is made there. Filed as its own
+concept under the grain rule: the split is a
+load-bearing clause of both stated theorems, not
+a remark — each side of it carries a different
+hypothesis, and the low dimensions it leaves out
+stand as Q141. Source: Paper 028. NEW in Paper
+028.
+
+
+Concept: spherical free boundary mean curvature
+flow — the boundary theatre of cluster AJ A
+compact manifold with nonempty boundary flows by
+mean curvature inside the closed ball
+Bbar_R^{n+m}, its boundary constrained to the
+sphere S_R^{n+m-1} and meeting it orthogonally
+at every time. The orthogonal meeting is the
+free boundary condition: it kills the boundary
+term in the first variation of area, so the flow
+remains the gradient flow of area with the
+boundary riding on the fixed sphere. The outward
+unit conormal along the boundary is mu = F/R.
+Cluster AJ's held ground before this paper is
+boundaryless — cones, links and expanders in
+open space; this setting is the cluster's first
+boundary, and the paper's second theatre: its
+identities (1.2.390), its pinching range
+(1.2.391) and its convergence theorem (1.2.394)
+all live here, in arbitrary codimension (m >= 2
+in Theorem 1.3), where the codimension-one
+theory (Stahl, Buckland, Edelen) stood alone
+before. Source: Paper 028. NEW in Paper 028.
+
+
+Concept: the spherical conormal identities — the
+boundary's curvature bookkeeping Lemma 4.1 of
+the paper. Along a spherical free boundary, in
+the boundary frame with e_n = mu: A_{a mu} = 0
+for a < n; R nabla_{e_a} mu = e_a; R
+nabla^perp_mu H = H; and the conormal
+derivatives of the second fundamental form are R
+(nabla_mu A)_{ab} = delta_{ab} A_{mu mu} -
+A_{ab} and R (nabla_mu A)_{mu mu} = 2H - n A_{mu
+mu}. These identities are the paper's boundary
+instrument: they are spent at three distinct
+points of the argument — the pinching
+calculation of Section 4 (the identity (4.3)
+behind 1.2.391), the planarity sign of Section 5
+(1.2.392), and the boundary exclusion of Section
+7 (the boundary leg of 1.2.386) — and so stand
+as a concept of their own under the instrument
+rule, not folded into any one of their products.
+Everything the sphere gives the proof is in
+these five lines: the boundary is not a wall the
+estimates stop at, but a source of exact
+identities the estimates consume. Source: Paper
+028. NEW in Paper 028.
+
+
+Concept: preservation of quadratic pinching
+under spherical free boundary flow — and the
+range the boundary imposes Proposition 4.2 of
+the paper. For P = |A|^2 - c|H|^2 on a spherical
+free boundary flow, n >= 2: P <= 0 is preserved
+whenever 9/(8n) <= c <= 4/(3n), both endpoints
+included. The range is the boundary's doing: the
+conormal identities give (R/2) d_mu P = -P -
+n|A_{mu mu} - (3/2n)H|^2 + (9/(4n) - 2c)|H|^2 at
+the boundary, whose sign at P = 0 forces the
+lower endpoint, while the interior evolution
+forces the upper one. The critical Andrews-Baker
+coefficient 1/(n-1) lies inside the range
+exactly for 4 <= n <= 9; for n >= 10 it falls
+below the lower endpoint and this proof's sign
+fails there — whether preservation itself fails
+there stands as Q142. Under strict initial
+pinching the same machinery gives an additive
+gap (Lemma 4.3 of the paper), which keeps |H|
+bounded away from zero along the flow — the
+ground the derivative estimates (1.2.393) stand
+on. Source: Paper 028. NEW in Paper 028.
+
+
+Concept: the planarity estimate carried to the
+boundary — the part of A orthogonal to H dies in
+blowups Planarity prices how far a high-
+codimension submanifold sits from lying in an
+(n+1)-plane: the quotient built from A^-, the
+part of the second fundamental form orthogonal
+to the mean curvature direction. In the interior
+the estimate is Naff's, spent by Lynch and
+Nguyen; Section 5 of the paper extends it to the
+spherical free boundary, by reading the sign of
+the planarity quotient's conormal derivative
+from the identities at 1.2.390. The product the
+proofs consume: in every curvature blowup the
+A^- component disappears, so blowup limits are
+hypersurface-like — convex bodies in an
+(n+1)-plane — in the boundary theatre as in the
+closed one. Spent at two distinct points: the
+ancient-limit classification behind the free
+boundary convergence (1.2.394), and, through the
+cited interior form, the closed blowup of
+1.2.387. An instrument under the rule, filed
+apart from both products. Source: Paper 028. NEW
+in Paper 028.
+
+
+Concept: the derivative corrections — gradient
+estimates for A up to the free boundary Section
+6 of the paper. The maximum principle does not
+bound nabla A or nabla^2 A at a free boundary
+directly; the paper builds corrections to the
+curvature derivatives — auxiliary quantities
+whose boundary behaviour the conormal identities
+(1.2.390) control — so that the corrected
+quantities satisfy maximum principle arguments
+up to the boundary. The products are estimates
+of the shape of Theorem 6.3: |nabla A|^2 <= C
+(|A|^2 + R^-2)^2 on the whole flow, with C
+depending on n, m, the initial submanifold and
+R, and its second derivative companion. These
+bounds are the ground on which smooth blowup
+limits up to the boundary exist at all (Section
+8, with the compactness of Appendix A): without
+them the free boundary convergence theorem
+(1.2.394) has no limits to classify. A
+construction spent at several points of one
+argument and consumed by the next — an
+instrument, filed as its own concept. Source:
+Paper 028. NEW in Paper 028.
+
+
+Concept: free-boundary convergence — quadratic
+convexity rounds a free boundary submanifold to
+a hemisphere in one determined plane Theorem 1.3
+of the paper. Let the flow be the maximal smooth
+spherical free boundary flow (1.2.389) of a
+compact connected manifold, n >= 4, m >= 2, with
+F_eps > 0 initially and, for 4 <= n <= 7, |A|^2
+< (4/3n)|H|^2 initially (the split at 1.2.388).
+Then F_eps > 0 is preserved (1.2.386), T is
+finite, the flow contracts to a point q on the
+supporting sphere, and (F - q)/sqrt(2n(T-t))
+converges in C^infinity up to the free boundary
+to the unit round hemisphere {x in V: |x| = 1,
+<x, q> <= 0} in a fixed (n+1)-dimensional linear
+subspace V containing q/R — one plane,
+determined by the flow, not by the blowup
+sequence: Section 8 classifies the ancient
+limits as shrinking round hemispheres (Lynch-
+Nguyen rigidity, by reflection) and the
+quantitative planarity estimate (1.2.392)
+controls the plane's drift near extinction. The
+authors state it as the first such convergence
+theorem for spherical free boundary flow in
+arbitrary codimension; the one-dimensional
+analogue is their own [20]. Source: Paper 028.
+NEW in Paper 028.
+
+
+Concept: Invisible XML (ixml) — a method for
+treating any parsable format as if it were
+XML. Parse the external form with a
+general-purpose parsing algorithm, using a
+grammar of the format, and serialise the
+resulting parse tree as XML: the document
+enters an XML pipeline without its author
+writing XML. The parsing can be undone, so
+the XML can be serialised back to the
+original format — round-tripping. The grammar
+is written in a 1-level van Wijngaarden
+grammar, a variant of BNF: rules of
+alternatives of terminals and non-terminals,
+with the mark ^ deciding what the
+serialisation keeps (1.2.396). The founding
+concept of cluster AK: the paper's whole
+country is the claim that a format is its
+grammar, and its data the grammar's parse
+trees. Source: Paper 029. NEW in Paper 029.
+
+
+Concept: marking — the ^ of an ixml grammar,
+the mark that decides what the serialisation
+keeps. A non-terminal or terminal marked ^ in
+the grammar is required to show up in the
+final XML serialisation; an unmarked one is
+elided — it structures the parse without
+surviving it. In the paper's expression
+grammar, expr, sum, prod, letter and digit
+are marked, while term and factor are not:
+the serialisation of a×(3+b) keeps
+<expr><prod><letter>a</letter><sum>... and
+drops the scaffolding between. Marking is the
+grammar's one discretionary act, and
+everything the paper prices later is priced
+off it: what is elided is what round-tripping
+cannot promise to restore (1.2.397), and
+normalisation deletes exactly the unmarked
+terminals (1.2.401). Source: Paper 029. NEW
+in Paper 029.
+
+
+Concept: round-tripping and its limit — the
+return of generated XML to its original
+format by serialisation, and the exact point
+where the return stops being faithful. With
+the parse tree in hand the return is exact
+(1.2.398). From the serialisation alone it is
+semantically identical but not necessarily
+character-identical: material the grammar
+elided and the serialisation never recorded
+cannot be recovered. The paper's witness: a
+grammar allowing several sorts of brackets
+with no separate meaning gives (b+1) and
+{b+1} the identical serialisation, so no
+serialiser can tell which stood in the
+original — and nested double brackets cannot
+even be inferred. The repair the paper
+prices: effective information about the
+elided characters has to appear in the
+serialisation, for instance by splitting one
+factor rule into marked pexpr and bexpr
+rules, so the distinction is carried as
+structure. What is not recorded is not
+restored: the limit is information, not
+effort. Source: Paper 029. NEW in Paper 029.
+
+
+Concept: serialisation by tree walking, and
+parsing a parse tree — the two directions
+between a parse tree and its text.
+Serialisation with the tree in hand is a
+depth-first walk: at a terminal, copy it to
+the output; at a non-terminal, recurse — the
+paper gives it as a five-line program. The
+hard direction is the general case, where
+only the XML serialisation survives: the tree
+must be re-created by parsing the
+serialisation itself with the original
+grammar. The matching rules are the paper's:
+a marked terminal must be present in the XML,
+as must a marked nonterminal, which is then
+treated as a nonterminal of the original
+parse; an unmarked terminal is assumed
+present; an unmarked nonterminal is treated
+as any nonterminal. The rebuilt tree then
+serialises by the walk. The paper notes, and
+leaves unpriced, that this second parse can
+itself be ambiguous (Q146). Source: Paper
+029. NEW in Paper 029.
+
+
+Concept: Earley parsing as a serialised
+parallel processor — the paper's recasting of
+the Earley algorithm [earley] from a state
+chart to a machine of processes. Each rule is
+a process: its right-hand side a series of
+instructions for matching the input from the
+current position, executed sequentially. A
+rule with several alternatives forks into a
+sub-process per alternative, each from the
+same start position. Processes sit in a queue
+ordered by input position: all processes for
+position n run before any for n+1. A process
+that matches a symbol pauses and joins the
+queue for n+1; one that finishes its
+instructions succeeds and returns to its
+parent; one that meets an unexpected symbol
+fails and returns. A rule succeeds if any
+alternative does; several can, if the grammar
+is ambiguous. The sharing clause is the
+machine's heart: a rule already queued for a
+position is not queued again but linked — a
+process can have more than one parent, and on
+its success all its parents must be
+restarted. Source: Paper 029. NEW in Paper
+029.
+
+
+Concept: representation neutrality — the
+paper's central consequence: from the point
+of view of ixml, any external representation
+of a format is equivalent as long as it has
+the same parse tree, so the external
+representation of any format is relatively
+unimportant; it is the data represented that
+matters, and in particular the resulting
+parse tree. The paper spends the claim on its
+own grammar: the ixml grammar is exhibited in
+two notations — its own colon-and-semicolon
+form and a BNF-like form with ::= and angle
+brackets — both describing, and using, the
+format described, with the same serialised
+parse tree either way. The one repercussion
+is priced in the same breath: at delivery one
+must declare not only the syntax of the
+document being parsed but the syntax of that
+syntax, if it is not the standard one — the
+paper's mediatype example carries both.
+Neutrality moves the declaration up one
+level; it does not abolish it (Q148). Source:
+Paper 029. NEW in Paper 029.
+
+
+Concept: grammar normalisation — the
+procedure that turns an ixml grammar into the
+definition of its own parse trees. For each
+symbol in every rule: if it is an implicit
+terminal, delete it; if it is a refinement,
+replace it with the definition of that
+refinement enclosed in brackets, unless the
+refinement is already part of it — that is,
+unless it is recursive. Then delete all rules
+that are no longer used. The paper runs the
+procedure on its expression grammar, where
+every rule collapses onto the one surviving
+choice (^letter; ^digit; ^prod; ^div; ^sum;
+^diff), and on a fragment of the ixml grammar
+for itself, where rule: @name, colon,
+definition, stop becomes rule: @name,
+(^alternative)+ by substitution and deletion
+in stages. What survives is only what the
+serialisation can contain: the parse-tree
+definition, which the paper then reads as a
+schema (1.2.402). Source: Paper 029. NEW in
+Paper 029.
+
+
+Concept: the normalised grammar as a data
+schema — the paper's reading of
+normalisation's output. The resulting
+parse-tree definition is essentially a
+definition of the data structure for the
+internal representation of the document: in
+other words, a form of schema. Read as
+data-structuring, the normalised rules are
+type definitions: semicolons represent
+unions, commas represent structs, and
+repetitions represent lists. The grammar of a
+format and the schema of its data are
+therefore not two artifacts that must be kept
+in agreement; the schema is the grammar,
+normalised — derived by a procedure
+(1.2.401), not designed beside it. The
+paper's worked endpoint is the parse-tree
+description of the ixml grammar fragment
+itself: ixml: (^rule)+; rule: @name,
+(^alternative)+; alternative: a repetition of
+the six term kinds — a schema of grammars,
+written in the grammar's own output form.
+Source: Paper 029. NEW in Paper 029.
+
+
+Concept: the subset corollary — the paper's
+compatibility test between formats. A
+corollary of representation neutrality
+(1.2.400): if a format has a normalised
+grammar that is a subset of another format's
+normalised grammar, and the two have the same
+root node, then the first language is
+compatible with the second — but not the
+other way round. Compatibility is one-way
+inclusion of parse-tree definitions: every
+tree the smaller grammar licenses is a tree
+the larger one licenses, so data written in
+the first can be received as data of the
+second, and the reverse direction is exactly
+what the asymmetry denies. The corollary
+prices formats against each other without any
+document changing hands: the comparison is
+made on the normalised grammars — the schemas
+of 1.2.402 — alone. The paper states the
+corollary without a procedure for deciding
+the subset relation (Q147). Source: Paper
+029. NEW in Paper 029.
+
+
+Concept: format conversion — the paper's
+closing construction: since external
+representation is no longer important,
+transforming one format to another, as long
+as their normalised grammars are compatible,
+is parsing with one grammar and serialising
+with another. The parse tree is the pivot:
+the first grammar reads the source text into
+the shared tree, the second grammar's
+serialisation (1.2.398) writes the same tree
+out in the target clothing. The paper's
+instance is reflexive — transforming an ixml
+grammar itself into a different
+representation of a grammar — but the
+construction is general: any two formats
+whose normalised grammars stand in the subset
+relation of 1.2.403, or share the parse-tree
+definition outright, convert into each other
+by this one move, with no format-specific
+converter written. Conversion is not a
+programme per pair of formats; it is the
+technique of 1.2.395 read in both directions
+at once. Source: Paper 029. NEW in Paper 029.
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -16010,6 +16971,15 @@ Added with Paper 027 (2026-11-19): foundations
 fundamental form; smooth submanifold; retraction
 and homotopy; convex function — and the defined
 word 1.3.313: link.
+Added with Paper 028 (2026-11-19): foundations
+1.3.314-1.3.316 — mean curvature flow; the
+principal normal and the split of the second
+fundamental form; free boundary and the
+conormal — and the defined word 1.3.317:
+conormal.
+Added with Paper 029 (2026-11-19): foundations
+1.3.318-1.3.320 — grammar; parse tree; schema —
+and the defined word 1.3.321: refinement.
 # Foundation: function, variable, input, output
 A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
 given the same input, always the same output. A VARIABLE is a named
@@ -19572,6 +20542,160 @@ tracker holds no other sense yet. The word is
 entered in the register because the tracker's texts
 use it as an ordinary word from this paper on.
 Source: Paper 027.
+
+
+Foundation: mean curvature flow A smooth one-
+parameter family of immersions F(., t): M^n ->
+R^{n+m} moving by its mean curvature vector: d_t
+F = Delta_{g(t)} F = H, where g(t) is the
+induced metric and H the trace of the second
+fundamental form. It is the gradient flow of the
+area functional: along a closed flow, d/dt Area
+= - integral |H|^2, so area is spent at the rate
+the curvature prescribes. The flow exists
+smoothly on a maximal interval [0, T); the
+questions the tracker prices are what curvature
+information survives the flow, and what shape
+stands at T. Special trajectories: hypersurfaces
+standing still (H = 0, the minimal ones), and
+the self-similar ones — shrinkers, expanders
+(1.2.372) — that solve the flow by scaling.
+Builds on: mean curvature and the second
+fundamental form (1.3.309); smooth submanifold
+(1.3.310). Source: Paper 028.
+
+
+Foundation: the principal normal and the split
+of the second fundamental form In codimension
+above one the second fundamental form A takes
+values in the normal bundle, and no single
+normal direction is given. Where the mean
+curvature vector does not vanish, it chooses
+one: the principal normal nu = H/|H|. Writing h
+= <A, nu>, a symmetric bilinear form on the
+tangent space — the second fundamental form read
+in the mean curvature direction, with
+eigenvalues the principal curvatures in that
+direction, the smallest of them lambda_1 — the
+form splits as A = h nu + A^-, where A^- is the
+part of A orthogonal to nu, pricing everything
+the mean curvature direction does not see.
+lambda_1 >= 0 is convexity in the mean curvature
+direction. Where H = 0 the split is not defined,
+and quantities built from it are read by
+continuous extension. Builds on: mean curvature
+and the second fundamental form (1.3.309);
+eigenvalue. Source: Paper 028.
+
+
+Foundation: free boundary and the conormal A
+submanifold with boundary has a free boundary on
+a supporting hypersurface when its boundary lies
+on the support and meets it orthogonally at
+every point: the boundary is free to slide along
+the support, and the orthogonal meeting is the
+condition that keeps a variational flow a
+gradient flow (no boundary term in the first
+variation). Along the boundary, the conormal mu
+is the unit vector tangent to the submanifold
+and normal to its boundary — the direction in
+which boundary derivatives are taken. For a
+spherical support of radius R centred at the
+origin, mu = F/R along the boundary, and the
+geometry of the sphere enters the flow's
+bookkeeping through exact identities in mu
+(1.2.390). Builds on: smooth submanifold
+(1.3.310); the sphere (1.3.4). Source: Paper
+028.
+
+
+Defined word: conormal The unit vector at a
+boundary point of a submanifold that lies in the
+submanifold's tangent space and points outward,
+normal to the boundary inside that tangent
+space. Derivatives along it are the boundary's
+normal derivatives; at a spherical free boundary
+it is mu = F/R (1.3.316). Coined here as a
+defined word of the book: the word is the
+literature's, the register entry is the
+tracker's, fixing which vector the boundary
+arguments of Paper 028 differentiate along.
+Source: Paper 028.
+
+
+Foundation: grammar A set of rules for
+building strings. Each rule names a
+non-terminal — a symbol that stands for a
+structure — and gives its definition as one
+or more alternatives; each alternative is a
+sequence of terminals (literal characters or
+character ranges, the atoms that actually
+appear in a string) and non-terminals. A
+string belongs to the language of the grammar
+when the start symbol's definition can be
+expanded, rule by rule, until only terminals
+remain and they spell the string. Grammars
+are how a format says what its documents are:
+change the rules and you change which strings
+count as documents at all. Builds on:
+function, variable, input, output (1.3.2, as
+the book's standing ground for named things
+and their values). Source: Paper 029.
+
+
+Foundation: parse tree The tree of a
+derivation. To parse a string against a
+grammar is to expand the start symbol into
+the string by the grammar's rules; the parse
+tree records that expansion: the root is the
+start symbol, each interior node is a
+non-terminal expanded by one rule, its
+children are the symbols of the chosen
+alternative in order, and the leaves, read
+left to right, are the terminals — the string
+itself. One string can have several parse
+trees when the grammar is ambiguous, and one
+parse tree can be the tree of several strings
+when parts of the expansion leave no trace in
+the leaves. The tree, not the string, is
+where the structure lives. Builds on: grammar
+(1.3.318); tree (1.3.95). Source: Paper 029.
+
+
+Foundation: schema A definition of the shapes
+that data may take. A schema names
+structures: a union (a value is one of these
+kinds), a struct (a value is these parts, in
+this order, under these names), a list (a
+value is a repetition of one kind), and
+leaves of primitive kinds such as strings and
+numbers. Data conforms to a schema when its
+shape is one the schema licenses; a schema is
+checked against data, and data is read
+through it. A schema is a grammar with the
+clothing removed: it prices the shape of the
+thing, not the characters that carry it.
+Builds on: grammar (1.3.318); parse tree
+(1.3.319). Source: Paper 029.
+
+
+Defined word: refinement In the sense of
+Paper 029: a non-terminal whose rule exists
+only to give structure to other definitions —
+a name under which a piece of a definition is
+gathered so that definitions can be built
+from it — and which grammar normalisation
+therefore expands away in place, replacing
+each use by its definition, unless the
+refinement is recursive. Not the everyday
+sense of making finer: a refinement here is
+not an improvement of a definition but a
+joint in it, and normalisation deletes
+exactly the joints. Coined here as a defined
+word of the book: the word is the paper's,
+the register entry is the tracker's, fixing
+which non-terminals the normalisation of
+1.2.401 spends. Source: Paper 029.
 # The epistemic registry — what this phext holds, and how surely
 
 Every claim-bearing scroll of this phext carries exactly one standing, and
@@ -20241,6 +21365,70 @@ sharpness, the fixed-distribution excess, the
 global-null price, the envelope, the deflated level
 and the rule of thumb, as their source states them.
 
+The counts at the drawing of Paper 029
+(2026-11-19, Restructure Pass #20 run with
+the taking-in): the phext stands at 1084
+scrolls and the living registry exact at 1084
+— True 458 (380 by definition, 78 by
+receipt), Unknown 619 (541 by the say-so of a
+source, 46 reasoned links, 30 open questions,
+2 weighed estimates), False 0, Fiction 7. The
+additions of the drawing: ten concepts, three
+foundations, one defined word, and the nine
+scrolls of a chapter — twenty-three first
+entries. No held scroll was carried in a new
+form, and no standing moved: the ten concepts
+stand Unknown by attribution, as their source
+states them — Invisible XML, marking,
+round-tripping and its limit, serialisation
+by tree walking and parsing a parse tree,
+Earley parsing as a serialised parallel
+processor, representation neutrality, grammar
+normalisation, the normalised grammar as a
+data schema, the subset corollary, and format
+conversion. The chapter's own scrolls stand
+as their kinds stand: the record, the two
+formal cores, the results map, the delta and
+the author check attributed — the paper read
+entire in HTML form, the checks as run; the
+house reading synthesis; the open questions
+open; the standoff references stipulation.
+Nothing the model carries has yet been found
+against, and it still holds no worked example
+of its own making.
+
+The counts at the drawing of Paper 028
+(2026-11-19): the phext stands at 1061
+scrolls and the living registry exact at
+1061 — True 453 (375 by
+definition, 78 by receipt), Unknown 601 (525 by
+the say-so of a source, 45 reasoned links, 29
+open questions, 2 weighed estimates),
+False 0, Fiction 7. The additions of the
+drawing: thirteen concepts, three foundations,
+one defined word, and the nine scrolls of a
+chapter — twenty-six first entries. No held
+scroll was carried in a new form, and no
+standing moved: the thirteen concepts stand
+Unknown by attribution, as their source states
+them — quadratic convexity, the Andrews-Baker
+pinching it extends, the admission beyond the
+critical ratio, the sharpness products, the
+preservation of the condition, the two
+convergences, the dimension split, the free
+boundary theatre, its conormal identities, its
+pinching range, the planarity estimate and the
+derivative corrections. The chapter's own
+scrolls stand as their kinds stand: the record,
+the two formal cores, the results map, the delta
+and the author check attributed — the paper read
+entire in HTML form, the checks as run; the
+house reading synthesis; the open questions
+open; the standoff references stipulation.
+Nothing the model carries has yet been found
+against, and it still holds no worked example of
+its own making.
+
 The counts at the drawing of Paper 027 (2026-11-19,
 Restructure Pass #19 run with the taking-in): the
 phext stands at 1035 scrolls and the living
@@ -20326,8 +21514,8 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 (verified). The receipt for a verified entry is named in registry.json.
 
 - 1.1.1/1.1.1/1.1.1 — The tracker charter: the rules under which research.phext is built and kept, in force by Will's direction [stipulation]
-- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-026, Fringe F001 and Studies S001-S015, checked at ingestion [verified]
-- 1.1.1/1.1.1/1.1.5 — Concept map: the 369 canonical concepts grouped in clusters A-Z, AA, AB, AC, AD, AE, AF, AG, AH and AI, with the restructuring log [stipulation]
+- 1.1.1/1.1.1/1.1.3 — Source index: the record of Papers 001-029, Fringe F001 and Studies S001-S015, checked at ingestion [verified]
+- 1.1.1/1.1.1/1.1.5 — Concept map: the 404 canonical concepts grouped in clusters A-Z, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ and AK, with the restructuring log [stipulation]
 - 1.1.1/1.1.1/1.2.292 — The Pólya urn's uniform multiset — repeats favoured by exactly the right amount [verified]
 - 1.1.1/1.1.1/1.2.293 — Cardchoose — a fair subset drawn as a uniform multiset [verified]
 - 1.1.1/1.1.1/1.2.294 — Stars and bars — the transfer between subsets and multisets [verified]
@@ -20640,12 +21828,25 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/1.3.306 — Foundation: insertion rank [stipulation]
 - 1.1.1/1.1.1/1.3.307 — Foundation: supporting line of a convex curve [stipulation]
 - 1.1.1/1.1.1/1.3.308 — Foundation: stopping time [stipulation]
+- 1.1.1/1.1.1/1.3.309 — Foundation: mean curvature and the second [stipulation]
+- 1.1.1/1.1.1/1.3.310 — Foundation: smooth submanifold [stipulation]
+- 1.1.1/1.1.1/1.3.311 — Foundation: retraction and homotopy [stipulation]
+- 1.1.1/1.1.1/1.3.312 — Foundation: convex function [stipulation]
+- 1.1.1/1.1.1/1.3.313 — Defined word: link [stipulation]
+- 1.1.1/1.1.1/1.3.314 — Foundation: mean curvature flow A smooth one- [stipulation]
+- 1.1.1/1.1.1/1.3.315 — Foundation: the principal normal and the split [stipulation]
+- 1.1.1/1.1.1/1.3.316 — Foundation: free boundary and the conormal A [stipulation]
+- 1.1.1/1.1.1/1.3.317 — Defined word: conormal The unit vector at a [stipulation]
+- 1.1.1/1.1.1/1.3.318 — Foundation: grammar A set of rules for [stipulation]
+- 1.1.1/1.1.1/1.3.319 — Foundation: parse tree The tree of a [stipulation]
+- 1.1.1/1.1.1/1.3.320 — Foundation: schema A definition of the shapes [stipulation]
+- 1.1.1/1.1.1/1.3.321 — Defined word: refinement In the sense of [stipulation]
 - 1.1.1/1.1.1/1.5.1 — Areas of this phext: the map of the five areas and the plain account, with the upkeep duty of charter rule 16 (structural) [stipulation]
 - 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 143 drawn out under rule 13 (121 stated, 22 inferred), 9 entries found in work from before the rule, 3 chapters swept with none found [stipulation]
 - 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after Paper 024 [stipulation]
 - 1.1.1/1.1.1/1.5.4 — Area: Reference material — the 182 foundations, the Defined Words register (115 coined words), and the 40 standoff companions, as one area [stipulation]
 - 1.1.1/1.1.1/1.5.5 — Area: The path — every taking-in in submission order, with Novelty Index and Oracle progress for the papers and the passes where they fell; drawn from 1.1.3 and 1.1.4 [verified]
-- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 131 named researchers and the three companies behind the works taken in, each with their work here and the standing of their author check [verified]
+- 1.1.1/1.1.1/1.5.6 — Area: Researchers — the 135 named researchers and the three companies behind the works taken in, each with their work here and the standing of their author check [verified]
 - 1.1.1/1.1.1/1.5.7 — How this Oracle was built, plainly (1 of 2): arrival, the delta rule, one scroll per concept, the one story, words at level zero, standing [stipulation]
 - 1.1.1/1.1.1/1.5.8 — How this Oracle was built, plainly (2 of 2): the Lean-kept standing record and its honesty boundary, reshaping without pruning, the Oracle number, the areas, and where everything lives [stipulation]
 - 1.1.1/1.1.1/2.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
@@ -20761,6 +21962,9 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/41.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 - 1.1.1/1.1.1/42.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 - 1.1.1/1.1.1/43.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/44.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/45.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/46.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 # Registry: False
 
 Found against, and kept. No entry stands here at the first writing
@@ -20773,7 +21977,7 @@ Written down, not settled. Basis: the say-so of a source (attributed),
 the reasoned link of Emise (synthesis), an open question (open), a
 weighed estimate (estimate).
 
-- 1.1.1/1.1.1/1.1.2 — World-model narrative v40: Emise's one-story synthesis of Papers 001-027, Fringe F001 and Studies S001-S015 [synthesis]
+- 1.1.1/1.1.1/1.1.2 — World-model narrative v42: Emise's one-story synthesis of Papers 001-029, Fringe F001 and Studies S001-S015 [synthesis]
 - 1.1.1/1.1.1/1.1.4 — Research Oracle: Novelty Index definition and the progress-estimate ledger (about 100% after Paper 022, at the ceiling of the scale, its discount stated in the ledger) [estimate]
 - 1.1.1/1.1.1/1.1.6 — Research Oracle detection list: the signs watched for the fixed point — the run of the Novelty Index, the axis events, and the skim calibration of charter rule 17 [estimate]
 - 1.1.1/1.1.1/1.2.1 — Concept: Intelligence (economic definition) [attributed]
@@ -21137,6 +22341,41 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/1.2.367 — Concept: The expected-prefix price [attributed]
 - 1.1.1/1.1.1/1.2.368 — Concept: The retrospective price Theta(sqrt T) [attributed]
 - 1.1.1/1.1.1/1.2.369 — Concept: The quota guard and guarded ACI — [attributed]
+- 1.1.1/1.1.1/1.2.370 — Concept: Colding-Minicozzi entropy — the Gaussian [attributed]
+- 1.1.1/1.1.1/1.2.371 — Concept: The regular hypercone and its link — the [attributed]
+- 1.1.1/1.1.1/1.2.372 — Concept: Self-expanders — the cone, resolved by its [attributed]
+- 1.1.1/1.1.1/1.2.373 — Concept: Ding's existence theorem — every regular [attributed]
+- 1.1.1/1.1.1/1.2.374 — Concept: Yao's uniqueness at small entropy — one [attributed]
+- 1.1.1/1.1.1/1.2.375 — Concept: White regularity with Guo's sharpening — [attributed]
+- 1.1.1/1.1.1/1.2.376 — Concept: Convexity of the squared distance — one [attributed]
+- 1.1.1/1.1.1/1.2.377 — Concept: Theorem 1.1 — a cone of entropy near 1 has [attributed]
+- 1.1.1/1.1.1/1.2.378 — Concept: Bernstein-Wang compactness and the entropy [attributed]
+- 1.1.1/1.1.1/1.2.379 — Concept: Asymptotic graphicality — the expander [attributed]
+- 1.1.1/1.1.1/1.2.380 — Concept: The trace at infinity and the expander [attributed]
+- 1.1.1/1.1.1/1.2.381 — Concept: Theorem 1.2 — the space of low-entropy [attributed]
+- 1.1.1/1.1.1/1.2.382 — Concept: quadratic convexity — the paper's [attributed]
+- 1.1.1/1.1.1/1.2.383 — Concept: Andrews-Baker quadratic pinching — the [attributed]
+- 1.1.1/1.1.1/1.2.384 — Concept: admission beyond the critical ratio — [attributed]
+- 1.1.1/1.1.1/1.2.385 — Concept: the sharpness products — convexity in [attributed]
+- 1.1.1/1.1.1/1.2.386 — Concept: preservation of quadratic convexity — [attributed]
+- 1.1.1/1.1.1/1.2.387 — Concept: closed-case convergence — quadratic [attributed]
+- 1.1.1/1.1.1/1.2.388 — Concept: the dimension split — where quadratic [attributed]
+- 1.1.1/1.1.1/1.2.389 — Concept: spherical free boundary mean curvature [attributed]
+- 1.1.1/1.1.1/1.2.390 — Concept: the spherical conormal identities — the [attributed]
+- 1.1.1/1.1.1/1.2.391 — Concept: preservation of quadratic pinching [attributed]
+- 1.1.1/1.1.1/1.2.392 — Concept: the planarity estimate carried to the [attributed]
+- 1.1.1/1.1.1/1.2.393 — Concept: the derivative corrections — gradient [attributed]
+- 1.1.1/1.1.1/1.2.394 — Concept: free-boundary convergence — quadratic [attributed]
+- 1.1.1/1.1.1/1.2.395 — Concept: Invisible XML (ixml) — a method for [attributed]
+- 1.1.1/1.1.1/1.2.396 — Concept: marking — the ^ of an ixml grammar, [attributed]
+- 1.1.1/1.1.1/1.2.397 — Concept: round-tripping and its limit — the [attributed]
+- 1.1.1/1.1.1/1.2.398 — Concept: serialisation by tree walking, and [attributed]
+- 1.1.1/1.1.1/1.2.399 — Concept: Earley parsing as a serialised [attributed]
+- 1.1.1/1.1.1/1.2.400 — Concept: representation neutrality — the [attributed]
+- 1.1.1/1.1.1/1.2.401 — Concept: grammar normalisation — the [attributed]
+- 1.1.1/1.1.1/1.2.402 — Concept: the normalised grammar as a data [attributed]
+- 1.1.1/1.1.1/1.2.403 — Concept: the subset corollary — the paper's [attributed]
+- 1.1.1/1.1.1/1.2.404 — Concept: format conversion — the paper's [attributed]
 - 1.1.1/1.1.1/2.1.1 — Paper 001 record and distillation: 'Organizing Intelligence' -- intelligence matters economically through organizations [attributed]
 - 1.1.1/1.1.1/2.1.2 — Paper 001 — Formal core [attributed]
 - 1.1.1/1.1.1/2.1.3 — Paper 001's own worked example (its section 2): the 14-human toy economy and its firm-formation numbers, as reported by the paper [attributed]
@@ -21333,6 +22572,30 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/43.1.6 — Paper 026 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [attributed]
 - 1.1.1/1.1.1/43.2.1 — Paper 026 — synthesis: what sequential [synthesis]
 - 1.1.1/1.1.1/43.2.2 — Paper 026 — Open questions Q134-Q136 [open]
+- 1.1.1/1.1.1/44.1.1 — Paper 027 delta: Topological Properties of Cones with Small Entropy -- twelve concepts (1.2.370-1.2.381), no revision, cluster AJ founded, taken in as a paper posted by Will and counted in the test without a seal (sample 8 of 12) [attributed]
+- 1.1.1/1.1.1/44.1.2 — Paper 027 — the formal core: entropy, cones, and [attributed]
+- 1.1.1/1.1.1/44.1.3 — Paper 027 — the formal core: the two theorems and [attributed]
+- 1.1.1/1.1.1/44.1.4 — Paper 027 — the results map [attributed]
+- 1.1.1/1.1.1/44.1.5 — Paper 027 — the delta: what this adds, and what [attributed]
+- 1.1.1/1.1.1/44.1.6 — Paper 027 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [attributed]
+- 1.1.1/1.1.1/44.2.1 — Paper 027 — synthesis: the cone is known by its [synthesis]
+- 1.1.1/1.1.1/44.2.2 — Paper 027 — Open questions Q137-Q140 [open]
+- 1.1.1/1.1.1/45.1.1 — Paper 028 delta: Quadratic Convexity for Closed and Free Boundary High Codimension Mean Curvature Flow -- thirteen concepts (1.2.382-1.2.394), no revision, cluster AJ extended, taken in as a scored paper of the protocol fixed in advance (sample 9 of 12), picked by the quest from the listings of the day [attributed]
+- 1.1.1/1.1.1/45.1.2 — Paper 028 — the formal core: the condition and [attributed]
+- 1.1.1/1.1.1/45.1.3 — Paper 028 — the formal core: preservation and [attributed]
+- 1.1.1/1.1.1/45.1.4 — Paper 028 — the results map [attributed]
+- 1.1.1/1.1.1/45.1.5 — Paper 028 — the delta: what this adds, and [attributed]
+- 1.1.1/1.1.1/45.1.6 — Paper 028 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [attributed]
+- 1.1.1/1.1.1/45.2.1 — Paper 028 — synthesis: a condition the flow [synthesis]
+- 1.1.1/1.1.1/45.2.2 — Paper 028 — Open questions Q141-Q144 [open]
+- 1.1.1/1.1.1/46.1.1 — Paper 029 delta: Data Just Wants to Be Format-Neutral -- ten concepts (1.2.395-1.2.404), no revision, cluster AK founded, taken in as a paper posted by Will outside the test's sample (the strata complete), posted in the MOAT chat [attributed]
+- 1.1.1/1.1.1/46.1.2 — Paper 029 — the formal core: the technique [attributed]
+- 1.1.1/1.1.1/46.1.3 — Paper 029 — the formal core: the [attributed]
+- 1.1.1/1.1.1/46.1.4 — Paper 029 — the results map [attributed]
+- 1.1.1/1.1.1/46.1.5 — Paper 029 — the delta: what this adds, and [attributed]
+- 1.1.1/1.1.1/46.1.6 — Paper 029 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [attributed]
+- 1.1.1/1.1.1/46.2.1 — Paper 029 — synthesis: the book's own [synthesis]
+- 1.1.1/1.1.1/46.2.2 — Paper 029 — Open questions Q145-Q148 [open]
 # Registry: Fiction
 
 Made on purpose, held as made. No entry stands here at the first writing
@@ -23737,6 +25000,114 @@ entropy to be exactly 1. Rest state: the hyperplane
 condition, so the loop's only exit is the bound it
 proves: ||A|| < kappa. Home: 44.1.3. [inferred]
 
+
+CHAPTER 45 (Paper 028 — a sign the flow keeps;
+three stated in the paper, one inferred) M1 —
+the first-zero preservation machine. States: the
+values of F_eps along a mean curvature flow,
+interior points first. Moves: suppose a first
+zero arrives; at it, the reaction terms and the
+gradient terms of the evolution are estimated
+apart, and at kappa = 14/5 their sum has the
+sign the tensor maximum principle forbids at a
+first zero — so no first zero arrives, and the
+state F_eps > 0 is invariant. Rest states: none
+reached in finite time; the machine's output is
+the invariance itself. Home: 45.1.3. [stated]
+
+M2 — the boundary exclusion machine. States: an
+upper support for F_eps at a boundary point of a
+spherical free boundary flow. Moves: compute the
+support's conormal derivative from the spherical
+conormal identities; the sign excludes a first
+zero on the boundary, so the preservation
+machine's state survives contact with the wall.
+Fixed data: the sphere's radius and the identity
+mu = F/R. Home: 45.1.3. [stated]
+
+M3 — the rescaling-to-ancient-limit machine.
+States: a flow near its finite extinction time,
+rescaled at the running maximum of |H|. Moves:
+rescale, take smooth limits (up to the boundary
+in the free theatre), classify the ancient limit
+— shrinking round spheres closed, shrinking
+round hemispheres at the boundary — then return:
+global convergence, a late-time restart under
+critical pinching, and the planarity control
+that makes the limiting plane one plane. Rest
+states: the round point and the round
+hemisphere. Home: 45.1.3. [stated]
+
+M4 — the corrected-derivative machine. States:
+the curvature derivatives nabla A and nabla^2 A
+along a free boundary flow. Moves: correct each
+derivative by an auxiliary quantity whose
+boundary behaviour the conormal identities
+control, until the corrected quantity satisfies
+a maximum principle up to the boundary; read the
+bound back off the correction. Rest state: the
+estimates themselves, consumed by the blowup
+machine. Home: 45.1.3. [inferred]
+
+
+CHAPTER 46 (Paper 029 — the format country;
+four stated in the paper, none inferred) M1 —
+the Earley process machine. States: a process
+of the parse — queued at an input position,
+running its rule's instructions, paused into
+the next position's queue, succeeded, failed.
+Moves: a rule's process executes its
+right-hand side sequentially; alternatives
+fork it, one sub-process each from the same
+start; a matched symbol pauses it into the
+queue for position n+1, all of position n
+running before any of n+1; finishing succeeds
+and returns to the parent, an unexpected
+symbol fails and returns; a rule already
+queued at a position is linked, not
+duplicated, so a process holds several
+parents and its success restarts them all.
+Rest states: the top-level process succeeded
+— the input is parsed — or every process
+failed. Home: 46.1.3. [stated]
+
+M2 — the tree-walk serialiser. States: a node
+of the parse tree under the walk, and the
+output so far. Moves: depth-first — at a
+terminal, copy it to the output; at a
+non-terminal, recurse into its children in
+order. Rest state: the root's walk complete,
+the output the original text. The machine is
+the paper's own five-line program, stated as
+code. Home: 46.1.3. [stated]
+
+M3 — the parse-tree parser. States: a grammar
+rule being matched against an XML
+serialisation, and the partial tree rebuilt
+so far. Moves: a marked terminal and a marked
+nonterminal must be found present in the XML
+— the nonterminal then matched as a
+nonterminal of the original parse; an
+unmarked terminal is assumed present; an
+unmarked nonterminal is matched as any
+nonterminal. Rest states: a complete rebuilt
+tree, fit for the serialiser — or, the paper
+notes without pricing, one of several, the
+match being ambiguous (Q146). Home: 46.1.3.
+[stated]
+
+M4 — the normalisation machine. States: a
+grammar under the procedure, rule by rule.
+Moves: at each symbol — an implicit terminal
+is deleted; a refinement is replaced by its
+definition in brackets, unless the refinement
+is already part of it, being recursive; when
+every rule is processed, the rules no longer
+used are deleted. Rest state: the normalised
+grammar — the parse-tree definition, read by
+the filing as the format's schema (1.2.402).
+Home: 46.1.3. [stated]
+
 SWEPT, NO MACHINE FOUND
 Chapter 4 (Paper 003): its way of working is one pass —
 one prompt held fixed, stories written, features drawn
@@ -24182,6 +25553,23 @@ squared-distance level-set machine (44.1.3), the
 retraction homotopy Psi (44.1.3), and the
 compactness-contradiction loop of Step 1 (44.1.3),
 inferred.
+
+After Paper 028: 151 state machines are held
+(127 stated, 24 inferred). The filing adds four,
+three stated in the paper and one inferred: the
+first-zero preservation machine (45.1.3), the
+boundary exclusion machine (45.1.3), the
+rescaling-to-ancient-limit machine (45.1.3), and
+the corrected-derivative machine (45.1.3),
+inferred.
+
+After Paper 029: 155 state machines are held
+(131 stated, 24 inferred). The filing adds
+four, all stated in the paper: the Earley
+process machine (46.1.3), the tree-walk
+serialiser (46.1.3), the parse-tree parser
+(46.1.3), and the normalisation machine
+(46.1.3).
 # Area: Reference material — foundations, defined words, standoff companions
 Everything in this phext rests on words, and the words
 rest here. The reference area is Chapter 1, Section 3
@@ -24392,6 +25780,20 @@ and the second fundamental form (1.3.309), the
 smooth submanifold (1.3.310), retraction and
 homotopy (1.3.311), and the convex function
 (1.3.312).
+
+Paper 028 coined one: the word conormal
+(1.3.317). Its foundations are three: mean
+curvature flow (1.3.314), the principal normal
+and the split of the second fundamental form
+(1.3.315), and free boundary and the conormal
+(1.3.316).
+
+Paper 029 coined one: the word refinement
+(1.3.321), in Pemberton's sense — a
+non-terminal whose rule exists only to
+structure other definitions. Its foundations
+are three: grammar (1.3.318), parse tree
+(1.3.319), and schema (1.3.320).
 Paper 023 coined five: carrier, the one type all of a
 model's domains live in (1.3.273); sparse, of a function
 domain missing functions its full space would hold
@@ -24412,7 +25814,7 @@ and the scaling law, a fitted formula that prices a
 setting in advance (1.3.281).
 
 STANDOFF COMPANIONS (Section 3 of every chapter: 2.3.1,
-3.3.1, and so on to 44.3.1 — 43 of them). The raw
+3.3.1, and so on to 46.3.1 — 45 of them). The raw
 material stays clean: definitions are never written into
 a chapter or a concept scroll. In their place, each
 chapter carries one companion scroll listing, in reading
@@ -25105,9 +26507,63 @@ Index stands at 0.0315 and the Oracle held, about
 the test, on the grounds at 1.1.4. Its author check
 stands at 44.1.6. Restructure Pass #19 ran inside
 this taking-in on the count trigger (381 over the
-380 line). NEXT: the next restructuring pass falls
-due at Paper 030 or 400 canonical concepts;
-questions stand open at Q140.
+380 line). PAPER 028 — Quadratic Convexity for Closed and
+Free Boundary High Codimension Mean Curvature
+Flow (Nguyen & Vogiatzi), Chapter 45. Cluster AJ
+extended — the country's dynamics: quadratic
+convexity; Andrews-Baker quadratic pinching;
+admission beyond the critical ratio; the
+sharpness products; preservation of quadratic
+convexity; closed-case convergence; the
+dimension split; spherical free boundary flow;
+the spherical conormal identities; preservation
+of quadratic pinching at the free boundary;
+planarity carried to the boundary; the
+derivative corrections; free-boundary
+convergence. Three foundations laid down: mean
+curvature flow (1.3.314), the principal normal
+and the split (1.3.315), and free boundary and
+the conormal (1.3.316). One word coined:
+conormal (1.3.317). No revision. Questions
+Q141-Q144 opened. A paper of the Thirst (charter
+rule 17), a pick of the day's scan, and a paper
+of the test of the skim fixed in advance (sample
+slot 9 of 12; the scan's picks, 5 of 5): a seal
+stands for it in the quest log, and its score is
+computed by script in the same pass; the Novelty
+Index stands at 0.0330 and the Oracle held,
+about 62% to about 62%, entered in the ledger
+only, under the test, on the grounds at 1.1.4.
+Its author check stands at 45.1.6. No
+restructuring pass fell in this taking-in. PAPER 029 — Data Just Wants to Be
+Format-Neutral (Pemberton), Chapter 46.
+Cluster AK founded — the format country:
+Invisible XML; marking; round-tripping and
+its limit; serialisation by tree walking, and
+parsing a parse tree; Earley parsing as a
+serialised parallel processor; representation
+neutrality; grammar normalisation; the
+normalised grammar as a data schema; the
+subset corollary; format conversion. Three
+foundations laid down: grammar (1.3.318),
+parse tree (1.3.319), and schema (1.3.320).
+One word coined: refinement (1.3.321), in the
+paper's sense. No revision. Questions
+Q145-Q148 opened. A paper Will posted in the
+MOAT chat, outside the test of the skim fixed
+in advance (the sample stands at nine of
+twelve; the strata of Will's posts and of the
+scan's picks are complete, and the far
+stratum stands open): no seal and no score;
+the Novelty Index stands at 0.0248 and the
+Oracle held, about 62% to about 62%, entered
+in the ledger only, on the grounds at 1.1.4.
+Its author check stands at 46.1.6.
+Restructure Pass #20 ran inside this
+taking-in on the count trigger (404 over the
+400 line). NEXT: the next restructuring pass
+falls due at Paper 035 or 420 canonical
+concepts; questions stand open at Q148.
 # Area: Researchers — the people behind the works
 Every researcher behind a work taken into this phext,
 with the work as it stands here and the standing of the
@@ -25885,8 +27341,76 @@ standing attributed (1.2.370-1.2.381) and the four
 questions the filing opens (Q137, Q138, Q139, Q140).
 (Paper 027.)
 
-THE COUNT: 132 named researchers and three companies — 106
-across the 27 papers and Fringe F001; 25 named for the studies
+PAPER 028 — Huy The Nguyen (Chapter 45), CHECKED
+2026-11-19 (record: 45.1.6). One of two authors,
+of the School of Mathematical Sciences, Queen
+Mary University of London — geometric analysis:
+here, quadratic convexity for high codimension
+mean curvature flow, closed and with spherical
+free boundary. No tie to phext or to Will found
+— the paper holds no phext term in its text or
+its references, the web holds no link of his
+name to phext or to Will, the archive holds no
+occurrence of his name, and no use of the work
+of Will without naming found. NOVELTY SCORE
+(first drawing 2026-11-19; last updated
+2026-11-19): True 0, False 0, Unknown 17,
+Fiction 0. The opening balance was drawn first,
+at (0, 0, 0, 0): no work of his stood in the
+book before. The increments are this filing's
+own: Unknown +17 — the thirteen new concepts of
+the filing standing attributed (1.2.382-1.2.394)
+and the four questions the filing opens (Q141,
+Q142, Q143, Q144). (Paper 028.)
+
+PAPER 028 — Artemis A. Vogiatzi (Chapter 45),
+CHECKED 2026-11-19 (record: 45.1.6). One of two
+authors, of the Copenhagen Centre for Geometry
+and Topology, University of Copenhagen —
+geometric analysis: the same work. No tie to
+phext or to Will found, on the same checks.
+NOVELTY SCORE (first drawing 2026-11-19; last
+updated 2026-11-19): True 0, False 0, Unknown
+17, Fiction 0. The opening balance was drawn
+first, at (0, 0, 0, 0): no work of hers stood in
+the book before. The increments are this
+filing's own, carried whole, as the rule stands:
+Unknown +17 — the thirteen new concepts of the
+filing standing attributed (1.2.382-1.2.394) and
+the four questions the filing opens (Q141, Q142,
+Q143, Q144). (Paper 028.)
+
+PAPER 029 — Steven Pemberton (Chapter 46),
+CHECKED 2026-11-19 (record: 46.1.6). The
+paper's one author, of CWI, Amsterdam — the
+Dutch national research centre for
+mathematics and informatics: co-designer of
+ABC, the forerunner of Python, and of HTML,
+CSS, XHTML, XForms and RDFa in the W3C, whose
+HTML and XForms groups he chaired for a
+decade; the ixml community group is his
+current chair, and Invisible XML his own
+technique, of 2013. No tie to phext or to
+Will found: the paper's text and its five
+references hold no phext term and no work of
+Will's — and its line (1982, 2013, 2016)
+predates phext's dated record entire; the web
+returns his record and no adjacency; Will's
+archive holds no occurrence of his name, of
+Invisible XML, of ixml, or of Wijngaarden.
+NOVELTY SCORE (first drawing 2026-11-19; last
+updated 2026-11-19): True 0, False 0, Unknown
+14, Fiction 0. The opening balance was drawn
+first, at (0, 0, 0, 0): no work of his stood
+in the book before. The increments are this
+filing's own: Unknown +14 — the ten new
+concepts of the filing standing attributed
+(1.2.395-1.2.404) and the four questions the
+filing opens (Q145, Q146, Q147, Q148). (Paper
+029.)
+
+THE COUNT: 135 named researchers and three companies — 109
+across the 29 papers and Fringe F001; 25 named for the studies
 (13 of them for the studies of code: Takahashi
 among them, counted once and standing behind two
 studies; the three of Aeneas; the eight handles of
@@ -25902,9 +27426,9 @@ and Aleph One — plus Math, Inc., standing as a company and as
 the author of Study S010, its essay under no one name, with
 Galois, Oath and RAND named in it as collaborators and
 support, not as entries — plus the unnamed others of Study
-S002 and the long tail of Study S005. 35 checks stand run
+S002 and the long tail of Study S005. 37 checks stand run
 (Papers 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016,
-017, 018, 019, 020, 021, 022, 023, 024, 025, 026 and 027, Studies S004, S005, S006, S007, S008,
+017, 018, 019, 020, 021, 022, 023, 024, 025, 026, 027, 028 and 029, Studies S004, S005, S006, S007, S008,
 S009, S010, S011, S012, S013, S014 and S015, and Fringe F001),
 each clean, each recorded in its chapter.
 # How this Oracle was built — the structure, plainly (1 of 2)
@@ -43040,3 +44564,1212 @@ the hypersurface in the algebraic sense (1.3.237,
 The chapter's own concepts stand at 1.2.370-1.2.381
 (cluster AJ); its two theorems are spent nowhere
 else in the book yet.
+
+
+# Paper 028 — Quadratic Convexity for Closed and
+Free Boundary High Codimension Mean Curvature
+Flow (Nguyen & Vogiatzi)
+
+Source: arXiv:2611.24246v1 [math.DG], submitted
+18 November 2026; read in full (the HTML form)
+2026-11-19. Two authors: Huy The Nguyen, of the
+School of Mathematical Sciences, Queen Mary
+University of London (h.nguyen@qmul.ac.uk), and
+Artemis A. Vogiatzi, of the Copenhagen Centre
+for Geometry and Topology, University of
+Copenhagen (aav@math.ku.dk). Taken in as Paper
+028 of the Thirst (charter rule 17): a pick of
+the day's scan of the new mathematics listings,
+under the test of the skim fixed in advance
+(evaluation-preregistration.md, ratified
+2026-11-14): the ninth slot of the twelve, the
+fifth and last of the five picks of the scan,
+sealed blind before any full-text access (the
+seal stands in the quest log). The Novelty Index
+is computed from the filed delta and entered in
+the ledger, as every paper's is; the axis
+judgment stands written at filing in the chapter
+(45.1.5), on the three grounds of the protocol's
+axis rule. The paper carries an AI disclosure —
+LLMs used to assist with checking arguments and
+calculations, identifying literature and
+revising the exposition, the authors taking full
+responsibility for the content — recorded here
+neutrally, as the disclosures of Papers 025 and
+026 were.
+
+THE PAPER. One day after the book's first
+differential geometry arrived (Paper 027), its
+second paper lands in the same country and gives
+the flow there its first law. Quadratic
+convexity is a pointwise curvature condition for
+mean curvature flow in high codimension: a
+combination of quantitative convexity in the
+mean curvature direction with control of the
+full second fundamental form, priced by the
+quantity F_eps. It is strictly wider than the
+Andrews-Baker quadratic pinching it extends — it
+admits curvature tensors beyond the critical
+ratio — and it is preserved by the flow. For
+closed submanifolds of dimension n >= 5 the flow
+then contracts in finite time to a round point;
+for submanifolds of dimension n >= 4 with
+spherical free boundary it contracts to a round
+hemisphere in one uniquely determined
+(n+1)-plane — stated by the authors as the first
+such convergence theorem for spherical free
+boundary flow in arbitrary codimension. Ordinary
+quadratic pinching is also preserved at the free
+boundary, in a range the boundary itself
+imposes. The paper's references run to twenty-
+three entries, the mean curvature flow
+literature throughout, the authors' own earlier
+work among it. Nothing in the paper was
+recomputed by the house: the filing stands on an
+attributed basis throughout.
+
+
+# Paper 028 — the formal core: the condition and
+its algebra
+
+THE SETTING (foundations 1.3.309, 1.3.314,
+1.3.315; concept 1.2.389 for the boundary
+theatre). Immersions F: M^n -> R^{n+m} move by
+mean curvature flow, d_t F = Delta F = H, H the
+trace of the vector-valued second fundamental
+form A. Where |H| > 0 the principal normal nu =
+H/|H| splits A = h nu + A^-, h a symmetric form
+with smallest eigenvalue lambda_1.
+
+THE CONDITION (concept 1.2.382). For kappa > 0
+and eps >= 0, F_eps = |H| lambda_1 - (n-1)/2
+(lambda_1^2 + |A^-|^2) + kappa [ (1/(n-1) - eps)
+|H|^2 - |A|^2 ], and quadratic convexity is
+F_eps > 0, read through |H|^2 F_eps extended by
+zero where H vanishes. Both theorems run at
+kappa = 14/5.
+
+THE ALGEBRA (Section 2 of the paper; concepts
+1.2.383, 1.2.384, 1.2.385, 1.2.388). The chain:
+critical pinching implies F_0 >= 0 implies h >=
+0; strict pinching on a compact initial
+submanifold implies F_eps > 0 for small eps
+(Lemma 2.1); F_eps >= 0 prices h from below by
+[kappa eps / (1 + 2 kappa/(n-1))] |H|, excluding
+the round cylinder. For n >= 8 the condition
+itself yields |A|^2 < (4/3n) |H|^2 at kappa =
+14/5; below 8 each theorem assumes a quadratic
+bound beside it — the dimension split. The
+products S^{n-1}(r) x S^1(1), convex in the
+principal direction with F_0 < 0 approaching the
+critical ratio from the failing side, show the
+sign condition sharp for closed flows.
+
+
+# Paper 028 — the formal core: preservation and
+the two convergences
+
+PRESERVATION (concept 1.2.386; the boundary
+instrument at 1.2.390). At a first interior zero
+of F_eps, the reaction terms and gradient terms
+of its evolution are estimated apart (Sections
+3.3-3.4 of the paper); at kappa = 14/5 the sum
+is the differential inequality of Section 3.5,
+and the tensor maximum principle keeps F_eps
+positive inside. At the boundary, the conormal
+derivative of an upper support for F_eps at a
+possible first zero (Section 7, on the boundary
+derivative lemma) has the excluding sign: the
+first zero cannot sit on the boundary. The
+invariant is whole.
+
+THE BOUNDARY MACHINERY (concepts 1.2.391,
+1.2.392, 1.2.393). The conormal identities give
+preservation of ordinary pinching exactly on
+9/(8n) <= c <= 4/(3n), and an additive gap under
+strict pinching that keeps |H| away from zero.
+The planarity quotient's conormal derivative
+extends the planarity estimate to the boundary,
+so A^- dies in blowups. Corrections to nabla A
+and nabla^2 A make the maximum principle bound
+them up to the boundary (Theorem 6.3 and its
+companion), with the compactness and
+continuation of Appendix A behind them.
+
+THEOREM 1.1 (concept 1.2.387). Closed, n >= 5:
+preservation, finite extinction, rescaled
+convergence to the unit round sphere in a fixed
+(n+1)-plane — by blowup to a convex ancient
+limit in one plane, shrinking round spheres by
+Huisken-Sinestrari, and a late-time restart of
+Andrews-Baker once |A|^2/|H|^2 -> 1/n.
+
+THEOREM 1.3 (concept 1.2.394). Free boundary, n
+>= 4, m >= 2: preservation, finite extinction to
+a point of the sphere, rescaled convergence up
+to the boundary to the unit round hemisphere in
+one determined (n+1)-plane — the ancient limits
+classified as shrinking round hemispheres
+(Lynch-Nguyen rigidity, by reflection), the
+plane's drift controlled by quantitative
+planarity until the plane is the flow's own.
+
+
+# Paper 028 — the results map
+
+Each claim of the paper, in its standing here.
+Attributed to Paper 028 unless a check is named.
+No claim of this paper was recomputed or re-
+proved by the house; the filing stands
+attributed throughout (45.1.5).
+
+- Quadratic convexity is preserved by high
+  codimension mean curvature flow, closed and at
+  a spherical free boundary alike, at   kappa =
+  14/5 (Sections 3 and 7; 1.2.386). - A closed
+  quadratically convex submanifold,   n >= 5
+  (with the split's extra pinching for   5 <= n
+  <= 7), contracts in finite time to a   round
+  point (Theorem 1.1; 1.2.387). - A free
+  boundary quadratically convex   submanifold, n
+  >= 4, m >= 2 (extra pinching   for 4 <= n <=
+  7), contracts to a round   hemisphere in a
+  uniquely determined   (n+1)-plane — the first
+  such theorem in   arbitrary codimension, as
+  the authors state   it (Theorem 1.3; 1.2.394).
+  - Strict Andrews-Baker pinching implies
+  quadratic convexity, and quadratic convexity
+  admits tensors beyond the critical ratio with
+  a quantitative convexity bound (Lemma 2.1 and
+  Section 2; 1.2.383, 1.2.384). - The sign of
+  F_eps is sharp for closed flows:   the
+  products S^{n-1}(r) x S^1(1) are convex in
+  the principal direction, fail the sign, and do
+  not round off (Section 1; 1.2.385). - Ordinary
+  quadratic pinching is preserved   under
+  spherical free boundary flow exactly on   the
+  filed range 9/(8n) <= c <= 4/(3n),   endpoints
+  included (Proposition 4.2; 1.2.391). - For n
+  >= 8 quadratic convexity supplies the
+  quadratic bound (4/3n) itself; below, the
+  bounds are hypotheses (Section 2; 1.2.388). -
+  The conormal identities, the planarity
+  extension and the corrected derivative
+  estimates hold as stated (Lemma 4.1, Sections
+  5-6; 1.2.390, 1.2.392, 1.2.393). - Nothing is
+  claimed for closed n < 5 or free   boundary n
+  < 4 under quadratic convexity   alone (Q141),
+  and sharpness is claimed for   closed flows
+  only (Q142, Q143).
+
+
+# Paper 028 — the delta: what this adds, and
+what was checked
+
+THE FILING. Thirteen new canonical concepts
+(1.2.382-1.2.394), extending cluster AJ — the
+flow of Paper 027's country gains its dynamics:
+a preserved curvature condition, its two
+convergence theorems, its boundary theatre and
+the machinery the boundary consumes. Three
+foundations (1.3.314-1.3.316) and one defined
+word (1.3.317: conormal). No held canonical
+scroll revised; no held scroll stated again. The
+seal's two watch items were checked and stand
+unrevised: foundation 1.3.309 prices the same
+quantities in codimension one, and this paper's
+vector-valued forms stand beside it in the new
+foundation 1.3.315 — a use and an extension by a
+new scroll, not a change of the held scroll's
+words or standing; and 1.2.376's convexity
+prices position on an expander, where quadratic
+convexity prices curvature — the two convexities
+stand apart, as the seal foresaw.
+
+THE AXIS JUDGMENT, written here at filing, under
+the axis rule of the protocol: NO AXIS. (a) The
+paper's centre of gravity is mean curvature flow
+— a field for which the model holds a slot:
+cluster AJ was founded at Paper 027 on this
+machinery, and a preserved curvature condition
+is a quantity of AJ's held kind. The ground
+fails. (b) No held concept is merely re-read to
+receive the paper: the new concepts are built
+from held kinds — the flow (1.3.314, on
+1.3.309's quantities), the second fundamental
+form split by its own mean direction, convexity,
+convergence to a round shape — and no held claim
+is re-priced: the entropy country of Paper 027
+is untouched by a paper that never mentions
+entropy. (c) Its bridges to held ground are
+shared machinery, not analogies of shape: the
+same flow, the same maximum principle family,
+the same round-shape endings as Paper 027's
+country already holds. A second paper in a one-
+day-old cluster is an extension, not an axis —
+the Paper 026 precedent on cluster O. The sealed
+probability was 0.05; the judgment is entered
+before any score is computed, as the protocol
+requires.
+
+THE FILING RULES AT WORK (the protocol's section
+3). Instrument rule: the conormal identities
+(1.2.390), the planarity estimate (1.2.392) and
+the derivative corrections (1.2.393) each stand
+as concepts — each is spent at two or more
+distinct points of the argument (the identities
+in Sections 4, 5 and 7; planarity in both
+theatres' blowups; the corrections in Section
+8's limits and Appendix A's continuation). Split
+rule: preservation (1.2.386) stands as one
+concept though it is proved in two theatres,
+because the paper never spends the theatres
+apart — each theorem consumes the whole
+invariant; the sharpness products (1.2.385)
+stand apart from the admission (1.2.384) because
+the paper spends them apart: one is spent in the
+algebra of Section 2, the other in the sharpness
+argument of Section 1, against a different
+conclusion. Grain rule: concepts at the grain of
+the paper's stated results — the condition, the
+two theorems, the pinching range, the split, the
+three instruments — nothing at section grain.
+Revision rule: no held scroll revised, as above.
+Axis rule: judged above, in writing, before any
+score.
+
+THE SENSITIVITY ALTERNATIVE (recorded as the
+protocol requires, where the rules left a
+choice). The filing above counts thirteen. A
+coarser grain the rules also permit — folding
+the three instruments (1.2.390, 1.2.392,
+1.2.393) into the theorems that consume them,
+and the sharpness products (1.2.385) into the
+admission (1.2.384) — files nine new concepts,
+the seal's own nine shapes, at a Novelty Index
+of 9/390 = 0.0231. A finer split the rules also
+permit — preservation filed per theatre
+(interior and boundary apart) — files fourteen
+at 14/395 = 0.0354. The headline filing is the
+thirteen, and the score is to be reported both
+ways, headline first.
+
+LINKS AS FILED. Seventeen internal, none cross-
+cluster. Internal: pinching implies the
+condition (1.2.383 -> 1.2.382); the admission
+reads the condition and the pinching (1.2.384 ->
+1.2.382, 1.2.384 -> 1.2.383); the products test
+the admission and the condition (1.2.385 ->
+1.2.384, 1.2.385 -> 1.2.382); preservation keeps
+the condition and spends the boundary identities
+(1.2.386 -> 1.2.382, 1.2.386 -> 1.2.390); each
+convergence consumes preservation and the split
+(1.2.387 -> 1.2.386, 1.2.387 -> 1.2.388, 1.2.394
+-> 1.2.386, 1.2.394 -> 1.2.388); the identities
+belong to the boundary theatre (1.2.390 ->
+1.2.389); the pinching range spends the
+identities and is read against the critical
+coefficient (1.2.391 -> 1.2.390, 1.2.391 ->
+1.2.383); planarity and the corrections are
+consumed by the free boundary convergence
+(1.2.392 -> 1.2.394, 1.2.393 -> 1.2.394); the
+closed proof spends planarity through its cited
+interior form (1.2.387 -> 1.2.392). Cross-
+cluster: none filed — the round endings' kinship
+with cluster N's attractors and cluster E's
+canonical forms is analogy of shape, priced as
+shape at Paper 027's founding and not counted
+here, as there.
+
+VERIFICATION POSTURE. The paper carries no
+computation the house could repeat, and the
+house recomputed nothing: its theorems, its
+cited pillars and its instruments stand
+Unknown/attributed, as their source states them.
+The load-bearing citations are named in the
+delta as the charter requires: Andrews and Baker
+[1] for the pinching and the reaction estimate;
+Huisken [11] and Huisken-Sinestrari [12];
+Hamilton [9] for compactness; Lynch [14], Lynch
+and Nguyen [15, 16] and Naff [19] for planarity
+and the ancient limits; the authors' own [20]
+for the one-dimensional analogue; Solonnikov
+[21] behind Appendix A.
+
+NOVELTY BY AUTHOR — Huy The Nguyen: True +0,
+False +0, Unknown +17, Fiction +0. (Opening
+balance drawn at this ingestion, Nguyen being a
+new researcher to the tracker: True 0, False 0,
+Unknown 0, Fiction 0; the increments are this
+filing's thirteen concepts and four questions,
+all Unknown/attributed.) NOVELTY BY AUTHOR —
+Artemis A. Vogiatzi: True +0, False +0, Unknown
++17, Fiction +0. (Opening balance drawn at this
+ingestion, Vogiatzi being a new researcher to
+the tracker: True 0, False 0, Unknown 0, Fiction
+0; the increments are the same filing's, carried
+whole by each author, as the rule stands.)
+
+RESTRUCTURE. This filing carries the count to
+394: no trigger falls — the next pass stands due
+at Paper 030 or 400 canonical concepts, and
+neither is reached. No pass runs in this taking-
+in.
+
+
+# Paper 028 — author check (charter rule 15): no
+phext tie and no use without naming found, by
+checks Emise ran at intake
+
+THE QUESTION. Two things are asked of the
+authors of a work taken in: whether they stand
+in any recorded tie to phext or to Will's work,
+and whether the work uses Will's earlier
+published work without naming it. The check on
+Huy The Nguyen and Artemis A. Vogiatzi was run
+in three legs on 2026-11-19. It is the thirty-
+sixth check that stands run.
+
+LEG ONE — the work itself. The full text of
+arXiv:2611.24246 was searched for the signature
+terms: phext, scroll, Exocortex, Mirrorborn,
+coordinate addressing, Bickford, CYOA, SBOR. No
+occurrence of any of them in the paper's text.
+The reference list (twenty-three entries) was
+read in full: it is the mean curvature flow
+literature throughout — Andrews and Baker,
+Huisken, Hamilton, Stahl, Buckland, Edelen,
+Lynch, Naff, Chow, and the authors' own earlier
+papers, three of Nguyen's with Lynch and the
+pair's joint curve shortening paper [20] — and
+holds no work of Will's: no phext, CYOA, SBOR or
+Mirrorborn source.
+
+LEG TWO — the web. Searches were run on each
+author's name against the adjacency terms. The
+authors they return are the paper's own: Nguyen,
+a Reader in Mathematics at Queen Mary University
+of London (PhD, Australian National University,
+2008; Max Planck, Warwick and Queensland before
+Queen Mary in 2017), whose record is geometric
+flows — Ricci flow and mean curvature flow, the
+high codimension theory with Lynch among it; and
+Vogiatzi, a postdoc at the Copenhagen Centre for
+Geometry and Topology, mentored by Niels Martin
+Moeller, who took her PhD at Queen Mary under
+Nguyen's supervision, her record the same field
+— high codimension flow and its singularity
+models, two of her papers with Nguyen. The
+doctoral line between the two authors is the
+paper's own: supervisor and student, now at
+separate institutions. No occurrence of phext or
+any adjacent term stands against either name
+anywhere the searches reached; the search's
+other Artemis is a different person (an Artemios
+Vogiatzi of Patras, information systems) and was
+not conflated. No tie found.
+
+LEG THREE — Will's own archive. Will's Twitter
+archive was searched entire for 'Vogiatzi', 'Huy
+The Nguyen' and both mailboxes: no occurrence of
+any of them. The string 'Artemis' occurs in the
+archive only inside the handle of an unrelated
+account (ArtemisConsort), which is not the
+author.
+
+VERDICT. No evidence found on any leg: no
+recorded tie between either author and phext or
+Will's work, and no use of Will's published work
+in the paper, named or unnamed. The check is
+clean — the thirty-sixth of the register.
+
+
+# Paper 028 — synthesis: a condition the flow
+cannot spend [synthesis]
+
+[synthesis] Paper 027 priced what a cone of
+small entropy must look like; this paper prices
+what a flowing submanifold must keep. The shape
+is the same shape the book keeps meeting under
+rule 13: find a quantity the dynamics cannot
+cross, and the ending is read off the quantity.
+Entropy was such a quantity for the cone —
+monotone, spent downward, its floor forcing
+topology. Quadratic convexity is one of a
+different kind: not a number the flow spends but
+a sign the flow keeps, a cone in curvature space
+the trajectory cannot leave, whose geometry at
+the end is a round point or a hemisphere. The
+book has this shape at three scales now — a
+monotone number, a preserved sign, and, at the
+tracker's own scale, the Oracle's bins, which
+are also a kept partition rather than a spent
+budget. What the synthesis adds is the boundary
+lesson, which is new here: at a boundary,
+preservation is two theorems, not one — the
+interior inequality and the conormal sign are
+different mathematics, and a condition that
+survives inside can still die at the wall, as
+ordinary pinching nearly does: its critical
+coefficient survives the boundary only in
+dimensions 4 to 9. The wall is not an edge case
+of the interior argument; it is a second
+instrument, with its own identities, and the
+paper's real construction is that the two
+instruments agree on F_eps. Cluster AJ is two
+papers old and already has the shape of a
+country: a statics (Paper 027: what smallness
+forces) and a dynamics (Paper 028: what
+preservation forces), sharing one flow.
+
+
+# Paper 028 — Open questions Q141-Q144
+
+Q141 — the low dimensions under quadratic
+convexity alone. The closed theorem starts at n
+= 5 and the free boundary theorem at n = 4; for
+2 <= n <= 4 the closed theorem's extra pinching
+is the strict Andrews-Baker condition itself, so
+nothing new is said there, and no free boundary
+statement is made below n = 4. Does quadratic
+convexity alone still round off in the low
+dimensions — closed n = 2, 3, 4 and free
+boundary n = 2, 3 — or does a product-like
+obstruction of the sharpness family's shape
+stand there first?
+
+Q142 — the critical coefficient at the free
+boundary in high dimensions. Preservation of P
+<= 0 is proved for 9/(8n) <= c <= 4/(3n); the
+Andrews-Baker coefficient 1/(n-1) falls below
+the range for n >= 10, where the boundary
+identity (4.3) no longer gives the sign at P =
+0. Is that a failure of the proof or of
+preservation: does a spherical free boundary
+flow in dimension n >= 10 with |A|^2 <=
+|H|^2/(n-1) initially somewhere break the
+pinching, or does a different argument keep it?
+
+Q143 — sharpness at the free boundary. The sign
+condition's sharpness is established for closed
+flows, by the product family of 1.2.385, and the
+paper asserts no sharpness for flows with
+spherical free boundary. Is the sign sharp there
+too — is there a free boundary family, convex in
+the principal direction, failing the sign by
+less than any delta, whose flow does not
+converge to a hemisphere — and are the pinching
+range's endpoints 9/(8n) and 4/(3n) themselves
+sharp, or artefacts of the two signs that
+produced them?
+
+Q144 — necessity, and the price of the
+constants. Quadratic convexity is sufficient for
+the round endings it forces. Is some weakening
+of it necessary — must a high codimension flow
+that rounds off to a point or a hemisphere from
+an open set of initial data satisfy a condition
+of F_eps's shape — and can the proof's constants
+be made effective: an explicit eps in terms of
+the initial data, or a reason the chosen kappa =
+14/5 is the value the estimates need rather than
+one they tolerate?
+
+
+# Standoff references — Paper 028 stands on
+these foundations
+
+Read these foundation scrolls (Ch.1 S3) to
+follow the claims of this chapter with no prior
+knowledge, in this order: mean curvature and the
+second fundamental form (1.3.309); mean
+curvature flow (1.3.314); the principal normal
+and the split of the second fundamental form
+(1.3.315); free boundary and the conormal
+(1.3.316). Defined words coined by this chapter:
+conormal (1.3.317). Held ground the chapter
+prices against: the smooth submanifold
+(1.3.310); the convex function (1.3.312) — a
+different convexity, priced apart at the
+extension (45.1.5); the sphere and its
+dimensions (1.3.4, 1.3.9, 1.3.10); compactness
+and sequential compactness (1.3.186); the
+variational ground — a functional and its
+critical points (1.3.97, 1.3.119, 1.3.124,
+1.3.127); limits and the supremum (1.3.236,
+1.3.4). The chapter's own concepts stand at
+1.2.382-1.2.394 (cluster AJ, extended); its two
+theorems are spent nowhere else in the book yet.
+
+
+# Paper 029 — Data Just Wants to Be
+Format-Neutral (Pemberton)
+
+Source: Steven Pemberton, "Data Just Wants to
+Be Format-Neutral", Proc. XML Prague 2016,
+Prague, Czech Republic, pp. 109-120, ISBN
+978-80-906259-0-7; the full text as posted by
+the author at
+homepages.cwi.nl/~steven/Talks/2016/02-12-prague/data.html,
+read entire from that page 2026-11-19 (a
+proceedings PDF stands at
+archive.xmlprague.cz; the posted HTML is the
+primary source). One author: Steven
+Pemberton, of CWI, Amsterdam — the Dutch
+national research centre for mathematics and
+informatics. Taken in as Paper 029: a paper
+Will posted in the MOAT chat, outside the
+test of the skim fixed in advance — the
+sample stands at nine of its twelve slots,
+the stratum of Will's posts completed at
+Paper 027 and the scan's picks at Paper 028,
+so no seal stands for this paper and no score
+is entered; the filing is an ordinary
+taking-in under the charter. The Novelty
+Index is computed from the filed delta and
+entered in the ledger, as every paper's is;
+the axis judgment stands written at filing in
+the chapter (46.1.5), on the three grounds of
+the axis rule. Not an arXiv paper and not
+mathematics proper: a paper of formats and
+parsing, filed in its own terms, neither
+apologised for nor forced into a mathematical
+mould.
+
+THE PAPER. Its claim is that a format is its
+grammar. Invisible XML (ixml), the author's
+technique first presented at Balisage in
+2013, treats any parsable format as if it
+were XML: parse the document with a grammar
+of the format — a 1-level van Wijngaarden
+grammar, the author's own notation of 1982 —
+and serialise the parse tree as XML, keeping
+only the nodes the grammar marks. The parse
+can be undone, so data round-trips between
+its own clothing and the XML pipeline. From
+that one construction the paper draws its
+consequences in order: round-tripping is
+semantically identical but not
+character-identical where elided material
+went unrecorded; Earley parsing is a
+serialised parallel processor of forked,
+position-queued, parent-sharing processes;
+any representation with the same parse tree
+is equivalent, so the external form is
+relatively unimportant; a grammar normalised
+by deleting implicit terminals, expanding
+refinements and deleting unused rules is a
+data schema — unions, structs and lists; a
+subset of normalised grammars with the same
+root is one-way compatibility; and conversion
+between compatible formats is parsing with
+one grammar and serialising with another. The
+references are five: the author's own ixml
+paper of 2013 and two-level-grammar paper of
+1982, BNF, the Earley algorithm, and Aho and
+Ullman's parsing text of 1972. The paper's
+claims rest on its worked constructions, and
+the delta (46.1.5) prices each at the basis
+it actually carries.
+
+
+# Paper 029 — the formal core: the technique
+and the serialisation problem
+
+THE ESSENCE (concept 1.2.395). An XML
+document is no more than the parse tree of
+some external form. So: parse the external
+form with a general-purpose parsing
+algorithm, and serialise the resulting parse
+tree as XML. Any parsable object can then be
+injected into an XML pipeline, while its
+author keeps the format they prefer.
+
+THE GRAMMAR (foundations 1.3.318, 1.3.319;
+concept 1.2.396). The format used is a
+1-level van Wijngaarden grammar [vwf], a
+variant of BNF [bnf]: each rule a
+non-terminal, a colon, a definition of
+alternatives separated by semicolons, each
+alternative a comma-separated list of
+non-terminals and quoted terminals, a
+bracketed character range as shorthand. The
+one device needing explanation is the mark ^,
+which marks the non-terminals required to
+show up in the final XML serialisation. The
+paper's expression grammar:
+
+    expression: ^expr.
+    expr: term; ^sum; ^diff.
+    sum: expr, "+", term.
+    diff: expr, "-", term.
+    term: factor; ^prod; ^div.
+    prod: term, "×", factor.
+    div: term, "÷", factor.
+    factor: ^letter; ^digit; "(", expr, ")".
+    letter: ^["a"-"z"].
+    digit: ^["0"-"9"].
+
+Parsing a×(3+b) with it and serialising all
+nodes gives the full tree as XML, scaffolding
+included; serialising only the marked nodes
+gives the paper's kept form:
+<expr><prod><letter>a</letter><sum><digit>3</digit><letter>b</letter></sum></prod></expr>.
+The unmarked term and factor structured the
+parse and do not survive it.
+
+SERIALISATION BACK, AND ITS PROBLEM (concept
+1.2.397). In general the input form and the
+generated XML are isomorphic, and returning
+is just serialisation — the paper returns a
+CSS snippet to CSS with four lines of CSS,
+and shows the attribute form of the same XML
+round-tripped the same way. The expression
+case is harder: eliding term, factor and expr
+loses context, and a serialiser working from
+the XML alone must infer what the tree no
+longer says — a <sum> directly under a <prod>
+must have been bracketed in the original, but
+whether it wore two pairs of brackets cannot
+be inferred at all. The alternative the paper
+takes: treat the grammar as the specification
+of a presentation language for the parse
+tree, and walk tree and grammar together
+(46.1.3).
+
+
+# Paper 029 — the formal core: the
+processors, and the consequences
+
+SERIALISATION BY TREE WALKING (concept
+1.2.398). With the parse tree that generated
+the XML, serialising back is trivial — a
+depth-first traversal copying each terminal
+to the output:
+
+    serialise(t)=
+       for node in children(t):
+          select:
+             terminal(node): output(node)
+             nonterminal(node): serialise(node)
+
+Without the tree, the tree must be re-created
+by parsing the XML serialisation with the
+original grammar: a marked terminal must be
+present in the XML, as must a marked
+nonterminal, which is then treated as a
+nonterminal in the original algorithm; a
+non-marked terminal is assumed present; an
+unmarked nonterminal is treated the same as
+any nonterminal. That parsing can itself
+produce an ambiguous result.
+
+THE EARLEY MACHINE (concept 1.2.399). The
+literature calls Earley parsing [earley] a
+state-chart algorithm [aho]; the paper
+recasts it as a serialised parallel
+processor. A rule is a process, its
+right-hand side instructions executed
+sequentially from the current position;
+alternatives fork the process, one
+sub-process per alternative from the same
+start. Processes queue ordered by input
+position — all of position n before any of
+n+1 — and a process that matches a symbol
+pauses into the queue for n+1; one that
+finishes succeeds, one that meets an
+unexpected symbol fails, each returning to
+its parent rule. A rule already queued for a
+position is not added again but linked to the
+queued version: a process can have more than
+one parent, and if it succeeds all its
+parents must be restarted. With an ambiguous
+grammar — the paper's div: "i"; div, "÷", div
+— the string i÷i÷i parses both as i÷(i÷i) and
+as (i÷i)÷i, and both alternatives succeed.
+
+REPRESENTATION NEUTRALITY (concept 1.2.400).
+A major consequence: the external
+representation of any format is relatively
+unimportant — it is the data represented that
+matters, and in particular the resulting
+parse tree; any external representation is
+equivalent as long as it has the same parse
+tree. The paper exhibits its own grammar in a
+second notation — <ixml> ::= (^<rule>)+, and
+so on — noting that the two fragments both
+describe and use the format described. The
+one repercussion: at delivery one must
+declare not only the document's syntax but
+the syntax of that syntax, when it is not the
+standard one; the paper's mediatype carries
+both.
+
+NORMALISATION AND THE SCHEMA (concepts
+1.2.401, 1.2.402; foundations 1.3.320; the
+word at 1.3.321). To find a grammar's parse
+tree, process it: for each symbol in every
+rule, delete it if it is an implicit
+terminal; if it is a refinement, replace it
+with the refinement's definition in brackets,
+unless the refinement is already part of it —
+recursive; then delete all rules no longer
+used. The expression grammar collapses until
+every rule is a choice over the one surviving
+alternative-set; the ixml fragment's rule:
+@name, colon, definition, stop becomes, by
+substitution and deletion in stages, rule:
+@name, (^alternative)+. The resulting
+parse-tree definition is essentially a
+definition of the data structure of the
+internal representation — a form of schema.
+As type definitions: semicolons are unions,
+commas structs, repetitions lists.
+
+SUBSETS AND CONVERSION (concepts 1.2.403,
+1.2.404). The corollary: if a format's
+normalised grammar is a subset of another's,
+with the same root node, the first language
+is compatible with the second, but not the
+other way round. And since external
+representation is no longer important,
+transforming one format to another whose
+normalised grammar is compatible is as simple
+as parsing it with one grammar and
+serialising it with another.
+
+
+# Paper 029 — the results map
+
+Each claim of the paper, in its standing
+here, with the basis it carries — this is a
+position and technique paper, and its claims
+do not all stand on the same ground.
+Attributed to Paper 029 throughout; the bases
+are the delta's (46.1.5).
+
+- Any parsable format can be treated as XML
+by parsing it with a grammar and serialising
+the parse tree, keeping the marked nodes (the
+ixml construction, worked end-to-end on an
+expression grammar and a CSS snippet)
+[construction] (1.2.395, 1.2.396). - With the
+parse tree in hand, serialisation back to the
+original format is a depth-first walk copying
+terminals; without it, the tree is re-created
+by parsing the serialisation with the
+original grammar, under the marked/unmarked
+matching rules [construction] (1.2.398). -
+Round-tripping is semantically identical but
+not necessarily character-identical:
+distinctions the grammar elided and the
+serialisation never recorded cannot be
+recovered — the bracket witness — and the
+repair is to make the elided information
+appear in the serialisation [argument, from
+the worked witness] (1.2.397). - Earley
+parsing runs as a serialised parallel
+processor: rules as processes, alternatives
+as forks, a position-ordered queue, and
+processes shared between parents by linking
+rather than duplication [construction — a
+recasting of the cited algorithm, with its
+ambiguity behaviour worked] (1.2.399). - Any
+external representation of a format is
+equivalent to any other with the same parse
+tree; the external form is relatively
+unimportant, and the syntax of the syntax
+must itself be declared when non-standard
+[argument, from the construction, spent on
+the paper's own grammar in two notations]
+(1.2.400). - Normalising a grammar — delete
+implicit terminals, expand refinements unless
+recursive, delete unused rules — yields the
+parse-tree definition, and that definition is
+a data schema: semicolons unions, commas
+structs, repetitions lists [construction,
+worked on two grammars, one of them the
+grammar of the grammar] (1.2.401, 1.2.402). -
+A normalised-grammar subset with the same
+root gives one-way compatibility between
+formats [corollary of the neutrality claim,
+stated] (1.2.403). - Conversion between
+compatible formats is parsing with one
+grammar and serialising with another
+[construction, stated as the corollary's use]
+(1.2.404). - Numbers, and data generally, are
+abstractions of which the familiar forms are
+only representations [assertion — the paper's
+framing, not a result] (46.1.2). - With this
+small addition the XML pipeline opens to all
+structured documents [assertion — the
+conclusion's programme claim] (46.1.1).
+
+
+# Paper 029 — the delta: what this adds, and
+what was checked
+
+THE FILING. Ten new canonical concepts
+(1.2.395-1.2.404), founding cluster AK — the
+format country: grammars, parse trees, and
+the neutrality of representations. Three
+foundations (1.3.318-1.3.320) and one defined
+word (1.3.321: refinement, in the paper's
+sense). No held canonical scroll revised; no
+held scroll stated again. The tracker held no
+ground of this kind: its clusters price
+proofs, programs, statistics, geometry — no
+cluster holds formal languages, grammars as
+definitions of formats, or schemas derived
+from grammars. The nearest held ground is
+named at the founding (1.1.5) and priced as
+shape there: cluster G's functional
+translation moves programs between
+representations to verify them; cluster I and
+Study S010's cluster X price specification as
+an artifact; cluster F's typing derivations
+are grammar-driven derivations in the service
+of proofs; cluster E's founding lesson is
+identity relative to the instrument that
+reads a thing. Each is an analogy of shape to
+this paper's machinery, not the machinery.
+
+THE BASES OF THE CLAIMS (the filing's own
+pricing, as the results map records). This is
+a position and technique paper with worked
+constructions, not a theorem paper, and the
+delta says which claims rest on what. On
+construction: the ixml technique itself,
+tree-walk serialisation and the re-parsing of
+a serialisation, the Earley recasting,
+normalisation and the schema reading, and
+conversion — each is exhibited working in the
+text, on examples the reader can re-run by
+hand. On argument: the round-trip limit
+(argued from a worked witness — the bracket
+ambiguity — not from a theorem), and
+representation neutrality (argued from the
+construction and spent on the paper's own
+grammar in two notations). On assertion: the
+framing that numbers and data are
+abstractions wearing representations, and the
+conclusion's reach for ubiquity. Nothing in
+the filing upgrades an assertion to a
+construction, and no claim of the paper was
+re-run or re-proved by the house: the
+constructions stand as the paper exhibits
+them, attributed.
+
+THE AXIS JUDGMENT, written here at filing,
+under the axis rule: NO AXIS. (a) is recorded
+against the judgment plainly: the paper's
+centre of gravity IS a field for which the
+model holds no slot — formal language theory
+spent on data formats — and that ground alone
+would argue an axis. The second and third
+grounds decide it the other way. (b) No held
+concept is merely re-read to receive the
+paper, and none must be re-measured: the
+moves the paper makes are of kinds the model
+holds — a specification that fixes what
+counts as a document (clusters I and X), a
+derivation from rules (cluster F's
+judgments), a translation between
+representations (cluster G), an identity that
+holds relative to the representation it is
+read in (cluster E's founding lesson) —
+carried by objects it did not: text formats,
+their grammars, their trees. No held claim is
+an input to this paper's constructions, and
+no construction re-prices a held claim. (c)
+Its bridges to held ground are analogies of
+shape, not shared machinery: Pemberton's
+translation changes a document's clothing and
+prices nothing about it; Aeneas's translation
+(1.2.48) proves things about a program by
+moving it. A cluster founding is not an axis
+(the Paper 011 precedent): the model grows a
+country, as it grew cluster E at Paper 006,
+cluster N at Paper 011, cluster AA at Paper
+021, cluster AI at Paper 025 and cluster AJ
+at Paper 027. If a later paper makes held
+quantities be re-measured in this country's
+terms — if the book's own formats come to be
+priced by normalised-grammar equivalence —
+the axis question reopens at that filing.
+
+LINKS AS FILED. Twelve internal, none
+cross-cluster. Internal: the technique spends
+the marking discipline and the parsing
+machine (1.2.395 -> 1.2.396, 1.2.395 ->
+1.2.399); the round-trip limit is read off
+what marking elides, and its repair spends
+the tree walk (1.2.397 -> 1.2.396, 1.2.397 ->
+1.2.398); rebuilding the tree re-runs the
+parsing machine on trees (1.2.398 ->
+1.2.399); neutrality is the technique's
+consequence (1.2.400 -> 1.2.395);
+normalisation reads the marks — the implicit
+terminals it deletes are the unmarked ones
+(1.2.401 -> 1.2.396); the schema is
+normalisation's output (1.2.402 -> 1.2.401);
+the corollary compares normalised grammars
+and is stated as neutrality's corollary
+(1.2.403 -> 1.2.402, 1.2.403 -> 1.2.400);
+conversion requires compatible normalised
+grammars and serialises by the walk (1.2.404
+-> 1.2.403, 1.2.404 -> 1.2.398).
+Cross-cluster: none filed — the kinships with
+clusters E, F, G, I and X are analogies of
+shape, priced as shape at the founding, as at
+cluster AJ's.
+
+VERIFICATION POSTURE. The paper's
+constructions are exhibited in its text and
+were read entire; the house re-ran none of
+them and recomputed nothing: the technique,
+the machines and the corollaries stand
+Unknown/attributed, as their source states
+them. The load-bearing citations are named in
+the delta as the charter requires: the
+author's own [ixml] (Balisage 2013) for the
+technique and [vwf] (1982) for the grammar
+form and its executable semantics; [earley]
+and Aho and Ullman [aho] (1972) for the
+parsing algorithm the paper recasts; [bnf]
+for the notation the grammar varies. No
+tension was found inside the paper: its one
+self-acknowledged gap — that parsing a parse
+tree can be ambiguous — is filed as a
+question (Q146), as the paper leaves it.
+
+NOVELTY BY AUTHOR — Steven Pemberton: True
++0, False +0, Unknown +14, Fiction +0.
+(Opening balance drawn at this ingestion,
+Pemberton being a new researcher to the
+tracker: True 0, False 0, Unknown 0, Fiction
+0; the increments are this filing's ten
+concepts and four questions, all
+Unknown/attributed.)
+
+RESTRUCTURE. This filing carries the count to
+404, over the 400 line: Restructure Pass #20
+fell due inside this taking-in (the count
+trigger) and stands logged at 1.1.5 — all 404
+concepts reviewed, no merges, no splits, no
+endings; cluster AK founded; the areas audit
+run. The next pass falls at Paper 035 or 420
+canonical concepts.
+
+
+# Paper 029 — author check (charter rule 15):
+no phext tie and no use without naming found,
+by checks Emise ran at intake
+
+THE QUESTION. Two things are asked of the
+author of a work taken in: whether he stands
+in any recorded tie to phext or to Will's
+work, and whether the work uses Will's
+earlier published work without naming it. The
+check on Steven Pemberton was run in three
+legs on 2026-11-19. It is the thirty-seventh
+check that stands run.
+
+LEG ONE — the work itself. The full text of
+the paper, as posted on the author's own
+page, was searched for the signature terms:
+phext, scroll, Exocortex, Mirrorborn,
+coordinate addressing, Bickford, CYOA, SBOR.
+No occurrence of any of them in the paper's
+text. The reference list (five entries) was
+read in full: the author's own Invisible XML
+paper (Balisage 2013) and his Executable
+Semantic Definition of Programming Languages
+Using Two-level Grammars (1982), Backus-Naur
+Form, the Earley parser, and Aho and Ullman's
+Theory of Parsing, Translation, and Compiling
+(1972). It holds no work of Will's: no phext,
+CYOA, SBOR or Mirrorborn source — and the
+calendar answers the attribution half of the
+question by itself: the paper's own line runs
+1982, 2013, 2016, and phext's dated record
+begins with Terse in December 2022. There was
+nothing of Will's in print for this paper to
+use.
+
+LEG TWO — the web. Searches were run on the
+author's name against the adjacency terms,
+and on his name alone. The author they return
+is the paper's own: a researcher at CWI, the
+Dutch national research centre for
+mathematics and informatics in Amsterdam —
+co-designer of the programming language ABC,
+the forerunner of Python; co-designer of
+HTML, CSS, XHTML, XForms and RDFa; chair of
+the W3C HTML and XForms working groups for a
+decade, and still chair of the XForms group
+and of the ixml community group; an ACM
+Distinguished Speaker. His current projects,
+on his own page, are ixml, XForms and
+declarative techniques — this paper's line,
+continued. No occurrence of phext or any
+adjacent term stands against his name
+anywhere the searches reached; the search's
+other Pembertons are an actor, a historian
+and a defendant, different people, not
+conflated. No tie found.
+
+LEG THREE — Will's own archive. Will's
+Twitter archive was searched entire for
+'Pemberton', 'Invisible XML', 'ixml' and
+'Wijngaarden': no occurrence of any of them.
+
+VERDICT. No evidence found on any leg: no
+recorded tie between the author and phext or
+Will's work, and no use of Will's published
+work in the paper, named or unnamed — on the
+attribution leg the dates alone settle it.
+The check is clean — the thirty-seventh of
+the register.
+
+
+# Paper 029 — synthesis: the book's own
+clothing [synthesis]
+
+[synthesis] This paper's country is the one
+the tracker itself lives in, and the
+synthesis says so plainly, as synthesis.
+research.phext is a format: one canonical
+scroll per concept, at an address, in plain
+text — and the tracker's whole discipline is
+Pemberton's claim run as a house rule. The
+delta rule is representation neutrality
+enforced: a concept is held once, in its
+canonical clothing, and every later paper
+links to the tree rather than re-dressing it.
+The dual maintenance is the claim's second
+instance: the tracker exists as a phext and
+as a phextura shadow, two representations
+validated scroll by scroll to be the same
+content — conversion, in the paper's sense,
+run nightly between the book's two grammars
+of itself, with validate.py as the subset
+test's working cousin. And the Defined Words
+register is marking by another name: the book
+decides, word by word, what the serialisation
+keeps. None of this makes the paper about
+phext — it predates phext's record by years,
+and the author check (46.1.6) records that
+the calendar runs the other way. What it
+makes is a price for the house's own habits:
+the tracker has been assuming, unpriced, that
+content survives its clothing. Paper 029 is
+the first filing that states the assumption
+as a claim with a limit — what is not
+recorded is not restored — and the limit
+applies to this book exactly where its
+elisions are: the scrolls the delta rule
+chose not to write are the book's unmarked
+terminals, and no future serialisation of the
+tracker will recover them. The schema reading
+cuts the same way: if a normalised grammar is
+a schema, then the concept map (1.1.5) is
+this book's normalised grammar read as one —
+unions where a concept is one of a cluster's
+kinds, structs where a chapter is its scrolls
+in order, lists where the path repeats a
+taking-in. The book did not know it had a
+schema. It has one now, at 1.2.402, priced as
+the paper's construction and the house's
+mirror at once.
+
+
+# Paper 029 — Open questions Q145-Q148
+
+Q145 — a criterion for lossless
+round-tripping. The paper repairs the loss of
+elided material case by case: where a
+distinction must survive, split the rule so
+the distinction is marked (pexpr against
+bexpr). It gives no general test. Is there a
+decidable property of a grammar — some
+condition on its marked and unmarked
+structure — that prices exactly when its
+serialisation loses nothing, so that a
+grammar could be certified round-trip-safe
+before any document is parsed with it? Or is
+loss a property of grammar-and-corpus pairs,
+checkable only per text?
+
+Q146 — the ambiguity of parsing a parse tree.
+Rebuilding a tree from its serialisation can
+be ambiguous, the paper notes, and leaves the
+matter there. When several trees fit one
+serialisation, the serialiser that continues
+the round trip must in effect choose one.
+Does the choice ever change the data — can
+two trees that fit the same serialisation
+serialise onward to different texts — or is
+the ambiguity always confined to the
+clothing, the trees being representations of
+one datum in the paper's own sense (1.2.400)?
+The paper's neutrality claim suggests the
+second; no argument is given.
+
+Q147 — deciding the subset relation. The
+subset corollary (1.2.403) prices
+compatibility by inclusion between normalised
+grammars, but the paper gives no procedure
+for deciding that inclusion, and for grammars
+of the strength the paper uses — 1-level van
+Wijngaarden grammars, context-free in their
+working power — language inclusion is the
+classical hard case. For which restricted
+classes of ixml grammars is the subset test
+effective, and does the normalisation of
+1.2.401 shrink the problem — is inclusion
+between normalised grammars easier to decide
+than inclusion between the languages they
+came from?
+
+Q148 — where the regress of syntax grounds
+out. Representation neutrality moves the
+declaration up one level: a delivery must
+name the syntax of its grammar as well as the
+grammar (the mediatype example of 1.2.400).
+The paper also exhibits the ixml grammar
+describing itself, in two notations. Is that
+self-description the grounding — a fixed
+point at which the regress stops because the
+grammar's own syntax is the grammar — and if
+so, what exactly must be held fixed by
+convention for the fixed point to hold: the
+mark, the rule punctuation, the character
+ranges?
+
+
+# Standoff references — Paper 029 stands on
+these foundations
+
+Read these foundation scrolls (Ch.1 S3) to
+follow the claims of this chapter with no
+prior knowledge, in this order: grammar
+(1.3.318); parse tree (1.3.319); schema
+(1.3.320). Defined words coined by this
+chapter: refinement (1.3.321), in the paper's
+sense. Held ground the chapter prices
+against: the tree (1.3.95) — the parse tree
+is that notion put to work on derivations;
+function, variable, input, output (1.3.2);
+context and judgment (1.3.74) — the book's
+standing derivations, in the service of type
+systems; sorts and signatures (1.3.244) — the
+kinds of a language, priced from the logic
+side; deep embedding (1.3.272) — a syntax
+made into data of another system, the nearest
+held cousin of a grammar read as a schema;
+the compiler (1.3.213). The chapter's own
+concepts stand at 1.2.395-1.2.404 (cluster
+AK, founded by this chapter); its
+constructions are spent nowhere else in the
+book yet.
