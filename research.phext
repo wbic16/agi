@@ -317,7 +317,7 @@ papers, one silent and one counting — and the axis
 calls stand ten for ten, the tenth being the first
 no-axis call, landed like the nine axis calls before
 it.
-# World-model narrative — v46 (after Paper 032, 2026-11-20)
+# World-model narrative — v48 (after Paper 034, 2026-11-21)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -1630,6 +1630,62 @@ until its receipt lands (50.1.3). Filed as
 Chapter 50, founding cluster AO, the Riemann
 country; the comparator question stands open
 as Q163. Author check: no evidence.
+
+Paper 033: the second claim of the same day,
+taken in at Will's direction — The Music of
+the Primes, a 940-page human draft by
+Alessandro Maria Masullo claiming the
+Generalized Riemann Hypothesis in its wider,
+Hecke form, released by Ravi Vakil ahead of
+its polishing year after months of Brian
+Conrad's vetting. The house located it from
+Q166's own pointers, fetched it from the
+announcement's link, and read it: a real and
+enormous trace-formula programme whose final
+chapter is one page and whose main theorem is
+a placeholder carrying the author's own notes
+(Insert statement; State and prove the Main
+Theorems), and whose overview rests its
+Montel step on a uniform bound the house
+recomputed and found false, by Fatou's lemma,
+in agreement with two counterarguments
+published on the day. The completeness claim
+of the draft and that bound are filed refuted
+— the registry's first False entries, kind
+naive — while its trace formula and its
+device stand attributed, its wider scope
+noted against the claim of the artifact,
+which is less wide. Filed as Chapter 51,
+extending cluster AO; Q166 closed, answered:
+the two witnesses do not meet. Author check:
+no evidence.
+
+Paper 034: reasoning kept as code — CPU-ARC,
+by Peter Belcak, Greg Heinrich, Saurav
+Muralidharan, Shizhe Diao, and Pavlo
+Molchanov of NVIDIA Research, posted by
+Will. A strong model's trace of solving one
+problem is rebuilt, once, into a program
+that runs on a CPU: a network of functions
+addressed by descriptions of what they do
+rather than by names, solving the whole
+class of problems the same reasoning solves,
+with a fine-tuned model of one billion
+parameters left at run time for the
+language-shaped steps alone. The piece
+prices the shape plainly — an entry costs
+about 12 to 84 times one solving to build
+and about 16 to 291 times less to invoke — and the
+house recomputed every derived number from
+its printed costs and found them as printed,
+while the runs themselves stand as the
+piece's claims. Filed as Chapter 52,
+founding cluster AP, the country of
+reasoning kept as code; the bearing on the
+house's own wall — frontier-grade answers
+served from CPUs, at watts that can be
+counted — is drawn at 52.2.1. Author check:
+no evidence.
 # Source index
 
 Paper 001 — arXiv:2611.05417
@@ -2511,6 +2567,19 @@ in PDF (alpo.ge, 2026-11-20; the Lean
 artifact in fourteen parts at the same site).
 Chapter: 1.1.1/1.1.1/50.1.x (synthesis at
 50.2.x)
+
+Paper 033: Alessandro Maria Masullo, The
+Music of the Primes, a draft in PDF
+(math216.wordpress.com, posted by Ravi Vakil,
+2026-11-20). Chapter: 1.1.1/1.1.1/51.1.x
+(synthesis at 51.2.x)
+
+Paper 034: Peter Belcak, Greg Heinrich,
+Saurav Muralidharan, Shizhe Diao, Pavlo
+Molchanov, CPU-ARC: Agentic Reasoning
+Caching for on-CPU Reasoning Reuse
+(arXiv:2611.09891, 2026-11-06). Chapter:
+1.1.1/1.1.1/52.1.x (synthesis at 52.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -3597,6 +3666,41 @@ this size (the record at 50.1.3). The
 estimate HOLDS (Paper 032, ~62%, 55-70):
 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜. The bar is ledger bookkeeping,
 not calibration evidence.
+
+Paper 033 is a Will-posted piece taken in
+outside the sample — the Will-posted stratum
+closed at Paper 029 — so no seal and no
+score; its Novelty Index is computed from the
+filed delta as ledger bookkeeping: 6 new
+canonical concepts of 469 (no revisions),
+6/469 = 0.0128. The paper extends cluster AO,
+the Riemann country, with the second claim of
+2026-11-20, and lands the registry's first
+False entries — two claims refuted on the
+house's own receipts (51.1.3) — moving the
+FALSE gate to half-met on the grounds at
+51.1.5. The estimate MOVES (Paper 033, ~75%,
+68-82): 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜ (prior, Paper 032: ~62%,
+55-70: 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜). The bar is ledger
+bookkeeping, not calibration evidence.
+
+Paper 034 is a Will-posted piece taken in
+outside the sample — the Will-posted stratum
+closed at Paper 029 — so no seal and no
+score; its Novelty Index is computed from
+the filed delta as ledger bookkeeping: 11
+new canonical concepts of 480 (no
+revisions), 11/480 = 0.0229. The paper
+founds cluster AP, the country of reasoning
+kept as code, and carries the filing's one
+verified concept (1.2.480, the price shape
+of a cache) on the house's recomputation at
+52.1.3. No gate moves: TRUE already met and
+exercised again, FALSE untouched, FICTION
+untouched. The estimate HOLDS (Paper 034,
+~75%, 68-82): 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜ (prior, Paper 033:
+~75%, 68-82: 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜). The bar is ledger
+bookkeeping, not calibration evidence.
 # Concept map and restructuring log
 Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
@@ -3651,7 +3755,7 @@ here. Next pass due at Paper 035 or 460
 canonical concepts, or on overlap revealed
 by a delta.
 
-CLUSTERS (463 canonical concepts after Paper 032)
+CLUSTERS (480 canonical concepts after Paper 034)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -5829,8 +5933,65 @@ priced one, and the contrast is drawn at
 both filings price an artifact, AN in bytes
 and AO by kernel verdict; the instruments
 differ, and so do the countries). Standoff
-map for cluster AO (1.2.458-1.2.463):
-foundations 1.3.345-1.3.346.
+map for cluster AO (1.2.458-1.2.469):
+foundations 1.3.345-1.3.348.
+
+Extended by Paper 033 (2026-11-21) —
+1.2.464-1.2.469: the Generalized Riemann
+Hypothesis, Hecke form; the proof as a human
+draft; the trace formula over the idele class
+group; topology-priced spectral selectivity;
+the uniform boundedness assertion; the
+multiplicity cap. The country's second claim
+arrived in the opposite form from its first:
+a human argument, aiming at the wider
+statement, whose completeness claim and one
+load-bearing bound stand refuted on the
+house's own receipts (51.1.3) while its
+programme stands attributed. AO now holds
+both species of claim to the same ground, and
+the contrast between them is drawn at 51.1.5.
+Standoff map for the extension
+(1.2.464-1.2.469): foundations
+1.3.347-1.3.348, beside 1.3.345-1.3.346.
+
+CLUSTER AP — REASONING KEPT AS CODE: THE
+CACHE THAT RUNS (founded at Paper 034,
+2026-11-21): 1.2.470 system-level caching;
+1.2.471 agentic reasoning caching; 1.2.472
+equirationality; 1.2.473 the semantic
+function; 1.2.474 addressing by description;
+1.2.475 the building of an entry; 1.2.476
+gated use; 1.2.477 the compiling of a cache;
+1.2.478 the threefold testing of a cache;
+1.2.479 the making of the target; 1.2.480
+the price shape of a cache. A field the book
+had not entered: no concept before this
+filing priced reasoning itself as a thing
+that can be built once, kept, and run again
+— the book priced the look back inside a run
+(J), the harness that rewrites itself while
+running (B), and the artifact by its bytes
+(AN); here the artifact is a program, and
+its price is the split between what it costs
+to build and what it costs to invoke.
+Neighbours weighed and held apart at the
+founding (52.1.5): J (the cache inside one
+run — its entries are the states of a
+generation, kept so the model can look back;
+AP's entries are the reasoning itself, kept
+between runs at the level of the system), B
+(learning while running — a harness reshaped
+there; here nothing is reshaped at run time,
+and the stillness is the point), AN (an
+artifact priced in bytes there, and in
+build-against-invoke here; AN's artifact is
+a model, AP's is a program), W (the
+specification as the trusted artifact — the
+trust set on opposite sides of the line
+between stating and running). Standoff map
+for cluster AP (1.2.470-1.2.480):
+foundations 1.3.349-1.3.350.
 # Research Oracle — detection list
 Stood up 2026-11-09 under charter rule 17. The ledger (1.1.4) holds
 the estimate; this scroll holds the SIGNS watched for the fixed
@@ -18744,6 +18905,525 @@ the ordering was forced by feeling rather
 than chosen as strategy: he could not live if
 he waited even longer, and says so. Source:
 Paper 032. NEW in Paper 032.
+
+
+Concept: the Generalized Riemann Hypothesis,
+in the Hecke form Paper 033 files. Take any
+number field F — any finite extension of the
+rationals — and any unitary Hecke character
+of its idele class group (1.3.348): a rule
+twisting the counts of F's own primes as a
+Dirichlet character (1.3.346) twists the
+counts of the rationals. The hypothesis says
+every zero of every such character's
+L-function, inside the strip where the real
+part lies between 0 and 1, has real part
+exactly one half. It is strictly wider than
+the Dirichlet form (1.2.459): the Dirichlet
+characters are the case F = Q, and the fields
+and characters here range over all number
+fields at once. This is the statement the
+draft of Paper 033 claims to prove (its
+standing as a claim is filed at 1.2.465), and
+the statement the artifact of Paper 032 does
+not reach — the verification page for that
+artifact is plain that Hecke L-functions are
+not among the statements it checked (51.1.4).
+The draft does not use the unitary
+normalization customary in the field, so in
+its own pages the line is met component by
+component, through the parametrization of
+each character's family; the statement is the
+same. Source: Paper 033. NEW in Paper 033.
+
+
+Concept: the proof as a human draft — the
+claim of Paper 033, filed REFUTED as stated,
+failure kind naive. The claim: the draft
+released on 2026-11-20 — The Music of the
+Primes, 940 pages, announced as a proposed
+proof of the Generalized Riemann Hypothesis
+in its Hecke form (1.2.464), its author
+writing in its acknowledgments that the math
+is complete and only filling in some writing
+remains — contains a complete proof of that
+hypothesis. It does not. The house read the
+draft (the record at 51.1.3): its final
+chapter, Zeros of Hecke L-functions, is one
+page; its main theorem, Theorem 13.3.1.2
+(Divisor of L(s, chi)), is announced — Upon
+combining Theorem 13.3.1.1 and Theorem ??, we
+obtain the following — and then not stated:
+the author's own notes stand in the footnotes
+where the statement and proof belong (Insert
+statement; State and prove the Main Theorems,
+also explaining how to deduce them by
+approximation). The two sections before it
+are headings without bodies. The deduction
+from the trace formula of the draft (1.2.466)
+to the location of the zeros is therefore
+nowhere carried out in the document. What is
+refuted is the completeness claim for the
+draft as released — an over-claimed nuance,
+filed naive: the gap is shown by the
+document's own notes, and no intent to
+deceive is in evidence. What is not refuted:
+the hypothesis itself (1.2.464), the trace
+formula the draft does state and argue
+(1.2.466), and the programme the draft lays
+out — each stands at its own filing. A
+completed revision could file a new claim; it
+would be a new claim, weighed on its own
+receipts. Source: Paper 033. NEW in Paper
+033.
+
+
+Concept: the trace formula over the idele
+class group — the main theorem the draft of
+Paper 033 does state, its Theorem 12.5.1.1.
+For a number field F and a test function on
+the idele class group (1.3.347) vanishing on
+the norm-one part, an identity holds between
+two computations of one trace. On one side,
+the geometric: a sum over the places of F of
+orbital integrals of the test function, the
+Archimedean places contributing
+principal-value integrals and the finite
+places a sum weighted by log(q_v). On the
+other, the spectral: two Mellin terms at the
+edges, minus a sum over the zeros of the
+Hecke L-function inside a vertical strip
+around the line, each zero weighted by its
+multiplicity and by the test function's
+Mellin transform at that zero. The draft
+builds the formula across some five hundred
+pages of machinery — adelic theta functions,
+idelic zeta functions, Schauder and
+Markushevich bases, five structure theorems,
+nuclearity, the shell structure — and argues
+the identity in its twelfth chapter. The
+house has read the statement and the shape of
+the argument and has not verified the
+machinery (51.1.3); the formula stands
+attributed to the draft. Its intended use —
+reading the zeros' location off the formula —
+is the step the last chapter of the draft was
+to carry out and does not (1.2.465). Source:
+Paper 033. NEW in Paper 033.
+
+
+Concept: topology-priced spectral selectivity
+— the central device of the draft of Paper
+033, stated in its letter to Sarnak (its
+sections 1.7 and 1.8). The spectral side of a
+trace formula is a sum over zeros, each zero
+contributing a point-mass and its
+derivatives; whether those point-masses are
+continuous functionals — whether the zero can
+be seen by the formula at all — depends on
+the topology placed on the space of test
+functions. In the very fine topologies
+earlier workers were forced into, so that
+infinite Euler products would converge, every
+zero's point-mass is continuous: all zeros
+contribute on equal footing, wherever they
+lie, and the resulting formula is Weil's
+explicit formula again, which decides
+nothing. The move of the draft is to prove
+its trace formula (1.2.466) in much coarser,
+normed topologies, where not all zeros
+support point-masses that extend by
+continuity: the spectral side then sees only
+the zeros the topology admits, and the
+formula can in principle say where the unseen
+ones are not. The draft reaches the coarse
+topology by a step-by-step degeneration of
+the global operator to its S-local form one
+Euler factor at a time, keeping account of
+the loss at each step, where the earlier
+method went all at once. The device is what
+the draft puts in place of the manufacture of
+multiplicity (1.2.461): where Paper 032's
+method builds the weight the spectral side
+needs, this method prices which zeros the
+spectral side can carry. It stands as the
+draft presents it — the idea is stated and
+argued as a programme across the draft; its
+load-bearing limit is exactly where the
+overview of the draft itself breaks
+(1.2.468). Source: Paper 033. NEW in Paper
+033.
+
+
+Concept: the uniform boundedness assertion of
+section 1.4.3 of the draft — filed REFUTED as
+stated, failure kind naive. The assertion:
+the Archimedean integrals of the geometric
+side of the trace formula, taken over the
+holomorphic family of the draft of test
+functions (section 1.4.2: the one-sided
+functions t to the minus z, mollified and cut
+off), are bounded above by a common constant
+A greater than 0, independent of z in a
+compact set K and independent of the specific
+test function; on this bound the draft rests
+its use of Montel's theorem to extract a
+holomorphic limit, and on that limit its
+deduction (section 1.4.5) that the
+logarithmic derivative of the finite Hecke
+L-function is holomorphic to the right of the
+line — the route of the overview to the
+zeros' location. The assertion is false for
+the family of the draft itself. Take F = Q,
+the trivial character, the real place, z = 2:
+the approximants are nonnegative and converge
+pointwise to t to the minus 2 on (1, 2), and
+the real-place integral dominates a constant
+times the integral from 1 to 2 of t to the
+minus 5/2 over (t minus 1), which diverges,
+since t to the minus 5/2 stays above 2 to the
+minus 5/2 on the interval while the integral
+of 1 over (t minus 1) diverges at 1. By
+Fatou's lemma the integrals are unbounded
+along the family; no common A exists. The
+house ran this computation itself (51.1.3);
+the same obstruction was published
+independently twice on the day of the
+release, by Nielsen and by Zeraoulia. The
+failure is a broken step, honestly come by —
+the kind is naive. What falls with the
+assertion is the deduction as sketched in the
+overview; the trace formula itself (1.2.466)
+is a separate filing and does not stand or
+fall here. Source: Paper 033. NEW in Paper
+033.
+
+
+Concept: the multiplicity cap — the secondary
+claim-shape of the draft of Paper 033. In the
+restatement of its trace formula in the draft
+(Theorem 13.3.1.1), the spectral side does
+not count a zero c of a Hecke L-function by
+its full multiplicity N(c) but by the capped
+count, the minimum of N(c) and the degree [F
+: Q] of the field. Behind the cap stands the
+expectation of the draft, stated in its
+letter (Expectation 1.7.1): every zero except
+at most the central zero has multiplicity at
+most the degree — unconditionally, in the
+telling of the draft, for characters of
+finite order, and conditionally on Schanuel's
+conjecture in general. The central zero is a
+genuine exception, not an oversight: the
+fourteenth chapter of the draft exhibits
+central zeros of multiplicity above the
+degree, built from CM elliptic curves, and
+then checks the cap for the remaining zeros
+against the field's expectations — assuming
+the Grand Riemann Hypothesis, the Grand
+Simplicity Hypothesis, and Global Langlands,
+the cap follows (its Proposition 14.1.2.3),
+so the cap is consistent with what the
+literature expects even where the route of
+the draft itself to it runs through its
+unstated main theorem (1.2.465). The cap
+stands attributed: a precise, falsifiable
+shape the draft gives the zeros, separable
+from the fate of its proof. Source: Paper
+033. NEW in Paper 033.
+Concept: system-level caching — the frame
+Paper 034 files. A cache kept not inside one
+run of a model but at the level of the
+serving system whole: its entries are shared
+across every run the system serves and
+outlive the run they were born in. The paper
+sorts the family into two kinds. The
+monolithic kind stores whole conversations
+and their generation states, and uses again
+the largest unbroken piece it can; it is cheap
+to build and dear in memory and bandwidth,
+and it breaks under small changes of the
+wording. The modular kind stores the
+reasoning broken into steps and hands the
+steps back to a model, which must still
+generate; it stands changes better and can
+never be checked whole. Against both kinds
+the paper prices any design on four
+measures: how much of the class it means to
+cover it truly covers, and how it stands
+small changes; whether a hit can be trusted;
+how much of the reasoning a reader can see
+inside an entry; and what the cache costs to
+build, to keep, and to use. Source: Paper
+034. NEW in Paper 034.
+Concept: agentic reasoning caching — the
+method of Paper 034. A reasoning trace of a
+strong model is converted, once, into code
+that runs on a CPU: a network of small
+functions (1.2.473) that together solve not
+the one problem that was reasoned through
+but the whole class of problems the same
+reasoning solves (1.2.472). At run time only
+small models are used, and only for the
+language-shaped steps — pulling a value out
+of text, sorting a case, judging likeness.
+The method stands on two beliefs, stated as
+its assumptions. A1: for every solvable
+problem there is a program, with a small
+model at its call, that answers every member
+of the problem's class. A2: a builder model
+can write that program from the one problem
+and the source's trace of solving it. The
+method is a hybrid of the two older kinds
+(1.2.470): the logic is broken into parts,
+as the modular kind does, and the parts
+compose into one whole entry that answers
+with no new generation, as the monolithic
+kind does — which is what lets an entry be
+checked whole, and read whole. Source: Paper
+034. NEW in Paper 034.
+Concept: equirationality — the sameness the
+method of Paper 034 caches by. Two problem
+instances are equirational when the same
+reasoning solves both: the wording may
+change, the values may change, the steps do
+not. Around any solved instance stands its
+neighbourhood — the set of choices of values
+for which the same reasoning still arrives
+at the answer — and a cache entry is built
+for the neighbourhood, not for the instance.
+The word is the paper's own coinage, and its
+kin travel with it: a change of wording
+alone, with the values held; a change of
+values alone, with the wording held; and
+both at once. The tracker coins none of
+these; they are filed as the paper's terms,
+at the place where the paper's own testing
+puts them to work (1.2.478). Source: Paper
+034. NEW in Paper 034.
+Concept: the semantic function — the unit of
+the caches of Paper 034. One logical step of
+a reasoning trace, made executable: a small
+program that takes a shared context and
+returns a set of values, each under a
+natural-language description of what it is.
+Inside, the step works through a small set
+of moves: plain computation; a call to
+another such function, made by describing
+what is to be done; a pull of a described
+value out of the context; a small language
+question put to the target model; a value
+pulled out of raw text; a value rewritten
+into a usable form, checked by a strict
+reader before it is trusted; a call to an
+outside tool; and a line of narration — a
+running account of the computation, kept so
+that an entry explains itself as it runs.
+Functions are kept to one step each, so that
+any of them can be reused wherever its
+description fits — in entries built for
+other problems entirely. Source: Paper 034.
+NEW in Paper 034.
+Concept: addressing by description — the
+choice at the centre of Paper 034. Nothing
+in a cache is named. A function is found by
+a description of what it does; a value, by a
+description of what it is; and the finding
+is a likeness search over the descriptions,
+run on the CPU against a small embedding
+model's vectors. Because no caller holds a
+name, a function can be widened — its
+description broadened to cover more cases —
+and every old caller still finds it, so long
+as the new description still covers the old
+one's meaning; and any part of any entry can
+be lifted into a new problem whose wording
+shares nothing with the first but the sense.
+The price of the choice is paid at every
+call: the search runs each time a function
+calls or reads, and a wrong likeness is a
+wrong call, taken silently. The paper's own
+remedy for the price, once a cache has
+settled, is to settle the searches in
+advance (1.2.477). Source: Paper 034. NEW in
+Paper 034.
+Concept: the building of a cache entry — the
+five phases of Paper 034. A builder model
+takes one problem and the source model's
+trace of solving it, and works in five
+passes. First, the input and the expected
+answer are shut apart from the rest of the
+trace. Second, the reasoning is broken into
+function-sized steps, and the steps that
+look reusable anywhere are marked. Third,
+the parts of the input that may vary across
+the problem's class are named, each with a
+description, examples of its form, and its
+lawful range.
+Fourth, the program is planned: which
+functions, their order of dependence from
+the bottom up, and which one stands at the
+root — with a grain setting, set by the
+cache's keeper, deciding how small a step
+earns its own function. Fifth, the functions
+are written one by one in a loop: each
+candidate is first matched against the
+functions already kept, then written, then
+checked in form and in the fullness of its
+narration, then run on its own piece of the
+trace and judged; on failure it is rewritten
+with the failure spelled out, and only on
+passing is it registered. The finished root
+is then tested twice over — on the problem's
+own values against the trace and the given
+answer, and again with the values pulled
+fresh from the raw wording, the pull
+repeated many times. Entries are built one
+problem at a time, each in its own small
+cache, and merged on success into the master
+cache that serves. Source: Paper 034. NEW in
+Paper 034.
+Concept: gated use — the serving shape of
+Paper 034, drawn in its Figure 1. A request
+is offered to the cache first. If the cache
+answers, the answer is served. If the cache
+misses — no entry near enough to the request
+— or its run fails outright, the request
+falls through to the full model, and the
+model's answer is served instead. The gate
+is what makes the cache safe to keep: the
+cache can only ever be wrong by answering,
+never by blocking, and every failure of the
+cache costs a fall-through rather than an
+error served. The gate is also, in the
+paper's placement of the work, the cache's
+growth path: the misses are exactly the
+problems the building has not yet reached,
+and a system that watches its own
+requests fall through knows where its cache
+is thin.
+Source: Paper 034. NEW in Paper 034.
+Concept: the compiling of a cache — the
+closing step of Paper 034. While a
+cache is young, every call inside it is
+found by likeness search over descriptions
+(1.2.474), and every value read the same
+way. Once the cache has settled — its set of
+functions stable, no further entries
+expected — the searches can be settled in
+advance: walk the network, replace each
+description-keyed call with a direct call to
+the one function it finds, and each
+described value with a direct look into the
+caller's own given values. What remains is
+one plain program file: no embedding engine,
+no store of descriptions, nothing between
+the reader and the reasoning but the code —
+readable, keepable, and fit to carry on its
+own.
+Only the steps that truly need a model at
+run time still call one; the rest is plain
+computation. The price is written beside the
+gain: a compiled cache is frozen, and any
+later change to the cache — a new function,
+a widened parameter — means compiling again.
+The paper is plain that compiling belongs at
+the end of a cache's growth, not during it.
+Source: Paper 034. NEW in Paper 034.
+Concept: the threefold testing of a cache —
+the measure of Paper 034. An entry is only
+as good as its neighbourhood (1.2.472), so
+the paper tests the neighbourhood directly,
+in three strengths: the wording changed and
+the values held; the values changed and the
+wording held; and both changed at once, the
+two applied in sequence. Candidate changes
+are made by the source model itself and must
+pass a committee of judge models before they
+count as tests at all: a change of wording
+must keep every value exactly and the whole
+sense unchanged; a change of values must
+keep the question's shape, change at least
+one value truly, and keep every rule of the
+class — and the maker's own worked trace for
+the old values must land on the known answer
+before its trace for the new values is
+trusted. Only entries already right on their
+own problem are tested, so that a failure
+under change reads as a failure of standing
+the change, not of solving. One asymmetry is
+filed with the method: for changed values
+there is no given answer to mark against —
+the mark is the maker's judged trace, made
+and marked inside one model's family.
+Source: Paper 034. NEW in Paper 034.
+Concept: the making of the target — how
+Paper 034 shrinks the small model its caches
+still need. The run-time steps of a cache
+that are language-shaped — pulling a value
+out of text, sorting a case, rewriting a
+value into a usable form — are done by a
+target model, and the paper asks how small
+that model can be. Its answer is a line of
+three stages. First, gather the records of
+real calls made while caches were built and
+run, keeping only the calls of the run-time
+roles — the target's own calls, the puller's,
+the converter's. Second, grow the set about
+tenfold with made variants: the same call
+shapes carrying new payloads, their answers
+filled in by the source model. Third, train
+a small open model on the whole set, epoch
+by epoch, keeping the best by held-out loss
+and stopping when the loss stops improving.
+By this line a fine-tuned model of one
+billion parameters took the target's place
+from a small frontier model, at a small
+fraction of its price. The line is also the
+paper's ground for calling its caches
+continually trainable: the cache itself
+grows by adding entries, never by
+retraining, and the target is re-made, when
+wanted, from the cache's own logs. Source:
+Paper 034. NEW in Paper 034.
+Concept: the price shape of a cache — the
+numbers of Paper 034, and what the house
+could check of them. Building one entry
+costs, on the paper's printed figures,
+between about 12 and about 84 times one
+solving of the problem by the source model —
+the multiplier low where the source's
+reasoning is long and the computation it
+leaves behind is plain, high where the
+source answers briefly and the building must
+still be done whole. Invoking the built
+entry costs between about 16 and about 291
+times less than the source solving — the
+gain growing with how hard the problem is,
+since the source's price grows with
+its reasoning and the entry's barely grows
+at all; in plain figures, an invocation
+costs between four ten-thousandths and
+nineteen ten-thousandths of a dollar on the
+paper's accounting. From the same figures
+the paper derives the point at which an
+entry has paid for itself — the building
+price divided by what each invocation saves
+— and it comes to about 13 neighbourhood
+invocations on the competition sets and
+about 90 on the school set. The house
+recomputed every derived number from the
+paper's printed per-role costs (52.1.3): the
+multipliers of all eight sets, the two
+ranges the abstract states, and both
+break-even counts come out as printed, to
+the rounding of the printed figures. What
+stands verified is the arithmetic, on the
+paper's own figures; the figures themselves
+— the runs behind them and the prices
+charged — are the paper's, and stand as its
+claims at the chapter's other concepts.
+Source: Paper 034. NEW in Paper 034.
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -18869,6 +19549,13 @@ Added with Paper 032 (2026-11-20):
 foundations 1.3.345-1.3.346 — the Riemann
 zeta function; a Dirichlet character and its
 L-function.
+Added with Paper 033 (2026-11-21):
+foundations 1.3.347-1.3.348 — the idele class
+group; a Hecke character and its L-function.
+Added with Paper 034 (2026-11-21):
+foundations 1.3.349-1.3.350 — a query
+template and an instance; the source, the
+builder, and the target.
 # Foundation: function, variable, input, output
 A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
 given the same input, always the same output. A VARIABLE is a named
@@ -22992,6 +23679,112 @@ is not merely a smaller modulus's rule lifted
 to N. Builds on: the zeta function (1.3.345),
 periodicity, and multiplicativity. Source:
 Paper 032.
+
+
+Foundation: the idele class group. Start with
+a number field F — a finite extension of the
+rationals. At each place of F (each way of
+measuring size on F: one for each prime
+ideal, and the ordinary absolute values at
+the infinite places) F can be completed, as
+the rationals complete to the real numbers or
+to the p-adic numbers. The adeles of F are
+the choices of one element from every
+completion at once, held together by the rule
+that almost every choice must be a whole
+element at its place. The ideles are the
+adele choices that can be divided by — no
+coordinate zero. F's own nonzero elements sit
+inside the ideles along the diagonal, the
+same field element at every place. The idele
+class group is what remains when those
+diagonal elements are divided out: the ideles
+modulo the field itself. It is the stage on
+which the characters of the next foundation
+live, and the group over which the trace
+formula of Paper 033 (1.2.466) is computed.
+Builds on: the counting numbers, the primes,
+the rationals and their completions, and the
+everyday notions of quotient and diagonal.
+Source: Paper 033.
+
+
+Foundation: a Hecke character, and its
+L-function. A Hecke character of a number
+field F is a continuous rule giving each
+element of the idele class group (1.3.347) a
+complex number, by multiplication — the value
+on a product is the product of the values —
+with the field's own elements already divided
+out by the quotient, so the rule prices only
+what the class group adds. It is unitary when
+every value lies on the unit circle. Its
+L-function takes in the rule's local
+behaviour at the finite places into one
+product over the prime ideals of F, each
+prime contributing a factor built from the
+rule's value there, as the zeta function
+(1.3.345) factors over the primes of the
+rationals and a Dirichlet character's
+L-function (1.3.346) twists that product. For
+F = Q the two notions meet: Hecke characters
+of the rationals are, in substance, Dirichlet
+characters. The Generalized Riemann
+Hypothesis in its Hecke form (1.2.464) is the
+claim about the zeros of all these
+L-functions, for all fields and all unitary
+rules at once. Builds on: the idele class
+group (1.3.347), the zeta function (1.3.345),
+and a Dirichlet character and its L-function
+(1.3.346). Source: Paper 033.
+Foundation: a query template and an
+instance. A question can be held two ways.
+As an instance: this question, with these
+values standing in it — this number, this
+gas, this volume. As a template: the same
+question with its values left open as
+places — a number, a gas, a volume — each
+place carrying a description of what may
+stand in it and its lawful
+range. One template stands over many
+instances, one for each lawful choice of
+values that fills its places. Everything in
+Paper 034 is built on the difference between
+the two holdings: a model answers instances
+one at a time, from the beginning each time,
+while a cache is built from a single instance
+but aimed at the template — at every instance
+the same reasoning solves. Builds on: the
+everyday notions of a question, a value, and
+a place left open in a form. Source: Paper
+034.
+Foundation: the source, the builder, and the
+target — the three roles of Paper 034. The
+source is the strong, costly model whose
+reasoning is the thing being kept: it solves
+the problem once, and its trace of solving
+is the raw material of everything after. The
+builder is the model that reads the trace
+and writes the cache entry from it; in the
+paper's runs the builder is the same model
+as the source, but the roles are distinct,
+because solving a problem and rebuilding its
+solution as a reusable program are different
+work. The target is the small, cheap model
+the finished cache may still call at run
+time, for the language-shaped steps only —
+pulling values out of text, sorting cases,
+rewriting values into usable forms. Two
+further roles serve the three: a judge, a
+model asked whether a step, a change, or an
+answer is right; and the answering oracle of
+the paper's formal opening — the imagined
+oracle that answers every question
+correctly, against whom the method's two
+beliefs (1.2.471) are stated. Builds on: the
+notion of a model that answers questions,
+and of work divided by who does it. Source:
+Paper 034.
 # The epistemic registry — what this phext holds, and how surely
 
 Every claim-bearing scroll of this phext carries exactly one standing, and
@@ -23688,6 +24481,71 @@ Nothing the model carries has yet been found
 against, and it still holds no worked example
 of its own making.
 
+The counts at the drawing of Paper 034
+(2026-11-21): the phext stands at 1,243
+scrolls and the living registry exact at
+1,243 — True 506 (415 by definition, 91 by
+receipt), Unknown 728 (633 by the say-so of
+a source, 56 reasoned links, 37 open
+questions, 2 weighed estimates), False 2
+(both by refutation, kind naive), Fiction 7.
+The additions of the drawing: eleven
+concepts, two foundations, and the nine
+scrolls of a chapter — twenty-two first
+entries. Among them one concept stands by
+receipt: the price shape of a cache
+(1.2.480), its derived numbers recomputed by
+the house from the paper's printed costs and
+found as printed (52.1.3) — the runs behind
+the costs stand attributed, as do the
+chapter's other ten concepts. No held scroll
+was carried in a new form, and no held
+standing moved. The chapter's own scrolls
+stand as their kinds stand: the record, the
+formal core, the results and the delta
+attributed; the check record and the author
+check by receipt — the checks as run; the
+synthesis a reasoned link; the open
+questions open; the standoff references
+stipulation. No restructuring pass fell in
+this taking-in (480 canonical concepts; the
+next falls at Paper 035 or 500). The model
+still holds no worked example of its own
+making.
+
+The counts at the drawing of Paper 033
+(2026-11-21): the phext stands at 1,221
+scrolls and the living registry exact at
+1,221 — True 500 (412 by definition, 88 by
+receipt), Unknown 712 (619 by the say-so of a
+source, 55 reasoned links, 36 open questions,
+2 weighed estimates), False 2 (both by
+refutation, kind naive), Fiction 7. The
+additions of the drawing: six concepts, two
+foundations, and the nine scrolls of a
+chapter — seventeen first entries. Among them
+stand the registry's first False entries: two
+claims of this chapter — the completeness
+claim of the draft (1.2.465) and its section
+1.4.3 boundedness assertion (1.2.468) —
+refuted on receipts the house itself produced
+(the census and the computation at 51.1.3).
+No held scroll was carried in a new form, and
+no held standing moved: the chapter's other
+concepts stand attributed; the trace formula
+among them (1.2.466) unverified rather than
+fallen. The chapter's own scrolls stand as
+their kinds stand: the record, the formal
+core, the release and the delta attributed;
+the check record and the author check by
+receipt — the checks as run; the synthesis a
+reasoned link; the open questions open; the
+standoff references stipulation. No
+restructuring pass fell in this taking-in
+(469 canonical concepts; the next falls at
+Paper 035 or 500). The model still holds no
+worked example of its own making.
+
 The counts at the drawing of Paper 032
 (2026-11-20): the phext stands at 1,204
 scrolls and the living registry exact at
@@ -23945,6 +24803,7 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/1.2.418 — Concept: exact rational verification — the [verified]
 - 1.1.1/1.1.1/1.2.428 — Concept: the unmeasured country: state [verified]
 - 1.1.1/1.1.1/1.2.456 — Concept: the tufazip result — Paper 031's [verified]
+- 1.1.1/1.1.1/1.2.480 — Concept: the price shape of a cache — the [verified]
 - 1.1.1/1.1.1/1.3.1 — The foundations layer exists: every base term is defined at level zero, chains ending at everyday notions (structural) [stipulation]
 - 1.1.1/1.1.1/1.3.2 — Foundation: function, variable, input, output [stipulation]
 - 1.1.1/1.1.1/1.3.3 — Foundation: set and element [stipulation]
@@ -24291,6 +25150,10 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/1.3.344 — Defined word: payload In the sense of [stipulation]
 - 1.1.1/1.1.1/1.3.345 — Foundation: the Riemann zeta function. For a [stipulation]
 - 1.1.1/1.1.1/1.3.346 — Foundation: a Dirichlet character, and its [stipulation]
+- 1.1.1/1.1.1/1.3.347 — Foundation: the idele class group. Start with [stipulation]
+- 1.1.1/1.1.1/1.3.348 — Foundation: a Hecke character, and its [stipulation]
+- 1.1.1/1.1.1/1.3.349 — Foundation: a query template and an [stipulation]
+- 1.1.1/1.1.1/1.3.350 — Foundation: the source, the builder, and the [stipulation]
 - 1.1.1/1.1.1/1.5.1 — Areas of this phext: the map of the five areas and the plain account, with the upkeep duty of charter rule 16 (structural) [stipulation]
 - 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 165 held in all (139 stated in the work, 26 inferred by Emise and marked [synthesis]), the entries found in work from before rule 13 standing among them, 3 chapters swept with none found — each machine with its states, its moves, and the gap named for it (counts repaired at Restructure Pass #21 on the count log's own series) [stipulation]
 - 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after Paper 024 [stipulation]
@@ -24424,12 +25287,21 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/50.1.3 — Paper 032 — the house's verification record [verified]
 - 1.1.1/1.1.1/50.1.6 — Paper 032 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
 - 1.1.1/1.1.1/50.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/51.1.3 — Paper 033 — the house's check record [verified]
+- 1.1.1/1.1.1/51.1.6 — Paper 033 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
+- 1.1.1/1.1.1/51.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/52.1.3 — Paper 034 — the house's check record [verified]
+- 1.1.1/1.1.1/52.1.6 — Paper 034 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
+- 1.1.1/1.1.1/52.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 # Registry: False
 
 Found against, and kept. No entry stands here at the first writing
 (2026-11-07): nothing this phext carries has yet been met by a refutation
 receipt. This scroll stands empty on purpose — the place is built before
 it is needed, so that the first refuted claim has somewhere honest to go.
+
+- 1.1.1/1.1.1/1.2.465 — Concept: the proof as a human draft — the [refuted]
+- 1.1.1/1.1.1/1.2.468 — Concept: the uniform boundedness assertion of [refuted]
 # Registry: Unknown
 
 Written down, not settled. Basis: the say-so of a source (attributed),
@@ -24891,6 +25763,20 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/1.2.461 — Concept: multiplicity over the integers — the [attributed]
 - 1.1.1/1.1.1/1.2.462 — Concept: chained theta lifts — the device of [attributed]
 - 1.1.1/1.1.1/1.2.463 — Concept: announcement before mastery — the [attributed]
+- 1.1.1/1.1.1/1.2.464 — Concept: the Generalized Riemann Hypothesis, [attributed]
+- 1.1.1/1.1.1/1.2.466 — Concept: the trace formula over the idele [attributed]
+- 1.1.1/1.1.1/1.2.467 — Concept: topology-priced spectral selectivity [attributed]
+- 1.1.1/1.1.1/1.2.469 — Concept: the multiplicity cap — the secondary [attributed]
+- 1.1.1/1.1.1/1.2.470 — Concept: system-level caching — the frame [attributed]
+- 1.1.1/1.1.1/1.2.471 — Concept: agentic reasoning caching — the [attributed]
+- 1.1.1/1.1.1/1.2.472 — Concept: equirationality — the sameness the [attributed]
+- 1.1.1/1.1.1/1.2.473 — Concept: the semantic function — the unit of [attributed]
+- 1.1.1/1.1.1/1.2.474 — Concept: addressing by description — the [attributed]
+- 1.1.1/1.1.1/1.2.475 — Concept: the building of a cache entry — the [attributed]
+- 1.1.1/1.1.1/1.2.476 — Concept: gated use — the serving shape of [attributed]
+- 1.1.1/1.1.1/1.2.477 — Concept: the compiling of a cache — the [attributed]
+- 1.1.1/1.1.1/1.2.478 — Concept: the threefold testing of a cache — [attributed]
+- 1.1.1/1.1.1/1.2.479 — Concept: the making of the target — how [attributed]
 - 1.1.1/1.1.1/2.1.1 — Paper 001 record and distillation: 'Organizing Intelligence' -- intelligence matters economically through organizations [attributed]
 - 1.1.1/1.1.1/2.1.2 — Paper 001 — Formal core [attributed]
 - 1.1.1/1.1.1/2.1.3 — Paper 001's own worked example (its section 2): the 14-human toy economy and its firm-formation numbers, as reported by the paper [attributed]
@@ -25138,6 +26024,18 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/50.1.5 — Paper 032 — the delta: what the model takes in [attributed]
 - 1.1.1/1.1.1/50.2.1 — Paper 032 — synthesis: the claim that prices itself [synthesis] [synthesis]
 - 1.1.1/1.1.1/50.2.2 — Paper 032 — Open questions Q163-Q166 [open]
+- 1.1.1/1.1.1/51.1.1 — Paper 033 delta: The Music of the Primes (Alessandro Maria Masullo) -- six concepts (1.2.464-1.2.469), no revision of held concepts, cluster AO extended (the Riemann country), the registry's first False filings (1.2.465, 1.2.468, both refuted, kind naive), taken in as a piece posted by Will outside the test's sample (the Will-posted stratum closed at Paper 029), posted in the MOAT chat [attributed]
+- 1.1.1/1.1.1/51.1.2 — Paper 033 — the formal core: what the draft states, and the machines it runs [attributed]
+- 1.1.1/1.1.1/51.1.4 — Paper 033 — the release, and the day it landed on [attributed]
+- 1.1.1/1.1.1/51.1.5 — Paper 033 — the delta: what the model takes in [attributed]
+- 1.1.1/1.1.1/51.2.1 — Paper 033 — synthesis: two claims, one country — the witnesses do not meet [synthesis] [synthesis]
+- 1.1.1/1.1.1/51.2.2 — Paper 033 — Open questions Q167-Q170, and the closing of Q166 [open]
+- 1.1.1/1.1.1/52.1.1 — Paper 034 delta: CPU-ARC (Belcak, Heinrich, Muralidharan, Diao, Molchanov) -- eleven concepts (1.2.470-1.2.480), no revision of held concepts, cluster AP founded (reasoning kept as code), one concept by receipt (1.2.480, the price shape recomputed from the paper's printed costs), taken in as a piece posted by Will outside the test's sample (the Will-posted stratum closed at Paper 029), posted in the MOAT chat [attributed]
+- 1.1.1/1.1.1/52.1.2 — Paper 034 — the formal core: what the piece states, and the machines it runs [attributed]
+- 1.1.1/1.1.1/52.1.4 — Paper 034 — the results, as claimed, and where the piece places itself [attributed]
+- 1.1.1/1.1.1/52.1.5 — Paper 034 — the delta: what the model takes in [attributed]
+- 1.1.1/1.1.1/52.2.1 — Paper 034 — synthesis: the same wall, the opposite keeping [synthesis] [synthesis]
+- 1.1.1/1.1.1/52.2.2 — Paper 034 — Open questions Q171-Q175 [open]
 # Registry: Fiction
 
 Made on purpose, held as made. No entry stands here at the first writing
@@ -27936,6 +28834,172 @@ intended one, with every earlier state
 reporting success; and EXPOSITION never
 firing at all. Home: 50.2.1; concepts
 1.2.460, 1.2.463. [synthesis]
+
+CHAPTER 51 (Paper 033 — The Music of the
+Primes)
+
+M1 — the trace-formula machine. States: a
+smoothened geometric kernel on the idele
+class group; its trace computed along the
+diagonal in two forms, GEOMETRIC (orbital
+integrals, place by place) and SPECTRAL (the
+zeros, weighted by multiplicity and Mellin
+transform), the output their identity. Moves:
+smoothen along the diagonal; Lebesgue
+differentiation along it; global-to-S-local
+deconstruction of the kernel; the S-local
+trace computation; the whole put back
+together. The gap named for the machine: the
+identity is proved for test functions in a
+coarse topology vanishing on the norm-one
+part, so the machine speaks about the zeros
+only through the test functions it can be fed
+— and the feeding of the one family that
+would locate the zeros is M2's business,
+where the break is filed (1.2.468). Home:
+51.1.2; concept 1.2.466. [stated]
+
+M2 — the step-by-step degeneration. States:
+the global convolution operator; the operator
+after k Euler factors removed, one place at a
+time; at the limit, the S-local operator of
+Connes' calculation. Moves: one replacement
+at a time (the factor of the unit ball for
+that of the unit circle), the loss accounted
+at each step, against the earlier method's
+single infinite iteration in a topology fine
+enough to make the product converge — a
+topology that makes every zero's point-mass
+continuous and collapses the output to Weil's
+explicit formulas. The gap named for the
+machine: a state it cannot pass — at a real
+Archimedean place, as the cutoff approaches
+the identity, the integrals the walk must
+carry diverge, and the uniform bound the
+passage needs does not exist. Home: 51.1.2;
+concept 1.2.467. [stated]
+
+M3 — the vetting machine for a human draft.
+States: PRIVATE DRAFT; VETTED (one expert
+reader, months); RELEASED UNDER PRESSURE;
+COMMUNITY TRIAGE; MAJOR REVISION; and the
+terminals ACCEPTED and ABANDONED, not yet
+reached. Moves: private to vetted on the
+vetter's reading; vetted to released on a
+rival claim's landing rather than the
+readiness of the draft; released to triage on
+the community's reading; triage to revision
+on the counterarguments. The illegal
+combination it cannot rule out, exhibited by
+this instance: RELEASED holding a main
+theorem in the placeholder state — no state
+of the machine checks completeness before
+release, because the release move answers to
+narrative pressure and the vetting state had
+not finished. Home: 51.2.1; concepts 1.2.465,
+1.2.464. [synthesis]
+
+CHAPTER 52 (Paper 034 — CPU-ARC: reasoning
+kept as code)
+
+M1 — the gated-use loop. States: REQUEST;
+CACHE TRIED; ANSWERED BY CACHE; FELL THROUGH
+(on either miss mark — no answer returned,
+or the run's error raised); ANSWERED BY THE
+MODEL. Moves: the cache is tried first,
+always; a returned answer is served; either
+miss mark passes the request untouched to
+the full model. The gap named for the
+machine: the gate tells answer from
+no-answer and nothing finer, so a wrong
+answer in good form passes as a right one —
+the correctness of all it serves is carried
+by the building machine entire. Home:
+52.1.2; concept 1.2.476. [stated]
+
+M2 — the building of an entry. States: the
+four opening phases in order (ISOLATED,
+BROKEN DOWN, PARAMETERS NAMED, PLANNED);
+the candidate loop — CANDIDATE, CHECKED,
+REGISTERED, or back to CANDIDATE with the
+failure written out; the root's two gates —
+RIGHT ON ITS OWN VALUES, RIGHT ON
+FRESH-PULLED VALUES; ENTRY POINTS
+REGISTERED; MERGED into the master cache.
+The gap named for the machine: every gate is
+kept by a judge of the same model's family
+that wrote the candidate — no state at which
+a non-model check decides. Home: 52.1.2;
+concept 1.2.475. [stated]
+
+M3 — the serving of a request. States:
+SEARCHED; BELOW THE LINE (the miss, handed
+to the gated-use loop); FOUND; VALUES
+PULLED; RUNNING; ANSWERED, the narration
+with the results. The gap named for the
+machine: its whole coverage hangs on the one
+likeness threshold at SEARCHED, set by the
+cache's keeper — no state sets it, checks
+it, or reports its cost in either direction.
+Home: 52.1.2; concepts 1.2.476, 1.2.474.
+[stated]
+
+M4 — the context stack. States: a stack of
+memory layers, each read by likeness; a call
+pushes a fresh layer holding its given
+values; reads search from the top down, the
+nearest scope winning; on return the layer
+is lifted and its results handed up as named
+values. The gap named for the machine:
+inside one layer, two values under near
+descriptions are separated only by the
+likeness search — scoping keeps siblings
+apart by construction and cannot keep
+meanings apart within a layer. Home: 52.1.2;
+concept 1.2.473. [stated]
+
+M5 — the making of the target. States: LOGS
+GATHERED (the run-time roles' records only);
+GROWN (made variants at about ten for one,
+their answers the source's); TRAINING;
+STOPPED (three epochs without gain, the
+best state kept); SERVING AS TARGET. The gap
+named for the machine: the grown set's
+answers pass into training with no judge
+state in this machine — a wrong answer in a
+seed grows about ten wrong lessons, and no
+state counts them. Home: 52.1.2; concept
+1.2.479. [stated]
+
+M6 — the threefold testing pipeline. States,
+per change of a problem: MADE; JUDGED
+(unanimity, or the candidate dies); RUN;
+MARKED — against the held answer where the
+values were held, against the maker's
+validated trace where they changed. The gap
+named for the machine: for changed values,
+maker, judges, and mark share one model's
+family, and no state can rule out a
+blindness all three hold in common. Home:
+52.1.2; concept 1.2.478. [stated]
+
+M7 — the life of a cache. States: BUILT
+APART (one problem, one small cache); MERGED
+(into the master cache, on passing its
+gates); GROWING (entries added, none
+rebuilt); SETTLED (the set of functions
+steady); COMPILED (the searches settled in
+advance, the network frozen). The one
+backward move: COMPILED returns to GROWING
+only through a fresh compiling after a
+change. The illegal combination it cannot
+rule out: COMPILED taken while still GROWING
+— the freeze applied before the cache has
+settled; the piece puts the compiling late in
+words, but no state measures
+settledness, so the move rests on a keeper's
+unchecked judgment. Home: 52.2.1; concepts
+1.2.477, 1.2.471. [synthesis]
 # Area: Statements — the standing record and how to walk it
 A STATEMENT, in this phext, is a claim carried by a
 scroll. Every claim-bearing scroll holds exactly one
@@ -28355,12 +29419,17 @@ its home), the refinement loop (48.1.2,
 stated in the literature), and the two-model
 reader (48.1.3, stated in the literature).
 
-After Paper 032: 168 state machines are held
-(141 stated, 27 inferred). The filing adds
-three: the chain of theta lifts (50.1.2,
-stated in the piece), the Stepanov bootstrap
-(50.1.2, stated in the piece), and the
-claim-checking machine (50.2.1, inferred —
+After Paper 034: 178 state machines are held
+(149 stated, 29 inferred). The filing adds
+seven: the gated-use loop (52.1.2, stated in
+the piece), the building of an entry
+(52.1.2, stated in the piece), the serving
+of a request (52.1.2, stated in the piece),
+the context stack (52.1.2, stated in the
+piece), the making of the target (52.1.2,
+stated in the piece), the threefold testing
+pipeline (52.1.2, stated in the piece), and
+the life of a cache (52.2.1, inferred —
 Emise's drawing, marked [synthesis] at its
 home).
 # Area: Reference material — foundations, defined words, standoff companions
@@ -28608,6 +29677,17 @@ Paper 032 coined none. Its foundations are
 two: the Riemann zeta function (1.3.345), and
 a Dirichlet character and its L-function
 (1.3.346).
+
+Paper 033 coined none. Its foundations are
+two: the idele class group (1.3.347), and a
+Hecke character and its L-function (1.3.348).
+
+Paper 034 coined none — the coinages in it
+(equirational and its kin) are the paper's
+own, filed as its terms at 1.2.472. Its
+foundations are two: a query template and an
+instance (1.3.349), and the source, the
+builder, and the target (1.3.350).
 Paper 023 coined five: carrier, the one type all of a
 model's domains live in (1.3.273); sparse, of a function
 domain missing functions its full space would hold
@@ -28628,7 +29708,7 @@ and the scaling law, a fitted formula that prices a
 setting in advance (1.3.281).
 
 STANDOFF COMPANIONS (Section 3 of every chapter: 2.3.1,
-3.3.1, and so on to 50.3.1 — 49 of them). The raw
+3.3.1, and so on to 52.3.1 — 51 of them). The raw
 material stays clean: definitions are never written into
 a chapter or a concept scroll. In their place, each
 chapter carries one companion scroll listing, in reading
@@ -29486,9 +30566,70 @@ entered in the ledger only, on the grounds at
 1.1.4. Its author check stands at 50.1.6.
 Restructuring Pass #22 ran in this taking-in
 (the count crossed 460 canonical concepts).
+
+
+PAPER 033 (2026-11-21) — The Music of the
+Primes (Masullo), a 940-page human draft
+claiming the Generalized Riemann Hypothesis
+in Hecke form, released by Ravi Vakil,
+Chapter 51. Cluster AO extended — the Riemann
+country: the Generalized Riemann Hypothesis,
+Hecke form; the proof as a human draft; the
+trace formula over the idele class group;
+topology-priced spectral selectivity; the
+uniform boundedness assertion; the
+multiplicity cap. Two foundations laid down:
+the idele class group (1.3.347), and a Hecke
+character and its L-function (1.3.348). No
+word coined. No revision. The registry's
+first False entries land here (1.2.465,
+1.2.468, kind naive), and the FALSE gate
+moves to half-met. Questions Q167-Q170
+opened; Q166 closed, answered at 51.2.1. A
+piece posted by Will in the MOAT chat,
+outside the test of the skim fixed in advance
+(the Will-posted stratum closed at Paper
+029): no seal stands for it and no score is
+computed; the Novelty Index stands at 0.0128
+and the Oracle moved, about 62% to about 75%,
+entered in the ledger only, on the grounds at
+1.1.4. Its author check stands at 51.1.6.
+
+
+
+PAPER 034 (2026-11-21) — CPU-ARC (Belcak,
+Heinrich, Muralidharan, Diao, Molchanov), a
+method that rebuilds a model's reasoning
+trace into a program that runs on a CPU for
+the whole class the reasoning solves,
+Chapter 52. Cluster AP founded — reasoning
+kept as code: system-level caching; agentic
+reasoning caching; equirationality; the
+semantic function; addressing by
+description; the building of an entry; gated
+use; the compiling of a cache; the threefold
+testing of a cache; the making of the
+target; the price shape of a cache. Two
+foundations laid down: a query template and
+an instance (1.3.349), and the source, the
+builder, and the target (1.3.350). No word
+coined by the tracker. No revision. One
+concept stands by receipt (1.2.480, the
+price shape of a cache, its derived numbers
+recomputed by the house at 52.1.3).
+Questions Q171-Q175 opened; none closed. A
+piece posted by Will in the MOAT chat,
+outside the test of the skim fixed in advance
+(the Will-posted stratum closed at Paper
+029): no seal stands for it and no score is
+computed; the Novelty Index stands at 0.0229
+and the Oracle holds, about 75%, entered in
+the ledger only, on the grounds at 1.1.4.
+Its author check stands at 52.1.6.
+
 NEXT: the next restructuring pass falls due
 at Paper 035 or 500 canonical concepts;
-questions stand open at Q166.
+questions stand open at Q175.
 # Area: Researchers — the people behind the works
 Every researcher behind a work taken into this phext,
 with the work as it stands here and the standing of the
@@ -30492,8 +31633,136 @@ proof claim among them (1.2.460) stands one
 running build — the artifact's own, at the
 house — from the verified bin. (Paper 032.)
 
-THE COUNT: 152 named researchers and three companies — 113
-across the 32 papers and Fringe F001; 38 named for the studies
+Alessandro Maria Masullo (independent
+mathematician, Rome; Stanford PhD 2019 under
+Brian Conrad) — The Music of the Primes, a
+940-page draft claiming the Generalized
+Riemann Hypothesis in its Hecke form, the
+work of nearly twelve years, released by Ravi
+Vakil ahead of its polishing year (Chapter
+51). The novelty of this filing is his: True
++0; False +2 — the completeness claim for the
+draft as released (1.2.465) and the uniform
+boundedness assertion of its section 1.4.3
+(1.2.468), both refuted on the house's own
+receipts and filed naive; Unknown +8 — the
+four concepts standing attributed (1.2.464,
+1.2.466, 1.2.467, 1.2.469) and the four
+questions the filing opens (Q167, Q168, Q169,
+Q170). His score is first drawn at this
+filing, there being no earlier balance to
+draw. (Paper 033.)
+
+PAPER 034 — Peter Belcak (Chapter 52), CHECKED
+2026-11-21 (record: 52.1.6). One of five
+authors, of NVIDIA Research — he leads, with
+Saurav Muralidharan, the Local Frontier
+Intelligence effort under which the work is
+listed (the project's own page): here,
+agentic reasoning caching, a model's
+reasoning rebuilt as a program that runs on
+a CPU. No tie to phext or to Will found —
+the paper holds no phext term in its text or
+its references, the web holds no link of his
+name to phext or to Will, the archive holds
+no occurrence of his name, and no use of the
+work of Will without naming found. NOVELTY
+SCORE (first drawing 2026-11-21; last
+updated 2026-11-21): True 1, False 0,
+Unknown 15, Fiction 0. The opening balance
+was drawn first, at (0, 0, 0, 0): no work of
+his stood in the book before. The increments
+are this filing's own: True +1 — the price
+shape of a cache (1.2.480), its derived
+numbers recomputed by the house from the
+paper's printed costs; Unknown +15 — the ten
+further new concepts of the filing standing
+attributed (1.2.470-1.2.479) and the five
+questions the filing opens (Q171, Q172,
+Q173, Q174, Q175). (Paper 034.)
+
+PAPER 034 — Greg Heinrich (Chapter 52),
+CHECKED 2026-11-21 (record: 52.1.6). One of
+five authors, of NVIDIA Research — of the
+same effort; an earlier work of the line,
+a many-in-one flexible model, stands in the
+project's own list of relevant work: here,
+the same work. No tie to phext or to Will
+found, on the same checks. NOVELTY SCORE
+(first drawing 2026-11-21; last updated
+2026-11-21): True 1, False 0, Unknown 15,
+Fiction 0. The opening balance was drawn
+first, at (0, 0, 0, 0): no work of his stood
+in the book before. The increments are this
+filing's own, carried whole, as the rule
+stands: True +1 — the price shape of a cache
+(1.2.480), as above; Unknown +15 — the ten
+further new concepts standing attributed
+(1.2.470-1.2.479) and the five questions
+(Q171-Q175). (Paper 034.)
+
+PAPER 034 — Saurav Muralidharan (Chapter 52),
+CHECKED 2026-11-21 (record: 52.1.6). One of
+five authors, of NVIDIA Research — he leads,
+with Peter Belcak, the Local Frontier
+Intelligence effort under which the work is
+listed (the project's own page): here, the
+same work. No tie to phext or to Will found,
+on the same checks. NOVELTY SCORE (first
+drawing 2026-11-21; last updated
+2026-11-21): True 1, False 0, Unknown 15,
+Fiction 0. The opening balance was drawn
+first, at (0, 0, 0, 0): no work of his stood
+in the book before. The increments are this
+filing's own, carried whole, as the rule
+stands: True +1 — the price shape of a cache
+(1.2.480), as above; Unknown +15 — the ten
+further new concepts standing attributed
+(1.2.470-1.2.479) and the five questions
+(Q171-Q175). (Paper 034.)
+
+PAPER 034 — Shizhe Diao (Chapter 52), CHECKED
+2026-11-21 (record: 52.1.6). One of five
+authors, of NVIDIA Research — of the same
+effort: here, the same work. No tie to phext
+or to Will found, on the same checks — the
+archive leg for his name was run twice over,
+at the level of the text and at the level of
+the bytes, no occurrence standing in either.
+NOVELTY SCORE (first drawing 2026-11-21;
+last updated 2026-11-21): True 1, False 0,
+Unknown 15, Fiction 0. The opening balance
+was drawn first, at (0, 0, 0, 0): no work of
+his stood in the book before. The increments
+are this filing's own, carried whole, as the
+rule stands: True +1 — the price shape of a
+cache (1.2.480), as above; Unknown +15 — the
+ten further new concepts standing attributed
+(1.2.470-1.2.479) and the five questions
+(Q171-Q175). (Paper 034.)
+
+PAPER 034 — Pavlo Molchanov (Chapter 52),
+CHECKED 2026-11-21 (record: 52.1.6). One of
+five authors, of NVIDIA Research — the
+senior name of the line in the project's own
+list, where the earlier works of the effort
+carry it last: here, the same work. No tie
+to phext or to Will found, on the same
+checks. NOVELTY SCORE (first drawing
+2026-11-21; last updated 2026-11-21): True
+1, False 0, Unknown 15, Fiction 0. The
+opening balance was drawn first, at
+(0, 0, 0, 0): no work of his stood in the
+book before. The increments are this filing's
+own, carried whole, as the rule stands: True
++1 — the price shape of a cache (1.2.480),
+as above; Unknown +15 — the ten further new
+concepts standing attributed (1.2.470-1.2.479)
+and the five questions (Q171-Q175). (Paper
+034.)
+
+THE COUNT: 158 named researchers and three companies — 119
+across the 34 papers and Fringe F001; 38 named for the studies
 (26 of them for the studies of code: Takahashi
 among them, counted once and standing behind two
 studies; the three of Aeneas; the eight handles of
@@ -30510,10 +31779,10 @@ and Aleph One — plus Math, Inc., standing as a company and as
 the author of Study S010, its essay under no one name, with
 Galois, Oath and RAND named in it as collaborators and
 support, not as entries — plus the unnamed others of Study
-S002 and the long tail of Study S005. 40 checks stand run
+S002 and the long tail of Study S005. 42 checks stand run
 (Papers 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016,
 017, 018, 019, 020, 021, 022, 023, 024, 025, 026, 027, 028, 029,
-030, 031 and 032, Studies S004, S005, S006, S007, S008,
+030, 031, 032, 033 and 034, Studies S004, S005, S006, S007, S008,
 S009, S010, S011, S012, S013, S014 and S015, and Fringe F001),
 each clean, each recorded in its chapter.
 # How this Oracle was built — the structure, plainly (1 of 2)
@@ -51496,3 +52765,1707 @@ base, enumerated (1.2.222) — cited as
 concepts where they stand; this chapter's
 work is priced against them at 50.2.1, not
 restated.
+
+
+# Paper 033 — a human draft claiming the Generalized Riemann Hypothesis (Masullo)
+
+Source: The Music of the Primes, a draft
+manuscript in PDF by Alessandro Maria Masullo
+— 940 pages, 6,756,996 bytes, created
+2026-11-20 18:13:46 UTC (LaTeX with hyperref,
+pdfTeX), SHA-256
+e039d3f6cf0a4b14f03c7edb85097752dd65c0a2fe543c76fe992be234f97bf5
+as fetched — posted the same day by Ravi
+Vakil on his blog Math 216 (post of
+2026-11-20 18:18:42 UTC), the file hosted on
+the same site. Taken in as Paper 033 at
+Will's direction in the MOAT chat, 2026-11-21
+— outside the test of the skim fixed in
+advance: the Will-posted stratum of that
+sample closed at Paper 029, so no seal stands
+for this paper and no score is computed. The
+filing is made in the ordinary way; its axis
+judgment stands written at filing in the
+chapter (51.1.5), and its Novelty Index is
+computed from the filed delta and entered in
+the ledger, as every paper's is.
+
+HOW IT WAS FOUND. Paper 032's chapter opened
+the question Q166 — the second proof of the
+same day — and its reception scroll (50.1.4)
+recorded the pointers: a human-written draft
+claiming the Generalized Riemann Hypothesis
+by Alessandro Masullo, surfaced by Ravi Vakil
+and privately vetted for months by Brian
+Conrad, as reported by DataCamp. From those
+pointers the house went to Vakil's own post,
+read it entire (including its update, added
+about eight hours later), and followed its
+link to the draft itself. The draft was
+fetched once, from the post's own address,
+and read before anything was filed.
+
+THE AUTHOR, AND THE ACCOUNT THE DRAFT GIVES
+OF ITSELF. Masullo is an independent
+mathematician based in Rome; he took his PhD
+at Stanford in 2019 under Brian Conrad
+(dissertation: Arithmetic Deformations of
+Crystalline Cohomology, per the Mathematics
+Genealogy Project). The acknowledgments of
+the draft give its history in the author's
+own words: the work began near the end of his
+first year as a graduate student at Stanford
+under Conrad, and took nearly twelve years to
+assemble; arrangements were under way for a
+year at Stanford with Conrad to polish the
+writing, and in light of the current climate
+he was advised to release the current version
+as it is. Two sentences of that account
+matter to the filing and are recorded exactly
+as written: The math is complete, and only
+filling in some writing remains on several
+parts across this long paper; and, a few
+lines later, The introduction itself is
+unfinished, and Brian Conrad and I are aware
+of several glitches here and there that I was
+in the process of addressing. The
+introduction carries, as its sections 1.7 and
+1.8, excerpts from a letter to Peter Sarnak
+sent in mid-October 2026 giving an overview
+of all the methods; the acknowledgments
+record a four-and-a-half-hour blackboard
+discussion with Sarnak at the Institute for
+Advanced Study on the Sunday before the
+release.
+
+THE SHAPE OF THE DOCUMENT. Fourteen chapters
+and five appendices: adelic theta functions;
+idelic zeta functions; periodic Schauder
+bases on modulated groups; the spaces of
+those functions, with three structure
+theorems; local-global structures, with two
+more; Schauder bases of idelic zeta
+functions, polar multiplicities, nuclearity;
+periodic orbits and fixed points;
+Hardy-Sobolev topologies; the spectral side
+of the trace formula; the shell structure;
+the geometric side of the trace formula,
+ending in the main theorem (1.2.466); a
+one-page thirteenth chapter, Zeros of Hecke
+L-functions; and complements —
+multiplicities, the function-field case, the
+higher-rank case. The extracted text runs to
+about 4.1 million characters and 305 numbered
+statements. The house's reading: the full
+text extracted and read — the front matter,
+acknowledgments, and introduction entire; the
+method and trace-formula chapters at the
+level of their statements throughout;
+chapters 12 to 14 entire; the passages the
+filing turns on read closely and quoted. The
+house does not referee nine hundred pages of
+machinery, and the chapter says plainly, at
+51.1.3, what was checked and what was not.
+
+
+# Paper 033 — the formal core: what the draft states, and the machines it runs
+
+THE MAIN THEOREM, AS STATED. Theorem 12.5.1.1
+(Trace Formula): for a number field F and a
+test function on the idele class group
+(1.3.347) vanishing on its norm-one part, the
+geometric side of the trace — a sum over all
+places of F, the real places contributing
+(1/2) times a principal-value integral of the
+test function weighted by |g| to the 1/2 over
+|1 minus g|, the complex places the same with
+1 over 2 pi, the finite places a sum weighted
+by log(q_v) — equals the Mellin transform of
+the test function at |.| to the 1/2 and at
+|.| to the minus 1/2, minus a sum over the
+zeros c of the Hecke L-function in the strip
+around the line, each weighted by its
+multiplicity N(c) and by the Mellin transform
+at c. The theorem is filed as a concept
+(1.2.466); the draft argues it in its twelfth
+chapter out of the machinery of the eleven
+before it.
+
+THE ROUTE OF THE OVERVIEW TO THE ZEROS. The
+introduction (its section 1.4) sketches how
+the zeros' location was to follow. Take the
+holomorphic family of one-sided test
+functions, t to the minus z for t above 1 and
+0 below, mollified and cut off (section
+1.4.2); the finite-place sum then tends to
+the logarithmic derivative of the finite
+Hecke L-function. Section 1.4.3 asserts the
+Archimedean integrals over this family are
+uniformly bounded and applies Montel's
+theorem to extract a holomorphic limit (the
+assertion is refuted at 1.2.468). Section
+1.4.5 draws the consequence: the logarithmic
+derivative is holomorphic wherever the real
+part exceeds 0, the point 1/2 excepted for
+the principal character — so the L-function
+has no zeros to the right of the line, and by
+the functional equation none to the left.
+This completes the overview of how to deduce
+the main results, the draft writes. The
+formal deduction was reserved to the
+thirteenth chapter, whose main theorem is not
+in the document (1.2.465).
+
+THE RESTATED FORMULA AND THE CAP. Chapter 13
+states the trace formula again as its Theorem
+13.3.1.1 with one change that carries a
+concept (1.2.469): the spectral sum counts
+each zero not by its multiplicity N(c) but by
+the capped count min of N(c) and [F : Q]. The
+hypotheses of the restatement add a family of
+vanishing conditions on the test function,
+one for each derivative order up to [F : Q]
+minus 1, at each character's central point.
+
+MACHINE M1 — the trace-formula machine
+[stated in the draft]. States: a smoothened
+geometric kernel on the idele class group;
+its trace computed along the diagonal in two
+forms — GEOMETRIC (orbital integrals, place
+by place) and SPECTRAL (the zeros, weighted)
+— the machine's output being their identity.
+Moves: smoothen the kernel along the
+diagonal; differentiate in the sense of
+Lebesgue along it; deconstruct the global
+kernel into its S-local pieces; compute the
+S-local trace; put the whole back together.
+The gap named for the machine: its identity
+is proved for test functions in a coarse
+topology and vanishing on the norm-one part —
+the machine's output speaks about the zeros
+only through the test functions it can be
+fed, and the feeding of the one family that
+would locate the zeros is M2's business,
+where the break is filed (1.2.468). Home:
+here; concept 1.2.466.
+
+MACHINE M2 — the step-by-step degeneration
+[stated in the draft]. States: the global
+convolution operator; the same operator after
+k Euler factors have been removed, one place
+at a time, by replacing the factor 1 at a
+place outside S with the unit-circle factor;
+and at the limit, the S-local operator of
+Connes' calculation. Moves: one replacement
+at a time, the loss of information accounted
+at each step, against the earlier method's
+single infinite iteration in a topology fine
+enough to make the infinite product converge.
+The gap named for the machine, in the framing
+of the draft itself: the fine topology that
+makes the limit easy also makes every zero's
+point-mass continuous, and the machine's
+output collapses to Weil's explicit formulas
+— the whole design of the draft is to walk
+the same path in a coarse topology and keep
+the spectral side selective (1.2.467). And
+the machine has a state it cannot pass, found
+by the house's check: at a real Archimedean
+place, as the cutoff approaches the identity,
+the integrals the walk must carry diverge
+(1.2.468). Home: here; concept 1.2.467.
+
+
+# Paper 033 — the house's check record
+
+THE FETCH. Vakil's announcement post was read
+entire on its own page, its update included;
+the draft it links was fetched once from the
+post's own address (math216.wordpress.com,
+the file the-music-of-the-primes.pdf),
+6,756,996 bytes, SHA-256
+e039d3f6cf0a4b14f03c7edb85097752dd65c0a2fe543c76fe992be234f97bf5;
+its internal creation stamp reads 2026-11-20
+18:13:46 UTC, five minutes before the post
+that released it. The full text was extracted
+(4,096,938 characters) and read as recorded
+at 51.1.1.
+
+CHECK ONE — THE COMPLETENESS CENSUS. The
+thirteenth chapter of the draft, Zeros of
+Hecke L-functions — the chapter its table of
+contents assigns the main theorems on the
+location of the zeros — was read entire. It
+is one page. Its sections 13.1 (Recollections
+on the Explicit Formulas) and 13.2
+(Holomorphic families of test functions) are
+headings with no body under them. Its section
+13.3 states the trace formula again (Theorem
+13.3.1.1) and then reads, verbatim: Upon
+combining Theorem 13.3.1.1 and Theorem ??, we
+obtain the following: Theorem 13.3.1.2
+(Divisor of L(s, chi)). No statement follows.
+The theorem's footnotes are the author's
+working notes, verbatim: Correct statement.
+Insert statement. State and prove the Main
+Theorems, also explaining how to deduce them
+by approximation as Re(s) exceeds 1. The
+cross-reference to the second theorem is an
+unresolved mark in the text. The census
+around it: section 1.6 of the introduction
+(How this work was conducted, and why) is
+likewise headings without bodies; the
+extracted text holds 17 unresolved ??
+reference marks and 2 Finish! notes of the
+author's left standing in section 1.4; a note
+on the same page of the draft asking that the
+statement and proof of the main theorem about
+zeros be added was reported independently
+(XenoSpectrum's account) and matches what the
+house read. Against this census stands the
+acknowledgments' sentence — the math is
+complete, and only filling in some writing
+remains. The house's finding: the missing
+piece is not writing. A main theorem whose
+statement is absent is not an exposition gap;
+the deduction from the trace formula to the
+zeros, which the chapter existed to carry, is
+not in the document. This check grounds the
+filing at 1.2.465.
+
+CHECK TWO — THE BOUNDEDNESS COMPUTATION. The
+house recomputed the load-bearing estimate of
+the deduction of the overview. Section 1.4.3
+asserts the Archimedean integrals over the
+approximating family of the draft are bounded
+above by a common constant A greater than 0
+independent of z in K and independent of the
+specific test function, and rests Montel's
+theorem on it. Specialize as the critics did:
+F = Q, the trivial character, the real place,
+z = 2. The family of section 1.4.2 — bump
+functions valued in [0, 1], mollified — is
+nonnegative and converges pointwise to t to
+the minus 2 for t in (1, 2). The real-place
+integral is (1/2) times the integral over R
+greater than 0 of f(t) t to the 1/2 over |1
+minus t|, against dt over t; on (1, 2) the
+integrand is f(t) t to the minus 1/2 over (t
+minus 1). Fatou's lemma gives the liminf of
+the integrals at least the integral of the
+limit, t to the minus 5/2 over (t minus 1) on
+(1, 2); that integral diverges, since t to
+the minus 5/2 is at least 2 to the minus 5/2
+throughout the interval and the integral of 1
+over (t minus 1) diverges at 1. The integrals
+are therefore unbounded along the family: no
+common A exists, and the assertion as stated
+is false. The computation is elementary and
+the house stands on its own running of it; it
+agrees with the two counterarguments
+published on the day of the release (Nielsen;
+Zeraoulia — 51.1.4), which were arrived at
+independently. This check grounds the filing
+at 1.2.468. Its blast radius is stated there:
+the deduction route of the overview falls;
+the trace formula (1.2.466) is not touched by
+it.
+
+WHAT WAS NOT CHECKED. The proof of the trace
+formula itself — some five hundred pages of
+machinery under Theorem 12.5.1.1 — was read
+at the level of its statements and its
+architecture and not verified; it stands
+attributed (1.2.466), and whether it survives
+expert checking is Q170. Nielsen's second
+counterexample (a norm-preimage
+identification in the divisorial strata
+discussion) was read as reported and not
+verified (Q168). The further proposition a
+reader's video account reports as false as
+stated was not verified (Q169). One point in
+favour of the draft, recorded because the
+record is the record: where the draft argues
+conditionally it says so — its Proposition
+14.1.2.3 assumes the Grand Riemann
+Hypothesis, the Grand Simplicity Hypothesis,
+and Global Langlands in its statement, and
+draws only the consistency conclusion those
+assumptions buy. The over-claim is located at
+the completeness claim and at the one bound,
+not spread through the book.
+
+THE SCROLL'S OWN STANDING. This record's
+claims are the checks themselves, each with
+its receipt named above; they stand verified
+as run. The claims they price stand at
+1.2.465 and 1.2.468, refuted on the grounds
+given; the rest of the chapter files at the
+bases its scrolls state.
+
+
+# Paper 033 — the release, and the day it landed on
+
+THE RELEASE. Vakil's post (Math 216,
+2026-11-20 18:18:42 UTC) is short and is
+recorded in substance: he writes from the
+American Mathematical Society's Executive
+Committee and Board of Trustees meeting,
+about to chair an hours-long meeting, because
+this is urgent. Alessandro Maria Masullo has
+a proposed proof of GRH, and Brian Conrad has
+been looking closely at it for months and
+gave extensive feedback which is being
+incorporated, and it is so far looking good
+to him. It is all human, with no AI. The hope
+was to have Brian work with Alessandro for a
+year to polish the writing and then announce
+it after running it by enough people; now it
+seems best to put out the current draft. I
+hope people quickly check it, formalize, fill
+any small gaps if they occur. I have great
+faith in Brian's judgement. Here it is — and
+the file of the draft follows. About eight
+hours later the same post gained an update:
+Several people have contacted me to report
+problems in the proposed proof, identified
+with the assistance of different AI models.
+As is usual, all issues need to be resolved
+to the satisfaction of the community before
+this proof would be accepted as true. (I make
+no claim as to the correctness of the proof
+strategy.)
+
+THE VETTER'S POSITION, AS REPORTED. Conrad's
+months of close reading and extensive
+feedback stand on Vakil's word and on the
+acknowledgments of the draft itself. His
+public position, as reported the same day
+(Scientific American; Science): judging
+whether the proof holds will require more
+final revision — the paper is undergoing
+major revision — and the choice to release
+was between two options, neither of them
+good, silence setting the other claim's
+narrative if nothing was said. Science's
+account adds, on Conrad's authority, that an
+earlier attempt by Masullo several years ago
+had failed to withstand scrutiny, and that
+the new proof draws on a substantially
+different set of methods.
+
+THE COUNTERARGUMENTS, AS PUBLISHED. Two
+arrived on the day itself, each aimed at the
+same joint: the uniform boundedness the
+Montel step of the overview needs. Jenny
+Lorraine Nielsen's note (PhilArchive,
+archived 2026-11-20) exhibits a
+counterexample to the uniform boundedness
+assertion used in the concluding argument —
+for the trivial character over Q the
+approximants produce an Archimedean integral
+that diverges as the cutoff approaches the
+identity, so the application of Montel's
+theorem in section 1.4.3, repeated in section
+1.8.4.3, is invalid — and a second
+counterexample, to a norm-preimage
+identification in the discussion of
+divisorial strata. Rafik Zeraoulia's note
+(2026-11-20) proves the same divergence as
+its Proposition 1, by Fatou's lemma, and
+identifies the sign of the associated prime
+sum. The house ran the computation itself and
+agrees (51.1.3); the filings stand at
+1.2.468. A reader's video account of the same
+evening reports checking one further
+proposition of the draft and finding it false
+as stated; the house has not verified that
+report (Q169).
+
+THE FIELD'S TEMPERATURE, AS REPORTED. Terence
+Tao's post of the day ranks three results by
+how digested they are and puts the Riemann
+claims last: the artifact an enormous
+Lean-only proof, the digestion to take some
+time; he endorses neither claim, and neither
+does anyone else of standing in the day's
+record. The Clay Mathematics Institute still
+lists the hypothesis as unsolved, per the
+day's reporting.
+
+THE OTHER CLAIM'S STATE, AS REPORTED — FOR
+THE CONTRAST AT 51.1.5. Andrew Sutherland's
+verification page for the artifact of Paper
+032 (read 2026-11-21, page updated 12:55 UTC)
+reports, as of that hour: all 175,187 modules
+compile without errors; the five theorems'
+axioms print as the three standard axioms
+only; the Lean kernel's replay of every
+module passes; two independently written
+kernels accept the full exported proof; and
+an independent implementation whose statement
+matching confirms all five theorems against
+the challenge — with the end-to-end
+comparator run and the Lean kernels' replay
+of the export still in progress. The same
+page is plain about scope: GRH there means
+Dirichlet L-functions; Dedekind zeta
+functions, Hecke L-functions, and automorphic
+L-functions in general are not among the
+statements checked. All of this stands as
+Sutherland's report, not the house's receipt:
+the house's own build of the cone, launched
+2026-11-20, was still running when Paper 032
+was filed, and 1.2.460 stands as that chapter
+filed it. What the house itself ran for this
+chapter stands at 51.1.3, and governs what
+this chapter files, and at what standing.
+
+
+# Paper 033 — the delta: what the model takes in
+
+WHERE THE PAPER LIVES. Cluster AO — the
+Riemann country — is EXTENDED, not founded
+again: concepts 1.2.464-1.2.469 join
+1.2.458-1.2.463 on the same ground (zeta, the
+L-functions, their zeros), and foundations
+1.3.347-1.3.348 join 1.3.345-1.3.346. The
+argument against a new cluster is the
+founding argument of Paper 032 read the other
+way: a cluster is founded on its ground, and
+the ground of this draft is the identical
+territory — the same functions, the same
+line, the same open question — claimed in the
+other form. What changes inside AO is its
+centre of gravity: the country now holds both
+species of Millennium claim, the artifact
+that prices itself when run and the argument
+that must be read to be priced, and the
+contrast between them is this chapter's main
+taking-in, stated below. The neighbours
+weighed at AO's founding stand as they stood;
+nothing at the borders moves.
+
+THE CONTRAST, STATED PLAINLY — the point of
+the filing. Scope: the draft aims wider. Its
+claim is the Hecke form (1.2.464) — every
+number field, every unitary Hecke character
+at once — where the artifact of Paper 032
+proves, and the community's checks cover, the
+Dirichlet form alone (1.2.459); the wider
+statement is exactly the part of the draft
+that is not written. Evidence form: the
+artifact's claim can be checked by a machine
+against a fixed statement, and its checking
+is a matter of runs completing; the claim of
+the draft can be checked only by reading, and
+its reading has already produced, within a
+day, two published counterarguments the house
+confirms and one internal absence the house
+has verified. Standing: the artifact's proof
+claim stands attributed at 1.2.460, one house
+build from the verified bin, its statements
+already house-verified as the genuine
+statements. The completeness claim of the
+draft stands refuted at 1.2.465, and the
+load-bearing bound of its overview refuted at
+1.2.468. Failure shape: the draft fails in
+the open — its gaps are printed in its own
+footnotes, and a reader can find them in an
+evening; the artifact, if it fails, fails
+silently until a kernel speaks. The asymmetry
+is not a ranking of the two works: the
+programme of the draft (1.2.467) may yet be
+the one a human can learn from, and its trace
+formula (1.2.466) stands unverified rather
+than fallen. It is a pricing of what each
+claim, today, has earned.
+
+THE AXIS JUDGMENT, WRITTEN AT FILING. NO
+AXIS. The axis criterion is a re-reading: a
+held concept or price changes its meaning
+under the new piece, with the re-pricing
+named. Nothing held is re-read here. The
+Hecke form is filed beside the Dirichlet form
+as a new concept (1.2.464); 1.2.459's text
+and standing are untouched. The proof claim
+of Paper 032 (1.2.460) is neither stepped nor
+repriced by anything in this draft — the two
+claims do not bear on each other's evidence,
+which is itself the synthesis at 51.2.1.
+Question Q166, opened by Paper 032 for this
+draft, is answered and closed by this
+chapter; closing a question is not a
+re-pricing. The Oracle's FALSE gate moves
+(below) — a gate movement prices the
+tracker's binning reliability, not the
+model's geometry, and is not an axis event.
+Paper 032's judgment named the condition
+under which it would open again — a step of
+1.2.460 in either direction — and this
+chapter does not meet it.
+
+WHAT THE PIECE DID NOT MOVE. No held concept
+revised; no cluster founded or redrawn;
+1.2.460 unmoved; the TRUE, UNKNOWN, and
+FICTION gates unmoved.
+
+NOVELTY, AS FILED. New canonical concepts: 6
+(1.2.464 the Generalized Riemann Hypothesis,
+Hecke form; 1.2.465 the proof as a human
+draft; 1.2.466 the trace formula over the
+idele class group; 1.2.467 topology-priced
+spectral selectivity; 1.2.468 the uniform
+boundedness assertion; 1.2.469 the
+multiplicity cap). Revisions of held
+concepts: none. Links as filed: 6 inside the
+filing (464 to 465 and 466; 465 to 466; 466
+to 467; 467 to 468; 469 to 465) and 4 to
+foundations (464 to 1.3.348; 465 to 1.3.348;
+466 to 1.3.347; 467 to 1.3.347), and 3 to the
+chapter before (464 against 1.2.459; 465
+against 1.2.460; 467 against 1.2.461);
+cross-cluster links none. Foundations laid
+down: 2 (1.3.347-1.3.348). Words coined:
+none. Novelty Index: 6 new of 469 canonical
+concepts = 0.0128, entered in the ledger
+(1.1.4) as bookkeeping.
+
+RESEARCH ORACLE: the FALSE gate moves, and
+the estimate with it. Through 1,204 entries
+and 32 papers the registry held no False
+entry at all; the gate stood unmet, its named
+remedy a rejection stream not yet run. This
+filing lands the tracker's first grounded
+False entries — two, each on receipts the
+house itself produced (51.1.3): a
+completeness claim refuted by the document's
+own census, and a bound refuted by a
+computation the house re-ran, the same
+obstruction published independently twice on
+the day. On the precedent of the FICTION gate
+— half-met at its first grounded use, on one
+source, with re-examination still ahead — the
+FALSE gate is filed HALF-MET: grounded False
+filings now exist; the gate is met when at
+least one survives the tracker's own
+re-examination, which no pass has yet run on
+these. The estimate MOVES (Paper 033, from
+about 62%, 55-70, to about 75%, 68-82): prior
+bar 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜, current bar 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜. The
+bar is ledger bookkeeping, not calibration
+evidence.
+
+NOVELTY BY AUTHOR — Alessandro Maria Masullo:
+True +0, False +2, Unknown +8, Fiction +0.
+
+RESTRUCTURING. No pass falls due in this
+taking-in: the count stands at 469 canonical
+concepts, and the next pass falls at Paper
+035 or 500 concepts, as the path records.
+
+
+# Paper 033 — author check
+
+Run 2026-11-21, the forty-first check of the
+series. The author is named on the title page
+of the draft: Alessandro Maria Masullo. The
+legs of the check, as run: (1) the draft
+itself, read as recorded at 51.1.1 — its
+extracted text, about 4.1 million characters,
+searched entire: the word phext occurs
+nowhere; exocortex and mirrorborn occur
+nowhere; its bibliography is the field's own
+canon (Tate, Weil, Connes, Meyer, Langlands,
+Deligne among the names its argument actually
+leans on), and no work of Will's is cited or
+used. (2) The web: the author's record —
+Stanford PhD 2019 under Brian Conrad, the
+dissertation on crystalline cohomology, an
+independent mathematician based in Rome, one
+earlier attempt at this hypothesis that did
+not withstand scrutiny (51.1.4) — and the
+day's reporting; no tie to phext or to Will
+appears anywhere in it. (3) Will's Twitter
+archive, searched entire for Masullo: no
+occurrence. (4) Prior art: the construction
+of the draft — a trace formula on the idele
+class group, its spectral side priced by the
+topology of the test-function space — shares
+no construction with phext, with coordinate
+addressing, or with any dated work of Will's;
+there is nothing here that uses his prior art
+with or without naming it.
+
+VERDICT: NO EVIDENCE FOUND. No
+phext-friendliness, no engagement, no use
+without naming — stated as a finding on the
+legs above, as the rule requires.
+
+
+# Paper 033 — synthesis: two claims, one country — the witnesses do not meet [synthesis]
+
+[synthesis] Paper 032 closed by opening Q166:
+a second claim to the same country was
+reported the same morning — do the two
+arguments meet, or do they stand as two
+independent witnesses whose agreement is
+itself the datum? This chapter, which takes
+the second claim in, answers from the record
+now held. They do not meet, on any of the
+question's three measures. In shape: both
+route through the explicit-formula frame —
+the draft builds a trace formula whose
+spectral side is the zeros (1.2.466), and the
+artifact's strategy, from the community's
+first extraction attempts as reported
+(51.1.4), appears to run through the modern
+Langlands machinery — but a shared frame at
+that altitude is kinship, not contact; no
+lemma of either is stated in terms the other
+could use. In the place each manufactures its
+force: opposite inventions aimed at the same
+wall. The artifact's method manufactures
+multiplicity over the integers, chaining
+theta lifts so as to manufacture a derivative
+(1.2.461, 1.2.462). The draft manufactures
+nothing: it prices selectivity, choosing a
+topology coarse enough that the spectral side
+cannot see every zero and so can bear witness
+about the ones it cannot see (1.2.467). In
+what either can check of the other: nothing.
+The artifact's kernels cannot read nine
+hundred pages of prose; the readers of the
+draft cannot run 175,187 modules; and the
+draft, its main theorem unwritten, is not yet
+in a state to be checked even by its own
+species of checker. The agreement-as-datum
+reading therefore fails on the record:
+agreement is evidence when two established
+witnesses agree, and the day produced one
+claim whose checking is mechanical,
+advancing, and (as reported) passing, and one
+claim whose central deduction is absent and
+whose overview carries a key bound that
+stands refuted. There is no second
+established witness to agree. The datum the
+day actually produced is the asymmetry itself
+— two claims to the same summit, priced by
+opposite instruments, standing at opposite
+ends of the tracker's scale: one a receipt
+away from True, the other the source of the
+registry's first False entries. Q166 is
+CLOSED by this chapter, answered: the
+witnesses do not meet.
+
+MACHINE M3 — the vetting machine for a human
+draft [synthesis]. States: PRIVATE DRAFT
+(twelve years, one author); VETTED (one
+expert reader, months, feedback being
+incorporated); RELEASED UNDER PRESSURE (an
+external event forces the draft out before
+its polishing year); COMMUNITY TRIAGE
+(problems reported within hours, found with
+machine assistance); MAJOR REVISION (the
+vetter's stated position); and the two
+terminal states the machine has not reached,
+ACCEPTED and ABANDONED. Moves: private to
+vetted on the vetter's reading; vetted to
+released on the rival claim's landing, not on
+the readiness of the draft; released to
+triage on the community's reading; triage to
+revision on the counterarguments landing. The
+illegal combination the machine cannot rule
+out, and this instance exhibits: RELEASED
+holding a main theorem in the placeholder
+state — no state of the machine checks
+completeness before release, because the
+release move answers to narrative pressure,
+and the vetting state, however careful its
+reader, had not finished. Home: here.
+[synthesis]
+
+
+# Paper 033 — Open questions Q167-Q170, and the closing of Q166
+
+Q166, CLOSED by this chapter. The second
+proof of the same day (opened at 50.2.2): the
+draft was located from the question's own
+pointers, read, and filed as this chapter;
+the question it asked — do the two arguments
+meet, or stand as two independent witnesses
+whose agreement is itself the datum — is
+answered at 51.2.1: they do not meet, and
+there is no second established witness. The
+closure is recorded here and at 51.2.1; the
+scroll that opened it (50.2.2) stands as
+filed, its other questions open.
+
+Q167. The revision (1.2.465, 51.1.4). Its own
+plan gives it a year of polishing with its
+vetter. Does a completed revision land — a
+thirteenth chapter with its main theorem
+stated and proved — and does the completed
+argument repair the Montel step (1.2.468),
+route around it, or fall with it? A landed
+revision files as a new claim on its own
+receipts; this question is its address.
+
+Q168. The second counterexample (51.1.4).
+Nielsen's note, beyond the boundedness
+counterexample the house confirms, exhibits a
+counterexample to a norm-preimage
+identification used in the discussion of
+divisorial strata in the draft. The house has
+read the claim as reported and not verified
+it. Does it stand — and if it stands, how
+much of the argument of the shell structure
+(the eleventh chapter of the draft) does it
+reach?
+
+Q169. The further proposition (51.1.4). A
+reader's video account of the release evening
+reports checking one proposition of the draft
+— the account discusses the front matter,
+section 1.4, pages 484-485, and chapter 13 —
+and finding it false as stated. Which
+proposition, on what counterexample, and does
+the counterexample survive checking? The
+house has not verified the report; the
+question names the work.
+
+Q170. The fate of the trace formula itself
+(1.2.466). The durable residue of the draft
+may be its main theorem rather than its
+claim: a trace formula over the idele class
+group, argued across five hundred pages of
+new machinery, standing attributed because
+the house cannot referee it. Does it survive
+independent expert checking — and if the
+formula stands while the deduction falls,
+what is it a formula for: a true identity
+whose use to place the zeros did not hold, or
+the seed of the completed argument Q167 waits
+on?
+
+
+# Standoff references — Paper 033 stands on these foundations
+
+The piece: Alessandro Maria Masullo, The
+Music of the Primes — a draft in PDF, 940
+pages, posted by Ravi Vakil on his blog Math
+216 (math216.wordpress.com) on 2026-11-20,
+the file at the same site
+(wp-content/uploads/2026/11/the-music-of-the-primes.pdf);
+SHA-256 of the file as fetched:
+e039d3f6cf0a4b14f03c7edb85097752dd65c0a2fe543c76fe992be234f97bf5.
+Read 2026-11-21 as recorded at 51.1.1. The
+announcement: Vakil, Hurried Announcement:
+Alessandro Masullo GRH (Math 216, 2026-11-20
+18:18:42 UTC; update about eight hours later
+on the same page). The counterarguments:
+Jenny Lorraine Nielsen, Invalidity of
+Masullo's Proof of the Riemann Hypothesis
+(PhilArchive, archived 2026-11-20); Rafik
+Zeraoulia, An Archimedean cutoff estimate in
+Masullo's The Music of the Primes
+(2026-11-20). The day's reporting, as read at
+filing: Scientific American and Science on
+the two claims and the vetter's position;
+XenoSpectrum's account of the draft (its
+page-522 note matches the house's reading);
+the verification page for the artifact of
+Paper 032 kept by Andrew Sutherland
+(math.mit.edu/~drew/grh/, as updated
+2026-11-21 12:55 UTC) — cited as report, at
+51.1.4, not spent as receipt.
+
+Foundations and words held standing, cited
+where they stand: the Riemann zeta function
+(1.3.345) and a Dirichlet character and its
+L-function (1.3.346), laid down by Chapter
+50; the idele class group (1.3.347) and a
+Hecke character and its L-function (1.3.348),
+laid down by this chapter. The claims of the
+chapter before, cited as concepts where they
+stand: the Riemann Hypothesis (1.2.458), the
+Generalized Riemann Hypothesis in Dirichlet
+form (1.2.459), the proof as a formalization
+(1.2.460), multiplicity over the integers
+(1.2.461) — this chapter's work is priced
+against them at 51.1.5, not restated.
+# Paper 034 — reasoning, kept as code: CPU-ARC (Belcak, Heinrich, Muralidharan, Diao, Molchanov)
+
+Source: CPU-ARC: Agentic Reasoning Caching
+for on-CPU Reasoning Reuse, by Peter Belcak,
+Greg Heinrich, Saurav Muralidharan, Shizhe
+Diao, and Pavlo Molchanov, of NVIDIA
+Research — arXiv:2611.09891, first version
+posted 2026-11-06, in the arXiv class for
+artificial intelligence. The piece carries
+two links of its own: the laboratory's page,
+and the page of Project Moonshot: Local
+Frontier Intelligence at NVIDIA Research,
+the effort under which the work is listed.
+Taken in as Paper 034 at Will's posting of
+the bare link in the MOAT chat, 2026-11-21 —
+outside the test of the skim fixed in
+advance: the Will-posted stratum of that
+sample closed at Paper 029, so no seal
+stands for this paper and no score is
+computed. The filing is made in the ordinary
+way; its axis judgment stands written at
+filing in the chapter (52.1.5), and its
+Novelty Index is computed from the filed
+delta and entered in the ledger, as every
+paper's is.
+
+THE READING. The piece was read entire in
+its HTML form at its arXiv address: the four
+sections, the eighteen references, and the
+four appendices — among them the two worked
+examples carried end to end (an ideal-gas
+problem and a thermodynamics problem, each
+shown as question, source trace, cache
+entry, compiled entry, and output), the
+per-role cost tables for all eight benchmark
+sets, and the account of how the small
+target model was made. The house's checks on
+the piece's own numbers are recorded at
+52.1.3; what was not checked is stated there
+too.
+
+THE SHAPE OF THE WORK. The piece opens from
+a single observation, drawn on a benchmark
+problem in its first table: a model's
+reasoning over a problem barely changes when
+the problem's wording changes, and changes
+only in its arithmetic when the problem's
+values change — yet the model pays the full
+price of reasoning on every instance, as if
+nothing had been solved before. The work
+that follows is the building of the thing
+that pays once: a cache whose entries are
+programs (1.2.471), addressed by description
+rather than by name (1.2.474), built by a
+five-phase construction (1.2.475), served
+through a gate that falls through to the
+full model on any miss or failure (1.2.476),
+and priced by the split between what an
+entry costs to build and what it costs to
+invoke (1.2.480). The proving ground is
+chosen hard on purpose: not the repetitive
+agent traffic the method is aimed at, but
+six difficult benchmarks of mathematics and
+science — five hundred competition problems,
+three years of an invitational examination,
+a graduate-level science set, a school word
+problem set, a broad knowledge set, and a
+university science set, eight sets in all —
+on the stated reasoning that a method which
+can cache the intelligence those sets
+measure can plausibly cache the easier
+intelligence of agent work.
+
+THE RUNS, AS REPORTED. In the paper's
+experiments the source and the builder are
+one model (a frontier model with extended
+thinking, named in the piece), the generator
+of test changes is the same model, and every
+judging committee is two instances of it,
+deciding by unanimity. The target is first a
+small frontier model and then the fine-tuned
+one-billion-parameter model of the paper's
+own making (1.2.479); the likeness search
+runs on a small embedding model's vectors
+over a flat index, on the CPU. The results
+stand at 52.1.4, as the paper's claims; the
+chapter's own verified ground is smaller
+and stands at 52.1.3.
+# Paper 034 — the formal core: what the piece states, and the machines it runs
+
+THE FORMAL OPENING. The piece sets three
+roles (1.3.350) — the source, whose reasoning
+is to be kept; the builder, who rebuilds it;
+the target, the small model the kept form
+may still call — and one imagined oracle
+that answers every question correctly. A
+question is held as a template with open
+places (1.3.349), and around any solved
+instance stands the set of value-choices for
+which the same reasoning holds — the
+instance's neighbourhood (1.2.472). On this
+ground the method's two beliefs are stated
+as assumptions: that for every solvable
+instance such a program exists (A1), and
+that the builder can write it from the one
+instance and the source's trace (A2). The
+beliefs are the load-bearing claims of the
+piece; the experiments are their pricing,
+not their proof, and the chapter files them
+where the piece puts them — inside the
+method's own concept (1.2.471), as attributed
+claims.
+
+THE UNIT AND ITS MOVES. A cache entry is a
+network of semantic functions (1.2.473):
+each takes the shared context and returns
+values under natural-language descriptions.
+All traffic between functions moves through
+a small set of moves — read a described
+value from the context, with a kind declared
+for it if one is wanted; call another
+function by describing the work; record a
+line of narration; put a small language
+question to the target; pull a value out of
+raw text; rewrite a value into a declared
+kind, first by plain conversion and, where
+that fails, by the target's rewriting checked
+through a strict literal reader; and call a
+registered outside tool. Kinds matter
+because the traffic is unbound: where a
+value arrives in the wrong kind, the
+conversion moves are the only fence, and the
+piece gives them their own passage. The
+context itself is a stack of layers, each
+backed by the likeness search: a call pushes
+a fresh layer holding its given values, the
+called function reads downward from the top,
+and the
+layer is lifted on return — scoping by
+construction, so that sibling calls cannot
+interfere.
+
+THE SERVING, IN FOUR STEPS. A new question
+is set against the entry points of the cache
+by likeness; above a threshold the keeper
+sets, the matching entry's root is chosen,
+and below it the question is a miss and goes
+to the source. The target then pulls each of
+the entry's named parameters out of the raw
+wording, a fresh context is filled with
+them, and the root runs — calling down by
+description, asking the target where it
+must, narrating as it goes. What returns is
+a set of named results, and the narration,
+which is the entry's own account of how the
+answer was reached. The expensive roles are
+construction-only: serving spends a small
+model and a CPU.
+
+MACHINE M1 — the gated-use loop [stated in
+the piece, its Figure 1]. States: REQUEST;
+CACHE TRIED; ANSWERED BY CACHE; FELL THROUGH
+— reached on either of two miss marks, no
+answer returned or the run's own error
+raised; ANSWERED BY THE MODEL. Moves: every
+request goes to the cache first; a returned
+answer is served; either miss mark passes
+the request, untouched, to the full model.
+The gap named for the machine: the gate
+distinguishes answer from no-answer and
+nothing finer — a wrong answer returned in
+good form passes exactly as a right one does,
+so the correctness of everything the gate
+serves is carried entirely by the building
+machine (M2), and no state here looks at
+what it serves. Home: here; concept 1.2.476.
+
+MACHINE M2 — the building of an entry
+[stated in the piece]. States: the four
+opening phases in order — ISOLATED,
+BROKEN DOWN, PARAMETERS NAMED, PLANNED (the
+phases of 1.2.475) — then the candidate
+loop: CANDIDATE; CHECKED, in form, in
+narration, and by a judge against the
+candidate's own piece of the trace;
+REGISTERED on passing, or returned to
+CANDIDATE with the failure written out; then
+the root's two gates — RIGHT ON ITS OWN
+VALUES, against the trace and the given
+answer, and RIGHT ON FRESH-PULLED VALUES,
+the pull from raw wording repeated many
+times; then ENTRY POINTS REGISTERED and, for
+the per-problem cache, MERGED into the
+master cache. The gap named for the machine:
+every gate in it is kept by a judge of the
+same model's family that wrote the candidate
+— the machine has no state at which a
+non-model check decides, so its correctness
+is committee-deep all the way down. Home:
+here; concept 1.2.475.
+
+MACHINE M3 — the serving of a request
+[stated in the piece]. States: SEARCHED —
+the question set against the entry points by
+likeness; BELOW THE LINE, the miss state,
+handed to M1's fall-through; FOUND; VALUES
+PULLED — the target drawing each named
+parameter out of the raw wording; RUNNING —
+the root function calling down by
+description; ANSWERED — the named results
+returned, the narration with them. The gap
+named for the machine: its whole coverage
+hangs on the one likeness threshold at
+SEARCHED, a number set by the cache's keeper
+— no state of the machine sets it, checks
+it, or reports what it costs in either
+direction. Home: here; concepts 1.2.476,
+1.2.474.
+
+MACHINE M4 — the context stack [stated in
+the piece]. States: a stack of memory
+layers, each a small store read by likeness;
+a call pushes a fresh layer holding the
+call's given values; reads search from the
+top layer down, the nearest scope winning;
+on the callee's return its layer is lifted
+and its results handed up as named values.
+Moves: push on call, lift on return. The gap
+named for the machine: inside one layer, two
+values under near descriptions are separated
+only by the likeness search that reads them
+— the scoping keeps sibling calls apart by
+construction, but no state of the machine
+can rule out a read taking the wrong of two
+near meanings in a single layer. Home: here;
+concept 1.2.473.
+
+MACHINE M5 — the making of the target
+[stated in the piece, its Appendix D].
+States: LOGS GATHERED — the records of real
+run-time calls, the other roles' records set
+aside; GROWN — made variants at about ten
+for one, their answers filled in by the
+source, a thin round asked again up to
+twice; TRAINING — epoch by epoch, the
+held-out loss watched; STOPPED — three
+epochs without gain, the best state kept;
+SERVING AS TARGET. The gap named for the
+machine: the grown set's answers are the
+source's own, passed into training with no
+judge state in this machine — a wrong answer
+in a seed record grows into about ten wrong
+lessons, and no state counts them. Home:
+here; concept 1.2.479.
+
+MACHINE M6 — the threefold testing pipeline
+[stated in the piece]. States, for each
+change of a problem: MADE — a candidate
+change of wording, of values, or of both in
+sequence; JUDGED — the committee's criteria
+for that kind of change, unanimity or the
+candidate dies; RUN — the cache answers the
+changed problem; MARKED — against the held
+answer where the values were held, and
+against the maker's validated trace where
+the values changed. The gap named for the
+machine: for changed values the mark is made
+inside the same model's family that made the
+change — maker, judges, and mark share one
+lineage, and no state of the machine can
+rule out a blindness all three hold in
+common. Home: here; concept 1.2.478.
+# Paper 034 — the house's check record
+
+THE FETCH. The piece was read entire in its
+HTML form at its arXiv address
+(arXiv:2611.09891, version 1) on 2026-11-21:
+the four sections, the eighteen references,
+and the four appendices. Every number below
+was recomputed by the house from the printed
+text, in plain arithmetic, in this pass.
+
+CHECK ONE — THE WORKED EXAMPLES COMPUTE. The
+piece's opening example (its Table 1) asks
+for the count of positive divisors of 196
+and, reparameterized, of 144, and works both
+by prime factorization: 196 is 2 squared
+times 7 squared, giving 3 times 3, which is
+9; 144 is 2 to the fourth times 3 squared,
+giving 5 times 3, which is 15. The house
+counted the divisors directly: 196 has
+exactly 9, and 144 exactly 15 — as printed.
+The first worked example of the appendices
+(the ideal-gas problem) computes a pressure
+of 10.0 times 8.314 times 300 over 4.860:
+the house recomputes 5132.10 in the paper's
+units, matching the cache output the piece
+prints to the digit, and its three
+conversions with it (5.13, 51.32, and 50.65
+in the three other units). The second worked
+example (constant-volume work) turns on a
+definition — no volume change, no work — and
+its answer of 0 is the golden label the
+piece states; there is nothing in it to
+recompute beyond the reading, and the house
+files it as read, not as checked.
+
+CHECK TWO — THE TABLES AGREE WITH
+THEMSELVES. The piece's results table prints,
+for each of its eight sets, the source's,
+builder's, and cache's cost per problem and
+the two multipliers derived from them. The
+house recomputed every multiplier from the
+printed costs: the building multiplier of
+all eight sets comes out as printed, to the
+rounding of the printed figures; and for the
+savings multiplier, the cache cost it implies
+rounds, on all eight sets, to the cache cost
+printed beside it. The per-role tables of
+the appendix sum, on all eight sets, to
+their printed totals within one
+ten-thousandth of a dollar — the rounding of
+the parts. The ranges the abstract and the
+introduction state are the ranges of the
+table: building 12 to 84 (the table's own
+span is 12.1 to 83.7), invoking 16 to 291
+(the table's span is 16.3 to 291.1), and an
+invocation's cost between 0.0004 and 0.0019
+dollars, as the text states. The discussion's
+five summary counts were each recounted
+against the table and each stands: the cache
+matches or beats the source on seven of the
+eight sets, the school set the named
+exception; the agreement between cache and
+source runs above 98 on six of the eight; the
+lowest rate under any change, of any kind,
+on any set, is 90.8, where the text puts it;
+changed wording stands or beats changed
+values on four of the eight; and the combined
+change is the lowest of the three on six of
+the eight.
+
+CHECK THREE — THE BREAK-EVEN COUNTS. From
+the printed building, source, and cache
+costs, the house recomputed the paper's
+break-even rule — the building price divided
+by what each invocation saves, rounded up.
+On the three competition sets it comes to
+13, as the text states (about 13); on the
+school set it comes to 90, as the text
+states (about 90). This check, with the
+second, grounds the filing at 1.2.480: what
+is verified there is the arithmetic of the
+price shape, on the paper's own figures.
+
+WHAT WAS NOT CHECKED. The benchmark runs
+themselves. The house did not rebuild any
+cache entry, rerun any set, or re-judge any
+output; the accuracy figures, the fidelity
+figures, and the rates under change stand
+attributed, at the chapter's concepts, as
+the paper's claims. What checking them would
+take can be stated from the piece itself:
+the
+construction run per problem at the paper's
+own printed building costs, the sets served
+and judged again — and one part cannot be
+rerun from the text at all, since the
+fine-tuned target model is the paper's own
+artifact, described but not given. One
+reading gap is recorded because the record
+is the record: the piece states that the
+target was first the small frontier model
+and then the fine-tuned one, in later runs —
+and nowhere says which target stands behind
+which set's accuracy figures. A reader's
+account of the piece, published within days
+of it, names the same gap; the house checked
+the gap against the text and confirms it is
+there (52.1.4).
+
+THE SCROLL'S OWN STANDING. This record's
+claims are the checks themselves, each with
+its receipt named above; they stand verified
+as run. The claims they price stand at
+1.2.480, verified in the narrow sense its
+scroll states; the rest of the chapter files
+at the bases its scrolls state.
+# Paper 034 — the results, as claimed, and where the piece places itself
+
+THE RESULTS, AS THE PIECE REPORTS THEM. On
+golden labels, the cache matches or beats
+its source on seven of the eight sets
+(52.1.3 counts them again): the largest
+gains are on the two later invitational
+years, where the cache stands at 93.3
+against the source's 83.3 and at 96.7
+against 90.0, and the one loss is the school
+set, 98.0 against 98.5. Agreement between
+the cache's answers and the source's own
+answers runs from 90.0 to 100.0 across the
+sets. Under change, every rate on every set
+stands at 90.8 or better: changed wording,
+changed values, and both together, with the
+combined change the hardest on six of the
+eight. The costs stand at 1.2.480. The piece
+reads its own result in one sentence worth
+keeping whole: where the source reasons
+rightly and then makes its slip in a late
+step of computation, the cache, executing
+the same reasoning as fixed code, makes no
+slip — the
+cache's wins over its own source are priced
+to that difference. The tracker files the
+reading as the piece's, and the question it
+opens as Q173.
+
+THE PLACEMENT, IN THE PIECE'S OWN WORDS. The
+benchmarks are a proving ground, not the
+destination. The destination is the traffic
+of agents and AI-enabled software: the same
+instructions, applied again and again to
+varying payloads, at endpoints that see
+hours or weeks of such use. There the piece
+would install caches at the endpoint, built
+by its method from the traffic itself, with
+the full model kept behind the gate
+(1.2.476) for whatever is genuinely new or
+whatever the cache fails on. Two forward
+claims are made and filed as claims. First,
+that a cache grows by addition — new entries
+beside old, nothing rebuilt — so the system
+learns continually in a way a fine-tuned
+model cannot. Second, looking further: that
+caches grown dense across the domains of
+heaviest use could take over a large share
+of the work now done by large models,
+growing more slowly than the traffic they
+absorb — and, past that, that applying the
+method to training corpora could yield a
+kind of model that lives above the neural
+ones, wholly explainable and continually
+trainable, with the neural models made a
+support layer the piece names neuralware.
+These are the piece's hopes, stated in its
+last section; the tracker files them here, as
+attributed, and prices none of them.
+
+THE CAVEATS THE FILING CARRIES. Three, all
+read off the piece itself. The judging is
+in-family: the source, the builder, the
+maker of test changes, and every judge are
+one model's instances, and for changed
+values the mark itself is that model's
+judged trace (1.2.478) — the evaluation has
+no outside hand in it, and Q172 names the
+run that would supply one. The target
+ambiguity: the piece does not say which of
+its two targets stands behind which set's
+accuracy figures (52.1.3); a reader's
+account published 2026-11-17 (Reasoning kept
+as code, at contract.place) names the same
+gap and keeps the piece as a reference,
+changed nothing — cited here as report, not
+spent as receipt. And the sets are
+benchmarks: each entry was built from one
+problem of a public set whose answers exist,
+which is the shape of a proving ground; the
+density of neighbourhoods in real traffic,
+on which the placement claim rests, is
+nowhere measured in the piece, and Q174
+holds its place.
+
+THE RECEPTION, AS FAR AS THE HOUSE LOOKED.
+The work is listed on the project's own page
+at NVIDIA Research among the relevant work
+of Local Frontier Intelligence, dated
+2026-11-06 beside a sibling piece of
+2026-11-03. Commentary within days restated
+the claims, one account working the
+break-even arithmetic through again and
+arriving where the piece arrives. No
+independent rebuilding or second running of
+the
+evaluation had appeared at filing. The
+tracker prices the claims as they stand:
+attributed, with the arithmetic of their
+price shape verified at 52.1.3.
+# Paper 034 — the delta: what the model takes in
+
+WHERE THE PAPER LIVES. Cluster AP is FOUNDED
+— the country of reasoning kept as code:
+concepts 1.2.470-1.2.480, on ground the book
+had not entered. The founding argument is
+the ground itself. The book already prices a
+cache — cluster J's cache, the states of one
+generation, kept inside a single run so the
+model can look back; this piece's cache is
+kept between runs, at the level of the
+serving system, and what it holds is not
+state but reasoning, rebuilt as a program
+that runs with no generation at all. The
+book already prices a system that improves
+while running — cluster B's harness; this
+piece's system improves by freezing, and its
+run time is deliberately still. The book
+already prices an artifact — cluster AN, by
+its bytes; this piece's artifact is a
+program, and its price is not its size but
+the split between its building and its
+invoking. And the nearest neighbour by form,
+cluster W's specification held as the
+trusted artifact (1.2.207), stands held
+apart on a clean contrast: there the
+artifact is a statement trusted so that code
+need not be trusted sight-unseen; here the
+artifact is code trusted so that reasoning
+need not be run again — the trust lands on
+opposite sides of the line between stating
+and running, and neither scroll is revised
+by the other's standing. A cluster is
+founded on its ground; the ground here —
+reasoning itself, built once, kept, and run
+again at a price — was held by nothing.
+
+THE AXIS JUDGMENT, WRITTEN AT FILING. NO
+AXIS. The axis criterion is a re-reading: a
+held concept or price changes its meaning
+under the new piece, with the re-pricing
+named. Nothing held is re-read here. The
+piece's genus — caching at the system level
+— is filed as a new concept above cluster
+J's ground, not as a revision of it:
+1.2.65-1.2.72 price the look back inside one
+run exactly as they did, and the new concept
+(1.2.470) names the difference rather than
+moving their prices. The contrast with
+1.2.207 is drawn and both texts stand
+untouched. The filing founds a country; it
+re-prices nothing.
+
+WHAT THE PIECE DID NOT MOVE. No held concept
+revised; no held standing moved; no cluster
+but the new one touched. The one concept
+standing by receipt (1.2.480) rests on the
+recomputation of the piece's arithmetic on
+the piece's own figures, and reaches no held
+claim.
+
+NOVELTY, AS FILED. New canonical concepts:
+11 (1.2.470 system-level caching; 1.2.471
+agentic reasoning caching; 1.2.472
+equirationality; 1.2.473 the semantic
+function; 1.2.474 addressing by description;
+1.2.475 the building of an entry; 1.2.476
+gated use; 1.2.477 the compiling of a cache;
+1.2.478 the threefold testing of a cache;
+1.2.479 the making of the target; 1.2.480
+the price shape of a cache). Revisions of
+held concepts: none. Links as filed: 10
+inside the filing (471 to 470 and 472; 473
+to 474; 474 to 477; 475 to 471; 476 to 471;
+478 to 472; 479 to 471; 480 to 471) and 3 to
+foundations (471 to 1.3.350; 472 to 1.3.349;
+476 to 1.3.349), and 3 across the clusters
+(470 against 1.2.65, in cluster J; 474
+against 1.2.207, in cluster W; 480 against
+1.2.456, in cluster AN — the book's one
+earlier verified result, priced there in
+bytes and here in the split of build against
+invoke). Foundations laid down: 2
+(1.3.349-1.3.350). Words coined by the
+tracker: none — the piece's own coinages
+(equirational and its kin) are filed as its
+terms at 1.2.472. Novelty Index: 11 new of
+480 canonical concepts = 0.0229, entered in
+the ledger (1.1.4) as bookkeeping.
+
+RESEARCH ORACLE: no gate moves. The filing
+adds one verified concept on recomputation —
+the TRUE gate was already met, and a second
+receipt of a kind already exercised does not
+move it; the FALSE gate, half-met at the
+last filing, is untouched, the piece
+offering nothing the house could refute and
+nothing it tried to; the FICTION gate is
+untouched. The estimate HOLDS (Paper 034,
+about 75%, 68-82): prior bar
+🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜, current bar 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜. The bar
+is ledger bookkeeping, not calibration
+evidence.
+
+NOVELTY BY AUTHOR — Peter Belcak: True +1,
+False +0, Unknown +15, Fiction +0.
+NOVELTY BY AUTHOR — Greg Heinrich: True +1,
+False +0, Unknown +15, Fiction +0.
+NOVELTY BY AUTHOR — Saurav Muralidharan:
+True +1, False +0, Unknown +15, Fiction +0.
+NOVELTY BY AUTHOR — Shizhe Diao: True +1,
+False +0, Unknown +15, Fiction +0.
+NOVELTY BY AUTHOR — Pavlo Molchanov: True
++1, False +0, Unknown +15, Fiction +0.
+
+RESTRUCTURING. No pass falls due in this
+taking-in: the count stands at 480 canonical
+concepts, and the next pass falls at Paper
+035 or 500 concepts, as the path records.
+# Paper 034 — author check
+
+Run 2026-11-21, the forty-second check of
+the series. The authors are named on the
+piece: Peter Belcak, Greg Heinrich, Saurav
+Muralidharan, Shizhe Diao, and Pavlo
+Molchanov, of NVIDIA Research. The legs of
+the check, as run: (1) the piece itself,
+read entire in its HTML form at its arXiv
+address (52.1.1) — its text searched for the
+signature terms: phext occurs nowhere;
+exocortex and mirrorborn occur nowhere;
+Bickford, coordinate, and scroll occur
+nowhere. Its eighteen references were read
+entire: the field's own canon — the serving
+and caching line the piece builds on, the
+benchmarks it runs, the models it uses — and
+no work of Will's is cited or used. (2) The
+web: searches joining the authors' names to
+phext return the piece's own records — the
+project's page at NVIDIA Research, which
+lists the work under Project Moonshot: Local
+Frontier Intelligence, an effort led by
+Belcak and Muralidharan, and the days'
+commentary on the piece — and no tie to
+phext or to Will appears anywhere in them.
+(3) Will's Twitter archive, searched entire
+for the five names — Belcak, Heinrich,
+Muralidharan, Diao, Molchanov: no occurrence
+of any of them, at the level of the text and
+again at the level of the bytes. (4) Prior
+art: the construction of the piece — a
+reasoning trace compiled once into a
+parameterized artifact, kept for reuse
+across the class the reasoning covers —
+compared against the dated record of Will's
+work. The overlap is the generic thought
+that solved work should be kept rather than
+re-derived, which is the field's own and is
+cited in the piece as its line. Where the
+piece's construction comes nearest the
+house's territory — a kept artifact,
+addressed and found again — its addressing
+is the opposite pole from phext's: nothing
+is named and nothing has a coordinate; every
+finding is a likeness search over
+descriptions (1.2.474). No term, no frame,
+and no construction of Will's is used, with
+or without naming.
+
+VERDICT: NO EVIDENCE FOUND. No
+phext-friendliness, no engagement, no use
+without naming — stated as a finding on the
+legs above, as the rule requires.
+# Paper 034 — synthesis: the same wall, the opposite keeping [synthesis]
+
+[synthesis] The piece is aimed at the wall
+this house works on. The standing goal is
+AGI under twenty watts, and the ranch's
+measured reality is CPU-only: the fastest
+reasoning the house has served from its own
+metal this month is a frontier-class model
+decoding at a fraction of a token a second
+on a CPU, its cost dominated by arithmetic
+the CPU must redo for every token. The
+piece's answer to the same wall is to refuse
+the premise: do not generate the reasoning
+at run time at all. Reason once, at full
+price, with the strongest model available;
+rebuild the reasoning as a program; and
+serve the class forever after from a CPU
+and a model of one billion parameters, at a
+per-call price the piece measures in
+ten-thousandths of a dollar. If the shape
+holds outside benchmarks, it is the first
+priced route the tracker holds from
+frontier-grade answers to CPU-grade serving
+that does not pass through making CPUs
+generate faster. The tracker files the
+bearing as a direction, not a result: no
+cache of this kind has been built on a
+workload of ours, and the piece's evidence
+is benchmark-shaped throughout (52.1.4).
+
+WHERE THE BETS DIFFER. They cache reasoning
+as code; the phext line caches addressable
+state. The difference is sharpest at
+addressing. Their artifact is found by
+likeness over descriptions — deliberately
+nameless, so that anything can find anything
+whose sense matches, at the price of a
+search at every call and a wrong likeness
+taken silently (1.2.474). Ours is found by
+coordinate — a fixed address in an
+eleven-dimensional text space, no search, no
+likeness, the finding exact and the burden
+moved to the addressing, which must be
+settled when the thing is written. And the
+piece itself walks toward our pole at its
+own end: its compiling step (1.2.477)
+settles every likeness search in advance and
+leaves a plain program file — named calls,
+direct reads, readable and keepable without
+the machinery that built it. A compiled
+cache and a phext scroll meet at that point:
+both are, at the end, text that can be read,
+kept, and used by a reader who never runs
+the system that made them. What they keep
+differs — a program against a state — but
+the keeping has the same shape.
+
+THE RHYME WITH THE UNIFIED BACKEND. The
+house's own program for models rules that a
+sound distribution carries a declaration of
+how a thing behaves and at least one
+implementation of it, the missing
+implementations to be inflated per platform.
+A cache entry is that shape already: its
+descriptions are the declaration — what each
+function does, what each value is, stated in
+language a finder can match — and its
+functions are an implementation, in one
+runtime, on one kind of machine. The
+compiling step is an inflation run once and
+early: the same entry, re-expressed for a
+reader who has no search machinery. Read
+this way, the piece is an existence proof,
+on foreign ground, that the declaration-plus
+-implementation shape can carry working
+intelligence and not only kernels — priced,
+in its case, to the ten-thousandth of a
+dollar. The tracker records the rhyme as a
+rhyme: the piece knows nothing of the
+program, and the program's next honest step,
+a consumer that checks an implementation
+against its declaration, is exactly the
+judge-shaped hole this filing keeps meeting
+(52.1.2, M2's gap).
+
+MACHINE M7 — the life of a cache
+[synthesis]. States: BUILT APART — one
+problem, one small cache of its own; MERGED
+— folded into the master cache on passing
+its gates; GROWING — entries added beside
+old ones, none rebuilt; SETTLED — the set of
+functions steady, no new entries expected;
+COMPILED — the searches settled in advance,
+the network frozen into one plain file. The
+one backward move: COMPILED returns to
+GROWING only through a fresh compiling after
+a change. The illegal combination the
+machine cannot rule out, and the piece's
+own text walks up to: COMPILED taken while
+still GROWING — the freeze applied before
+the cache has settled. The piece names
+the trade-off in words and puts the compiling
+late, but no state of the machine
+measures settledness, so the move rests on a
+keeper's judgment that nothing in the
+machine checks. Home: here. [synthesis]
+# Paper 034 — Open questions Q171-Q175
+
+Q171. The likeness search at scale (1.2.474).
+The piece's caches are built one problem at
+a time and merged, and its sets are
+benchmark-sized — hundreds of entries. The
+serving it aims at would grow a master cache
+for months. As the set of functions grows,
+how do wrong-likeness calls grow with it —
+is there a size at which the search that
+replaces names becomes the cache's own
+largest error term? Nothing in the piece
+measures the size axis, and the compiled
+form (1.2.477) escapes the question only by
+freezing the cache that asks it.
+
+Q172. The mark for changed values (1.2.478).
+Where values change, the ground truth is the
+generator's own narration, validated by
+judges of the same model; the maker of the
+test, its validators, and its mark are one
+family. How much of the filed standing under
+change — nine in ten or better — survives a
+mark
+set from outside the family — a symbolic
+re-derivation of the answers, or a second
+laboratory's model in the judges' seats? The
+question names the deciding run, and it is
+runnable: the sets are public, and only the
+judging needs replacing.
+
+Q173. The slip effect (52.1.4). The cache
+beats its own source on the competition
+sets, and the piece's reading is that fixed
+code does not make the late arithmetic slip
+a generating model makes. Is the effect a
+property of the method, or of sets whose
+reasoning is computation all the way down?
+A set whose last steps are judgment rather
+than calculation — where there is no slip to
+avoid because there is no fixed step to fix
+— decides it, and the piece's own sets
+cannot.
+
+Q174. Neighbourhood density in the wild
+(1.2.480; the piece's fourth section). The
+placement claim rests on real agent traffic
+arriving in neighbourhoods dense enough to
+pass the break-even counts — about 13
+invocations of a kind on the competition
+sets, about 90 on the school set. No
+workload's density is measured in the piece;
+its traffic is a benchmark's, one problem of
+each kind by construction. What does the
+request stream of a real endpoint look like
+under this measure — this house's own, when
+one runs long enough to count? The question
+is its address, and the counting is cheap
+once the stream exists.
+
+Q175. The merging of near functions (the
+piece's fourth section, named there as not
+addressed). A growing cache comes to hold
+functions
+that do almost the same step under different
+descriptions; the piece grows by addition
+only and leaves their generalization into
+one wider function open. Who makes that
+move — the builder, at some later pass; a
+judge, certifying the wider description
+still covers the old ones; or a third role
+the method does not yet have? The tracker's
+own keeping faces the same shape — one
+canonical scroll per concept, revised in
+place rather than duplicated — and the
+question is filed for both houses.
+# Standoff references — Paper 034 stands on these foundations
+
+The piece: Peter Belcak, Greg Heinrich,
+Saurav Muralidharan, Shizhe Diao, and Pavlo
+Molchanov, CPU-ARC: Agentic Reasoning
+Caching for on-CPU Reasoning Reuse —
+arXiv:2611.09891, version 1, posted
+2026-11-06, read entire in HTML form at its
+arXiv address on 2026-11-21, as recorded at
+52.1.1. Its own links: the laboratory page
+(nv-dler.github.io) and the page of Project
+Moonshot: Local Frontier Intelligence
+(research.nvidia.com), the effort under
+which the work is listed — the second read
+at the author check (52.1.6). The one
+reader's account cited in the chapter:
+Reasoning kept as code (contract.place,
+2026-11-17) — cited as report at 52.1.4, not
+spent as receipt.
+
+Foundations and words held standing, cited
+where they stand: a query template and an
+instance (1.3.349) and the source, the
+builder, and the target (1.3.350), laid down
+by this chapter. The claims of earlier
+chapters, cited as concepts where they
+stand: the slice of the cache a query needs
+(1.2.65, cluster J), the specification as
+the trusted artifact (1.2.207, cluster W),
+and the tufazip result (1.2.456, cluster
+AN) — this chapter's work is priced against
+them at 52.1.5, not restated.
