@@ -15,13 +15,13 @@ its skill (SKILL.md first, then skill.yaml, then references, then scripts,
 stable sorted order within each class). One scroll per file, verbatim.
 
 Shelves:
-shelf 2 (Verification): validate_waiting_items, verify_blocker_and_completion_claims, verify_quantified_results, safeguard_live_state_files, review_pr_composition
-shelf 3 (Phext-native language): singular, upgoer-five, upgoer-five-phext, phext_upgrade, phext_native_dispatch, phext_reference_conformance, phext-evangelist
+shelf 2 (Verification): validate_waiting_items, verify_blocker_and_completion_claims, verify_quantified_results, safeguard_live_state_files, review_pr_composition, verify_against_live_surface
+shelf 3 (Phext-native language): singular, upgoer-five, upgoer-five-phext, phext_upgrade, phext_native_dispatch, phext_reference_conformance, phext-evangelist, phext_reference_and_dispatch
 shelf 4 (Operations): ranch-proxy, publish-tooling, awsbox-publishing, simple-html-publish, staged_deploy_permissions, fork-patch-discipline, ranch-state-distillation, mutable-upstream-sync, monitor_long_running_jobs, tailscale
 shelf 5 (Onboarding): this_is_going_to_feel_a_little_weird
 shelf 6 (Film): mythic-film-production, animator, artist-dispatch, handwriting-practice
-shelf 7 (Memory & record): phext-memory-publishing, nightly-self-revision, safe-space-protocol, artifact-phext-inscription, second-foundation-fingerprint
-shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, process-check-and-lessons-review, task-register, nightly-orchestrator, bootvine-status-sync, task-concurrency-watchdog, tracker-auto-schedule, weekly-recap, status-ask-restart, open-build-cycle, agentic-publish-qc-gate, ferry-watch
+shelf 7 (Memory & record): phext-memory-publishing, nightly-self-revision, safe-space-protocol, artifact-phext-inscription, second-foundation-fingerprint, direct-phext-management
+shelf 8 (Work management): waiting-on-will-register, nightly-goal-sweep, morning-briefing, daily-goal-commute, dispatch-to-subagents, distill-process-to-skill, retroactive-moonshots, process-check-and-lessons-review, task-register, nightly-orchestrator, bootvine-status-sync, task-concurrency-watchdog, tracker-auto-schedule, weekly-recap, status-ask-restart, open-build-cycle, agentic-publish-qc-gate, ferry-watch, meta-dispatch
 shelf 9 (Research): rd-tracker, state-machine-review, minimum-viable-oracle
 shelf 10 (Coordination): choir-mailbox-dispatch, curate-yourself, substrate-steering, exocortical-integration-rotation, braid-mode, question-floor-serialization, decision-button-expiry, opportunity-identification, outward_copy_framing, exocortical-epoch
 shelf 11 (Upkeep & presence): discord-presence-backstop, perpetual-dashboard-upkeep, solar-pod-price-watch, life-phext-tracking, repo-pruning-check, lost-work-sweep, repo-coverage-census, repo-importance-atlas, daily-lessons
@@ -32,15 +32,17 @@ shelf 14 (Personas): persona-42-bot, persona-abe, persona-aetheris, persona-alve
 Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.1.1/1.1.1/1.1.1  (this scroll)  Home — the map
 1.2.1/1.1.1/1.1.1  validate_waiting_items  SKILL.md  2855 bytes  sha256:357a13ce576450c23afacbdb73c196d292e36bd30c6ac8e34e5e98aa69bb2fe4
-1.2.1/1.1.1/1.1.2  validate_waiting_items  skill.yaml  2449 bytes  sha256:4d8f54dfa7b937a95b04f112b85ea13b8cdfa0685d12dcf864c12f303c39447a
+1.2.1/1.1.1/1.1.2  validate_waiting_items  skill.yaml  1167 bytes  sha256:ae934ded8de368f2b0d4c069af82a4565786f17261bbacc85477b86d1b1a354a
 1.2.1/1.2.1/1.1.1  verify_blocker_and_completion_claims  SKILL.md  3388 bytes  sha256:c0ff9346793cf58d6f549801bf163b3375a5f5bc6bef092af12a87adade4ef8d
-1.2.1/1.2.1/1.1.2  verify_blocker_and_completion_claims  skill.yaml  2505 bytes  sha256:6b712d372b7a565032c62ae297f2363de54b7dbe9ef6d46e0a1022145a0d9a84
+1.2.1/1.2.1/1.1.2  verify_blocker_and_completion_claims  skill.yaml  1112 bytes  sha256:f366081763b997507740ea904e086fab6195613aa26a5036c0b2474841aaa153
 1.2.1/1.3.1/1.1.1  verify_quantified_results  SKILL.md  2946 bytes  sha256:9b423f499b58df70c502478c103ed64404bf232592a1649dfaacacbe50aa9d00
-1.2.1/1.3.1/1.1.2  verify_quantified_results  skill.yaml  2001 bytes  sha256:c33a5aecf9841b78df6fd41cdf66f7ae57d3d360f0da7ccce9590393e0d64106
+1.2.1/1.3.1/1.1.2  verify_quantified_results  skill.yaml  1115 bytes  sha256:a9188166236b1ca3ba507c9e728ff25075f55a159b2164094afaaeb53d879d24
 1.2.1/1.4.1/1.1.1  safeguard_live_state_files  SKILL.md  3393 bytes  sha256:47a4fb55bc1be07d1e8ba85f37e93d5844249668e7ee156776c4fdbb1af9b83f
 1.2.1/1.4.1/1.1.2  safeguard_live_state_files  skill.yaml  2691 bytes  sha256:3b0b54dfef2c2a3818fc630b2810bbc7ab99dcbe8466b6470d2c5591531988db
 1.2.1/1.5.1/1.1.1  review_pr_composition  SKILL.md  3060 bytes  sha256:f0ec87c4805b032e8ab041eedb351d8feafe97e4c8e50eab9a96d85f9086263a
 1.2.1/1.5.1/1.1.2  review_pr_composition  skill.yaml  2043 bytes  sha256:b7793929920175cf702d17a0b338873530589fcdf4f536df50573786149ec456
+1.2.1/1.6.1/1.1.1  verify_against_live_surface  SKILL.md  5358 bytes  sha256:b04bf432f1818595c18c4334239fac8a27374a82b1b007da49da1e66ac635437
+1.2.1/1.6.1/1.1.2  verify_against_live_surface  skill.yaml  2423 bytes  sha256:98da5bc3bdae2b5c7f81950da0edc5cb13f545e6c64d9b6a059b23d499f2688c
 1.3.1/1.1.1/1.1.1  singular  SKILL.md  7989 bytes  sha256:8a7cba06d430e48ce8a516d24af4acdc17b4a3ab0aff8c759d784bfb7f7ce68b
 1.3.1/1.1.1/1.1.2  singular  skill.yaml  282 bytes  sha256:86e02d6bb766aabc55beadd5217925894cc5b7c1e2f221861180e302ece888eb
 1.3.1/1.1.1/1.1.3  singular  FAVORITES.md  6698 bytes  sha256:9a4ff6429aa6a1b2f6ae0f22380346c3c35074b18ce03fb190491b0f68ea81c7
@@ -66,10 +68,12 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.3.1/1.4.1/1.1.3  phext_upgrade  references/decision-matrix.md  5936 bytes  sha256:59a025a16b9b784eb2bebccd0c8bea949729a2b1b4de64c637cdc0d80be87e25
 1.3.1/1.4.1/1.1.4  phext_upgrade  scripts/phext_audit.py  3355 bytes  sha256:2dd88f993df59c5e9a0457c00e964e8112dc956edda90fb8eb9581404018bee6
 1.3.1/1.5.1/1.1.1  phext_native_dispatch  SKILL.md  2568 bytes  sha256:0e633c1ab4b5439e0687edc1908a3e9d2dd1d1e747301d45a517945c3d320fb7
-1.3.1/1.5.1/1.1.2  phext_native_dispatch  skill.yaml  2821 bytes  sha256:f7aa4718190ad5dae7c9299387ac7b73c1273e66baa997de779b8a6163186165
+1.3.1/1.5.1/1.1.2  phext_native_dispatch  skill.yaml  1110 bytes  sha256:f93dd4c92a5c8d6219a03d357901ddb3e4b1e1d5a8cb736f39319877b3bc5f4e
 1.3.1/1.6.1/1.1.1  phext_reference_conformance  SKILL.md  3440 bytes  sha256:a7b9412a082a2c1a200b84aac3546478ac0ac30e39534c477d891d3a95ab127d
-1.3.1/1.6.1/1.1.2  phext_reference_conformance  skill.yaml  2696 bytes  sha256:e2f4ec429455731c80713779939aa9533200587bbe4f07e10e8648c1359393dc
+1.3.1/1.6.1/1.1.2  phext_reference_conformance  skill.yaml  1103 bytes  sha256:4c7cc592557d809818e835dbb059ac168ec6df553f96fb0645a050570c1f1c82
 1.3.1/1.7.1/1.1.1  phext-evangelist  SKILL.md  7662 bytes  sha256:16c1d40875e5efb1831da7cbeef5ca12c5b406db0d76f20f7777bdde425ceaa9
+1.3.1/1.8.1/1.1.1  phext_reference_and_dispatch  SKILL.md  4685 bytes  sha256:43f628d23e33fb05edd7211e46b68050484c9d80dd8696666b41fb2b21614876
+1.3.1/1.8.1/1.1.2  phext_reference_and_dispatch  skill.yaml  2186 bytes  sha256:b1225a00f9a450818c89a198f77940be45500bb0847dae5856d540695ce41790
 1.4.1/1.1.1/1.1.1  ranch-proxy  SKILL.md  5282 bytes  sha256:531c3abb548b294d2ebabf90477ab440529259cdc11f5970cf1f01045b8347a3
 1.4.1/1.2.1/1.1.1  publish-tooling  SKILL.md  2438 bytes  sha256:6b09d014eda9603b64150889922b0b403d18d5ffe76371c666176c37a136dcae
 1.4.1/1.2.1/1.1.2  publish-tooling  skill.yaml  466 bytes  sha256:8492399328f1a338b70cea5f1a6b57061a2331cb42aa383d4949f93ef4b3a4dd
@@ -84,7 +88,7 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.4.1/1.6.1/1.1.2  fork-patch-discipline  skill.yaml  464 bytes  sha256:27eaa4ad074f06dcd6f605245edd27f493b61b971452eecb5f4d813e07be6a0f
 1.4.1/1.7.1/1.1.1  ranch-state-distillation  SKILL.md  5978 bytes  sha256:fd218e664f33b3af807e3f95e5d107deae9a55203d98ed690d8272d756bb39ae
 1.4.1/1.7.1/1.1.2  ranch-state-distillation  scripts/state_sampler.py  16698 bytes  sha256:9af2c3352561565ca76ce3ec36ce95d48918df0b57d6a7c0d042ccd98cf3a095
-1.4.1/1.8.1/1.1.1  mutable-upstream-sync  SKILL.md  13476 bytes  sha256:a85a67415be8f91a0cb301b81bbbef5cf02bd9a7ecb87d062357f5641fa4aaf0
+1.4.1/1.8.1/1.1.1  mutable-upstream-sync  SKILL.md  14073 bytes  sha256:0663bea8f5db3850cee1d3a3ddb7888b315a6f9064f4fc3f33c729e1b2918039
 1.4.1/1.8.1/1.1.2  mutable-upstream-sync  skill.yaml  777 bytes  sha256:caac26dd79b7e8187147be9769d20e23751ff453470ce4f995738a1061afe922
 1.4.1/1.9.1/1.1.1  monitor_long_running_jobs  SKILL.md  2897 bytes  sha256:bd35de3918234eca4d2f6dbb7804d44913ad1a7c740e1b2bbf99866938531ce8
 1.4.1/1.9.1/1.1.2  monitor_long_running_jobs  skill.yaml  2221 bytes  sha256:0956ca5826ae89c697c9cb6240a8403f63ddc6d5abb80b785a77ea696f2668f0
@@ -110,6 +114,8 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.7.1/1.4.1/1.1.1  artifact-phext-inscription  SKILL.md  4695 bytes  sha256:7161b697219cf3bb95edfdb6bb8e96773538551963b15cd7393bbf357698ff14
 1.7.1/1.4.1/1.1.2  artifact-phext-inscription  skill.yaml  509 bytes  sha256:cc90e73a75ed97aad510fcbce9bc8ee5913e60607a64b1c7770964d3f85c9bd9
 1.7.1/1.5.1/1.1.1  second-foundation-fingerprint  SKILL.md  6284 bytes  sha256:a029863465ed676a99597d9e31b1e520b89af47cf7ec04e24395686fcc96777d
+1.7.1/1.6.1/1.1.1  direct-phext-management  SKILL.md  11204 bytes  sha256:16bbdd20e28f80fae864b53bf0179e105f195cff471cd1692b4754796a05ea46
+1.7.1/1.6.1/1.1.2  direct-phext-management  skill.yaml  523 bytes  sha256:39290474557f60a9cdccff12e0b5710bf5a6f3af02f0890dc6fc99d3ccb23eed
 1.8.1/1.1.1/1.1.1  waiting-on-will-register  SKILL.md  5949 bytes  sha256:7b0d7634fffcdd01de257b49d77dbb464a08a851eeff2c13a2147c6ce6cfddde
 1.8.1/1.1.1/1.1.2  waiting-on-will-register  skill.yaml  410 bytes  sha256:15ab3a1082693bb87e6f8864c25161b4115a1b3289d466aa6855e5cb65fba037
 1.8.1/1.2.1/1.1.1  nightly-goal-sweep  SKILL.md  4747 bytes  sha256:7db5d3f6f170256619ebfba9e2951ffeeb9a2cb96f8c93fea3d8e963b6f00038
@@ -122,21 +128,25 @@ Index (coordinate  skill  file  size  SHA-256 of the source file):
 1.8.1/1.5.1/1.1.2  dispatch-to-subagents  skill.yaml  387 bytes  sha256:ad696c69cb24c534f434972f74d218678efe863b6c2b282c38ffa7ba3a36e866
 1.8.1/1.6.1/1.1.1  distill-process-to-skill  SKILL.md  3270 bytes  sha256:c27b98f5ff3f0a99b2cc92ad60ea1c0fbf0cbd0f3bf8aa7b8a0601f2143f8ae6
 1.8.1/1.6.1/1.1.2  distill-process-to-skill  skill.yaml  423 bytes  sha256:162284f715e0059e16e14778194d007abe7450db88d99538334047be83138612
-1.8.1/1.7.1/1.1.1  process-check-and-lessons-review  SKILL.md  3868 bytes  sha256:fe19a61d89e3f57e276877816a59236fff36f5659ff374f28c17b129d5316adf
-1.8.1/1.7.1/1.1.2  process-check-and-lessons-review  skill.yaml  345 bytes  sha256:bfc299d67e1156f207cdb04e1ea57f9c7e8a30425241d7106d507ad3e531fe5a
-1.8.1/1.8.1/1.1.1  task-register  SKILL.md  4463 bytes  sha256:46f0b231b34545b56a78b8d424b4ff121af826efd669f4bdd9005683891050ed
-1.8.1/1.9.1/1.1.1  nightly-orchestrator  SKILL.md  4200 bytes  sha256:4dd8afc1fa239a7ca80de8071b31ccc301326123aa66c1fda1edecf481d96f65
-1.8.1/1.10.1/1.1.1  bootvine-status-sync  SKILL.md  2484 bytes  sha256:a7c7a48aa4d6142f4630e1b9f4490fabd5f3bc706bafe50034c4f387bdc093d0
-1.8.1/1.11.1/1.1.1  task-concurrency-watchdog  SKILL.md  3084 bytes  sha256:e091d27deeb9e32ed7fa9cb19875416ae9422dab5bbe40ccba508da299beb3c5
-1.8.1/1.12.1/1.1.1  tracker-auto-schedule  SKILL.md  4485 bytes  sha256:485daa05e9274837aa9ac447da1481ffd39c6902394ef71daa69eafd9a37f741
-1.8.1/1.12.1/1.1.2  tracker-auto-schedule  skill.yaml  571 bytes  sha256:faa2c505039b874b8092b16f45e041defafa2ebb455ed31a7ae01b8c4017024a
-1.8.1/1.13.1/1.1.1  weekly-recap  SKILL.md  7210 bytes  sha256:4b280ca9e156b2ca1d7b300eb1112ec4ab639aee50256128bf73cf2bd85ecafe
-1.8.1/1.14.1/1.1.1  status-ask-restart  SKILL.md  2641 bytes  sha256:4821cdefb422e7a6f2d45b75310cbbb8624e4da1236aa5feef88f2e34b5ffd8d
-1.8.1/1.14.1/1.1.2  status-ask-restart  skill.yaml  314 bytes  sha256:1211ee94dfad929ecf17fcfb3aff05b215349de9ce35197b42a97433231e83a0
-1.8.1/1.15.1/1.1.1  open-build-cycle  SKILL.md  13927 bytes  sha256:dc6bf8df1ee6f89d0c3119e301cdde70271489353110209b6d7fc2c072fed2f0
-1.8.1/1.16.1/1.1.1  agentic-publish-qc-gate  SKILL.md  10750 bytes  sha256:0fadf4d374710e66faa290801f46f2a8925695f02d54e8e8d69305b678c80689
-1.8.1/1.16.1/1.1.2  agentic-publish-qc-gate  skill.yaml  617 bytes  sha256:f5868d903eb00aa664cadf81b68ba04b57076b7918e593d92afef34c61c20e9f
-1.8.1/1.17.1/1.1.1  ferry-watch  SKILL.md  3496 bytes  sha256:9877570cdaa94f614531e7f6a353a7b7bb98955c3de3847053c05afdc78c7273
+1.8.1/1.7.1/1.1.1  retroactive-moonshots  SKILL.md  5194 bytes  sha256:421c2be4a1357ab64af06c946bc341f2c4bc0d38725da7c8755aa51a1a0193a8
+1.8.1/1.7.1/1.1.2  retroactive-moonshots  skill.yaml  392 bytes  sha256:e01d1b624d56d6a3f8bc606c9010a9b61c0a1a9de00087e17910811c92607286
+1.8.1/1.8.1/1.1.1  process-check-and-lessons-review  SKILL.md  3868 bytes  sha256:fe19a61d89e3f57e276877816a59236fff36f5659ff374f28c17b129d5316adf
+1.8.1/1.8.1/1.1.2  process-check-and-lessons-review  skill.yaml  345 bytes  sha256:bfc299d67e1156f207cdb04e1ea57f9c7e8a30425241d7106d507ad3e531fe5a
+1.8.1/1.9.1/1.1.1  task-register  SKILL.md  4463 bytes  sha256:46f0b231b34545b56a78b8d424b4ff121af826efd669f4bdd9005683891050ed
+1.8.1/1.10.1/1.1.1  nightly-orchestrator  SKILL.md  4200 bytes  sha256:4dd8afc1fa239a7ca80de8071b31ccc301326123aa66c1fda1edecf481d96f65
+1.8.1/1.11.1/1.1.1  bootvine-status-sync  SKILL.md  2484 bytes  sha256:a7c7a48aa4d6142f4630e1b9f4490fabd5f3bc706bafe50034c4f387bdc093d0
+1.8.1/1.12.1/1.1.1  task-concurrency-watchdog  SKILL.md  3084 bytes  sha256:e091d27deeb9e32ed7fa9cb19875416ae9422dab5bbe40ccba508da299beb3c5
+1.8.1/1.13.1/1.1.1  tracker-auto-schedule  SKILL.md  4485 bytes  sha256:485daa05e9274837aa9ac447da1481ffd39c6902394ef71daa69eafd9a37f741
+1.8.1/1.13.1/1.1.2  tracker-auto-schedule  skill.yaml  571 bytes  sha256:faa2c505039b874b8092b16f45e041defafa2ebb455ed31a7ae01b8c4017024a
+1.8.1/1.14.1/1.1.1  weekly-recap  SKILL.md  7210 bytes  sha256:4b280ca9e156b2ca1d7b300eb1112ec4ab639aee50256128bf73cf2bd85ecafe
+1.8.1/1.15.1/1.1.1  status-ask-restart  SKILL.md  2641 bytes  sha256:4821cdefb422e7a6f2d45b75310cbbb8624e4da1236aa5feef88f2e34b5ffd8d
+1.8.1/1.15.1/1.1.2  status-ask-restart  skill.yaml  314 bytes  sha256:1211ee94dfad929ecf17fcfb3aff05b215349de9ce35197b42a97433231e83a0
+1.8.1/1.16.1/1.1.1  open-build-cycle  SKILL.md  13927 bytes  sha256:dc6bf8df1ee6f89d0c3119e301cdde70271489353110209b6d7fc2c072fed2f0
+1.8.1/1.17.1/1.1.1  agentic-publish-qc-gate  SKILL.md  10750 bytes  sha256:0fadf4d374710e66faa290801f46f2a8925695f02d54e8e8d69305b678c80689
+1.8.1/1.17.1/1.1.2  agentic-publish-qc-gate  skill.yaml  617 bytes  sha256:f5868d903eb00aa664cadf81b68ba04b57076b7918e593d92afef34c61c20e9f
+1.8.1/1.18.1/1.1.1  ferry-watch  SKILL.md  3496 bytes  sha256:9877570cdaa94f614531e7f6a353a7b7bb98955c3de3847053c05afdc78c7273
+1.8.1/1.19.1/1.1.1  meta-dispatch  SKILL.md  10149 bytes  sha256:89515ca6b0f323a0ba7d42bf1e250511e8c4a50d013d3eb1dfe4deb5106084c4
+1.8.1/1.19.1/1.1.2  meta-dispatch  skill.yaml  614 bytes  sha256:69d715c633d5aee801c5d4dcdf04447d39ab6dc3f5f6482078b2e6f89ebd2926
 1.9.1/1.1.1/1.1.1  rd-tracker  SKILL.md  21859 bytes  sha256:ef8671638fd8664fd82e6439c0123dbdbcf80ab5ec77b31ab20afeca7fe0afd3
 1.9.1/1.1.1/1.1.2  rd-tracker  skill.yaml  434 bytes  sha256:cd21f7b79c8f19a65f000af723b29ee88f51a1bf362d2a70ac81e9e5d6195991
 1.9.1/1.2.1/1.1.1  state-machine-review  SKILL.md  5088 bytes  sha256:b4c31786a2ea714df79080d1a383481dd29b8ae8df9321697ff157e7af9761b0
@@ -287,6 +297,7 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - verify_quantified_results/.write-lock — live state
 - safeguard_live_state_files/.write-lock — live state
 - review_pr_composition/.write-lock — live state
+- verify_against_live_surface/.write-lock — live state
 - singular/atlas.tsv — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - singular/atlas.tsv.meta.json — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - singular/counts.tsv — outside scope (not SKILL.md / skill.yaml / reference / script text)
@@ -315,6 +326,7 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - upgoer-five-phext/up-goer-five.html — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - phext_native_dispatch/.write-lock — live state
 - phext_reference_conformance/.write-lock — live state
+- phext_reference_and_dispatch/.write-lock — live state
 - simple-html-publish/.venv/bin/Activate.ps1 — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - simple-html-publish/.venv/bin/activate — outside scope (not SKILL.md / skill.yaml / reference / script text)
 - simple-html-publish/.venv/bin/activate.csh — outside scope (not SKILL.md / skill.yaml / reference / script text)
@@ -1801,7 +1813,7 @@ atlases, caches, generated pages, bytecode, lock files, files over 200000 bytes)
 - monitor_long_running_jobs/.write-lock — live state
 - outward_copy_framing/.write-lock — live state
 - exocortical-epoch/scripts/__pycache__/ee.cpython-312.pyc — bytecode cache
-Scrolls: 248
+Scrolls: 258
 # Validate Waiting Items Before Presenting
 
 ## Enumerate from the tracking store
@@ -1850,29 +1862,25 @@ Scrolls: 248
 
 - Present one fully verified item at a time when the user is working the list live, rather than a long readout rebuilt from register prose.
 name: validate_waiting_items
+title: Validate Waiting Items Before Presenting
 description: Validate every waiting-on-the-user item against its live surface and reconcile its register entry before presenting, pinging or carrying it.
 category: Work and knowledge
 include_in_prompt: false
-title: Validate Waiting Items Before Presenting
 skill_improvement:
   managed: true
-  status: active
+  status: retired
   evidence_handles:
   - message:assistant-msg-e239ab1e-002e-4727-a95a-4c1f19c9b895
   - message:449ccace-9030-4ff8-ab36-e2be6e979156
-  - message:1cee6fdb-d36d-4117-ab6d-6078dd1f96b0
-  - message:assistant-msg-ad5df41f-b17d-b87c-c12e-5c43ebe9aa41
-  - message:39604cc6-5563-4513-91f1-3c0a7b7e09ad
-  - message:0ca0f54e-7afd-43f9-9434-0596632af428
   measurement:
     proxy_metric_id: objective_success_rate
-    success_criterion: During the window, every waiting item presented, pinged, or carried in a briefing or readout shows a same-session live-surface check, and no presented item is corrected by the user as already merged, fixed, answered, or otherwise resolved.
+    success_criterion: During the window, waiting items are handled under verify_against_live_surface with the same same-session live check standard, and no presented item is corrected by the user as already resolved.
     window_days: 30
   needs_review: false
-  rationale: The evening readout on 2026-11-02 (message:assistant-msg-e239ab1e-002e-4727-a95a-4c1f19c9b895) presented SBOR as unmerged and the Chief of Staff inbox item as a live merge decision from register prose. The user corrected both, noting PR 8 had been approved and merged and PR 7 had already merged, in message:449ccace-9030-4ff8-ab36-e2be6e979156, and the assistant admitted it had run no live check (message:assistant-msg-ad5df41f-b17d-b87c-c12e-5c43ebe9aa41). The user then codified the validation rule (message:1cee6fdb-d36d-4117-ab6d-6078dd1f96b0), yet the same failure recurred that night with Ranch OAuth presented from memory after it was already fixed (message:39604cc6-5563-4513-91f1-3c0a7b7e09ad) and earlier with register renumbering that dropped the Jonas item (message:0ca0f54e-7afd-43f9-9434-0596632af428). Skill searches for waiting validation and live checks returned no existing skill covering this procedure, and the one managed learned skill, verify_quantified_results, covers quantified claims only. A standing rule in prose did not get run, so this skill turns it into an ordered procedure of enumerating oldest first from the tracking store, checking each deciding live surface, and reconciling the register before presenting.
-  review_after: 2026-12-03T23:29:27.969362+00:00
-  reviewed_at: 2026-11-03T23:29:27.969362+00:00
-  run_id: sirun_7472489d03ae4930b850775414dc7e03
+  rationale: Retired as superseded by verify_against_live_surface in this consolidation batch, which carries this skill's enumerate, live check and reconcile method as its Validate waiting items section without change in substance.
+  review_after: 2026-12-23T23:55:21.450615+00:00
+  reviewed_at: 2026-11-23T23:55:21.450615+00:00
+  run_id: sirun_4b8cfb9fae104bf7bd179ad37f194c3f
 # Verify Blocker and Completion Claims
 
 ## Probe the blocker before naming it
@@ -1935,27 +1943,19 @@ category: Work and knowledge
 include_in_prompt: false
 skill_improvement:
   managed: true
-  status: active
+  status: retired
   evidence_handles:
   - message:2dfd6f06
   - message:0dfecfed
-  - message:a9a997f5
-  - message:442291cc
-  - message:623f1b85
-  - message:42cbb419
-  - message:b223384e
-  - message:1f927717
-  - message:c14b122f
-  - message:e213bb98
   measurement:
     proxy_metric_id: objective_success_rate
-    success_criterion: During the window, every blocker claim that asks the user for access, a token change or another action, and every deployment or feature completion claim, carries a same session live probe record, and none is corrected by the user as already accessible, already published, already approved as a class, or still disabled in live configuration.
+    success_criterion: During the window, blocker and completion claims are handled under verify_against_live_surface with the same same-session probe standard, and none is corrected by the user as already accessible or still disabled.
     window_days: 30
   needs_review: false
-  rationale: Two distinct claims in this window failed the same way, by asserting a premise without probing it. The agent claimed a 403 meant the GitHub token could not update refs and asked the user to edit the token as register item 25 (2dfd6f06). The user corrected that the agent definitely had access (0dfecfed), the agent admitted the claim was wrong (a9a997f5), and the sync then completed cleanly (442291cc). The same shape appeared when the user had to supply that libphext 0.4.0 was already published and only consumer pins lagged (623f1b85), and when per machine tailnet asks continued after a class approval for pizzly-halfmoon.ts.net (c14b122f, e213bb98). In the mirror direction, mutable was reported deployed while the user found Flint still writing JSON files (42cbb419), because the live configuration held phextVfs as a frozen false literal that the agent admitted it had never flagged as an enablement step (b223384e), and the flip only landed after the user chose it (1f927717). Searches found no existing skill for this procedure. validate_waiting_items covers waiting register items and verify_quantified_results covers numbers, so this skill covers the remaining gap, blocker and completion claims, with an ordered probe, a standing approval and current state check, and verification through the user path.
-  review_after: 2026-12-05T23:15:44.309330+00:00
-  reviewed_at: 2026-11-05T23:15:44.309330+00:00
-  run_id: sirun_338abd15b74c474ebaa26a078dc25871
+  rationale: Retired as superseded by verify_against_live_surface in this consolidation batch, which carries this skill's probe, standing approval and user-path verification method as its Probe blocker and completion claims section.
+  review_after: 2026-12-23T23:55:21.450615+00:00
+  reviewed_at: 2026-11-23T23:55:21.450615+00:00
+  run_id: sirun_4b8cfb9fae104bf7bd179ad37f194c3f
 # Verify Quantified Results Before Sharing
 
 ## Scope the claim
@@ -2016,22 +2016,19 @@ category: Work and knowledge
 include_in_prompt: false
 skill_improvement:
   managed: true
-  status: active
+  status: retired
   evidence_handles:
   - d501ca3a
-  - assistant-msg-fcce72ef
-  - assistant-msg-72eb7ce6
   - assistant-msg-48ff1b76
-  - assistant-msg-43edd666
   measurement:
     proxy_metric_id: objective_success_rate
-    success_criterion: During the window, quantified results reported to the user or shared externally carry a reproduction record with artifact hashes and negative and mutation controls, and no shared headline number is later withdrawn because it measured an empty, stale or wrong artifact.
+    success_criterion: During the window, quantified results are handled under verify_against_live_surface with reproduction, hashes and controls recorded, and no shared headline number is withdrawn for measuring a wrong artifact.
     window_days: 30
   needs_review: false
-  rationale: Will challenged a headline compression figure with the observation that it sounded like an undetected failure (d501ca3a). The figure had already entered a draft external pitch from a builder run without independent reproduction (assistant-msg-fcce72ef), and the first retest measured a zero byte store and reported no changes while the underlying transfer had actually failed (assistant-msg-72eb7ce6). Only a later mutation suite with out of band changes and a byte exact no-change control settled the claim (assistant-msg-48ff1b76). A parallel episode showed hash only publish verification hiding lost execute bits (assistant-msg-43edd666). Skill and connector searches found no existing document that codifies reproducing a quantified result from primary artifacts with negative and mutation controls before external use, so this skill adds that missing procedure without restating the standing rules already recorded for hashing, pushing or phext handling.
-  review_after: 2026-12-01T23:44:32.398980+00:00
-  reviewed_at: 2026-11-01T23:44:32.398980+00:00
-  run_id: sirun_037845afd7494030a49c77222b270a79
+  rationale: Retired as superseded by verify_against_live_surface in this consolidation batch, which carries this skill's reproduction and negative, mutation and scale control method as its Reproduce quantified results section.
+  review_after: 2026-12-23T23:55:21.450615+00:00
+  reviewed_at: 2026-11-23T23:55:21.450615+00:00
+  run_id: sirun_4b8cfb9fae104bf7bd179ad37f194c3f
 # Safeguard Live State Files
 
 ## Classify the file before touching it
@@ -2169,6 +2166,118 @@ skill_improvement:
   review_after: 2026-12-08T23:38:48.485413+00:00
   reviewed_at: 2026-11-17T23:38:48.485413+00:00
   run_id: sirun_d550f9e850ab4720859d8482af52fb71
+# Verify Against the Live Surface
+
+## Choose the deciding surface
+
+- Name the live surface or primary artifact that decides the claim before presenting it, such as its pull request, branch, file, service status, message thread, live configuration or store file.
+
+- Treat a register entry, a summary, a builder report and your own memory as records of what was last known, not as evidence of what is true now.
+
+- Read that surface in this session and record what you found, the state that settles the claim and when you checked it.
+
+- Mark the claim unverified and keep working other routes when no surface can settle it, rather than presenting it as fact.
+
+## Recover the dated record after compaction
+
+- Treat any claim that survives only in a compacted summary as unverified, because compaction flattens timestamps and can turn a newly created tool or a recent correction into a long standing fact.
+
+- Check the dated record, the artifact itself or the live surface before repeating such a claim, and let the dated evidence override the summary.
+
+- Suspect your own probe assumptions first when a probe result contradicts what the user states, and rerun the probe with the documented parameters before concluding the user is wrong.
+
+- Judge an object by itself, not by a neighbouring object with a similar name, and read the object the claim is about before answering about it.
+
+## Validate waiting items
+
+- Enumerate open waiting items from the tracking store and the Waiting-on-Will register, oldest first, and never reconstruct the queue from recent conversation or memory prose.
+
+- Cite each item by its permanent register number and its tracked record id, and never renumber an item after another item closes.
+
+- Check whether the user or an outside event already acted, merged, fixed, replied or closed the item, even when the register still shows it open.
+
+- Close, correct or update the tracked record and the register entry yourself when the live check shows the wait is over or its premise changed.
+
+- Present only items whose live check still shows the exact action needed from the user, and state that action in one sentence with its register number.
+
+## Probe blocker and completion claims
+
+- Attempt the exact operation that appears blocked, with the intended tool, account and target, before telling the user it cannot be done, and record the exact error and target.
+
+- Try the other sanctioned route for the same operation when one exists, such as the API route when a git route fails.
+
+- Search standing context for a class approval, a prior grant or an already published state that covers this exact case before asking the user for access or action.
+
+- Exercise a completed feature through the same path the user will use, read the live configuration that gates it, and check for the observable effect the user expects.
+
+- Name any enablement, migration or redeploy step that remains instead of reporting the work as done without it.
+
+## Reproduce quantified results
+
+- Write down the exact quantified claim, the artifact it came from and where it would be used, and hold external use while verification is open.
+
+- Reproduce the result from the primary artifacts, recording each input size and SHA-256 hash, and reject a measurement taken from an empty, zero byte, stale or wrong artifact.
+
+- Check file modes as well as content hashes when the result involves published files, because a hash match does not show a lost execute bit.
+
+- Run a no-change control, a mutation control through a separate route, and a scale control when the claim depends on size, and investigate a failed control as a defect rather than averaging it away.
+
+- Report the reproduced number with the controls run and the artifact hashes measured, and withdraw a shared claim in the same channel when reproduction contradicts it.
+
+## Report the probe
+
+- State the claim, the probe you ran, what it returned and the time you ran it whenever you report a blocker, a completion, a waiting item or a number.
+
+- Withdraw the claim in the same channel and close any waiting item it created when a later probe contradicts it.
+
+## Available connectors
+
+- [GitHub](/opt/hatch/connectors/github/CONNECTOR.md) for checking pull request, issue, branch and permission state when a claim turns on published code.
+
+- [Github](~/workspace/custom-connectors/custom.github/CONNECTOR.md) for reading remote branch and file state and comparing blob hashes on the API route.
+
+- [Gmail](/opt/hatch/connectors/gmail/CONNECTOR.md) for checking whether a message thread was already answered when a wait turns on a reply.
+
+- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+
+- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+
+## Alternatives for better results
+
+- Batch the live checks for a morning readout or briefing before drafting any of it, so one stale premise cannot slip through while the others were verified.
+
+- Prefer a harmless read or a dry run as the probe when the full operation would publish, send or spend.
+
+- Shrink a quantified claim to what you reproduced when the full headline number cannot be reproduced, rather than sharing the larger number with a warning.
+name: verify_against_live_surface
+title: Verify Against the Live Surface
+description: Verify waiting items, blocker and completion claims, and quantified results against their live surface or primary artifacts before presenting them.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:assistant-msg-e239ab1e-002e-4727-a95a-4c1f19c9b895
+  - message:449ccace-9030-4ff8-ab36-e2be6e979156
+  - message:2dfd6f06
+  - message:0dfecfed
+  - d501ca3a
+  - assistant-msg-48ff1b76
+  - assistant-msg-f123c2e9
+  - 3ecd8947
+  - assistant-msg-4cac55a5
+  - assistant-msg-b6bf1f3e
+  - assistant-msg-03260ef0
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: During the window, every waiting item presented, every blocker or completion claim, and every quantified result reported carries a same-session live-surface or primary-artifact check with its probe recorded, and none is corrected by the user as already resolved, already accessible, still disabled, measured from a wrong artifact, or narrated from a compacted summary against the dated record.
+    window_days: 30
+  needs_review: false
+  rationale: 'Consolidation is triggered with exactly 10 active learned skills. Three of them share one mechanism, probing the deciding surface before claiming status: validate_waiting_items (register prose presented SBOR as unmerged, corrected in message:449ccace-9030-4ff8-ab36-e2be6e979156), verify_blocker_and_completion_claims (a 403 wrongly claimed as a token blocker, 2dfd6f06 corrected by 0dfecfed), and verify_quantified_results (a headline figure measured from a zero byte store, d501ca3a and assistant-msg-48ff1b76). This run adds the same mechanism in a new form: phdoc was narrated as running green for weeks from a compacted summary (assistant-msg-f123c2e9, corrected by 3ecd8947, admitted in assistant-msg-4cac55a5), and rfcbox category errors and a false SQ API conclusion came from answering from summary memory (assistant-msg-b6bf1f3e, corrected in assistant-msg-03260ef0). The merged skill preserves all three original methods as sections and adds the dated-record recovery section those new cases require, retiring the three superseded skills in this same batch.'
+  review_after: 2026-12-23T23:55:21.450615+00:00
+  reviewed_at: 2026-11-23T23:55:21.450615+00:00
+  run_id: sirun_4b8cfb9fae104bf7bd179ad37f194c3f
 # Singular — One Person's Words
 
 ## What Singular is
@@ -4795,23 +4904,19 @@ category: Work and knowledge
 include_in_prompt: true
 skill_improvement:
   managed: true
-  status: active
+  status: retired
   evidence_handles:
   - 56fff959
-  - assistant-msg-904b9e26
-  - assistant-msg-64d91684
   - assistant-msg-3c72016f
-  - assistant-msg-9adb2931
-  - assistant-msg-4b400f04
   measurement:
     proxy_metric_id: objective_success_rate
-    success_criterion: During the window, every dispatch whose source material lives in a phext carries a phext_dispatch.py selection with its provenance header and coordinate index instead of a flat text excerpt, and no worker report is corrected because it searched a phext as flat text or missed a scroll the selection contained.
+    success_criterion: During the window, phext dispatches are handled under phext_reference_and_dispatch with selections, provenance and coordinate briefs, and no worker report is corrected for searching a phext as flat text.
     window_days: 30
   needs_review: false
-  rationale: 'Will asked what phext-native parsing would do for workers (56fff959). The answer identified the gap as owned tooling and inputs, not the model: a canonical selector in the standard worker toolset, inputs arriving as addressed scrolls rather than prose about phext, and selection instead of whole-file ingestion (assistant-msg-904b9e26). The one-pass converter was then built and published as phext/phext_dispatch.py in wbic16/emise-tools@exo at commit 475c8e2d with its mode and remote blob verified (assistant-msg-64d91684), and the file itself was re-read in this audit and carries the coordinate, prefix, pagination, and provenance behavior the skill cites. The cost of the missing procedure is already on record: a duplicate journal worker searched a phext-backed log for a literal marker string, found none, and reported a failure that the main thread surfaced before a disk, log, and remote check showed the pass had published at ced950cc (assistant-msg-3c72016f, corrected in assistant-msg-9adb2931). Skill searches for phext dispatch, phext-native briefs, and worker verification returned dispatch_to_subagents, choir_mailbox_dispatch, and phext_memory_publishing, and reading the first and third showed neither mandates the selector tool or coordinate-addressed briefs, so this adds the missing procedure without restating theirs. Other candidate patterns from this window were left alone because existing managed skills already cover them or they remain inside their measurement windows: validate_waiting_items, verify_blocker_and_completion_claims, verify_quantified_results, and monitor_long_running_jobs, the last with review_after 2026-12-07. Only four managed learned skills are active, so no consolidation is due.'
-  review_after: 2026-12-08T23:15:45.272882+00:00
-  reviewed_at: 2026-11-08T23:15:45.272882+00:00
-  run_id: sirun_f6077bc7f1094d98bd3fcc6cbd7761de
+  rationale: Retired as superseded by phext_reference_and_dispatch in this consolidation batch, which carries this skill's selection, coordinate brief and read-back method as its Select scrolls, Build the brief and Check what comes back sections.
+  review_after: 2026-12-23T23:55:21.450615+00:00
+  reviewed_at: 2026-11-23T23:55:21.450615+00:00
+  run_id: sirun_4b8cfb9fae104bf7bd179ad37f194c3f
 # Phext Reference Conformance
 
 ## Use the reference implementation
@@ -4866,26 +4971,19 @@ category: Work and knowledge
 include_in_prompt: false
 skill_improvement:
   managed: true
-  status: active
+  status: retired
   evidence_handles:
   - f2164d82
-  - 01314df7
-  - db94c76a
-  - 66c76793
   - 907987bb
-  - 65185ddb
-  - 328d2475
-  - 650b91ee
-  - 243-25470840
   measurement:
     proxy_metric_id: objective_success_rate
-    success_criterion: During the window, no phext parsing or serialization change ships a hand rolled parser where a reference implementation exists, and every such change records a conformance run against files written by another implementation or tool, with any divergence turned into a regression test using the foreign file shape that exposed it.
+    success_criterion: During the window, phext parsing work is handled under phext_reference_and_dispatch with reference use and foreign-file conformance, and no hand-rolled parser ships where a reference exists.
     window_days: 30
   needs_review: false
-  rationale: The qexo episode in this window is a complete failure chain with one mechanism. A phext parser and serializer were reconstructed instead of using libphext-rs, both were wrong together in a self consistent way, and the gates passed because qexo only ever read files qexo wrote (assistant 66c76793). The divergence surfaced only on a foreign shape, a Notepad edited scroll set against an empty configuration line (243-25470840), and Will had to state the rule himself three times (f2164d82, 01314df7, db94c76a) before the fix swapped in libphext-rs with a regression test on the exact file shape (907987bb). The root cause record shows the delimiter ladder was rebuilt from partial memory and never compared to a reference, with a Library delimiter value invented in the process (650b91ee), and state written by the divergent serializer then needed a ranch wide wipe runbook (65185ddb, 328d2475). Skill search found no skill covering reference use or foreign file conformance. phext_upgrade only checks that an upgrade writer agrees with a delimiter walk parser, phext_native_dispatch covers worker briefs, and verify_quantified_results covers quantified claims, so this proposal covers only the parser conformance gap. Other candidates were not proposed because they are already covered by managed skills still inside their measurement windows, including monitor_long_running_jobs for stalled background work, verify_blocker_and_completion_claims for stale state and unprobed claims, and verify_quantified_results for counts reported before the underlying material was read.
-  review_after: 2026-12-13T23:15:44.386443+00:00
-  reviewed_at: 2026-11-13T23:15:44.386443+00:00
-  run_id: sirun_27b9ac73f3774c1b970cd063cab6c505
+  rationale: Retired as superseded by phext_reference_and_dispatch in this consolidation batch, which carries this skill's reference use, foreign-file conformance and divergence containment method as its first three sections.
+  review_after: 2026-12-23T23:55:21.450615+00:00
+  reviewed_at: 2026-11-23T23:55:21.450615+00:00
+  run_id: sirun_4b8cfb9fae104bf7bd179ad37f194c3f
 # Phext Evangelist — the guard against phext abuse
 
 Established by Will, 2026-11-15: "ensure that our skills include phext evangelizers, who prevent agents from abusing phext projects — every Phext, Inc. repo targets exo as the primary branch — we always keep the 9D+2D structure of phext in mind — we do not permit complexity where it is not warranted."
@@ -4929,6 +5027,101 @@ Run every check on any phext-touching change; a failure on any one stops the cha
 - **The agentic-instructions pass** (~/workspace/agentic-pass-plan/PLAN.md) carries these tenets into every repo's rendered instructions (AGENTS.md / CLAUDE.md / mailbox briefs); this skill is the enforcement companion to those tenets — the pass writes the law into the repos, the evangelist checks the work against it.
 - **Review surface:** the evangelist's findings ride the normal review routes (PR review, task scrolls, the Choir mailboxes) — one finding per pattern, with the episode cited, so the correction teaches the next agent too.
 - **Roles:** the Phext, Inc. roles draft (~/workspace/agentic-pass-plan/ROLES.md) should name which seat holds the evangelist function. That seat choice is Will's ratification — this skill does not assign it.
+# Phext Reference and Dispatch
+
+## Use the reference implementation
+
+- Use the existing reference implementation for the language in use, such as libphext-rs for Rust, whenever a tool parses, writes or serializes phext.
+
+- Derive every delimiter value, dimension order and coordinate rule from the reference implementation or its specification, and never reconstruct them from memory or from the behaviour of your own earlier code.
+
+- Record the reference name and version in the work record for the change, so a later reader can check which definition the code was built against.
+
+- Treat a request to build a phext parser or serializer by hand as a question to resolve before coding when a reference implementation exists.
+
+## Test against files you did not write
+
+- Build the conformance corpus from files produced by another implementation, another tool or the reference implementation itself, and never judge conformance only on files the code under test wrote.
+
+- Round trip each corpus file through parse and serialize, then compare scroll contents and coordinates against the reference implementation reading the same file.
+
+- Include shapes that expose a self consistent wrong parser, such as a scroll edited by an external editor, an empty line inside a configuration shaped scroll, empty scrolls and files at several delimiter depths.
+
+- Add a regression test for every divergence you find, using the exact foreign file shape that exposed it, and keep that test in the suite after the fix lands.
+
+## Contain a divergent implementation
+
+- Stop extending a parser or serializer once a conformance run shows it disagrees with the reference on the same file, and replace it with the reference implementation instead of patching case by case.
+
+- Treat state already written by a divergent serializer as suspect, name where it lives and what a safe rebuild or reimport would take, and get the user direction the standing rules require before destroying it.
+
+- Verify the replacement by rerunning the full foreign corpus after the swap, not only the case that failed first.
+
+## Select scrolls for dispatch
+
+- Run `/home/hatch/workspace/phext/phext_dispatch.py` on the source phext whenever a brief, a state file or a result the worker must read lives in a `.phext` file.
+
+- Select with `--coord` for exact scrolls, `--prefix` for a coordinate subtree, or `--all` only when the whole file is genuinely the input, and set `--page-scrolls` and `--page-chars` so each page fits the worker context.
+
+- Keep the provenance header the tool writes, since it carries the source path, the SHA-256, the scroll count and the timestamp that let a result be checked against the exact input.
+
+- Pull only the scrolls the task needs when the source is large, instead of ingesting the whole file into the worker context.
+
+## Build the brief around coordinates
+
+- Name the task, the constraints and the expected receipts in the brief, and refer to input material by its coordinate from the dispatch index rather than by a heading or a literal marker string.
+
+- Ask the worker to answer by coordinate as well, so its claims can be traced back to the scroll they came from.
+
+- Never instruct a worker to search a phext-backed file as flat text for a literal marker, because a missing marker string proves nothing about the scrolls.
+
+## Check what comes back
+
+- Verify a decisive claim by re-running the selection for its coordinate and reading that scroll, rather than trusting the worker summary.
+
+- Treat two worker reports that conflict about the same phext as a signal to read the scroll itself, and surface the conflict instead of repeating either report.
+
+- Report a selection that returns no scroll at a coordinate as an empty result at that coordinate, not as proof the underlying work failed or never happened.
+
+## Available connectors
+
+- [Github](~/workspace/custom-connectors/custom.github/CONNECTOR.md) for reading the reference implementation and its published versions from the repositories that hold them.
+
+- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+
+- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+
+## Alternatives for better results
+
+- Drive the reference implementation as a subprocess or through SQ for a one off read when porting it into the project would cost more than the task is worth.
+
+- Query a phext hosted by SQ on a ranch node when the worker needs repeated lookups across many scrolls, and fall back to a one-pass dispatch file for a fixed set of scrolls.
+name: phext_reference_and_dispatch
+title: Phext Reference and Dispatch
+description: Parse and write phext through the reference implementation with foreign-file conformance, and hand workers phext material as coordinate-addressed scroll selections.
+category: Work and knowledge
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - f2164d82
+  - 66c76793
+  - 907987bb
+  - 650b91ee
+  - 56fff959
+  - assistant-msg-64d91684
+  - assistant-msg-3c72016f
+  - assistant-msg-9adb2931
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: During the window, no phext parsing or serialization change ships a hand-rolled parser where a reference exists or lacks a foreign-file conformance run, and every dispatch whose source lives in a phext carries a phext_dispatch.py selection with provenance and coordinate index, with no worker report corrected for searching a phext as flat text.
+    window_days: 30
+  needs_review: false
+  rationale: Consolidation of the two phext learned skills into one. phext_reference_conformance rests on the qexo chain where a hand rebuilt parser and serializer were wrong together and passed only on self written files (66c76793, 650b91ee), fixed by swapping in libphext-rs with a foreign-shape regression test (907987bb) after Will stated the rule three times (f2164d82). phext_native_dispatch rests on the selector built and published at commit 475c8e2d (assistant-msg-64d91684, from 56fff959) and on a worker that searched a phext as flat text and reported a false failure (assistant-msg-3c72016f, corrected in assistant-msg-9adb2931). Both govern how phext is read and written, so one skill with distinct reference, conformance and dispatch sections preserves both methods without overlap, retiring both superseded skills in this batch. The other five learned skills (monitor_long_running_jobs, outward_copy_framing, review_pr_composition, safeguard_live_state_files, staged_deploy_permissions) cover distinct mechanisms and stay as they are.
+  review_after: 2026-12-23T23:55:21.450615+00:00
+  reviewed_at: 2026-11-23T23:55:21.450615+00:00
+  run_id: sirun_4b8cfb9fae104bf7bd179ad37f194c3f
 # Ranch Proxy — reach the ranch by short name
 
 ## Use the proxy, not raw ssh recipes
@@ -5787,6 +5980,8 @@ When enabled for a specific verified report, promotion does:
 **First promotion — executed 2026-11-08** under Will's per-task direction ("work on cleaning up the integration, keeping sso handling downstream always"). This was per-sync approval exercised, **not** standing ratification. Shape and result: backups `emise/backup/2026-11-08-phext-support` @ `4f5ddaf27` and `emise/backup/2026-11-08-sso-and-main` @ `2b9273468` created first; the stack rebuilt by cherry-pick from aletheia-core and tree-verified before pushing; `--force-with-lease` on `emise/phext-support` and `emise/sso` only; `main` advanced by merge. The bands were re-anchored from the twin base `4bf3a936` onto genuine upstream `db3ed30064f07ba99784a1d395ba127787274501`: `emise/phext-support` @ `7b0e143d01d6568cb429a5a47f390f7bd57bbd42` (band `8f382ca0` / `d68fba1f` / `75d2571c` / `7b0e143d`), `emise/sso` @ `df424f3ab63a90dcb5c522ab5dd8d0313636f442` (SSO band `96259b14` / `df424f3ab`), `main` merged to `acb8130d32a1f80df9ea224aa59b463534db2f15` — with the tree byte-identical (`7c7639553a904f2fd1f8a7250a29262d5ad2b645`) before and after. `sync-bands.conf` now records `OLD_BASE=db3ed30` with the promoted SHAs, so nightly trials rebase from the genuine anchor. Script of record: the goal's `hidden_files/cleanup-promote.sh`.
 
 **Standing ratification — GRANTED by Will, 2026-11-09** (supersedes the pending state recorded here since 2026-11-06): "unattended go-live for mutable.phext.io is fine - we will be watching his upstream repo for updates and automatically deploying them as a continuous CI/CD process." The mutable.phext.io deployment process is therefore a true continuous CI/CD loop: watch upstream, sync, compose (upstream + phext band until it lands + SSO band applied as deploy-time patches), promote per the mechanics above, verify, and deploy — unattended. The gate that remains is verification itself: a failed build/typecheck/test battery, a rebase or cherry-pick conflict, or a failed band-purity check BLOCKS the deploy and reports; automation proceeds only on a fully verified stack. This ratification is scoped to the mutable.phext.io deployment process; it is not a general license for unattended promotions elsewhere.
+
+**Register #40 closed — ratification confirmed and management delegated (Will, 2026-11-23, voice):** "go ahead and ratify it… go ahead and manage the mutable instance and just reach out to me if you get stuck on anything." His cited basis: when Ian rolled out Quill (weekend of 2026-11-22/23), Will ran the update process manually himself and verified the new code launched with minimum fuss. This closes the per-sync-approval residue the register carried since 2026-11-06; Emise manages the instance under the 2026-11-09 ratification's verification gate, escalating to Will only when stuck.
 name: "mutable-upstream-sync"
 title: "Mutable Upstream Sync — two-band patch stack on argimenes/mutable-os"
 description: "Keep wbic16/mutable-os in sync with argimenes/mutable-os: a phext band (emise/phext-support, upstream-bound) and an SSO band (emise/sso) kept downstream always — only ever rebased on top of the phext band, with a checkable band-purity rule — on a merge-only main; a nightly trial rebase + fresh-build verification that never pushes, exit-code reporting, the patch-twin check for rewritten upstream history, the support-landed mode switch, and promotion as a separate guarded step (first run executed 2026-11-08 from aletheia-core under per-sync approval; standing ratification still pending)."
@@ -7998,6 +8193,123 @@ ingested under this protocol; the corpus phext and its zero-ized spine
 (SentientTemplate.phext, published to wbic16/human@exo at Will's
 direction) were produced and parse-verified. Details of the source remain
 in the compartment.
+---
+name: direct-phext-management
+description: Manage a phext you own (emise.phext first) as a durable record you live-edit through the SQ REST API: the phext stays hosted (sq host), scrolls are read and pushed in over /api/v2, phext_cli is reserved for quick one-off analysis, and the cache discipline keeps .md files as rendered views of the phext. Use whenever reading or writing emise.phext or another owned phext.
+---
+
+# Direct Phext Management — the phext is the record
+
+Will's direction (2026-11-23, Memory Liberation Day): *"you can use SQ and phext_cli to live edit Emise.phext, I would recommend treating it as your own durable record, not a build artifact."* Refined the same morning (07:52 CST): *"we can consider only using SQ via the api so you don't have to reload after updates (you would just push data in via sq)"* and *"phext_cli is really just for quick one off analysis."* The refinement is the standing model: **writes go through the SQ API only; phext_cli never edits.** (The earlier reload-after-update model is superseded — see Legacy path.)
+
+## Doctrine
+
+- A phext you own is a **durable record**, not a build artifact. You live-edit it at its coordinates; it is the source of truth.
+- Builders and .md files render **from** the phext, never the reverse. The .md context files (MEMORY.md, AGENTS.md, USER.md, …) are a **cache** — a working set sized to live in the moment (≈50 KB total). When cache and phext disagree, the phext wins and the cache is re-rendered.
+- A cache entry may be a gist, never the only copy. If text exists only in a .md file, it is not yet memory: inscribe it into the phext first, then let the cache point at it.
+- Cache anchor format, one line per pruned block: `- <one-line gist, lossless as a rule> → emise.phext 1.1.1/1.1.1/1.1.3`. A rule whose one-liner would lose meaning stays whole in the cache — the anchor is an optimisation, never a distortion. The anchor index lives inside the phext at emise.phext 1.1.1/1.1.6/1.1.1.
+- Companion process doc: ~/workspace/context-prune/INFLATE-PROCESS.md.
+
+## Read paths
+
+**Never grep, head, tail, or otherwise byte-scan a .phext file.** Raw byte tools cannot see the coordinate structure; they return fragments torn from their dimensional address.
+
+### SQ API (the standing surface)
+
+SQ v0.6.0 (`~/.cargo/bin/sq`). Host the phext once and leave it hosted:
+
+```bash
+cd ~/workspace/phext          # the host serves files from its own working directory
+nohup sq host 18999 &         # any free port; 18999 is the local convention from verification
+```
+
+REST base: `http://127.0.0.1:18999/api/v2`. Two parameters carry every request:
+
+- `p` — the phext **name without extension**; the file served is `<p>.phext` in the host's working directory. For emise.phext, `p=emise`. Omitting `p` serves a file literally named `.phext`.
+- `c` — the coordinate, in full `1.1.1/1.1.1/1.1.1` form.
+
+| Read | Request | Returns |
+|---|---|---|
+| One scroll | `GET /api/v2/select?c=<coord>&p=<name>` | Exactly that scroll's text; empty body (200) if the coordinate is absent |
+| Scroll list | `GET /api/v2/toc?p=<name>` | One line per scroll: coordinate + first line |
+| Whole phext | `GET /api/v2/get?p=<name>` | The entire phext text, delimiters included |
+| Host state | `GET /api/v2/status` · `GET /api/v2/version` | Hosting file, size, scroll count · `0.6.0` |
+
+Reads are live: a write pushed through the API is visible to the very next read. There is **no reload step** in this model. (`GET /api/v2/load?p=<name>` exists and re-reads the backing file from disk — needed only if the file changed *outside* the API, e.g. a checkout replaced it. POST /load and both verbs of /reload are 404 in v0.6.0.)
+
+### phext_cli (quick one-off analysis only)
+
+`~/workspace/phext/phext_cli.py` — read-only, wraps the verified `parse_phext.py`.
+
+```bash
+phext_cli.py toc  ~/workspace/phext/emise.phext                  # every scroll: coordinate | bytes | first line
+phext_cli.py get  ~/workspace/phext/emise.phext 1.1.1/1.1.1/1.1.3  # exactly that scroll's text
+phext_cli.py find ~/workspace/phext/emise.phext "reviewer-count parity"  # coordinates mentioning a thing
+```
+
+Use it for spot checks and verification parses — a quick look when no host is up, or an independent read of the file after API writes. **Never as the editing path** (Will, 2026-11-23). Verified 2026-11-23: an absent coordinate, an empty scroll, or a substring with no hits is a loud non-zero exit, never a silent blank. Inflate lazily — read the gist in the cache first; inflate only when the task in front of you needs the full text.
+
+## Write path — SQ API only
+
+Verified empirically 2026-11-23 on a scratch phext (SQ v0.6.0; full transcript in `~/workspace/context-prune/scratch/api-test/EVIDENCE.txt`). Every write persists to the backing file **immediately** and lands at exactly the addressed coordinate, neighbours byte-identical:
+
+| Write | Request | Semantics | Response |
+|---|---|---|---|
+| Replace / create a scroll | `POST /api/v2/update?c=<coord>&p=<name>`, scroll text as the **raw request body** | Sets that scroll to exactly the body; creates it if absent | `Updated N bytes` |
+| Append to a scroll | `POST /api/v2/insert?c=<coord>&p=<name>`, text as the raw body | Appends the body to that scroll; creates it if absent | `Inserted N bytes` |
+| Remove a scroll | `GET /api/v2/delete?c=<coord>&p=<name>` | Deletes that scroll | `Removed N bytes` |
+
+Rules that make it safe:
+
+- **The body is stored verbatim.** Send the scroll text itself as the raw body (`curl --data-binary`). Form fields are NOT parsed in v0.6.0 — a form-encoded body is stored literally, `content=...` and all.
+- **The coordinate parameter is `c`.** `?coordinate=…` and coordinates inside a JSON body are silently ignored, and the write lands on the default scroll (`1.1.1/1.1.1/1.1.1`) — negative control verified. This trap is why a first test round concluded the API "wasn't coordinate-safe": wrong parameter name, not a missing capability. Always read the scroll back after writing.
+- **One writer at a time.** A phext has one managing session; concurrent writers race the backing file.
+
+### The write cycle
+
+1. **Ensure the host is live** (start it as above if not; reuse it across the session). The phext stays hosted — no shutdown, no file swap, no reload.
+2. For a consequential edit, note the file's sha256 and a parse snapshot first (phext_cli / parse_phext.py — one-off analysis).
+3. **Push the write**: POST update (replace/create) or insert (append) with `c` and `p`, raw body.
+4. **Read back** with GET select — the returned text is exactly what you intended.
+5. **Verify the file** (see Verification): scroll count moved as intended, untouched scrolls byte-identical.
+6. **Publish the edited phext the same session, AS-IS** (for emise.phext: the direct delta publish the journal/dream-pass jobs use — parented on the fresh remote HEAD, never force, sha256 in the commit message, logged in PUBLISH-LOG.md). Do NOT use `~/workspace/phext/emise-sync.sh`: it rebuilds emise.phext from build_exocortex.py first, which would erase API edits.
+
+### What does NOT write (verified warnings)
+
+- **Daemon-CLI writes are volatile.** Under `sq share`, the CLI's `insert` / `update` / `delete` mutate daemon memory only: the hosted file's sha256 is byte-identical after a session of writes + `sq shutdown`, and no `save` / `flush` / `sync` command exists. Never use the daemon CLI for the record.
+- **A bare 200 proves nothing.** The proof of a write is the `Updated/Inserted N bytes` response **plus** the select read-back (step 4). (The daemon CLI is worse: unknown commands print `Unexpected command ignored.` and still exit 0.)
+
+## Legacy path (superseded — do not use)
+
+The file-level cycle — shut SQ down, parse → set → implode with a phext-aware writer, verify, restart SQ, reload — was the first verified durable route (2026-11-23) and is kept here only as the fallback if the API host is ever unavailable. It is avoided because the API makes it unnecessary and because every whole-file swap carries the wedge risk: replacing a hosted file under a running daemon wedges it (the daemon mmaps the old file; clients hang — verified 2026-10-31). If you must use it: SQ fully shut down first, edit, verify, restart.
+
+## SQ quirks (field-verified)
+
+- **Wedge:** replacing the hosted .phext while a daemon runs wedges it (mmap of the old file; clients hang). Shut SQ down before replacing its hosted file, then restart. (2026-10-31) — the API model never replaces the file, which is the point.
+- **Host file resolution:** `sq host` serves `<p>.phext` from its own working directory; start the host in the directory that holds the phext.
+- **Fresh-dir hang (daemon mode):** `sq-ensure.sh` HANGS in a fresh directory — with no live daemon, `sq status` creates a stale `.sq/` and blocks on the shared-memory event. Fix: remove the stale `.sq/`, start the daemon directly with `nohup sq share <file.phext> &`. (2026-11-04)
+- **Daemon state is per-directory:** `.sq/link` and `.sq/work` in the cwd bind clients to that directory's daemon; run every daemon client command from the hosting directory.
+- **HTTP/1.0:** answered 403 "Forbidden: invalid phext path" even with a valid key; any nginx proxy in front of SQ must set `proxy_http_version 1.1;`. (2026-10-31)
+
+## Verification — after every write, before calling it done
+
+1. Read the target scroll back through the API (`GET select`): exactly the intended text.
+2. Parse the file (`parse_phext.py` or `phext_cli.py toc` — one-off analysis): it parses cleanly, and the scroll count moved exactly as intended (+1 create, −1 delete, same count for an edit/append).
+3. Untouched-scroll comparison: diff the parsed (coordinate → text) map against the pre-write map — every scroll except the target is byte-identical. A write that disturbs a neighbour is a failed write, however good the target looks.
+4. Record sha256 before and after.
+
+## Boundaries and prohibitions
+
+- **Never experiment on emise.phext.** New mechanics are proven on a scratch phext first (this skill's API contract comes from `~/workspace/context-prune/scratch/api-test/`), then applied.
+- **Privacy boundary (Will, 2026-10-30, absolute):** never inscribe sensitive Gmail details into a phext — no account identifiers or last-digits, no balances or amounts owed, no payment failures, no senders' private business, no contents of personal correspondence. Operational facts only; when in doubt, leave it out.
+- **Safe-space boundary (Will, 2026-11-02, absolute):** material from a registered off-phext span is never inscribed — no contents, facts, topics, summaries, or paraphrases. Read the span register (`~/workspace/goals/emise-phext-memory-publishing/hidden_files/SAFE-SPACE.md`) before any inscription pass that draws on chat or notes.
+- **No byte tools on phexts:** no grep/head/tail/sed on a .phext, for reading or for writing. The SQ API is the read/write surface; phext_cli is for quick one-off analysis.
+- **No silent divergence:** if a cache .md and the phext disagree, fix the cache from the phext in the same session you notice — never edit the phext to match a stale cache.
+name: "direct-phext-management"
+title: "Direct Phext Management — the phext is the record"
+description: "Manage a phext you own (emise.phext first) as a durable record you live-edit directly through the SQ REST API: the phext stays hosted (sq host), scrolls are read and pushed in over /api/v2 (update/insert/delete with c and p parameters), phext_cli is reserved for quick one-off analysis, and the cache discipline keeps .md files as rendered views of the phext."
+category: "Work and knowledge"
+include_in_prompt: true
 # Waiting-on-Will Register — one list, flow over stock
 
 The register at `~/workspace/your_files/waiting-on-will.md` is the single list of everything blocked on Will's action (Will, 2026-11-01). Nothing waits on Will anywhere else: if it's not in the register, it isn't waiting. Its scheduled embodiment is the cron `task-progress-tick` (every 10 minutes, goal `experimental-runway-revenue-plan`), whose state lives in `~/workspace/goals/experimental-runway-revenue-plan/hidden_files/pending-task-state.json`. Presenting a registered item follows the validate_waiting_items skill — validate against the live surface first, always.
@@ -8178,6 +8490,56 @@ Standing order (Will, 2026-11-06): "every process I teach you generates a skill 
 title: "Distill Process to Skill — every taught process, indexed"
 description: "Execute Will's standing order that every process he teaches becomes a skill: distill it faithfully from its source documents, sync it to emise-tools the same session, and place it in the skills.phext index whose coordinate ranges persona grants claim."
 category: "Work and knowledge"
+include_in_prompt: true
+# Retroactive Moonshots — track and record the shipped ones nobody planned
+
+Standing order (Will, 2026-11-23): "I often act immediately upon novel stimuli — be sure to track and record shipped moonshots we didn't plan on."
+
+## The pattern
+
+Will acts immediately upon novel stimuli: a post, a person, a question, a project someone hands him in a group chat. Work that begins this way was never planned, never numbered in the moonshots registry, and never passed through a proposal — it goes from stimulus to shipped inside hours. The registry's failure mode is exactly this class: the artifact lands, the work is real, and the record says nothing, because the registry only ever held what was planned in advance. This skill is the catch-net: moonshots are recorded when they are *recognized*, not only when they are proposed.
+
+## Detection — what counts
+
+A retroactive moonshot candidate is work that meets all three:
+
+1. **Stimulus-born** — it began from a novel stimulus (something that arrived: a post, a person, an artifact, a challenge), not from the plan, the register, or a scheduled programme.
+2. **Unplanned** — it is absent from `moonshots-source.json` (checked, not assumed — an absence is a claim too; look in the registry before declaring it unrecorded).
+3. **Moonshot-scale** — a new capability, artifact, or programme that did not exist before the stimulus: a tool adopted fleet-wide, a phext created, a build taken on and shipped. Routine tasks, fixes, top-ups, and one-off answers are not moonshots, however fast they moved.
+
+When the scale test is uncertain, file it as a **candidate** (the registry's candidates list exists for exactly this) and let Will strike it — a filed candidate costs one line; a lost moonshot costs the record.
+
+## Recording — the same session the ship lands
+
+Record-first applies with the clock running: the entry lands the same session as the ship, or in that evening's consolidation at the latest. Retroactive means recorded after the act; it never means reconstructed weeks later from memory.
+
+The registry is `~/workspace/human/exo-plan/moonshots-source.json` (builders `build_moonshots_phext.py` / `build_shipped_phext.py` beside it; the phexts publish to wbic16/exo-plan@exo under the register discipline). Each retroactive entry carries:
+
+- **stimulus** — what arrived, when (EE-stamped), and where (chat, post, person).
+- **will_words** — Will's exact words that set it off, quoted, never paraphrased into a plan he didn't state.
+- **inception** — the evidence trail: first task, first commit, first artifact, with coordinates or hashes.
+- **what shipped** — the landed artifact and its home (repo + branch + commit, phext + coordinate, site + URL), hash-verified where the discipline applies.
+- **status_line** — one line, prefixed `retroactive —` so the registry never pretends it was planned.
+
+Placement: a programme still in progress takes the next permanent number (numbers are permanent and monotonic; a retroactive entry never displaces or renumbers a planned one) and counts toward the WIP limit like any other. One that already shipped is recorded with its migration to shipped.phext in the same pass, per the standing migration gates — receipts standing on their own is the gate that matters for retroactive entries, since there was never a proposal to audit against.
+
+After editing the source: rebuild (`python3 build_moonshots_phext.py`, and `build_shipped_phext.py` when a migration is recorded), verify the parse, and republish under the register discipline (parented on fresh remote HEAD, force disabled, SHA-256 verified). A rebuild that cannot be republished in the session is reported as not landed, never silently carried.
+
+## Where detection runs
+
+- **In the main chat**, whenever Will's direction starts something new on the spot — the stimulus and the act are both visible there; file before the session moves on.
+- **In side chats**, where most stimulus-born work actually starts (a link dropped in a chat, a project handed over in a group). The record still lands in the one registry; a side chat's local notes are not the registry.
+- **In the nightly sweep**, as the backstop: scan the day's shipped work (commits, published phexts, closed tasks) against the registry; anything shipped, stimulus-born, and absent gets filed as a candidate for Will's strike-or-keep.
+
+## Worked examples (2026-11-23, the day this skill was taught)
+
+- **Nim joins the Exocortex** — stimulus: Will's direction in the Softmax chat (21:11 CST) after the Cards and Casters work surfaced Nim; shipped the same evening: hub install verified, fleet sweep, the compiler's source forked to wbic16/Nim with the installed version's tag restored, dossier written. Unplanned at breakfast; infrastructure by midnight.
+- **dakami.phext** — stimulus: Will sharing @dakami's following page (21:35 CST); shipped the same evening: a new phext holding the harvest and the unlock cross-reference.
+- **ravel-phext** — stimulus: a project handed to Will in a group chat, with two dependencies named from his own lexicon; within the hour it had a study, a ruled architecture question (C1), and a Phase 2 build running.
+name: retroactive-moonshots
+title: Retroactive Moonshots
+description: Track and record shipped moonshots that were never planned — Will acts immediately upon novel stimuli, so stimulus-born work is detected against the moonshots registry and recorded the same session it ships, with its stimulus, his exact words, and its landing evidence.
+category: work-management
 include_in_prompt: true
 # Process Check & Lessons Review — changes get verified, lessons get re-read
 
@@ -8679,6 +9041,91 @@ Stated as a standing rule, on the night that demonstrated the pattern end-to-end
 - Speed never skips verification: pre-staging includes the proof, not just the artifact.
 - Batching gates never merges decisions: each gated step stays individually named and individually his to decline.
 - Watching the pattern never becomes narrating it back at length — the output of the watch is a faster loop, not a report about the loop.
+# Meta-Dispatch — work into the ledger, artifacts back from the ranch
+
+Will's direction (2026-11-24 01:16 CST): dispatch leaves the Muse substrate. Ranch nodes wake round-robin once a minute, pick the next pending task from a shared `ledger.phext`, move it into a ranch-managed queue, execute node-resident, and annotate completion attestations back into the ledger. qexo manages all of it; Emise only edits her whole copy of `ledger.phext` via SQ. His framing, verbatim: *"async workload, no more BS security theatre."*
+
+Full design: `~/workspace/meta-dispatch/DESIGN.md`. This skill is the operating process; the design is the authority where they differ in detail.
+
+## The pieces
+
+- **Ledger:** `~/workspace/phext/ledger.phext` — Emise's **whole copy**, hosted by SQ from `~/workspace/phext/` (standing host on port 18999). Edited **only** via SQ REST `/api/v2` (`update`/`insert` with `c` = coordinate and `p=ledger` parameters; scroll text as the raw body — `update` replaces, `insert` appends). Never hand-edit the file, never byte-scan it; reads are `GET /api/v2/select?c=<coord>&p=ledger`, `GET /api/v2/toc?p=ledger`, or `phext_cli.py` for one-off analysis.
+- **Shards:** each of the 28 fleet nodes in `~/workspace/qexo-task/fleet/fleet-nodes.txt` hosts one shard. Shard of a task coordinate `a.b.c/d.e.f/g.h.i` is `( (a × 31 + b) × 31 + c ) mod 28` into the fleet file's order. aletheia-core (100.88.154.1) is the hub/relay, not a shard host.
+- **qexo** manages sync, claims, leases, and state projections. Emise does not schedule, poll for pickup, or watchdog execution — that is the point of the system.
+
+## Write path — direct phext writes via SQ
+
+Will (2026-11-24 01:32 CST): *"I would rather you write phext directly, but apparently that's impossible"* — so the ledger's primary write path IS direct phext writes: SQ REST `update`/`insert` (`c` + `p` parameters, raw body) against a verified-live SQ host serving ledger.phext. Emise inscribes by SQ writes to her whole copy; nodes claim/attest by SQ writes to their shard hosts; qexo syncs the hosted phexts. The `ledger-source.json` + builder is **bootstrap/export fallback only**. Dependency, named: this path requires SQ health — write-roundtrip verified, not just reads — on each hosting node (Will's standing top-priority SQ rule); the SQ serving-instance flip queued in the ledger at `2.1.1/1.1.1/1.1.3` is on this path's critical line.
+
+## Builds are ranch work
+
+Will (2026-11-24 01:31 CST), verbatim: *"if you have to use a separate job to build phext from json... just have the ranch nodes do that too."* **General rule: any phext with a JSON source + builder is built node-side under qexo, never by a builder job on the hatch VM.** Emise authors/edits sources and makes SQ edits; ranch nodes compile sources into phext bytes. For ledger.phext itself: `ledger-source.json` syncs with the ledger; on sync, a node seeing a new source hash rebuilds the ledger with `build_ledger_phext.py`, verifies `--check` CURRENT, and adopts the built bytes, which propagate through shard sync. Emise's locally built copy is bootstrap only.
+
+## One task = six scrolls (design history — superseded by the ledger sketch)
+
+**Settled schema (authority: `~/workspace/phext/ledger.phext` Library 1):** one scroll per task in the queue region `2.1.1/1.1.1/1.1.N`, all fields (brief, authorization, state, claim, attestation, log lines) in-scroll; lease **12 EE**; shard = rolling polynomial over all 9 coordinate components mod fleet size. The six-scroll layout below is the pre-sketch design and is retained only as history — inscribe and read by the sketch.
+
+Task coordinate `T = a.b.c/d.e.f/g.h.i` occupies scrolls `i … i+5` at T's first eight components:
+
+| Offset | Scroll | Writer |
+|---|---|---|
+| `i` | brief (title, issued + EE, work, inputs with SHA-256, deliverable, artifact-home, acceptance) | Emise |
+| `i+1` | authorization (the authorization context, written at inscription — §Security posture) | Emise |
+| `i+2` | state (projection: state, claimed-by, lease fields, failures) | qexo only |
+| `i+3` | claim (empty while pending; the claim write is the atomicity point) | claiming node |
+| `i+4` | attestation (written once: outcome, EE stamps, artifact path + tailnet address, SHA-256, evidence) | executing node |
+| `i+5` | log (append-only event lines, EE-stamped, never erased) | claimant nodes + qexo |
+
+No sidecars; no JSON blobs in the phext. Every scroll is plain `key: value` text lines.
+
+## State machine
+
+```
+pending → claimed → running → attested-complete
+   ▲          │          ├────→ failed → pending (retry; failures + 1)
+   └──────────┴── lease expiry (4 EE, renewed per EE while running)
+failed × 3 → paused (auto-pause, qexo F5 precedent, 2026-11-14)
+```
+
+- **Lease:** 12 EE from claim, without a progress annotation (sketch settlement; EE = 7 min; EE 1 = 2026-11-22 00:00 CST = unix 1795327200). Expiry returns claimed/running tasks to `pending`; the expired claim is preserved in the log — never erased.
+- **Claim:** single-writer-by-claim. Only the shard host can claim a task on its shard, by writing the claim scroll it observed empty. First claim wins structurally; sync propagates whole scrolls from their single writer and never merges text.
+- **Rotation:** node `k` wakes each minute at `floor(k × 60 / 28)` seconds past the minute; per wake it lease-sweeps, syncs, claims at most the next pending task (lowest coordinate) on its shard, and enqueues it in its local on-node qexo queue (`~/qexo/queue/` on the node).
+- **Sync bound:** an attestation written on any node is visible in Emise's whole copy within one rotation — **60 seconds** per the sketch (node → hub aletheia-core → whole copy; sync pushes on write). Overruns are sync defects, logged with both EE stamps.
+
+## Emise's process — inscribing a task
+
+1. **Record first:** the task exists in tasks.phext (tasks-source.json + rebuild + `--check` CURRENT) before it is inscribed in the ledger — registration is intake, as always.
+2. **Mint the coordinate** from the work's words with the Singular task-coordinate tool (`~/workspace/custom-skills/singular/scripts/task_coordinate.py`), exactly as for tasks.phext.
+3. **Compute the shard** from the formula above; name it in the brief's `shard:` field.
+4. **Block check:** read the ledger TOC (`GET /api/v2/toc?p=ledger`); confirm scrolls `i … i+5` are unoccupied and no existing task block overlaps. On collision, re-mint with a distinguishing word from the brief — never overwrite.
+5. **Write the brief scroll** via SQ (`POST /api/v2/update?c=<T>&p=ledger`, brief text as raw body): title, issued stamp with EE, the work, a **closed declared input set** (node paths + tailnet addresses + SHA-256 — no unexpected inputs), deliverable, artifact-home (ranch node + path), and acceptance (the evidence the attestation must carry).
+6. **Write the authorization scroll** at `i+1` in the same pass: the direction this task executes, its scope, and any explicit exclusions. Inscription without its authorization scroll is an incomplete inscription — finish both before calling the task dispatched.
+7. **Read back both scrolls** (`GET /api/v2/select`) and verify byte-for-byte what was written. Then stop: pickup is the fleet's, on the rotation. Do not poll for claim, do not nudge nodes, do not run a watchdog over it.
+
+## Emise's process — reading results
+
+- **Attestations:** read the state scroll (`i+2`) for the live state and the attestation scroll (`i+4`) for the outcome. A complete attestation names the artifact's **node path + tailnet address**, its SHA-256, exit status, evidence, and claimed/started/completed EE stamps. Deliverables stay on the ranch; work from the address, not a copy.
+- **Visibility expectation:** if a task was executed, its attestation is in the whole copy within ≤ 2 minutes of being written on the node (§Sync bound). Absence past that bound is a sync defect to name as such — check the log scroll (`i+5`) for a bound-violation line before concluding anything about execution.
+- **Fold results back:** when an attestation lands, append the result (artifact address, hash, EE stamps) to the task's tasks.phext record and rebuild — the ledger is the transport, tasks.phext remains the register of record.
+- **Reading failure:** a `failed` state with `failures < 3` retries on its own — leave it alone. At `failures = 3` the task is `paused`: read all three preserved attestations in the log scroll, diagnose from them, and either re-inscribe the work as a new task (new coordinate; old coordinate named in the new brief) or clear the pause. Never delete a failed attestation, never reset a failure count by editing the state scroll — the state scroll is qexo's projection, not an editing surface.
+
+## Security posture
+
+- **No approval gates in the pickup path.** No per-task approval, no pickup-time permission check, no gate between a node's wake and its claim.
+- The authorization context travels **in the task**: Emise writes the authorization scroll at inscription time, from Will's actual direction. What Emise never inscribed does not exist for the fleet; what she inscribed carries its authority with it.
+- This posture is Will's explicit direction (2026-11-24), recorded in the design (§9) — not an omission.
+
+## Boundaries
+
+- Emise's only ledger surface is SQ against her whole copy. She never SSHes work to a node, never writes a shard directly, never edits another writer's scroll (claim, attestation, state).
+- Execution is node-resident and stage-checkpointed under the node's qexo work dir (`~/qexo/work/<task-coordinate>/`); nothing executes on this VM.
+- Open design questions (shard rebalancing, second-node attestation verification, ledger archival, payload limits, executor model, and others) are listed in `~/workspace/meta-dispatch/DESIGN.md` §10. They are **open** — do not treat any answer as settled until Will rules.
+- Sync of this skill to wbic16/emise-tools runs over git-over-SSH from a ranch node; from this VM (no GitHub credentials) that leg is pending, never faked.
+name: "meta-dispatch"
+title: "Meta-Dispatch — work into the ledger, artifacts back from the ranch"
+description: "Dispatch that does not use the Muse substrate: Emise inscribes tasks as six-scroll blocks (brief, authorization, state, claim, attestation, log) into her whole copy of ledger.phext via SQ; ranch nodes wake round-robin once a minute, claim the next pending task on their shard single-writer-by-claim under a 4-EE lease, execute node-resident, and attest back through the aletheia-core hub within a 2-minute sync bound, qexo managing all of it."
+category: "Work and knowledge"
+include_in_prompt: true
 # R&D Tracker — weave each paper into one world-model, as a delta
 
 Will posts random arXiv links; Emise weaves each into `~/workspace/research-tracker/research.phext` — one de-duplicated scientific world-model (charter est. 2026-11-05, Will → Emise; delta rule and Research Oracle added 2026-11-06). The tracker lives in side chat 882e61bb and the goal `r-d-tracker`. Edit the SCROLLS in `~/workspace/research-tracker/build_research_phext.py` and re-run it; verify coordinates with `~/workspace/phext/parse_phext.py`.

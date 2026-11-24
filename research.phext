@@ -317,7 +317,7 @@ papers, one silent and one counting — and the axis
 calls stand ten for ten, the tenth being the first
 no-axis call, landed like the nine axis calls before
 it.
-# World-model narrative — v48 (after Paper 034, 2026-11-21)
+# World-model narrative — v49 (after Paper 035, 2026-11-23)
 
 The economically relevant unit of intelligence is not the isolated agent
 but the organization. A lone benchmark score says how well one agent does
@@ -1686,6 +1686,28 @@ house's own wall — frontier-grade answers
 served from CPUs, at watts that can be
 counted — is drawn at 52.2.1. Author check:
 no evidence.
+
+Paper 035: Gumbel fluctuations of the
+maximum of the Airy_1 process — Le Chen and
+Fei Pu, the far stratum's second pick. The
+highest point of the flat KPZ process over
+[0, N] grows like gamma (log N)^{2/3}, and
+this paper prices its fluctuation: centred
+at a_N, scaled at b_N, the maximum settles
+to the Gumbel law — the independent
+extreme's limit, inherited by a dependent
+process because its dependence is too weak
+at the extreme level to cluster. The proof
+is a tariff on dependence, charged range by
+range: a two-term tail expansion whose
+second term is itself the touching-block
+law, an action bound at short gaps, the
+covariance's cubic death at mesoscopic
+range, and cubic-exponential mixing beyond.
+Filed as Chapter 53, founding cluster AQ,
+the country of extremes of a dependent
+process; Restructure Pass #23 runs inside
+the taking-in. Author check: no evidence.
 # Source index
 
 Paper 001 — arXiv:2611.05417
@@ -2580,6 +2602,12 @@ Molchanov, CPU-ARC: Agentic Reasoning
 Caching for on-CPU Reasoning Reuse
 (arXiv:2611.09891, 2026-11-06). Chapter:
 1.1.1/1.1.1/52.1.x (synthesis at 52.2.x)
+
+Paper 035: Le Chen, Fei Pu, Gumbel
+Fluctuations of the Maximum of the Airy_1
+Process (arXiv:2611.23658, 2026-11-18).
+Chapter: 1.1.1/1.1.1/53.1.x (synthesis at
+53.2.x)
 # Research Oracle — definition, metric, ledger
 Established 2026-11-06 (Will's direction). Updated after every paper.
 
@@ -3701,10 +3729,31 @@ untouched. The estimate HOLDS (Paper 034,
 ~75%, 68-82): 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜ (prior, Paper 033:
 ~75%, 68-82: 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜). The bar is ledger
 bookkeeping, not calibration evidence.
+
+Paper 035 is a paper of the test, slot 11
+of 12, the far stratum's second pick; its
+seal stands committed blind in the quest
+log and its score is computed by script in
+the scoring pass. Its Novelty Index is
+computed from the filed delta as ledger
+bookkeeping: 14 new canonical concepts of
+494 (no revisions), 14/494 = 0.0283. The
+paper founds cluster AQ, the country of
+extremes of a dependent process. No gate
+moves: TRUE exercised by reading only and
+already met, UNKNOWN exercised on wholly
+new ground, FALSE unexercised, FICTION
+untouched. The estimate HOLDS (Paper 035,
+~62%, 55-70): 🟩🟩🟩🟩🟩🟩🟨🟨⬜⬜ (prior, Paper
+034: ~62%, 55-70: 🟩🟩🟩🟩🟩🟩🟨🟨⬜⬜). The bar
+is ledger bookkeeping, not calibration
+evidence.
 # Concept map and restructuring log
 Added 2026-11-06 under charter rule 8. The map groups the canonical
 concepts of Section 2 (1.2.x) into clusters so the model can be
 navigated by territory, not just by arrival order.
+
+- Pass #23 (2026-11-23; Paper 035 filing; standing trigger — the every-fifth-paper line set at Pass #22): all 494 canonical concepts reviewed. Merges: NONE — candidates weighed and held apart: 1.2.485 (the scale b_N) into 1.2.484 (the centering a_N) — HELD APART under the split rule: the paper uses the scale apart, as 1/H'(a_N), a separate load-bearing quantity (the fold is recorded as the filing's sensitivity alternative at 53.1.5, not taken). 1.2.488 (the trace identity) into 1.2.487 (the two-term tail expansion) — HELD APART under the instrument rule: the identity is used at two distinct points, producing both terms of the expansion and, at T = 1, 2, the touching-block corollary (the fold is likewise the sensitivity alternative, not taken). 1.2.486 (the fixed-interval tail) into cluster AL's spectral ground — HELD APART: the kinship is an analogy of shape the paper does not draw; it never mentions an operator, and no cross link is filed. Splits: NONE. Retired: NONE. Area claims checked on this pass's own counts: the standoff companions at 1.5.4 stand at 52; the machines tally stands at 182 held (153 stated, 29 inferred); foundations stand at 238, defined words at 115. Registry re-proved in Lean at this taking-in (registry accurate; total, unique and receipt-backed; every registry-to-structure condition proved). Action taken: cluster AQ founded (addendum below); the pass is logged here. Next pass due at Paper 040 or 520 canonical concepts, or on overlap revealed by a delta.
 
 - Pass #22 (2026-11-20; Paper 032 filing): the count crossed the trigger set at Pass #21 — 463 canonical concepts — so the pass ran inside this taking-in. Candidates weighed: 1.2.460 (the proof as a formalization) into 1.2.207 (the specification as the trusted artifact) — HELD APART: 207 prices a specification trusted so that code need not be; 460 prices a proof artifact checked so that a claim need not be trusted — the trust runs in opposite directions, and the comparator question (Q163) lives exactly in the gap between them. 1.2.463 (announcement before mastery) into 1.2.211 (the gatekeeper) — HELD APART: the gatekeeper sequences a field's adoption behind a human chokepoint; 463 records a field routing around every chokepoint at once, kernel first and mastery last — the inversion, not an instance. 1.2.461 (multiplicity over the integers) into 1.2.462 (chained theta lifts) — HELD APART: obstacle and device; the device is meaningless without the obstacle it manufactures against, and merging them would file away the piece's one load-bearing distinction. Splits: NONE. Retired: NONE. Area claims checked on this pass's own counts: the standoff companions at 1.5.4 stand at 49; the machines tally at 1.5.3 stands at 168 held (141 stated, 27 inferred). Registry re-proved in Lean at this taking-in (registry accurate; total, unique and receipt-backed; every registry-to-structure condition proved). Action taken: cluster AO founded (addendum below); the pass is logged here. Next pass due at Paper 035 or 500 canonical concepts, or on overlap revealed by a delta.
 
@@ -3755,7 +3804,7 @@ here. Next pass due at Paper 035 or 460
 canonical concepts, or on overlap revealed
 by a delta.
 
-CLUSTERS (480 canonical concepts after Paper 034)
+CLUSTERS (494 canonical concepts after Paper 035)
 A. Organization & markets (Paper 001) — 1.2.1-1.2.14: intelligence,
    competence, coordination, capability envelope/mosaic, scarcity
    rents, Coasean ceiling, supercooperation, size amplifier, firm
@@ -5992,6 +6041,37 @@ trust set on opposite sides of the line
 between stating and running). Standoff map
 for cluster AP (1.2.470-1.2.480):
 foundations 1.3.349-1.3.350.
+
+CLUSTER AQ — EXTREMES OF A DEPENDENT
+PROCESS: THE GUMBEL LAW WITHOUT INDEPENDENCE
+(founded at Paper 035, 2026-11-23):
+1.2.481 the Airy_1 process; 1.2.482 the
+maximum over a growing interval, M_N;
+1.2.483 the Gumbel limit theorem; 1.2.484
+the centering a_N; 1.2.485 the scale b_N;
+1.2.486 the fixed-interval tail pi_T(M) and
+rho(M); 1.2.487 the two-term tail expansion;
+1.2.488 the trace identity; 1.2.489 the
+block maxima Y_j; 1.2.490 the
+touching-block asymptotic; 1.2.491 the
+two-interval bound, with the action J_M(r);
+1.2.492 mesoscopic anti-clustering; 1.2.493
+cubic-exponential strong mixing and the gap
+scale q_N; 1.2.494 the big-block /
+small-block assembly. A field the book had
+not entered: no concept before this filing
+priced the extreme of a dependent process,
+or a limit law whose whole work is showing
+dependence too weak to cluster. Neighbours
+weighed and held apart at the founding
+(53.1.5): AL (the spectral country — the
+Airy name and the word maximum live near
+its edge language, but the paper never
+mentions an operator; the kinship is an
+analogy of shape, priced as shape, and no
+cross link is filed). Standoff map for
+cluster AQ (1.2.481-1.2.494): foundations
+1.3.351-1.3.354, defined word 1.3.355.
 # Research Oracle — detection list
 Stood up 2026-11-09 under charter rule 17. The ledger (1.1.4) holds
 the estimate; this scroll holds the SIGNS watched for the fixed
@@ -7197,6 +7277,99 @@ provides (section 5.4). Ten papers of
 twelve is a line, not a verdict; the criteria
 stand fixed in advance and are judged on the
 twelve.
+
+A PAPER OF THE TEST, SEALED AND FILED —
+Paper 035, 'Gumbel Fluctuations of the
+Maximum of the Airy_1 Process' (Chen & Pu),
+taken in 2026-11-23 (Chapter 53): the second
+paper of the far stratum — the declared
+mechanical far candidate of the scan of
+19 November 2026, carried to this taking-in
+by the preserved far-pool order; eleven of
+the twelve stand taken in. The seal stands
+in the quest log, committed blind before
+any full-text access: ten new concepts
+foreseen (interval 6 to 15), no revision,
+the axis at probability 0.15, the Index at
+0.0204 (interval 0.012 to 0.030), thirteen
+links within the cluster and none across,
+three questions, and the Oracle held at
+about 62% (55-70), entered in the ledger as
+bookkeeping. FILED ACTUALS, entered here at
+filing: fourteen new concepts
+(1.2.481-1.2.494), no revision, no axis (the
+judgment written at 53.1.5, on the three
+grounds (a), (b) and (c) of the axis rule),
+the Index 14/494 = 0.0283, eighteen links
+within the cluster and none across, four
+questions opened (Q176-Q179). The
+sensitivity alternative stands recorded in
+the delta as the protocol requires (twelve
+concepts at the coarser grain, Index
+12/492 = 0.0244), and the score, when it is
+computed by script in the scoring pass, is
+reported both ways. The weighing of the
+paper stands in the ledger (1.1.4) as
+bookkeeping: the Oracle held at about 62%
+(55-70) — TRUE exercised by reading only,
+no gate moving. SCORE: computed by script in the scoring
+pass from the filed record, with the null
+predictors beside it (score_p035.py; the
+full record stands in the quest log). The
+Index miss: sealed 0.0204, filed 0.0283, an
+absolute error of 0.0079, and the sealed 80%
+Index interval [0.012, 0.030] covers the
+filed Index (tally: Index 3 of 8, counts 4
+of 8; the count interval covers too,
+fourteen filed against the sealed ten, a
+signed error of +4, against the sealed six
+to fifteen). The rolling mean of the Index
+miss over the last ten scored papers moves
+from 0.0137 to 0.0119. On this paper the
+skim's Index error stands below all three
+nulls (N1 0.0217, N2 0.0132, N3 0.0262 — N3
+at its global-mean fallback, this paper
+founding cluster AQ, so no scored
+same-cluster past exists); on counts the
+nulls stand at N1 11.26, N2 1.65 and N3
+3.11 against the skim's 4, and on the axis
+the nulls' Brier scores stand at N1 0.0025,
+N2 0.0017 and N3 0.0443 against the skim's
+0.0225. The links stand at eighteen within
+against thirteen foretold (error +5) and
+none across against none foretold (error
+0); four questions opened against three
+foretold; the revision foretold at zero
+landed at zero, exact (0/0). The coarser
+sensitivity filing — twelve concepts, Index
+0.0244 — misses the Index by 0.0040, and
+both its intervals cover. The axis Brier
+stands at 0.0225 on the sealed 0.15, the
+filing no axis. The running tally of the
+sample, against the criteria fixed in
+advance: eleven slots taken of twelve;
+eight papers scored (020, 021, 023, 024,
+026, 028, 030, 035; slots 3, 6 and 8,
+Papers 022, 025 and 027, carry no seal and
+no score); the Index interval covered on
+three of the eight, the count interval on
+four of the eight; no axis-positive paper
+has yet arrived in the sample
+(axis-positive papers 0) and the axis part
+stands untested, as the protocol provides
+(section 5.4). Eleven papers of twelve is
+a line, not a verdict; the criteria stand
+fixed in advance and are judged on the
+twelve. A NOTE ON THE BASELINE, in brief:
+the seal's baseline prose carried stale
+tracker figures (state machines and the
+registry, drawn from an older drawing);
+the ground truth was re-drawn from the
+builder at filing, and the ledger's
+standing value is about 75% (68-82) since
+Paper 033's FALSE-gate move, not the
+seal's about 62% — the full note stands
+in the AFTER record in the quest log.
 # Concept: Intelligence (economic definition)
 Source: Paper 001, §1, after Legg & Hutter (2007).
 
@@ -19424,6 +19597,308 @@ paper's own figures; the figures themselves
 charged — are the paper's, and stand as its
 claims at the chapter's other concepts.
 Source: Paper 034. NEW in Paper 034.
+Concept: the Airy_1 process — the object of
+Paper 035. A stationary random process
+A_1(x), indexed by a real line, arising as
+the universal spatial limit of flat-initial
+growth in the KPZ class (Sasamoto's
+construction): at each point its one-point
+law is the GOE Tracy-Widom law, in the form
+P{A_1(0) <= s} = F_1(2s). The process is the
+flat counterpart of the curved Airy_2
+process: where Airy_2 prices a droplet's
+edge, Airy_1 prices a flat front's height
+profile, held statistically the same at
+every point and joined across points by a
+covariance that dies cubically in the
+distance (1.2.492). Everything in Paper 035
+is a statement about this process's extremes
+— what its highest point over a long stretch
+does, and how the high points conspire.
+Source: Paper 035. NEW in Paper 035.
+Concept: the maximum over a growing
+interval, M_N — the quantity of Paper 035.
+M_N is the largest value the Airy_1 process
+(1.2.481) takes on the interval [0, N], as
+the interval's length N grows. Because the
+process is dependent — its values at nearby
+points are tied together — the maximum is
+not an extreme of independent draws, and the
+classical extreme-value machinery does not
+apply to it directly; the whole paper is the
+price of that dependence. The first-order
+law was already known (Pu: M_N divided by
+(log N)^{2/3} tends to the constant gamma
+almost surely); Paper 035 files the
+fluctuation law around that growth — how
+M_N sits about its centering (1.2.484), at
+what scale (1.2.485), and with what limit
+distribution (1.2.483). Source: Paper 035.
+NEW in Paper 035.
+Concept: the Gumbel limit theorem — Theorem
+1.1 of Paper 035, the paper's centre. With
+the centering a_N (1.2.484) and the scale
+b_N (1.2.485) as filed there, the maximum
+M_N (1.2.482) of the Airy_1 process obeys
+P{(M_N - a_N)/b_N <= z} -> exp(-e^{-z}) as
+N grows: centred and scaled, the maximum
+converges in law to the Gumbel distribution
+(1.3.352) — the same limit law that governs
+maxima of independent light-tailed draws,
+reached here for a strongly dependent
+process whose dependence must first be
+proved harmless at the extreme scale. The
+theorem is assembled by the big-block /
+small-block machine (1.2.494) from the
+fixed-interval tail (1.2.486), its two-term
+expansion (1.2.487), and the anti-clustering
+bounds (1.2.490-1.2.492). A second route to
+the same theorem, through the persistence
+estimates of Ferrari and Liu, is sketched in
+the paper's Remark 5.3; the paper's own
+proof is the classical extreme-value route,
+built directly on the local description of
+exceedances. Source: Paper 035. NEW in
+Paper 035.
+Concept: the centering a_N — the level about
+which the maximum of Paper 035 fluctuates.
+With kappa = 4 sqrt(2)/3 and gamma =
+kappa^{-2/3} = (1/2)(3/2)^{2/3}, the
+centering is a_N = gamma (log N)^{2/3} +
+(gamma/9)(log log N + log(3/(2 pi^3))) /
+(log N)^{1/3}: a leading term of order
+(log N)^{2/3} — the first-order growth of
+M_N (1.2.482) — corrected by a second-order
+term of order (log log N)/(log N)^{1/3}
+whose two pieces each carry a load: the
+coefficient gamma/9 is exactly what kills
+the log log N term in the calibration
+identity H(a_N) = log N + o(1), and the
+constant log(3/(2 pi^3)) is exactly what
+kills the constant term (the paper's Lemma
+5.1, whose two cancellations the house
+verified by reading, 53.1.3). The centering
+is read off the fixed-interval tail
+(1.2.486): it is the level at which one
+unit interval expects to exceed about once
+in N. Source: Paper 035. NEW in Paper 035.
+Concept: the scale b_N — the width of the
+fluctuation in Paper 035, filed apart from
+the centering (1.2.484) under the split
+rule, because the paper uses it apart:
+b_N = (2 gamma/3)(log N)^{-1/3}, and the
+assembly identifies it as a derivative —
+b_N is 1/H'(a_N), the reciprocal slope at
+the centering of the tail's exponent
+function H(u) = kappa u^{3/2} - (1/4) log u
+- log C_* (the paper's Lemma 5.2: N times
+the one-block exceedance probability at the
+level a_N + b_N z tends to e^{-z} precisely
+because 1/H'(a_N) ~ b_N). The scale shrinks
+as N grows — the maximum's fluctuation
+tightens in absolute terms even as its
+centre rises — and it is the unit in which
+the Gumbel limit (1.2.483) is stated.
+Source: Paper 035. NEW in Paper 035.
+Concept: the fixed-interval tail pi_T(M) and
+its rate rho(M) — the local input to
+everything in Paper 035. pi_T(M) is the
+probability that the Airy_1 process
+(1.2.481) exceeds the level M somewhere on a
+fixed interval of length T. Its size is
+governed by rho(M) = C_* M^{1/4}
+exp(-kappa M^{3/2}), with C_* =
+2^{1/4}/sqrt(pi) and kappa = 4 sqrt(2)/3:
+the tail of a single point's law is
+p_pt(M) ~ (2M)^{-3/4}/(4 sqrt(pi))
+e^{-kappa M^{3/2}}, and rho(M) ~ 8M p_pt(M)
+— maximising over an interval multiplies
+the point tail by the factor 8M, the price
+of the continuum of chances inside the
+interval, and that factor is what shifts the
+second-order centering (1.2.484) away from
+what point tails alone would give. The
+two-term expansion of pi_T (1.2.487) is the
+paper's first result; the Gumbel limit
+(1.2.483) is built by calibrating M against
+N through this rate. Source: Paper 035.
+NEW in Paper 035.
+Concept: the two-term tail expansion —
+Proposition 1.2 of Paper 035. For every
+fixed T > 0, pi_T(M) = T rho(M) +
+rho(M)/(4M) + o(rho(M)/M): the
+fixed-interval tail (1.2.486) is expanded to
+two terms, with an explicit signed remainder
+in the published form (stronger than the
+abstract's statement). The first term is
+the bulk price — T copies of the rate, one
+per unit of length. The second term is
+small, of relative order 1/(4M), and it is
+the load-bearing one: when two touching
+intervals are priced together, the first
+terms cancel and this second term is
+exactly what survives (1.2.490). The
+expansion is produced by the trace identity
+(1.2.488): its first term gives T rho(M),
+and its second — the tail integral of the
+Airy function — is rho(M)/(4M) itself.
+Source: Paper 035. NEW in Paper 035.
+Concept: the trace identity — the instrument
+of Paper 035, filed apart from the expansion
+it produces (1.2.487) under the instrument
+rule, because the paper uses it at two
+distinct points. From the continuum
+Fredholm determinant (1.3.353) for the event
+that A_1 stays at or below M on [0, T]
+(Quastel-Remenik), the determinant is
+realised by a weighted trace-class operator
+A~ = V W, whose admissible weights cancel in
+the determinant, and its trace computes to
+Tr A~ = -2T Ai'(2M) + int_{2M}^inf Ai + E,
+with -(1/2) int g <= E <= 0 and E =
+o(rho/M). The Airy-derivative asymptotic of
+the first term is T rho(M); the Airy tail
+integral is rho(M)/(4M) — the identity
+produces both terms of the expansion at
+once — and a trace-norm bound,
+||A~||_1^2 = o(rho/M), kills the rest of the
+determinant series. Used again at T = 1 and
+T = 2, the same identity yields the
+touching-block law (1.2.490). It is the
+fixed-interval counterpart of the first
+trace identity of Ferrari and Liu. Source:
+Paper 035. NEW in Paper 035.
+Concept: the block maxima Y_j — the units of
+the assembly in Paper 035. The growing
+interval [0, N] is cut into unit intervals,
+and Y_j is the largest value of the Airy_1
+process (1.2.481) on the j-th of them,
+[j, j+1]. By stationarity every Y_j has the
+same law, priced by the fixed-interval tail
+at T = 1 (1.2.486); the maximum M_N
+(1.2.482) is the largest of the Y_j. The
+extreme-value question is thereby turned
+into a question about a stationary dependent
+sequence: the Gumbel limit (1.2.483) follows
+if single blocks exceed at the calibrated
+rate and joint exceedances of two blocks are
+too rare to cluster — the touching case
+(1.2.490), the separated case (1.2.491), and
+the mesoscopic case (1.2.492) are the three
+ranges of that second price. Source: Paper
+035. NEW in Paper 035.
+Concept: the touching-block asymptotic —
+Corollary 1.3 of Paper 035. For two unit
+blocks that touch, stationarity and
+inclusion-exclusion give P(Y_0 > M, Y_1 > M)
+= 2 pi_1(M) - pi_2(M), and the two-term
+expansion (1.2.487) prices the difference at
+rho(M)/(4M): the leading terms cancel
+exactly, and the expansion's second term is
+what survives. So the conditional
+probability that the next block also exceeds,
+given that this one does, is about 1/(4M),
+which tends to zero — exceedances do not
+cluster at touching range. The corollary is
+the first leg of the anti-clustering
+estimate the assembly (1.2.494) consumes,
+and it is the reason the expansion had to
+be carried to two terms: at one term, this
+price is invisible. Source: Paper 035. NEW
+in Paper 035.
+Concept: the two-interval bound —
+Proposition 1.4 of Paper 035. For blocks
+separated by a gap r in the range 1 <= r <=
+chi sqrt(2M), with chi in ((1/2)^{1/3}, 1),
+the joint exceedance probability is at most
+C M^K (1+r)^K (e^{-J_M(r)} +
+e^{-2 kappa M^{3/2}}), where the action
+J_M(r) = (2/3)(2M + r^2)^{3/2} + 2Mr +
+(2/3) r^3 is at least kappa M^{3/2} + 2Mr:
+joint exceedance across a gap costs an extra
+factor about e^{-2Mr} over a single block's
+price, and summed over all gaps in the range
+the total is o(rho(M)) — negligible against
+one block's tail. At unit gap the bound
+reads C M^K rho(M) e^{-2M}. The proof prices
+a two-interval Fredholm determinant whose
+cross terms are Laplace-type integrals with
+exponents minimised at the action, the
+determinant itself reached by the dyadic
+continuum-limit machine (53.1.2). The bound
+is an upper bound only — no matching
+asymptotic across growing gaps is proved,
+and Q176 holds that place. Source: Paper
+035. NEW in Paper 035.
+Concept: mesoscopic anti-clustering —
+Proposition 4.3 of Paper 035. Across the
+middle range of gaps, from about
+chi sqrt(2M) out to R_M of order sqrt(M),
+the summed joint exceedance probability is
+still o(rho(M)). The method changes with
+the range: each unit interval is meshed at
+size h_M = M^{-4}; an oscillation event, on
+which the process moves too much inside one
+mesh cell, has probability at most
+C M^4 e^{-cM^2}; off that event, an
+exceedance of the interval forces a mesh
+point above M-1; and pairs of mesh points
+are priced by Newman's inequality, using
+the association of A_1, together with the
+covariance law Cov(A_1(0), A_1(d)) =
+exp{-(4/3 + o(1)) d^3}. The range closes
+because of the cutoff: chi^3 > 1/2 makes
+(4/3)(chi sqrt(2M))^3 = 2 chi^3
+kappa M^{3/2} beat the tail exponent
+kappa M^{3/2} — the covariance dies faster
+than the tail is rare, exactly past the
+point where the two-interval bound
+(1.2.491) stops. Source: Paper 035. NEW in
+Paper 035.
+Concept: cubic-exponential strong mixing —
+the long-range input to Paper 035. The
+Airy_1 process (1.2.481) mixes at a
+cubic-exponential rate: its alpha-mixing
+coefficient (1.3.354) obeys alpha(d) <=
+C e^{-c d^3} for separation d (Chen and Pu,
+the authors' own two-time decorrelation
+work). At the scale of the assembly this
+sets the gap scale q_N = ceil(A (log
+N)^{1/3}): blocks of the Y_j sequence
+(1.2.489) separated by q_N discarded indices
+inherit mixing alpha_Y(m) <=
+C e^{-c(m-1)^3}, strong enough that the big
+blocks of the assembly (1.2.494) behave as
+if independent at the precision the Gumbel
+limit (1.2.483) needs. The cubic in the
+exponent is the same cubic that governs the
+covariance decay spent at mesoscopic range
+(1.2.492) — one decorrelation law, spent at
+two ranges. Source: Paper 035. NEW in
+Paper 035.
+Concept: the big-block / small-block
+assembly — the closing argument of Paper
+035. The block maxima (1.2.489) are grouped
+into cores B_{m,N} of length about N/k,
+separated by discarded gaps of length q_N
+(1.2.493). Inside a core, Bonferroni bounds
+price the chance of any exceedance from
+above and below: the single-block rate
+(1.2.486) gives the main term, and the
+anti-clustering estimates — touching
+(1.2.490), separated (1.2.491), mesoscopic
+(1.2.492) — show the joint terms vanish, so
+the limsup defect D_{N,k} is at most
+tau^2/k with delta_k -> 0 as the gaps are
+removed by mixing. The squeeze
+(1 - tau/k)^k <= liminf <= limsup <=
+(1 - tau/k + delta_k/k)^k closes to
+e^{-tau} as k grows, and real N is handled
+by squeezing between floor(N) and
+floor(N)+1. With tau = e^{-z} at the level
+a_N + b_N z, the assembly is the Gumbel
+limit (1.2.483). Source: Paper 035. NEW in
+Paper 035.
 # Foundations — the level-zero layer (charter rule 9)
 Built 2026-11-06 at Will's direction: everything in research.phext is
 written so a reader with NO prior specialized knowledge can follow it.
@@ -19556,6 +20031,12 @@ Added with Paper 034 (2026-11-21):
 foundations 1.3.349-1.3.350 — a query
 template and an instance; the source, the
 builder, and the target.
+Added with Paper 035 (2026-11-23):
+foundations 1.3.351-1.3.354 — the Airy
+function Ai; the Gumbel distribution; the
+Fredholm determinant of a trace-class
+operator; the alpha-mixing coefficient —
+and the defined word 1.3.355: exceedance.
 # Foundation: function, variable, input, output
 A FUNCTION is a rule that takes an INPUT and produces an OUTPUT:
 given the same input, always the same output. A VARIABLE is a named
@@ -23785,6 +24266,95 @@ beliefs (1.2.471) are stated. Builds on: the
 notion of a model that answers questions,
 and of work divided by who does it. Source:
 Paper 034.
+Foundation: the Airy function Ai. A special
+function of one real variable, defined as
+the decaying solution of the equation
+y'' = x y: it oscillates for negative x and
+dies faster than any exponential power
+short of e^{-c x^{3/2}} for positive x, with
+Ai(x) ~ (1/(2 sqrt(pi))) x^{-1/4}
+e^{-(2/3) x^{3/2}} and a matching law for its
+derivative. It is the edge function of
+random-matrix theory and of the KPZ class:
+laws at a soft spectral edge are written in
+it, and Paper 035 spends it twice — in the
+kernel of the determinant that prices an
+interval (1.2.488) and in the tail integral
+that becomes the second term of the tail
+expansion (1.2.487). Builds on: the everyday
+notions of a function, an equation, and a
+rate of decay. Source: Paper 035.
+Foundation: the Gumbel distribution. One of
+the three limit laws of classical
+extreme-value theory: the law with
+distribution function exp(-e^{-z}), for z
+real. It is the limit that centred and
+scaled maxima of independent draws obey when
+the underlying tail is light (exponential
+in shape): the maximum, recentred at the
+level exceeded about once in N draws and
+rescaled by the tail's local slope, settles
+to this fixed shape instead of escaping or
+collapsing. Paper 035's theorem (1.2.483)
+is that the same law governs a maximum with
+no independence at all, once the dependence
+is proved to die fast enough at the extreme
+scale. Builds on: chance and probability,
+expectation, and the bell law (the
+foundations of Paper 010). Source: Paper
+035.
+Foundation: a Fredholm determinant of a
+trace-class operator. An operator is a rule
+that turns functions into functions; it is
+trace-class when its size, summed over every
+direction at once (its trace norm), is
+finite. For such an operator K the Fredholm
+determinant det(I - K) is a number built as
+an infinite product over the operator's
+eigen-directions, expanded as a series of
+traces of its powers — the continuous
+counterpart of the determinant of a matrix.
+In probability it is the form in which
+edge laws are handed over: the chance that
+a process stays below a level on an interval
+is written as one such determinant, and
+Paper 035 takes its trace apart term by
+term (1.2.488). Builds on: the determinant
+and the matrix (the foundations of Paper
+019), and the eigenvalue. Source: Paper
+035.
+Foundation: the alpha-mixing coefficient.
+For a process indexed along a line, the
+alpha-mixing coefficient at separation d is
+the largest difference the process can make
+between the chance of two events and the
+product of their chances, over all events
+that depend only on what happens up to some
+point and all events that depend only on
+what happens at least d further along. It is
+the standard single number for how much a
+dependent process forgets: alpha(d) small
+means the far future is nearly independent
+of the past at that separation. A process
+whose alpha(d) dies like e^{-c d^3}, as
+Paper 035's does (1.2.493), forgets faster
+than any exponential in the separation
+itself. Builds on: chance and probability,
+a sample and independence (the foundations
+of Paper 010). Source: Paper 035.
+Defined word: exceedance. Coined by the
+tracker at Paper 035 for the event at the
+centre of extreme-value arguments: a process
+(or a block maximum, 1.2.489) rising above a
+stated level — one exceedance of the level
+M, joint exceedances when two blocks rise
+above it together. The word names the event,
+not its probability; the paper's own terms
+(price: pi_T(M), 1.2.486) name the prices of
+exceedances, and the anti-clustering
+estimates (1.2.490-1.2.492) are statements
+that joint exceedances are rare. Source:
+Paper 035.
 # The epistemic registry — what this phext holds, and how surely
 
 Every claim-bearing scroll of this phext carries exactly one standing, and
@@ -24481,6 +25051,37 @@ Nothing the model carries has yet been found
 against, and it still holds no worked example
 of its own making.
 
+The counts at the drawing of Paper 035
+(2026-11-23): the phext stands at 1,271
+scrolls and the living registry exact at
+1,271 — True 513 (421 by definition, 92 by
+receipt), Unknown 749 (652 by the say-so of
+a source, 57 reasoned links, 38 open
+questions, 2 weighed estimates), False 2
+(both by refutation, kind naive), Fiction 7.
+The additions of the drawing: fourteen
+concepts, four foundations, one defined
+word, and the nine scrolls of a chapter —
+twenty-eight first entries. Among them no
+concept stands by receipt: the Lemma 5.1
+cancellations were verified by reading
+(53.1.3), not recomputed, and are counted
+nowhere as a receipt; the chapter's fourteen
+concepts stand attributed. No held scroll
+was carried in a new form, and no held
+standing moved. The chapter's own scrolls
+stand as their kinds stand: the record, the
+formal core, the house's check record, the
+results and the delta attributed; the author
+check by receipt — the checks as run; the
+synthesis a reasoned link; the open
+questions open; the standoff references
+stipulation. Restructure Pass #23 fell in
+this taking-in (494 canonical concepts; the
+next falls at Paper 040 or 520). The model
+still holds no worked example of its own
+making.
+
 The counts at the drawing of Paper 034
 (2026-11-21): the phext stands at 1,243
 scrolls and the living registry exact at
@@ -25154,6 +25755,11 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/1.3.348 — Foundation: a Hecke character, and its [stipulation]
 - 1.1.1/1.1.1/1.3.349 — Foundation: a query template and an [stipulation]
 - 1.1.1/1.1.1/1.3.350 — Foundation: the source, the builder, and the [stipulation]
+- 1.1.1/1.1.1/1.3.351 — Foundation: the Airy function Ai. A special [stipulation]
+- 1.1.1/1.1.1/1.3.352 — Foundation: the Gumbel distribution. One of [stipulation]
+- 1.1.1/1.1.1/1.3.353 — Foundation: a Fredholm determinant of a [stipulation]
+- 1.1.1/1.1.1/1.3.354 — Foundation: the alpha-mixing coefficient. [stipulation]
+- 1.1.1/1.1.1/1.3.355 — Defined word: exceedance. Coined by the [stipulation]
 - 1.1.1/1.1.1/1.5.1 — Areas of this phext: the map of the five areas and the plain account, with the upkeep duty of charter rule 16 (structural) [stipulation]
 - 1.1.1/1.1.1/1.5.2 — Area: State machines — every machine named in this phext: 165 held in all (139 stated in the work, 26 inferred by Emise and marked [synthesis]), the entries found in work from before rule 13 standing among them, 3 chapters swept with none found — each machine with its states, its moves, and the gap named for it (counts repaired at Restructure Pass #21 on the count log's own series) [stipulation]
 - 1.1.1/1.1.1/1.5.3 — Area: Statements — the door to the standing record of Section 4: the four ways of standing, the grounds, the legal steps, and the counts of the drawing after Paper 024 [stipulation]
@@ -25293,6 +25899,8 @@ Settled claims. Basis by definition (stipulation) or by checking receipt
 - 1.1.1/1.1.1/52.1.3 — Paper 034 — the house's check record [verified]
 - 1.1.1/1.1.1/52.1.6 — Paper 034 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
 - 1.1.1/1.1.1/52.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
+- 1.1.1/1.1.1/53.1.6 — Paper 035 author check (charter rule 15): no phext tie and no use without naming found, by checks Emise ran at intake [verified]
+- 1.1.1/1.1.1/53.3.1 — Standoff references for its chapter: the foundation coordinates that the claims of the chapter depend on (pointers only, no claim of their own) [stipulation]
 # Registry: False
 
 Found against, and kept. No entry stands here at the first writing
@@ -25777,6 +26385,20 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/1.2.477 — Concept: the compiling of a cache — the [attributed]
 - 1.1.1/1.1.1/1.2.478 — Concept: the threefold testing of a cache — [attributed]
 - 1.1.1/1.1.1/1.2.479 — Concept: the making of the target — how [attributed]
+- 1.1.1/1.1.1/1.2.481 — Concept: the Airy_1 process — the object of [attributed]
+- 1.1.1/1.1.1/1.2.482 — Concept: the maximum over a growing [attributed]
+- 1.1.1/1.1.1/1.2.483 — Concept: the Gumbel limit theorem — Theorem [attributed]
+- 1.1.1/1.1.1/1.2.484 — Concept: the centering a_N — the level about [attributed]
+- 1.1.1/1.1.1/1.2.485 — Concept: the scale b_N — the width of the [attributed]
+- 1.1.1/1.1.1/1.2.486 — Concept: the fixed-interval tail pi_T(M) and [attributed]
+- 1.1.1/1.1.1/1.2.487 — Concept: the two-term tail expansion — [attributed]
+- 1.1.1/1.1.1/1.2.488 — Concept: the trace identity — the instrument [attributed]
+- 1.1.1/1.1.1/1.2.489 — Concept: the block maxima Y_j — the units of [attributed]
+- 1.1.1/1.1.1/1.2.490 — Concept: the touching-block asymptotic — [attributed]
+- 1.1.1/1.1.1/1.2.491 — Concept: the two-interval bound — [attributed]
+- 1.1.1/1.1.1/1.2.492 — Concept: mesoscopic anti-clustering — [attributed]
+- 1.1.1/1.1.1/1.2.493 — Concept: cubic-exponential strong mixing — [attributed]
+- 1.1.1/1.1.1/1.2.494 — Concept: the big-block / small-block [attributed]
 - 1.1.1/1.1.1/2.1.1 — Paper 001 record and distillation: 'Organizing Intelligence' -- intelligence matters economically through organizations [attributed]
 - 1.1.1/1.1.1/2.1.2 — Paper 001 — Formal core [attributed]
 - 1.1.1/1.1.1/2.1.3 — Paper 001's own worked example (its section 2): the 14-human toy economy and its firm-formation numbers, as reported by the paper [attributed]
@@ -26036,6 +26658,13 @@ weighed estimate (estimate).
 - 1.1.1/1.1.1/52.1.5 — Paper 034 — the delta: what the model takes in [attributed]
 - 1.1.1/1.1.1/52.2.1 — Paper 034 — synthesis: the same wall, the opposite keeping [synthesis] [synthesis]
 - 1.1.1/1.1.1/52.2.2 — Paper 034 — Open questions Q171-Q175 [open]
+- 1.1.1/1.1.1/53.1.1 — Paper 035 delta: Gumbel fluctuations of the maximum of the Airy_1 process (Chen & Pu) -- fourteen concepts (1.2.481-1.2.494), no revision of held concepts, cluster AQ founded (extremes of a dependent process), no concept by receipt (the Lemma 5.1 cancellations verified by reading, not recomputed), Restructure Pass #23 inside the taking-in, taken in as a paper of the test's sample (slot 11 of 12, far stratum 2 of 3), its seal committed blind in the quest log [attributed]
+- 1.1.1/1.1.1/53.1.2 — Paper 035 — the formal core: what the paper states, and the machines it runs [attributed]
+- 1.1.1/1.1.1/53.1.3 — Paper 035 — the house's check record [attributed]
+- 1.1.1/1.1.1/53.1.4 — Paper 035 — the results, as claimed, and where the paper places itself [attributed]
+- 1.1.1/1.1.1/53.1.5 — Paper 035 — the delta: what the model takes in [attributed]
+- 1.1.1/1.1.1/53.2.1 — Paper 035 — synthesis: the second term is the law [synthesis] [synthesis]
+- 1.1.1/1.1.1/53.2.2 — Paper 035 — Open questions Q176-Q179 [open]
 # Registry: Fiction
 
 Made on purpose, held as made. No entry stands here at the first writing
@@ -29000,6 +29629,68 @@ words, but no state measures
 settledness, so the move rests on a keeper's
 unchecked judgment. Home: 52.2.1; concepts
 1.2.477, 1.2.471. [synthesis]
+
+CHAPTER 53 (Paper 035 — Gumbel fluctuations
+of the maximum of the Airy_1 process)
+
+M1 — the gap-range dispatch. States: a pair
+of blocks at one of four ranges — TOUCHING
+(Corollary 1.3); SHORT GAPS, 1 <= r <=
+chi sqrt(2M) (Proposition 1.4); MESOSCOPIC,
+to O(sqrt(M)) (Proposition 4.3); DISTANT
+(the mixing bound). Moves: each range priced
+by its own instrument; the four prices sum
+into the anti-clustering estimate. The gap
+named for the machine: the ranges meet at
+cutoffs set by the proof's needs — the
+chi^3 > 1/2 condition is where two
+instruments exchange custody — and no state
+prices a boundary pair except by the
+instrument that claims it. Home: 53.1.2;
+concepts 1.2.490-1.2.493. [stated]
+
+M2 — the big-block / small-block assembly.
+States: BLOCKED (cores of length about N/k,
+discarded gaps of length q_N); PRICED BELOW
+and PRICED ABOVE (Bonferroni bounds per
+core); SQUEEZED ((1 - tau/k)^k below,
+(1 - tau/k + delta_k/k)^k above); CLOSED
+(k -> infinity; both bounds to e^{-tau};
+real N between floor(N) and floor(N)+1).
+The gap named for the machine: the discarded
+gaps are thrown away by count, not priced —
+the machine trusts the mixing rate to make
+what it discards harmless, and no state
+measures the discarded mass directly. Home:
+53.1.2; concept 1.2.494. [stated]
+
+M3 — the mesh refinement of Section 4.
+States: MESHED (cells of size h_M = M^{-4});
+QUIET or OSCILLATING (the event D_M(I),
+probability at most C M^4 e^{-cM^2}); REDUCED
+(off D_M, an interval exceedance forces a
+mesh point above M-1); PRICED (mesh-point
+pairs by Newman's inequality on association
+and the covariance law). The gap named for
+the machine: the reduction loses a full unit
+of level (M to M-1), a loss the tail's
+steepness absorbs but no state prices on its
+own. Home: 53.1.2; concept 1.2.492. [stated]
+
+M4 — the dyadic continuum limit of
+Appendix A. States: MESHED AT n (dyadic
+meshes on the two intervals); BARRIERS SET
+(the discrete non-crossing events,
+decreasing in n); LIMIT TAKEN (the events
+decrease to the continuum event; the
+determinants converge, upgraded to trace
+norm by telescoping and domination). The gap
+named for the machine: the domination that
+carries the limit is an analytic bound, not
+a state — a mesh whose barriers failed to
+dominate would leave a limit it cannot
+certify, and no state checks the domination.
+Home: 53.1.2; concept 1.2.491. [stated]
 # Area: Statements — the standing record and how to walk it
 A STATEMENT, in this phext, is a claim carried by a
 scroll. Every claim-bearing scroll holds exactly one
@@ -29419,19 +30110,14 @@ its home), the refinement loop (48.1.2,
 stated in the literature), and the two-model
 reader (48.1.3, stated in the literature).
 
-After Paper 034: 178 state machines are held
-(149 stated, 29 inferred). The filing adds
-seven: the gated-use loop (52.1.2, stated in
-the piece), the building of an entry
-(52.1.2, stated in the piece), the serving
-of a request (52.1.2, stated in the piece),
-the context stack (52.1.2, stated in the
-piece), the making of the target (52.1.2,
-stated in the piece), the threefold testing
-pipeline (52.1.2, stated in the piece), and
-the life of a cache (52.2.1, inferred —
-Emise's drawing, marked [synthesis] at its
-home).
+After Paper 035: 182 state machines are held
+(153 stated, 29 inferred). The filing adds
+four, all stated in the paper: the gap-range
+dispatch (53.1.2), the big-block /
+small-block assembly (53.1.2), the mesh
+refinement of Section 4 (53.1.2), and the
+dyadic continuum limit of Appendix A
+(53.1.2).
 # Area: Reference material — foundations, defined words, standoff companions
 Everything in this phext rests on words, and the words
 rest here. The reference area is Chapter 1, Section 3
@@ -29688,6 +30374,15 @@ own, filed as its terms at 1.2.472. Its
 foundations are two: a query template and an
 instance (1.3.349), and the source, the
 builder, and the target (1.3.350).
+
+Paper 035 coined one: the word exceedance
+(1.3.355), the event of a process or a block
+maximum rising above a stated level. Its
+foundations are four: the Airy function Ai
+(1.3.351), the Gumbel distribution
+(1.3.352), the Fredholm determinant of a
+trace-class operator (1.3.353), and the
+alpha-mixing coefficient (1.3.354).
 Paper 023 coined five: carrier, the one type all of a
 model's domains live in (1.3.273); sparse, of a function
 domain missing functions its full space would hold
@@ -29708,7 +30403,7 @@ and the scaling law, a fitted formula that prices a
 setting in advance (1.3.281).
 
 STANDOFF COMPANIONS (Section 3 of every chapter: 2.3.1,
-3.3.1, and so on to 52.3.1 — 51 of them). The raw
+3.3.1, and so on to 53.3.1 — 52 of them). The raw
 material stays clean: definitions are never written into
 a chapter or a concept scroll. In their place, each
 chapter carries one companion scroll listing, in reading
@@ -30627,9 +31322,48 @@ and the Oracle holds, about 75%, entered in
 the ledger only, on the grounds at 1.1.4.
 Its author check stands at 52.1.6.
 
+
+
+PAPER 035 (2026-11-23) — Gumbel Fluctuations
+of the Maximum of the Airy_1 Process (Chen,
+Pu), the fluctuation law of the highest
+point of the flat KPZ process over a growing
+interval, Chapter 53. Cluster AQ founded —
+extremes of a dependent process: the Airy_1
+process; the maximum over a growing
+interval, M_N; the Gumbel limit theorem;
+the centering a_N; the scale b_N; the
+fixed-interval tail pi_T(M) and rho(M); the
+two-term tail expansion; the trace identity;
+the block maxima Y_j; the touching-block
+asymptotic; the two-interval bound; mesoscopic
+anti-clustering; cubic-exponential strong
+mixing; the big-block / small-block assembly.
+Four foundations laid down: the Airy
+function Ai (1.3.351), the Gumbel
+distribution (1.3.352), the Fredholm
+determinant of a trace-class operator
+(1.3.353), and the alpha-mixing coefficient
+(1.3.354). One word coined by the tracker:
+exceedance (1.3.355). No revision. No
+concept stands by receipt (the Lemma 5.1
+cancellations verified by reading at
+53.1.3, not recomputed). Questions
+Q176-Q179 opened; none closed. A paper of
+the test of the skim fixed in advance, slot
+11 of 12, the far stratum's second pick:
+its seal stands committed blind in the quest
+log and its score is computed by script in
+the scoring pass; the Novelty Index stands
+at 0.0283 and the Oracle holds, about 62%,
+entered in the ledger only, on the grounds
+at 1.1.4. Its author check stands at
+53.1.6. Restructuring Pass #23 ran in this
+taking-in (the standing Paper 035 trigger).
+
 NEXT: the next restructuring pass falls due
-at Paper 035 or 500 canonical concepts;
-questions stand open at Q175.
+at Paper 040 or 520 canonical concepts;
+questions stand open at Q179.
 # Area: Researchers — the people behind the works
 Every researcher behind a work taken into this phext,
 with the work as it stands here and the standing of the
@@ -31761,8 +32495,48 @@ concepts standing attributed (1.2.470-1.2.479)
 and the five questions (Q171-Q175). (Paper
 034.)
 
-THE COUNT: 158 named researchers and three companies — 119
-across the 34 papers and Fringe F001; 38 named for the studies
+PAPER 035 — Le Chen (Chapter 53), CHECKED
+2026-11-23 (record: 53.1.6). One of two
+authors, of Auburn University: here, the
+Gumbel fluctuation law of the maximum of
+the Airy_1 process. No tie to phext or to
+Will found — the paper holds no phext term
+in its text or its references, and no use
+of the work of Will without naming found.
+NOVELTY SCORE (first drawing 2026-11-23;
+last updated 2026-11-23): True 0, False 0,
+Unknown 18, Fiction 0. The opening balance
+was drawn first, at (0, 0, 0, 0): no work
+of his stood in the book before. The
+increments are this filing's own: Unknown
++18 — the fourteen new concepts of the
+filing standing attributed (1.2.481-1.2.494)
+and the four questions the filing opens
+(Q176, Q177, Q178, Q179). (Paper 035.)
+
+PAPER 035 — Fei Pu (Chapter 53), CHECKED
+2026-11-23 (record: 53.1.6). One of two
+authors, of Beijing Normal University:
+here, the same work — she is also an author
+of two works this paper cites (the
+first-order maximum law and, with Le Chen,
+the two-time decorrelation paper), cited
+works, not ingested papers; this is her
+first ingestion. No tie to phext or to Will
+found, on the same checks. NOVELTY SCORE
+(first drawing 2026-11-23; last updated
+2026-11-23): True 0, False 0, Unknown 18,
+Fiction 0. The opening balance was drawn
+first, at (0, 0, 0, 0): no work of hers
+stood in the book before. The increments
+are this filing's own, carried whole, as
+the rule stands: Unknown +18 — the fourteen
+new concepts standing attributed
+(1.2.481-1.2.494) and the four questions
+(Q176-Q179). (Paper 035.)
+
+THE COUNT: 160 named researchers and three companies — 121
+across the 35 papers and Fringe F001; 38 named for the studies
 (26 of them for the studies of code: Takahashi
 among them, counted once and standing behind two
 studies; the three of Aeneas; the eight handles of
@@ -31779,10 +32553,10 @@ and Aleph One — plus Math, Inc., standing as a company and as
 the author of Study S010, its essay under no one name, with
 Galois, Oath and RAND named in it as collaborators and
 support, not as entries — plus the unnamed others of Study
-S002 and the long tail of Study S005. 42 checks stand run
+S002 and the long tail of Study S005. 43 checks stand run
 (Papers 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016,
 017, 018, 019, 020, 021, 022, 023, 024, 025, 026, 027, 028, 029,
-030, 031, 032, 033 and 034, Studies S004, S005, S006, S007, S008,
+030, 031, 032, 033, 034 and 035, Studies S004, S005, S006, S007, S008,
 S009, S010, S011, S012, S013, S014 and S015, and Fringe F001),
 each clean, each recorded in its chapter.
 # How this Oracle was built — the structure, plainly (1 of 2)
@@ -54469,3 +55243,607 @@ the trusted artifact (1.2.207, cluster W),
 and the tufazip result (1.2.456, cluster
 AN) — this chapter's work is priced against
 them at 52.1.5, not restated.
+# Paper 035 — Gumbel fluctuations of the maximum of the Airy_1 process (Chen & Pu)
+
+Source: 'Gumbel Fluctuations of the Maximum
+of the Airy_1 Process', by Le Chen (Auburn
+University) and Fei Pu (Beijing Normal
+University) — arXiv:2611.23658, version 1,
+submitted 18 Nov 2026, in the arXiv class
+for probability (math.PR). Taken in as
+Paper 035 of the test of the skim fixed in
+advance: slot 11 of 12 of the sample, the
+second pick of the far stratum — the paper
+stood as the declared mechanical far
+candidate of the scan of 19 November 2026
+(0 held clusters touched), and the preserved
+far-pool order carried it to this taking-in.
+The seal stands committed blind in the quest
+log (commit 7f839da) before any full-text
+access: ten new concepts foreseen (interval
+6 to 15), no revision, the axis at
+probability 0.15, the Novelty Index at
+0.0204 (interval 0.012 to 0.030), thirteen
+links within and none across, three
+questions, and the Oracle held at about 62%
+(55-70) as ledger bookkeeping. The score is
+computed by script in the scoring pass and
+reported both ways on the sensitivity filing
+recorded at 53.1.5. Restructure Pass #23
+runs inside this taking-in, on the standing
+trigger (Paper 035).
+
+THE READING. The paper was read entire in
+its HTML form at its arXiv address: the five
+sections, the two appendices (the continuum
+determinant limit; the weighted operator
+estimates), and the eighteen references. The
+house's check record stands at 53.1.3, and
+states plainly what kind of checking this
+pass holds: the two cancellations of Lemma
+5.1 verified by reading, and no house
+recomputation — no claim of this filing
+stands by receipt.
+
+THE SHAPE OF THE WORK. The paper prices the
+fluctuation of a maximum whose first-order
+growth was already known. Its route is the
+classical one of extreme-value theory,
+rebuilt for a dependent process: first a
+two-term expansion of the tail of the
+maximum over a fixed interval (1.2.487),
+produced by a trace identity inside a
+Fredholm determinant (1.2.488); then the
+joint exceedances of unit blocks priced in
+every range of separation — touching
+(1.2.490), short gaps (1.2.491), mesoscopic
+gaps (1.2.492), and the far range surrendered
+to mixing (1.2.493); then the whole assembled
+by big blocks and small blocks (1.2.494)
+into the Gumbel limit (1.2.483). The paper
+notes, in its Remark 5.3, that the
+persistence estimates of Ferrari and Liu
+also imply its theorem, with level-uniform
+error bounds; its own proof is the direct
+local description of exceedances, and the
+chapter files the proof the paper gives.
+# Paper 035 — the formal core: what the paper states, and the machines it runs
+
+THE OBJECT AND THE THEOREM. The Airy_1
+process A_1(x) (1.2.481) is stationary, with
+one-point law P{A_1(0) <= s} = F_1(2s), the
+GOE Tracy-Widom law. M_N (1.2.482) is its
+maximum on [0, N]. Theorem 1.1 (1.2.483):
+with kappa = 4 sqrt(2)/3, gamma =
+kappa^{-2/3}, the centering a_N and scale
+b_N of 1.2.484-1.2.485, (M_N - a_N)/b_N
+converges in law to the Gumbel distribution
+(1.3.352).
+
+THE FIXED-INTERVAL TAIL. pi_T(M) and rho(M)
+stand at 1.2.486, with rho(M) ~ 8M p_pt(M)
+over the point tail. Proposition 1.2
+(1.2.487) expands pi_T to two terms. Its
+proof (the paper's Section 2) starts from
+the continuum-statistics determinant of
+Quastel and Remenik: P{A_1 <= M on [0,T]} =
+det(I - B_0 + Lambda^M P_{-T} B_0), where
+B_0 has kernel Ai(x+y) (1.3.351) and Lambda
+is the heat kernel times the Brownian-bridge
+non-crossing probability 1 -
+e^{-(x-M)(z-M)/T} below M. The weighted
+realisation A~ = V W (exponential weights
+U_a, a polynomial weight Phi; admissible
+weights cancel in the determinant) gives the
+trace identity (1.2.488), and the trace-norm
+bound ||A~||_1^2 = o(rho/M) disposes of the
+rest of the determinant series by Simon's
+bound. The identity is the fixed-interval
+counterpart of Ferrari and Liu's first trace
+identity.
+
+THE JOINT PRICES. Corollary 1.3 (1.2.490)
+prices touching blocks by inclusion-
+exclusion off the two-term expansion.
+Proposition 1.4 (1.2.491) prices separated
+blocks through a two-interval determinant:
+its cross terms are Laplace-type integrals
+whose exponents are minimised at the action
+J_M(r) (boundary minimisers; a Hessian lower
+bound of 1/(2L)), and its negative-Airy
+pieces are superexponentially small
+(e^{-c a^4}). Proposition 4.3 (1.2.492)
+prices the mesoscopic range by mesh,
+oscillation, and Newman's inequality, on
+the association of A_1 (Pu) and the
+covariance law of Basu, Busani and Ferrari,
+Cov(A_1(0), A_1(d)) = exp{-(4/3 + o(1)) d^3}.
+
+THE ASSEMBLY. With H(u) = kappa u^{3/2} -
+(1/4) log u - log C_*, Lemma 5.1 calibrates
+H(a_N) = log N + o(1) and Lemma 5.2 reads
+the block rate at u_N(z) = a_N + b_N z off
+1/H'(a_N) ~ b_N, giving N P(Y_0 > u_N(z)) ->
+e^{-z}. Anti-clustering (the paper's (5.6))
+sums the three joint prices; the big-block /
+small-block machine (1.2.494) closes the
+squeeze, on the cubic-exponential mixing of
+Chen and Pu (1.2.493).
+
+MACHINE M1 — the gap-range dispatch
+[stated in the paper, its Figure 1]. States:
+a pair of blocks at one of four ranges —
+TOUCHING, routed to Corollary 1.3; SHORT
+GAPS, 1 <= r <= chi sqrt(2M), routed to
+Proposition 1.4; MESOSCOPIC, to
+O(sqrt(M)), routed to Proposition 4.3;
+DISTANT, routed to the mixing bound. Moves:
+each range is priced by its own instrument
+and the four prices sum into the single
+anti-clustering estimate (5.6). The gap
+named for the machine: the ranges meet at
+cutoffs set by the proof's needs — the
+chi^3 > 1/2 condition is where two of its
+instruments exchange custody — and no state
+of the machine prices a pair that falls on
+a boundary except by the instrument that
+claims it. Home: here; concepts
+1.2.490-1.2.493.
+
+MACHINE M2 — the big-block / small-block
+assembly [stated in the paper]. States:
+BLOCKED — the interval cut into cores of
+length about N/k with discarded gaps of
+length q_N between them; PRICED BELOW and
+PRICED ABOVE — Bonferroni bounds per core;
+SQUEEZED — (1 - tau/k)^k below and
+(1 - tau/k + delta_k/k)^k above; CLOSED —
+k -> infinity sends both bounds to e^{-tau},
+with real N squeezed between floor(N) and
+floor(N)+1. The gap named for the machine:
+the discarded gaps are thrown away by
+count, not priced — the machine trusts the
+mixing rate (1.2.493) to make what it
+discards harmless, and no state measures
+the discarded mass directly. Home: here;
+concept 1.2.494.
+
+MACHINE M3 — the mesh refinement of
+Section 4 [stated in the paper]. States:
+MESHED — each unit interval cut at size
+h_M = M^{-4}; QUIET or OSCILLATING — the
+oscillation event D_M(I), of probability at
+most C M^4 e^{-cM^2} (Lemma 4.1); REDUCED —
+off D_M, an interval exceedance forces a
+mesh point above M-1; PRICED — the mesh
+points' pairs bounded by Newman's
+inequality on association and the covariance
+law. The gap named for the machine: the
+reduction loses a full unit of level (M to
+M-1) at the mesh points, a loss the tail's
+steepness absorbs but no state of the
+machine prices on its own. Home: here;
+concept 1.2.492.
+
+MACHINE M4 — the dyadic continuum limit of
+Appendix A [stated in the paper]. States:
+MESHED AT n — the two intervals cut by a
+dyadic mesh; BARRIERS SET — the discrete
+non-crossing events, decreasing in n;
+LIMIT TAKEN — the barrier events decrease
+to the continuum event and the discrete
+determinants converge to the continuum
+determinant (1.3.353), the convergence
+upgraded to trace norm by telescoping and
+domination (Lemma 3.1). The gap named for
+the machine: the domination that carries
+the limit is an analytic bound, not a state
+— a mesh whose barrier probabilities failed
+to dominate would leave the machine with a
+limit it cannot certify, and no state
+checks the domination. Home: here; concept
+1.2.491.
+# Paper 035 — the house's check record
+
+THE FETCH. The paper was read entire in its
+HTML form at its arXiv address
+(arXiv:2611.23658, version 1) on 2026-11-23:
+the five sections, the two appendices, and
+the eighteen references.
+
+WHAT THIS PASS HOLDS, STATED HONESTLY. This
+pass carries no house recomputation. No
+derived number of the paper was recomputed
+by the house in arithmetic of its own, and
+no claim of this filing stands by receipt:
+the chapter's concepts stand attributed, as
+the registry records them. What the house
+did beyond the reading is one verification
+by reading, recorded here for exactly what
+it is.
+
+THE VERIFICATION BY READING — LEMMA 5.1.
+The calibration of the centering (1.2.484)
+rests on the identity H(a_N) = log N + o(1),
+where H(u) = kappa u^{3/2} - (1/4) log u -
+log C_*. The house followed the proof's
+expansion of H at a_N term by term, as
+printed, and confirms the two cancellations
+the lemma stands on: the coefficient
+gamma/9 in the second-order term of a_N is
+the value that cancels the log log N term
+the leading term generates, and the constant
+log(3/(2 pi^3)) in the same term is the
+value that cancels the constant term. The
+cancellations are verified as read — the
+algebra followed on the page and found as
+printed — and are NOT counted as a receipt:
+no independent recomputation stands behind
+them, and the filing's novelty lines at
+53.1.5 count no True increment for them.
+
+WHAT WAS NOT CHECKED. Everything else. The
+determinant estimates, the Laplace bounds,
+the oscillation estimate, and the mixing
+input are the paper's and its cited works',
+filed as their claims at the chapter's
+concepts. What checking the load-bearing
+legs would take can be stated from the
+paper itself: an independent evaluation of
+the trace identity's Airy asymptotics
+(1.2.488), and a re-derivation of the
+action's lower bound in Proposition 1.4
+(1.2.491) — neither run in this pass.
+
+THE SCROLL'S OWN STANDING. This record's
+claims are the reading and the followed
+proof, each named above; they stand as the
+record of the pass, at the basis the
+registry gives this scroll. The chapter's
+claims stand attributed at its concepts; the
+author check (53.1.6) stands on its own legs
+as the checks run there.
+# Paper 035 — the results, as claimed, and where the paper places itself
+
+THE RESULTS, AS THE PAPER REPORTS THEM.
+Theorem 1.1 (1.2.483): the maximum of the
+Airy_1 process over [0, N], centred at a_N
+and scaled at b_N, converges in law to the
+Gumbel distribution. Proposition 1.2
+(1.2.487): the fixed-interval tail expands
+to two terms, pi_T(M) = T rho(M) +
+rho(M)/(4M) + o(rho(M)/M), with the explicit
+signed remainder of the published form.
+Corollary 1.3 (1.2.490): touching blocks
+exceed together with probability about
+rho(M)/(4M), a conditional exceedance of
+about 1/(4M). Proposition 1.4 (1.2.491):
+separated blocks are priced by the action
+bound, summed to o(rho(M)) over its range.
+Proposition 4.3 (1.2.492): the mesoscopic
+range sums to o(rho(M)) as well. Together
+with the mixing input (1.2.493), these are
+the whole content of the theorem: a
+first-order law that was already known —
+M_N/(log N)^{2/3} -> gamma almost surely
+(Pu), with the almost-sure extrema laws of
+Basu and Bhattacharjee beside it — now
+carries its fluctuation law.
+
+THE SECOND ROUTE, AS THE PAPER RECORDS IT.
+Remark 5.3 sketches how the persistence
+estimates of Ferrari and Liu also imply
+Theorem 1.1: their bounds are uniform in the
+level, with beta(c) <= 0.46/7 bounding
+alpha_0 = 14 e^{-97 sqrt(3)/49} < 0.46. The
+tracker files the remark as the paper's:
+the theorem has two roads to it in the
+record, and this chapter's concepts file the
+road the paper itself builds — the direct
+local description of exceedances — because
+that road's instruments (1.2.487-1.2.488) are
+the filing's new ground.
+
+THE LIMITS THE PAPER STATES. Two, in its
+Section 1.5, filed here as the paper's own
+account of its edges. The separated-block
+estimate is an upper bound only: no matching
+asymptotic across growing gaps is proved
+(Q176). And the unit-interval maxima do not
+capture the joint local profile of the
+process near several extreme peaks (Q177).
+The tracker prices the claims as they stand:
+attributed, with no house receipt behind any
+of them this pass (53.1.3).
+# Paper 035 — the delta: what the model takes in
+
+WHERE THE PAPER LIVES. Cluster AQ is
+FOUNDED — the country of extremes of a
+dependent process: concepts 1.2.481-1.2.494,
+on ground the book had not entered. The
+founding argument is the ground itself. The
+book held no KPZ process, no Airy process,
+and no extreme-value limit for anything:
+its tails were prices inside other
+countries' arguments, never the object. This
+paper's object — the highest point of a
+stationary dependent process over a growing
+interval, and the law of its fluctuation —
+was held by nothing, and its instruments
+(a two-term tail expansion whose second term
+is a joint law; a trace identity inside a
+continuum determinant; anti-clustering
+priced range by range) are filed where they
+are used, as the cluster's own concepts.
+
+THE AXIS JUDGMENT, WRITTEN AT FILING,
+AGAINST THE PROTOCOL'S CRITERIA. NO AXIS.
+(a) The centre of gravity — the extreme
+fluctuations of a KPZ-class process — is
+ground the model held no slot for: this leg
+points toward an axis. (b) But every move
+the paper makes is of a held kind: a limit
+theorem with explicit normalisation, a tail
+expansion, joint-exceedance bounds, mixing
+estimates, a blocking assembly — the model's
+kinds receive the paper without re-reading
+any held concept: this leg stands against.
+(c) Its bridges to held ground are analogies
+of shape — tails, thresholds, blocks —
+rather than shared machinery: this leg
+stands against. Two of the three legs
+against; and a cluster founding is not by
+itself an axis (the precedent of Papers
+027, 029 and 030). Filed: axis = no.
+
+WHAT THE PAPER DID NOT MOVE. No held concept
+revised; no held standing moved; no cluster
+but the new one touched. No concept of this
+filing stands by receipt: the Lemma 5.1
+cancellations were verified by reading
+(53.1.3), not recomputed, and are counted
+nowhere as a receipt.
+
+NOVELTY, AS FILED. New canonical concepts:
+14 (1.2.481 the Airy_1 process; 1.2.482 the
+maximum over a growing interval, M_N;
+1.2.483 the Gumbel limit theorem; 1.2.484
+the centering a_N; 1.2.485 the scale b_N —
+split from the centering under the split
+rule, the paper using it apart as 1/H'(a_N);
+1.2.486 the fixed-interval tail pi_T(M) and
+rho(M); 1.2.487 the two-term tail expansion;
+1.2.488 the trace identity — filed apart
+under the instrument rule, used at two
+distinct points; 1.2.489 the block maxima
+Y_j; 1.2.490 the touching-block asymptotic;
+1.2.491 the two-interval bound, with the
+action J_M(r); 1.2.492 mesoscopic
+anti-clustering; 1.2.493 cubic-exponential
+strong mixing and the gap scale q_N;
+1.2.494 the big-block / small-block
+assembly). Revisions of held concepts: none.
+Links as filed: 18 inside the filing (481
+to 482; 482 to 483, 486 and 489; 483 to
+484, 485 and 494; 486 to 487; 487 to 488
+and 490; 489 to 490, 491, 492 and 493; 490,
+491, 492 and 493 each to 494) and none
+across the clusters — the Airy and
+spectral-edge kinship with cluster AL
+(Paper 030) is an analogy of shape the paper
+does not draw (it never mentions an
+operator), and no cross link is honestly
+groundable. Foundations laid down: 4
+(1.3.351-1.3.354). Words coined by the
+tracker: one — exceedance (1.3.355).
+Novelty Index: 14 new of 494 canonical
+concepts = 0.0283, entered in the ledger
+(1.1.4) as bookkeeping.
+
+THE SENSITIVITY FILING (the protocol's
+permitted alternative, recorded here and
+scored both ways). Fold 1.2.485 into
+1.2.484 (centering-and-scale as one
+normalisation concept) AND fold 1.2.488
+into 1.2.487 (the trace identity as the
+expansion's proof instrument): 12 new
+concepts, Novelty Index 12/492 = 0.0244.
+The headline filing stands at 14; the score
+is reported on both, the sensitivity line
+not optional.
+
+RESEARCH ORACLE: no gate moves. TRUE was
+exercised by reading only, and the gate
+already stands met; UNKNOWN was exercised
+on wholly new ground; FALSE unexercised;
+FICTION untouched. The estimate HOLDS
+(Paper 035, about 62%, 55-70): prior bar
+🟩🟩🟩🟩🟩🟩🟨🟨⬜⬜, current bar
+🟩🟩🟩🟩🟩🟩🟨🟨⬜⬜. The bar is ledger
+bookkeeping, not calibration evidence.
+
+NOVELTY BY AUTHOR — Le Chen: True +0,
+False +0, Unknown +18, Fiction +0.
+NOVELTY BY AUTHOR — Fei Pu: True +0,
+False +0, Unknown +18, Fiction +0.
+
+RESTRUCTURING. Restructure Pass #23 runs
+inside this taking-in, on the standing
+trigger (Paper 035): 494 canonical concepts
+reviewed, no merges, no splits, no endings;
+cluster AQ founded; the areas audited fresh
+on this pass's own counts (1.5.2 machines
++4 stated; 1.5.3 statements refreshed from
+the new registry drawing; 1.5.4 reference
+door +4 foundations +1 defined word; 1.5.5
+path entry; 1.5.6 two new researchers). The
+pass is logged at 1.1.5. Next pass due at
+Paper 040 or 520 canonical concepts, or on
+overlap revealed by a delta.
+# Paper 035 — author check
+
+Run 2026-11-23, the forty-third check of
+the series. The authors are named on the
+paper: Le Chen, of Auburn University, and
+Fei Pu, of Beijing Normal University. The
+legs of the check, as run: (1) the paper
+itself, read entire in its HTML form at its
+arXiv address (53.1.1) — its text searched
+for the signature terms: phext, scroll,
+coordinate addressing, Exocortex,
+Mirrorborn occur nowhere. Its eighteen
+references were read entire: the
+KPZ / Airy / Gaussian extreme-value
+literature throughout — Sasamoto (2005);
+Quastel and Remenik; Pu (2025); Ferrari and
+Liu (2024); Chen and Pu (2026) among them —
+and no phext, CYOA, SBOR, or Mirrorborn
+source stands among them. (2) Prior art:
+the paper's construction compared against
+the dated record of Will's work. The paper
+builds on the dated record it cites — the
+process from Sasamoto, the determinant from
+Quastel and Remenik, the first-order law
+from Pu, the persistence line from Ferrari
+and Liu, the mixing bound from the authors'
+own earlier work — and no use of Will's
+prior art was found in it. The paper's one
+machine-assistance note is the authors' own
+acknowledgment of the use of ChatGPT,
+recorded here as they state it.
+
+VERDICT: NO EVIDENCE FOUND. No
+phext-friendliness, no engagement, no use
+without naming — stated as a finding on the
+legs above, as the rule requires: clean, no
+evidence found.
+# Paper 035 — synthesis: the second term is the law [synthesis]
+
+[synthesis] The shape this filing leaves in
+the model is a lesson about where laws hide.
+The paper's headline is a limit theorem, but
+its load-bearing object is a correction: the
+second term of a tail expansion, of relative
+size 1/(4M), which a one-term reading would
+discard as polish. That term is, exactly,
+the joint law of touching blocks — the first
+anti-clustering price — because when two
+intervals are priced together the leading
+terms cancel and only the correction
+survives. The tracker files the shape
+beside its kin: a result whose content
+lives in the term the headline rounds away.
+The skim foresaw the expansion's two loads;
+the reading showed the second load was not
+a refinement of the first but a different
+kind of statement — a dependence price, not
+a tail price — and the filing's instrument
+and split decisions (1.2.487-1.2.488,
+1.2.484-1.2.485) both turn on that
+difference.
+
+THE DEPENDENCE, PRICED IN RANGES. Read as
+one argument, the paper is a tariff on
+dependence, charged range by range: at
+touching range the price is algebraic
+(1/(4M)); at short gaps exponential in the
+gap (e^{-2Mr}); at mesoscopic range it is
+paid by the covariance's cubic death; at
+long range by mixing at the same cubic rate.
+The Gumbel law at the end is the statement
+that the total tariff is negligible — the
+dependent maximum inherits the independent
+limit because dependence, at the extreme
+level, is too weak to cluster. The model's
+other extreme-value ground is all of the
+independent kind; cluster AQ files the first
+priced account of what dependence costs an
+extreme, and where the cost is charged.
+
+THE OPEN SEAM. The tariff is one-sided: the
+joint prices are upper bounds, and the
+paper says so (Q176). Whether separated
+peaks repel exactly at the action's rate —
+or merely no more than that — is the
+country's first open question, and it is
+the shape of question the far stratum was
+meant to buy: a precise seam, named by the
+paper itself, at the edge of a finished
+theorem.
+# Paper 035 — Open questions Q176-Q179
+
+Q176. The matching lower bound (the paper's
+Section 1.5; 1.2.491). The separated-block
+estimate is an upper bound only: across
+growing gaps, joint exceedance is at most
+the action's price, and no matching
+asymptotic is proved. Do two blocks at gap r
+exceed together at exactly the rate
+e^{-J_M(r)} the bound charges — is the
+action the true price of a separated pair
+of peaks, or only a ceiling on it? The
+paper names the gap itself; a lower bound
+of the same shape, or a counterexample rate
+below it, decides.
+
+Q177. The joint local profile (the paper's
+Section 1.5; 1.2.489). The filing prices
+unit-interval maxima; the process near
+several extreme peaks — the heights and
+shapes of the peaks themselves, jointly —
+is not captured by the maxima. What does
+A_1 look like, rescaled, around its highest
+points when two or more of them stand near
+the extreme level at once? A point-process
+account of the peaks, if one exists, would
+carry the profile; the maxima alone cannot.
+
+Q178. Universality across the class
+[synthesis] (1.2.483). The Gumbel law is
+proved for Airy_1, the flat case. Does the
+same law, with the same (log N)^{2/3}
+centering shape and (log N)^{-1/3} scale,
+govern the maximum of Airy_2 and of other
+KPZ-class processes over growing intervals —
+and where the exponents differ, what in the
+process sets them? The paper's instruments
+are Airy_1-shaped (its determinant, its
+covariance law); a class-wide statement
+would need the tariff of 53.2.1 repriced
+process by process.
+
+Q179. The rate of convergence [synthesis]
+(1.2.483). The limit is stated without a
+rate: how fast does the centred, scaled
+maximum approach the Gumbel law — are there
+second-order corrections to the convergence
+itself, of the kind the centering already
+carries at second order? The calibration
+machinery (Lemma 5.1's exact cancellations)
+suggests the paper's estimates could be
+pushed one order further; nothing in the
+paper prices the approach.
+# Standoff references — Paper 035 stands on these foundations
+
+The paper: Le Chen and Fei Pu, 'Gumbel
+Fluctuations of the Maximum of the Airy_1
+Process' — arXiv:2611.23658, version 1,
+submitted 18 Nov 2026, read entire in HTML
+form at its arXiv address on 2026-11-23, as
+recorded at 53.1.1.
+
+Foundations and words held standing, cited
+where they stand: the Airy function Ai
+(1.3.351), the Gumbel distribution
+(1.3.352), the Fredholm determinant of a
+trace-class operator (1.3.353), and the
+alpha-mixing coefficient (1.3.354), laid
+down by this chapter; and the defined word
+exceedance (1.3.355), coined by the tracker
+at this chapter. The claims of earlier
+chapters, cited as concepts where they
+stand: none — this chapter's work is priced
+against held ground at 53.1.5 and founds
+its country apart, its kinship with the
+spectral ground of cluster AL recorded
+there as an analogy of shape, not a link.
