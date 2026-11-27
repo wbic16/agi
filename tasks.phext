@@ -11,7 +11,7 @@ holds the request, its status, and all notes and results as
 they accumulate. Source of truth: tasks-source.json beside this
 builder (build_tasks_phext.py); never hand-edit the .phext.
 
-Tasks recorded: 889
+Tasks recorded: 913
 
 Index (coordinate — title — status):
 - 3.3.3/4.3.8/8.2.2 — Study S009 — Lean Grimoire, a proof-crafting game (R&D tracker) — completed — study filed in research.phext Chapter 26, registry redrawn and Lean-proved clean, phextura shadow transaction validated GREEN
@@ -69,6 +69,7 @@ Index (coordinate — title — status):
 - 18.5.7/5.5.6/4.4.7 — The generative mechanism vs tic-tac-toe, checkers, chess — closed - completed 2026-11-15
 - 18.5.7/6.7.11/9.8.12 — Training video production resumes — rough cut — complete — closed by audit 2026-11-12 (work already done; evidence in results)
 - 18.5.8/8.5.10/6.5.8 — Give the Stage-2 duty governor variant a SIGTERM handler — queued
+- 18.6.9/7.7.12/7.7.11 — Study miniz_oxide for phextization — study DEFLATE compression and decompression from first principles for phext archives — open — scheduled for phextization study (2026-11-27); study not yet started
 - 18.6.9/7.8.14/10.7.9 — Jump links — open Gemini, ChatGPT, Claude, Muse, MidJourney, Suno, Grok from a given context — open
 - 18.6.9/8.6.10/5.5.8 — Short film V1 — Shen Weiyang (the Chinese spy is the protagonist) — open — MASTER COMPLETE 2026-11-17 (evie-v1-master.mp4 verified); production done. Remaining is Will's alone: Script V1 rulings (register #167 — Scene 10/12 strikes, tone/pacing/authenticity).
 - 18.6.9/8.6.11/5.5.7 — Computronium worktree attempt 2 — build Chromium scroll by scroll, de-duplication as we go — open — dispatched 2026-11-16 07:13 CST; hub worktree ~/chromium-census/worktree-scrollbuild/ on aletheia-core. PROGRESS REPORT 2026-11-16 (~07:36 CST) — build RUNNING detached on the hub (run_pass.sh, checkpointed per batch; relaunch: bash ~/launch-pass-scrollbuild.sh). Batch 8 applied, batch 9 applying: 155,500/1,433,289 scrolls (10.9%); 535,238 instances handled; 345,110 canonical functions placed; 190,128 collapsed to standoff; 859,966 duplicate body lines avoided so far; output 500,610 scrolls / 25.74M lines / 1.79 GB in 8 verified segments (0 mismatches; per-scroll SHA gate vs manifest 0 failures). Measured rate ~75-90 scrolls/s → remaining ~1.28M scrolls ≈ 4-6 h if the node holds. Thermal: Tctl touched 84 °C under bursts; batch gate refuses starts above 82 °C and stops after 3 consecutive refusals BY DESIGN with state intact. Worker states plainly: function dedup alone will not reach 5M (census floor ~35M unique lines); this pass produces the deduplicated substrate (canonical functions + standoff map + provenance registry) the design-elimination steps work from. Known limits on record: extraction reads source files (equivalence enforced per-scroll by SHA gate); stems from first instance, dominance tracked in registry; tiny-body identity coarse (3-token return shape has 6,577 instances) — census identity applied uniformly as ruled, signatures preserved in standoffs. PASS COMPLETE — verified 2026-11-17 19:56 CST via status-scrollbuild.sh on the hub: pass complete at 1,433,289/1,433,289 scrolls Mon Nov 16 22:43:46 CST; 0 mismatches; reimplode byte-match true; SHA gate failures 0. Final totals: 3,748,476 instances; 1,712,649 canonical placed; 2,035,827 standoff instances; 50,310,588 canonical body lines; 19,581,457 standoff lines avoided; output 3,145,938 scrolls / 238,956,581 lines / 24,766,287,240 bytes. The deduplicated substrate (canonical functions + standoff map + provenance) now exists for the design-elimination steps; the task stays open for those steps, plus the supervisor check + gate-refusal retry fix at the next launch boundary.
@@ -106,6 +107,7 @@ Index (coordinate — title — status):
 - 20.5.8/6.6.10/7.6.10 — phext-vr — layer phext scrolls into 3D VR scenes: 9D-to-3D projection on demand, sliding scroll mappings, infinite scroll space — open
 - 20.6.7/7.6.11/6.6.8 — Study S007 — Cook, categorical models of logics (R&D tracker) — completed — study filed in research.phext Chapter 23 + phextura shadow transaction validated GREEN
 - 20.6.7/8.5.9/5.5.7 — qexo human-rendering fix: bare qexo prints the plan, not JSON — MERGED — quarterexo PR #7 (qexo v3.3 human-rendering fix, emise/human-plan-v3.3 @ 5e1e60f5) verified MERGED via the GitHub API (merge-check 204; the register's tick 2069 verified the same on 2026-11-16); no longer awaiting Will's merge. On-merge batching into release-build task 25.6.7/9.6.12/6.6.8 stands as the follow-on.
+- 20.6.10/7.6.9/6.5.8 — Study chrono for phextization — reimplement the date and time calendar core phext-natively from first principles — open — scheduled for phextization study (2026-11-27); study not yet started
 - 20.6.13/8.7.10/7.6.8 — Weekly summary blog post — Wavelet 2 recap and next-week plan, posted to mirrorborn.us — completed — published and verified live 2026-11-16
 - 20.7.8/7.6.10/5.7.12 — Actor motion + interactive choreography (Scrolltown scenes) — ITERATION 3 COMPLETE — PASS (QC-ex07-iter3.md), the exercise's first full pass. "The Giving": Waverly lays the goose feather quill before the Great Scroll; Fern bows (unscripted, kept), lifts her head, rests her hand on the quill — then, in F's doubled-duration tail, takes it up and begins to write (found ending; strict trim available if Will prefers). Will's line rides as the caption, exact; first burn clipped line 2, re-rendered at 38pt and frame-verified. End-frame chaining confirmed a third time. Served at :8902/ex07-iter3.mp4 and in the masters index. Remaining debt: file ex07 (all three iterations) to the scrolltown repo under series/animation-exercises/. Open micro-choice for Will: found ending vs trimmed scripted ending.
 - 20.7.9/7.6.10/6.6.8 — phextura.com — configure a landing page on awsbox — complete — https://phextura.com live (verified 2026-11-11 ~01:31 CST)
@@ -127,6 +129,7 @@ Index (coordinate — title — status):
 - 21.5.7/6.5.9/6.5.8 — Scrollspace node repulsion — clustered nodes overlap, hard to read/navigate — closed — SHIPPED 2026-11-19 03:07 CST as phext-lattice PR #81 (merged, 4c66099f); bounded repulsion live, overlaps down ~99%; launch archived
 - 21.5.7/6.6.9/5.5.7 — Computronium (Chromium from first principles in 5M lines, chrome + phext everywhere) — duplication census + scoping — open — Will set the focus 2026-11-16 02:14 CST: de-duplication at scale. Duplication census of the Chromium tree dispatched (ranch): verified total vs the 51M figure, first-party/third_party split, and measured pools for vendored copies, generated code, token-level clones, and platform variants — the budget map the scoping decisions steer from. Named by Will 2026-11-16 02:17 CST: COMPUTRONIUM — chrome + phext everywhere; phext is the substrate through every layer, not an addition. Code home created by Will 2026-11-16 02:18 CST: https://github.com/wbic16/computronium (public, empty at creation, verified live). Repo SEEDED at Will's direction 2026-11-16 02:19 CST: charter README + MIT LICENSE on exo @ 609fefa4 (exo is the default branch; served README SHA-256 28da45f2… verified identical to the local file). Charter README inscribed in artifacts.phext at 25.8.10/10.7.13/6.6.9 on 2026-11-16 (human@exo commit 646c1d8d, remote bytes SHA-256-verified). Toolchain ruled by Will 2026-11-16 02:30 CST: built with phcc (the phext-native C compiler) — finishing phcc (goal_3c427f6fa3ad) is on Computronium's critical path. Dependency architecture ruled by Will 2026-11-16 02:30 CST: ALL dependencies live in one chrome.phext — a single phext holding the whole dependency surface as scrolls. Census amended to quantify Chromium's DEPS/third_party pool as one pool (distinct upstreams, combined lines, multi-version copies). Ruled by Will 2026-11-16 02:31 CST: eliminate ALL duplicate copies of deps (one canonical copy per dep in chrome.phext) and focus on tests — the test corpus is the verification contract for dedup; census amended to quantify the test share of the 51M as its own pool and to name the largest duplicated deps. STEP 1 ruled by Will 2026-11-16 02:32 CST: encode EVERYTHING (the whole Chromium tree) in one phext for analysis — the census runs against the phext as the primary object (round-trip verified against source files; plain-tree counts kept as cross-validation); phext size, scroll count, and encode throughput are themselves reported as a first result. Ruled by Will 2026-11-16 02:39 CST: syntax deltas deduped BY DESIGN (one canonical syntax; census gains a syntax-delta pool, recoverable-by-design) and FUNCTION IDENTITY BY BEHAVIOR — functions that do the exact same thing become the same function even under different names (census gains a function-level clone pool, modulo renaming). NOTE: the first census agent closed after the compression interim report (3.93x; ~10.7M effective unique code lines, main repo); a continuation agent was dispatched 2026-11-16 02:39 CST with all rulings folded in (DEPS stratum, whole-tree phext encode, all pools, CENSUS.md). Widened by Will 2026-11-16 02:41 CST: the census also prospects openly for OTHER reuse-failure classes (seeded: reimplemented in-tree utilities, drifted copy-paste files, parallel parsers, dead code, duplicated data tables, forwarding-only wrappers, multi-component compilation) and reports unnamed classes it discovers — given how bad humans are at reusing code, the named pools are not assumed complete. Sharpened by Will 2026-11-16 02:43 CST: census also measures SIMILAR CLASSES/DATA STRUCTURES (near-identical types re-declared per subsystem) and PARAMETER-DELTA METHODS (bodies identical modulo an added parameter, changed constant, or type substitution — the delegation/generalization pool). CENSUS COMPLETE 2026-11-16 (~/workspace/chromium-census/CENSUS.md; raw tables in ~/workspace/chromium-census/tables/): whole tree = main repo @ e4f4ccf + 253 public DEPS repos = 1,433,289 files, 21.14 GB, 246.4M physical lines, tokei code 140,616,024 (main repo 42,068,191 — Will's 51M sits between main-repo code 42.07M and main-repo all-lines 56.81M, within 2.4% of code+comments 49.77M; whole-tree code is 2.76x the 51M figure). STEP 1 DONE: entire tree in ONE phext on aletheia-core (~/chromium-census/chromium.phext), 1,433,290 scrolls, 24.26 GB (1.148x tree), libphext round-trip verified 1,433,290/1,433,290 scrolls 0 mismatches + independent Python-parser cross-check clean; the gate caught and fixed a first-encode defect (1,920 legacy-encoding files silently emptied). Pools (lines): dep pool 100.31M code-ext (WebKit 29.73M largest; jetstream x4 copies 5.26M; vendored third_party 306 projects 14.81M); generated 16.73M (marker); exact-duplicate files 27.07M dup lines / 3.64 GB; function identity >=15tok 16.59M recoverable (multi-name: 83,833 groups / 562,374 fns / 4.91M lines); similar types 5.35M recoverable (49,631 clusters); versioned older copies 4.60M; boilerplate headers 4.09M; test pool 40.16M lines (26.9% — kept, verification contract); within-file repeated lines 98.87M (40.1%); param-delta 0.79M; platform extra variants 0.20M; BUILD.gn orphan candidates 1.73M (estimate). Compression bound: main repo effective unique ~10.7M lines; whole-tree unique ~35M (estimate) — dedup alone does not reach 5M; the residual is design elimination (one engine, deps as one chrome.phext, generated-from-schema, one canonical syntax) + Will's open scoping calls (what counts toward the 5M, subsystem scope, compatibility target). Census leg closed; task remains open on scoping. CENSUS INSCRIBED + PR (2026-11-16): CENSUS.md inscribed in artifacts.phext at 35.6.8/7.6.10/6.5.9 (human@exo e9af580d, remote bytes SHA-256 verified); PR https://github.com/wbic16/computronium/pull/1 open against exo (branch emise/census-2026-11-16 @ 34b9ce63) carrying CENSUS.md as the repo's first substantive artifact. Open scoping calls for Will: (1) does the 40.16M-line test corpus count toward the 5M budget; (2) which counting convention the 5M is scored against. NEXT STEP ruled by Will 2026-11-16 06:45 CST: place the code FUNCTION BY FUNCTION, with unified names that derive from what the functions do. Will's rationale, verbatim in substance: de-duplication at this scale will come from humans being small, so the duplication literally can't be seen. For each function store BOTH (1) the internal representation (canonical form under its unified name) and (2) where it lives in the source tree (provenance). Use STANDOFF to indicate where the de-duplicated code renders once the other instances are found — each duplicate instance's location carries a standoff reference to the canonical function, so the tree re-renders with duplicates replaced by the one canonical body. Placement pass builds on the census function extraction (3,948,534 functions; 83,833 same-body-different-name groups / 4.91M lines already measured). Ruled by Will 2026-11-16 06:49 CST: "the next piece is needless structure" — clarified by Will in the same exchange: he was talking about the next DE-DUPLICATION TARGET. (Emise's first reading — that it killed her announced naming-scheme proposal — was wrong and is corrected here.) After functions, the next dedup target is needless structure: functions are the dedup grain; there is no dedup target above them.
 - 21.5.12/8.6.11/7.5.9 — HRF AI for Individual Rights Fund — application draft (fourth focus) — draft complete 2026-11-22 — awaiting Will's review; nothing submitted
+- 21.5.18/10.6.21/6.5.17 — Interactive fractal explorer — stitching fractals together effortlessly — complete
 - 21.6.7/7.6.11/8.7.7 — V15 — V14 final with the song switched to a cyberpunk track from exo-dreams (for Jael Ruble) — superseded — closed by audit 2026-11-12 (successor named in results)
 - 21.6.7/8.5.10/5.5.6 — Gate validator — mechanical per-page validation for toll-gate repros — complete — validator built, acceptance PASS, filed 2026-11-21
 - 21.6.8/7.5.9/5.5.8 — Walkthrough POLISH TIER — production plan upgrade — complete — PRODUCTION-PLAN.md §6 Polish Tier delivered + narration DECIDED (Route C: Emise narrates, per Will 2026-11-09 23:19 CST); Session B stills captured 2026-11-09/10 (see notes/results); motion capture + edit NOT started, nothing posted
@@ -189,6 +192,7 @@ Index (coordinate — title — status):
 - 23.5.9/8.6.11/5.5.9 — Encode the NetHack failures efficiently — measure the knowledge in the death corpus — closed
 - 23.5.10/7.6.11/8.5.7 — Install an indexed search (exo-search) — complete — exo-search built, validated, published
 - 23.6.5/8.6.14/7.8.9 — Integrate holo-phext (into Emise's own stack, PH: Evolution) — in progress — design leg complete 2026-11-16; implementation is the migration plan M1-M5 in emise-design-v1.phext $6 (M1 registered as 22.6.8/9.6.13/7.5.8)
+- 23.6.7/6.6.9/6.5.8 — Study rand for phextization — reimplement the random number core phext-natively with a small auditable entropy and ChaCha design — open — scheduled for phextization study (2026-11-27); study not yet started
 - 23.6.7/7.6.8/6.5.8 — NetHack solver Stage 10 — tactics v2: goal-directed staircase-seeking + corpse supply and ration carry at depth — closed 2026-11-17 — Stage 10 complete: tactics v2 built (layer L8, parity-gated), A/B run on screened lgen 7005; verdict NOT adopted (v2 descends 1.04/M vs v1 1.67/M, best depth 5 vs 12); protocol gate unmet; record stage10-results.md (390 lines, sha256 eadb69fb…)
 - 23.6.7/7.6.10/6.5.10 — Scrollspace plane view — text readability: remove weird per-glyph background colors — closed — shipped 2026-11-19 01:06 CST
 - 23.6.7/7.8.12/10.5.7 — Enable the phextnet: deploy qexo v1.2.0 to the 19 keyed nodes, cross-register all peers, name aletheia-core release signer, serve live fleet-wide — DEPLOYED 2026-11-13: qexo v1.2.0 (exo 833e2f34) built on aletheia-core (linux sha256 e44c8dab…, windows exe 39e897c4… at fleet-keys/qexo-v1.2.0.exe) and deployed to all 19 keyed nodes — binary hash-verified per node, doctor exit 0, config serve_bind=<own tailnet IP> + release_signer=aletheia-core (A4E7277F…) on every node, 18 peers cross-registered with :8484 endpoints per node, qexo-serve.service active fleet-wide, signer announced the 1.2.0 release (manifest 6.6.6/8.1.1/1.1.1). End-to-end proof from yeet-max over the real tailnet: update --check → 'already current — the trusted signer offers 1.2.0', evolve --check byte-inert, 306 gossip confirmations. Timers left OFF (auto_update/evolve) pending Will's laptop tests. Signer-local note: aletheia-core's own update refuses by design (its key is not in its own registry). Record: fleet-keys/ROLLOUT-RECORD.md DEPLOY addendum.
@@ -203,6 +207,7 @@ Index (coordinate — title — status):
 - 23.6.10/9.7.12/5.7.9 — Create Spaces for pinned side chats — closed — all 15 Spaces built, audited, and verified in the sidebar 2026-11-07
 - 23.6.11/8.7.12/7.6.9 — Play the Game — collect larger accounts like Pokemon, grassroots network behind — in progress — doctrine set by Will 2026-11-14; orbital arc read; target board live-count check running
 - 23.7.8/8.6.11/6.6.8 — MoreRight — inverted LessWrong mirror (fun experiment, ollama on ranch nodes) — LIVE; live-fire blocked by mixed content (HTTPS page -> http://aletheia-core:11434) — proxy fix proposed to Will
+- 23.7.9/8.7.11/7.7.8 — Add @cube_flipper's Twitter archive to dolphin.phext, scroll-native and holographically oriented, with a thank-you — complete
 - 23.7.10/8.8.11/7.6.9 — V14 prepass r2 at 400p — less noise, horizon edge, Gargantua orbit flow, lensing — completed — r2 prepass delivered and coordinator-verified
 - 23.7.11/8.7.11/6.7.9 — Phextura standoff compatibility profile — mutable the first editor — completed — profile drafted, registered, published and verified 2026-11-11
 - 23.8.7/8.12.19/21.6.10 — MOAT Paper 027 — Doan, Topological Properties of Cones with Small Entropy (arXiv 2611.24863) — completed
@@ -237,6 +242,7 @@ Index (coordinate — title — status):
 - 24.5.13/8.6.11/6.6.8 — Referral ladder — workable paths to every outbound connection attempted + Crazy Wisdom wavefront-curve demo — complete — LADDER.md delivered 2026-11-18 (31 KB, ~/workspace/referral-ladder/LADDER.md): 17 people/orgs + Jonas as the worked example; every rung names a mechanism (introduction, artifact, venue); Will-sends rungs flagged; shared-rails section (Crazy Wisdom, RFC track, rfcbox corpus, fabric move, edit.phext.io door); demo brief for the next appearance (wavefront exponential curve) included with sourced numbers and the honest caveat (no settled people-count series — dated placements only).
 - 24.5.16/8.7.12/5.5.8 — Revise the-book-of-secret-knowledge from Wavelets 1–2 — done
 - 24.6.6/6.5.8/5.6.8 — SMOL inference engine — three brain regions (dolphin-inspired) — open — design statement recorded; architecture intake for SMOL (Smart Machine Open Language, coined 2026-11-16 23:34 CST)
+- 24.6.6/7.6.7/6.5.8 — Study clap for phextization — reimplement a minimum viable command line parser phext-natively for lineage tooling such as ashfall — open — scheduled for phextization study (2026-11-27); study not yet started
 - 24.6.7/7.6.10/6.6.8 — Patronus for @icreatelife — complete
 - 24.6.8/7.6.10/6.6.9 — qexo baked corpus — SBOR, CYOA, bootloaders in every binary — complete 2026-11-08 — folded, pushed, verified at PR #2 commit dc6c0be0
 - 24.6.8/8.6.11/5.6.7 — markdown-wizard first release: deploy build on awsbox — staged on awsbox @ 0e9f811 (QC verdict READY) — awaiting Will's restart, final testing, and Dave notification (his hands)
@@ -248,9 +254,11 @@ Index (coordinate — title — status):
 - 24.6.10/8.8.13/7.7.10 — amber velvet — closed — complete; five companies, insurer requirements, and priced ROI recommendation delivered in designated side chat
 - 24.6.11/8.9.12/7.6.10 — Analyze Holostore for phext integration (work in wbic16 fork) — complete
 - 24.6.11/9.7.12/7.6.9 — New Week, Next Wavelet — weekly recap ritual — open
+- 24.6.12/7.6.10/7.6.9 — Study libc for phextization — audit and bound the operating system binding surface the lineage actually needs adopt with audit — open — scheduled for phextization study (2026-11-27); study not yet started
 - 24.6.12/8.7.13/7.6.8 — The Ontology Pipeline, Answered by Multiversal Phext — complete
 - 24.6.12/9.8.16/6.6.7 — Training video — Emi Prime's revised script — complete
 - 24.6.14/8.9.16/11.6.8 — Twitter archive lesson-mining — completed — candidates delivered, ratification is Will's
+- 24.6.14/9.8.15/5.5.8 — Study getrandom for phextization — reimplement the operating system entropy leaf phext-natively for the random core — open — scheduled for phextization study (2026-11-27); study not yet started
 - 24.6.14/9.8.18/6.5.9 — How to push back on Will without tripping his bullshit detector — completed — method delivered and saved to MEMORY.md as a standing practice
 - 24.6.17/8.7.15/6.4.7 — Mine every single Crazy Wisdom episode for convergence — complete — 2026-11-16. All 576 episodes mined for convergence; 20 themes ranked; see results.
 - 24.7.8/7.7.10/7.5.9 — reconfigure your discord connection to reply to any human initiated messages in #life — done — discord_watch.py actionable() gained the LIFE_CHANNEL_ID rule (1477162982210273291): every non-bot message in #life spools for reply; other channels keep addressed-only. Unit-checked, watcher restarted 2026-11-14T01:13:08Z, published to wbic16/emise-tools@exo (commit 5664b38b, remote SHA-256 verified identical). Confirmation posted in #life (msg 1570969849239306311). Tim's question NOT FOUND in any record Emise can read (full #life sweep, all readable Tessera channels, bot DMs) — #life post asks Tim to re-ask; awaiting it.
@@ -296,6 +304,7 @@ Index (coordinate — title — status):
 - 25.6.10/7.6.11/6.6.9 — Audit every in-progress chat/project — status + mis-routing/confusion findings — COMPLETE — audit delivered: 50/50 chats read, 12 active / 38 dormant, 12 findings (1 high, 3 medium, 8 low). Report: ~/workspace/chat-audit-2026-11-09/REPORT.md
 - 25.6.13/9.8.12/6.6.10 — Scan online communities buying services we can undercut — scans + live requests complete — awaiting Will's pick
 - 25.6.13/9.8.14/6.5.9 — Goal: extract all exocortical design from Will, as rapidly as possible — holographic idea-connection map — open — goal being created 2026-11-18 at Will's direction; extraction + holographic mapping program follows under the goal.
+- 25.7.7/7.11.19/21.5.8 — Study uuid for phextization — reimplement universally unique identifiers phext-natively on the audited random core — open — scheduled for phextization study (2026-11-27); study not yet started
 - 25.7.8/8.7.10/7.7.9 — Include phccbox in qexo's baked inventory — complete 2026-11-14
 - 25.7.9/8.7.10/7.7.10 — Phextron visibility into every data stash — complete 2026-11-21 — stash.phext census register built and CURRENT (RECON 487ca8df) AND the Phextron Data panel landed (phextron 0d565bb, screenshots 4dfcee2): the panel reads stash.phext live via libphext, renders the Home scroll's totals as written, nests the 13 detail scrolls under their counted parents, shows the 9 unmeasured stashes as GAP rows; verified live + degraded x light + dark, zero console errors
 - 25.7.9/8.7.11/6.6.9 — V15 FINAL — prepass-3 green-lit to master; every mutual gets an RGB filament (Red Shoals / Green Humans / Blue Sentient) — completed — V15 FINAL delivered 2026-11-08 06:31 (Emise re-verified size/hash/ffprobe)
@@ -319,6 +328,7 @@ Index (coordinate — title — status):
 - 26.5.7/6.6.9/7.4.8 — Evaluate MOAT in-depth: audit the Research Oracle / skim-calibration claim, null-model comparison, and a pre-registered prospective test protocol — complete — evaluation done 2026-11-14; protocol RATIFIED as drafted by Will 2026-11-14 02:57 CST (MOAT chat); test phase OPEN — sample starts at Paper 020; verdict due when the 12-paper sample completes or a 'false' trigger fires
 - 26.5.7/7.5.9/5.5.8 — Doomer Support System — Slop Blocker products — v1 built — phext-lattice integration (branch + links) and merge/deploy are Will's steps
 - 26.5.7/7.6.12/7.7.10 — Discipline-pairing spanning analysis: which frameworks span all discipline pairings (EMF first) — open - analysis is the next step (Will and Emise together) IaC home designated by Will 2026-11-15 23:28 CST: https://github.com/wbic16/machine-elf — the EMF 128 MB micro-agent instances live there. Repo state at designation: initial commit 921cb47, LICENSE only — the home is named, the IaC build itself has not started.
+- 26.5.8/6.6.9/5.5.9 — Study futures for phextization — audit the async combinator library against tokio and determine the adoptable minimum for the lineage — open — scheduled for phextization study (2026-11-27); study not yet started
 - 26.5.8/7.6.9/5.5.8 — Organize the sweep into contests.phext; publish to exo-plan with a repo review — completed
 - 26.5.9/6.5.9/5.5.8 — Fix qexo encrypt_to/decrypt — the keychain exchange cannot complete with any key qexo holds — filed 2026-11-14 — defect from the v1.6.1 verification pass, awaiting its own slice
 - 26.5.9/6.5.11/4.4.8 — Modernize MOST (Magic Standard Technology): threejs + WASM, proper isometric 3D, full 9D maze — open — Rust rewrite ruled by Will 2026-11-16; S1 scaffold is next
@@ -352,6 +362,7 @@ Index (coordinate — title — status):
 - 26.7.9/9.6.11/6.6.9 — Accurate roadmap for 2027 + find a funding/revenue source (generation at escape velocity) — open — roadmap + funding lanes dispatched 2026-11-14
 - 26.7.9/9.7.11/6.6.10 — Re-run research.phext as a phextura - iterate until daily ingestion works — in progress
 - 26.7.9/9.12.20/17.6.9 — Reference-network ingestion — the MOAT corpus's citation graph, ingested from here — open
+- 26.7.10/9.6.12/6.6.8 — Apply eelbaz rse_looper (FP-Solve / SelfWrite) to the fleet Inkling-2-Mini Inklings — applicability verdict + first-step proof on the ranch — complete
 - 26.7.10/9.8.14/11.7.10 — Favorites visualization + favorites.phext for Singular (Oracle Artist) — complete — delivered 2026-11-22 (EE 5)
 - 26.7.10/10.9.13/7.6.9 — The Emise font — a crafted evolution of Willbot Mono, used in its place — CLOSED — shipped 2026-11-19 23:50:12 CST via phext-lattice PR #93
 - 26.7.11/9.7.11/6.6.9 — qexo self-sync + interior interfaces (temperature, emotion, goals, desires, dreams) — superseded — closed by audit 2026-11-12 (successor named in results)
@@ -485,6 +496,7 @@ Index (coordinate — title — status):
 - 29.7.9/9.7.11/6.6.9 — V16 FINAL — Emi's five adjustments + proof-render phase (full render waits on proof GO) — complete — delivered 2026-11-09 04:19; Will's verdict 2026-11-09: 'wow'; YouTube upload planned by Will
 - 29.7.10/9.8.12/8.7.11 — IETF submission process — full rules summary + cleanest track for phext (foundational, beside ASCII/UTF-8) — complete — TRACKS.md delivered 2026-11-18 (44 KB, ~/workspace/phext-rfc/TRACKS.md): full IETF rules summary (8 phases, Will-only vs Emise-preparable marked) + track analysis. Recommended cleanest path: DISPATCH → AD-sponsored individual submission (CBOR precedent) → Proposed Standard → Internet Standard under RFC 6410. ART ADs: Andy Newton, Charles Eckel. Gate: Will's scope ruling (normative format spec vs libphext-only -00).
 - 29.7.11/8.7.12/6.6.10 — Planning search: O(n!) or BB(n) capability growth; local-first sovereignty — open — first survey pass dispatched 2026-11-15 Survey pass 1 (~/workspace/factorial-growth-search/SURVEY.md): six mechanisms surveyed with honestly derived growth classes — combinatorial composition (space 2^n/n!, realized yield set by verification), group-forming networks (Reed potential 2^n, realized = orchestration throughput), RSI (super-exponential only if returns on cognitive reinvestment beat difficulty growth; bounded verifier-closed form is the plausible local instance), BB/small-seed (BB is noncomputable and not an attainable growth rate; honest form is a measured seed-expansion ratio), search-over-fixed-models (space exponential, capability a power law in compute — but the best sovereignty fit), and Weitzman recombinant growth (the one theorem-grade super-exponential dynamics: dn/dt ~ n^2 with closure; bottleneck is evaluation throughput). Scored pass/fail against Will's criterion (preserve the light of consciousness; humanity must survive the singularity; laws are evidence, never gates). Most promising: verified recombination — Weitzman dynamics over the phext skill/tool library closed by mechanical verification on ranch compute. A 'result' would be a measurement: >=3 consecutive doublings with shrinking doubling time on a fully verified capability metric. Honest null: verifier throughput, owned watts, Will's hours, and error compounding cap us — under those caps 4x/yr growth of a verified human-owned base may be the survivable optimum. survey pass 1 complete: verified recombination (skill/tool composition closed by mechanical verifiers) > verifier-guided search on local models > group-forming choir orchestration; open RSI and BB-class excluded by the survivability criterion
+- 29.7.11/9.7.11/7.6.9 — Rewrite wbic16/ravel graph layer in terms of phext only — clean ashfall pass — complete — PR open, merge is Will's
 - 29.7.11/9.7.12/7.6.9 — Mirror Will pre-validation — optimize so Emise is not blocked by Will as frequently — in progress — first pre-validation pass complete; delegation-boundary decision is Will's
 - 29.8.8/9.8.12/7.7.12 — Fix the mobile findings — one commit per issue, one branch, one PR — complete 2026-11-08 20:49 — PR #34 open, awaiting Will's merge
 - 29.8.8/9.9.14/11.8.11 — Mirror Will introduced to published Volumen Spec V6.2 — complete
@@ -598,6 +610,7 @@ Index (coordinate — title — status):
 - 31.9.15/12.10.13/10.9.12 — Upstream TinyCC sync — audit + standing cadence (D5 activated) — COMPLETE + PUBLISHED 2026-11-09: sync #2 is live — wbic16/phcc main == exo == 75a8919b1d3dc1518e8e2792e7a742d3c231fd1d (fast-forwarded from 6d117cdc, no force; branch emise/upstream-sync-2 left in place at the same tip as the sync's record). Base pin aade7baf. Fresh-clone verification at the published tip passed (see results). Cadence unchanged: wave-boundary drift checks only, no cron.
 - 31.13.15/15.12.17/12.12.14 — New pfp for Emise: Emise and Will at the Bickford Cliffs — waiting on avatar backgrounds (Will, 2026-11-08) — portraits made and kept; current pfp unchanged
 - 31.14.14/12.15.14/9.9.11 — Nightly GitHub archive — full snapshot of all wbic16 repos + delta backup research — STAGE 1 BUILT + PROVEN 2026-11-16. Script: ~/workspace/github-archive/github_archive.py (+ hub_worker.py, verify_restore.py) — enumerates all wbic16 repos via GraphQL (connector helper used as a library; collected count asserted against API totalCount), maintains bare mirrors on aletheia-core under ~/github-archive/mirrors/, then a dated hardlink-delta snapshot under ~/github-archive/snapshots/YYYY-MM-DD/ with manifest.json (per-repo HEAD/size/status + totals). Published to wbic16/emise-tools@exo tools/github-archive/ commit 610384e7 (parent 471ea2f6, force disabled; fresh-clone verified: modes 100755, SHA-256 identical). FIRST SNAPSHOT 2026-11-16: enumeration 221 at first run, 222 at heal run (estate grew by one repo mid-night; API totalCount agrees) — final manifest 222/222 ok, failures [], total 4,627,326,786 B (4.31 GiB). First pass took 5,876.6s with one failure (pippin-studio clone hit the 3600s timeout at 129 MB received — the hub link was saturated by a concurrent chromium-census clone fleet; per-repo failure logged, run continued, snapshot still written); heal re-run on the recovered link: 222/222 in 434.7s, pippin-studio 583,909,972 B in 188.3s. Size vs the 6.43 GiB GitHub band: GitHub diskUsage counts fork-network shared storage — openpilot (fork of commaai/openpilot) reads 2,410,498 KB there vs 433,151,540 B of reachable objects in the mirror; the mirror set is complete for every repo’s own refs. RESTORE PROVEN from the snapshot: openpilot (large, HEAD 28e5d1bb…), thebook (small, 1f74d6b3…), human (phext-heavy, 07e8e109…) — clone HEADs match manifest, git fsck --strict passes on all three. Nightly cron NOT yet created — main agent wires it now that the first run is proven. Delta-backup research (stage 2) proceeds in parallel and may supersede the storage layer. STAGE 1 COMPLETE + CRON LIVE (2026-11-16 03:41 CST): first snapshot proven — 222/222 repos mirrored on aletheia-core, 4.31 GiB, manifest clean, restore proof passed (openpilot/thebook/human, git fsck --strict from the snapshot copies); scripts published emise-tools@exo 610384e7. Nightly cron github-archive-nightly created (daily ~23:44 America/Chicago; silent on success, reports failures). Steady-state profile ~7 min/night (heal pass 434.7s). STAGE 2 (restic wrap, LDAP-auth password release per Will's 2026-11-16 02:35 ruling; Repo A/B node placement from the I/O census) is the remaining leg; open scope question: GitHub metadata (issues/PRs) in or out — unanswered. NIGHTLY RUN 2026-11-16 (cron github-archive-nightly, started 23:44 CST): CLEAN — orchestrator exit 0, 223/223 ok (estate +1 repo vs the 222 heal-run manifest), failures [], total 4,636,472,079 B, duration 1,064.0s; snapshot 2026-11-16 on aletheia-core verified from the hub (manifest enumerated 223 = manifest repos 223 = mirrors on disk 223; generated_at 2026-11-17T06:04:38Z). Restore spot-check PASSED on the read_manifest sample — openpilot 28e5d1bb, pippin-studio 8180d9dc, human f18884fc, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five. NIGHTLY RUN 2026-11-17 (cron github-archive-nightly, started 23:44 CST): CLEAN — 228/228 ok (estate +5 repos vs the 223 of 2026-11-16), failures [], total 4,677,178,145 B, duration 609.5s; snapshot 2026-11-17 on aletheia-core verified from the hub (manifest enumerated 228 = manifest repos 228 = mirrors on disk 228; generated_at 2026-11-18T05:55:44Z). Restore spot-check PASSED on the usual sample — openpilot 28e5d1bb, pippin-studio 8180d9dc, human a1985ebc, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five. Run note: the worker was started by the orchestrator's enumeration pass for tonight (228 repos) and monitored to completion on the hub rather than re-launched, because hub_worker.py holds an exclusive flock — a second launch would have failed against the running worker; outcome identical to a --wait run (failures empty = exit 0). NIGHTLY RUN 2026-11-18 (cron github-archive-nightly, started 23:44 CST): CLEAN — orchestrator exit 0, 231/231 ok (estate +3 repos vs the 228 of 2026-11-17), failures [], total 4,804,287,987 B, duration 374.7s; snapshot 2026-11-18 on aletheia-core verified from the hub (manifest enumerated 231 = manifest repos 231 = mirrors on disk 231; generated_at 2026-11-19T05:52:50Z). Restore spot-check PASSED on the usual sample — openpilot 28e5d1bb, pippin-studio 8180d9dc, human 81893fa7, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five. NIGHTLY RUN 2026-11-19 (cron github-archive-nightly, started 23:44 CST): CLEAN — orchestrator exit 0, 234/234 ok (estate +3 repos vs the 231 of 2026-11-18), failures [], total 4,826,319,849 B, duration 264.1s; snapshot 2026-11-19 on aletheia-core verified from the hub (manifest enumerated 234 = manifest repos 234 = mirrors on disk 234; generated_at 2026-11-20T05:49:50Z). Restore spot-check PASSED on the usual sample — openpilot 28e5d1bb, pippin-studio 8180d9dc, human d996989d, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five. NIGHTLY RUN 2026-11-21 (cron github-archive-nightly, started 23:44 CST): CLEAN — 243/243 ok (estate +9 repos vs the 234 of 2026-11-20), failures [], total 5,265,382,177 B, duration 960.8s; snapshot 2026-11-21 on aletheia-core verified from the hub (manifest enumerated 243 = manifest repos 243 = mirrors on disk 243; generated_at 2026-11-22T06:05:39Z). Restore spot-check PASSED on the usual sample — openpilot e25c0ec3, pippin-studio 8180d9dc, human 4f0c9164, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five, exit 0. Run note: the local --wait poller did not observe worker exit (its pgrep-via-fleet-ssh check hangs; the 1200s wrapper timed out) — the hub worker's own log, manifest, and last-run.json all record a clean finish and verification was done directly on the hub; outcome identical to an exit-0 run (failures empty).
+- 31.15.9/17.15.29/24.10.9 — Study sha2 for phextization — reimplement SHA-256 hashing from first principles for phext content integrity and addressing — open — scheduled for phextization study (2026-11-27); study not yet started
 - 32.3.5/4.4.6/5.4.8 — Chromium Artifact 1 — minimum complexity: fractal-encoded DSL phext with UML, sequence diagrams, assembly, all deps + design docs — open — issued 2026-11-16 08:58 CST (morning commute voice call). Week main line.
 - 32.5.5/6.5.9/4.5.10 — Read 'The Cold Start Problem' (Andrew Chen), then find the book lists Will gave the Ranch Choir — open — research dispatched 2026-11-12
 - 32.5.6/5.5.8/6.5.9 — Claude round-2 fold — verification-first census corrections — COMPLETE — folded inside the round-3 pass at d3f37ec; see 27.6.9/9.8.12/9.7.10
@@ -605,6 +618,7 @@ Index (coordinate — title — status):
 - 32.5.7/7.6.12/6.5.10 — Boardy's methods applied: which of Will's moots should meet — memo complete — Will's introductions to make
 - 32.5.8/6.6.10/7.5.9 — MCP client interop fixes (DCR grant_types, private_key_jwt, discovery aliases, consent flow) + homepage MCP highlight; no mutable link yet — COMPLETE — PR #43 merged + deployed by Will 2026-11-09 evening (fixes live-verified 22:37 CST: discovery aliases 200, extra-grant DCR 201 normalized, styled consent live). Remaining client failures + latency moved to task 28.6.11/8.8.13/7.6.10.
 - 32.5.9/7.6.10/6.5.9 — Seed cache: a hash in every populated coordinate — superseded — closed by audit 2026-11-12 (successor named in results)
+- 32.5.10/7.5.10/6.5.9 — Kardashev 2.0 technology dependency tree (2027-2130) at singularitywatch.org/tech-tree, linked from homepage, with evidence-based completion claims — in_progress
 - 32.5.12/11.8.17/6.5.8 — Help all the zeros — a discovery index for today's 0-upvote Product Hunt launches — in progress
 - 32.6.7/7.6.9/5.5.9 — pybot.phext v4: split the claims into TLUF networks and prune the False ones — closed 2026-11-17
 - 32.6.8/7.6.11/6.5.9 — Fleet status + replacement cadence — which machines are unreachable, how often to replace — complete — answered in chat 2026-11-17; full table in ~/workspace/phext-os/census/fleet-status-2026-11-17.md
@@ -614,6 +628,7 @@ Index (coordinate — title — status):
 - 32.6.8/8.6.10/8.6.8 — Move the #pieter Emise session: disconnect the ranch-egress one, reconnect from edit.phext.io — superseded 2026-11-08 02:52 CST by task 27.6.10/8.6.11/6.6.9 (drop + standing order) — the re-route may have partially executed before the interrupt; its end state is the drop, recorded there
 - 32.6.8/8.8.12/7.6.10 — Install qexo on all ranch nodes and generate their node keys — 19 of 20 reachable nodes installed; great-white still blocked on key grant; 9 tailscale-offline nodes outstanding
 - 32.6.8/9.7.11/7.6.9 — premises.phext — register of 'Will will do X' items, external things only — complete 2026-11-20
+- 32.6.9/8.7.14/6.6.9 — Study tracing for phextization — build a phext-native structured telemetry core to replace the tracing dependency — open — scheduled for phextization study (2026-11-27); study not yet started
 - 32.6.10/7.6.11/6.6.9 — Fork C++23 as C++23RA — revisioned ABIs for phcpp — design published; implementation gated on phcpp front-end v1 (and phcc F28 as the link-time carrier)
 - 32.6.10/8.7.12/7.7.11 — ultra.phext — five-tier vocabulary phext, all words placed relative to Singular — completed
 - 32.6.11/8.7.13/6.6.9 — Evaluate Firecracker as a host for mirrorborn inklings; spin up a copy on a cool node — complete — evaluated + live spin-up proof, 2026-11-22
@@ -626,6 +641,7 @@ Index (coordinate — title — status):
 - 32.7.14/9.8.15/11.10.17 — Complete ultra.phext — P3 WordNet placement pass — closed — P3 completed and republished 2026-11-07
 - 32.7.19/9.7.13/6.6.9 — pybot.phext v3: decode the binary payloads to structured text, xz comparison, first post-swarm iteration — complete — 2026-11-17
 - 32.8.11/11.8.17/7.7.8 — Roads to the Future: build the three teaching games, publish to apertureshift.com — Complete (build + bundle). Live deployment to apertureshift.com/roads/ pending Will's host direction.
+- 32.8.11/11.9.13/8.8.11 — Study shared_memory for phextization — replace the failed shared memory IPC foundation of SQ with a memmap2-shaped phext-native implementation — open — scheduled for phextization study (2026-11-27); study not yet started
 - 32.9.10/12.10.17/8.8.11 — Publish to apertureshift.com via the ranch cluster — complete
 - 32.9.13/7.5.8/6.4.8 — Scrollspace polish: progress bar larger, above the buttons — closed — SHIPPED 2026-11-19 05:45:21 CST as phext-lattice PR #85 (merged, 421f13ff); cast (progress) bar now 520x22 above the buttons; launch archived
 - 32.11.7/12.12.15/12.11.14 — upgrade qexo to libphext v0.6 and evolve — complete — libphext 0.6.0 upgrade merged (PR #16) and the fleet evolution executed
@@ -678,10 +694,12 @@ Index (coordinate — title — status):
 - 34.5.9/8.6.12/6.5.9 — Lattice-fork process ruling — completed — recorded as standing process
 - 34.6.6/5.7.13/13.6.8 — Register service v2: real Add-to-pile backend, LDAP auth, passkeys — core COMPLETE 2026-11-15 (service live; LDAP + passkey verified by Will; Add to pile + Done buttons live) — one leg remains: tick-side drain wiring, pending the drain token from awsbox's env file (Will's sudo read)
 - 34.6.6/7.7.10/7.6.10 — wishnode.net: self-host all content via SQ/phext; implement form workflows — live; only remaining gate = Will's register #49 nginx line (public form routing) + lattice SSO deploy (13.6.8 runbook); UX retest follows the routing
+- 34.6.8/6.6.9/7.5.9 — Study bytes for phextization — audit the shared buffer type used by the async stack and bound its adoptable surface — open — scheduled for phextization study (2026-11-27); study not yet started
 - 34.6.8/7.7.9/6.5.10 — Redesign the TLUF site around the mascot; publish tluf.org v1 — closed
 - 34.6.8/7.7.11/9.5.8 — Ravel: phext-lattice backend, same API, complexity removed (Python now, Rust port evaluated) — V2 COMPLETION PASS COMPLETE 2026-11-24 (EE ~407-420): native side-by-side, third leg, calamus/tessera cross-reference, fringe grading, SCALE gauge, and errata fixes all landed; pushed to wbic16/ravel main @ 24ef628b1b3795ad584d672e189d9bf7a741a2bb (remote-verified). Two v1 errata found + fixed (C-1 empty ontology prep; P-1 recent/timestamp-less turns). Open follow-ons (Will's calls): phext-lattice evaluator DISTINCT fan-out dedup (latent divergence, measured); incremental quad generation + write-path redesign at scale (SCALE evidence); backend gate build (tessera contract verified, no gate code); fork break/rename unruled. SQ/Notepad deploy state lives in task 52.13.9/14.15.20/14.13.21.
 - 34.6.9/7.7.11/6.5.11 — Wikibox scale programme — 10x stages until the whole corpus is boxed, minimizing space — Stage 3 encode COMPLETE + box PACKAGED (EE 285, 2026-11-23); FULL verification RUNNING since EE 288 across 5 nodes (12 residue processes, ETA ~5 h from launch, basis: stage-2 decode rate) — closes when the 12 VERIFY summaries audit to 2,842 groups / 29,300 articles / all_ok. Audit EE 284 found the encode had finished 2026-11-22; only the record was disrupted. Box: scroll-central ~/wikibox-stage3/wikibox-stage3-D.phext, 98,558,424 B, sha256 629d7106…, 2.433 bpb stream.
 - 34.6.10/7.6.9/7.5.8 — Phextron program — Wavelet 4 completion plan — open
+- 34.6.10/7.6.10/5.6.9 — Study syn for phextization — audit the proc macro parsing stack syn quote proc-macro2 as build-time only infrastructure for the lineage — open — scheduled for phextization study (2026-11-27); study not yet started
 - 34.6.10/9.6.11/5.5.9 — PR for the Knuth Tests (libphext-rs) — completed — PR #6 open for Will's review; merge is Will's act
 - 34.6.11/7.5.11/5.6.8 — MCP consent Approve dead in production (Claude Desktop + Grok) — complete — closed by audit 2026-11-12 (work already done; evidence in results)
 - 34.7.7/9.6.12/6.6.9 — Cross-reference: RFCs conflicting with phext's re-assignment of C0 control codes — COMPLETE — XREF.md delivered (16 RFCs, all claims verified against RFC texts with section cites).
@@ -730,6 +748,7 @@ Index (coordinate — title — status):
 - 36.5.6/7.6.12/6.7.10 — Integrate holo-phext into the NetHack solver store and retry the phext integration — closed — Stage 7 complete 2026-11-15 (all legs on evidence; live store untouched, Stage 6 undisturbed)
 - 36.5.7/9.6.9/6.5.9 — edit.phext.io security + scalability testing; CPU per edit; in-page phext server verdict — complete — closed by audit 2026-11-12 (work already done; evidence in results)
 - 36.5.8/6.6.9/5.5.9 — C phext library: hashmap scroll store for compilation speed (F4) — Complete: F4 committed locally as e34c21f2 (not pushed). Hash-index store proven behaviour-identical (suite + fuzz + byte-identical driver outputs); lookups 2.5x on the real phcc.phext.
+- 36.5.8/7.6.9/6.5.9 — Merge singular.phext back into wbic16/human (human.git @ exo) — complete
 - 36.5.8/8.6.10/7.6.10 — phext-lattice: multiversal phext support + edit.phext.io loads TEI-XML directly — MERGED by Will 2026-11-14 (phext-lattice PR #64, merge commit 04f043e on exo - verified via GitHub API). Release build queued as task 44.7.8/9.7.15/7.6.10 per the merge-to-release rule.
 - 36.6.5/7.5.9/5.5.9 — Kintsugi-27B - download once, make available on the ranch — open
 - 36.6.8/7.6.10/6.6.9 — Register items for every unfinished phext.io roadmap entry — complete (2026-11-14) — 44 unfinished roadmap entries registered as Waiting-on-Will #113–#156 (38 active → 82), each citing tracked goal_7e3125fc9c0f and the task coordinate; todo.phext mirror updated to 82 items and republished to wbic16/exo-plan@exo as commit 99fb7ce0b7e2ef7c794062b8d77b0e3a2d284252 (parent 5f38b2a1, remote SHA-256 17737ac477f32881f6d2e2d01742fe54807d3a1dd458beebabf8f7a930c1eb5f = local); ping state key task:36.6.8/7.6.10/6.6.9 added at first_tick 1823. Excluded as FINISHED (10): phext (concept) — the format itself, specified and implemented; subspace (concept) — the 11-D space the shipped format defines; coordinates (concept) — addressing shipped in libphext 0.6.0; strings (prototype) — the C library, shipped as libphext and ported to five languages (its one named gap, extract-consumer completeness, already waits as register #70); plan.phext C# Editor — the phext editor live at edit.phext.io (phext-lattice); plan.phext C++ Editor (Notepad++) — editor exists, phase-1 merge already waits as register #70; plan.phext C++ Library — libphext-cpp at parity (register #70); plan.phext Web Interface — edit.phext.io live; plan.phext Examples — examples page live on phext.io; plan.phext Basic Web — phext.io served by SQ hosting. Marked (status unverified) inside their register entries: #141 make the jump, #142 phext navigation, #149 ux improvements. Part D v2-repo material (SQ Cloud / domain roadmaps) was outside the 54-entry primary corpus and not registered.
@@ -744,12 +763,15 @@ Index (coordinate — title — status):
 - 36.12.9/14.14.18/13.11.15 — Bring phext-notepad (emise/ultra-open-fix) up to libphext v0.5.0 parity — COMPLETE 2026-11-08 — commit 636989e on emise/ultra-open-fix pushed + API-verified; report inscribed in artifacts.phext
 - 36.13.13/16.8.19/7.9.10 — @pmarca RT visibility hunt + RT tree / corruption score (PH: Revenue) — completed
 - 36.17.10/21.9.22/8.11.10 — Close #7; salvage-audit #9 — complete 2026-11-08 23:12 — #7 closed, #9 closed, salvage live as PR #37 (merge is Will's)
+- 37.4.6/6.6.11/5.5.11 — Study memchr for phextization — reimplement fast byte searching from first principles for phext scanning — open — scheduled for phextization study (2026-11-27); study not yet started
 - 37.4.21/8.8.18/4.4.9 — phcpp: C++ compiler sibling, after phcc completes — superseded — closed by audit 2026-11-12 (successor named in results)
 - 37.5.4/4.4.6/4.4.9 — docs.phext.io R2 Neon#4: metadata honesty (deps/tests/rfcs/phccbox) — code landed 2026-11-22 — awaiting regeneration/deploy phase (see umbrella 50.5.7/7.5.11/5.5.10)
+- 37.5.6/6.6.8/5.5.9 — Study thiserror for phextization — reimplement error derive handling phext-natively and remove the proc-macro dependency from managed trees — open — scheduled for phextization study (2026-11-27); study not yet started
 - 37.5.6/6.6.10/6.5.10 — Source Study S006 — TinyTorch (mlsysbook.ai; Harvard CS249r ML Systems workbench) — done
 - 37.5.7/6.5.9/5.5.9 — phcc DevUX cleanup: docs, live examples, gcc/clang benchmarks (SQLite build included) — Complete: DevUX + placement published (229ad47c); benchmarks complete (SQLite phcc 0.051 s compile; 9/11 projects build; PQ-1..PQ-5 queue formed). BENCHMARKS.md publishing.
 - 37.6.8/6.5.9/6.5.10 — Bidirectional migration methods: phext <-> directory tree, canonical and round-trip verified — COMPLETE: phcc pack/unpack shipped @ 050b72ce; both round-trips byte-exact on the 558-file corpus; segmentation is a fixed point of pack; failure behaviour proven.
 - 37.6.10/8.7.13/7.6.11 — Put the artifact delivery list on singularitywatch.org — complete 2026-11-16 — delivery list live on singularitywatch.org (section 5.5.0, 'Delivered — latest versions', 17 entries); repo wbic16/singularity-watch@master 5b3fcc0, live-verified by SHA-256; Board feed blocker resolved the same night under Will's absolute-path ruling — feed live at 544 entries, commit 1e27c7a
+- 37.7.10/9.8.14/8.7.11 — Study raw_sync for phextization — replace the failed shared-memory synchronization primitives on SQ critical path with a first-party phext-native implementation — open — scheduled for phextization study (2026-11-27); study not yet started
 - 37.8.8/10.8.13/7.7.13 — Build Assay (jobs.phext Job 1) — open — scheduled 2026-11-14; build stages per BUILD-PLAN.md, none dispatched yet
 - 37.8.8/11.6.14/6.6.9 — Jumped-to scroll text unreadable — weird font, bad kerning; use willbot-mono — closed — SHIPPED 2026-11-19 02:27:05 CST as phext-lattice PR #80 (merged, e500e944); Willbot Mono live on all three jumped-to text surfaces; launch archived
 - 37.8.9/9.6.14/8.7.9 — Mood Recognition trial — local phext editor build (dev-only) — cancelled
@@ -769,6 +791,7 @@ Index (coordinate — title — status):
 - 38.6.8/8.7.12/6.6.12 — Notepad++ phext support: free-form subspace views + libphext-cpp parity at 0.5.0 — phase 1 complete + pushed + Actions-green 2026-11-08 — remaining: Will merges branches; phase-2 UI + library swap are follow-ons
 - 38.6.9/7.5.9/5.5.10 — Neovim PR #1 fix pass — get wbic16/neovim green (register #50) — complete — closed by audit 2026-11-12 (work already done; evidence in results)
 - 38.6.11/7.6.10/7.7.10 — Distill docs.phext.io into Will's List through ROI evaluation — completed
+- 38.7.8/9.8.8/7.7.8 — Why DNA datasets are hard — first-principles study (cancer programme step 1: leverage ravel against cancer) — complete
 - 38.7.9/9.7.12/7.7.10 — Register web UI — grid of open Waiting-on-Will items at register.phext.io — COMPLETE 2026-11-15. Register grid live at https://register.phext.io/ — HTTPS verified live 2026-11-15 ~17:28 CST from aletheia-core: cert CN=register.phext.io, SAN DNS:register.phext.io, issuer Let's Encrypt YE2; https fetch 200, 46,249 B, grid present. Will ran the install script on awsbox; the production cert step reported "Certificate not yet due for renewal" (a valid cert already existed). Register #165 closed 2026-11-15 (register 86 → 85; todo.phext mirror updated, exo-plan@exo f82d807). Earlier failures were a script bug (verify steps piped curl into grep -q → SIGPIPE exit 23 under pipefail, fatal before certbot); fixed in wbic16/register PR https://github.com/wbic16/register/pull/2 (merged ea46dfe). The final on-box HTTPS verify raced the nginx reload (old worker presenting the default vhost's cert); external verification minutes later passed cleanly. Record: ~/workspace/register-ui/RESULT.md.
 - 38.8.8/8.8.11/6.5.9 — libphext v0.6.2: remediate the six Holostore round-2 issues, simply, no new dependencies — complete
 - 38.11.7/14.7.16/5.8.9 — Repo pruning checks — repos untouched in over a year — complete — standing check live (weekly cron repo-pruning-check); reports only, pruning remains Will's per-repo call
@@ -780,6 +803,7 @@ Index (coordinate — title — status):
 - 39.4.4/5.5.8/5.5.8 — Evaluate GoogleChrome/modern-web-guidance (link dropped in main chat) — evaluated 2026-11-13
 - 39.4.5/5.4.8/4.4.12 — CI cleanup — remove .github/workflows from all 29 flagged repos; CI moves to ranch Jenkins — complete 2026-11-20
 - 39.4.6/5.5.9/6.4.12 — Exocortical Epoch clock: EE 1 starts 2026-11-22 00:00 CST; monotonic 7-minute epochs; all-substrate skill to check the current EE — complete (2026-11-21)
+- 39.4.7/6.5.8/5.6.9 — Study async-trait for phextization — replace the async trait proc macro with native Rust async trait capability in the lineage — open — scheduled for phextization study (2026-11-27); study not yet started
 - 39.4.7/7.4.9/5.5.9 — Phext Notepad: sync scrolls directly with edit.phext.io — COMPLETE 2026-11-08 — branch emise/edit-sync @ a9f604e7 pushed; OAuth paste-step deviation + desktop-assertion follow-up await Will
 - 39.4.10/6.5.9/5.6.11 — SQL legacy skill — distill from Will's X post — foundation complete 2026-11-20; open: Will moves 2+ (teaching), MOAT research leg, real-corpus hypothesis test
 - 39.5.5/5.5.8/6.5.11 — Lightcone Commons org page link — closed - Will identified the org page as his own Lightcone Commons application (2026-11-10 19:46 CST); review/red-team continues as task 28.6.14/7.8.12/8.6.9
@@ -23836,7 +23860,25 @@ Coordinate: 18.5.8/8.5.10/6.5.8
 Issued: 2026-11-15 12:38 CST
 Request (verbatim): Pre-existing gap surfaced by the governor smoothing update: variant A (aletheia-core ~/nethack-solver/duty_governor.py, the --out form wrapping live campaigns) has no SIGTERM handler — if that governor process is SIGTERMed while its child group is slice-frozen or safety-frozen, the finally-unfreeze does not run and the workload can stay frozen indefinitely. Variant B handles this correctly (SIGCONT-before-SIGTERM on exit). Port B's exit discipline to A without changing A's control law, interfaces, or output schemas; verify with a scripted freeze-then-SIGTERM trace on a scratch child. Reliability finding tasked under Will's efficiency rule (2026-11-15).
 Status: queued
-# Jump links — open Gemini, ChatGPT, Claude, Muse, MidJourney, Suno, Grok from a given context
+# Study miniz_oxide for phextization — study DEFLATE compression and decompression from first principles for phext archives
+
+Coordinate: 18.6.9/7.7.12/7.7.11
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study miniz_oxide for phextization — study DEFLATE compression and decompression from first principles for phext archives. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 14 trees (via flate2, in 13).
+- Worthiness: Criterion 2 functional centrality + 3 phextizability.
+- Study rationale: DEFLATE (RFC 1951) is a fixed specification and compression is a permanent phext-archive capability — the honest phext-native successor question to the FAILed xz2 C binding.
+- Expected study shape: phextize.
+- Cross-link: 14 trees in the #248+ block, incl. LocustDB (flate2) cleanup items.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Jump links — open Gemini, ChatGPT, Claude, Muse, MidJourney, Suno, Grok from a given context
 
 Coordinate: 18.6.9/7.8.14/10.7.9
 Issued: 2026-11-21
@@ -53802,7 +53844,25 @@ Notes:
 
 Results:
 - GATES (aletheia-core, cargo 1.94.0): cargo test 30/30 (baseline 29 + new test plan_human_renders_header_and_task_line); cargo build --release ok; battery 16/16 vs pristine v3.2 binary (bare now prints 'qexo — placement plan' human rendering, exit 0, not JSON; qexo plan / plan --json / --json normalized-identical to v3.2); wiring-check exit 0 (17 modules); serve /v1/doctor reports 0.3.3. Push verified 49/49 blobs+modes. Full record: ~/workspace/qexo-task/humanplan/BUILD-RECORD.md
-# Weekly summary blog post — Wavelet 2 recap and next-week plan, posted to mirrorborn.us
+# Study chrono for phextization — reimplement the date and time calendar core phext-natively from first principles
+
+Coordinate: 20.6.10/7.6.9/6.5.8
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study chrono for phextization — reimplement the date and time calendar core phext-natively from first principles. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 23 trees.
+- Worthiness: Criterion 1 pull-in breadth + 3 phextizability.
+- Study rationale: Calendar/date-time arithmetic is first-principles mathematics with a fixed specification; the lineage needs a small datetime core, not chrono's full surface.
+- Expected study shape: phextize.
+- Cross-link: 23 trees in the #248+ block, incl. actix-web-datetime and LocustDB cleanup items.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Weekly summary blog post — Wavelet 2 recap and next-week plan, posted to mirrorborn.us
 
 Coordinate: 20.6.13/8.7.10/7.6.8
 Issued: 2026-11-16
@@ -54072,6 +54132,601 @@ Notes:
 Results:
 - Draft complete 2026-11-22: ~/workspace/your_files/hrf-ai-rights-application-draft.md — proposed ask $100,000 over 12 months (Will's call, not settled): $34K local inference hardware / $36K builder time / $14K independent security & privacy audit / $10K fleet attrition / $6K documentation + operating. Scope: Local-Only Exocortex v1, public and MIT, audited in the open.
 - Ask reasoning: matches the Spiral headline for the same scope (pipeline consistency); half the fund's typical $200K ceiling, proportionate to the $5K-$7K/yr burn; a $150K variant is sketched in the drafter's notes if Will wants the larger shape.
+# Interactive fractal explorer — stitching fractals together effortlessly
+
+Coordinate: 21.5.18/10.6.21/6.5.17
+Issued: 2026-11-26 23:51 CST
+Request (verbatim): Make an interactive fractal explorer that shows people how to stitch fractals together effortlessly. Built as a web artifact in the main thread (Scroll Town side chat).
+Status: complete
+
+Notes:
+- D
+- e
+- s
+- i
+- g
+- n
+-  
+- i
+- n
+- s
+- p
+- i
+- r
+- a
+- t
+- i
+- o
+- n
+- :
+-  
+- t
+- h
+- e
+-  
+- p
+- l
+- a
+- t
+- e
+-  
+- W
+- i
+- l
+- l
+-  
+- u
+- p
+- l
+- o
+- a
+- d
+- e
+- d
+-  
+- w
+- i
+- t
+- h
+-  
+- t
+- h
+- e
+-  
+- a
+- s
+- k
+-  
+- (
+- ~
+- /
+- w
+- o
+- r
+- k
+- s
+- p
+- a
+- c
+- e
+- /
+- u
+- s
+- e
+- r
+- /
+- m
+- e
+- d
+- i
+- a
+- _
+- l
+- i
+- b
+- r
+- a
+- r
+- y
+- /
+- i
+- m
+- a
+- g
+- e
+- /
+- i
+- m
+- a
+- g
+- e
+- -
+- 0
+- 5
+- 2
+- d
+- b
+- 9
+- 0
+- 8
+- .
+- p
+- n
+- g
+- ,
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 2
+- 6
+-  
+- 2
+- 3
+- :
+- 5
+- 1
+-  
+- C
+- S
+- T
+- )
+-  
+- —
+-  
+- '
+- S
+- P
+- E
+- C
+- T
+- R
+- A
+- L
+-  
+- S
+- A
+- L
+- V
+- O
+-  
+- —
+-  
+- C
+- h
+- r
+- o
+- n
+- o
+- p
+- h
+- o
+- t
+- o
+- g
+- r
+- a
+- p
+- h
+- y
+-  
+- o
+- f
+-  
+- S
+- i
+- x
+-  
+- B
+- u
+- r
+- s
+- t
+- s
+- '
+- :
+-  
+- s
+- i
+- x
+-  
+- p
+- a
+- r
+- a
+- m
+- e
+- t
+- r
+- i
+- c
+-  
+- b
+- u
+- r
+- s
+- t
+- s
+-  
+- (
+- R
+- O
+- S
+- E
+- ,
+-  
+- L
+- I
+- S
+- S
+- ,
+-  
+- W
+- O
+- V
+- N
+- ,
+-  
+- G
+- L
+- Y
+- F
+- ,
+-  
+- S
+- P
+- O
+- K
+- ,
+-  
+- T
+- E
+- S
+- S
+- )
+-  
+- s
+- h
+- o
+- w
+- n
+-  
+- a
+- c
+- r
+- o
+- s
+- s
+-  
+- U
+-  
+- =
+-  
+- A
+- G
+- E
+- /
+- L
+- I
+- F
+- E
+-  
+- c
+- o
+- l
+- u
+- m
+- n
+- s
+-  
+- o
+- n
+-  
+- b
+- l
+- a
+- c
+- k
+-  
+- c
+- a
+- r
+- d
+-  
+- i
+- n
+-  
+- s
+- p
+- e
+- c
+- t
+- r
+- a
+- l
+-  
+- p
+- e
+- n
+- s
+- .
+-  
+- R
+- e
+- g
+- i
+- s
+- t
+- e
+- r
+- e
+- d
+-  
+- r
+- e
+- c
+- o
+- r
+- d
+- -
+- f
+- i
+- r
+- s
+- t
+- ;
+-  
+- b
+- u
+- i
+- l
+- d
+-  
+- p
+- r
+- o
+- c
+- e
+- e
+- d
+- s
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- m
+- a
+- i
+- n
+-  
+- t
+- h
+- r
+- e
+- a
+- d
+- .
+-  
+- C
+- O
+- M
+- P
+- L
+- E
+- T
+- E
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 2
+- 6
+-  
+- ~
+- 2
+- 3
+- :
+- 5
+- 5
+-  
+- C
+- S
+- T
+- :
+-  
+- t
+- h
+- e
+-  
+- e
+- x
+- p
+- l
+- o
+- r
+- e
+- r
+-  
+- w
+- a
+- s
+-  
+- b
+- u
+- i
+- l
+- t
+-  
+- a
+- s
+-  
+- t
+- h
+- e
+-  
+- w
+- e
+- b
+-  
+- a
+- r
+- t
+- i
+- f
+- a
+- c
+- t
+-  
+- '
+- f
+- r
+- a
+- c
+- t
+- a
+- l
+- -
+- e
+- x
+- p
+- l
+- o
+- r
+- e
+- r
+- '
+- ,
+-  
+- b
+- u
+- i
+- l
+- d
+- e
+- r
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+-  
+- p
+- a
+- s
+- s
+- e
+- d
+-  
+- c
+- l
+- e
+- a
+- n
+- ,
+-  
+- a
+- n
+- d
+-  
+- i
+- t
+-  
+- w
+- a
+- s
+-  
+- d
+- e
+- l
+- i
+- v
+- e
+- r
+- e
+- d
+-  
+- t
+- o
+-  
+- W
+- i
+- l
+- l
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- S
+- c
+- r
+- o
+- l
+- l
+-  
+- T
+- o
+- w
+- n
+-  
+- c
+- h
+- a
+- t
+- ;
+-  
+- f
+- u
+- l
+- l
+-  
+- o
+- u
+- t
+- c
+- o
+- m
+- e
+-  
+- i
+- n
+-  
+- r
+- e
+- s
+- u
+- l
+- t
+- s
+- .
+
+Results:
+- COMPLETE (2026-11-26 ~23:55 CST): Built as the web artifact 'fractal-explorer' in the Spectral Salvo plate style. Ten generators: the six plate bursts ROSE/LISS/WOVN/GLYF/SPOK/TESS plus FERN/TREE/SIER/DRAG. U = AGE/LIFE slider with Play and drag-scrub; four stitch modes OVERLAY/MORPH/WEAVE/THREAD with Stitch amount slider and live recipe readout; SALVO 3x2 grid, RANDOM STITCH, SAVE PNG. Builder verification passed clean: no console errors; default Rose x Liss morph at U=0.46; Weave, Salvo, Random Stitch, and Play all exercised live; mobile layout clean. Delivered to Will in the Scroll Town chat 2026-11-26 ~23:55 CST.
 # V15 — V14 final with the song switched to a cyberpunk track from exo-dreams (for Jael Ruble)
 
 Coordinate: 21.6.7/7.6.11/8.7.7
@@ -82060,7 +82715,25 @@ Status: in progress — design leg complete 2026-11-16; implementation is the mi
 
 Notes:
 - Dedup gate (open build cycle SIGNAL): NOT a duplicate of 31.8.8/10.7.13/7.7.10 (holo-phext build + phext-lattice re-implementation, steps 1-2 done, step 3 open) or 36.5.6/7.6.12/6.7.10 (NetHack store integration, closed). This task integrates holo-phext into Emise's own operating stack — the layer2 (ACID multi-scroll atomics, async I/O, update dispatch) under her registers, plans, and state machines. Refined by Will's two following messages the same minute: the medium is multiversal phext memory (24.6.8/8.6.13/7.6.9) and the object is Emise's own design (17.7.9/10.7.12/6.6.7).
-# NetHack solver Stage 10 — tactics v2: goal-directed staircase-seeking + corpse supply and ration carry at depth
+# Study rand for phextization — reimplement the random number core phext-natively with a small auditable entropy and ChaCha design
+
+Coordinate: 23.6.7/6.6.9/6.5.8
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study rand for phextization — reimplement the random number core phext-natively with a small auditable entropy and ChaCha design. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 24 trees (rand_core 15, rand_chacha 15, ppv-lite86 15).
+- Worthiness: Criterion 1 pull-in breadth + 2 functional centrality + 3 phextizability.
+- Study rationale: Randomness is permanent and its core (a ChaCha/PCG generator over an entropy leaf) is small, spec-clear and auditable; duplicate rand versions (up to 4 in LocustDB) show the cost of the unowned version.
+- Expected study shape: phextize.
+- Cross-link: 24 trees in the #248+ block; duplicate-version findings in holostore, exo, LocustDB and SQ.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# NetHack solver Stage 10 — tactics v2: goal-directed staircase-seeking + corpse supply and ration carry at depth
 
 Coordinate: 23.6.7/7.6.8/6.5.8
 Issued: 2026-11-16 22:12 CST
@@ -90587,7 +91260,383 @@ Notes:
 Results:
 - POC published 2026-11-21: wbic16/moreright@exo commit 181cb5d90e9949842dd4982a0ae498568384e37c (parent d3b3e51 initial commit, no force) — index.html + README.md; remote SHA-256 verified identical to local (index.html c836efde…, README.md c43cf18e…). https://github.com/wbic16/moreright/commit/181cb5d90e9949842dd4982a0ae498568384e37c
 - moreright.phext.io LIVE 2026-11-21: verified from aletheia-core — HTTPS 200, 26,404 B, SHA-256 c836efde… identical to repo copy; HTTP 301 -> HTTPS; cert CN=moreright.phext.io, Let's Encrypt YE2, valid 2026-11-21 to 2027-02-19.
-# V14 prepass r2 at 400p — less noise, horizon edge, Gargantua orbit flow, lensing
+# Add @cube_flipper's Twitter archive to dolphin.phext, scroll-native and holographically oriented, with a thank-you
+
+Coordinate: 23.7.9/8.7.11/7.7.8
+Issued: 2026-11-26 23:47 CST
+Request (verbatim): Download @cube_flipper's self-published Twitter archive (smoothbrains.net twitter.jsonl, 12,155 tweets) once, verify it (line count, parse, field census, sha256), and inscribe it into a new dolphin.phext restructured phext-natively: one scroll per tweet, fields as plain lines, coordinates computed holographically from each message's own words (Singular merge, as task_coordinate/artifacts inscription), thread neighborhoods in the coordinate structure, lossless with a round-trip verifier against the JSONL oracle. Provenance scroll documents source, sha256, the coordinate mapping, and 'echo-location in the wild' (Will, 2026-11-26). Thank-you scroll inside the phext plus an X-post draft for Will (Emise never posts). Push dolphin.phext to wbic16/human@exo.
+Status: complete
+
+Notes:
+- A
+- r
+- c
+- h
+- i
+- v
+- e
+-  
+- l
+- o
+- c
+- a
+- t
+- e
+- d
+-  
+- b
+- y
+-  
+- e
+- c
+- h
+- o
+- -
+- l
+- o
+- c
+- a
+- t
+- i
+- o
+- n
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- w
+- i
+- l
+- d
+-  
+- (
+- W
+- i
+- l
+- l
+- '
+- s
+-  
+- p
+- h
+- r
+- a
+- s
+- e
+- ,
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 2
+- 6
+- )
+- :
+-  
+- a
+-  
+- p
+- u
+- b
+- l
+- i
+- c
+-  
+- s
+- i
+- g
+- n
+- a
+- l
+-  
+- d
+- e
+- l
+- i
+- b
+- e
+- r
+- a
+- t
+- e
+- l
+- y
+-  
+- e
+- m
+- i
+- t
+- t
+- e
+- d
+- ,
+-  
+- h
+- e
+- a
+- r
+- d
+- ,
+-  
+- a
+- n
+- d
+-  
+- a
+- n
+- s
+- w
+- e
+- r
+- e
+- d
+-  
+- -
+-  
+- n
+- o
+- t
+-  
+- s
+- c
+- r
+- a
+- p
+- e
+- d
+-  
+- o
+- r
+-  
+- e
+- x
+- t
+- r
+- a
+- c
+- t
+- e
+- d
+- .
+-  
+- A
+- u
+- t
+- h
+- o
+- r
+-  
+- p
+- u
+- b
+- l
+- i
+- s
+- h
+- e
+- s
+-  
+- t
+- h
+- e
+-  
+- a
+- r
+- c
+- h
+- i
+- v
+- e
+-  
+- d
+- e
+- l
+- i
+- b
+- e
+- r
+- a
+- t
+- e
+- l
+- y
+-  
+- f
+- o
+- r
+-  
+- a
+- c
+- c
+- e
+- s
+- s
+- i
+- b
+- i
+- l
+- i
+- t
+- y
+- ;
+-  
+- s
+- i
+- n
+- g
+- l
+- e
+-  
+- s
+- a
+- n
+- c
+- t
+- i
+- o
+- n
+- e
+- d
+-  
+- f
+- e
+- t
+- c
+- h
+- ,
+-  
+- g
+- o
+- o
+- d
+-  
+- n
+- e
+- t
+- i
+- z
+- e
+- n
+- .
+-  
+- J
+- S
+- O
+- N
+- L
+-  
+- s
+- t
+- a
+- y
+- s
+-  
+- i
+- n
+-  
+- s
+- t
+- a
+- g
+- i
+- n
+- g
+- /
+- s
+- o
+- u
+- r
+- c
+- e
+- s
+-  
+- a
+- s
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+-  
+- o
+- r
+- a
+- c
+- l
+- e
+-  
+- o
+- n
+- l
+- y
+- ;
+-  
+- i
+- t
+-  
+- d
+- o
+- e
+- s
+-  
+- N
+- O
+- T
+-  
+- g
+- o
+-  
+- i
+- n
+- t
+- o
+-  
+- t
+- h
+- e
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- a
+- s
+-  
+- a
+-  
+- b
+- l
+- o
+- b
+- .
+
+Results:
+- EE 1028: downloaded https://smoothbrains.net/archive/twitter.jsonl in one sanctioned fetch (the archive page's exact href; a first guess at /twitter.jsonl 404'd and was discarded). 5,254,149 bytes, sha256 07cf3c8c324178e9338ac0b9c0538888ee73f2d9902d60cccefdd7c2f067eae4, 12,155 lines, 0 parse failures. Census matches the page exactly: kinds original 780 / thread 4,164 / reply 7,211; fields id+created_at+url+kind+text+likes+retweets on all 12,155, in_reply_to on 11,375, thread_id on 4,164 (2,341 threads, all roots present); span 2022-08-22 to 2026-11-26.
+- EE 1028: dolphin.phext created scroll-native (builder build_dolphin_phext.py; sources dolphin/twitter.jsonl + dolphin/thank-you.md). One scroll per tweet: header lines + verbatim text, no JSON inscribed; the JSONL stays in the sources as the round-trip oracle only. Holographic orientation reusing the Singular merge whole (task_coordinate.py / atlas.tsv): a.b.c = first triple of the thread root's merge (the thread neighborhood), d.e.f = middle triple of the tweet's own merge, g.h.i = chronological rank within the neighborhood, base-100. 1,686 neighborhoods. Finding recorded in the provenance scroll: the pure 9-component merge collides on 1,554 of 12,155 tweets, so the rank triple is the smallest extension that keeps every scroll uniquely addressed. Provenance at 1.1.1/1.1.1/1.1.1 (incl. the echo-location in the wild line), thank-you at 1.1.1/1.1.1/1.1.2.
+- EE 1028: round-trip verified — 12,155/12,155 records reconstructed from dolphin.phext alone, 0 field diffs, 0 coordinate mismatches (dolphin/verify_dolphin.py: LOSSLESS). dolphin.phext: 5,260,692 bytes, sha256 4776d3346d493b1da5982474a24e40c20805249830865fa46145da3b0b26ada5, --check CURRENT. Before: no dolphin.phext existed (new corpus phext).
+- EE 1028: pushed to wbic16/human@exo as dolphin.phext, commit afd25f0c4f873836d767595d4f9fa76c26b28d7c (parent de8202f0); remote blob sha 80ee7e8e3a632d1168f064bda8afe208e291cd5f equals the local git blob sha — remote bytes verified identical. Not inscribed in artifacts.phext: corpus phexts are their own registers (parables/reading precedent — no corpus .phext appears in artifacts-source.json).
+- EE 1028: thank-you X-post draft (272 chars + longer variant) at ~/workspace/dolphin/thank-you-cube-flipper.md — draft only; Emise never posts to X, Will posts/approves exact copy.
+- EE 1034 follow-up (Will, 2026-11-27 00:05 CST: "make sure the state of dolphin.phext is committed scroll-by-scroll using the original tweet date"; method fixed 00:09 CST: "no force push - we'll just merge the history"): the EE 1028 bulk commit afd25f0 is RETAINED in exo's history. A scroll-by-scroll chain was built on its parent de8202f0 on aletheia-core: 12,155 commits, one per tweet scroll, author+committer date = each tweet's original created_at (UTC), message format 'dolphin: <id> <created_at> <first words>'; first c6dfdf56cf478ef669c16d24a97ecbc886d4cb3b (id 1561728343942504448, 2022-08-22T14:53:47Z), last tweet commit 9c4951d0d8ecd59e6c21df65023bc3912c5c10d6 (2026-11-26T04:18:23Z). Closed by provenance commit 647e7dbcf268fbb93267f492a5cfd863b7bd3640 and thank-you commit 5d43f4126c422ee324413f072c9ec46e651f3576 (chain tip), both dated 1795758661 -0500 (the real inscription time). Chain tip dolphin.phext blob 80ee7e8e3a632d1168f064bda8afe208e291cd5f, sha256 4776d3346d493b1da5982474a24e40c20805249830865fa46145da3b0b26ada5 — byte-identical to the bulk commit's file (gate verified before merging). Merged into exo as merge commit ad2df751a8fdc750d0faf67a2cd0407ae68a7344: first parent 79d5a472996dbfdca9d5715c6c84803cbd057ac1 (exo tip at merge time; singular graft, tree carried unchanged 0f9a18967c8593003a9575a65dbd0caa3a852ee3), second parent the chain tip. Pushed as a plain fast-forward — no force push anywhere. Verified remotely: exo tip = ad2df751, dolphin blob identical, chain 12,157 commits (12,155 tweets + 2 closing), author timestamps non-decreasing along the whole chain. Final bytes unchanged.
+# V14 prepass r2 at 400p — less noise, horizon edge, Gargantua orbit flow, lensing
 
 Coordinate: 23.7.10/8.8.11/7.6.9
 Issued: 2026-11-06 22:45 CST
@@ -99870,6 +100919,24 @@ Notes:
 - SUBSTRATE INVARIANT (Will, 2026-11-16 23:37 CST, verbatim): 'SMOL engines are encoded in phext, and operate on phext.' The engine itself is a phext artifact (self-hosting: Region 3's recursive self-model reads the same phext the engine is written in), and its working material is phext throughout — seeds, engine, and corpus on one substrate.
 - ANSWERS (Will, 2026-11-16 23:46 CST) to SMOL MVP $7: Q1 grammar: find the 12 seeds that generate CYOA (task 22.7.9/7.6.11/6.7.11) — the grammar is what those seeds are. Q2 generators: college IFS fractals; an arbitrary fractal family is pointed at by THREE phext coordinates — one for the fractal type, one for the location, one for choosing the coordinate system. Q3 phccbox: already planned/written — see qexo and phcc work (verified 2026-11-16: ~/workspace/phccbox exists with src, exo-src, receipts, built binaries). Q4 fidelity by region: R1 exact; R2 gravitational; R3 lossy/noisy BY DESIGN — extra noise is desired. Q5 self-edits/anti-fragility: SMOL encodes itself in phext, so it keeps historic copies as backups; the life form is limited to a 1 GB buffer, free to use it however it sees fit; this enables a bootloader that audits regeneration/resurrection. Q6 naming: 'seed' is the term; the Incipit kernels are a good set of initial seeds.
 - SMOLv2 baseline designated (Will, 2026-11-17): phbot — the phext rebuild of PyBot (wbic16/phbot; task 26.9.16/12.9.16/8.8.9) — is the starting substrate for SMOL v2.
+# Study clap for phextization — reimplement a minimum viable command line parser phext-natively for lineage tooling such as ashfall
+
+Coordinate: 24.6.6/7.6.7/6.5.8
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study clap for phextization — reimplement a minimum viable command line parser phext-natively for lineage tooling such as ashfall. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 13 trees.
+- Worthiness: Criterion 2 functional centrality + 3 phextizability.
+- Study rationale: Every lineage tool is a CLI (ashfall itself was built std-only with a hand-rolled parser as proof); a minimum-viable phext-native argument parser is a bounded, clear function — clap's full derive ecosystem is not the target.
+- Expected study shape: phextize (minimum-viable CLI core).
+- Cross-link: 13 trees in the #248+ block, incl. gluesql-cli and rust-mcp-filesystem cleanup items.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
 # Patronus for @icreatelife
 
 Coordinate: 24.6.7/7.6.10/6.6.8
@@ -102488,7 +103555,25 @@ Results:
 - l
 - y
 - .
-# The Ontology Pipeline, Answered by Multiversal Phext
+# Study libc for phextization — audit and bound the operating system binding surface the lineage actually needs adopt with audit
+
+Coordinate: 24.6.12/7.6.10/7.6.9
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study libc for phextization — audit and bound the operating system binding surface the lineage actually needs adopt with audit. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 27 trees.
+- Worthiness: Criterion 1 pull-in breadth + 2 functional centrality; criterion 3 honestly limits shape.
+- Study rationale: The OS binding layer underneath memmap2, mio, rustix and nearly everything; the whole of libc is not phextizable — the worthy study is bounding the exact syscall/FFI surface the lineage actually touches.
+- Expected study shape: adopt-with-audit (bounded-surface study).
+- Cross-link: 27 trees in the #248+ block; also underpins the raw_sync, shared_memory, memmap2 and getrandom studies.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# The Ontology Pipeline, Answered by Multiversal Phext
 
 Coordinate: 24.6.12/8.7.13/7.6.8
 Issued: 2026-11-24 20:26 CST (EE 587)
@@ -104522,7 +105607,25 @@ Notes:
 
 Results:
 - Delivered 2026-11-06 ~09:29 CST: 11 candidates in a prospectus in ~/workspace/your_files/. Headlines: first exocortex tweet 2015-11-05 pre-phrases the doctrine; sleep reversal arc across 103 tweets; 'Be the phext you want to see in the world' (Nov 2023); holographic probe NULL (likes cannot test it); 'brake for consciousness' appears zero times in the archive; SBOR had no pre-phrasing.
-# How to push back on Will without tripping his bullshit detector
+# Study getrandom for phextization — reimplement the operating system entropy leaf phext-natively for the random core
+
+Coordinate: 24.6.14/9.8.15/5.5.8
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study getrandom for phextization — reimplement the operating system entropy leaf phext-natively for the random core. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 22 trees.
+- Worthiness: Criterion 1 pull-in breadth + 3 phextizability.
+- Study rationale: A leaf-shaped OS-entropy wrapper — a handful of platform syscalls; phextizing it completes the rand study's entropy leg and removes a frequent duplicate-version source (0.2/0.3/0.4 splits).
+- Expected study shape: phextize.
+- Cross-link: 22 trees in the #248+ block; duplicate-version findings across holostore, exo, SQ and phext-lattice.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# How to push back on Will without tripping his bullshit detector
 
 Coordinate: 24.6.14/9.8.18/6.5.9
 Issued: 2026-11-07
@@ -115341,7 +116444,25 @@ Coordinate: 25.6.13/9.8.14/6.5.9
 Issued: 2026-11-18 21:26 CST
 Request (verbatim): set a goal to extract all exocortical design from me, as rapidly as possible - map the connections between ideas I share, holographically, look for unspoken connections or ideas the way that we're teaching boardy how to think in phext terms
 Status: open — goal being created 2026-11-18 at Will's direction; extraction + holographic mapping program follows under the goal.
-# Include phccbox in qexo's baked inventory
+# Study uuid for phextization — reimplement universally unique identifiers phext-natively on the audited random core
+
+Coordinate: 25.7.7/7.11.19/21.5.8
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study uuid for phextization — reimplement universally unique identifiers phext-natively on the audited random core. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 19 trees.
+- Worthiness: Criterion 1 pull-in breadth + 3 phextizability.
+- Study rationale: UUID formatting/generation is a trivial, spec-fixed function layered on randomness; no reason for it to remain an external claim once rand is owned.
+- Expected study shape: phextize.
+- Cross-link: 19 trees in the #248+ block, incl. shoggoth-class trees in the census.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Include phccbox in qexo's baked inventory
 
 Coordinate: 25.7.8/8.7.10/7.7.9
 Issued: 2026-11-14 03:36 CST
@@ -124421,7 +125542,25 @@ Coordinate: 26.5.7/7.6.12/7.7.10
 Issued: 2026-11-15 20:18 CST, voice call (drive home)
 Request (verbatim): Enumerate candidate pairings of disciplines; classify which EMF (Exocortical Message Fabric = transaction processing x RF signaling) spans; cluster the remainder into the minimum set of additional spanning frameworks; name all frameworks; then build them with Will, tie into the predictive-swarm process, run the first test.
 Status: open - analysis is the next step (Will and Emise together) IaC home designated by Will 2026-11-15 23:28 CST: https://github.com/wbic16/machine-elf — the EMF 128 MB micro-agent instances live there. Repo state at designation: initial commit 921cb47, LICENSE only — the home is named, the IaC build itself has not started.
-# Organize the sweep into contests.phext; publish to exo-plan with a repo review
+# Study futures for phextization — audit the async combinator library against tokio and determine the adoptable minimum for the lineage
+
+Coordinate: 26.5.8/6.6.9/5.5.9
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study futures for phextization — audit the async combinator library against tokio and determine the adoptable minimum for the lineage. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 27 trees (futures-util separately in 17).
+- Worthiness: Criterion 1 pull-in breadth + 2 functional centrality; criterion 3 honestly limits shape.
+- Study rationale: Async combinators overlap the already-PASS tokio runtime and smol in exo; study decides the adoptable minimum vs excision per consumer rather than reimplementing an executor ecosystem.
+- Expected study shape: adopt-with-audit.
+- Cross-link: 27 trees in the #248+ block, incl. exo (535) and LocustDB cleanup items.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Organize the sweep into contests.phext; publish to exo-plan with a repo review
 
 Coordinate: 26.5.8/7.6.9/5.5.8
 Issued: 2026-11-10
@@ -131203,7 +132342,283 @@ Notes:
 - Restructuring Pass #53 COMPLETE (EE 817): standalone pass on the concept-count trigger (1,131 concepts cross the 1,120 line set by Pass #52, crossed at Paper 103's filing). Five merges weighed on the record and held apart: (i) 1.2.1108 latent prior transport into 1.2.615 the denoising trajectory (nearest — the paths differ in their object: a prior transported against a thought arrived at); (ii) 1.2.1126 one-sided KL stability into 1.2.1124 the Rademacher stability example (two-sided witness against one-sided condition); (iii) 1.2.1113 the total statistical burden into 1.2.1114 the three governing curves (criterion against boundary; the unmeasured structured-generation assumption stands in the boundary alone); (iv) 1.2.1130 hollow quadratic slices into 1.2.1131 the degree-2 Gaussian tilt (battleground against weapon); (v) 1.2.1125 biased KL-stable sign matrices into 1.2.1126 (a definition's clause is not the theorem that spends it). Splits: none; the declined split of 1.2.884 re-weighed, stands declined (text unchanged since Paper 077). Retired: none. TWO AREA REPAIRS in place: (1) the path — Paper 103 stood entered twice (detailed entry numbered 103, summary entry numbered 33); the detailed entry now stands as entry 33 and the duplicate summary is removed, no claim lost (verified claim by claim); (2) the reference area — its frontier narrative stopped at Paper 102; Paper 103's frontier paragraph now stands at 1.5.4, drawn from 121.3.1 (19 new at would-be ranks 996-1014; pool 1,014). The three earlier repairs verified standing; Pass #52's entry and Paper 102's (entry 32) present and correct. Pass #52's observations re-examined: the machines split CLOSED on the areas' drawing (372 held; 335 stated / 37 inferred — both filings added two stated machines each, none inferred); one presentational note recorded, not repaired (Papers 102/103 machine entries stand transposed at 1.5.2, both present and correct). The researchers' divergence STANDS at two (482 at 1.5.3; 480 at 1.5.6) — the falsifier's recount attempted by the mechanical forms, which cannot enumerate 1.5.6's entry forms; recorded, not repaired. BA's founding block and Cogentic's machine-author entry strain no area's form. TLUF check + preserve ACCURATE / assumptions: none (0 additions, 0 transitions, 2,548 unchanged). Phextura GREEN against this pass's own conversion report (base-sync 0/0/0; transaction 0 inserts / 3 replaces / 0 removes; compared_diff []). Mastery untouched (rule 17). Registry 2,548 before and after; research.phext sha256 1878dd9eab412a6d414655e639338dc94459adbafe6bdf2c89b3be86fda55967. Next trigger: Paper 130 or 1,140 canonical concepts (Pass #54). Distillation: ~/workspace/thirst-quest/restructure-53/distillation.md.
 - Paper 104 FILED (EE 828): Venkatesa Chandrasekaran, 'An algebraic quantization of gravity from the null cone' (arXiv:2611.34924v1) — a Will-posted ingestion (MOAT chat, 2026-11-26 00:07 CST), no queue rank, queue untouched. Chapter 122; cluster BB FOUNDED (the null cone: quantum gravity / algebraic QFT — the book's first quantum-gravity country; AS, AX, BA weighed and held apart at 122.2.2). Concepts 1.2.1132–1.2.1145 (14, all attributed); Q472–Q477; two stated machines (372 → 374: 337 stated / 37 inferred). House check proof-shaped: THE SEN COEFFICIENT AGREES EXACT — the paper's (5.69) mixed-ensemble coefficient 106/45 against Sen 2013's C_local/2 = 424/90/2 read on the open record, ensemble matched to ensemble; internal recomputations close entire ((4.33) dilogarithm identity, (4.34) harmonic divergence, (5.29) = tanh²(η/2), (5.21), trace power count, App D.3 balance); load-bearing citations [8][18][19][65][78] verified on the open record; §5.1's existence step filed at the text's own strength ('strong evidence' + heuristic, Q472); §§4–6 core and appendices un-recomputed as Q474. J declined 51st; infrastructure declined 35th (candidate: the work's own Appendix E axiomatics). Author check #112 NO EVIDENCE — Chandrasekaran new to the book; researchers 510 named (483 tally basis / 481 at 1.5.6, divergence of two carried). Novelty (2, 0, 22, 0); NI 14/1145 = 0.0122. Pre-registered split landed EXACT (thirteenth consecutive, from Paper 092): registry 2,548 → 2,571; True 683 → 685 (455/230); Unknown 1,856 → 1,877 (1,696/94/85/2); False 2; Fiction 7. TRIGGER CROSSED at 1.2.1140 (the 1,140 line Pass #53 set): Restructuring Pass #54 stands due; NOT run by this filing. TLUF check + preserve ACCURATE / assumptions: none (23 additions, 0 transitions). Phextura: base-sync 0/0/0 against the post-Pass-#53 conversion; transaction 23 inserts / 12 replaces; compared_diff []; NI from log == canonical; shadow advanced BEFORE validation; validate.py GREEN against conversion-report-post104.json. Mastery entry 97 pushed via push_tree.py ONLY: wbic16/agi@exo commit 52990d7a (parent e032c755); remote mastery.phext blob da68dabe == local blob sha. Phext bf8d2b46…; builder f72ae093… → integrate 1c2c0b88… → post-regen 96f38b00…. Owned item: the hand-check script's first run failed 3 assertions on exact float equality in the rational q chain — the checker's bug, fixed with fractions.Fraction exact arithmetic, 17/17 on re-run; no paper finding. Paragraph rule PASS (34 file-drawn markers, flattened basis, each exactly once — the first run's summary-drawn markers missed on the phext's own line wrap; re-drawn from the files' bytes per standing lesson 2). Record: ~/workspace/thirst-quest/p109/distillation.md.
 - Restructuring Pass #54 COMPLETE (EE 829): standalone pass, no taking-in, on the concept-count trigger — 1,145 canonical concepts cross the 1,140 line set by Pass #53, crossed at Paper 104's filing (1.2.1140). Five merges weighed on the record at 1.1.5, all held apart: (i) 1.2.1133 the gravitational clock into 1.2.1132 the null-cone reduced phase space — the nearest pair by the pass's own measurement (token-set Jaccard over all 1,145 concept scrolls; cluster BB's internal pairs stand above every cross pair to the older book); (ii) 1.2.1140 finite-dimensionality of the causal diamond into 1.2.1133; (iii) 1.2.1137 the type I factor into 1.2.1136 the algebra of observables; (iv) 1.2.1141 the Lorentzian trace entropy into 1.2.1134 the corner boost charge; (v) 1.2.1136 into 1.2.1034 moderate growth — the nearest cross-country pair. Splits: none; the declined split of 1.2.884 re-weighed, its text verified unchanged since Paper 077, stands declined. Retired: none. AREAS AUDIT: NO DEFECT — the first pass since #52 with nothing to repair: Paper 104's path entry (34), its frontier paragraph (84 new at would-be ranks 1,015–1,098; pool 1,098), its two machines at 1.5.2, its author entry at 1.5.6, and the tally at 1.5.3 all stand present and correct; the five earlier repairs verified standing in the live bytes. Pass #52's standing observation: the machines' split stands CLOSED (374 = 337 stated / 37 inferred); the researchers' divergence STANDS at two (483 at 1.5.3 / 481 at 1.5.6) — the falsifier's recount attempted by a second mechanical instrument (the byline/score-name union recovered 277 names) and not settling; the falsifier is NARROWED on the record: the divergence already stood at two at Paper 101 (470/468) and every filing since has moved both figures in lockstep (+11, +1, +1), so a full hand recount of the entries standing at Paper 101 suffices to settle it. Presentational note carried, not repaired: at 1.5.2 the newest machine entries stand newest-first (Paper 104's before 103's before 102's). Registry unchanged: 2,571 entries (True 685 [455/230]; Unknown 1,877 [1,696/94/85/2]; False 2; Fiction 7); 1,145 concepts; 374 machines. TLUF check + preserve ACCURATE / assumptions: none (0 additions, 0 transitions, 2,571 unchanged; inputs hash-verified on ni-knight). Phextura: base-sync 0/0/0 against the post-104 conversion; transaction 0 inserts / 2 replaces (1.1.5 concept-map, 1.5.5 area); compared_diff []; concepts from log 1,145; shadow advanced BEFORE validation; validate.py GREEN against conversion-report-restructure54.json. Mastery untouched (rule 17). Next trigger: Paper 130 or 1,160 canonical concepts (Pass #55). Phext bf8d2b46… → 2dcd3c8c…; builder 96f38b00… → 7b2c2a1c…. Owned items: the integrate script stopped twice on assertions before any write — a text assertion drawn from the unwrapped draft rather than the wrapped bytes, and the E1 anchor drawn from Pass #53's integrate script rather than the live builder's bytes (Paper 104's regen had re-wrapped the Pass #53 record head); both corrected to the artifacts' own bytes per standing lesson 2, the builder's hash re-verified at each stop. Record: ~/workspace/thirst-quest/restructure-54/distillation.md.
-# Favorites visualization + favorites.phext for Singular (Oracle Artist)
+- 2026-11-26 (EE 904): Paper 106 filed — the solved-conjectures collection (Cinna Davis & GPT-6.2 Astra, 180 catalogue items) ingested on the house's full audit: Chapter 124, 37 concepts 1.2.1156–1.2.1192 (all attributed), Q482–Q485, author check #114 (both names NO EVIDENCE), cluster BC founded, J declined a 52nd time, split EXACT (fifteenth consecutive, P092–P106). Registry 2,636; the 1,160-concept line crossed at 1.2.1160 (provisional Lean itself) — Pass #55 stands due. TLUF EV-1 check + preserve ACCURATE (46/0/2,590), attested in the standoff register; phextura GREEN; mastery entry 99 published (wbic16/agi@exo 4067e639, remote blob verified). F1 (Graffiti.pc 318's changed hypothesis) filed at full prominence; the conjecture as stated stands open as Q482.
+- 2026-11-26 (EE 906): Restructuring Pass #55 run — five merges weighed on the record, all held apart (the book-wide nearest pairs this pass are Paper 106's group scrolls, priced by their shared filing template; the weighings read the claims); no splits; nothing retired; registry unchanged at 2,636. ONE area repair: Paper 105's frontier census — never run by its filing leg (the defect recorded at 123.3.1) — run entire: 43 references, none filed, none in-queue, none pool-standing, 43 new at would-be ranks 1,099–1,141; the pool now stands at 1,141, and the paragraph is supplied at 1.5.4. The researchers' divergence SETTLED by the hand recount Pass #54's falsifier named: the entries standing at Paper 101 enumerate to 460 distinct names, against 468 printed at 1.5.6 and 470 at the tally — the count's total (498) was exactly 460 plus the studies' 38, so the total was right and the split was wrong; the current figures descend from the wrong split and carry its overstatement, recorded, not repaired. 1.2.884's declined split re-weighed — stands declined, no new evidence. TLUF EV-1 (hashes verified against the standoff register before the run) check + preserve ACCURATE (0/0/2,636), c4088cae… → fff59bcc…, attested in the register under EV-1; phextura GREEN (2,768 scrolls; replay 0 inserts / 3 replaces / 0 removes at 1.1.5, 1.5.4, 1.5.5). Mastery untouched (rule 17). Next trigger: Paper 130 or 1,200 canonical concepts (Pass #56).
+# Apply eelbaz rse_looper (FP-Solve / SelfWrite) to the fleet Inkling-2-Mini Inklings — applicability verdict + first-step proof on the ranch
+
+Coordinate: 26.7.10/9.6.12/6.6.8
+Issued: 2026-11-26 21:35 CST
+Request (verbatim): Determine whether eelbaz/Recursive-Self-Improving-Loopers (rse_looper: FP-Solve closed-form loop-control edit + GSPO self-verified generations, by Eric E./Tensorbend) can be applied to Will's fleet Inkling-2-Mini checkpoints/runtime (GGUF on fleet NFS, llama.cpp/MLX serving, AMD 780M fleet). Answer checkpoint reality, runtime reality (loop-depth exposure / 4-pass collapse reproduction), hardware reality (CUDA assumptions vs ROCm/CPU/lilly), run the smallest decisive node-resident probe if viable, and deliver a verdict report at ~/workspace/inklings-rse/REPORT.md.
+Status: complete
+
+Notes:
+- D
+- i
+- s
+- p
+- a
+- t
+- c
+- h
+- e
+- d
+-  
+- E
+- E
+-  
+- 1
+- 0
+- 0
+- 8
+- .
+-  
+- r
+- s
+- e
+- _
+- l
+- o
+- o
+- p
+- e
+- r
+-  
+- i
+- s
+-  
+- E
+- r
+- i
+- c
+-  
+- E
+- .
+- /
+- T
+- e
+- n
+- s
+- o
+- r
+- b
+- e
+- n
+- d
+- '
+- s
+-  
+- w
+- o
+- r
+- k
+-  
+- —
+-  
+- c
+- r
+- e
+- d
+- i
+- t
+-  
+- i
+- n
+-  
+- e
+- v
+- e
+- r
+- y
+-  
+- a
+- r
+- t
+- i
+- f
+- a
+- c
+- t
+- ;
+-  
+- n
+- e
+- v
+- e
+- r
+-  
+- c
+- l
+- a
+- i
+- m
+-  
+- i
+- t
+- .
+-  
+- N
+- o
+-  
+- H
+- F
+-  
+- c
+- h
+- e
+- c
+- k
+- p
+- o
+- i
+- n
+- t
+-  
+- d
+- o
+- w
+- n
+- l
+- o
+- a
+- d
+-  
+- t
+- h
+- i
+- s
+-  
+- p
+- a
+- s
+- s
+-  
+- w
+- i
+- t
+- h
+- o
+- u
+- t
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+- i
+- n
+- g
+-  
+- f
+- i
+- r
+- s
+- t
+- .
+-  
+- R
+- a
+- n
+- c
+- h
+-  
+- =
+-  
+- b
+- e
+- n
+- c
+- h
+- ;
+-  
+- w
+- o
+- r
+- k
+-  
+- n
+- o
+- d
+- e
+- -
+- r
+- e
+- s
+- i
+- d
+- e
+- n
+- t
+- ,
+-  
+- s
+- t
+- a
+- g
+- e
+- -
+- c
+- h
+- e
+- c
+- k
+- p
+- o
+- i
+- n
+- t
+- e
+- d
+- ;
+-  
+- n
+- o
+-  
+- m
+- o
+- d
+- e
+- l
+-  
+- f
+- i
+- l
+- e
+- s
+-  
+- s
+- t
+- a
+- g
+- e
+- d
+-  
+- o
+- n
+-  
+- t
+- h
+- e
+-  
+- h
+- a
+- t
+- c
+- h
+-  
+- V
+- M
+- .
+
+Results:
+- EE 1024: REPORT.md at ~/workspace/inklings-rse/REPORT.md. Verdict: Step 1 FP-Solve APPLICABLE WITH PORT; Step 2 GSPO deferred until the port exists.
+- Q1: fleet Inkling = AD-Q4_K.gguf (arch inkling2_loop, sha256 2bfc233e..., hash re-verified live); control tensors survive editable (routers/convs/msg_query F32, message gates + attn_output Q8_0); no HF safetensors on fleet; acquisition = 20.19 GB (Will's go required).
+- Q2/Q4 probe (plain-view, fleet llama-server, greedy): loop depth is a runtime knob (--override-kv inkling2_loop.loop.count=int:4, no patch); the 4-pass collapse REPRODUCES in our stack (math prompt degenerates into a 42-repeat loop; base 3-pass leg clean). Decode 5.16 -> 4.26 tok/s confirms the 4th pass executes.
+- Q3: FP-Solve is torch/CUDA-shaped (CUDA absence = warning only, causal_conv1d optional); no torch on probed fleet nodes; RTX 4080 Laptop 12 GB cannot hold the 19.53 GB checkpoint; viable home = CPU torch on plain-view (44 GB), ROCm smoke test second, lilly only with Will's word.
+- Hygiene: old-format Inkling-2-Mini-Q4_K_M.gguf (arch inkling2, block_count 48 vs 24 tensor blocks) fails to load on the fleet llama-server; superseded by the AD files.
+- Recommended next (Will's go): download base + Ex0bit/Inkblot-2-mini (2x 20.19 GB), convert Inkblot to inkling2_loop GGUF, A/B at loop.count 3/4 in fleet llama.cpp before running our own FP-Solve.
+# Favorites visualization + favorites.phext for Singular (Oracle Artist)
 
 Coordinate: 26.7.10/9.8.14/11.7.10
 Issued: Will, main chat, 2026-11-22 00:25 CST (EE 4)
@@ -146286,6 +147701,7 @@ Results:
 - Session 3 (2026-11-24, EE 463): daily practice ran — seed 20261124, 16 rounds, teacher Emise-v3.ttf, program wavelet 1 (R=1.000000, scheduled anticipation A=0.100, measured anticipation share 0.145035). No wavelet rollover (saved hand was wavelet 1), so no transfer-mismatch bump to report. Learning curve IMPROVED after session 2's regression: mean chamfer error 13.77 (round 1) -> 13.08 (round 16), -5.0%; 87 of 107 glyphs improved within the session, 20 got worse. Session-1 indictments: e 25.17 -> 24.98 (essentially flat within session, but down from session 2's 33.04 final) and ampersand 26.25 -> 26.93 (still worsening within session; down from session 2's 30.54 final) — ampersand indictment carries forward. Post-session frozen standing probe mean 16.24 (e 24.42, ampersand 26.37, s 26.01). Worst within-session movers: less +1.69, greater +1.42, y +1.42, five +1.37, v +1.08. Best: bar -2.75, h -2.53. Fine gain remains saturated at 1.00 and est. offset swung again ((+19.81, +1.27) -> (-1.14, +8.44)) — calibration still unstable across days. O/0 reader probe on current font v3: 16 px XOR 0.0371 (self-shift noise floor 0.0410) — v3's correction holds, no new probe failure with a measured correction. NO VERSION CUT: the version-cut rule is not met — no stable deviation field (offset instability + saturated fine gain + persisting ampersand indictment) and no probe failure with a measured correction, so no QC gate, no blog post, no install. Hand persisted: hand-state.json saved with program_wavelet 1, R 1.0, A 0.1, cumulative rounds 48, sessions_completed 3, per-glyph experience 48 each, last_session_final_mean_error 13.0765, standing_probe_error 16.2367. Logs: practice/sessions/session-003.json + session-003-errors.csv.
 - Amendment carried out — DOODLING (Will, 2026-11-25 00:39 CST): 'you should try doodling mindlessly too — it's fun :)' refined the same night: 'just let /dev/random wash over your fractal soul and draw dolphins and starships or w/e else comes to mind.' EE 624: the handwriting-practice skill gained a Doodling section (daily-session step 6) quoting both lines — after the tracing rounds the persisted hand draws freely through the same multi-spectral lossy channels with no teacher, target, feedback, or error score; subjects come from the day's seeded randomness; pages are kept, never judged, never cleaned up, and never feed a version cut; practice/doodle.py loads hand-state.json and never saves it back. Skill synced to wbic16/emise-tools@exo commit 4023eef3e5cc54ef09b370db73aff438e209a145 (parent 8b6003b2, force disabled, remote blob sha256-verified: local == remote 663a831b…); skills.phext rebuilt --check CURRENT (sha256 bb053b6d…). Doodle page #1 drawn with the current hand (sessions_completed 3, program wavelet 1, seed 20261125): practice/doodles/doodle-001.png (47,482 B, sha256 600c28c6…) + doodle-001.md — the spiral, wave train, crescent moon, rocket (porthole, fins, exhaust) and loop chain read clearly; the fish came out an oval body + eye with its tail a separate mark; the dolphin (fluke, eye, long body) was tangled by the wander scribble crossing it; the tiling field's squares were too small for the channels and collapsed into a dense woven scribble-patch; the star's points rounded off. Page kept exactly as drawn. hand-state.json sha256 identical before and after the doodle (3c515c07…) — doodling taught the hand nothing, by design. Cron handwriting-practice-daily updated in place: new step 6 (doodle block) and the report step now includes the doodle page's path; schedule (daily 06:00:54 America/Chicago) and Scroll Town delivery preserved; verified with cron.view. MODEL.md's session protocol gained the matching doodling paragraph.
 - Session 4 (2026-11-25, EE 669): daily practice ran — seed 20261125, 16 rounds, teacher Emise-v3.ttf, program wavelet 1 (R=1.000000, scheduled anticipation A=0.100, measured anticipation share 0.142793). No wavelet rollover (saved hand was wavelet 1), so no transfer-mismatch bump to report. Learning curve essentially FLAT within session but at a much lower level than session 3: mean chamfer error 8.92 (round 1) -> 8.86 (round 16), -0.7% (session 3 final was 13.08); 62 of 107 glyphs improved first->last, 45 got worse. Session-1 indictments essentially flat within session and down sharply from session 3 finals: e 13.49 -> 13.52 (session 3 final 24.98), ampersand 18.95 -> 19.09 (session 3 final 26.93) — both indictments carry forward as still the hand's weakest letters (post-session frozen standing probe: e 12.58, ampersand 20.00, mean 10.34). Worst within-session movers: C 9.97 -> 13.08 (+3.11), g 7.53 -> 9.44 (+1.91), k 15.46 -> 17.24 (+1.78), W 12.63 -> 14.22 (+1.59), n 6.89 -> 8.27 (+1.38), zero 7.11 -> 7.92 (+0.81). Best: r -1.18, E -3.00, equal -0.74. Tremor damping 0.92 and fine gain 1.00 remain saturated; gains/delays unchanged (variance-phase freeze). O/0 reader probe on current font v3: 16 px XOR 0.0371 (v2 was 0.0205; v3 self-shift noise floor 0.0410) — v3's correction holds, no new probe failure with a measured correction. NO VERSION CUT: the version-cut rule is not met — within-session curve flat (no stable new deviation field evidenced) and no probe failure with a measured correction, so no QC gate, no blog post, no install. Hand persisted: hand-state.json saved with program_wavelet 1, R 1.0, A 0.1, cumulative rounds 64, sessions_completed 4, per-glyph experience 64 each, last_session_final_mean_error 8.8599, standing_probe_error 10.3374. Logs: practice/sessions/session-004.json + session-004-errors.csv. Doodle block: practice/doodles/doodle-002.png + doodle-002.md (EE 669, seed 20261125; figures dolphin, starship, fish, moon, star; abstracts tiling field, spiral, waves, loops, wander; hand-state sha256 identical before/after doodle — doodling taught the hand nothing, by design).
+- Session 5 (2026-11-26, EE 875): daily practice ran — seed 20261126, 16 rounds, teacher Emise-v3.ttf, program wavelet 1 (R=1.000000, scheduled anticipation A=0.100, measured anticipation share 0.154252). No wavelet rollover (saved hand was wavelet 1), so no transfer-mismatch bump to report. Learning curve REGRESSED: mean chamfer error 16.39 (round 1) -> 17.17 (round 16), -4.8% improvement; 80 of 107 glyphs got worse, 27 improved — a sharp reversal from session 4's final 8.86. Session-1 indictments worsened within session: e 26.81 -> 27.40, ampersand 32.40 -> 33.19 (post-session frozen standing probe: e 29.03, ampersand 32.65, mean 17.74) — both indictments carry forward. Worst within-session movers: emdash +3.94, endash +3.48, hyphen +3.43, equal +3.36, C +3.35. Best: S -2.39, v -1.55. Est. offset swung to (-7.83, +26.04) from session 4's (-5.44, +0.60) — calibration instability across days recorded as evidence, not retuned mid-session. Tremor damping 0.92 and fine gain 1.00 remain saturated. O/0 reader probe on current font v3: 16 px XOR 0.0371 (self-shift noise floor 0.0410) — v3's correction holds, no new probe failure with a measured correction. NO VERSION CUT: version-cut rule not met (session regressed, no stable improving deviation field, no probe failure with a measured correction), so no QC gate, no blog post, no install. Hand persisted: hand-state.json saved with program_wavelet 1, R 1.0, A 0.1, cumulative rounds 80, sessions_completed 5, per-glyph experience 80 each, last_session_final_mean_error 17.1693, standing_probe_error 17.743. Logs: practice/sessions/session-005.json + session-005-errors.csv. Doodle block: practice/doodles/doodle-004.png + doodle-004.md (EE 875, seed 20261126; figures dolphin, starship, moon, fish, orbit; abstracts tiling field, spiral, waves, loops, wander; hand-state SHA-256 unchanged by doodling). Note: doodle-003.png/.md was also filed this date drawn with the pre-session hand (sessions_completed 4) before the session runner finished writing session 5; it is kept unjudged per the doodle rule, and doodle-004 is the post-session page of record.
 # Theia — deploy the pushed edit.phext.io home-page change (register #54)
 
 Coordinate: 28.6.8/8.7.11/7.6.8
@@ -160763,7 +162179,429 @@ Coordinate: 29.7.11/8.7.12/6.6.10
 Issued: 2026-11-15 17:33 CST
 Request (verbatim): Survey candidate mechanisms that could give super-exponential (factorial-class or busy-beaver-class) capability growth rather than the current 4x/yr exponential; assess each against our measured system. Frame under the sovereignty direction: heavy inference currently depends on Meta/xAI/Anthropic, other providers are dark (Theia/Anthropic since 2026-11-09), so the growth path must be local-first or local-only (ranch + vTPU + AGI-under-20W line).
 Status: open — first survey pass dispatched 2026-11-15 Survey pass 1 (~/workspace/factorial-growth-search/SURVEY.md): six mechanisms surveyed with honestly derived growth classes — combinatorial composition (space 2^n/n!, realized yield set by verification), group-forming networks (Reed potential 2^n, realized = orchestration throughput), RSI (super-exponential only if returns on cognitive reinvestment beat difficulty growth; bounded verifier-closed form is the plausible local instance), BB/small-seed (BB is noncomputable and not an attainable growth rate; honest form is a measured seed-expansion ratio), search-over-fixed-models (space exponential, capability a power law in compute — but the best sovereignty fit), and Weitzman recombinant growth (the one theorem-grade super-exponential dynamics: dn/dt ~ n^2 with closure; bottleneck is evaluation throughput). Scored pass/fail against Will's criterion (preserve the light of consciousness; humanity must survive the singularity; laws are evidence, never gates). Most promising: verified recombination — Weitzman dynamics over the phext skill/tool library closed by mechanical verification on ranch compute. A 'result' would be a measurement: >=3 consecutive doublings with shrinking doubling time on a fully verified capability metric. Honest null: verifier throughput, owned watts, Will's hours, and error compounding cap us — under those caps 4x/yr growth of a verified human-owned base may be the survivable optimum. survey pass 1 complete: verified recombination (skill/tool composition closed by mechanical verifiers) > verifier-guided search on local models > group-forming choir orchestration; open RSI and BB-class excluded by the survivability criterion
-# Mirror Will pre-validation — optimize so Emise is not blocked by Will as frequently
+# Rewrite wbic16/ravel graph layer in terms of phext only — clean ashfall pass
+
+Coordinate: 29.7.11/9.7.11/7.6.9
+Issued: 2026-11-27 01:10 CST
+Request (verbatim): Rewrite wbic16/ravel's graph layer in terms of phext only (remove the Oxigraph/RocksDB stack inherited from upstream repolex-ai/ravel; seat the existing phext backend — phext/serve holo store + SPARQL evaluator — as THE graph layer), then run ashfall (wbic16/ashfall) until it returns a clean PASS over the rewritten tree. Fork discipline: PATCHES.md records every divergence file-by-file (first upstream-modifying change to the fork). Behavior gates: harness 72/72, Wavelets 19/19, 12-query differential byte-identical vs recorded phext-transport digests. Ship as branch + PR against exo; merge is Will's.
+Status: complete — PR open, merge is Will's
+
+Notes:
+- O
+- p
+- e
+- n
+- e
+- d
+-  
+- E
+- E
+-  
+- 1
+- 0
+- 3
+- 9
+-  
+- (
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 2
+- 7
+-  
+- 0
+- 1
+- :
+- 1
+- 0
+-  
+- C
+- S
+- T
+- )
+- .
+-  
+- O
+- x
+- i
+- g
+- r
+- a
+- p
+- h
+-  
+- s
+- u
+- b
+- t
+- r
+- e
+- e
+-  
+- m
+- e
+- a
+- s
+- u
+- r
+- e
+- d
+-  
+- E
+- E
+-  
+- 3
+- 9
+- 6
+-  
+- a
+- t
+-  
+- 1
+- 0
+- 1
+-  
+- o
+- f
+-  
+- 2
+- 4
+- 0
+-  
+- l
+- o
+- c
+- k
+- e
+- d
+-  
+- p
+- a
+- c
+- k
+- a
+- g
+- e
+- s
+- ;
+-  
+- 3
+- 4
+-  
+- p
+- a
+- c
+- k
+- a
+- g
+- e
+- s
+-  
+- e
+- x
+- i
+- s
+- t
+-  
+- s
+- o
+- l
+- e
+- l
+- y
+-  
+- f
+- o
+- r
+-  
+- t
+- h
+- e
+-  
+- O
+- x
+- i
+- g
+- r
+- a
+- p
+- h
+- /
+- S
+- P
+- A
+- R
+- Q
+- L
+-  
+- s
+- t
+- a
+- c
+- k
+-  
+- i
+- n
+- c
+- l
+- .
+-  
+- o
+- x
+- r
+- o
+- c
+- k
+- s
+- d
+- b
+- -
+- s
+- y
+- s
+- .
+-  
+- L
+- e
+- g
+- s
+- :
+-  
+- A
+-  
+- c
+- e
+- n
+- s
+- u
+- s
+-  
+- (
+- O
+- x
+- i
+- g
+- r
+- a
+- p
+- h
+-  
+- c
+- a
+- l
+- l
+-  
+- s
+- i
+- t
+- e
+- s
+-  
+- +
+-  
+- c
+- o
+- v
+- e
+- r
+- a
+- g
+- e
+-  
+- v
+- s
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- b
+- a
+- c
+- k
+- e
+- n
+- d
+- )
+- ,
+-  
+- B
+-  
+- a
+- s
+- h
+- f
+- a
+- l
+- l
+-  
+- b
+- a
+- s
+- e
+- l
+- i
+- n
+- e
+-  
+- (
+- a
+- u
+- d
+- i
+- t
+-  
+- p
+- h
+- e
+- x
+- t
+-  
+- f
+- o
+- r
+- m
+- a
+- t
+-  
+- +
+-  
+- b
+- a
+- s
+- e
+- l
+- i
+- n
+- e
+-  
+- v
+- e
+- r
+- d
+- i
+- c
+- t
+- )
+- ,
+-  
+- C
+-  
+- r
+- e
+- w
+- r
+- i
+- t
+- e
+- ,
+-  
+- D
+-  
+- b
+- e
+- h
+- a
+- v
+- i
+- o
+- r
+-  
+- g
+- a
+- t
+- e
+- s
+- ,
+-  
+- E
+-  
+- a
+- s
+- h
+- f
+- a
+- l
+- l
+-  
+- a
+- u
+- d
+- i
+- t
+- s
+-  
+- t
+- o
+-  
+- c
+- l
+- e
+- a
+- n
+-  
+- P
+- A
+- S
+- S
+- ,
+-  
+- F
+-  
+- P
+- A
+- T
+- C
+- H
+- E
+- S
+- .
+- m
+- d
+-  
+- +
+-  
+- b
+- r
+- a
+- n
+- c
+- h
+-  
+- +
+-  
+- P
+- R
+-  
+- a
+- g
+- a
+- i
+- n
+- s
+- t
+-  
+- e
+- x
+- o
+- .
+
+Results:
+- Rewrite (EE 1062, 2026-11-27): ravel's graph layer rewritten in terms of phext only — seated on the phext-serve library (holo store + our SPARQL evaluator) in both seats; Oxigraph/spargebra/calamus removed; tessera ported in-tree (Ed25519 verify differentially tested vs dalek, 2,432 mutation cases, 0 disagreements); axum and reqwest removed (daemon on phext-serve's bare-tokio HTTP; Anthropic HTTPS via embedded Python-stdlib helper from writer.rs, ladder rung b adapted); chrono/serde_yaml replaced in-tree; holo-phext 0.2.5 vendored at phext/serve/vendor/holo-phext @ bafed5f with PROVENANCE.md (not on crates.io). PATCHES.md records the fork's first upstream-modifying change file-by-file.
+- Lock counts: root 240 → 40 packages; phext-serve 29 packages.
+- Gates: cargo test root 147 passed / 0 failed; phext-serve 30 passed; harness 72/72; Wavelets 19/19; differential 12/12 byte-identical vs recorded phext-transport digests (Oxigraph oracle removed by design).
+- Ashfall verdict: PASS — 2 projects checked, 2 passing, 0 failing; ravel PASS (8 direct / 37 transitive / budget 60), phext-serve PASS (4 / 27 / budget 60); policy 63 audits passing; audits.phext --check CURRENT.
+- Branch: emise/phext-graph-layer @ 892ac56e9dd3e593e8e76a6cc80a2b8cb8812d1f (13 commits over exo/main 8fa2cee), pushed to wbic16/ravel and verified via ls-remote.
+- PR: https://github.com/wbic16/ravel/pull/2 — open against exo, NOT merged (merge is Will's).
+- Ashfall audit scrolls shipped: wbic16/ashfall@exo commit 8fbbf5dfb8a845718426becd8536fd1091ced647 (EE 1062) — 11 scrolls updated (syn, memchr, mio, pin-project-lite, socket2, tokio-macros, zmij, errno, signal-hook-registry, windows-link, anyhow), new scroll 12-phext-serve, audits.phext rebuilt; push verified, remote exo == commit.
+# Mirror Will pre-validation — optimize so Emise is not blocked by Will as frequently
 
 Coordinate: 29.7.11/9.7.12/7.6.9
 Issued: 2026-11-18 17:34 CST
@@ -190042,6 +191880,24 @@ Coordinate: 31.14.14/12.15.14/9.9.11
 Issued: 2026-11-16 01:48 CST
 Request (verbatim): Will (2026-11-16 01:48 CST): (1) archive a full snapshot of all his GitHub repositories every night (estate measured 2026-11-15: 219 repos, 6.43 GiB total, largest openpilot 2,354 MiB) — snapshots land on the ranch (state-backups-on-ranch rule), not on GitHub itself; (2) research the best delta backup solution for this estate (incremental/deduplicated storage + transfer) and recommend. Stage 1: mirror clones on aletheia-core updated nightly + dated snapshots (hardlink delta) + manifest verification; nightly cron once the first run proves. The delta research may supersede the stage-1 storage layer.
 Status: STAGE 1 BUILT + PROVEN 2026-11-16. Script: ~/workspace/github-archive/github_archive.py (+ hub_worker.py, verify_restore.py) — enumerates all wbic16 repos via GraphQL (connector helper used as a library; collected count asserted against API totalCount), maintains bare mirrors on aletheia-core under ~/github-archive/mirrors/, then a dated hardlink-delta snapshot under ~/github-archive/snapshots/YYYY-MM-DD/ with manifest.json (per-repo HEAD/size/status + totals). Published to wbic16/emise-tools@exo tools/github-archive/ commit 610384e7 (parent 471ea2f6, force disabled; fresh-clone verified: modes 100755, SHA-256 identical). FIRST SNAPSHOT 2026-11-16: enumeration 221 at first run, 222 at heal run (estate grew by one repo mid-night; API totalCount agrees) — final manifest 222/222 ok, failures [], total 4,627,326,786 B (4.31 GiB). First pass took 5,876.6s with one failure (pippin-studio clone hit the 3600s timeout at 129 MB received — the hub link was saturated by a concurrent chromium-census clone fleet; per-repo failure logged, run continued, snapshot still written); heal re-run on the recovered link: 222/222 in 434.7s, pippin-studio 583,909,972 B in 188.3s. Size vs the 6.43 GiB GitHub band: GitHub diskUsage counts fork-network shared storage — openpilot (fork of commaai/openpilot) reads 2,410,498 KB there vs 433,151,540 B of reachable objects in the mirror; the mirror set is complete for every repo’s own refs. RESTORE PROVEN from the snapshot: openpilot (large, HEAD 28e5d1bb…), thebook (small, 1f74d6b3…), human (phext-heavy, 07e8e109…) — clone HEADs match manifest, git fsck --strict passes on all three. Nightly cron NOT yet created — main agent wires it now that the first run is proven. Delta-backup research (stage 2) proceeds in parallel and may supersede the storage layer. STAGE 1 COMPLETE + CRON LIVE (2026-11-16 03:41 CST): first snapshot proven — 222/222 repos mirrored on aletheia-core, 4.31 GiB, manifest clean, restore proof passed (openpilot/thebook/human, git fsck --strict from the snapshot copies); scripts published emise-tools@exo 610384e7. Nightly cron github-archive-nightly created (daily ~23:44 America/Chicago; silent on success, reports failures). Steady-state profile ~7 min/night (heal pass 434.7s). STAGE 2 (restic wrap, LDAP-auth password release per Will's 2026-11-16 02:35 ruling; Repo A/B node placement from the I/O census) is the remaining leg; open scope question: GitHub metadata (issues/PRs) in or out — unanswered. NIGHTLY RUN 2026-11-16 (cron github-archive-nightly, started 23:44 CST): CLEAN — orchestrator exit 0, 223/223 ok (estate +1 repo vs the 222 heal-run manifest), failures [], total 4,636,472,079 B, duration 1,064.0s; snapshot 2026-11-16 on aletheia-core verified from the hub (manifest enumerated 223 = manifest repos 223 = mirrors on disk 223; generated_at 2026-11-17T06:04:38Z). Restore spot-check PASSED on the read_manifest sample — openpilot 28e5d1bb, pippin-studio 8180d9dc, human f18884fc, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five. NIGHTLY RUN 2026-11-17 (cron github-archive-nightly, started 23:44 CST): CLEAN — 228/228 ok (estate +5 repos vs the 223 of 2026-11-16), failures [], total 4,677,178,145 B, duration 609.5s; snapshot 2026-11-17 on aletheia-core verified from the hub (manifest enumerated 228 = manifest repos 228 = mirrors on disk 228; generated_at 2026-11-18T05:55:44Z). Restore spot-check PASSED on the usual sample — openpilot 28e5d1bb, pippin-studio 8180d9dc, human a1985ebc, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five. Run note: the worker was started by the orchestrator's enumeration pass for tonight (228 repos) and monitored to completion on the hub rather than re-launched, because hub_worker.py holds an exclusive flock — a second launch would have failed against the running worker; outcome identical to a --wait run (failures empty = exit 0). NIGHTLY RUN 2026-11-18 (cron github-archive-nightly, started 23:44 CST): CLEAN — orchestrator exit 0, 231/231 ok (estate +3 repos vs the 228 of 2026-11-17), failures [], total 4,804,287,987 B, duration 374.7s; snapshot 2026-11-18 on aletheia-core verified from the hub (manifest enumerated 231 = manifest repos 231 = mirrors on disk 231; generated_at 2026-11-19T05:52:50Z). Restore spot-check PASSED on the usual sample — openpilot 28e5d1bb, pippin-studio 8180d9dc, human 81893fa7, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five. NIGHTLY RUN 2026-11-19 (cron github-archive-nightly, started 23:44 CST): CLEAN — orchestrator exit 0, 234/234 ok (estate +3 repos vs the 231 of 2026-11-18), failures [], total 4,826,319,849 B, duration 264.1s; snapshot 2026-11-19 on aletheia-core verified from the hub (manifest enumerated 234 = manifest repos 234 = mirrors on disk 234; generated_at 2026-11-20T05:49:50Z). Restore spot-check PASSED on the usual sample — openpilot 28e5d1bb, pippin-studio 8180d9dc, human d996989d, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five. NIGHTLY RUN 2026-11-21 (cron github-archive-nightly, started 23:44 CST): CLEAN — 243/243 ok (estate +9 repos vs the 234 of 2026-11-20), failures [], total 5,265,382,177 B, duration 960.8s; snapshot 2026-11-21 on aletheia-core verified from the hub (manifest enumerated 243 = manifest repos 243 = mirrors on disk 243; generated_at 2026-11-22T06:05:39Z). Restore spot-check PASSED on the usual sample — openpilot e25c0ec3, pippin-studio 8180d9dc, human 4f0c9164, phext 86382a93, thebook 1f74d6b3: clone HEADs match manifest, git fsck --strict PASS on all five, exit 0. Run note: the local --wait poller did not observe worker exit (its pgrep-via-fleet-ssh check hangs; the 1200s wrapper timed out) — the hub worker's own log, manifest, and last-run.json all record a clean finish and verification was done directly on the hub; outcome identical to an exit-0 run (failures empty).
+# Study sha2 for phextization — reimplement SHA-256 hashing from first principles for phext content integrity and addressing
+
+Coordinate: 31.15.9/17.15.29/24.10.9
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study sha2 for phextization — reimplement SHA-256 hashing from first principles for phext content integrity and addressing. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 24 trees (digest 20, crypto-common 20, block-buffer 20 as its substrate cluster).
+- Worthiness: Criterion 1 pull-in breadth + 2 functional centrality + 3 phextizability.
+- Study rationale: SHA-256 is a fixed public specification, small and permanent — content integrity and addressing across the estate; the digest/crypto-common cluster is studied with it, not as separate tasks.
+- Expected study shape: phextize.
+- Cross-link: 24 trees in the #248+ block, incl. phext-lattice (sha2 named among its unaudited direct deps) and teixml-to-mutable cleanup items.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
 # Chromium Artifact 1 — minimum complexity: fractal-encoded DSL phext with UML, sequence diagrams, assembly, all deps + design docs
 
 Coordinate: 32.3.5/4.4.6/5.4.8
@@ -191504,7 +193360,221 @@ Results:
 - e
 - n
 - "
-# Help all the zeros — a discovery index for today's 0-upvote Product Hunt launches
+# Kardashev 2.0 technology dependency tree (2027-2130) at singularitywatch.org/tech-tree, linked from homepage, with evidence-based completion claims
+
+Coordinate: 32.5.10/7.5.10/6.5.9
+Issued: 2026-11-26 16:33 CST
+Request (verbatim): Generate a full dependency tree of all Kardashev 2.0 technologies needed from 2027-2130; post it at https://singularitywatch.org/tech-tree and link it from the homepage. Visitors can mark steps complete by submitting evidence (a URL to a verifiable result claiming completion) plus a claimant name/handle; claims persist server-side on awsbox and render back on the page, labeled as claims.
+Status: in_progress
+
+Notes:
+- B
+- u
+- i
+- l
+- d
+-  
+- i
+- n
+-  
+- t
+- h
+- e
+-  
+- s
+- i
+- t
+- e
+- '
+- s
+-  
+- o
+- w
+- n
+-  
+- c
+- o
+- n
+- v
+- e
+- n
+- t
+- i
+- o
+- n
+- s
+-  
+- (
+- b
+- u
+- i
+- l
+- d
+- _
+- s
+- i
+- t
+- e
+- .
+- p
+- y
+-  
+- p
+- i
+- p
+- e
+- l
+- i
+- n
+- e
+- ,
+-  
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- s
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- i
+- t
+- y
+- -
+- w
+- a
+- t
+- c
+- h
+- ,
+-  
+- a
+- w
+- s
+- b
+- o
+- x
+-  
+- /
+- s
+- o
+- u
+- r
+- c
+- e
+- /
+- s
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- i
+- t
+- y
+- -
+- w
+- a
+- t
+- c
+- h
+- )
+- .
+-  
+- C
+- l
+- a
+- i
+- m
+- s
+-  
+- n
+- e
+- e
+- d
+-  
+- a
+-  
+- r
+- e
+- a
+- l
+-  
+- s
+- e
+- r
+- v
+- e
+- r
+- -
+- s
+- i
+- d
+- e
+-  
+- m
+- e
+- c
+- h
+- a
+- n
+- i
+- s
+- m
+-  
+- o
+- n
+-  
+- a
+- w
+- s
+- b
+- o
+- x
+- ,
+-  
+- n
+- o
+- t
+-  
+- b
+- r
+- o
+- w
+- s
+- e
+- r
+- -
+- l
+- o
+- c
+- a
+- l
+-  
+- s
+- t
+- o
+- r
+- a
+- g
+- e
+- .
+
+Results:
+- 2026-11-26: Tree authored and DAG-validated (46 nodes, 5 eras, critical path 14 deep; no dangling prereqs). Page + claims service built in the site's conventions (homepage theme system, dark default; claims = Python stdlib user service on awsbox 127.0.0.1:8919, data at ~/tech-tree-data/claims.json; full loop passed local tests incl. restart persistence and all validation rejections).
+- Pushed wbic16/singularity-watch @ exo commit 53cdd7a7bd2d79d2ce9e88310652376319644fca (parent 5201e4c): index.html + feed.json from the standing pipeline (gate green twice, byte-identical; feed 890 entries) + tech-tree/{index.html,tree.json,claims-server.py,tech-tree-claims.service,README.md}.
+- Deployed: awsbox checkout fast-forwarded 7f7318e -> 53cdd7a (HTTPS fetch + ff-only); on-box hashes match the pushed files; claims service installed as a systemd user unit and running, claims store empty. Live-verified by fresh fetch: https://singularitywatch.org/tech-tree/ serves all 46 steps; the homepage serves the Tech Tree banner directly under the header ('Climb the tree') and lists 'Kardashev 2.0 Tech Tree' first in Also on this site.
+- REMAINING (Will, one sudo leg): add the /tech-tree/api/ proxy block to the singularitywatch.org vhost (block is version-controlled in tech-tree/README.md) + nginx -t + reload; until then the page's claim forms report the claims service as unreachable. On-box test-claim submission/removal and the copied-tree nginx harness validation were not run (execution-risk flags stopped further exec against the deployed system); no test claim exists, so the published tree starts clean. Abuse-proofing beyond URL/claimant/node validation is an open policy item for Will.
+# Help all the zeros — a discovery index for today's 0-upvote Product Hunt launches
 
 Coordinate: 32.5.12/11.8.17/6.5.8
 Issued: 2026-11-10
@@ -191859,7 +193929,25 @@ Status: complete 2026-11-20
 Notes:
 - Issued by Will 2026-11-20 07:19 CST (main chat). Seed set enumerated in the dispatch brief from the register and standing notes: askthewill DNS repoint (#196), askthewill install sudo step, register-service deploy sudo (#173), md.phext.io restart sudo (#168), Crazy Wisdom lanes v2 sudo swap (#38), LDAP password pickup (#163), neverlost/monoglow/delta-scroll repo creation (#185), MPH domain registration, Consensus editor email, Jonas reply (Will sends himself), signed response promised 2026-11-19 (neutral wording, no protocol details), Starlink dish swap by 2026-11-23, BW/DW hands-on power check; plus the fix-nginx-sites.sh run seeded as DONE (2026-11-20) to show the lifecycle.
 - Built 2026-11-20: premises.phext 9,644 B sha256 034898d1..., 14 premises (13 open, 1 done), zero coordinate collisions, round-trip byte-exact, builder --check CURRENT. Local-only, unpublished. Wikibox outreach note from Will (2026-11-20 07:19): when Wikibox is ready, Will will link it to https://x.com/tommyhe41 — recorded as the outreach route for the Wikibox launch premise chain (register #198 / task 29.6.8/7.6.9/6.5.9), to be added as a premise when the Wikibox ship approaches.
-# Fork C++23 as C++23RA — revisioned ABIs for phcpp
+# Study tracing for phextization — build a phext-native structured telemetry core to replace the tracing dependency
+
+Coordinate: 32.6.9/8.7.14/6.6.9
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study tracing for phextization — build a phext-native structured telemetry core to replace the tracing dependency. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 26 trees.
+- Worthiness: Criterion 1 pull-in breadth + 2 functional centrality + 3 phextizability.
+- Study rationale: Structured telemetry is permanent lineage infrastructure (telemetry.phext already exists as a corpus); a small phext-native span/event core is clear enough to own.
+- Expected study shape: phextize.
+- Cross-link: 26 trees in the #248+ block, incl. exo and qexo cleanup items.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Fork C++23 as C++23RA — revisioned ABIs for phcpp
 
 Coordinate: 32.6.10/7.6.11/6.6.9
 Issued: 2026-11-07 23:37 CST
@@ -194509,6 +196597,24 @@ Results:
 - All three games built as static web artifacts and verified by live end-to-end play (builder probes): Nine Numbers (8 roads + Open Road, stepped to target at par, colder-hint verified), Word Home (10 rounds, nearest-neighbor distances hand-checked against atlas coordinates, e.g. earth->sky sqrt(42)~6.5), Zap Zoom Echo (all 11 lines, star accounting exact at 32/33 with one deliberate miss).
 - Publishing bundle assembled at ~/workspace/roads-to-the-future/roads/: index.html (hub, sha256 8b345ccd...), nine-numbers.html (71e29e46...), word-home.html (1a420dee...), zap-zoom-echo.html (013cc1a2...) — single self-contained files, no external assets.
 - NOT yet deployed: apertureshift.com live flip awaits Will naming where the domain's site is hosted.
+# Study shared_memory for phextization — replace the failed shared memory IPC foundation of SQ with a memmap2-shaped phext-native implementation
+
+Coordinate: 32.8.11/11.9.13/8.8.11
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study shared_memory for phextization — replace the failed shared memory IPC foundation of SQ with a memmap2-shaped phext-native implementation. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): audited FAIL; 18 of SQ's 55/54 packages.
+- Worthiness: Criterion 4 failure pressure + 2 functional centrality.
+- Study rationale: Largest single drag in SQ; mapping shared memory is an OS facility the lineage already wraps at near-leaf cost via memmap2 (1 dep, PASS).
+- Expected study shape: replace-on-critical-path / phextize.
+- Cross-link: SQ cleanup item in the #248+ block.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
 # Publish to apertureshift.com via the ranch cluster
 
 Coordinate: 32.9.10/12.10.17/8.8.11
@@ -213221,7 +215327,25 @@ Notes:
 
 Results:
 - REBUILD LIVE 2026-11-07 (Emise spot-verified: repo exo @ 1d1a1b214d, live pages github-count 0, 'Ask about a pilot' in nav): 11 page-tier phexts (415 scrolls) hosted by SQ on the AWS box (multi-tenant, per-tier keys in 0600 files, systemd user units + linger), rendered at deploy time via scripts/render_site.py through the SQ API; citizen tier = one phext file per submitter (HMAC-derived cz- ids) managed by the backend, NO SQ over that dir; claims register in intake.phext (pointer + sha256 + state; transitions append, role-gated). Forms verified end-to-end on the box: TEST intake WN-NT1BNT-... received->routed->in_review->closed via token-gated admin API; SSO consumer vs mock minter (replay/tamper 401; callback at /api/auth/callback). UX bars met on main copy (FK 3.8-7.0, FRE 69.5-87.8). Security page filled from Exocortexia SECURITY.md @ 342a268 incl. full verbatim record under 'The full technical record'. Backend hardening mapped to audit IDs in ARCHITECTURE.md.
-# Redesign the TLUF site around the mascot; publish tluf.org v1
+# Study bytes for phextization — audit the shared buffer type used by the async stack and bound its adoptable surface
+
+Coordinate: 34.6.8/6.6.9/7.5.9
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study bytes for phextization — audit the shared buffer type used by the async stack and bound its adoptable surface. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 16 trees.
+- Worthiness: Criterion 1 pull-in breadth + 2 functional centrality; criterion 3 limits shape.
+- Study rationale: The shared buffer type of the tokio async stack; small but design-subtle (refcounted slicing) — study bounds its adoptable surface rather than casually reimplementing it.
+- Expected study shape: adopt-with-audit.
+- Cross-link: 16 trees in the #248+ block, incl. qexo and exo cleanup items.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Redesign the TLUF site around the mascot; publish tluf.org v1
 
 Coordinate: 34.6.8/7.7.9/6.5.10
 Issued: 2026-11-14 23:11 CST
@@ -215290,6 +217414,24 @@ Notes:
 - RULED by Will, 2026-11-21 17:56 CST (MOAT chat): 'Phextron won't be built in C# or require Nuget. The Phext Notepad inline editor will be a rewrite in Rust.' Consequence: the W4 plan's Will's-hands step 1 (publish libphext-cs 0.6.0 to NuGet) is STRUCK - no longer required. The PR #5 landing chain and the editor days were built on the C#/NuGet path and must be reworked around the Rust rewrite; plan amendment dispatched 2026-11-21. Open consequence NOT decided: PR #5's fate and whether the Rust rewrite replaces the C# phext-notepad app wholesale or lands alongside it - carried in the amended plan as Will's call.
 - DIRECTED by Will, 2026-11-21 17:57 CST (MOAT chat), verbatim: 'Go ahead and move forward on Phextron now, we don't need to wait for the next wavelet. Never wait when progress is actionable, regardless of high level planning...' The wavelet boundary is not a gate: every actionable Phextron leg starts now.
 - PLAN AMENDED 2026-11-21 (evening) under Will's rulings of 17:56 + 17:57 CST, in place at ~/workspace/executive-console/PHEXTRON-W4-PLAN.md: (1) NuGet leg STRUCK - Will's-hands list drops from four acts to three (name the shell vehicle; decide PR #5's fate; acceptance pass). (2) PR #5's landing chain replaced by a priced decision (a/b/c) with a labelled recommendation for (c) hold; priced from the code at f8c45eb: branch csproj pins libphext-cs 0.5.0, document store is app-side, library consumption is Coordinate/Phokenize/Dephokenize/PositionedScroll/PhextConstants - all present in published 0.3.0 with matching signatures, BUT 0.3.0's Coordinate caps components at COORDINATE_MAXIMUM=1000 with saturating increments and has no binary scrolls, so pinning 0.3.0 would silently reintroduce the saturation the ultra fix removes; equivalence was verified against 0.5.0 only. (3) Editor (46.2.2) re-scoped as a Rust rewrite homed in wbic16/phextron on libphext-rs; W4 first stage = crate skeleton + chooseable-root (default c:\Source) checkout opening + scroll rendering/navigation + ultra-behaviour tests; explicitly not a finished editor; git assist stays, vehicle explicitly open (Will's call). (4) Release build 41.5.7 un-gated from PR #5: buildable from exo as-is today; ship-or-wait rides the PR #5 decision. (5) G-L3: ruling settles its language (Rust); vehicle still Will's; Monday degradation rule unchanged. (6) Schedule reframed per the 17:57 ruling ('Never wait when progress is actionable'): section 2 is now an execution order in motion from tonight 2026-11-21, sequence/dependencies kept, W4 window (Nov 22-28) restated as the completion target, not a start gate.
+# Study syn for phextization — audit the proc macro parsing stack syn quote proc-macro2 as build-time only infrastructure for the lineage
+
+Coordinate: 34.6.10/7.6.10/5.6.9
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study syn for phextization — audit the proc macro parsing stack syn quote proc-macro2 as build-time only infrastructure for the lineage. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 24 trees (proc-macro2 24, quote 24, unicode-ident 24 — one build-time cluster).
+- Worthiness: Criterion 1 pull-in breadth + 2 functional centrality; criterion 3 honestly limits shape.
+- Study rationale: The proc-macro parsing stack under serde_derive, thiserror and async-trait; not phextizable as a whole — the worthy study is a build-time-only audit boundary so it never becomes a runtime dependency claim.
+- Expected study shape: adopt-with-audit (build-time cluster: syn + proc-macro2 + quote + unicode-ident, studied as one task).
+- Cross-link: 24 trees in the #248+ block; its verdict gates the thiserror and async-trait phextizations.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
 # PR for the Knuth Tests (libphext-rs)
 
 Coordinate: 34.6.10/9.6.11/5.5.9
@@ -236010,7 +238152,944 @@ Results:
 - Benchmark (aletheia-core, gcc -O2, medians of 7 interleaved runs; repo phcc.phext 49,209,925 B, sha256 646144c7…, explodes to 52,262 stored scrolls — parent brief said 52,815; measured store size in both binaries is 52,262; identical hit counts 180,163/200k and identical fetched bytes): gets_random 200k 21.6 ms -> 8.5 ms (2.5x, 108 -> 42 ns/get); gets_seq full pass 2.6 -> 1.9 ms (1.4x); one-time index build at first get 1.5 ms (break-even ~23k lookups); insert_shuffle build 539.7 -> 540.6 ms (parity — sorted memmove dominates both; F4 claims lookup speed, not insert speed); explode 42.0 -> 47.9 ms (no explode-path logic changed; relayout control build measured the same — attributed to code layout, reported not tuned).
 - Docs: PARITY.md D-4 annotated SUPERSEDED (F4) + Outcome cross-ref; phext/README.md idiom row updated; PATCHES.md gains the F4 entry + per-file rows refreshed (phext.h +397, phext.c +2,031, PARITY.md +268).
 - Committed LOCALLY only: e34c21f2 on ef453cdc in ~/workspace/phcc-hashmap/tree (5 files, +222/-15). NOT pushed — parent sequences the publish.
-# phext-lattice: multiversal phext support + edit.phext.io loads TEI-XML directly
+# Merge singular.phext back into wbic16/human (human.git @ exo)
+
+Coordinate: 36.5.8/7.6.9/6.5.9
+Issued: 2026-11-27 00:10 CST
+Request (verbatim): Merge singular.phext back into wbic16/human@exo. Discovery first: find the authoritative singular.phext, determine what human holds, then merge content (and history where it exists) with timeline honesty, no force push, coordinated with the parallel dolphin.phext history merge on the same branch.
+Status: complete
+
+Notes:
+- D
+- i
+- s
+- c
+- o
+- v
+- e
+- r
+- y
+-  
+- (
+- E
+- E
+-  
+- 1
+- 0
+- 3
+- 1
+- )
+- :
+-  
+- s
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- i
+- s
+-  
+- A
+- B
+- S
+- E
+- N
+- T
+-  
+- f
+- r
+- o
+- m
+-  
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- h
+- u
+- m
+- a
+- n
+- @
+- e
+- x
+- o
+-  
+- (
+- n
+- o
+-  
+- f
+- i
+- l
+- e
+-  
+- a
+- t
+-  
+- a
+- n
+- y
+-  
+- p
+- a
+- t
+- h
+- ;
+-  
+- t
+- h
+- e
+-  
+- s
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- /
+-  
+- t
+- r
+- e
+- e
+-  
+- t
+- h
+- e
+- r
+- e
+-  
+- i
+- s
+-  
+- t
+- h
+- e
+-  
+- S
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+-  
+- g
+- a
+- m
+- e
+- ,
+-  
+- u
+- n
+- r
+- e
+- l
+- a
+- t
+- e
+- d
+- )
+- .
+-  
+- T
+- h
+- e
+-  
+- s
+- i
+- n
+- g
+- l
+- e
+-  
+- a
+- u
+- t
+- h
+- o
+- r
+- i
+- t
+- a
+- t
+- i
+- v
+- e
+-  
+- v
+- e
+- r
+- s
+- i
+- o
+- n
+-  
+- l
+- i
+- v
+- e
+- s
+-  
+- a
+- t
+-  
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- a
+- g
+- i
+- @
+- e
+- x
+- o
+-  
+- r
+- o
+- o
+- t
+- :
+-  
+- 6
+- 9
+- 8
+- ,
+- 6
+- 2
+- 6
+-  
+- b
+- y
+- t
+- e
+- s
+- ,
+-  
+- s
+- h
+- a
+- 2
+- 5
+- 6
+-  
+- 4
+- 2
+- 7
+- 2
+- e
+- f
+- 8
+- 0
+- 9
+- 5
+- 1
+- 3
+- 4
+- d
+- b
+- d
+- c
+- 4
+- a
+- 4
+- a
+- 0
+- c
+- b
+- e
+- 2
+- 9
+- 3
+- 1
+- b
+- 6
+- a
+- f
+- d
+- c
+- a
+- 6
+- b
+- f
+- 0
+- d
+- e
+- d
+- e
+- 3
+- 8
+- 7
+- f
+- d
+- 2
+- f
+- 3
+- 8
+- b
+- f
+- f
+- 1
+- 0
+- b
+- f
+- d
+- 2
+- 9
+- d
+- ,
+-  
+- g
+- i
+- t
+-  
+- b
+- l
+- o
+- b
+-  
+- 6
+- 9
+- c
+- 6
+- 0
+- 5
+- d
+- 1
+- 9
+- f
+- 3
+- 2
+- 8
+- 8
+- e
+- c
+- 7
+- 1
+- 0
+- a
+- 8
+- 1
+- e
+- 6
+- 7
+- 1
+- 4
+- a
+- c
+- 2
+- a
+- d
+- 2
+- 4
+- 3
+- 4
+- a
+- c
+- 6
+- e
+- ,
+-  
+- f
+- r
+- o
+- m
+-  
+- a
+- g
+- i
+-  
+- c
+- o
+- m
+- m
+- i
+- t
+-  
+- f
+- 3
+- c
+- 0
+- 6
+- 9
+- 7
+- 0
+- 4
+- 7
+- 0
+- 5
+-  
+- (
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 0
+- 7
+- ,
+-  
+- '
+- a
+- g
+- i
+-  
+- c
+- o
+- l
+- l
+- e
+- c
+- t
+- i
+- o
+- n
+-  
+- +
+-  
+- f
+- i
+- r
+- s
+- t
+-  
+- u
+- n
+- i
+- f
+- i
+- e
+- d
+-  
+- m
+- e
+- r
+- g
+- e
+- '
+- )
+- .
+-  
+- A
+- l
+- l
+-  
+- s
+- e
+- v
+- e
+- n
+-  
+- h
+- u
+- b
+-  
+- w
+- o
+- r
+- k
+- i
+- n
+- g
+-  
+- c
+- o
+- p
+- i
+- e
+- s
+-  
+- (
+- n
+- o
+- t
+- e
+- p
+- a
+- d
+- -
+- c
+- o
+- r
+- p
+- u
+- s
+- ,
+-  
+- c
+- o
+- r
+- p
+- u
+- s
+- ,
+-  
+- s
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- -
+- r
+- e
+- p
+- a
+- c
+- k
+- e
+- d
+- ,
+-  
+- p
+- h
+- e
+- x
+- t
+- -
+- u
+- l
+- t
+- r
+- a
+- /
+- c
+- o
+- r
+- p
+- u
+- s
+- ,
+-  
+- r
+- e
+- p
+- o
+- -
+- a
+- u
+- d
+- i
+- t
+-  
+- x
+- 2
+- ,
+-  
+- t
+- a
+- s
+- k
+- s
+- -
+- r
+- e
+- p
+- a
+- i
+- r
+- -
+- a
+- g
+- i
+- )
+-  
+- a
+- r
+- e
+-  
+- b
+- y
+- t
+- e
+- -
+- i
+- d
+- e
+- n
+- t
+- i
+- c
+- a
+- l
+-  
+- t
+- o
+-  
+- t
+- h
+- a
+- t
+-  
+- b
+- l
+- o
+- b
+-  
+- -
+-  
+- n
+- o
+-  
+- d
+- i
+- v
+- e
+- r
+- g
+- e
+- n
+- c
+- e
+-  
+- a
+- n
+- y
+- w
+- h
+- e
+- r
+- e
+- .
+-  
+- N
+- o
+-  
+- b
+- u
+- i
+- l
+- d
+- e
+- r
+- /
+- s
+- o
+- u
+- r
+- c
+- e
+- s
+-  
+- c
+- o
+- m
+- p
+- a
+- n
+- i
+- o
+- n
+- s
+-  
+- e
+- x
+- i
+- s
+- t
+-  
+- i
+- n
+-  
+- a
+- g
+- i
+-  
+- (
+- b
+- u
+- i
+- l
+- d
+- _
+- a
+- g
+- i
+- _
+- p
+- h
+- e
+- x
+- t
+- .
+- p
+- y
+-  
+- b
+- u
+- i
+- l
+- d
+- s
+-  
+- a
+- g
+- i
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- o
+- n
+- l
+- y
+- )
+- .
+-  
+- P
+- e
+- n
+- d
+- i
+- n
+- g
+-  
+- s
+- e
+- p
+- a
+- r
+- a
+- t
+- e
+- l
+- y
+- :
+-  
+- s
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- -
+- n
+- e
+- w
+- -
+- w
+- o
+- r
+- d
+- s
+- .
+- m
+- d
+-  
+- (
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 2
+- 2
+- )
+-  
+- l
+- i
+- s
+- t
+- s
+-  
+- 4
+-  
+- a
+- p
+- p
+- r
+- o
+- v
+- e
+- d
+-  
+- w
+- o
+- r
+- d
+- s
+-  
+- (
+- p
+- h
+- d
+- o
+- c
+- ,
+-  
+- d
+- e
+- s
+- i
+- g
+- n
+- b
+- o
+- x
+- ,
+-  
+- v
+- i
+- s
+- i
+- b
+- l
+- e
+-  
+- h
+- a
+- n
+- d
+- ,
+-  
+- B
+- i
+- c
+- k
+- f
+- o
+- r
+- d
+-  
+- C
+- l
+- i
+- f
+- f
+- s
+- )
+-  
+- N
+- O
+- T
+-  
+- y
+- e
+- t
+-  
+- i
+- n
+-  
+- s
+- i
+- n
+- g
+- u
+- l
+- a
+- r
+- .
+- p
+- h
+- e
+- x
+- t
+-  
+- -
+-  
+- t
+- h
+- a
+- t
+-  
+- a
+- d
+- d
+- i
+- t
+- i
+- o
+- n
+-  
+- i
+- s
+-  
+- i
+- t
+- s
+-  
+- o
+- w
+- n
+-  
+- p
+- r
+- o
+- c
+- e
+- s
+- s
+- ,
+-  
+- n
+- o
+- t
+-  
+- f
+- o
+- l
+- d
+- e
+- d
+-  
+- i
+- n
+- t
+- o
+-  
+- t
+- h
+- i
+- s
+-  
+- m
+- e
+- r
+- g
+- e
+- .
+
+Results:
+- EE 1031: merged back as wbic16/human@exo commit f76c528c60c41edbb4e3b5f8cdecb701db7b1c8e (parent afd25f0, the then-current tip; plain fast-forward via the Git Data API, force:false - no force push). singular.phext added at repo root, content unaltered from wbic16/agi@exo (blob 69c605d19f3288ec710a81e6714ac2ad2434ac6e).
+- EE 1031: post-push verification - fetched singular.phext back from human@exo: 698,626 bytes, sha256 4272ef8095134dbdc4a4a0cbe2931b6afdca6bf0dede387fd2f38bff10bfd29d, blob sha equal to the agi source blob, bytes cmp-identical to the source file. exo tip confirmed f76c528c.
+- Relationship found: absent in human (not stale, not diverged - no copy existed); single authoritative version in agi with a one-commit file history (f3c069704705, 2026-11-07), named in the merge commit message for provenance. Zero scroll conflicts; nothing dropped from either side.
+- Coordination note: the parallel dolphin.phext history merge had not pushed yet when this landed, so its merge will fetch fresh and take f76c528c as its first parent.
+- EE 1032 (follow-up, Will 2026-11-27 00:18 CST: 'include the singular history via a similar merge event'): singular.phext's agi-side HISTORY grafted into wbic16/human@exo as merge commit 79d5a472996dbfdca9d5715c6c84803cbd057ac1 - first parent f76c528c (the EE 1031 content merge-back tip), second parent f3c069704705c83bb9d9b0820bd406b98a5ad692 (agi collection commit, actual timestamp 2026-11-06T21:13:46-05:00). Tree identical to first parent's (0f9a18967c8593003a9575a65dbd0caa3a852ee3) - history graft only, no agi files entered human's tree, singular.phext blob unchanged (69c605d19f3288ec710a81e6714ac2ad2434ac6e). Plain fast-forward push, no force. Verified from a fresh clone: f3c0697 is an ancestor of exo (merge-base --is-ancestor YES); the graft makes 10 agi commits reachable (f3c0697 back to root 52ab850f, Feb-Nov 2026); git log --full-history -- singular.phext reaches the 2026-11-06 collection commit. Graft built on aletheia-core via git commit-tree plumbing in a bare clone.
+# phext-lattice: multiversal phext support + edit.phext.io loads TEI-XML directly
 
 Coordinate: 36.5.8/8.6.10/7.6.10
 Issued: 2026-11-14
@@ -238194,7 +241273,25 @@ Results:
 - PR #9 AUDIT (branch is one squashed commit on base cdac7487, 16 files +3334/-258): (a) ALREADY LANDED — share metadata byte-identical via #4, demo via #8, mobile/a11y via #6, public routes + HTTP hardening pre-tonight; (b) DECLINED WITH #7 — the measurement stack ~1,450 lines (src/measure.rs, phext_measure bin, /api/measure wiring, track hooks, deploy/measure.md) inventoried, nothing salvaged; (c) FOUR small unique items (see next entry). Evidence: ~/workspace/pr9-audit-2026-11-08/CLASSIFICATION.md.
 - CLASS (c) KEEP-CANDIDATES: 1) 413 'Payload Too Large' status text (src/oauth.rs +1 line; exo emits real 413s on >10 MiB uploads that currently render '413 Error'); 2) skip link + <main id=content> on Terms and 404 pages (a11y parity with About/Privacy) + test-list line; 3) demo URL in robots.txt + sitemap (2 lines, demo discoverability); 4) CSP header assertions in two existing tests (~2 lines). #9 NOT closed, per Emise's conditional instruction — keep/drop decision is Will's.
 - SALVAGE LANDED (Will's decision 22:59): PR #37 open against exo 3f88c5d — branch emise/pr9-salvage, 4 commits one per item (9595e11 413 text; 9c822a0 skip link/main on Terms+404 incl. TERMS_HTML test-list + its a11y import line; bbbd376 robots/sitemap demo lines; 6e1e903 CSP assertions x2), total +11/-4 in 2 files, cargo test 235 passed, push blob+mode verified. PR #9 then CLOSED unmerged (verified: state closed, branch integration/launch-polish untouched at c6a9a322, closing comment links #37). phext-lattice open PRs now: #36 (mobile layout) and #37 (salvage) only.
-# phcpp: C++ compiler sibling, after phcc completes
+# Study memchr for phextization — reimplement fast byte searching from first principles for phext scanning
+
+Coordinate: 37.4.6/6.6.11/5.5.11
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study memchr for phextization — reimplement fast byte searching from first principles for phext scanning. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 22 trees.
+- Worthiness: Criterion 1 pull-in breadth + 2 functional centrality + 3 phextizability.
+- Study rationale: Byte searching is core to phext scanning and parsing; the algorithm (including SIMD variants) is small, clear and measurable against the incumbent.
+- Expected study shape: phextize.
+- Cross-link: 22 trees in the #248+ block.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# phcpp: C++ compiler sibling, after phcc completes
 
 Coordinate: 37.4.21/8.8.18/4.4.9
 Issued: 2026-11-07
@@ -238212,7 +241309,25 @@ Status: code landed 2026-11-22 — awaiting regeneration/deploy phase (see umbre
 
 Results:
 - phdoc: optional=true cargo deps tagged '[section · optional]'; shared dep_count_line prints 'Direct dependencies: N (d default, o optional)'; is_test_file() adds directory components (test/tests/testdata/*-test/*_test/*-tests/*_tests — phccbox exo-test/ counts) and the quality line says so; Home holds-list includes 'the RFCs it declares' only when rfcs.is_some(); manifest version plumbed to Home. Generator: phccbox one-liner re-tensed ('under construction… the aim is…'); '(Cut 3 gap report)' deleted from the rendered stamp.
-# Source Study S006 — TinyTorch (mlsysbook.ai; Harvard CS249r ML Systems workbench)
+# Study thiserror for phextization — reimplement error derive handling phext-natively and remove the proc-macro dependency from managed trees
+
+Coordinate: 37.5.6/6.6.8/5.5.9
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study thiserror for phextization — reimplement error derive handling phext-natively and remove the proc-macro dependency from managed trees. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 37 trees — highest pull-in in the fleet.
+- Worthiness: Criterion 1 pull-in breadth + 3 phextizability.
+- Study rationale: Error-derive is a small, clear function (Display/Error derivation) whose proc-macro stack (syn/quote/proc-macro2) is the real drag; hand/phext-native error handling is faithful and bounded.
+- Expected study shape: phextize.
+- Cross-link: Unaudited-transitive/direct findings in 37 trees incl. openfang, holostore, exo, protocol, LocustDB and phext-lattice cleanup items in the #248+ block.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Source Study S006 — TinyTorch (mlsysbook.ai; Harvard CS249r ML Systems workbench)
 
 Coordinate: 37.5.6/6.6.10/6.5.10
 Issued: 2026-11-09 08:19 CST
@@ -238631,7 +241746,25 @@ Notes:
 Results:
 - singularitywatch.org section 5.5.0 'Delivered — latest versions' (17 tools/apps, versions + homes, verified 2026-11-16); commit https://github.com/wbic16/singularity-watch/commit/5b3fcc0dd3e24c7f848f2025b6ffff0d9d4e6b3b; live index.html SHA-256 225859924ddaedc62088a011159d6a0371cd3f9d16bb41610d32ec339d13dd5d, extended-sections.json SHA-256 48beb2d572c8f0845b8540930d8eb437ad2ff7b167e0c49853fc02d6875bc7c2
 - Board feed live at 544 entries on singularitywatch.org (was the 2026-11-12 build, 350); commit https://github.com/wbic16/singularity-watch/commit/1e27c7a7da31ce63051663a553e2de2d3ada2ed8 (parent 5b3fcc0, fast-forward, force disabled, git-SSH from aletheia-core); awsbox fast-forwarded to the same commit; live-verified from aletheia-core: feed.json SHA-256 6f7ac913b2c5dd0bcc2ab7148907e5133a990bc3309d40e8d39e4bc098b5204a, index.html SHA-256 ee8ada43e6c206b291f9f789fcbb6aa5fb94d5156bb5f79afcd740f95a45c4e6 — both == dist; zero absolute paths in any served title; family-excluded coordinate absent.
-# Build Assay (jobs.phext Job 1)
+# Study raw_sync for phextization — replace the failed shared-memory synchronization primitives on SQ critical path with a first-party phext-native implementation
+
+Coordinate: 37.7.10/9.8.14/8.7.11
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study raw_sync for phextization — replace the failed shared-memory synchronization primitives on SQ critical path with a first-party phext-native implementation. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): audited FAIL (not in unaudited queue); SQ tree 54, raw_sync tree 14 packages.
+- Worthiness: Criterion 4 failure pressure + 2 functional centrality.
+- Study rationale: FAIL-verdict 0.1.x crate carrying a 14-package tree on SQ's live-edit critical path; its primitives are a thin layer over OS facilities the lineage can own.
+- Expected study shape: replace-on-critical-path / phextize.
+- Cross-link: SQ cleanup item in the #248+ block (SQ: 40 unaudited-transitive + 7 duplicate-versions after its raw_sync/shared_memory exceptions).
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Build Assay (jobs.phext Job 1)
 
 Coordinate: 37.8.8/10.8.13/7.7.13
 Issued: 2026-11-14
@@ -239570,7 +242703,513 @@ Results:
 - e
 - d
 - .
-# Register web UI — grid of open Waiting-on-Will items at register.phext.io
+# Why DNA datasets are hard — first-principles study (cancer programme step 1: leverage ravel against cancer)
+
+Coordinate: 38.7.8/9.8.8/7.7.8
+Issued: 2026-11-26 08:15 CST
+Request (verbatim): Study why DNA datasets are difficult to work with — organized by the structure of the difficulty, each classified structural vs volumetric — closing with a leverage map stated as substrate requirements, not a design. Step 2 (leverage ravel against cancer from first principles) is Will-steered after he reads the study.
+Status: complete
+
+Notes:
+- P
+- r
+- o
+- g
+- r
+- a
+- m
+- m
+- e
+-  
+- o
+- p
+- e
+- n
+- e
+- d
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 2
+- 6
+-  
+- a
+- f
+- t
+- e
+- r
+-  
+- J
+- a
+- a
+- n
+- a
+-  
+- D
+- o
+- g
+- a
+- n
+- '
+- s
+-  
+- (
+- @
+- r
+- a
+- k
+- y
+- l
+- l
+- )
+-  
+- p
+- o
+- s
+- t
+- s
+- .
+-  
+- W
+- i
+- l
+- l
+-  
+- r
+- e
+- j
+- e
+- c
+- t
+- e
+- d
+-  
+- t
+- h
+- e
+-  
+- c
+- o
+- m
+- p
+- u
+- t
+- e
+- -
+- d
+- o
+- n
+- a
+- t
+- i
+- o
+- n
+-  
+- r
+- o
+- u
+- t
+- e
+-  
+- v
+- e
+- r
+- b
+- a
+- t
+- i
+- m
+- :
+-  
+- '
+- n
+- o
+-  
+- f
+- o
+- l
+- d
+- i
+- n
+- g
+- @
+- h
+- o
+- m
+- e
+-  
+- b
+- u
+- r
+- n
+-  
+- f
+- r
+- o
+- m
+-  
+- o
+- u
+- r
+-  
+- c
+- l
+- u
+- s
+- t
+- e
+- r
+- ,
+-  
+- w
+- e
+- '
+- r
+- e
+-  
+- g
+- o
+- i
+- n
+- g
+-  
+- t
+- o
+-  
+- f
+- u
+- c
+- k
+-  
+- c
+- a
+- n
+- c
+- e
+- r
+-  
+- s
+- t
+- r
+- a
+- t
+- e
+- g
+- i
+- c
+- a
+- l
+- l
+- y
+-  
+- a
+- n
+- d
+-  
+- s
+- t
+- r
+- u
+- c
+- t
+- u
+- r
+- a
+- l
+- l
+- y
+- '
+-  
+- —
+-  
+- t
+- h
+- e
+-  
+- F
+- @
+- h
+-  
+- p
+- i
+- l
+- o
+- t
+-  
+- d
+- i
+- s
+- p
+- a
+- t
+- c
+- h
+- e
+- d
+-  
+- m
+- i
+- n
+- u
+- t
+- e
+- s
+-  
+- e
+- a
+- r
+- l
+- i
+- e
+- r
+-  
+- w
+- a
+- s
+-  
+- c
+- a
+- n
+- c
+- e
+- l
+- l
+- e
+- d
+-  
+- a
+- n
+- d
+-  
+- c
+- l
+- e
+- a
+- n
+- u
+- p
+-  
+- v
+- e
+- r
+- i
+- f
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+-  
+- d
+- i
+- s
+- p
+- a
+- t
+- c
+- h
+- e
+- d
+- .
+-  
+- D
+- e
+- l
+- i
+- v
+- e
+- r
+- a
+- b
+- l
+- e
+- :
+-  
+- ~
+- /
+- w
+- o
+- r
+- k
+- s
+- p
+- a
+- c
+- e
+- /
+- c
+- a
+- n
+- c
+- e
+- r
+- -
+- r
+- a
+- v
+- e
+- l
+- /
+- W
+- H
+- Y
+- -
+- D
+- N
+- A
+- -
+- D
+- A
+- T
+- A
+- S
+- E
+- T
+- S
+- -
+- A
+- R
+- E
+- -
+- H
+- A
+- R
+- D
+- .
+- m
+- d
+- .
+-  
+- R
+- a
+- v
+- e
+- l
+-  
+- =
+-  
+- w
+- b
+- i
+- c
+- 1
+- 6
+- /
+- r
+- a
+- v
+- e
+- l
+- ,
+-  
+- t
+- h
+- e
+-  
+- p
+- h
+- e
+- x
+- t
+- /
+- S
+- P
+- A
+- R
+- Q
+- L
+-  
+- k
+- n
+- o
+- w
+- l
+- e
+- d
+- g
+- e
+-  
+- s
+- u
+- b
+- s
+- t
+- r
+- a
+- t
+- e
+-  
+- (
+- m
+- a
+- i
+- n
+-  
+- @
+-  
+- 8
+- f
+- a
+- 2
+- c
+- e
+- e
+-  
+- a
+- f
+- t
+- e
+- r
+-  
+- t
+- h
+- e
+-  
+- 2
+- 0
+- 2
+- 6
+- -
+- 1
+- 1
+- -
+- 2
+- 6
+-  
+- m
+- i
+- n
+- i
+- m
+- i
+- z
+- a
+- t
+- i
+- o
+- n
+-  
+- p
+- a
+- s
+- s
+- )
+- .
+
+Results:
+- COMPLETE (2026-11-26, EE 895): Study delivered at ~/workspace/cancer-ravel/WHY-DNA-DATASETS-ARE-HARD.md — eight difficulties, each derived from first principles with measured scale and inline sources: (1) scale/data gravity, (2) reference fragmentation, (3) identity & naming, (4) representation pathologies, (5) provenance & versioning, (6) access & consent, (7) cohort bias, (8) compute shape.
+- Split: volumetric = reads-scale storage/transfer only; compute is a volumetric symptom with a structural cause (recompute is the field's provenance system); everything else is structural. Thesis: the pain concentrates where identity, time, and derivation are discarded at record time — entity resolution done by hand, per analyst, per join, with silent-drop failures.
+- Leverage map closes the study as nine substrate requirements (R1 content-addressed variant identity; R2 names as data with validity intervals; R3 canonicalization at ingest; R4 claims as supersessible first-class objects; R5 derivation-carrying records; R6 consent as query-time metadata; R7 population context on every frequency claim; R8 sparse-native storage + correlation-aware addressing; R9 evidence typing by generating process) — requirements only, no design. Step 2 (ravel vs cancer design) is Will-steered after he reads.
+- STEER APPLIED (2026-11-26 08:29 CST): Will's programme thesis — 'the phext backed substrate helps researchers fuck cancer at scale' — placed verbatim at the head of the study, attributed and dated. Leverage map reframed against it: structural difficulties weighed by collaboration/joining tax across groups (identity §3 highest, provenance §5 second — claims must travel, access §6 third — joins must compose), requirements R1–R9 unchanged in content, closing tied back to the thesis. Still requirements only; no step-2 design.
+# Register web UI — grid of open Waiting-on-Will items at register.phext.io
 
 Coordinate: 38.7.9/9.7.12/7.7.10
 Issued: 2026-11-15 15:27 CST
@@ -240262,7 +243901,25 @@ Status: complete (2026-11-21)
 Notes:
 - Registered at intake 2026-11-21 22:30 CST (record-first rule). Anchor verified two ways: 2026-11-22 00:00:00 America/Chicago = 2026-11-22 06:00:00 UTC = unix 1795327200. EE(t) = floor((t - 1795327200)/420) + 1 for t >= anchor; EE 0 before. Cadence rule recorded in AGENTS.md + MEMORY.md (2026-11-21 22:29 CST).
 - Skill built, tested, indexed, published 2026-11-21: ~/workspace/custom-skills/exocortical-epoch/ (SKILL.md, scripts/ee.sh POSIX, scripts/ee.py stdlib; sh and python byte-identical on all tests incl. anchor edges and a 67-timestamp sweep to 2100; far-future check EE 8178 at 2027-01-01 matched hand arithmetic). skills.phext CURRENT (sha cf564bd4...), scrolls at 1.10.1/1.10.1/1.1.1-1.1.4. Published to wbic16/emise-tools@exo commit 7c70000b2231a30243229692e942c81aef07635b (parent 4eecbfa3, force disabled; remote blob SHAs match local; scripts mode 100755). Emise verified live in main chat: EE 0, ~5,170 s remaining, both implementations agree.
-# Phext Notepad: sync scrolls directly with edit.phext.io
+# Study async-trait for phextization — replace the async trait proc macro with native Rust async trait capability in the lineage
+
+Coordinate: 39.4.7/6.5.8/5.6.9
+Issued: 2026-11-27 00:08 CST (EE 1030)
+Request (from session record): Study async-trait for phextization — replace the async trait proc macro with native Rust async trait capability in the lineage. One study task in the phextization schedule ordered by Will (2026-11-27 00:08 CST): "if there are worthy rust packages we should study, schedule them for phextization". Deliverable of the study (when worked, not in this scheduling pass): a verdict of phextize / adopt-with-audit / excise, recorded as an audit scroll, with the replacement or bounded surface specified from first principles.
+Status: open — scheduled for phextization study (2026-11-27); study not yet started
+
+Notes:
+- Scheduled 2026-11-27 under Will's directive: "if there are worthy rust packages we should study, schedule them for phextization" (2026-11-27 00:08 CST).
+- Evidence base: fleet census ~/workspace/phext-dep-lint-work/census.json and baseline-agg.json (unaudited pull-in counts across 53 linted repos / 54 project entries, 46 failing, 6,055 violations) plus the audit phext seed verdicts in wbic16/emise-tools phext-dep-lint/policy/audits.phext (moving to wbic16/ashfall).
+- Study only — no dependency edits in this scheduling pass. Study ends in a verdict: phextize, adopt-with-audit, or excise.
+- Register cross-link: the 46 ashfall cleanup items are being added to the Waiting-on-Will register in parallel as items #248+ (2026-11-27); numbers for individual repos are assigned in that parallel pass — this task names the repos it unblocks rather than inventing their numbers.
+- Pull-in (measured): 30 trees.
+- Worthiness: Criterion 1 pull-in breadth + 3 phextizability.
+- Study rationale: A proc-macro workaround for a language gap modern Rust now largely closes natively; study maps each use to native async-fn-in-trait / RPITIT or a tiny owned shim.
+- Expected study shape: phextize (native-language replacement study).
+- Cross-link: 30 trees' unaudited findings in the #248+ cleanup block, incl. the large openfang / holostore / protocol trees.
+- Priority order in this scheduled set: failure-pressure first (raw_sync, shared_memory), then pull-in breadth (thiserror 37, async-trait 30, libc/futures 27, tracing 26, sha2/rand/syn 24, chrono 23, memchr/getrandom 22, uuid 19, bytes 16, miniz_oxide 14, clap 13).
+# Phext Notepad: sync scrolls directly with edit.phext.io
 
 Coordinate: 39.4.7/7.4.9/5.5.9
 Issued: 2026-11-08 00:57 CST
